@@ -1,29 +1,27 @@
 """
 Yelmo Cines Valencia scraper.
-Yelmo has a reasonably structured website; tries JSON API first,
-falls back to HTML scraping.
+URL: https://www.yelmocines.es/cartelera/valencia?fecha=YYYY-MM-DD
 
-Cinema ID for Yelmo Valencia: adjust CINEMA_ID to match the real one.
-Check: https://www.yelmocinemas.es/peliculas-en-cartelera/valencia
+DOM structure (client-rendered — Playwright MUST wait for JS):
+  section#now__city.listaCarteleraHorario  (empty placeholder in raw HTML)
+    article                                → one movie
+      .descripcion header h3              → title
+      .horarioExp                         → one version/language group
+        span                              → language label (first span)
+        a > time  OR  time               → showtime element
+          text / datetime attr            → "HH:MM"
+
+One page request per date (7 days). Each page URL filters by ?fecha=.
 """
 
-import requests
 from datetime import date, timedelta
 from playwright.sync_api import sync_playwright
 
-# Yelmo sometimes exposes a city/cinema filter — find the right slug
-BASE_URL   = "https://www.yelmocinemas.es"
-CITY_SLUG  = "valencia"   # adjust if needed
-CINEMA_ID  = "61"          # inspect network tab on Yelmo to find real ID
+BASE_URL  = "https://www.yelmocines.es"
+CITY_SLUG = "valencia"
 
 
 def scrape() -> list[dict]:
-    # Try API approach first, fall back to HTML
-    results = _scrape_html()
-    return results
-
-
-def _scrape_html() -> list[dict]:
     results = []
 
     with sync_playwright() as p:
@@ -36,58 +34,98 @@ def _scrape_html() -> list[dict]:
         for offset in range(7):
             target   = date.today() + timedelta(days=offset)
             date_str = target.isoformat()
-            # Yelmo uses date param like ?fecha=2026-04-21
-            url = f"{BASE_URL}/cartelera/{CITY_SLUG}?fecha={date_str}"
+            url      = f"{BASE_URL}/cartelera/{CITY_SLUG}?fecha={date_str}"
 
             try:
-                page.goto(url, timeout=20000)
-                page.wait_for_load_state("networkidle", timeout=12000)
+                page.goto(url, timeout=30000)
+                # The page is JS-rendered; wait until at least one article appears
+                # (falls back gracefully with timeout if no films are listed)
+                try:
+                    page.wait_for_selector(
+                        "section#now__city article",
+                        timeout=15000,
+                    )
+                except Exception:
+                    # No films for this date (or selector changed) — move on
+                    continue
 
-                # Yelmo DOM: .movie-info-wrapper contains title + sessions
-                # Adapt selectors to real DOM after inspection
-                movie_blocks = page.query_selector_all(
-                    ".movie-wrapper, .pelicula-item, .film-card"
-                )
+                movie_blocks = page.query_selector_all("section#now__city article")
 
                 for block in movie_blocks:
-                    title_el = block.query_selector("h2.title, .movie-title, h3")
+                    title_el = block.query_selector(".descripcion header h3")
+                    if not title_el:
+                        title_el = block.query_selector("h3")
                     if not title_el:
                         continue
                     title = title_el.inner_text().strip()
+                    if not title:
+                        continue
 
-                    # Yelmo groups sessions by version (VO / Doblada)
-                    version_blocks = block.query_selector_all(".version, .idioma-group")
+                    # Each .horarioExp row = one language version
+                    version_blocks = block.query_selector_all(".horarioExp")
 
                     if version_blocks:
                         for vb in version_blocks:
-                            lang_el = vb.query_selector(".version-name, .idioma")
-                            language = lang_el.inner_text().strip() if lang_el else "ES"
+                            # First span = language label
+                            lang_el  = vb.query_selector("span")
+                            language = lang_el.inner_text().strip() if lang_el else "es"
+                            if not language:
+                                language = "es"
 
-                            for t_el in vb.query_selector_all("a.session, a.hora, .horario a"):
-                                time_text = t_el.inner_text().strip()
-                                href = t_el.get_attribute("href") or BASE_URL
-                                if not time_text:
-                                    continue
-                                results.append({
-                                    "title":    title,
-                                    "language": language,
-                                    "date":     date_str,
-                                    "time":     time_text,
-                                    "url":      href if href.startswith("http") else BASE_URL + href,
-                                })
+                            # Times: prefer <a><time>HH:MM</time></a>,
+                            # fall back to bare <time> elements
+                            time_anchors = vb.query_selector_all("a")
+                            if time_anchors:
+                                for a_el in time_anchors:
+                                    time_el = a_el.query_selector("time")
+                                    if time_el:
+                                        time_text = (
+                                            time_el.get_attribute("datetime")
+                                            or time_el.inner_text()
+                                        ).strip()
+                                    else:
+                                        time_text = a_el.inner_text().strip()
+                                    href = a_el.get_attribute("href") or url
+                                    if not time_text or ":" not in time_text:
+                                        continue
+                                    results.append({
+                                        "title":    title,
+                                        "language": language,
+                                        "date":     date_str,
+                                        "time":     time_text[:5],  # "HH:MM"
+                                        "url":      href if href.startswith("http") else BASE_URL + href,
+                                    })
+                            else:
+                                # Bare <time> elements (no wrapping <a>)
+                                for time_el in vb.query_selector_all("time"):
+                                    time_text = (
+                                        time_el.get_attribute("datetime")
+                                        or time_el.inner_text()
+                                    ).strip()
+                                    if not time_text or ":" not in time_text:
+                                        continue
+                                    results.append({
+                                        "title":    title,
+                                        "language": language,
+                                        "date":     date_str,
+                                        "time":     time_text[:5],
+                                        "url":      url,
+                                    })
                     else:
-                        # Flat list fallback
-                        for t_el in block.query_selector_all("a.session, a.hora"):
-                            time_text = t_el.inner_text().strip()
-                            href = t_el.get_attribute("href") or BASE_URL
-                            if not time_text:
+                        # Flat fallback: no .horarioExp, gather all <time> in block
+                        for time_el in block.query_selector_all("time"):
+                            time_text = (
+                                time_el.get_attribute("datetime")
+                                or time_el.inner_text()
+                            ).strip()
+                            if not time_text or ":" not in time_text:
                                 continue
                             results.append({
                                 "title":    title,
-                                "language": "ES",
+                                "language": "es",
                                 "date":     date_str,
-                                "time":     time_text,
-                                "url":      href if href.startswith("http") else BASE_URL + href,
+                                "time":     time_text[:5],
+                                "url":      url,
                             })
 
             except Exception as e:
