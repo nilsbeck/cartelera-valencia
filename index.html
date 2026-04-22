@@ -912,10 +912,8 @@ function formatUpdated(iso) {
 async function init() {
   loadCookies();
 
-  // ── In production, replace this with:
-  // const res = await fetch('data/showtimes.json');
-  // const data = await res.json();
-  const data = MOCK;
+  const res = await fetch('data/showtimes.json');
+  const data = await res.json();
 
   state.data = data;
   state.availableDates = buildDates(data.movies);
