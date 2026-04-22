@@ -1,0 +1,53 @@
+name: Scrape Showtimes
+
+on:
+  schedule:
+    # Every day at 07:00 UTC (09:00 Madrid time)
+    - cron: '0 7 * * *'
+  workflow_dispatch:   # Allow manual trigger from GitHub UI
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to commit data back
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('scraper/requirements.txt') }}
+
+      - name: Install dependencies
+        run: |
+          pip install -r scraper/requirements.txt
+          playwright install chromium --with-deps
+
+      - name: Run scraper
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: |
+          cd scraper
+          python run.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "cartelera-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/showtimes.json posters/
+          # Only commit if something actually changed
+          git diff --cached --quiet && echo "No changes" || (
+            git commit -m "chore: update showtimes $(date -u +%Y-%m-%d)"
+            git push
+          )

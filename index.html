@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cartelera Valencia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:        #0a0a0b;
+    --surface:   #111114;
+    --border:    #1e1e24;
+    --border2:   #2a2a32;
+    --text:      #e8e8ec;
+    --muted:     #6b6b78;
+    --dim:       #3a3a44;
+    --accent:    #f0c040;
+    --accent2:   #e05a2b;
+    --vo-color:  #4db8ff;
+    --es-color:  #ff7eb3;
+    --val-color: #7ed9a0;
+    --pill-bg:   #1a1a20;
+    --pill-hover:#252530;
+    --card-hover:#141418;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Grain overlay */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 9999;
+    opacity: 0.4;
+  }
+
+  /* ── HEADER ── */
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(10,10,11,0.92);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+    padding: 0 20px;
+  }
+
+  .header-top {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    padding: 16px 0 10px;
+  }
+
+  .logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    letter-spacing: 3px;
+    color: var(--accent);
+    line-height: 1;
+  }
+
+  .logo span {
+    color: var(--muted);
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+
+  .updated {
+    margin-left: auto;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.5px;
+  }
+
+  .updated .dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: var(--val-color);
+    border-radius: 50%;
+    margin-right: 6px;
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+
+  /* ── FILTERS ── */
+  .filters {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 0 14px;
+    flex-wrap: wrap;
+  }
+
+  .filter-sep {
+    width: 1px;
+    height: 20px;
+    background: var(--border2);
+    margin: 0 4px;
+    flex-shrink: 0;
+  }
+
+  .filter-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 1.5px;
+    color: var(--dim);
+    text-transform: uppercase;
+    padding-right: 2px;
+  }
+
+  .toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid var(--border2);
+    background: transparent;
+    color: var(--muted);
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all 0.15s;
+    user-select: none;
+    white-space: nowrap;
+  }
+
+  .toggle:hover { border-color: var(--dim); color: var(--text); }
+
+  .toggle.active {
+    border-color: transparent;
+    color: var(--bg);
+    font-weight: 500;
+  }
+
+  .toggle[data-lang="VO"].active  { background: var(--vo-color);  border-color: var(--vo-color); }
+  .toggle[data-lang="ES"].active  { background: var(--es-color);  border-color: var(--es-color); }
+  .toggle[data-lang="VAL"].active { background: var(--val-color); border-color: var(--val-color); }
+
+  .toggle[data-cinema].active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--bg);
+  }
+
+  .results-count {
+    margin-left: auto;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--dim);
+  }
+
+  /* ── MAIN ── */
+  main {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 24px 20px 60px;
+  }
+
+  /* ── MOVIE CARD ── */
+  .movie-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    transition: border-color 0.2s, background 0.2s;
+    animation: fadeIn 0.3s ease both;
+  }
+
+  .movie-card:hover {
+    border-color: var(--border2);
+    background: var(--card-hover);
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .card-top {
+    display: flex;
+    gap: 0;
+    align-items: stretch;
+  }
+
+  .poster-wrap {
+    width: 72px;
+    flex-shrink: 0;
+    background: var(--surface);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .poster-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+  }
+
+  .movie-card:hover .poster-wrap img { transform: scale(1.04); }
+
+  .poster-placeholder {
+    width: 100%;
+    height: 100%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--dim);
+    font-size: 24px;
+  }
+
+  .card-info {
+    flex: 1;
+    padding: 14px 16px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 0;
+  }
+
+  .card-meta-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .movie-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    color: var(--text);
+    line-height: 1.1;
+    flex: 1;
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .movie-rating {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--accent);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .movie-rating::before { content: '★ '; }
+
+  .movie-duration {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .trailer-btn {
+    background: none;
+    border: 1px solid var(--border2);
+    color: var(--muted);
+    border-radius: 3px;
+    padding: 3px 8px;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all 0.15s;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .trailer-btn:hover {
+    border-color: var(--accent2);
+    color: var(--accent2);
+    background: rgba(224,90,43,0.08);
+  }
+
+  .movie-genres {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+
+  .genre-tag {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 1px;
+    color: var(--dim);
+    text-transform: uppercase;
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    padding: 2px 5px;
+  }
+
+  /* ── SHOWTIMES ── */
+  .showtimes-section {
+    border-top: 1px solid var(--border);
+    padding: 10px 16px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .cinema-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .cinema-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: var(--muted);
+    text-transform: uppercase;
+    width: 76px;
+    flex-shrink: 0;
+  }
+
+  .lang-badge {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    padding: 2px 5px;
+    font-weight: 500;
+    flex-shrink: 0;
+  }
+
+  .lang-VO  { background: rgba(77,184,255,0.12); color: var(--vo-color);  border: 1px solid rgba(77,184,255,0.2); }
+  .lang-ES  { background: rgba(255,126,179,0.12); color: var(--es-color); border: 1px solid rgba(255,126,179,0.2); }
+  .lang-VAL { background: rgba(126,217,160,0.12); color: var(--val-color);border: 1px solid rgba(126,217,160,0.2); }
+
+  .time-pills {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+
+  .time-pill {
+    display: inline-block;
+    padding: 4px 9px;
+    background: var(--pill-bg);
+    border: 1px solid var(--border2);
+    border-radius: 4px;
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    color: var(--text);
+    text-decoration: none;
+    transition: all 0.12s;
+    letter-spacing: 0.3px;
+  }
+
+  .time-pill:hover {
+    background: var(--pill-hover);
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  /* ── MODAL ── */
+  .modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.88);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+  }
+
+  .modal-overlay.open {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .modal {
+    position: relative;
+    width: min(720px, 94vw);
+    aspect-ratio: 16/9;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid var(--border2);
+    transform: scale(0.95);
+    transition: transform 0.2s;
+  }
+
+  .modal-overlay.open .modal { transform: scale(1); }
+
+  .modal iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+  }
+
+  .modal-close {
+    position: absolute;
+    top: -36px;
+    right: 0;
+    background: none;
+    border: none;
+    color: var(--muted);
+    font-size: 22px;
+    cursor: pointer;
+    font-family: 'DM Mono', monospace;
+    transition: color 0.15s;
+  }
+
+  .modal-close:hover { color: var(--text); }
+
+  /* ── EMPTY STATE ── */
+  .empty-state {
+    text-align: center;
+    padding: 80px 20px;
+    color: var(--muted);
+  }
+
+  .empty-state .icon { font-size: 40px; margin-bottom: 16px; }
+
+  .empty-state p {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+  }
+
+  /* ── DATE TABS ── */
+  .date-tabs {
+    display: flex;
+    gap: 4px;
+    padding: 10px 0 4px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .date-tabs::-webkit-scrollbar { display: none; }
+
+  .date-tab {
+    flex-shrink: 0;
+    padding: 5px 12px;
+    border-radius: 4px;
+    border: 1px solid var(--border2);
+    background: transparent;
+    color: var(--muted);
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  .date-tab:hover { border-color: var(--dim); color: var(--text); }
+
+  .date-tab.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--bg);
+    font-weight: 500;
+  }
+
+  /* ── LOADING ── */
+  .loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 20px;
+    gap: 8px;
+    color: var(--muted);
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .spinner {
+    width: 16px;
+    height: 16px;
+    border: 2px solid var(--border2);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 500px) {
+    .filter-label { display: none; }
+    .movie-title { font-size: 17px; }
+    .poster-wrap { width: 58px; }
+    .cinema-name { width: 60px; font-size: 9px; }
+    .logo { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <div class="logo">CARTELERA <span>VALÈNCIA</span></div>
+    <div class="updated" id="updated-time"><span class="dot"></span>–</div>
+  </div>
+  <div class="date-tabs" id="date-tabs"></div>
+  <div class="filters" id="filters">
+    <span class="filter-label">Lang</span>
+    <button class="toggle active" data-lang="VO">VO</button>
+    <button class="toggle active" data-lang="ES">ES</button>
+    <button class="toggle active" data-lang="VAL">VAL</button>
+    <div class="filter-sep"></div>
+    <span class="filter-label">Cine</span>
+    <button class="toggle active" data-cinema="babel">Babel</button>
+    <button class="toggle active" data-cinema="lys">Lys</button>
+    <button class="toggle active" data-cinema="abc">ABC</button>
+    <button class="toggle active" data-cinema="yelmo">Yelmo</button>
+    <button class="toggle active" data-cinema="kinepolis">Kinépolis</button>
+    <span class="results-count" id="results-count"></span>
+  </div>
+</header>
+
+<main id="main">
+  <div class="loading"><div class="spinner"></div>Cargando cartelera…</div>
+</main>
+
+<!-- Trailer modal -->
+<div class="modal-overlay" id="modal" onclick="closeModal(event)">
+  <div class="modal">
+    <button class="modal-close" onclick="closeTrailer()">✕</button>
+    <iframe id="trailer-frame" src="" allowfullscreen allow="autoplay"></iframe>
+  </div>
+</div>
+
+<script>
+// ─────────────────────────────────────────────
+// MOCK DATA — replace fetch() below with real data
+// ─────────────────────────────────────────────
+const MOCK = {
+  updated_at: new Date().toISOString(),
+  movies: [
+    {
+      id: "1",
+      title: "A Complete Unknown",
+      title_local: "Un Completo Desconocido",
+      poster: null,
+      poster_color: "#1a2a3a",
+      rating: 7.6,
+      duration: 140,
+      genres: ["Drama", "Biopic"],
+      trailer_youtube_id: "dQw4w9WgXcQ",
+      showtimes: [
+        { cinema: "babel",    language: "VO",  date: "2026-04-21", time: "18:00", url: "#" },
+        { cinema: "babel",    language: "VO",  date: "2026-04-21", time: "21:15", url: "#" },
+        { cinema: "yelmo",    language: "VO",  date: "2026-04-21", time: "17:30", url: "#" },
+        { cinema: "yelmo",    language: "VO",  date: "2026-04-21", time: "20:30", url: "#" },
+        { cinema: "yelmo",    language: "ES",  date: "2026-04-21", time: "19:00", url: "#" },
+        { cinema: "kinepolis",language: "VO",  date: "2026-04-21", time: "22:00", url: "#" },
+        { cinema: "babel",    language: "VO",  date: "2026-04-22", time: "18:30", url: "#" },
+        { cinema: "yelmo",    language: "ES",  date: "2026-04-22", time: "17:00", url: "#" },
+      ]
+    },
+    {
+      id: "2",
+      title: "Conclave",
+      title_local: "Cónclave",
+      poster: null,
+      poster_color: "#1e1a2a",
+      rating: 7.4,
+      duration: 120,
+      genres: ["Thriller", "Drama"],
+      trailer_youtube_id: "dQw4w9WgXcQ",
+      showtimes: [
+        { cinema: "lys",      language: "VO",  date: "2026-04-21", time: "19:30", url: "#" },
+        { cinema: "lys",      language: "VO",  date: "2026-04-21", time: "22:00", url: "#" },
+        { cinema: "abc",      language: "ES",  date: "2026-04-21", time: "18:00", url: "#" },
+        { cinema: "abc",      language: "ES",  date: "2026-04-21", time: "20:30", url: "#" },
+        { cinema: "kinepolis",language: "ES",  date: "2026-04-21", time: "17:45", url: "#" },
+        { cinema: "kinepolis",language: "ES",  date: "2026-04-21", time: "20:15", url: "#" },
+        { cinema: "lys",      language: "VO",  date: "2026-04-22", time: "20:00", url: "#" },
+      ]
+    },
+    {
+      id: "3",
+      title: "Nosferatu",
+      title_local: "Nosferatu",
+      poster: null,
+      poster_color: "#1a1a12",
+      rating: 7.2,
+      duration: 132,
+      genres: ["Terror", "Gótico"],
+      trailer_youtube_id: "dQw4w9WgXcQ",
+      showtimes: [
+        { cinema: "babel",    language: "VO",  date: "2026-04-21", time: "22:30", url: "#" },
+        { cinema: "lys",      language: "VAL", date: "2026-04-21", time: "20:00", url: "#" },
+        { cinema: "abc",      language: "VO",  date: "2026-04-21", time: "21:00", url: "#" },
+        { cinema: "yelmo",    language: "ES",  date: "2026-04-21", time: "18:30", url: "#" },
+        { cinema: "yelmo",    language: "ES",  date: "2026-04-21", time: "21:30", url: "#" },
+        { cinema: "kinepolis",language: "VO",  date: "2026-04-21", time: "20:00", url: "#" },
+        { cinema: "kinepolis",language: "ES",  date: "2026-04-21", time: "22:30", url: "#" },
+      ]
+    },
+    {
+      id: "4",
+      title: "The Brutalist",
+      title_local: "El Brutalista",
+      poster: null,
+      poster_color: "#241a12",
+      rating: 7.9,
+      duration: 215,
+      genres: ["Drama", "Historia"],
+      trailer_youtube_id: "dQw4w9WgXcQ",
+      showtimes: [
+        { cinema: "babel",    language: "VO",  date: "2026-04-21", time: "15:00", url: "#" },
+        { cinema: "lys",      language: "VO",  date: "2026-04-21", time: "15:30", url: "#" },
+        { cinema: "abc",      language: "VO",  date: "2026-04-21", time: "16:00", url: "#" },
+        { cinema: "babel",    language: "VO",  date: "2026-04-22", time: "15:00", url: "#" },
+      ]
+    },
+    {
+      id: "5",
+      title: "Anora",
+      title_local: "Anora",
+      poster: null,
+      poster_color: "#12202a",
+      rating: 7.8,
+      duration: 138,
+      genres: ["Comedia", "Romance"],
+      trailer_youtube_id: "dQw4w9WgXcQ",
+      showtimes: [
+        { cinema: "babel",    language: "VO",  date: "2026-04-21", time: "20:00", url: "#" },
+        { cinema: "lys",      language: "VO",  date: "2026-04-21", time: "18:00", url: "#" },
+        { cinema: "lys",      language: "VAL", date: "2026-04-21", time: "21:00", url: "#" },
+        { cinema: "yelmo",    language: "ES",  date: "2026-04-21", time: "20:00", url: "#" },
+        { cinema: "kinepolis",language: "ES",  date: "2026-04-21", time: "19:00", url: "#" },
+        { cinema: "kinepolis",language: "VO",  date: "2026-04-21", time: "21:30", url: "#" },
+      ]
+    },
+    {
+      id: "6",
+      title: "Mickey 17",
+      title_local: "Mickey 17",
+      poster: null,
+      poster_color: "#1a2018",
+      rating: 6.8,
+      duration: 137,
+      genres: ["Sci-Fi", "Comedia"],
+      trailer_youtube_id: "dQw4w9WgXcQ",
+      showtimes: [
+        { cinema: "yelmo",    language: "VO",  date: "2026-04-21", time: "17:00", url: "#" },
+        { cinema: "yelmo",    language: "VO",  date: "2026-04-21", time: "19:45", url: "#" },
+        { cinema: "yelmo",    language: "ES",  date: "2026-04-21", time: "17:00", url: "#" },
+        { cinema: "yelmo",    language: "ES",  date: "2026-04-21", time: "22:15", url: "#" },
+        { cinema: "kinepolis",language: "VO",  date: "2026-04-21", time: "18:00", url: "#" },
+        { cinema: "kinepolis",language: "ES",  date: "2026-04-21", time: "16:00", url: "#" },
+        { cinema: "abc",      language: "ES",  date: "2026-04-21", time: "19:30", url: "#" },
+        { cinema: "yelmo",    language: "VO",  date: "2026-04-22", time: "20:00", url: "#" },
+      ]
+    }
+  ]
+};
+
+// ─────────────────────────────────────────────
+// STATE
+// ─────────────────────────────────────────────
+const CINEMA_LABELS = {
+  babel: 'Babel', lys: 'Lys', abc: 'ABC', yelmo: 'Yelmo', kinepolis: 'Kinépolis'
+};
+
+let state = {
+  data: null,
+  activeLangs: new Set(['VO', 'ES', 'VAL']),
+  activeCinemas: new Set(['babel', 'lys', 'abc', 'yelmo', 'kinepolis']),
+  activeDate: null,
+  availableDates: []
+};
+
+// ─────────────────────────────────────────────
+// COOKIES
+// ─────────────────────────────────────────────
+function saveCookies() {
+  const val = JSON.stringify({
+    langs: [...state.activeLangs],
+    cinemas: [...state.activeCinemas]
+  });
+  document.cookie = `cartelera_filters=${encodeURIComponent(val)};max-age=${60*60*24*30};path=/;SameSite=Lax`;
+}
+
+function loadCookies() {
+  const match = document.cookie.match(/cartelera_filters=([^;]+)/);
+  if (!match) return;
+  try {
+    const parsed = JSON.parse(decodeURIComponent(match[1]));
+    if (parsed.langs)   state.activeLangs   = new Set(parsed.langs);
+    if (parsed.cinemas) state.activeCinemas = new Set(parsed.cinemas);
+  } catch(e) {}
+}
+
+// ─────────────────────────────────────────────
+// DATE HELPERS
+// ─────────────────────────────────────────────
+function formatDateTab(dateStr) {
+  const d = new Date(dateStr + 'T12:00:00');
+  const today = new Date();
+  const tomorrow = new Date(); tomorrow.setDate(today.getDate() + 1);
+  if (dateStr === today.toISOString().slice(0,10)) return 'Hoy';
+  if (dateStr === tomorrow.toISOString().slice(0,10)) return 'Mañana';
+  return d.toLocaleDateString('es-ES', { weekday:'short', day:'numeric', month:'short' });
+}
+
+function buildDates(movies) {
+  const dates = new Set();
+  movies.forEach(m => m.showtimes.forEach(s => dates.add(s.date)));
+  return [...dates].sort();
+}
+
+// ─────────────────────────────────────────────
+// RENDER
+// ─────────────────────────────────────────────
+function renderDateTabs() {
+  const el = document.getElementById('date-tabs');
+  el.innerHTML = state.availableDates.map(d => `
+    <button class="date-tab ${d === state.activeDate ? 'active' : ''}"
+            onclick="setDate('${d}')">${formatDateTab(d)}</button>
+  `).join('');
+}
+
+function renderFilters() {
+  document.querySelectorAll('.toggle[data-lang]').forEach(btn => {
+    btn.classList.toggle('active', state.activeLangs.has(btn.dataset.lang));
+  });
+  document.querySelectorAll('.toggle[data-cinema]').forEach(btn => {
+    btn.classList.toggle('active', state.activeCinemas.has(btn.dataset.cinema));
+  });
+}
+
+function renderMovies() {
+  const main = document.getElementById('main');
+  const { data, activeLangs, activeCinemas, activeDate } = state;
+
+  const filtered = data.movies.map(movie => {
+    const showtimes = movie.showtimes.filter(s =>
+      s.date === activeDate &&
+      activeLangs.has(s.language) &&
+      activeCinemas.has(s.cinema)
+    );
+    return { ...movie, showtimes };
+  }).filter(m => m.showtimes.length > 0);
+
+  document.getElementById('results-count').textContent =
+    filtered.length ? `${filtered.length} películas` : '';
+
+  if (!filtered.length) {
+    main.innerHTML = `
+      <div class="empty-state">
+        <div class="icon">🎬</div>
+        <p>Sin resultados para los filtros actuales.<br>Prueba activando más idiomas o cines.</p>
+      </div>`;
+    return;
+  }
+
+  // Group showtimes per movie: by cinema, then language
+  main.innerHTML = filtered.map((movie, idx) => {
+    const grouped = {};
+    movie.showtimes.forEach(s => {
+      const key = `${s.cinema}__${s.language}`;
+      if (!grouped[key]) grouped[key] = { cinema: s.cinema, language: s.language, times: [] };
+      grouped[key].times.push(s);
+    });
+
+    const showRows = Object.values(grouped)
+      .sort((a,b) => a.cinema.localeCompare(b.cinema) || a.language.localeCompare(b.language))
+      .map(g => `
+        <div class="cinema-row">
+          <span class="cinema-name">${CINEMA_LABELS[g.cinema]}</span>
+          <span class="lang-badge lang-${g.language}">${g.language}</span>
+          <div class="time-pills">
+            ${g.times.sort((a,b)=>a.time.localeCompare(b.time)).map(s => `
+              <a class="time-pill" href="${s.url}" target="_blank">${s.time}</a>
+            `).join('')}
+          </div>
+        </div>
+      `).join('');
+
+    const posterStyle = movie.poster
+      ? `background:${movie.poster_color||'#111'}`
+      : `background:${movie.poster_color||'#111'}`;
+
+    const posterContent = movie.poster
+      ? `<img src="${movie.poster}" alt="${movie.title}" loading="lazy">`
+      : `<div class="poster-placeholder" style="background:${movie.poster_color}">🎬</div>`;
+
+    const trailerBtn = movie.trailer_youtube_id
+      ? `<button class="trailer-btn" onclick="openTrailer('${movie.trailer_youtube_id}')">▶ Trailer</button>`
+      : '';
+
+    const tags = (movie.genres||[]).slice(0,2).map(g => `<span class="genre-tag">${g}</span>`).join('');
+
+    return `
+      <div class="movie-card" style="animation-delay:${idx*0.04}s">
+        <div class="card-top">
+          <div class="poster-wrap" style="${posterStyle}">
+            ${posterContent}
+          </div>
+          <div class="card-info">
+            <div class="card-meta-row">
+              <div class="movie-title" title="${movie.title}">${movie.title}</div>
+              ${movie.rating ? `<span class="movie-rating">${movie.rating}</span>` : ''}
+              ${movie.duration ? `<span class="movie-duration">${movie.duration}m</span>` : ''}
+              ${trailerBtn}
+            </div>
+            ${tags ? `<div class="movie-genres">${tags}</div>` : ''}
+          </div>
+        </div>
+        <div class="showtimes-section">${showRows}</div>
+      </div>`;
+  }).join('');
+}
+
+function render() {
+  renderDateTabs();
+  renderFilters();
+  renderMovies();
+}
+
+// ─────────────────────────────────────────────
+// INTERACTIONS
+// ─────────────────────────────────────────────
+function setDate(d) {
+  state.activeDate = d;
+  render();
+}
+
+document.getElementById('filters').addEventListener('click', e => {
+  const btn = e.target.closest('.toggle');
+  if (!btn) return;
+
+  if (btn.dataset.lang) {
+    const l = btn.dataset.lang;
+    state.activeLangs.has(l) ? state.activeLangs.delete(l) : state.activeLangs.add(l);
+  }
+  if (btn.dataset.cinema) {
+    const c = btn.dataset.cinema;
+    state.activeCinemas.has(c) ? state.activeCinemas.delete(c) : state.activeCinemas.add(c);
+  }
+
+  saveCookies();
+  render();
+});
+
+function openTrailer(ytId) {
+  document.getElementById('trailer-frame').src =
+    `https://www.youtube-nocookie.com/embed/${ytId}?autoplay=1&rel=0`;
+  document.getElementById('modal').classList.add('open');
+}
+
+function closeTrailer() {
+  document.getElementById('modal').classList.remove('open');
+  document.getElementById('trailer-frame').src = '';
+}
+
+function closeModal(e) {
+  if (e.target === document.getElementById('modal')) closeTrailer();
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeTrailer();
+});
+
+// ─────────────────────────────────────────────
+// INIT
+// ─────────────────────────────────────────────
+function formatUpdated(iso) {
+  const d = new Date(iso);
+  const diff = Math.round((Date.now() - d) / 60000);
+  if (diff < 2) return 'ahora mismo';
+  if (diff < 60) return `hace ${diff}m`;
+  const h = Math.round(diff/60);
+  if (h < 24) return `hace ${h}h`;
+  return d.toLocaleDateString('es-ES', {day:'numeric', month:'short'});
+}
+
+async function init() {
+  loadCookies();
+
+  // ── In production, replace this with:
+  // const res = await fetch('data/showtimes.json');
+  // const data = await res.json();
+  const data = MOCK;
+
+  state.data = data;
+  state.availableDates = buildDates(data.movies);
+  state.activeDate = state.availableDates[0] || new Date().toISOString().slice(0,10);
+
+  document.getElementById('updated-time').innerHTML =
+    `<span class="dot"></span>${formatUpdated(data.updated_at)}`;
+
+  render();
+}
+
+init();
+</script>
+</body>
+</html>
