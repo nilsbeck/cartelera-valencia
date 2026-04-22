@@ -15,11 +15,11 @@ from datetime import date, timedelta
 from pathlib import Path
 
 # ── Cinema scrapers (one per file)
-from cinemas.babel     import scrape as scrape_babel
-from cinemas.lys       import scrape as scrape_lys
-from cinemas.abc       import scrape as scrape_abc
-from cinemas.yelmo     import scrape as scrape_yelmo
-from cinemas.kinepolis import scrape as scrape_kinepolis
+from babel     import scrape as scrape_babel
+from lys       import scrape as scrape_lys
+from cinema_abc import scrape as scrape_abc
+from yelmo     import scrape as scrape_yelmo
+from kinepolis import scrape as scrape_kinepolis
 from tmdb              import enrich_movie
 
 # ── Paths
@@ -57,7 +57,7 @@ def slugify(text: str) -> str:
     return text.strip("-")
 
 
-def download_poster(url: str, slug: str) -> str | None:
+def download_poster(url: str, slug: str) -> "str | None":
     """Download poster image, return relative path or None."""
     dest = POSTERS_DIR / f"{slug}.jpg"
     if dest.exists():
