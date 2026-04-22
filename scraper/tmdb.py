@@ -15,7 +15,7 @@ HEADERS   = {"accept": "application/json"}
 LANG      = "es-ES"   # prefer Spanish metadata
 
 
-def enrich_movie(title: str) -> dict | None:
+def enrich_movie(title: str) -> "dict | None":
     if not TMDB_KEY:
         print("  ⚠ TMDB_API_KEY not set, skipping enrichment")
         return None
