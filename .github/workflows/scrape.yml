@@ -1,0 +1,43 @@
+name: Scrape
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('scraper/requirements.txt') }}
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Install Playwright browsers
+        run: playwright install chromium --with-deps
+
+      - name: Run scraper
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: python scraper/run.py
+
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/showtimes.json posters/
+          git diff --cached --quiet || git commit -m "chore: update showtimes [skip ci]"
+          git push
