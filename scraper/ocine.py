@@ -4,9 +4,8 @@ URL: https://www.ocinepremiumaqua.es/
 
 DOM structure (Joomla + custom JS cinema module — client-rendered):
   div#filmContainer
-    div.peli-item.element-item   [data-pelicula="{id}"]  → one movie
-      h4                                                   → title
-      a[href*='/film-']                                    → info URL
+    div.peli-item.element-item   [id="{MovieTitle}"]  → one movie
+      h4                                               → title
       div.horarisContainer
         table.planificacions
           tr.{YYYY-MM-DD}           → date header row
@@ -16,13 +15,19 @@ DOM structure (Joomla + custom JS cinema module — client-rendered):
 
 Language: no visible indicator on this multiplex → default "es".
 Date: ISO date extracted from class name of tr.plans rows.
+Booking URL: constructed from peli-item[id] (lowercased), which the JS passes
+  as the URLinici query parameter when a session button is clicked:
+  https://tickets.ocinepremiumaqua.es/compra/show_numerada_confirmation.php
+    ?URLinici=https%3A%2F%2Fwww.ocinepremiumaqua.es%2F%3F{slug}
 """
 
 import re
 from datetime import date, timedelta
+from urllib.parse import quote
 from playwright.sync_api import sync_playwright
 
-BASE_URL = "https://www.ocinepremiumaqua.es"
+BASE_URL     = "https://www.ocinepremiumaqua.es"
+TICKETS_BASE = "https://tickets.ocinepremiumaqua.es/compra/show_numerada_confirmation.php"
 
 _UA = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -53,9 +58,14 @@ def scrape() -> list[dict]:
                 if not title:
                     continue
 
-                # Film info URL
-                a_el = block.query_selector("a[href*='/film-']")
-                film_url = BASE_URL + a_el.get_attribute("href") if a_el else BASE_URL
+                # Booking URL: peli-item[id] lowercased is the movie slug
+                # used in the tickets subdomain URLinici parameter
+                movie_slug = (block.get_attribute("id") or "").lower()
+                if movie_slug:
+                    urilinici = quote(f"{BASE_URL}/?{movie_slug}", safe="")
+                    film_url = f"{TICKETS_BASE}?URLinici={urilinici}"
+                else:
+                    film_url = BASE_URL
 
                 # Each tr.plans row has the ISO date in its class
                 for tr in block.query_selector_all("tr.plans"):

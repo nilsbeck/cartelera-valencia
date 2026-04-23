@@ -10,8 +10,10 @@ DOM structure (server-rendered, sessions loaded async but present after
 networkidle):
 
   div.cartelera.bloque33             → one movie card
+    a[href*="pag=ficha"]             → movie detail page link (evento=N)
     div.cartelera-titulo b div.ver-ficha  → title text
     div.cont-ses                     → one session
+      a[href*="pag=patio"]           → session booking link (sesion=N), if present
       div.hora-ses                   → first text node = "HH:MM"
         div.etiqueta-hora
           div.etiq-hora              → "(VOSE)" or "" (ES)
@@ -19,7 +21,7 @@ networkidle):
 
 Language: etiq-hora text contains "(VOSE)" → vose, else es.
 Date:     cartelera page shows TODAY's sessions only.
-Booking:  sessions have no direct URL; use cinema homepage.
+URL priority: session link (pag=patio) > movie link (pag=ficha) > cartelera fallback.
 """
 
 from datetime import date
@@ -51,6 +53,13 @@ def _scrape_one(page, base_url: str) -> list[dict]:
         if not title:
             continue
 
+        # Movie-level URL: ficha page link (pag=ficha&evento=N)
+        movie_url = f"{base_url}/index?pag=cartelera"
+        ficha_el = block.query_selector("a[href*='pag=ficha']")
+        if ficha_el:
+            href = ficha_el.get_attribute("href") or ""
+            movie_url = href if href.startswith("http") else f"{base_url}/{href.lstrip('/')}"
+
         for ses in block.query_selector_all("div.cont-ses"):
             hora_el = ses.query_selector("div.hora-ses")
             if not hora_el:
@@ -70,12 +79,19 @@ def _scrape_one(page, base_url: str) -> list[dict]:
             lang_raw = etiq_el.inner_text().strip() if etiq_el else ""
             language = "vose" if "vose" in lang_raw.lower() else "es"
 
+            # Session-level URL (pag=patio&sesion=N) when available
+            url = movie_url
+            patio_el = ses.query_selector("a[href*='pag=patio']")
+            if patio_el:
+                href = patio_el.get_attribute("href") or ""
+                url = href if href.startswith("http") else f"{base_url}/{href.lstrip('/')}"
+
             results.append({
                 "title":    title,
                 "language": language,
                 "date":     today,
                 "time":     time_text,
-                "url":      f"{base_url}/index?pag=cartelera",
+                "url":      url,
             })
 
     return results
