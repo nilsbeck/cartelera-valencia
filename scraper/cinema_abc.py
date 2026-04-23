@@ -12,8 +12,7 @@ networkidle):
   div.cartelera.bloque33             → one movie card
     a[href*="pag=ficha"]             → movie detail page link (evento=N)
     div.cartelera-titulo b div.ver-ficha  → title text
-    div.cont-ses                     → one session
-      a[href*="pag=patio"]           → session booking link (sesion=N), if present
+    div.cont-ses  [id-ses="{N}"]     → one session (session ID in id-ses attr)
       div.hora-ses                   → first text node = "HH:MM"
         div.etiqueta-hora
           div.etiq-hora              → "(VOSE)" or "" (ES)
@@ -21,7 +20,7 @@ networkidle):
 
 Language: etiq-hora text contains "(VOSE)" → vose, else es.
 Date:     cartelera page shows TODAY's sessions only.
-URL priority: session link (pag=patio) > movie link (pag=ficha) > cartelera fallback.
+URL priority: session link (pag=patio&sesion=id-ses) > movie link (pag=ficha&evento=N) > cartelera fallback.
 """
 
 from datetime import date
@@ -79,12 +78,11 @@ def _scrape_one(page, base_url: str) -> list[dict]:
             lang_raw = etiq_el.inner_text().strip() if etiq_el else ""
             language = "vose" if "vose" in lang_raw.lower() else "es"
 
-            # Session-level URL (pag=patio&sesion=N) when available
+            # Session-level URL: div.cont-ses carries id-ses="{session_id}"
             url = movie_url
-            patio_el = ses.query_selector("a[href*='pag=patio']")
-            if patio_el:
-                href = patio_el.get_attribute("href") or ""
-                url = href if href.startswith("http") else f"{base_url}/{href.lstrip('/')}"
+            ses_id = ses.get_attribute("id-ses")
+            if ses_id:
+                url = f"{base_url}/index?pag=patio&sesion={ses_id}"
 
             results.append({
                 "title":    title,
