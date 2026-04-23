@@ -29,6 +29,7 @@ Language mapping:
 
 import json
 import re
+import unicodedata
 import requests
 from datetime import date, timedelta
 
@@ -69,6 +70,14 @@ def _extract_json_array(html: str, marker: str) -> list:
         return json.loads(html[start : i + 1])
     except (json.JSONDecodeError, ValueError):
         return []
+
+
+def _slugify(text: str) -> str:
+    """URL slug in Kinepolis format: lowercase, ASCII, non-alphanumerics → '-'."""
+    text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode("ascii")
+    text = text.lower()
+    text = re.sub(r"[^a-z0-9]+", "-", text).strip("-")
+    return text
 
 
 def _detect_language(raw_attrs: str, session_attrs: list) -> str:
@@ -169,13 +178,16 @@ def scrape() -> list[dict]:
         if has_vose_prefix and language == "es":
             language = "vose"
 
-        # Booking URL: per-session deep-link via vistaSessionId
-        vista_id = sess.get("vistaSessionId")
-        if vista_id:
-            url = (
-                f"{BASE_URL}/compra-de-entradas/?"
-                f"vistaSessionId={vista_id}&complex={COMPLEX}"
-            )
+        # Movie detail URL: /movies/detail/{corporateId}/{id}/0/{slug}
+        # (e.g. /movies/detail/36596/HO00006362/0/la-momia-de-lee-cronin)
+        corporate_id = film.get("corporateId")
+        film_ho_id   = film.get("id", "")
+        film_name    = (film.get("name") or film.get("title") or "").strip()
+        # Strip VOSE prefix so the slug matches the public URL
+        clean_name   = re.sub(r"^VOSE[:\s]+", "", film_name, flags=re.IGNORECASE).strip()
+        slug         = _slugify(clean_name)
+        if corporate_id and film_ho_id and slug:
+            url = f"{BASE_URL}/movies/detail/{corporate_id}/{film_ho_id}/0/{slug}"
         else:
             url = f"{BASE_URL}/?complex={COMPLEX}&main_section=ya+a+la+venta"
 
