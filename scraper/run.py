@@ -17,7 +17,7 @@ from pathlib import Path
 # ── Cinema scrapers (one per file)
 from babel     import scrape as scrape_babel
 from lys       import scrape as scrape_lys
-from cinema_abc import scrape as scrape_abc
+from cinema_abc import scrape_park, scrape_elsaler, scrape_granturia
 from yelmo     import scrape as scrape_yelmo
 from kinepolis import scrape as scrape_kinepolis
 from tmdb              import enrich_movie
@@ -104,11 +104,13 @@ def run():
     movie_index = build_movie_index(existing)
 
     scrapers = [
-        ("babel",     scrape_babel),
-        ("lys",       scrape_lys),
-        ("abc",       scrape_abc),
-        ("yelmo",     scrape_yelmo),
-        ("kinepolis", scrape_kinepolis),
+        ("babel",         scrape_babel),
+        ("lys",           scrape_lys),
+        ("abc_park",      scrape_park),
+        ("abc_elsaler",   scrape_elsaler),
+        ("abc_granturia", scrape_granturia),
+        ("yelmo",         scrape_yelmo),
+        ("kinepolis",     scrape_kinepolis),
     ]
 
     # Raw showtimes: list of dicts with title, language (raw), cinema, date, time, url
