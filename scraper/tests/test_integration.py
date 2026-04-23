@@ -7,7 +7,24 @@ import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from run import build_movie_index, merge_showtimes, normalize_lang, slugify
+from run import build_movie_index, has_tmdb_data, merge_showtimes, normalize_lang, slugify
+
+
+class TestHasTmdbData:
+    def test_poster_counts(self):
+        assert has_tmdb_data({"poster": "posters/foo.jpg", "rating": None, "trailer_youtube_id": None})
+
+    def test_rating_counts(self):
+        assert has_tmdb_data({"poster": None, "rating": 7.5, "trailer_youtube_id": None})
+
+    def test_trailer_counts(self):
+        assert has_tmdb_data({"poster": None, "rating": None, "trailer_youtube_id": "abc123"})
+
+    def test_all_null_returns_false(self):
+        assert not has_tmdb_data({"poster": None, "rating": None, "trailer_youtube_id": None})
+
+    def test_missing_keys_returns_false(self):
+        assert not has_tmdb_data({})
 
 
 class TestMovieDeduplication:
@@ -42,6 +59,61 @@ class TestMovieDeduplication:
     def test_movie_count(self, sample_data):
         idx = build_movie_index(sample_data)
         assert len(idx) == 2
+
+    def test_prefers_enriched_duplicate_over_null(self, showtime_factory):
+        """When two entries share a title (different case), keep the one with TMDB data."""
+        bare = {
+            "id": "local-incontrolable-i-swear",
+            "title": "INCONTROLABLE (I SWEAR)",
+            "title_local": "INCONTROLABLE (I SWEAR)",
+            "poster": None, "rating": None, "duration": None,
+            "genres": [], "trailer_youtube_id": None,
+            "showtimes": [showtime_factory("yelmo", "ES", "2026-04-21", "18:00")],
+        }
+        enriched = {
+            "id": "tmdb-1317149",
+            "title": "Incontrolable (I Swear)",
+            "title_local": "Incontrolable (I Swear)",
+            "poster": "posters/incontrolable-i-swear.jpg",
+            "rating": 8.3, "duration": 120,
+            "genres": ["Drama"],
+            "trailer_youtube_id": "10ynpduiRpM",
+            "showtimes": [showtime_factory("babel", "VO", "2026-04-21", "20:00")],
+        }
+        # bare first — should still end up with enriched data
+        idx = build_movie_index({"movies": [bare, enriched]})
+        result = idx["incontrolable (i swear)"]
+        assert result["poster"] == "posters/incontrolable-i-swear.jpg"
+        assert result["trailer_youtube_id"] == "10ynpduiRpM"
+        # showtimes from both entries preserved
+        cinemas = {s["cinema"] for s in result["showtimes"]}
+        assert cinemas == {"yelmo", "babel"}
+
+    def test_enriched_entry_first_stays(self, showtime_factory):
+        """When enriched entry comes first, it is kept as canonical."""
+        enriched = {
+            "id": "tmdb-1317149",
+            "title": "Incontrolable (I Swear)",
+            "title_local": "Incontrolable (I Swear)",
+            "poster": "posters/incontrolable-i-swear.jpg",
+            "rating": 8.3, "duration": 120,
+            "genres": ["Drama"],
+            "trailer_youtube_id": "10ynpduiRpM",
+            "showtimes": [showtime_factory("babel", "VO", "2026-04-21", "20:00")],
+        }
+        bare = {
+            "id": "local-incontrolable-i-swear",
+            "title": "INCONTROLABLE (I SWEAR)",
+            "title_local": "INCONTROLABLE (I SWEAR)",
+            "poster": None, "rating": None, "duration": None,
+            "genres": [], "trailer_youtube_id": None,
+            "showtimes": [showtime_factory("yelmo", "ES", "2026-04-21", "18:00")],
+        }
+        idx = build_movie_index({"movies": [enriched, bare]})
+        result = idx["incontrolable (i swear)"]
+        assert result["poster"] == "posters/incontrolable-i-swear.jpg"
+        cinemas = {s["cinema"] for s in result["showtimes"]}
+        assert cinemas == {"yelmo", "babel"}
 
 
 class TestShowtimeFiltering:
