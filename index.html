@@ -79,28 +79,6 @@
     letter-spacing: 2px;
   }
 
-  .updated {
-    margin-left: auto;
-    font-family: 'DM Mono', monospace;
-    font-size: 11px;
-    color: var(--muted);
-    letter-spacing: 0.5px;
-  }
-
-  .updated .dot {
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    background: var(--val-color);
-    border-radius: 50%;
-    margin-right: 6px;
-    animation: pulse 2s infinite;
-  }
-
-  @keyframes pulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.3; }
-  }
 
   /* ── FILTERS ── */
   .filter-row {
@@ -543,7 +521,6 @@
 <header>
   <div class="header-top">
     <div class="logo">CARTELERA <span>VALÈNCIA</span></div>
-    <div class="updated" id="updated-time"><span class="dot"></span>–</div>
   </div>
   <div class="date-tabs" id="date-tabs"></div>
   <div class="filter-row filter-langs" id="filter-langs">
@@ -952,15 +929,6 @@ document.addEventListener('keydown', e => {
 // ─────────────────────────────────────────────
 // INIT
 // ─────────────────────────────────────────────
-function formatUpdated(iso) {
-  const d = new Date(iso);
-  const diff = Math.round((Date.now() - d) / 60000);
-  if (diff < 2) return 'ahora mismo';
-  if (diff < 60) return `hace ${diff}m`;
-  const h = Math.round(diff/60);
-  if (h < 24) return `hace ${h}h`;
-  return d.toLocaleDateString('es-ES', {day:'numeric', month:'short'});
-}
 
 async function init() {
   const res = await fetch('data/showtimes.json');
@@ -978,9 +946,6 @@ async function init() {
 
   loadCookies(state.allCinemas);
   buildCinemaButtons();
-
-  document.getElementById('updated-time').innerHTML =
-    `<span class="dot"></span>${formatUpdated(data.updated_at)}`;
 
   render();
 }
