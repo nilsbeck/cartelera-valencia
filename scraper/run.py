@@ -83,15 +83,25 @@ def load_existing() -> dict:
     return {"movies": []}
 
 
+def has_tmdb_data(movie: dict) -> bool:
+    return bool(movie.get("poster") or movie.get("rating") or movie.get("trailer_youtube_id"))
+
+
 def build_movie_index(existing: dict) -> dict:
     """Index existing movies by title (lowercased) for dedup, merging duplicates."""
     index = {}
     for m in existing.get("movies", []):
         key = m["title"].lower()
         if key in index:
-            index[key]["showtimes"] = merge_showtimes(
-                index[key].get("showtimes", []), m.get("showtimes", [])
-            )
+            # Prefer the entry that has TMDB data
+            if has_tmdb_data(m) and not has_tmdb_data(index[key]):
+                showtimes = merge_showtimes(m.get("showtimes", []), index[key].get("showtimes", []))
+                index[key] = dict(m)
+                index[key]["showtimes"] = showtimes
+            else:
+                index[key]["showtimes"] = merge_showtimes(
+                    index[key].get("showtimes", []), m.get("showtimes", [])
+                )
         else:
             index[key] = m
     return index
@@ -167,25 +177,25 @@ def run():
             for r in rows
         ]
 
-        if existing_movie:
+        if existing_movie and has_tmdb_data(existing_movie):
             # Merge new showtimes into existing
             movie = dict(existing_movie)
             movie["showtimes"] = merge_showtimes(
                 existing_movie.get("showtimes", []), showtimes
             )
         else:
-            # New movie — enrich via TMDB
+            # New movie or existing without TMDB data — enrich via TMDB
             print(f"\n[TMDB] Looking up: {canonical}")
             tmdb = enrich_movie(canonical)
             slug = slugify(canonical)
 
-            poster_path = None
-            if tmdb and tmdb.get("poster_url"):
+            poster_path = existing_movie.get("poster") if existing_movie else None
+            if tmdb and tmdb.get("poster_url") and not poster_path:
                 poster_path = download_poster(tmdb["poster_url"], slug)
                 time.sleep(0.3)  # be polite to TMDB
 
             movie = {
-                "id":              tmdb["id"] if tmdb else f"local-{slug}",
+                "id":              tmdb["id"] if tmdb else (existing_movie["id"] if existing_movie else f"local-{slug}"),
                 "title":           canonical,
                 "title_local":     tmdb.get("title_local", canonical) if tmdb else canonical,
                 "poster":          poster_path,
@@ -193,7 +203,7 @@ def run():
                 "duration":        tmdb.get("duration") if tmdb else None,
                 "genres":          tmdb.get("genres", []) if tmdb else [],
                 "trailer_youtube_id": tmdb.get("trailer_youtube_id") if tmdb else None,
-                "showtimes":       showtimes,
+                "showtimes":       merge_showtimes(existing_movie.get("showtimes", []), showtimes) if existing_movie else showtimes,
             }
 
         final_movies.append(movie)
