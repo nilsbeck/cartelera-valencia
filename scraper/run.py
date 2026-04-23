@@ -18,6 +18,8 @@ from pathlib import Path
 from babel     import scrape as scrape_babel
 from lys       import scrape as scrape_lys
 from cinema_abc import scrape_park, scrape_elsaler, scrape_granturia
+from ocine          import scrape as scrape_ocine
+from cinestudio_dor import scrape as scrape_dor
 from yelmo     import scrape as scrape_yelmo
 from kinepolis import scrape as scrape_kinepolis
 from tmdb              import enrich_movie
@@ -109,6 +111,8 @@ def run():
         ("abc_park",      scrape_park),
         ("abc_elsaler",   scrape_elsaler),
         ("abc_granturia", scrape_granturia),
+        ("ocine",         scrape_ocine),
+        ("dor",           scrape_dor),
         ("yelmo",         scrape_yelmo),
         ("kinepolis",     scrape_kinepolis),
     ]
