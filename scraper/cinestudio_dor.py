@@ -118,7 +118,8 @@ def _detect_language(text: str) -> str:
     t = text.lower()
     if "doblad" in t or "versión española" in t or "v.esp" in t:
         return "es"
-    if "subtítulo" in t or "subtitulo" in t or "vose" in t:
+    has_subs = ("subtítulo" in t or "subtitulo" in t) and "sin subtítulo" not in t and "sin subtitulo" not in t
+    if has_subs or "vose" in t:
         return "vose"
     if "original" in t or "v.o." in t:
         return "vo"

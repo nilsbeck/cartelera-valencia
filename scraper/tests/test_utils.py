@@ -13,6 +13,9 @@ from datetime import date
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from run import normalize_lang, slugify, merge_showtimes, build_movie_index
+from babel import _parse_date as babel_parse_date, _detect_language as babel_detect_lang
+from cinestudio_dor import _parse_date_range, _parse_times, _detect_language as dor_detect_lang
+from kinepolis import _detect_language as kine_detect_lang, _extract_json_array
 
 
 # ─────────────────────────────────────────────
@@ -172,8 +175,12 @@ class TestShowtimesSchema:
             assert isinstance(movie["showtimes"], list)
 
             for s in movie["showtimes"]:
-                assert s["cinema"]   in {"babel","lys","abc","yelmo","kinepolis"}, \
-                    f"Unknown cinema: {s['cinema']}"
+                assert s["cinema"] in {
+                    "babel", "lys",
+                    "abc_park", "abc_elsaler", "abc_granturia",
+                    "ocine", "dor",
+                    "yelmo", "kinepolis",
+                }, f"Unknown cinema: {s['cinema']}"
                 assert s["language"] in {"VO","ES","VAL"}, \
                     f"Unknown language: {s['language']}"
                 assert len(s["date"]) == 10, f"Bad date format: {s['date']}"
@@ -190,3 +197,223 @@ class TestShowtimesSchema:
         updated_date = date.fromisoformat(updated)
         delta = (date.today() - updated_date).days
         assert delta <= 2, f"showtimes.json is stale ({delta} days old)"
+
+
+# ─────────────────────────────────────────────
+# babel._parse_date
+# ─────────────────────────────────────────────
+
+class TestBabelParseDate:
+    def test_basic(self):
+        d = babel_parse_date("Mié 23 Abr")
+        assert d is not None
+        parsed = date.fromisoformat(d)
+        assert parsed.month == 4
+        assert parsed.day   == 23
+
+    def test_all_months(self):
+        months = {
+            "Ene": 1, "Feb": 2, "Mar": 3, "Abr": 4, "May": 5, "Jun": 6,
+            "Jul": 7, "Ago": 8, "Sep": 9, "Oct": 10, "Nov": 11, "Dic": 12,
+        }
+        for abbr, num in months.items():
+            result = babel_parse_date(f"Lun 15 {abbr}")
+            assert result is not None, f"Failed for {abbr}"
+            assert date.fromisoformat(result).month == num
+
+    def test_invalid_returns_none(self):
+        assert babel_parse_date("")          is None
+        assert babel_parse_date("Hoy")       is None
+        assert babel_parse_date("Mié Abr")   is None  # missing day number
+        assert babel_parse_date("22")        is None  # too short
+
+    def test_returns_iso_format(self):
+        result = babel_parse_date("Jue 24 Abr")
+        assert result is not None
+        assert len(result) == 10
+        assert result[4] == "-"
+        assert result[7] == "-"
+
+
+# ─────────────────────────────────────────────
+# babel._detect_language
+# ─────────────────────────────────────────────
+
+class TestBabelDetectLanguage:
+    """babel._detect_language uses a mock block object; we call it via a
+    helper that creates a playwright-like mock with query_selector_all."""
+
+    def _make_block(self, divs: list[str]):
+        """Minimal mock that makes _detect_language work without Playwright."""
+        class FakeEl:
+            def __init__(self, text): self._text = text
+            def inner_text(self): return self._text
+
+        class FakeBlock:
+            def __init__(self, texts): self._texts = texts
+            def query_selector_all(self, sel):
+                return [FakeEl(t) for t in self._texts]
+
+        return FakeBlock(divs)
+
+    def test_spanish_audio_no_subtitles(self):
+        block = self._make_block(["Idioma: Español", ""])
+        assert babel_detect_lang(block) == "es"
+
+    def test_english_with_subtitles(self):
+        block = self._make_block(["Idioma: Inglés", "Subtítulos: Castellano"])
+        assert babel_detect_lang(block) == "vose"
+
+    def test_english_no_subtitles(self):
+        block = self._make_block(["Idioma: Inglés"])
+        assert babel_detect_lang(block) == "vo"
+
+    def test_castellano_is_es(self):
+        block = self._make_block(["Idioma: Castellano"])
+        assert babel_detect_lang(block) == "es"
+
+    def test_empty_block_defaults_es(self):
+        block = self._make_block([])
+        assert babel_detect_lang(block) == "es"
+
+
+# ─────────────────────────────────────────────
+# cinestudio_dor._parse_date_range
+# ─────────────────────────────────────────────
+
+class TestDorParseDateRange:
+    def test_same_month(self):
+        dates = _parse_date_range("20 — 26 abril")
+        assert len(dates) == 7
+        assert dates[0]  == date(date.today().year, 4, 20)
+        assert dates[-1] == date(date.today().year, 4, 26)
+
+    def test_cross_month(self):
+        dates = _parse_date_range("27 abril — 3 mayo")
+        assert len(dates) == 7
+        assert dates[0].month  == 4
+        assert dates[0].day    == 27
+        assert dates[-1].month == 5
+        assert dates[-1].day   == 3
+
+    def test_single_day(self):
+        dates = _parse_date_range("15 — 15 mayo")
+        assert len(dates) == 1
+        assert dates[0].month == 5
+        assert dates[0].day   == 15
+
+    def test_invalid_returns_empty(self):
+        assert _parse_date_range("")             == []
+        assert _parse_date_range("sin fecha")    == []
+        assert _parse_date_range("20 abril")     == []   # no separator
+
+    def test_dates_are_consecutive(self):
+        dates = _parse_date_range("10 — 14 junio")
+        for i in range(1, len(dates)):
+            assert (dates[i] - dates[i-1]).days == 1
+
+
+# ─────────────────────────────────────────────
+# cinestudio_dor._parse_times
+# ─────────────────────────────────────────────
+
+class TestDorParseTimes:
+    def test_two_times(self):
+        assert _parse_times("16:30h. 20:30h.") == ["16:30", "20:30"]
+
+    def test_parenthetical_stripped(self):
+        # "(L 18:05h.)" means Monday-only — should be ignored
+        result = _parse_times("18:05h. 22:05h. (L 18:05h.)")
+        assert result == ["18:05", "22:05"]
+
+    def test_single_time(self):
+        assert _parse_times("20:00h.") == ["20:00"]
+
+    def test_no_times_returns_empty(self):
+        assert _parse_times("versión doblada") == []
+        assert _parse_times("")                == []
+
+    def test_no_trailing_h(self):
+        # Should also work without the 'h.' suffix
+        assert _parse_times("16:30 20:30") == ["16:30", "20:30"]
+
+
+# ─────────────────────────────────────────────
+# cinestudio_dor._detect_language
+# ─────────────────────────────────────────────
+
+class TestDorDetectLanguage:
+    def test_dubbed(self):
+        assert dor_detect_lang("versión doblada / digital") == "es"
+        assert dor_detect_lang("DOBLADA")                   == "es"
+
+    def test_original_with_subtitles(self):
+        assert dor_detect_lang("versión original / subtítulos en castellano") == "vose"
+        assert dor_detect_lang("VOSE")                                        == "vose"
+        assert dor_detect_lang("con subtítulos")                              == "vose"
+
+    def test_original_no_subtitles(self):
+        assert dor_detect_lang("versión original")    == "vo"
+        assert dor_detect_lang("V.O. sin subtítulos") == "vo"
+
+    def test_unknown_defaults_es(self):
+        assert dor_detect_lang("digital") == "es"
+        assert dor_detect_lang("")        == "es"
+
+
+# ─────────────────────────────────────────────
+# kinepolis._detect_language
+# ─────────────────────────────────────────────
+
+class TestKinepolisDetectLanguage:
+    def test_spanish(self):
+        assert kine_detect_lang("2D,nosubt,Spanish", []) == "es"
+
+    def test_english_no_subtitles(self):
+        assert kine_detect_lang("2D,nosubt,English", []) == "vo"
+
+    def test_vose_via_raw(self):
+        assert kine_detect_lang("2D,VOSE,English", []) == "vose"
+
+    def test_vose_via_session_attr(self):
+        attrs = [{"code": "VOSE"}]
+        assert kine_detect_lang("2D,English", attrs) == "vose"
+
+    def test_spanish_subtitles_in_raw(self):
+        assert kine_detect_lang("2D,Span Subt,English", []) == "vose"
+
+    def test_case_insensitive(self):
+        assert kine_detect_lang("2d,vose,english", []) == "vose"
+        assert kine_detect_lang("2D,SPANISH", [])      == "es"
+
+
+# ─────────────────────────────────────────────
+# kinepolis._extract_json_array
+# ─────────────────────────────────────────────
+
+class TestKinepolisExtractJsonArray:
+    def test_simple_array(self):
+        html = 'prefix "items":[{"a":1},{"a":2}] suffix'
+        result = _extract_json_array(html, '"items":[')
+        assert result == [{"a": 1}, {"a": 2}]
+
+    def test_nested_array(self):
+        html = '"data":[{"x":[1,2]},{"x":[3]}]'
+        result = _extract_json_array(html, '"data":[')
+        assert len(result) == 2
+        assert result[0]["x"] == [1, 2]
+
+    def test_marker_not_found_returns_empty(self):
+        assert _extract_json_array("no match here", '"missing":[') == []
+
+    def test_string_with_brackets(self):
+        # Brackets inside strings should not confuse the parser
+        html = '"arr":[{"msg":"[hello]"},{"msg":"world"}]'
+        result = _extract_json_array(html, '"arr":[')
+        assert len(result) == 2
+        assert result[0]["msg"] == "[hello]"
+
+    def test_empty_array(self):
+        html = '"sessions":[]'
+        result = _extract_json_array(html, '"sessions":[')
+        assert result == []
