@@ -20,7 +20,7 @@ networkidle):
 
 Language: etiq-hora text contains "(VOSE)" → vose, else es.
 Date:     cartelera page shows TODAY's sessions only.
-URL priority: session link (pag=patio&sesion=id-ses) > movie link (pag=ficha&evento=N) > cartelera fallback.
+URL:      movie page (pag=ficha&evento=N), with cartelera fallback.
 """
 
 from datetime import date
@@ -78,18 +78,12 @@ def _scrape_one(page, base_url: str) -> list[dict]:
             lang_raw = etiq_el.inner_text().strip() if etiq_el else ""
             language = "vose" if "vose" in lang_raw.lower() else "es"
 
-            # Session-level URL: div.cont-ses carries id-ses="{session_id}"
-            url = movie_url
-            ses_id = ses.get_attribute("id-ses")
-            if ses_id:
-                url = f"{base_url}/index?pag=patio&sesion={ses_id}"
-
             results.append({
                 "title":    title,
                 "language": language,
                 "date":     today,
                 "time":     time_text,
-                "url":      url,
+                "url":      movie_url,
             })
 
     return results
