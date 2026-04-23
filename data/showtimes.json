@@ -2,6 +2,27 @@
   "updated_at": "2026-04-23T07:00:00Z",
   "movies": [
     {
+      "id": "tmdb-3114",
+      "title": "Centauros del Desierto",
+      "title_local": "Centauros del desierto",
+      "poster": "posters/centauros-del-desierto.jpg",
+      "rating": 7.7,
+      "duration": 119,
+      "genres": [
+        "Western"
+      ],
+      "trailer_youtube_id": "pJXgjw_5erE",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-23",
+          "time": "17:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=169021&complex=KVAL"
+        }
+      ]
+    },
+    {
       "id": "local-prime-crime-a-true-story",
       "title": "Prime Crime: A True Story",
       "title_local": "Prime Crime: A True Story",
@@ -953,6 +974,601 @@
           "date": "2026-04-29",
           "time": "21:10",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18233"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "17:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174416&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174417&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "14:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174418&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "17:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174419&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174420&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-25",
+          "time": "16:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174421&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-25",
+          "time": "19:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174422&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174423&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "19:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174424&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174425&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174426&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-23",
+          "time": "15:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174439&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-23",
+          "time": "18:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174440&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "17:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174441&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "20:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174442&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174443&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "20:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174444&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-23",
+          "time": "14:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174445&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "16:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174446&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "19:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174447&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "17:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174448&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-24",
+          "time": "16:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174449&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-24",
+          "time": "19:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174450&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "17:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174452&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "20:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174453&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "14:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174454&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "17:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174455&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "20:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174456&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174457&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "16:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174459&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "19:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174460&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-24",
+          "time": "14:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174461&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-25",
+          "time": "14:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174462&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "19:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174463&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-26",
+          "time": "10:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174464&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174465&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "19:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174466&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-26",
+          "time": "14:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174467&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "14:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174468&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "18:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174469&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "14:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174470&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "18:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174471&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-26",
+          "time": "16:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174472&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "15:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174473&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "17:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174474&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "18:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174458&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "09:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175269&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-24",
+          "time": "15:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175282&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-24",
+          "time": "18:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175283&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "15:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175284&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "18:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175285&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-25",
+          "time": "15:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175320&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-25",
+          "time": "18:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175321&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "15:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175348&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175349&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-26",
+          "time": "19:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175371&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-26",
+          "time": "13:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175408&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-27",
+          "time": "18:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175417&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175418&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "17:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175419&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "16:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175420&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "18:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175421&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "20:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175434&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "19:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175436&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-27",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175437&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "19:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175481&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-29",
+          "time": "18:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175483&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "16:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175503&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "19:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175504&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-29",
+          "time": "14:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175505&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "16:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175506&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "18:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175507&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175508&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "17:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175509&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "19:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175553&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-28",
+          "time": "18:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175556&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-28",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175577&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "17:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175578&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "20:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175579&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "16:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175580&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "18:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175581&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175582&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "12:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175587&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "12:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175593&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "14:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175594&complex=KVAL"
         }
       ]
     },
@@ -1559,6 +2175,55 @@
           "date": "2026-04-29",
           "time": "22:05",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42976"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "14:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175148&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "19:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175317&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "19:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175367&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "18:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175413&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "19:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175502&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "19:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175550&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "19:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175576&complex=KVAL"
         }
       ]
     },
@@ -2083,6 +2748,167 @@
           "date": "2026-04-25",
           "time": "22:15",
           "url": "https://www.ocinepremiumaqua.es/film-9692/p?proyecto-salvacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-23",
+          "time": "14:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175143&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "16:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175144&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "10:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175262&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-24",
+          "time": "18:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175303&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175306&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "19:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175313&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "16:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175314&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "17:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175332&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175342&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "14:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175356&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-25",
+          "time": "18:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175364&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "14:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175365&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "19:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175366&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "15:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175397&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "19:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175398&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-26",
+          "time": "18:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175399&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "14:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175414&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "15:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175445&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "19:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175446&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "15:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175496&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "19:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175497&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "15:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175570&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "19:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175571&complex=KVAL"
         }
       ]
     },
@@ -2965,6 +3791,34 @@
           "date": "2026-04-25",
           "time": "22:00",
           "url": "https://www.ocinepremiumaqua.es/film-9879/p?boulevard"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175138&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "17:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175316&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "17:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175322&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "17:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175405&complex=KVAL"
         }
       ]
     },
@@ -3650,6 +4504,216 @@
           "date": "2026-04-23",
           "time": "22:30",
           "url": "https://granturia.cinesabc.com/index?pag=cartelera"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "20:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175128&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "17:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175139&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "20:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175140&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "09:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175267&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "16:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175273&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "19:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175276&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "19:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175279&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175301&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "18:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175302&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "19:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175325&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175329&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175330&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175340&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175341&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "19:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175374&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "16:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175389&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "19:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175390&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "17:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175391&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "14:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175392&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "20:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175430&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175441&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "17:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175442&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "20:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175486&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "20:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175489&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175493&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "17:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175494&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "20:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175560&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175567&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "17:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175568&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "13:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175592&complex=KVAL"
         }
       ]
     },
@@ -4199,6 +5263,363 @@
           "date": "2026-04-23",
           "time": "21:15",
           "url": "https://granturia.cinesabc.com/index?pag=cartelera"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "15:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175126&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "17:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175127&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175130&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "20:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175131&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "09:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175261&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "10:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175268&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-24",
+          "time": "14:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175271&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "14:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175272&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "17:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175274&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175294&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "18:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175295&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "16:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175296&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "14:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175297&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "16:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175298&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "19:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175299&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "17:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175300&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "14:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175323&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "17:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175324&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175334&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175335&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175345&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "17:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175346&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-25",
+          "time": "14:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175347&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "19:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175357&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "15:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175359&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "13:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175372&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "16:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175373&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "14:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175383&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "17:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175384&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175385&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "19:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175387&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-26",
+          "time": "14:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175409&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "18:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175410&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175423&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "17:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175424&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "16:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175425&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "18:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175426&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "15:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175428&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "17:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175429&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "15:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175487&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "17:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175488&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "17:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175498&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "19:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175499&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175500&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "17:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175501&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "15:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175561&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "17:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175562&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "16:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175572&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "18:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175573&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175574&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "17:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175575&complex=KVAL"
         }
       ]
     },
@@ -4573,6 +5994,174 @@
           "date": "2026-04-23",
           "time": "18:30",
           "url": "https://granturia.cinesabc.com/index?pag=cartelera"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "17:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175141&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "19:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175142&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "09:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175265&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "17:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175275&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "14:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175304&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "19:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175305&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "18:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175307&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "17:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175326&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "14:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175328&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175361&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175362&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175363&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175369&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175393&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "17:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175394&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "19:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175395&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "18:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175396&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "14:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175407&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175551&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "17:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175552&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175554&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "17:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175555&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175585&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "17:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175586&complex=KVAL"
         }
       ]
     },
@@ -4892,6 +6481,132 @@
           "date": "2026-04-23",
           "time": "22:30",
           "url": "https://granturia.cinesabc.com/index?pag=cartelera"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "20:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175145&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "14:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175146&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "17:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175147&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "16:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175286&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "18:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175287&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "20:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175288&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "15:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175336&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175337&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175352&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175375&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "17:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175376&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "19:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175377&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "16:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175415&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "20:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175435&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "16:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175479&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "20:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175510&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "16:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175557&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "20:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175584&complex=KVAL"
         }
       ]
     },
@@ -5198,6 +6913,160 @@
           "date": "2026-04-23",
           "time": "22:00",
           "url": "https://granturia.cinesabc.com/index?pag=cartelera"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "14:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175135&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "16:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175136&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "14:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175280&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "15:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175308&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "18:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175309&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "14:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175310&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "14:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175331&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175343&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175344&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "14:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175350&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175351&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175400&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "14:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175401&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "17:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175402&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "09:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175403&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "15:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175439&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175440&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "16:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175485&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175492&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "15:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175558&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175564&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "13:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175591&complex=KVAL"
         }
       ]
     },
@@ -5238,6 +7107,34 @@
           "date": "2026-04-23",
           "time": "20:45",
           "url": "https://www.ocinepremiumaqua.es/film-9959/p?no-te-olvidare"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "20:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175137&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "14:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175354&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175368&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "18:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175406&complex=KVAL"
         }
       ]
     },
@@ -5517,194 +7414,6 @@
           "date": "2026-04-23",
           "time": "16:00",
           "url": "https://granturia.cinesabc.com/index?pag=cartelera"
-        }
-      ]
-    },
-    {
-      "id": "local-buena-suerte-pasalo-bien-no-mueras-urban",
-      "title": "Buena suerte, pásalo bien, no mueras (URBAN)",
-      "title_local": "Buena suerte, pásalo bien, no mueras (URBAN)",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-04-23",
-          "time": "22:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10028/p?buena-suerte-pasalo-bien-no-mueras-urban"
-        }
-      ]
-    },
-    {
-      "id": "local-hoppers",
-      "title": "Hoppers",
-      "title_local": "Hoppers",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-04-23",
-          "time": "15:45",
-          "url": "https://www.ocinepremiumaqua.es/film-9605/p?hoppers"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-04-23",
-          "time": "18:30",
-          "url": "https://www.ocinepremiumaqua.es/film-9605/p?hoppers"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-04-24",
-          "time": "17:45",
-          "url": "https://www.ocinepremiumaqua.es/film-9605/p?hoppers"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-04-25",
-          "time": "11:30",
-          "url": "https://www.ocinepremiumaqua.es/film-9605/p?hoppers"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-04-25",
-          "time": "17:45",
-          "url": "https://www.ocinepremiumaqua.es/film-9605/p?hoppers"
-        }
-      ]
-    },
-    {
-      "id": "local-la-familia-beneton-2",
-      "title": "La Familia Beneton +2",
-      "title_local": "La Familia Beneton +2",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-04-23",
-          "time": "15:15",
-          "url": "https://www.ocinepremiumaqua.es/film-9939/p?la-familia-beneton-2"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-04-23",
-          "time": "16:00",
-          "url": "https://www.ocinepremiumaqua.es/film-9939/p?la-familia-beneton-2"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-04-23",
-          "time": "17:00",
-          "url": "https://www.ocinepremiumaqua.es/film-9939/p?la-familia-beneton-2"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-04-23",
-          "time": "18:00",
-          "url": "https://www.ocinepremiumaqua.es/film-9939/p?la-familia-beneton-2"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-04-24",
-          "time": "15:45",
-          "url": "https://www.ocinepremiumaqua.es/film-9939/p?la-familia-beneton-2"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-04-24",
-          "time": "16:40",
-          "url": "https://www.ocinepremiumaqua.es/film-9939/p?la-familia-beneton-2"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-04-24",
-          "time": "18:15",
-          "url": "https://www.ocinepremiumaqua.es/film-9939/p?la-familia-beneton-2"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-04-24",
-          "time": "20:15",
-          "url": "https://www.ocinepremiumaqua.es/film-9939/p?la-familia-beneton-2"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-04-25",
-          "time": "11:45",
-          "url": "https://www.ocinepremiumaqua.es/film-9939/p?la-familia-beneton-2"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-04-25",
-          "time": "15:45",
-          "url": "https://www.ocinepremiumaqua.es/film-9939/p?la-familia-beneton-2"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-04-25",
-          "time": "16:40",
-          "url": "https://www.ocinepremiumaqua.es/film-9939/p?la-familia-beneton-2"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-04-25",
-          "time": "18:15",
-          "url": "https://www.ocinepremiumaqua.es/film-9939/p?la-familia-beneton-2"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-04-25",
-          "time": "20:15",
-          "url": "https://www.ocinepremiumaqua.es/film-9939/p?la-familia-beneton-2"
-        }
-      ]
-    },
-    {
-      "id": "local-michael-atmos-vose",
-      "title": "Michael (ATMOS) (VOSE)",
-      "title_local": "Michael (ATMOS) (VOSE)",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-04-23",
-          "time": "20:15",
-          "url": "https://www.ocinepremiumaqua.es/film-9946/p?michael-atmos-vose"
         }
       ]
     },
@@ -6129,6 +7838,397 @@
           "date": "2026-04-29",
           "time": "20:00",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42964"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "18:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175133&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "20:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175134&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "15:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175289&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "18:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175290&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-24",
+          "time": "20:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175315&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "14:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175338&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "17:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175339&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-25",
+          "time": "20:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175353&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175378&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "17:10",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175379&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-26",
+          "time": "19:20",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175380&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "17:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175427&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "20:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175444&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "18:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175484&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "20:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175495&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "17:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175559&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "20:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175569&complex=KVAL"
+        }
+      ]
+    },
+    {
+      "id": "local-tia-visantica-coses-de-mare-valenciana",
+      "title": "Tia Visantica: Coses de mare Valenciana",
+      "title_local": "Tia Visantica: Coses de mare Valenciana",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "17:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=168983&complex=KVAL"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1653435",
+      "title": "One Ok Rock Detox Japan Tour 2025",
+      "title_local": "ONE OK ROCK DETOX JAPAN TOUR AT NISSAN STADIUM 2025 IN CINEMAS",
+      "poster": "posters/one-ok-rock-detox-japan-tour-2025.jpg",
+      "rating": null,
+      "duration": 118,
+      "genres": [
+        "Música",
+        "Documental"
+      ],
+      "trailer_youtube_id": "w1tJcGRStBY",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-23",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174476&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-25",
+          "time": "15:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=174477&complex=KVAL"
+        }
+      ]
+    },
+    {
+      "id": "local-hoppers",
+      "title": "Hoppers",
+      "title_local": "Hoppers",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "15:45",
+          "url": "https://www.ocinepremiumaqua.es/film-9605/p?hoppers"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "18:30",
+          "url": "https://www.ocinepremiumaqua.es/film-9605/p?hoppers"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "17:45",
+          "url": "https://www.ocinepremiumaqua.es/film-9605/p?hoppers"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "11:30",
+          "url": "https://www.ocinepremiumaqua.es/film-9605/p?hoppers"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "17:45",
+          "url": "https://www.ocinepremiumaqua.es/film-9605/p?hoppers"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "09:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175266&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "17:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175311&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "14:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175312&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175327&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "14:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175360&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "13:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175404&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "14:15",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175411&complex=KVAL"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1632334",
+      "title": "Kraken. El libro negro de las horas",
+      "title_local": "Kraken. El libro negro de las horas",
+      "poster": "posters/kraken-el-libro-negro-de-las-horas.jpg",
+      "rating": null,
+      "duration": 111,
+      "genres": [
+        "Crimen",
+        "Misterio",
+        "Suspense"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "09:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175270&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "14:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175291&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "17:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175292&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "19:45",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175293&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175318&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "17:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175319&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "14:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175355&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "17:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175381&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "19:30",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175382&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "14:00",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175412&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "17:20",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175431&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "19:50",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175432&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "17:20",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175490&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "19:50",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175491&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "17:20",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175565&complex=KVAL"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "19:50",
+          "url": "https://kinepolis.es/compra-de-entradas/?vistaSessionId=175566&complex=KVAL"
         }
       ]
     }
