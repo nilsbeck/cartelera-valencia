@@ -103,20 +103,24 @@
   }
 
   /* ── FILTERS ── */
-  .filters {
+  .filter-row {
     display: flex;
     align-items: center;
     gap: 6px;
-    padding: 10px 0 14px;
-    flex-wrap: wrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
   }
 
-  .filter-sep {
-    width: 1px;
-    height: 20px;
-    background: var(--border2);
-    margin: 0 4px;
-    flex-shrink: 0;
+  .filter-row::-webkit-scrollbar { display: none; }
+
+  .filter-langs {
+    padding: 10px 0 6px;
+  }
+
+  .filter-cinemas {
+    padding: 0 0 14px;
   }
 
   .filter-label {
@@ -125,7 +129,22 @@
     letter-spacing: 1.5px;
     color: var(--dim);
     text-transform: uppercase;
-    padding-right: 2px;
+    flex-shrink: 0;
+  }
+
+  .filter-sep {
+    width: 1px;
+    height: 16px;
+    background: var(--border2);
+    flex-shrink: 0;
+  }
+
+  .results-count {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--dim);
+    flex-shrink: 0;
+    margin-left: 4px;
   }
 
   .toggle {
@@ -144,6 +163,7 @@
     transition: all 0.15s;
     user-select: none;
     white-space: nowrap;
+    flex-shrink: 0;
   }
 
   .toggle:hover { border-color: var(--dim); color: var(--text); }
@@ -162,13 +182,6 @@
     background: var(--accent);
     border-color: var(--accent);
     color: var(--bg);
-  }
-
-  .results-count {
-    margin-left: auto;
-    font-family: 'DM Mono', monospace;
-    font-size: 11px;
-    color: var(--dim);
   }
 
   /* ── MAIN ── */
@@ -517,11 +530,11 @@
 
   /* ── RESPONSIVE ── */
   @media (max-width: 500px) {
-    .filter-label { display: none; }
     .movie-title { font-size: 17px; }
     .poster-wrap { width: 58px; }
     .cinema-name { width: 60px; font-size: 9px; }
     .logo { font-size: 22px; }
+    .toggle { font-size: 10px; padding: 4px 8px; }
   }
 </style>
 </head>
@@ -533,18 +546,14 @@
     <div class="updated" id="updated-time"><span class="dot"></span>–</div>
   </div>
   <div class="date-tabs" id="date-tabs"></div>
-  <div class="filters" id="filters">
+  <div class="filter-row filter-langs" id="filter-langs">
     <span class="filter-label">Lang</span>
     <button class="toggle active" data-lang="VO">VO</button>
     <button class="toggle active" data-lang="ES">ES</button>
     <button class="toggle active" data-lang="VAL">VAL</button>
-    <div class="filter-sep"></div>
+  </div>
+  <div class="filter-row filter-cinemas" id="filter-cinemas">
     <span class="filter-label">Cine</span>
-    <button class="toggle active" data-cinema="babel">Babel</button>
-    <button class="toggle active" data-cinema="lys">Lys</button>
-    <button class="toggle active" data-cinema="abc">ABC</button>
-    <button class="toggle active" data-cinema="yelmo">Yelmo</button>
-    <button class="toggle active" data-cinema="kinepolis">Kinépolis</button>
     <span class="results-count" id="results-count"></span>
   </div>
 </header>
@@ -693,13 +702,26 @@ const MOCK = {
 // STATE
 // ─────────────────────────────────────────────
 const CINEMA_LABELS = {
-  babel: 'Babel', lys: 'Lys', abc: 'ABC', yelmo: 'Yelmo', kinepolis: 'Kinépolis'
+  babel:         'Babel',
+  lys:           'Lys',
+  abc_park:      'ABC Park',
+  abc_elsaler:   'ABC El Saler',
+  abc_granturia: 'ABC Gran Turia',
+  ocine:         'Ocine',
+  dor:           "d'Or",
+  yelmo:         'Yelmo',
+  kinepolis:     'Kinépolis',
 };
+
+function cinemaLabel(id) {
+  return CINEMA_LABELS[id] || id.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+}
 
 let state = {
   data: null,
   activeLangs: new Set(['VO', 'ES', 'VAL']),
-  activeCinemas: new Set(['babel', 'lys', 'abc', 'yelmo', 'kinepolis']),
+  activeCinemas: new Set(),
+  allCinemas: [],
   activeDate: null,
   availableDates: []
 };
@@ -709,19 +731,24 @@ let state = {
 // ─────────────────────────────────────────────
 function saveCookies() {
   const val = JSON.stringify({
-    langs: [...state.activeLangs],
-    cinemas: [...state.activeCinemas]
+    langs:            [...state.activeLangs],
+    inactiveCinemas:  state.allCinemas.filter(c => !state.activeCinemas.has(c))
   });
   document.cookie = `cartelera_filters=${encodeURIComponent(val)};max-age=${60*60*24*30};path=/;SameSite=Lax`;
 }
 
-function loadCookies() {
+function loadCookies(availableCinemas) {
   const match = document.cookie.match(/cartelera_filters=([^;]+)/);
+  // Default: all cinemas active
+  state.activeCinemas = new Set(availableCinemas);
   if (!match) return;
   try {
     const parsed = JSON.parse(decodeURIComponent(match[1]));
-    if (parsed.langs)   state.activeLangs   = new Set(parsed.langs);
-    if (parsed.cinemas) state.activeCinemas = new Set(parsed.cinemas);
+    if (parsed.langs) state.activeLangs = new Set(parsed.langs);
+    // Only deactivate cinemas the user explicitly turned off; new cinemas default active
+    if (Array.isArray(parsed.inactiveCinemas)) {
+      parsed.inactiveCinemas.forEach(c => state.activeCinemas.delete(c));
+    }
   } catch(e) {}
 }
 
@@ -738,8 +765,14 @@ function formatDateTab(dateStr) {
 }
 
 function buildDates(movies) {
+  const today = new Date().toLocaleDateString('sv');
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() + 7);
+  const cutoffStr = cutoff.toLocaleDateString('sv');
   const dates = new Set();
-  movies.forEach(m => m.showtimes.forEach(s => dates.add(s.date)));
+  movies.forEach(m => m.showtimes.forEach(s => {
+    if (s.date >= today && s.date <= cutoffStr) dates.add(s.date);
+  }));
   return [...dates].sort();
 }
 
@@ -752,6 +785,25 @@ function renderDateTabs() {
     <button class="date-tab ${d === state.activeDate ? 'active' : ''}"
             onclick="setDate('${d}')">${formatDateTab(d)}</button>
   `).join('');
+}
+
+function buildCinemaButtons() {
+  const row = document.getElementById('filter-cinemas');
+  const label = row.querySelector('.filter-label');
+  const count = row.querySelector('#results-count');
+  // Remove old toggles
+  row.querySelectorAll('.toggle').forEach(b => b.remove());
+
+  const frag = document.createDocumentFragment();
+  state.allCinemas.forEach(id => {
+    const btn = document.createElement('button');
+    btn.className = 'toggle' + (state.activeCinemas.has(id) ? ' active' : '');
+    btn.dataset.cinema = id;
+    btn.textContent = cinemaLabel(id);
+    frag.appendChild(btn);
+  });
+  // Insert after label, before results-count
+  label.after(frag);
 }
 
 function renderFilters() {
@@ -801,7 +853,7 @@ function renderMovies() {
       .sort((a,b) => a.cinema.localeCompare(b.cinema) || a.language.localeCompare(b.language))
       .map(g => `
         <div class="cinema-row">
-          <span class="cinema-name">${CINEMA_LABELS[g.cinema]}</span>
+          <span class="cinema-name">${cinemaLabel(g.cinema)}</span>
           <span class="lang-badge lang-${g.language}">${g.language}</span>
           <div class="time-pills">
             ${g.times.sort((a,b)=>a.time.localeCompare(b.time)).map(s => `
@@ -860,19 +912,20 @@ function setDate(d) {
   render();
 }
 
-document.getElementById('filters').addEventListener('click', e => {
-  const btn = e.target.closest('.toggle');
+document.getElementById('filter-langs').addEventListener('click', e => {
+  const btn = e.target.closest('.toggle[data-lang]');
   if (!btn) return;
+  const l = btn.dataset.lang;
+  state.activeLangs.has(l) ? state.activeLangs.delete(l) : state.activeLangs.add(l);
+  saveCookies();
+  render();
+});
 
-  if (btn.dataset.lang) {
-    const l = btn.dataset.lang;
-    state.activeLangs.has(l) ? state.activeLangs.delete(l) : state.activeLangs.add(l);
-  }
-  if (btn.dataset.cinema) {
-    const c = btn.dataset.cinema;
-    state.activeCinemas.has(c) ? state.activeCinemas.delete(c) : state.activeCinemas.add(c);
-  }
-
+document.getElementById('filter-cinemas').addEventListener('click', e => {
+  const btn = e.target.closest('.toggle[data-cinema]');
+  if (!btn) return;
+  const c = btn.dataset.cinema;
+  state.activeCinemas.has(c) ? state.activeCinemas.delete(c) : state.activeCinemas.add(c);
   saveCookies();
   render();
 });
@@ -910,14 +963,21 @@ function formatUpdated(iso) {
 }
 
 async function init() {
-  loadCookies();
-
   const res = await fetch('data/showtimes.json');
   const data = await res.json();
 
   state.data = data;
   state.availableDates = buildDates(data.movies);
-  state.activeDate = state.availableDates[0] || new Date().toISOString().slice(0,10);
+  const today = new Date().toLocaleDateString('sv');  // 'sv' gives YYYY-MM-DD in local time
+  state.activeDate = state.availableDates.find(d => d >= today) || state.availableDates[0] || today;
+
+  // Collect cinemas in the order they appear in data
+  const seen = new Set();
+  data.movies.forEach(m => m.showtimes.forEach(s => seen.add(s.cinema)));
+  state.allCinemas = [...seen].sort();
+
+  loadCookies(state.allCinemas);
+  buildCinemaButtons();
 
   document.getElementById('updated-time').innerHTML =
     `<span class="dot"></span>${formatUpdated(data.updated_at)}`;
