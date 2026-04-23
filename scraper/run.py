@@ -84,8 +84,17 @@ def load_existing() -> dict:
 
 
 def build_movie_index(existing: dict) -> dict:
-    """Index existing movies by title (lowercased) for dedup."""
-    return {m["title"].lower(): m for m in existing.get("movies", [])}
+    """Index existing movies by title (lowercased) for dedup, merging duplicates."""
+    index = {}
+    for m in existing.get("movies", []):
+        key = m["title"].lower()
+        if key in index:
+            index[key]["showtimes"] = merge_showtimes(
+                index[key].get("showtimes", []), m.get("showtimes", [])
+            )
+        else:
+            index[key] = m
+    return index
 
 
 def merge_showtimes(existing: list, new: list) -> list:
@@ -131,17 +140,21 @@ def run():
         except Exception as e:
             print(f"  ✗ Failed: {e}")
 
-    # Group by title
+    # Group by title (case-insensitive; preserve casing of first occurrence)
     by_title: dict[str, list] = {}
+    title_canonical: dict[str, str] = {}
     for row in all_raw:
         t = row["title"].strip()
-        by_title.setdefault(t, []).append(row)
+        key = t.lower()
+        if key not in title_canonical:
+            title_canonical[key] = t
+        by_title.setdefault(key, []).append(row)
 
     # Build final movie list
     final_movies = []
-    for title, rows in by_title.items():
-        title_lower = title.lower()
-        existing_movie = movie_index.get(title_lower)
+    for title_key, rows in by_title.items():
+        canonical = title_canonical[title_key]
+        existing_movie = movie_index.get(title_key)
 
         showtimes = [
             {
@@ -162,9 +175,9 @@ def run():
             )
         else:
             # New movie — enrich via TMDB
-            print(f"\n[TMDB] Looking up: {title}")
-            tmdb = enrich_movie(title)
-            slug = slugify(title)
+            print(f"\n[TMDB] Looking up: {canonical}")
+            tmdb = enrich_movie(canonical)
+            slug = slugify(canonical)
 
             poster_path = None
             if tmdb and tmdb.get("poster_url"):
@@ -173,8 +186,8 @@ def run():
 
             movie = {
                 "id":              tmdb["id"] if tmdb else f"local-{slug}",
-                "title":           title,
-                "title_local":     tmdb.get("title_local", title) if tmdb else title,
+                "title":           canonical,
+                "title_local":     tmdb.get("title_local", canonical) if tmdb else canonical,
                 "poster":          poster_path,
                 "rating":          tmdb.get("rating")  if tmdb else None,
                 "duration":        tmdb.get("duration") if tmdb else None,
