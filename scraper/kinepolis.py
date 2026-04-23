@@ -156,6 +156,9 @@ def scrape() -> list[dict]:
         film_id = sess.get("film", {}).get("id", "")
         film    = films_by_id.get(film_id, {})
         title   = (film.get("name") or film.get("title") or "").strip()
+        has_vose_prefix = bool(re.match(r"^VOSE[:\s]", title, flags=re.IGNORECASE))
+        title   = re.sub(r"^VOSE:\s*", "", title, flags=re.IGNORECASE).strip()
+        title   = re.sub(r"^VOSE\s+", "", title, flags=re.IGNORECASE).strip()
         if not title:
             continue
 
@@ -163,6 +166,8 @@ def scrape() -> list[dict]:
             sess.get("rawSessionAttributes", ""),
             sess.get("sessionAttributes", []),
         )
+        if has_vose_prefix and language == "es":
+            language = "vose"
 
         # Booking URL: per-session deep-link via vistaSessionId
         vista_id = sess.get("vistaSessionId")
