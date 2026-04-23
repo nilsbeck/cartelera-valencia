@@ -49,7 +49,12 @@ class TestShowtimeFiltering:
 
     def _filter(self, showtimes, langs=None, cinemas=None, date=None):
         langs   = set(langs   or ["VO", "ES", "VAL"])
-        cinemas = set(cinemas or ["babel","lys","abc","yelmo","kinepolis"])
+        cinemas = set(cinemas or [
+            "babel", "lys",
+            "abc_park", "abc_elsaler", "abc_granturia",
+            "ocine", "dor",
+            "yelmo", "kinepolis",
+        ])
         return [
             s for s in showtimes
             if s["language"] in langs

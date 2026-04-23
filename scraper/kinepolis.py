@@ -1,78 +1,185 @@
 """
 Kinépolis Valencia scraper.
-Kinépolis has a well-structured site with per-cinema pages.
+URL: https://kinepolis.es/?complex=KVAL&main_section=ya+a+la+venta
 
-Valencia cinema slug: check https://kinepolis.es/cines/kinepolis-valencia
+The page (Drupal + Comato) embeds two JSON blobs in <script> tags:
+  1. "sessions":[...]  — all sessions across all Kinépolis cinemas
+  2. "films":[...]     — full film records
+
+Strategy:
+  - Fetch with requests (no Playwright — the data is in the HTML source)
+  - Parse both JSON arrays
+  - Filter sessions by complexOperator == "KVAL" and date in next 7 days
+  - Join film title via film.id → films[].id
+  - Derive language from rawSessionAttributes / sessionAttributes[].code
+
+Session fields used:
+  showtime             ISO datetime "2026-04-22T18:00:00+00:00"
+  businessDay          ISO date of the cinema day
+  vistaSessionId       int  (used in booking URL)
+  rawSessionAttributes "2D,nosubt,Spanish" / "2D,VOSE,English" / …
+  sessionAttributes[].code  "Spanish" | "English" | "VOSE" | "nosubt" | …
+  film.id              matches films[].id
+
+Language mapping:
+  "VOSE" attr OR "Span Subt" in raw  → vose
+  "English" in raw, no "Spanish"     → vo
+  otherwise                           → es
 """
 
+import json
+import re
+import requests
 from datetime import date, timedelta
-from playwright.sync_api import sync_playwright
 
-BASE_URL    = "https://kinepolis.es"
-CINEMA_SLUG = "kinepolis-valencia"   # adjust to real URL slug
+BASE_URL = "https://kinepolis.es"
+COMPLEX  = "KVAL"
 
+
+# ── helpers ──────────────────────────────────────────────────────────────────
+
+def _extract_json_array(html: str, marker: str) -> list:
+    """
+    Find a JSON array starting at 'marker' in the HTML and return it parsed.
+    Uses bracket-counting to find the matching ']' robustly.
+    """
+    idx = html.find(marker)
+    if idx == -1:
+        return []
+    start = idx + len(marker) - 1   # points at '['
+    depth = 0
+    i = start
+    while i < len(html):
+        c = html[i]
+        if c == "[":
+            depth += 1
+        elif c == "]":
+            depth -= 1
+            if depth == 0:
+                break
+        elif c == '"':
+            # Skip over string literals so brackets inside strings don't confuse us
+            i += 1
+            while i < len(html) and html[i] != '"':
+                if html[i] == "\\":
+                    i += 1  # skip escaped char
+                i += 1
+        i += 1
+    try:
+        return json.loads(html[start : i + 1])
+    except (json.JSONDecodeError, ValueError):
+        return []
+
+
+def _detect_language(raw_attrs: str, session_attrs: list) -> str:
+    """Map Kinépolis session attribute strings to our normalised language codes."""
+    raw = raw_attrs.lower()
+    codes = {a.get("code", "").lower() for a in session_attrs}
+
+    if "vose" in codes or "vose" in raw:
+        return "vose"
+    if "span subt" in raw or "spanish subt" in raw or "spanish sub" in raw:
+        return "vose"   # English audio + Spanish subtitles
+    if "english" in raw and "spanish" not in raw:
+        return "vo"
+    return "es"
+
+
+# ── main scrape ───────────────────────────────────────────────────────────────
 
 def scrape() -> list[dict]:
     results = []
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page(user_agent=(
-            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-            "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-        ))
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/124.0.0.0 Safari/537.36"
+        ),
+        "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
+        "Accept": (
+            "text/html,application/xhtml+xml,application/xml;"
+            "q=0.9,image/avif,image/webp,*/*;q=0.8"
+        ),
+        "Referer": "https://kinepolis.es/",
+    }
 
-        for offset in range(7):
-            target   = date.today() + timedelta(days=offset)
-            date_str = target.isoformat()
-            url = f"{BASE_URL}/cines/{CINEMA_SLUG}/cartelera?date={date_str}"
+    try:
+        r = requests.get(
+            f"{BASE_URL}/?complex={COMPLEX}&main_section=ya+a+la+venta",
+            headers=headers,
+            timeout=20,
+        )
+        r.raise_for_status()
+    except Exception as e:
+        print(f"  ⚠ Kinepolis fetch error: {e}")
+        return results
 
-            try:
-                page.goto(url, timeout=20000)
-                page.wait_for_load_state("networkidle", timeout=12000)
+    html = r.text
 
-                # Kinépolis typically renders movie cards with class .movie or similar
-                # Inspect and adapt selectors below
-                movie_blocks = page.query_selector_all(
-                    ".movie-container, .film-item, article.movie"
-                )
+    # ── Parse embedded JSON blobs ──
+    films_list    = _extract_json_array(html, '"films":[')
+    sessions_list = _extract_json_array(html, '"sessions":[')
 
-                for block in movie_blocks:
-                    title_el = block.query_selector("h2, h3, .movie-title, .title")
-                    if not title_el:
-                        continue
-                    title = title_el.inner_text().strip()
+    if not films_list:
+        print("  ⚠ Kinepolis: could not parse 'films' JSON — page structure may have changed")
+        return results
+    if not sessions_list:
+        print("  ⚠ Kinepolis: could not parse 'sessions' JSON — page structure may have changed")
+        return results
 
-                    # Kinépolis often shows language inline with session button text
-                    # e.g. "20:30 VO" or groups by tab
-                    session_els = block.query_selector_all(
-                        "a.session-link, button.session, .showtime-btn"
-                    )
+    # Index films by their id field for O(1) lookup
+    films_by_id: dict[str, dict] = {f["id"]: f for f in films_list if "id" in f}
 
-                    for s_el in session_els:
-                        full_text = s_el.inner_text().strip()
-                        href      = s_el.get_attribute("href") or "#"
+    # Valid date window: today + 6 days
+    today       = date.today()
+    valid_dates = {(today + timedelta(days=i)).isoformat() for i in range(7)}
 
-                        # Try to extract time and language from text like "20:30 VO"
-                        parts    = full_text.split()
-                        time_str = parts[0] if parts else ""
-                        language = parts[1] if len(parts) > 1 else "ES"
+    for sess in sessions_list:
+        # Only Valencia
+        if sess.get("complexOperator") != COMPLEX:
+            continue
+        # Only public screenings
+        if not sess.get("isPublicScreening", True):
+            continue
 
-                        if ":" not in time_str:
-                            continue
+        showtime_str = sess.get("showtime", "")
+        m = re.match(r"(\d{4}-\d{2}-\d{2})T(\d{2}:\d{2})", showtime_str)
+        if not m:
+            continue
+        date_str, time_str = m.group(1), m.group(2)
 
-                        results.append({
-                            "title":    title,
-                            "language": language,
-                            "date":     date_str,
-                            "time":     time_str,
-                            "url":      href if href.startswith("http") else BASE_URL + href,
-                        })
+        if date_str not in valid_dates:
+            continue
 
-            except Exception as e:
-                print(f"  ⚠ Kinépolis error on {date_str}: {e}")
-                continue
+        # Resolve film title
+        film_id = sess.get("film", {}).get("id", "")
+        film    = films_by_id.get(film_id, {})
+        title   = (film.get("name") or film.get("title") or "").strip()
+        if not title:
+            continue
 
-        browser.close()
+        language = _detect_language(
+            sess.get("rawSessionAttributes", ""),
+            sess.get("sessionAttributes", []),
+        )
+
+        # Booking URL: per-session deep-link via vistaSessionId
+        vista_id = sess.get("vistaSessionId")
+        if vista_id:
+            url = (
+                f"{BASE_URL}/compra-de-entradas/?"
+                f"vistaSessionId={vista_id}&complex={COMPLEX}"
+            )
+        else:
+            url = f"{BASE_URL}/?complex={COMPLEX}&main_section=ya+a+la+venta"
+
+        results.append({
+            "title":    title,
+            "language": language,
+            "date":     date_str,
+            "time":     time_str,
+            "url":      url,
+        })
 
     return results
