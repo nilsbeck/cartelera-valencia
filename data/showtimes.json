@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-24T07:00:00Z",
+  "updated_at": "2026-04-25T07:00:00Z",
   "movies": [
     {
       "id": "tmdb-1317149",
@@ -335,28 +335,34 @@
           "date": "2026-04-30",
           "time": "21:30",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43028"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-28",
-      "title": "APOCALYPSE NOW (1979)",
-      "title_local": "Apocalypse Now",
-      "poster": "posters/apocalypse-now-1979.jpg",
-      "rating": 8.3,
-      "duration": 147,
-      "genres": [
-        "Drama",
-        "Bélica"
-      ],
-      "trailer_youtube_id": "9l-ViOOFH-s",
-      "showtimes": [
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-04-27",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/incontrolable-i-swear/63723/?step=2"
+        },
         {
           "cinema": "abc_park",
-          "language": "VO",
-          "date": "2026-04-24",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3017"
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2976"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2976"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "21:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43075"
         }
       ]
     },
@@ -1135,6 +1141,252 @@
           "date": "2026-04-30",
           "time": "19:30",
           "url": "https://kinepolis.es/movies/detail/35548/HO00006311/0/proyecto-salvacion"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2933"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "19:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2933"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VO",
+          "date": "2026-04-25",
+          "time": "22:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2933"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "19:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2933"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VO",
+          "date": "2026-04-25",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2933"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "19:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2933"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2933"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43056"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43047"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43090"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43056"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "18:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43047"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43090"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43056"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "18:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43047"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43090"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43056"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "18:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43047"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43090"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43056"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "18:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43047"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43090"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43056"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "18:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43047"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43090"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "21:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18627"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43056"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "18:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43047"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "21:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43048"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43090"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "20:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18620"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "21:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18627"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-414419",
+      "title": "KILL BILL: THE WHOLE BLOODY AFFAIR",
+      "title_local": "Kill Bill: The Whole Bloody Affair",
+      "poster": "posters/kill-bill-the-whole-bloody-affair.jpg",
+      "rating": 8.1,
+      "duration": 275,
+      "genres": [
+        "Acción",
+        "Crimen"
+      ],
+      "trailer_youtube_id": "7SLysSldjtc",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VO",
+          "date": "2026-04-25",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2970"
         }
       ]
     },
@@ -1214,6 +1466,34 @@
           "cinema": "abc_granturia",
           "language": "ES",
           "date": "2026-04-24",
+          "time": "18:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3008"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3008"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:05",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3008"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3008"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
           "time": "18:15",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3008"
         }
@@ -1321,6 +1601,13 @@
           "language": "ES",
           "date": "2026-04-24",
           "time": "17:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2981"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:10",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=2981"
         }
       ]
@@ -1463,42 +1750,20 @@
           "date": "2026-04-30",
           "time": "22:25",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1088548",
-      "title": "AMARGA NAVIDAD",
-      "title_local": "Amarga Navidad",
-      "poster": "posters/amarga-navidad.jpg",
-      "rating": 7.6,
-      "duration": 111,
-      "genres": [
-        "Drama",
-        "Comedia"
-      ],
-      "trailer_youtube_id": "OJ2op33dtFI",
-      "showtimes": [
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-04-23",
-          "time": "19:45",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/amarga-navidad/380877/?step=2"
         },
         {
-          "cinema": "lys",
+          "cinema": "dor",
           "language": "ES",
-          "date": "2026-04-24",
-          "time": "19:35",
-          "url": "http://www.reservaentradas.com:443/reservaentradas/entrada/valencia/cineslys/amarga-navidad/380999/?step=2"
+          "date": "2026-05-01",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         },
         {
-          "cinema": "lys",
+          "cinema": "dor",
           "language": "ES",
-          "date": "2026-04-24",
-          "time": "22:35",
-          "url": "http://www.reservaentradas.com:443/reservaentradas/entrada/valencia/cineslys/amarga-navidad/381000/?step=2"
+          "date": "2026-05-01",
+          "time": "22:25",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
       ]
     },
@@ -1606,6 +1871,125 @@
           "date": "2026-04-24",
           "time": "17:45",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2890"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2890"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "17:45",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2890"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43058"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18631"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43058"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18631"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43058"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18631"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43058"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18631"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43058"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18631"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43058"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18631"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43058"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18631"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/34872/HO00006084/0/hoppers"
         }
       ]
     },
@@ -1676,6 +2060,41 @@
           "language": "ES",
           "date": "2026-04-30",
           "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-01",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006364/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-01",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006364/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "19:30",
           "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
         }
       ]
@@ -1810,6 +2229,13 @@
           "date": "2026-04-24",
           "time": "19:35",
           "url": "http://www.reservaentradas.com:443/reservaentradas/entrada/valencia/cineslys/la-grazia/380990/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-04-27",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-grazia/63726/?step=2"
         }
       ]
     },
@@ -3806,6 +4232,461 @@
           "date": "2026-04-30",
           "time": "19:30",
           "url": "https://kinepolis.es/movies/detail/33241/HO00006393/0/michael"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "19:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VO",
+          "date": "2026-04-25",
+          "time": "20:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VO",
+          "date": "2026-04-25",
+          "time": "21:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VO",
+          "date": "2026-04-25",
+          "time": "21:45",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42193"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42192"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42191"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43244"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43245"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "16:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42193"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42192"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "16:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42191"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43244"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "22:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43245"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "16:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42193"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42192"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "16:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42191"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43244"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "22:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43245"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "16:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42193"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42192"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "16:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42191"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43244"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "22:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43245"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "16:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42193"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42192"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "16:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42191"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43244"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "22:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43245"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "16:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42193"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42192"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "16:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42191"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43244"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "22:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43245"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "16:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42193"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "17:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42187"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "18:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43051"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "19:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42184"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42188"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "21:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43050"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "21:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42183"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42192"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "16:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42191"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "18:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42185"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "19:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42190"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43244"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "21:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42186"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "22:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42189"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "22:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43245"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18244"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "21:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18241"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:45",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "16:15",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "13:15",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
         }
       ]
     },
@@ -3925,6 +4806,13 @@
           "date": "2026-04-24",
           "time": "18:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=2946"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2946"
         }
       ]
     },
@@ -4017,6 +4905,27 @@
           "date": "2026-04-24",
           "time": "20:30",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2967"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:40",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2967"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "21:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2967"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2967"
         }
       ]
     },
@@ -4053,55 +4962,6 @@
           "date": "2026-04-27",
           "time": "16:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/tres-adioses/63680/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1391325",
-      "title": "LA FAMILIA BENETÓN   2",
-      "title_local": "La familia Benetón +2",
-      "poster": "posters/la-familia-beneton-2.jpg",
-      "rating": 7.0,
-      "duration": 87,
-      "genres": [
-        "Comedia"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-04-23",
-          "time": "16:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-familia-beneton-2/380871/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-04-23",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-familia-beneton-2/380878/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-04-23",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-familia-beneton-2/380872/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-04-24",
-          "time": "16:35",
-          "url": "http://www.reservaentradas.com:443/reservaentradas/entrada/valencia/cineslys/la-familia-beneton-2/380972/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-04-24",
-          "time": "18:35",
-          "url": "http://www.reservaentradas.com:443/reservaentradas/entrada/valencia/cineslys/la-familia-beneton-2/380973/?step=2"
         }
       ]
     },
@@ -4690,6 +5550,321 @@
           "date": "2026-04-30",
           "time": "16:30",
           "url": "https://kinepolis.es/movies/detail/38094/HO00006367/0/la-familia-beneton-2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2987"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2987"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2987"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2987"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "17:45",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2987"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "19:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2987"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2987"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "17:45",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2987"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "19:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2987"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43085"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43082"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43083"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18632"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18629"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "16:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43085"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "18:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43082"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "20:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43083"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18632"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18629"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "16:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43085"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "18:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43082"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "20:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43083"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18632"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18629"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "16:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43085"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "18:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43082"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "20:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43083"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18632"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18629"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "16:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43085"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "18:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43082"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "20:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43083"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18632"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18629"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "16:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43085"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "18:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43082"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "20:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43083"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18632"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18629"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "16:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43085"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "18:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43082"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "20:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43083"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18632"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18629"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "19:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18628"
         }
       ]
     },
@@ -5713,49 +6888,482 @@
           "date": "2026-04-30",
           "time": "19:50",
           "url": "https://kinepolis.es/movies/detail/36596/HO00006362/0/la-momia-de-lee-cronin"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1000828",
-      "title": "LA HABITACIÓN DE MARIANA",
-      "title_local": "La habitación de Mariana",
-      "poster": "posters/la-habitacion-de-mariana.jpg",
-      "rating": 6.9,
-      "duration": 130,
-      "genres": [
-        "Drama",
-        "Historia"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-04-22",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-habitacion-de-mariana/380842/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-04-23",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-habitacion-de-mariana/380875/?step=2"
         },
         {
           "cinema": "abc_park",
           "language": "ES",
-          "date": "2026-04-23",
-          "time": "17:00",
-          "url": "https://park.cinesabc.com/index?pag=cartelera"
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2963"
         },
         {
           "cinema": "abc_park",
           "language": "ES",
-          "date": "2026-04-24",
-          "time": "22:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2992"
+          "date": "2026-04-25",
+          "time": "17:50",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2963"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VO",
+          "date": "2026-04-25",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2963"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2963"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2963"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "17:50",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2963"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:25",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2963"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2963"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2963"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "17:50",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2963"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:25",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2963"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:10",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2963"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43055"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "21:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43054"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43214"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "19:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43215"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43216"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18626"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "19:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18625"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18624"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "18:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43055"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "21:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43054"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "16:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43214"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "19:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43215"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "22:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43216"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "16:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18626"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "19:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18625"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "22:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18624"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "18:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43055"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "21:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43054"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "16:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43214"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "19:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43215"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "22:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43216"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "16:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18626"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "19:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18625"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "22:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18624"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "18:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43055"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "21:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43054"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "16:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43214"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "19:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43215"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "22:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43216"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "16:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18626"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "19:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18625"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "22:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18624"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "18:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43055"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "21:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43054"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "16:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43214"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "19:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43215"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "22:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43216"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "16:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18626"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "19:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18625"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "22:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18624"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "18:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43055"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "21:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43054"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "16:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43214"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "19:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43215"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "22:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43216"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "16:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18626"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "19:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18625"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "22:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18624"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "18:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43055"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "21:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43054"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "16:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43214"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "19:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43215"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "22:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43216"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "16:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18626"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "19:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18625"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "22:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18624"
         }
       ]
     },
@@ -5791,6 +7399,13 @@
           "cinema": "abc_granturia",
           "language": "ES",
           "date": "2026-04-24",
+          "time": "19:50",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2965"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
           "time": "19:50",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2965"
         }
@@ -5987,6 +7602,13 @@
           "cinema": "abc_park",
           "language": "VO",
           "date": "2026-04-24",
+          "time": "19:45",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3004"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
           "time": "19:45",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3004"
         }
@@ -6978,6 +8600,153 @@
           "date": "2026-04-30",
           "time": "18:30",
           "url": "https://kinepolis.es/movies/detail/36701/HO00006309/0/super-mario-galaxy-la-pelicula"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2913"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2913"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2913"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2913"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "19:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2913"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2913"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2913"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2913"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "19:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2913"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "21:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2913"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43057"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43057"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43057"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43057"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43057"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43057"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "17:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43074"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "19:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43073"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43057"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43049"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "20:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43052"
         }
       ]
     },
@@ -7344,6 +9113,125 @@
           "date": "2026-04-30",
           "time": "16:45",
           "url": "https://kinepolis.es/movies/detail/36661/HO00006423/0/turno-de-noche"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3003"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:05",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3003"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:20",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3003"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:20",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3003"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3003"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43091"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "16:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43091"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "16:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43091"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "16:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43091"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "16:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43091"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "16:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43091"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "16:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43091"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/36661/HO00006423/0/turno-de-noche"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-04-25",
+          "time": "20:25",
+          "url": "https://kinepolis.es/movies/detail/36661/HO00006424/0/turno-de-noche"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/36661/HO00006423/0/turno-de-noche"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/36661/HO00006423/0/turno-de-noche"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/36661/HO00006423/0/turno-de-noche"
         }
       ]
     },
@@ -7444,27 +9332,70 @@
           "date": "2026-04-30",
           "time": "22:30",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43021"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:50",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2934"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "22:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43053"
         }
       ]
     },
     {
-      "id": "tmdb-1103551",
-      "title": "LA RISA Y LA NAVAJA",
-      "title_local": "La risa y la navaja",
-      "poster": "posters/la-risa-y-la-navaja.jpg",
-      "rating": 6.7,
-      "duration": 211,
+      "id": "tmdb-1316092",
+      "title": "CUMBRES BORRASCOSAS",
+      "title_local": "“Cumbres Borrascosas”",
+      "poster": "posters/cumbres-borrascosas.jpg",
+      "rating": 6.5,
+      "duration": 136,
       "genres": [
+        "Romance",
         "Drama"
       ],
-      "trailer_youtube_id": "TPnbc_286Q8",
+      "trailer_youtube_id": "3fLCdIYShEQ",
       "showtimes": [
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-23",
+          "time": "18:10",
+          "url": "https://elsaler.cinesabc.com/index?pag=cartelera"
+        },
         {
           "cinema": "abc_park",
           "language": "ES",
           "date": "2026-04-24",
-          "time": "21:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3010"
+          "time": "22:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2802"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "18:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2802"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2802"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2802"
         }
       ]
     },
@@ -8256,42 +10187,153 @@
           "date": "2026-04-30",
           "time": "18:30",
           "url": "https://kinepolis.es/movies/detail/37628/HO00006295/0/torrente-presidente"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1316092",
-      "title": "CUMBRES BORRASCOSAS",
-      "title_local": "“Cumbres Borrascosas”",
-      "poster": "posters/cumbres-borrascosas.jpg",
-      "rating": 6.5,
-      "duration": 136,
-      "genres": [
-        "Romance",
-        "Drama"
-      ],
-      "trailer_youtube_id": "3fLCdIYShEQ",
-      "showtimes": [
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-04-23",
-          "time": "18:10",
-          "url": "https://elsaler.cinesabc.com/index?pag=cartelera"
         },
         {
           "cinema": "abc_park",
           "language": "ES",
-          "date": "2026-04-24",
-          "time": "22:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2802"
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2869"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2869"
         },
         {
           "cinema": "abc_elsaler",
           "language": "ES",
-          "date": "2026-04-24",
-          "time": "18:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2802"
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2869"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:35",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2869"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:35",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2869"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2869"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:25",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2869"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:25",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2869"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:40",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2869"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43106"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43106"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43106"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43106"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43106"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43106"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43106"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "18:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43105"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "20:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43103"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "22:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43104"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "18:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18619"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "22:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18623"
         }
       ]
     },
@@ -8361,6 +10403,20 @@
           "cinema": "dor",
           "language": "ES",
           "date": "2026-04-30",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-05-01",
           "time": "20:25",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -8599,6 +10655,132 @@
           "date": "2026-04-30",
           "time": "17:45",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43036"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VO",
+          "date": "2026-04-25",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3006"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3006"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3006"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:20",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3006"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "15:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43097"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43096"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "15:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43097"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "18:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43096"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "15:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43097"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "18:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43096"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "15:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43097"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "18:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43096"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "15:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43097"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "18:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43096"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "15:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43097"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "18:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43096"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "15:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43097"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "18:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43096"
         }
       ]
     },
@@ -8782,6 +10964,27 @@
           "date": "2026-04-24",
           "time": "16:00",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2988"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2988"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2988"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2988"
         }
       ]
     },
@@ -8903,6 +11106,13 @@
           "language": "ES",
           "date": "2026-04-24",
           "time": "18:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3016"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:45",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3016"
         }
       ]
@@ -9115,231 +11325,186 @@
           "date": "2026-04-30",
           "time": "22:00",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43032"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2968"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:20",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2968"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2968"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:10",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2968"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43059"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "16:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43059"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "16:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43059"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "16:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43059"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "16:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43059"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "16:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43059"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "16:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43059"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "22:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43084"
         }
       ]
     },
     {
-      "id": "tmdb-1577498",
-      "title": "Después de Kim",
-      "title_local": "Después de Kim",
-      "poster": "posters/despues-de-kim.jpg",
+      "id": "local-produccion-valenciana-despues-de-kim",
+      "title": "Producción valenciana – Después de Kim",
+      "title_local": "Producción valenciana – Después de Kim",
+      "poster": null,
       "rating": null,
-      "duration": 90,
+      "duration": null,
       "genres": [],
       "trailer_youtube_id": null,
       "showtimes": [
         {
           "cinema": "babel",
           "language": "ES",
-          "date": "2026-04-24",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/despues-de-kim/63621/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-04-24",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/despues-de-kim/63616/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
           "date": "2026-04-25",
           "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/despues-de-kim/63612/?step=2"
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-despues-de-kim/63612/?step=2"
         },
         {
           "cinema": "babel",
           "language": "ES",
           "date": "2026-04-25",
           "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/despues-de-kim/63637/?step=2"
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-despues-de-kim/63637/?step=2"
         },
         {
           "cinema": "babel",
           "language": "ES",
           "date": "2026-04-25",
           "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/despues-de-kim/63638/?step=2"
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-despues-de-kim/63638/?step=2"
         },
         {
           "cinema": "babel",
           "language": "ES",
           "date": "2026-04-26",
           "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/despues-de-kim/63613/?step=2"
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-despues-de-kim/63613/?step=2"
         },
         {
           "cinema": "babel",
           "language": "ES",
           "date": "2026-04-26",
           "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/despues-de-kim/63656/?step=2"
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-despues-de-kim/63656/?step=2"
         },
         {
           "cinema": "babel",
           "language": "ES",
           "date": "2026-04-26",
           "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/despues-de-kim/63651/?step=2"
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-despues-de-kim/63651/?step=2"
         },
         {
           "cinema": "babel",
           "language": "ES",
           "date": "2026-04-27",
           "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/despues-de-kim/63673/?step=2"
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-despues-de-kim/63724/?step=2"
         },
         {
           "cinema": "babel",
           "language": "ES",
           "date": "2026-04-27",
           "time": "18:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/despues-de-kim/63670/?step=2"
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-despues-de-kim/63670/?step=2"
         },
         {
           "cinema": "babel",
           "language": "ES",
           "date": "2026-04-28",
           "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/despues-de-kim/63689/?step=2"
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-despues-de-kim/63689/?step=2"
         },
         {
           "cinema": "babel",
           "language": "ES",
           "date": "2026-04-28",
           "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/despues-de-kim/63684/?step=2"
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-despues-de-kim/63684/?step=2"
         },
         {
           "cinema": "babel",
           "language": "ES",
           "date": "2026-04-29",
           "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/despues-de-kim/63708/?step=2"
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-despues-de-kim/63708/?step=2"
         },
         {
           "cinema": "babel",
           "language": "ES",
           "date": "2026-04-29",
           "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/despues-de-kim/63703/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-04-24",
-          "time": "16:10",
-          "url": "http://www.reservaentradas.com:443/reservaentradas/entrada/valencia/cineslys/despues-de-kim/380942/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-04-24",
-          "time": "18:20",
-          "url": "http://www.reservaentradas.com:443/reservaentradas/entrada/valencia/cineslys/despues-de-kim/380943/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1563543",
-      "title": "La buena hija",
-      "title_local": "La buena hija",
-      "poster": "posters/la-buena-hija.jpg",
-      "rating": null,
-      "duration": 101,
-      "genres": [
-        "Drama"
-      ],
-      "trailer_youtube_id": "dKmRtws2W7o",
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-04-24",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-buena-hija/63629/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-04-28",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-buena-hija/63699/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-30-a-os-30-peliculas-whisky",
-      "title": "30 años 30 películas – Whisky",
-      "title_local": "30 años 30 películas – Whisky",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-04-24",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-whisky/63622/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-04-25",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-whisky/63639/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-04-26",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-whisky/63657/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-04-27",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-whisky/63674/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-04-28",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-whisky/63690/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-04-29",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-whisky/63709/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-cine-con-cineastas-nena",
-      "title": "Cine con cineastas – Nena",
-      "title_local": "Cine con cineastas – Nena",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-04-24",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-cineastas-nena/63572/?step=2"
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-despues-de-kim/63703/?step=2"
         }
       ]
     },
@@ -9417,6 +11582,67 @@
       ]
     },
     {
+      "id": "local-30-a-os-30-peliculas-whisky",
+      "title": "30 años 30 películas – Whisky",
+      "title_local": "30 años 30 películas – Whisky",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-whisky/63622/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-whisky/63639/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-whisky/63657/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-whisky/63674/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-whisky/63690/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-whisky/63709/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-whisky/63725/?step=2"
+        }
+      ]
+    },
+    {
       "id": "local-listening-party-v-i-t-r-i-o-l-by-aspid",
       "title": "Listening party V.I.T.R.I.O.L. by Aspid",
       "title_local": "Listening party V.I.T.R.I.O.L. by Aspid",
@@ -9451,6 +11677,34 @@
           "date": "2026-04-27",
           "time": "19:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/conferencia-china-la-receta-del-prodigio/63593/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1563543",
+      "title": "La buena hija",
+      "title_local": "La buena hija",
+      "poster": "posters/la-buena-hija.jpg",
+      "rating": null,
+      "duration": 101,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": "dKmRtws2W7o",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-buena-hija/63629/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-buena-hija/63699/?step=2"
         }
       ]
     },
@@ -9622,6 +11876,74 @@
           "date": "2026-05-30",
           "time": "11:30",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/power-point-party-edicion-cine-03/63606/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1548008",
+      "title": "CASI TODO BIEN",
+      "title_local": "Casi todo bien",
+      "poster": "posters/casi-todo-bien.jpg",
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "18:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "22:45",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:45",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1669423",
+      "title": "ESPERANZA VIVA",
+      "title_local": "Esperanza viva",
+      "poster": "posters/esperanza-viva.jpg",
+      "rating": null,
+      "duration": 74,
+      "genres": [
+        "Documental"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "18:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3005"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3005"
         }
       ]
     },
@@ -9883,6 +12205,132 @@
           "date": "2026-04-30",
           "time": "22:25",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43041"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3009"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3009"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3009"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:10",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3009"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:10",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3009"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3009"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3009"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3009"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3009"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "19:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43099"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "19:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43099"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "19:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43099"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "19:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43099"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "19:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43099"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "19:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43099"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "17:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43098"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "19:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43099"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "22:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43100"
         }
       ]
     },
@@ -10310,6 +12758,182 @@
           "date": "2026-04-30",
           "time": "20:00",
           "url": "https://kinepolis.es/movies/detail/38304/HO00006429/0/la-ahorcada"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3002"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3002"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:20",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3002"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:55",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3002"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3002"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3002"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:55",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3002"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43095"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43094"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43095"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "22:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43094"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43095"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "22:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43094"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43095"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "22:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43094"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43095"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "22:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43094"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43095"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "22:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43094"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43095"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "22:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43094"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "16:05",
+          "url": "https://kinepolis.es/movies/detail/38304/HO00006429/0/la-ahorcada"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1653435",
+      "title": "ONE OK ROCK DETOX JAPAN TOUR 2025 AT NISSAN STADIUM IN CINEMAS",
+      "title_local": "ONE OK ROCK DETOX JAPAN TOUR AT NISSAN STADIUM 2025 IN CINEMAS",
+      "poster": "posters/one-ok-rock-detox-japan-tour-2025-at-nissan-stadium-in-cinemas.jpg",
+      "rating": null,
+      "duration": 118,
+      "genres": [
+        "Música",
+        "Documental"
+      ],
+      "trailer_youtube_id": "w1tJcGRStBY",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VO",
+          "date": "2026-04-25",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2962"
         }
       ]
     },
@@ -10415,53 +13039,20 @@
           "date": "2026-04-24",
           "time": "16:00",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2953"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1548008",
-      "title": "CASI TODO BIEN",
-      "title_local": "Casi todo bien",
-      "poster": "posters/casi-todo-bien.jpg",
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-04-24",
-          "time": "18:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
         },
         {
           "cinema": "abc_park",
           "language": "ES",
-          "date": "2026-04-24",
-          "time": "22:45",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1669423",
-      "title": "ESPERANZA VIVA",
-      "title_local": "Esperanza viva",
-      "poster": "posters/esperanza-viva.jpg",
-      "rating": null,
-      "duration": 74,
-      "genres": [
-        "Documental"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
+          "date": "2026-04-25",
+          "time": "22:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2953"
+        },
         {
-          "cinema": "abc_park",
+          "cinema": "abc_granturia",
           "language": "ES",
-          "date": "2026-04-24",
-          "time": "18:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3005"
+          "date": "2026-04-25",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2953"
         }
       ]
     },
@@ -10490,6 +13081,13 @@
           "language": "ES",
           "date": "2026-04-24",
           "time": "17:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2982"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:05",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=2982"
         }
       ]
@@ -10552,6 +13150,55 @@
           "date": "2026-04-30",
           "time": "18:05",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42915"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42916"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "18:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42916"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "18:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42916"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "18:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42916"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "18:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42916"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "18:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42916"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "18:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42916"
         }
       ]
     },
@@ -10640,6 +13287,13 @@
           "cinema": "kinepolis",
           "language": "VO",
           "date": "2026-04-30",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/37921/HO00006408/0/that-time-i-got-reincarnated-as-a-slime"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-01",
           "time": "18:00",
           "url": "https://kinepolis.es/movies/detail/37921/HO00006408/0/that-time-i-got-reincarnated-as-a-slime"
         }
