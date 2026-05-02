@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T07:00:00Z",
+  "updated_at": "2026-05-02T07:00:00Z",
   "movies": [
     {
       "id": "tmdb-1317149",
@@ -711,6 +711,90 @@
           "cinema": "abc_park",
           "language": "ES",
           "date": "2026-05-01",
+          "time": "18:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2976"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-05-02",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/incontrolable-i-swear/63785/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-05-02",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/incontrolable-i-swear/63786/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-05-03",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/incontrolable-i-swear/63815/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-05-03",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/incontrolable-i-swear/63816/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-05-04",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/incontrolable-i-swear/63817/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-05-04",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/incontrolable-i-swear/63818/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-05-05",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/incontrolable-i-swear/63819/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-05-05",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/incontrolable-i-swear/63820/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-05-07",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/incontrolable-i-swear/63875/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-05-07",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/incontrolable-i-swear/63876/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/incontrolable-i-swear/381333/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
           "time": "18:10",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=2976"
         }
@@ -2499,6 +2583,97 @@
           "date": "2026-05-07",
           "time": "18:45",
           "url": "https://kinepolis.es/movies/detail/35548/HO00006311/0/proyecto-salvacion"
+        },
+        {
+          "cinema": "lys",
+          "language": "VO",
+          "date": "2026-05-02",
+          "time": "19:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/proyecto-salvacion/381311/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VO",
+          "date": "2026-05-02",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/proyecto-salvacion/381312/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "11:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2933"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "19:40",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2933"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2933"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2933"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "19:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2933"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2933"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "19:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2933"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2933"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "17:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43341"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43342"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18837"
         }
       ]
     },
@@ -2886,6 +3061,20 @@
           "date": "2026-05-07",
           "time": "16:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/todo-lo-que-fuimos/63877/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/todo-lo-que-fuimos/381279/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/todo-lo-que-fuimos/381280/?step=2"
         }
       ]
     },
@@ -3075,6 +3264,13 @@
           "cinema": "abc_granturia",
           "language": "ES",
           "date": "2026-05-01",
+          "time": "16:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3008"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
           "time": "16:30",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3008"
         }
@@ -3412,6 +3608,35 @@
       ]
     },
     {
+      "id": "tmdb-1088548",
+      "title": "AMARGA NAVIDAD",
+      "title_local": "Amarga Navidad",
+      "poster": "posters/amarga-navidad.jpg",
+      "rating": 7.6,
+      "duration": 111,
+      "genres": [
+        "Drama",
+        "Comedia"
+      ],
+      "trailer_youtube_id": "OJ2op33dtFI",
+      "showtimes": [
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/amarga-navidad/381251/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/amarga-navidad/381252/?step=2"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1327819",
       "title": "Hoppers",
       "title_local": "Hoppers",
@@ -3571,6 +3796,42 @@
           "date": "2026-05-07",
           "time": "15:45",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18825"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2890"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18841"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-255329",
+      "title": "Michael Legend",
+      "title_local": "Michael Jackson... La leyenda continúa",
+      "poster": "posters/michael-legend.jpg",
+      "rating": 7.6,
+      "duration": 53,
+      "genres": [
+        "Documental",
+        "Música"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/35200/HO00005509/0/michael-legend"
         }
       ]
     },
@@ -5154,6 +5415,272 @@
           "date": "2026-05-07",
           "time": "18:15",
           "url": "https://kinepolis.es/movies/detail/36362/HO00006364/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-diablo-viste-de-prada-2/381168/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-diablo-viste-de-prada-2/380533/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-diablo-viste-de-prada-2/381169/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-diablo-viste-de-prada-2/380539/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-diablo-viste-de-prada-2/381162/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VO",
+          "date": "2026-05-02",
+          "time": "11:55",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2929"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "11:55",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2929"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2929"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VO",
+          "date": "2026-05-02",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2929"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2929"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2929"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2929"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VO",
+          "date": "2026-05-02",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2929"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VO",
+          "date": "2026-05-02",
+          "time": "22:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2929"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2929"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2929"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2929"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "19:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2929"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "20:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2929"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VO",
+          "date": "2026-05-02",
+          "time": "20:35",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2929"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:25",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2929"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2929"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2929"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "20:10",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2929"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "20:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2929"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:25",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2929"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43351"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "17:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43326"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=41489"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "19:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43327"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "20:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=41486"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "22:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43325"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=41491"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=41490"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "18:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=41488"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "19:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=41487"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "21:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=41485"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "22:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=41484"
         }
       ]
     },
@@ -5331,6 +5858,62 @@
           "date": "2026-05-07",
           "time": "20:25",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43318"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/los-justos/381243/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/los-justos/381244/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/los-justos/381325/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "12:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3029"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3029"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3029"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "18:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43349"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "20:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43348"
         }
       ]
     },
@@ -5625,6 +6208,13 @@
           "date": "2026-05-07",
           "time": "16:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-grazia/63872/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VO",
+          "date": "2026-05-02",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-grazia/381321/?step=2"
         }
       ]
     },
@@ -10645,6 +11235,377 @@
           "date": "2026-05-07",
           "time": "19:30",
           "url": "https://kinepolis.es/movies/detail/33241/HO00006393/0/michael"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/michael/381233/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/michael/381341/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/michael/381234/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/michael/381347/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/michael/381265/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "11:50",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VO",
+          "date": "2026-05-02",
+          "time": "11:50",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "17:45",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VO",
+          "date": "2026-05-02",
+          "time": "19:45",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VO",
+          "date": "2026-05-02",
+          "time": "22:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "20:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VO",
+          "date": "2026-05-02",
+          "time": "21:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "17:45",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "19:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "20:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "19:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43333"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43329"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-03",
+          "time": "19:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43333"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-03",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43329"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-04",
+          "time": "19:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43333"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-04",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43329"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-05",
+          "time": "19:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43333"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-05",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43329"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-06",
+          "time": "19:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43333"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-06",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43329"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-07",
+          "time": "19:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43333"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-07",
+          "time": "21:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43330"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-07",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43329"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "16:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43328"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "17:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43335"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "19:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43333"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43332"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "21:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43330"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43329"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "16:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43253"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "18:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43334"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "19:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43254"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "21:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43331"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "22:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43252"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18840"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "17:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18752"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "19:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18751"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "22:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18750"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-04",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
         }
       ]
     },
@@ -10869,6 +11830,27 @@
           "date": "2026-05-01",
           "time": "16:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=2946"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/calle-malaga/381259/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/calle-malaga/381260/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2946"
         }
       ]
     },
@@ -11052,6 +12034,20 @@
           "date": "2026-05-07",
           "time": "20:10",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43309"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "19:45",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3023"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "20:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43345"
         }
       ]
     },
@@ -11128,6 +12124,20 @@
           "cinema": "dor",
           "language": "ES",
           "date": "2026-05-07",
+          "time": "22:05",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-05-08",
           "time": "22:05",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -11396,6 +12406,34 @@
           "date": "2026-05-01",
           "time": "18:25",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3022"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3022"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1391325",
+      "title": "LA FAMILIA BENETÓN   2",
+      "title_local": "La familia Benetón +2",
+      "poster": "posters/la-familia-beneton-2.jpg",
+      "rating": 7.0,
+      "duration": 87,
+      "genres": [
+        "Comedia"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-familia-beneton-2/381317/?step=2"
         }
       ]
     },
@@ -13104,6 +14142,97 @@
           "date": "2026-05-07",
           "time": "15:00",
           "url": "https://kinepolis.es/movies/detail/38094/HO00006367/0/la-familia-beneton-2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "12:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2987"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2987"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2987"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2987"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "17:45",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2987"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "19:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2987"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2987"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "17:45",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2987"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "19:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2987"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2987"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "16:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43355"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "18:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43347"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18831"
         }
       ]
     },
@@ -15828,6 +16957,111 @@
           "date": "2026-05-07",
           "time": "19:45",
           "url": "https://kinepolis.es/movies/detail/36596/HO00006362/0/la-momia-de-lee-cronin"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-momia-de-lee-cronin/381219/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-momia-de-lee-cronin/381220/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-momia-de-lee-cronin/381225/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "20:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2963"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2963"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2963"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "21:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2963"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2963"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2963"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:10",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2963"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2963"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "19:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43354"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "21:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43353"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "19:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18838"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "21:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18834"
         }
       ]
     },
@@ -15897,6 +17131,20 @@
           "cinema": "dor",
           "language": "ES",
           "date": "2026-05-07",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-05-08",
           "time": "20:20",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -18526,6 +19774,118 @@
           "date": "2026-05-07",
           "time": "17:15",
           "url": "https://kinepolis.es/movies/detail/36701/HO00006309/0/super-mario-galaxy-la-pelicula"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/super-mario-galaxy-la-pelicula/381207/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/super-mario-galaxy-la-pelicula/381208/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "12:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2913"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2913"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "17:50",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2913"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2913"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2913"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2913"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:10",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2913"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "19:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2913"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "17:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43343"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "20:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43344"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "16:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43350"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18839"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "18:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18830"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "20:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18836"
         }
       ]
     },
@@ -19340,34 +20700,13 @@
           "date": "2026-05-01",
           "time": "16:20",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3003"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1277872",
-      "title": "ENZO",
-      "title_local": "Enzo",
-      "poster": "posters/enzo.jpg",
-      "rating": 6.6,
-      "duration": 102,
-      "genres": [
-        "Drama"
-      ],
-      "trailer_youtube_id": "fFY1QOm_cq8",
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "VO",
-          "date": "2026-04-30",
-          "time": "17:45",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3026"
         },
         {
-          "cinema": "abc_park",
-          "language": "VO",
-          "date": "2026-05-01",
-          "time": "17:45",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3026"
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:20",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3003"
         }
       ]
     },
@@ -21370,6 +22709,83 @@
           "date": "2026-05-07",
           "time": "19:30",
           "url": "https://kinepolis.es/movies/detail/37628/HO00006295/0/torrente-presidente"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/torrente-presidente/381297/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/torrente-presidente/381298/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/torrente-presidente/381299/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "20:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2869"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:45",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2869"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:40",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2869"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "20:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2869"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2869"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "20:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43336"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "16:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18832"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "22:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18833"
         }
       ]
     },
@@ -21728,6 +23144,49 @@
           "date": "2026-05-01",
           "time": "22:35",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3030"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-plaga/381337/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3030"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3030"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1309725",
+      "title": "LA MUJER MÁS RICA DEL MUNDO",
+      "title_local": "La mujer más rica del mundo",
+      "poster": "posters/la-mujer-mas-rica-del-mundo.jpg",
+      "rating": 6.1,
+      "duration": 121,
+      "genres": [
+        "Comedia",
+        "Drama"
+      ],
+      "trailer_youtube_id": "w0SzsfPzB7g",
+      "showtimes": [
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-mujer-mas-rica-del-mundo/381329/?step=2"
         }
       ]
     },
@@ -22213,6 +23672,83 @@
           "date": "2026-05-07",
           "time": "22:45",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43526"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/strangers-capitulo-final/381213/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "12:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3025"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3025"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3025"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:10",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3025"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:35",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3025"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3025"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "20:10",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3025"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3025"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "20:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43356"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "22:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43357"
         }
       ]
     },
@@ -22802,109 +24338,41 @@
           "date": "2026-05-07",
           "time": "22:25",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43317"
-        }
-      ]
-    },
-    {
-      "id": "local-30-a-os-30-peliculas-the-party",
-      "title": "30 años 30 películas – The Party",
-      "title_local": "30 años 30 películas – The Party",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-04-30",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63749/?step=2"
         },
         {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-01",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63777/?step=2"
-        },
-        {
-          "cinema": "babel",
+          "cinema": "abc_park",
           "language": "ES",
           "date": "2026-05-02",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63795/?step=2"
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2968"
         },
         {
-          "cinema": "babel",
+          "cinema": "abc_elsaler",
           "language": "ES",
-          "date": "2026-05-03",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63845/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-04",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63846/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-05",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63847/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-04-30",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63749/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-05-01",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63777/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VO",
           "date": "2026-05-02",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63795/?step=2"
+          "time": "20:25",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2968"
         },
         {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-05-03",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63845/?step=2"
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2968"
         },
         {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-05-04",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63846/?step=2"
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:45",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2968"
         },
         {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-05-05",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63847/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-05-06",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63888/?step=2"
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "22:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43352"
         }
       ]
     },
@@ -23241,6 +24709,109 @@
       ]
     },
     {
+      "id": "local-30-a-os-30-peliculas-the-party",
+      "title": "30 años 30 películas – The Party",
+      "title_local": "30 años 30 películas – The Party",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63749/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63777/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63795/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-03",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63845/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-04",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63846/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-05",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63847/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-04-30",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63749/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-05-01",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63777/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-05-02",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63795/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-05-03",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63845/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-05-04",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63846/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-05-05",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63847/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-05-06",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-the-party/63888/?step=2"
+        }
+      ]
+    },
+    {
       "id": "local-mayo-club-de-escritura",
       "title": "Mayo – Club de escritura",
       "title_local": "Mayo – Club de escritura",
@@ -23294,6 +24865,13 @@
           "date": "2026-05-07",
           "time": "19:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-club-the-party/63730/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-05-07",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-club-the-party/63730/?step=2"
         }
       ]
     },
@@ -23313,6 +24891,25 @@
           "date": "2026-05-07",
           "time": "19:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-cineastas-despues-de-kim/63720/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-club-de-lectura-babel-el-hombre-elefante",
+      "title": "Club de lectura Babel – El hombre elefante",
+      "title_local": "Club de lectura Babel – El hombre elefante",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-12",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/club-de-lectura-babel-el-hombre-elefante/63909/?step=2"
         }
       ]
     },
@@ -23393,164 +24990,21 @@
       ]
     },
     {
-      "id": "tmdb-1682744",
-      "title": "¿CÓMO HEMOS LLEGADO A ESTO?",
-      "title_local": "¿Cómo hemos llegado a esto?",
-      "poster": "posters/como-hemos-llegado-a-esto.jpg",
-      "rating": null,
-      "duration": 75,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-04-30",
-          "time": "20:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3024"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-01",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3024"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1574164",
-      "title": "ASÍ LLEGÓ LA NOCHE",
-      "title_local": "Así llegó la noche",
-      "poster": "posters/asi-llego-la-noche.jpg",
-      "rating": null,
-      "duration": 122,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-04-30",
-          "time": "20:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3032"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-01",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3032"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1548008",
-      "title": "CASI TODO BIEN",
-      "title_local": "Casi todo bien",
-      "poster": "posters/casi-todo-bien.jpg",
+      "id": "local-club-de-lectura-babel-donde-viven-los-monstruos",
+      "title": "Club de lectura Babel – Donde viven los monstruos",
+      "title_local": "Club de lectura Babel – Donde viven los monstruos",
+      "poster": null,
       "rating": null,
       "duration": null,
       "genres": [],
       "trailer_youtube_id": null,
       "showtimes": [
         {
-          "cinema": "abc_park",
+          "cinema": "babel",
           "language": "ES",
-          "date": "2026-04-24",
-          "time": "18:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-04-24",
-          "time": "22:45",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-04-25",
+          "date": "2026-06-16",
           "time": "18:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-04-25",
-          "time": "22:45",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-04-26",
-          "time": "18:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-04-26",
-          "time": "22:45",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-04-27",
-          "time": "18:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-04-27",
-          "time": "22:45",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-04-28",
-          "time": "18:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-04-28",
-          "time": "22:45",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-04-29",
-          "time": "18:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-04-29",
-          "time": "22:35",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-04-30",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-01",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/club-de-lectura-babel-donde-viven-los-monstruos/63910/?step=2"
         }
       ]
     },
@@ -23913,111 +25367,137 @@
           "date": "2026-05-07",
           "time": "15:55",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43314"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/david-una-aventura-gigante/381305/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "12:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3027"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3027"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "17:40",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3027"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VO",
+          "date": "2026-05-02",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3027"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3027"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "17:50",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3027"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "20:25",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3027"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3027"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3027"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3027"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "20:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3027"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3027"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "16:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43337"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "18:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43338"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "15:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43340"
         }
       ]
     },
     {
-      "id": "tmdb-1669423",
-      "title": "ESPERANZA VIVA",
-      "title_local": "Esperanza viva",
-      "poster": "posters/esperanza-viva.jpg",
+      "id": "tmdb-1577498",
+      "title": "DESPUÉS DE KIM",
+      "title_local": "Después de Kim",
+      "poster": "posters/despues-de-kim.jpg",
       "rating": null,
-      "duration": 74,
-      "genres": [
-        "Documental"
-      ],
+      "duration": 90,
+      "genres": [],
       "trailer_youtube_id": null,
       "showtimes": [
         {
-          "cinema": "abc_park",
+          "cinema": "lys",
           "language": "ES",
-          "date": "2026-04-24",
-          "time": "18:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3005"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-04-25",
-          "time": "18:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3005"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-04-26",
-          "time": "12:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3005"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-04-26",
-          "time": "18:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3005"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-04-27",
-          "time": "18:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3005"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-04-27",
-          "time": "16:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3005"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-04-27",
-          "time": "16:20",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3005"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-04-28",
-          "time": "16:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3005"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-04-28",
-          "time": "16:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3005"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-04-28",
-          "time": "16:20",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3005"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-04-29",
-          "time": "18:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3005"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-04-30",
-          "time": "16:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3005"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-01",
-          "time": "16:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3005"
+          "date": "2026-05-02",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/despues-de-kim/381285/?step=2"
         }
       ]
     },
@@ -24979,6 +26459,55 @@
           "date": "2026-05-07",
           "time": "22:20",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43308"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/kraken-el-libro-negro-de-las-horas/381271/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/kraken-el-libro-negro-de-las-horas/381272/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3009"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:10",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3009"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3009"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "18:20",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3009"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "22:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43346"
         }
       ]
     },
@@ -25994,6 +27523,97 @@
           "date": "2026-05-01",
           "time": "22:55",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3002"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-ahorcada/381289/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "20:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3002"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:40",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3002"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3002"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "20:40",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3002"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:55",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3002"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43339"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-03",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43339"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-04",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43339"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-05",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43339"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-06",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43339"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-07",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43339"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43339"
         }
       ]
     },
@@ -26052,18 +27672,247 @@
           "date": "2026-05-01",
           "time": "22:55",
           "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3028"
+        },
+        {
+          "cinema": "lys",
+          "language": "VO",
+          "date": "2026-05-02",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/that-time-i-got-reincarnated-as-a-slime-la-pelicula-lagrimas-del-mar-celeste/381201/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "12:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3028"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "17:45",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3028"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "22:55",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3028"
         }
       ]
     },
     {
-      "id": "tmdb-1664637",
-      "title": "WE THE HISPANOS",
-      "title_local": "We the Hispanos: The Hispanic Roots of the United States",
-      "poster": "posters/we-the-hispanos.jpg",
+      "id": "tmdb-1682744",
+      "title": "¿CÓMO HEMOS LLEGADO A ESTO?",
+      "title_local": "¿Cómo hemos llegado a esto?",
+      "poster": "posters/como-hemos-llegado-a-esto.jpg",
       "rating": null,
-      "duration": 118,
+      "duration": 75,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "20:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3024"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3024"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3024"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1574164",
+      "title": "ASÍ LLEGÓ LA NOCHE",
+      "title_local": "Así llegó la noche",
+      "poster": "posters/asi-llego-la-noche.jpg",
+      "rating": null,
+      "duration": 122,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "20:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3032"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3032"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3032"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1548008",
+      "title": "CASI TODO BIEN",
+      "title_local": "Casi todo bien",
+      "poster": "posters/casi-todo-bien.jpg",
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "18:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-24",
+          "time": "22:45",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "22:45",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "18:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "22:45",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "18:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "22:45",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "18:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "22:45",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "18:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "22:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-01",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3001"
+        }
+      ]
+    },
+    {
+      "id": "local-enzo-pase-especial",
+      "title": "ENZO - PASE ESPECIAL",
+      "title_local": "ENZO - PASE ESPECIAL",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VO",
+          "date": "2026-05-02",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2999"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1669423",
+      "title": "ESPERANZA VIVA",
+      "title_local": "Esperanza viva",
+      "poster": "posters/esperanza-viva.jpg",
+      "rating": null,
+      "duration": 74,
       "genres": [
-        "Historia",
         "Documental"
       ],
       "trailer_youtube_id": null,
@@ -26071,9 +27920,182 @@
         {
           "cinema": "abc_park",
           "language": "ES",
+          "date": "2026-04-24",
+          "time": "18:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3005"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-25",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3005"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "12:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3005"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-26",
+          "time": "18:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3005"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "18:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3005"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "16:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3005"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-27",
+          "time": "16:20",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3005"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "16:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3005"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "16:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3005"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-04-28",
+          "time": "16:20",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3005"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-29",
+          "time": "18:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3005"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-04-30",
+          "time": "16:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3005"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
           "date": "2026-05-01",
           "time": "16:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2982"
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3005"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "16:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3005"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1206166",
+      "title": "RAJA SHIVAJI",
+      "title_local": "Prabho Shivaji Raja",
+      "poster": null,
+      "rating": null,
+      "duration": 105,
+      "genres": [
+        "Animación"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3041"
+        }
+      ]
+    },
+    {
+      "id": "local-eugene-onegin-met-live-25-26",
+      "title": "EUGENE ONEGIN - MET LIVE 25-26",
+      "title_local": "EUGENE ONEGIN - MET LIVE 25-26",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-02",
+          "time": "19:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=23950"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-03",
+          "time": "19:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=23950"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-04",
+          "time": "19:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=23950"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-05",
+          "time": "19:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=23950"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-06",
+          "time": "19:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=23950"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-07",
+          "time": "19:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=23950"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "19:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=23950"
         }
       ]
     },
@@ -26146,6 +28168,13 @@
           "date": "2026-05-07",
           "time": "18:05",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42903"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "18:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42904"
         }
       ]
     },
@@ -26186,6 +28215,86 @@
           "date": "2026-05-07",
           "time": "17:30",
           "url": "https://kinepolis.es/movies/detail/38179/HO00006396/0/lucia-di-lammermoor"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-931285",
+      "title": "Mortal Kombat II",
+      "title_local": "Mortal Kombat II",
+      "poster": "posters/mortal-kombat-ii.jpg",
+      "rating": null,
+      "duration": 116,
+      "genres": [
+        "Acción",
+        "Fantasía",
+        "Aventura"
+      ],
+      "trailer_youtube_id": "zva2PQ-ud5Y",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "19:45",
+          "url": "https://kinepolis.es/movies/detail/34019/HO00006369/0/mortal-kombat-ii"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/34019/HO00006369/0/mortal-kombat-ii"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/34019/HO00006369/0/mortal-kombat-ii"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "19:15",
+          "url": "https://kinepolis.es/movies/detail/34019/HO00006369/0/mortal-kombat-ii"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-08",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/34019/HO00006418/0/mortal-kombat-ii"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1515899",
+      "title": "Billie Eilish. Hit Me Hard and Soft: The Tour",
+      "title_local": "Billie Eilish - Hit Me Hard and Soft: The Tour (en 3D)",
+      "poster": "posters/billie-eilish-hit-me-hard-and-soft-the-tour.jpg",
+      "rating": null,
+      "duration": 114,
+      "genres": [
+        "Música",
+        "Documental"
+      ],
+      "trailer_youtube_id": "9ElURjcuWLQ",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-08",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-08",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
         }
       ]
     },
