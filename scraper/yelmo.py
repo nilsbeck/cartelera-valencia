@@ -1,6 +1,6 @@
 """
-Yelmo Cines Valencia scraper.
-URL: https://www.yelmocines.es/cartelera/valencia?fecha=YYYY-MM-DD
+Yelmo Cines Valencia scraper — Mercado de Campanar location only.
+URL: https://www.yelmocines.es/cartelera/valencia/mercado-de-campanar?fecha=YYYY-MM-DD
 
 DOM structure (client-rendered — Playwright MUST wait for JS):
   section#now__city.listaCarteleraHorario  (empty placeholder in raw HTML)
@@ -18,7 +18,7 @@ from datetime import date, timedelta
 from playwright.sync_api import sync_playwright
 
 BASE_URL  = "https://www.yelmocines.es"
-CITY_SLUG = "valencia"
+CITY_SLUG = "valencia/mercado-de-campanar"
 
 
 def scrape() -> list[dict]:
