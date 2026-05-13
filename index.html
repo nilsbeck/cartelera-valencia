@@ -153,10 +153,9 @@
     font-weight: 500;
   }
 
-  .toggle[data-lang="VO"].active   { background: var(--vo-color);   border-color: var(--vo-color); }
-  .toggle[data-lang="VOSE"].active { background: var(--vose-color); border-color: var(--vose-color); }
-  .toggle[data-lang="ES"].active   { background: var(--es-color);   border-color: var(--es-color); }
-  .toggle[data-lang="VAL"].active  { background: var(--val-color);  border-color: var(--val-color); }
+  .toggle[data-lang="VO"].active  { background: var(--vo-color);  border-color: var(--vo-color); }
+  .toggle[data-lang="ES"].active  { background: var(--es-color);  border-color: var(--es-color); }
+  .toggle[data-lang="VAL"].active { background: var(--val-color); border-color: var(--val-color); }
 
   .toggle[data-cinema].active {
     background: var(--accent);
@@ -529,7 +528,6 @@
   <div class="filter-row filter-langs" id="filter-langs">
     <span class="filter-label">Lang</span>
     <button class="toggle active" data-lang="VO">VO</button>
-    <button class="toggle active" data-lang="VOSE">VOSE</button>
     <button class="toggle active" data-lang="ES">ES</button>
     <button class="toggle active" data-lang="VAL">VAL</button>
   </div>
@@ -700,7 +698,7 @@ function cinemaLabel(id) {
 
 let state = {
   data: null,
-  activeLangs: new Set(['VO', 'VOSE', 'ES', 'VAL']),
+  activeLangs: new Set(['VO', 'ES', 'VAL']),
   activeCinemas: new Set(),
   allCinemas: [],
   activeDate: null,
@@ -803,7 +801,7 @@ function renderMovies() {
   const filtered = data.movies.map(movie => {
     const showtimes = movie.showtimes.filter(s =>
       s.date === activeDate &&
-      activeLangs.has(s.language) &&
+      (activeLangs.has(s.language) || (activeLangs.has('VO') && s.language === 'VOSE')) &&
       activeCinemas.has(s.cinema)
     );
     return { ...movie, showtimes };
