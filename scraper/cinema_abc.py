@@ -115,16 +115,21 @@ def _parse_ficha_date(text: str) -> "str | None":
         return None
 
 
-def _detect_language(etiq_el) -> str:
-    """Return raw language code from the .etiq-hora element."""
-    if etiq_el is None:
-        return "es"
-    text = etiq_el.inner_text().strip().lower()
-    if "vose" in text:
+def _detect_lang_from_text(text: str) -> str:
+    """Return raw language code from a label string (case-insensitive)."""
+    t = text.strip().lower()
+    if "vose" in t:
         return "vose"
-    if text in ("vo", "v.o.", "v.o.s.", "v.o.s.e."):
+    if t in ("vo", "v.o.", "v.o.s.", "v.o.s.e."):
         return "vo"
     return "es"
+
+
+def _detect_language(etiq_el) -> str:
+    """Return raw language code from the .etiq-hora DOM element."""
+    if etiq_el is None:
+        return "es"
+    return _detect_lang_from_text(etiq_el.inner_text())
 
 
 def _collect_ficha_urls(page, base_url: str) -> dict[str, str]:
@@ -190,13 +195,7 @@ def _scrape_ficha(page, ficha_url: str, title: str) -> list[dict]:
         if date.fromisoformat(date_str) < today:
             continue
 
-        lang_text = (item.get("lang") or "").lower()
-        if "vose" in lang_text:
-            lang = "vose"
-        elif lang_text in ("vo", "v.o.", "v.o.s.", "v.o.s.e."):
-            lang = "vo"
-        else:
-            lang = "es"
+        lang = _detect_lang_from_text(item.get("lang") or "")
 
         results.append({
             "title":    title,
