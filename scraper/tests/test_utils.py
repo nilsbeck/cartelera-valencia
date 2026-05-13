@@ -25,7 +25,11 @@ from run import normalize_lang, slugify, merge_showtimes, build_movie_index
 from babel import _parse_date as babel_parse_date, _detect_language as babel_detect_lang
 from cinestudio_dor import _parse_date_range, _parse_times, _detect_language as dor_detect_lang
 from kinepolis import _detect_language as kine_detect_lang, _extract_json_array
-from cinema_abc import _detect_language as abc_detect_lang
+from cinema_abc import (
+    _detect_language as abc_detect_lang,
+    _detect_lang_from_text as abc_detect_lang_text,
+    _parse_ficha_date,
+)
 from lys import _parse_sesiones_date as lys_parse_date
 from ocine import _dates_until_next_thursday, _detect_lang as ocine_detect_lang
 
@@ -538,7 +542,115 @@ class TestOcineDetectLang:
 
 
 # ─────────────────────────────────────────────
-# cinema_abc._detect_language
+# cinema_abc._parse_ficha_date
+# ─────────────────────────────────────────────
+
+class TestAbcParseFichaDate:
+    def test_full_spanish_date(self):
+        d = _parse_ficha_date("Jueves, 14 de mayo")
+        assert d is not None
+        parsed = date.fromisoformat(d)
+        assert parsed.month == 5
+        assert parsed.day   == 14
+
+    def test_without_de(self):
+        d = _parse_ficha_date("Viernes 15 mayo")
+        assert d is not None
+        assert date.fromisoformat(d).day == 15
+
+    def test_all_months(self):
+        months = {
+            "enero": 1, "febrero": 2, "marzo": 3, "abril": 4,
+            "mayo": 5, "junio": 6, "julio": 7, "agosto": 8,
+            "septiembre": 9, "octubre": 10, "noviembre": 11, "diciembre": 12,
+        }
+        for name, num in months.items():
+            result = _parse_ficha_date(f"Lunes 10 de {name}")
+            assert result is not None, f"Failed for {name}"
+            assert date.fromisoformat(result).month == num
+
+    def test_invalid_returns_none(self):
+        assert _parse_ficha_date("")         is None
+        assert _parse_ficha_date("Hoy")      is None
+        assert _parse_ficha_date("14 / 05")  is None  # numeric month, not name
+
+    def test_returns_iso_format(self):
+        result = _parse_ficha_date("Sábado 17 de mayo")
+        assert result is not None
+        assert len(result) == 10
+        assert result[4] == "-" and result[7] == "-"
+
+    def test_uppercase_month(self):
+        d = _parse_ficha_date("JUEVES 14 DE MAYO")
+        assert d is not None
+        assert date.fromisoformat(d).month == 5
+
+    def test_mixed_case(self):
+        d = _parse_ficha_date("Miércoles, 20 de Agosto")
+        assert d is not None
+        assert date.fromisoformat(d).month == 8
+        assert date.fromisoformat(d).day   == 20
+
+    def test_single_digit_day(self):
+        d = _parse_ficha_date("Lunes, 5 de junio")
+        assert d is not None
+        assert date.fromisoformat(d).day == 5
+
+
+# ─────────────────────────────────────────────
+# cinema_abc._detect_lang_from_text
+# ─────────────────────────────────────────────
+
+class TestAbcDetectLangFromText:
+    """Tests for _detect_lang_from_text — the pure-string helper used by
+    both _detect_language (DOM path) and _scrape_ficha (JS path)."""
+
+    def test_vose_exact(self):
+        assert abc_detect_lang_text("VOSE") == "vose"
+        assert abc_detect_lang_text("vose") == "vose"
+
+    def test_vose_in_parentheses(self):
+        assert abc_detect_lang_text("(VOSE)") == "vose"
+
+    def test_vose_dotted(self):
+        # The page labels sessions as "(VOSE)", not "V.O.S.E.".
+        # "v.o.s.e." (dotted, exact) falls under the VO exact-match list.
+        assert abc_detect_lang_text("v.o.s.e.") == "vo"
+        # "V.O.S.E. subtítulos" has no "vose" substring and is not an exact
+        # match, so it returns "es" — the site never emits this string.
+        assert abc_detect_lang_text("V.O.S.E. subtítulos") == "es"
+
+    def test_vo_exact_forms(self):
+        for label in ("vo", "v.o.", "v.o.s.", "v.o.s.e."):
+            assert abc_detect_lang_text(label) == "vo", f"Expected vo for {label!r}"
+
+    def test_vo_case_insensitive(self):
+        assert abc_detect_lang_text("V.O.") == "vo"
+        assert abc_detect_lang_text("VO")   == "vo"
+
+    def test_empty_is_es(self):
+        assert abc_detect_lang_text("") == "es"
+
+    def test_whitespace_is_es(self):
+        assert abc_detect_lang_text("   ") == "es"
+
+    def test_technical_badge_is_es(self):
+        assert abc_detect_lang_text("4K")      == "es"
+        assert abc_detect_lang_text("PREMIUM") == "es"
+        assert abc_detect_lang_text("ATMOS")   == "es"
+
+    def test_pipeline_vose(self):
+        assert normalize_lang(abc_detect_lang_text("(VOSE)")) == "VOSE"
+
+    def test_pipeline_vo(self):
+        assert normalize_lang(abc_detect_lang_text("V.O.")) == "VO"
+
+    def test_pipeline_es(self):
+        assert normalize_lang(abc_detect_lang_text("")) == "ES"
+
+
+# ─────────────────────────────────────────────
+# cinema_abc._detect_language  (DOM element path)
 # ─────────────────────────────────────────────
 
 class TestAbcDetectLanguage:
@@ -560,11 +672,15 @@ class TestAbcDetectLanguage:
         assert abc_detect_lang(None) == "es"
 
     def test_4k_label_is_es(self):
-        # Technical badge like "4K" should not be detected as VO
         assert abc_detect_lang(self._FakeEl("4K")) == "es"
 
     def test_vo_label(self):
         assert abc_detect_lang(self._FakeEl("V.O.")) == "vo"
+
+    def test_delegates_to_detect_lang_from_text(self):
+        # DOM element path and string path must agree
+        for label in ("(VOSE)", "V.O.", "", "4K"):
+            assert abc_detect_lang(self._FakeEl(label)) == abc_detect_lang_text(label)
 
 
 # ─────────────────────────────────────────────
