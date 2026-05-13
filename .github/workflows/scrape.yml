@@ -38,6 +38,11 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: python scraper/run.py
 
+      - name: Validate scrape output
+        env:
+          AFTER_SCRAPE: "1"
+        run: pytest scraper/tests/ -v --tb=short
+
       - name: Commit and push results
         run: |
           git config user.name "github-actions[bot]"

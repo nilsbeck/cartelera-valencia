@@ -17,9 +17,10 @@
     --dim:       #3a3a44;
     --accent:    #f0c040;
     --accent2:   #e05a2b;
-    --vo-color:  #4db8ff;
-    --es-color:  #ff7eb3;
-    --val-color: #7ed9a0;
+    --vo-color:   #4db8ff;
+    --vose-color: #a78bfa;
+    --es-color:   #ff7eb3;
+    --val-color:  #7ed9a0;
     --pill-bg:   #1a1a20;
     --pill-hover:#252530;
     --card-hover:#141418;
@@ -347,9 +348,10 @@
     flex-shrink: 0;
   }
 
-  .lang-VO  { background: rgba(77,184,255,0.12); color: var(--vo-color);  border: 1px solid rgba(77,184,255,0.2); }
-  .lang-ES  { background: rgba(255,126,179,0.12); color: var(--es-color); border: 1px solid rgba(255,126,179,0.2); }
-  .lang-VAL { background: rgba(126,217,160,0.12); color: var(--val-color);border: 1px solid rgba(126,217,160,0.2); }
+  .lang-VO   { background: rgba(77,184,255,0.12);  color: var(--vo-color);   border: 1px solid rgba(77,184,255,0.2); }
+  .lang-VOSE { background: rgba(167,139,250,0.12); color: var(--vose-color); border: 1px solid rgba(167,139,250,0.2); }
+  .lang-ES   { background: rgba(255,126,179,0.12); color: var(--es-color);   border: 1px solid rgba(255,126,179,0.2); }
+  .lang-VAL  { background: rgba(126,217,160,0.12); color: var(--val-color);  border: 1px solid rgba(126,217,160,0.2); }
 
   .time-pills {
     display: flex;
@@ -799,7 +801,7 @@ function renderMovies() {
   const filtered = data.movies.map(movie => {
     const showtimes = movie.showtimes.filter(s =>
       s.date === activeDate &&
-      activeLangs.has(s.language) &&
+      (activeLangs.has(s.language) || (activeLangs.has('VO') && s.language === 'VOSE')) &&
       activeCinemas.has(s.cinema)
     );
     return { ...movie, showtimes };

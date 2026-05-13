@@ -33,9 +33,10 @@ POSTERS_DIR.mkdir(parents=True, exist_ok=True)
 
 # ── Language normalization
 LANG_MAP = {
-    # → VO
-    "vo": "VO", "v.o.": "VO", "original": "VO", "vose": "VO",
-    "v.o.s.e.": "VO", "vos": "VO", "v.o.s.": "VO",
+    # → VO  (original audio, no subtitles)
+    "vo": "VO", "v.o.": "VO", "original": "VO",
+    # → VOSE  (original audio + Spanish subtitles)
+    "vose": "VOSE", "v.o.s.e.": "VOSE", "vos": "VOSE", "v.o.s.": "VOSE",
     # → ES
     "castellano": "ES", "español": "ES", "esp": "ES",
     "doblada": "ES", "doblado": "ES", "es": "ES",

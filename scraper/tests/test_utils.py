@@ -5,9 +5,18 @@ Run: pytest tests/ -v
 """
 
 import json
+import os
 import sys
 from pathlib import Path
 from datetime import date
+import pytest
+
+# Coverage/output tests require a fresh scrape to be meaningful.
+# Set AFTER_SCRAPE=1 in CI (scrape.yml does this) to enable them.
+_after_scrape = pytest.mark.skipif(
+    not os.environ.get("AFTER_SCRAPE"),
+    reason="Requires a fresh scrape run — set AFTER_SCRAPE=1",
+)
 
 # Make scraper modules importable
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -16,6 +25,7 @@ from run import normalize_lang, slugify, merge_showtimes, build_movie_index
 from babel import _parse_date as babel_parse_date, _detect_language as babel_detect_lang
 from cinestudio_dor import _parse_date_range, _parse_times, _detect_language as dor_detect_lang
 from kinepolis import _detect_language as kine_detect_lang, _extract_json_array
+from cinema_abc import _detect_language as abc_detect_lang
 
 
 # ─────────────────────────────────────────────
@@ -24,9 +34,12 @@ from kinepolis import _detect_language as kine_detect_lang, _extract_json_array
 
 class TestNormalizeLang:
     def test_vo_variants(self):
-        for raw in ["VO", "vo", "V.O.", "v.o.", "VOSE", "vose", "VOS", "vos",
-                    "V.O.S.E.", "v.o.s.e.", "Original", "original"]:
+        for raw in ["VO", "vo", "V.O.", "v.o.", "Original", "original"]:
             assert normalize_lang(raw) == "VO", f"Expected VO for {raw!r}"
+
+    def test_vose_variants(self):
+        for raw in ["VOSE", "vose", "VOS", "vos", "V.O.S.E.", "v.o.s.e.", "V.O.S.", "v.o.s."]:
+            assert normalize_lang(raw) == "VOSE", f"Expected VOSE for {raw!r}"
 
     def test_es_variants(self):
         for raw in ["Castellano", "castellano", "Español", "español",
@@ -44,8 +57,8 @@ class TestNormalizeLang:
         assert normalize_lang("subtitulada")== "ES"
 
     def test_strips_whitespace(self):
-        assert normalize_lang("  VO  ")  == "VO"
-        assert normalize_lang("\tVOSE\n") == "VO"
+        assert normalize_lang("  VO  ")   == "VO"
+        assert normalize_lang("\tVOSE\n") == "VOSE"
 
 
 # ─────────────────────────────────────────────
@@ -181,7 +194,7 @@ class TestShowtimesSchema:
                     "ocine", "dor",
                     "yelmo", "kinepolis",
                 }, f"Unknown cinema: {s['cinema']}"
-                assert s["language"] in {"VO","ES","VAL"}, \
+                assert s["language"] in {"VO", "VOSE", "ES", "VAL"}, \
                     f"Unknown language: {s['language']}"
                 assert len(s["date"]) == 10, f"Bad date format: {s['date']}"
                 assert ":" in s["time"],     f"Bad time format: {s['time']}"
@@ -417,3 +430,148 @@ class TestKinepolisExtractJsonArray:
         html = '"sessions":[]'
         result = _extract_json_array(html, '"sessions":[')
         assert result == []
+
+
+# ─────────────────────────────────────────────
+# cinema_abc._detect_language
+# ─────────────────────────────────────────────
+
+class TestAbcDetectLanguage:
+    class _FakeEl:
+        def __init__(self, text): self._text = text
+        def inner_text(self): return self._text
+
+    def test_vose_label(self):
+        assert abc_detect_lang(self._FakeEl("(VOSE)")) == "vose"
+
+    def test_vose_case_insensitive(self):
+        assert abc_detect_lang(self._FakeEl("vose")) == "vose"
+        assert abc_detect_lang(self._FakeEl("VOSE")) == "vose"
+
+    def test_empty_label_is_es(self):
+        assert abc_detect_lang(self._FakeEl("")) == "es"
+
+    def test_none_element_is_es(self):
+        assert abc_detect_lang(None) == "es"
+
+    def test_4k_label_is_es(self):
+        # Technical badge like "4K" should not be detected as VO
+        assert abc_detect_lang(self._FakeEl("4K")) == "es"
+
+    def test_vo_label(self):
+        assert abc_detect_lang(self._FakeEl("V.O.")) == "vo"
+
+
+# ─────────────────────────────────────────────
+# Crawler health: end-to-end normalization pipeline
+# ─────────────────────────────────────────────
+
+class TestCrawlerHealthNormalization:
+    """Verify that each scraper's raw language output flows correctly through
+    normalize_lang. These tests encode the contract between scrapers and the
+    normalization layer — if either side breaks, CI fails."""
+
+    def test_abc_vose_pipeline(self):
+        """ABC Park (VOSE) → raw 'vose' → canonical 'VOSE'."""
+        fake_el = TestAbcDetectLanguage._FakeEl("(VOSE)")
+        raw = abc_detect_lang(fake_el)
+        assert normalize_lang(raw) == "VOSE"
+
+    def test_abc_es_pipeline(self):
+        """ABC Park (dubbed) → raw 'es' → canonical 'ES'."""
+        raw = abc_detect_lang(None)
+        assert normalize_lang(raw) == "ES"
+
+    def test_babel_vose_pipeline(self):
+        """Babel (foreign audio + subtitles) → raw 'vose' → canonical 'VOSE'."""
+        class FakeBlock:
+            def query_selector_all(self, sel):
+                class FakeEl:
+                    def __init__(self, t): self._t = t
+                    def inner_text(self): return self._t
+                return [FakeEl("Idioma: Inglés"), FakeEl("Subtítulos: Castellano")]
+        raw = babel_detect_lang(FakeBlock())
+        assert normalize_lang(raw) == "VOSE"
+
+    def test_kinepolis_vose_pipeline(self):
+        """Kinépolis VOSE → raw 'vose' → canonical 'VOSE'."""
+        raw = kine_detect_lang("2D,VOSE,English", [])
+        assert normalize_lang(raw) == "VOSE"
+
+    def test_dor_vose_pipeline(self):
+        """Cinestudio d'Or subtitles → raw 'vose' → canonical 'VOSE'."""
+        raw = dor_detect_lang("versión original / subtítulos en castellano")
+        assert normalize_lang(raw) == "VOSE"
+
+    def test_no_raw_language_falls_back_to_es(self):
+        """Missing/empty language tag defaults to 'ES', not silent drop."""
+        assert normalize_lang("") == "ES"
+        assert normalize_lang("unknown_tag_xyz") == "ES"
+
+
+# ─────────────────────────────────────────────
+# Crawler health: showtimes.json cinema coverage
+# ─────────────────────────────────────────────
+
+class TestCrawlerCoverage:
+    """After a scrape run, every registered cinema must have contributed at
+    least one showtime dated today or in the future. A cinema returning zero
+    results usually means its scraper is broken (selector changed, network
+    error, etc.). These tests are intentionally strict so that CI alerts you
+    before a day's worth of missing data goes unnoticed."""
+
+    DATA_FILE = Path(__file__).parent.parent.parent / "data" / "showtimes.json"
+
+    EXPECTED_CINEMAS = {
+        "babel", "lys",
+        "abc_park", "abc_elsaler", "abc_granturia",
+        "ocine", "dor",
+        "yelmo", "kinepolis",
+    }
+
+    def _load_today_showtimes(self):
+        if not self.DATA_FILE.exists():
+            return None
+        with open(self.DATA_FILE) as f:
+            data = json.load(f)
+        today = date.today().isoformat()
+        return [
+            s
+            for m in data.get("movies", [])
+            for s in m.get("showtimes", [])
+            if s["date"] >= today
+        ]
+
+    @_after_scrape
+    def test_all_cinemas_have_future_showtimes(self):
+        showtimes = self._load_today_showtimes()
+        active_cinemas = {s["cinema"] for s in showtimes}
+        missing = self.EXPECTED_CINEMAS - active_cinemas
+        assert not missing, (
+            f"These cinemas have no upcoming showtimes (scraper may be broken): "
+            f"{', '.join(sorted(missing))}"
+        )
+
+    @_after_scrape
+    def test_minimum_movie_count(self):
+        with open(self.DATA_FILE) as f:
+            data = json.load(f)
+        today = date.today().isoformat()
+        active_movies = [
+            m for m in data.get("movies", [])
+            if any(s["date"] >= today for s in m.get("showtimes", []))
+        ]
+        assert len(active_movies) >= 5, (
+            f"Only {len(active_movies)} movies with upcoming showtimes — "
+            "scraper may have failed silently"
+        )
+
+    @_after_scrape
+    def test_vose_movies_present(self):
+        """At least one VOSE showtime must exist to confirm the pipeline works."""
+        showtimes = self._load_today_showtimes()
+        vose_count = sum(1 for s in showtimes if s["language"] == "VOSE")
+        assert vose_count >= 1, (
+            "No VOSE showtimes found — language normalization or a VOSE "
+            "scraper may be broken"
+        )
