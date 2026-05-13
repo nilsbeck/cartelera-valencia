@@ -32,6 +32,7 @@ from cinema_abc import (
 )
 from lys import _parse_sesiones_date as lys_parse_date
 from ocine import _dates_until_next_thursday, _detect_lang as ocine_detect_lang
+from yelmo import _is_novapark_href
 
 
 # ─────────────────────────────────────────────
@@ -681,6 +682,27 @@ class TestAbcDetectLanguage:
         # DOM element path and string path must agree
         for label in ("(VOSE)", "V.O.", "", "4K"):
             assert abc_detect_lang(self._FakeEl(label)) == abc_detect_lang_text(label)
+
+
+# ─────────────────────────────────────────────
+# yelmo._is_novapark_href
+# ─────────────────────────────────────────────
+
+class TestYelmoNovaparkFilter:
+    def test_novapark_url_rejected(self):
+        assert _is_novapark_href("https://entradas.yelmocines.es/novapark/sesion/123") is True
+
+    def test_novapark_case_insensitive(self):
+        assert _is_novapark_href("https://entradas.yelmocines.es/NovaPark/sesion/123") is True
+
+    def test_campanar_url_accepted(self):
+        assert _is_novapark_href("https://entradas.yelmocines.es/campanar/sesion/456") is False
+
+    def test_empty_href_accepted(self):
+        assert _is_novapark_href("") is False
+
+    def test_unrelated_url_accepted(self):
+        assert _is_novapark_href("https://www.yelmocines.es/cartelera/valencia/mercado-de-campanar") is False
 
 
 # ─────────────────────────────────────────────

@@ -1,6 +1,6 @@
 """
-Yelmo Cines Valencia scraper.
-URL: https://www.yelmocines.es/cartelera/valencia?fecha=YYYY-MM-DD
+Yelmo Cines Valencia scraper — Mercado de Campanar location only.
+URL: https://www.yelmocines.es/cartelera/valencia/mercado-de-campanar?fecha=YYYY-MM-DD
 
 DOM structure (client-rendered — Playwright MUST wait for JS):
   section#now__city.listaCarteleraHorario  (empty placeholder in raw HTML)
@@ -18,7 +18,12 @@ from datetime import date, timedelta
 from playwright.sync_api import sync_playwright
 
 BASE_URL  = "https://www.yelmocines.es"
-CITY_SLUG = "valencia"
+CITY_SLUG = "valencia/mercado-de-campanar"
+
+
+def _is_novapark_href(href: str) -> bool:
+    """Return True if a session booking link belongs to Yelmo NovaPark."""
+    return "novapark" in href.lower()
 
 
 def scrape() -> list[dict]:
@@ -77,6 +82,10 @@ def scrape() -> list[dict]:
                             time_anchors = vb.query_selector_all("a")
                             if time_anchors:
                                 for a_el in time_anchors:
+                                    href = a_el.get_attribute("href") or url
+                                    # Each session link encodes the cinema; skip NovaPark.
+                                    if _is_novapark_href(href):
+                                        continue
                                     time_el = a_el.query_selector("time")
                                     if time_el:
                                         time_text = (
@@ -85,7 +94,6 @@ def scrape() -> list[dict]:
                                         ).strip()
                                     else:
                                         time_text = a_el.inner_text().strip()
-                                    href = a_el.get_attribute("href") or url
                                     if not time_text or ":" not in time_text:
                                         continue
                                     results.append({
