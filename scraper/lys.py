@@ -143,6 +143,9 @@ def scrape() -> list[dict]:
 
         except Exception as e:
             print(f"  ⚠ Lys error: {e}")
+        else:
+            if not phase1:
+                print("  ⚠ Lys page loaded but found no movie blocks")
 
         browser.close()
 

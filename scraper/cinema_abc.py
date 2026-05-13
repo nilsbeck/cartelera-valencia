@@ -166,6 +166,8 @@ def _collect_ficha_urls(page, base_url: str) -> dict[str, str]:
             if ficha_url not in entries:
                 entries[ficha_url] = title
 
+    if not entries:
+        print(f"  ⚠ ABC ({base_url}) page loaded but found no movies")
     return entries
 
 

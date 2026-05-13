@@ -128,15 +128,19 @@ def run():
     movie_index = build_movie_index(existing)
 
     scrapers = [
-        ("babel",         scrape_babel),
-        ("lys",           scrape_lys),
-        ("abc_park",      scrape_park),
-        ("abc_elsaler",   scrape_elsaler),
-        ("abc_granturia", scrape_granturia),
-        ("ocine",         scrape_ocine),
-        ("dor",           scrape_dor),
-        ("yelmo",         scrape_yelmo),
+        # requests-only scrapers first — they're fast and free up slots quickly
         ("kinepolis",     scrape_kinepolis),
+        ("dor",           scrape_dor),
+        # Playwright scrapers, interleaved so same-domain pairs don't start together:
+        # babel and lys both hit reservaentradas.com → separated by abc_park
+        # abc_park / abc_elsaler / abc_granturia all hit cinesabc.com → spaced out
+        ("babel",         scrape_babel),
+        ("abc_park",      scrape_park),
+        ("yelmo",         scrape_yelmo),
+        ("lys",           scrape_lys),
+        ("abc_elsaler",   scrape_elsaler),
+        ("ocine",         scrape_ocine),
+        ("abc_granturia", scrape_granturia),
     ]
 
     # Raw showtimes: list of dicts with title, language (raw), cinema, date, time, url
@@ -156,7 +160,7 @@ def run():
             print(f"[{cinema_id}] ✗ Failed: {e}")
             return cinema_id, [], e
 
-    with ThreadPoolExecutor(max_workers=len(scrapers)) as pool:
+    with ThreadPoolExecutor(max_workers=4) as pool:
         futures = {pool.submit(_run, cid, fn): cid for cid, fn in scrapers}
         for future in as_completed(futures):
             cinema_id, rows, error = future.result()
