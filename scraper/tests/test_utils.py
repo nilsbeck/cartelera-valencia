@@ -26,6 +26,7 @@ from babel import _parse_date as babel_parse_date, _detect_language as babel_det
 from cinestudio_dor import _parse_date_range, _parse_times, _detect_language as dor_detect_lang
 from kinepolis import _detect_language as kine_detect_lang, _extract_json_array
 from cinema_abc import _detect_language as abc_detect_lang
+from lys import _parse_sesiones_date as lys_parse_date
 
 
 # ─────────────────────────────────────────────
@@ -433,6 +434,35 @@ class TestKinepolisExtractJsonArray:
 
 
 # ─────────────────────────────────────────────
+# lys._parse_sesiones_date
+# ─────────────────────────────────────────────
+
+class TestLysParseDate:
+    def test_standard_format(self):
+        d = lys_parse_date("Ju 23 / 04")
+        assert d is not None
+        parsed = date.fromisoformat(d)
+        assert parsed.month == 4
+        assert parsed.day   == 23
+
+    def test_compact_format(self):
+        d = lys_parse_date("Ju23/04")
+        assert d is not None
+        assert date.fromisoformat(d).day == 23
+
+    def test_invalid_returns_none(self):
+        assert lys_parse_date("")        is None
+        assert lys_parse_date("Hoy")     is None
+        assert lys_parse_date("23 abr")  is None
+
+    def test_returns_iso_format(self):
+        result = lys_parse_date("Vi 15 / 05")
+        assert result is not None
+        assert len(result) == 10
+        assert result[4] == "-" and result[7] == "-"
+
+
+# ─────────────────────────────────────────────
 # cinema_abc._detect_language
 # ─────────────────────────────────────────────
 
@@ -502,6 +532,10 @@ class TestCrawlerHealthNormalization:
         """Cinestudio d'Or subtitles → raw 'vose' → canonical 'VOSE'."""
         raw = dor_detect_lang("versión original / subtítulos en castellano")
         assert normalize_lang(raw) == "VOSE"
+
+    def test_lys_vose_pipeline(self):
+        """Lys span.label-cinema 'VOSE' → normalize_lang → canonical 'VOSE'."""
+        assert normalize_lang("VOSE") == "VOSE"
 
     def test_no_raw_language_falls_back_to_es(self):
         """Missing/empty language tag defaults to 'ES', not silent drop."""
