@@ -27,6 +27,7 @@ from cinestudio_dor import _parse_date_range, _parse_times, _detect_language as 
 from kinepolis import _detect_language as kine_detect_lang, _extract_json_array
 from cinema_abc import _detect_language as abc_detect_lang
 from lys import _parse_sesiones_date as lys_parse_date
+from ocine import _dates_until_next_thursday, _detect_lang as ocine_detect_lang
 
 
 # ─────────────────────────────────────────────
@@ -460,6 +461,80 @@ class TestLysParseDate:
         assert result is not None
         assert len(result) == 10
         assert result[4] == "-" and result[7] == "-"
+
+
+# ─────────────────────────────────────────────
+# ocine._dates_until_next_thursday
+# ─────────────────────────────────────────────
+
+class TestOcineDatesUntilNextThursday:
+    def test_always_starts_today(self):
+        dates = _dates_until_next_thursday()
+        assert dates[0] == date.today().isoformat()
+
+    def test_last_date_is_thursday(self):
+        dates = _dates_until_next_thursday()
+        last = date.fromisoformat(dates[-1])
+        assert last.weekday() == 3  # Thursday
+
+    def test_dates_are_consecutive(self):
+        dates = _dates_until_next_thursday()
+        for i in range(1, len(dates)):
+            d_prev = date.fromisoformat(dates[i - 1])
+            d_curr = date.fromisoformat(dates[i])
+            assert (d_curr - d_prev).days == 1
+
+    def test_range_is_1_to_7_days(self):
+        dates = _dates_until_next_thursday()
+        # Minimum: today is Wednesday → [Wed, Thu] = 2 dates
+        # Maximum: today is Thursday → [Thu, …, Thu] = 8 dates
+        assert 2 <= len(dates) <= 8
+
+
+# ─────────────────────────────────────────────
+# ocine._detect_lang
+# ─────────────────────────────────────────────
+
+class TestOcineDetectLang:
+    def test_vose_keyword(self):
+        assert ocine_detect_lang("VOSE") == "vose"
+
+    def test_vose_dotted(self):
+        assert ocine_detect_lang("V.O.S.E.") == "vose"
+
+    def test_vose_via_subtitulada(self):
+        assert ocine_detect_lang("versión original subtitulada") == "vose"
+
+    def test_vo_dotted(self):
+        assert ocine_detect_lang("V.O.") == "vo"
+
+    def test_vo_via_original(self):
+        assert ocine_detect_lang("Versión Original") == "vo"
+
+    def test_vose_beats_original(self):
+        # "versión original subtitulada" contains both "subtitulad" and "original"
+        # VOSE token must win
+        assert ocine_detect_lang("versión original subtitulada en castellano") == "vose"
+
+    def test_es_dubbed(self):
+        assert ocine_detect_lang("Doblada") == "es"
+        assert ocine_detect_lang("doblado")  == "es"
+
+    def test_es_castellano(self):
+        assert ocine_detect_lang("Castellano") == "es"
+
+    def test_unknown_defaults_es(self):
+        assert ocine_detect_lang("") == "es"
+        assert ocine_detect_lang("4K DolbyAtmos") == "es"
+
+    def test_pipeline_vose_to_canonical(self):
+        assert normalize_lang(ocine_detect_lang("VOSE")) == "VOSE"
+
+    def test_pipeline_vo_to_canonical(self):
+        assert normalize_lang(ocine_detect_lang("V.O.")) == "VO"
+
+    def test_pipeline_es_to_canonical(self):
+        assert normalize_lang(ocine_detect_lang("Doblada")) == "ES"
 
 
 # ─────────────────────────────────────────────
