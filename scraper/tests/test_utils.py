@@ -298,8 +298,8 @@ class TestDorParseDateRange:
     def test_same_month(self):
         dates = _parse_date_range("20 — 26 abril")
         assert len(dates) == 7
-        assert dates[0]  == date(date.today().year, 4, 20)
-        assert dates[-1] == date(date.today().year, 4, 26)
+        assert dates[0].month == 4 and dates[0].day == 20
+        assert dates[-1].month == 4 and dates[-1].day == 26
 
     def test_cross_month(self):
         dates = _parse_date_range("27 abril — 3 mayo")

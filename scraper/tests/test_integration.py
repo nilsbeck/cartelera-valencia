@@ -205,10 +205,12 @@ class TestNormalizeLangEdgeCases:
         assert normalize_lang("   ") == "ES"
 
     def test_all_known_values_map_correctly(self):
-        vo_inputs  = ["VO","vo","V.O.","VOSE","vose","VOS","vos","V.O.S.E.","Original","original"]
-        es_inputs  = ["Castellano","castellano","Español","español","ESP","Doblada","doblada","ES","es"]
-        val_inputs = ["Valencià","valencià","Valenciano","val","VAL","En valencià"]
+        vo_inputs   = ["VO","vo","V.O.","Original","original"]
+        vose_inputs = ["VOSE","vose","VOS","vos","V.O.S.E."]
+        es_inputs   = ["Castellano","castellano","Español","español","ESP","Doblada","doblada","ES","es"]
+        val_inputs  = ["Valencià","valencià","Valenciano","val","VAL","En valencià"]
 
-        for v in vo_inputs:  assert normalize_lang(v) == "VO",  v
-        for v in es_inputs:  assert normalize_lang(v) == "ES",  v
-        for v in val_inputs: assert normalize_lang(v) == "VAL", v
+        for v in vo_inputs:   assert normalize_lang(v) == "VO",   v
+        for v in vose_inputs: assert normalize_lang(v) == "VOSE", v
+        for v in es_inputs:   assert normalize_lang(v) == "ES",   v
+        for v in val_inputs:  assert normalize_lang(v) == "VAL",  v
