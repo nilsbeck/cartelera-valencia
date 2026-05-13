@@ -25,7 +25,7 @@ from run import normalize_lang, slugify, merge_showtimes, build_movie_index
 from babel import _parse_date as babel_parse_date, _detect_language as babel_detect_lang
 from cinestudio_dor import _parse_date_range, _parse_times, _detect_language as dor_detect_lang
 from kinepolis import _detect_language as kine_detect_lang, _extract_json_array
-from cinema_abc import _detect_language as abc_detect_lang
+from cinema_abc import _detect_language as abc_detect_lang, _parse_ficha_date
 from lys import _parse_sesiones_date as lys_parse_date
 from ocine import _dates_until_next_thursday, _detect_lang as ocine_detect_lang
 
@@ -535,6 +535,49 @@ class TestOcineDetectLang:
 
     def test_pipeline_es_to_canonical(self):
         assert normalize_lang(ocine_detect_lang("Doblada")) == "ES"
+
+
+# ─────────────────────────────────────────────
+# cinema_abc._parse_ficha_date
+# ─────────────────────────────────────────────
+
+class TestAbcParseFichaDate:
+    def test_full_spanish_date(self):
+        d = _parse_ficha_date("Jueves, 14 de mayo")
+        assert d is not None
+        parsed = date.fromisoformat(d)
+        assert parsed.month == 5
+        assert parsed.day   == 14
+
+    def test_without_de(self):
+        d = _parse_ficha_date("Viernes 15 mayo")
+        assert d is not None
+        assert date.fromisoformat(d).day == 15
+
+    def test_all_months(self):
+        months = {
+            "enero": 1, "febrero": 2, "marzo": 3, "abril": 4,
+            "mayo": 5, "junio": 6, "julio": 7, "agosto": 8,
+            "septiembre": 9, "octubre": 10, "noviembre": 11, "diciembre": 12,
+        }
+        for name, num in months.items():
+            result = _parse_ficha_date(f"Lunes 10 de {name}")
+            assert result is not None, f"Failed for {name}"
+            assert date.fromisoformat(result).month == num
+
+    def test_invalid_returns_none(self):
+        assert _parse_ficha_date("")           is None
+        assert _parse_ficha_date("Hoy")        is None
+        assert _parse_ficha_date("14 / 05")   is None  # numeric month, not name
+
+    def test_returns_iso_format(self):
+        result = _parse_ficha_date("Sábado 17 de mayo")
+        assert result is not None
+        assert len(result) == 10
+        assert result[4] == "-" and result[7] == "-"
+
+    def test_pipeline_vose_to_canonical(self):
+        assert normalize_lang("vose") == "VOSE"
 
 
 # ─────────────────────────────────────────────
