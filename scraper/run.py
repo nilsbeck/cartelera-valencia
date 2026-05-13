@@ -8,6 +8,7 @@ Writes: data/showtimes.json, posters/<slug>.jpg
 import json
 import os
 import re
+import sys
 import time
 import hashlib
 import requests
@@ -139,6 +140,7 @@ def run():
 
     # Raw showtimes: list of dicts with title, language (raw), cinema, date, time, url
     all_raw = []
+    scraper_errors = []
     for cinema_id, scrape_fn in scrapers:
         print(f"\n[{cinema_id}] Scraping…")
         try:
@@ -149,7 +151,16 @@ def run():
             all_raw.extend(rows)
             print(f"  → {len(rows)} showtimes")
         except Exception as e:
+            scraper_errors.append((cinema_id, e))
             print(f"  ✗ Failed: {e}")
+
+    if scraper_errors:
+        raise RuntimeError(
+            "Scraper failures — cannot produce reliable output:\n"
+            + "\n".join(f"  {cid}: {err}" for cid, err in scraper_errors)
+        )
+
+    validate_per_cinema_per_day(all_raw)
 
     # Group by title (case-insensitive; preserve casing of first occurrence)
     by_title: dict[str, list] = {}
@@ -227,5 +238,48 @@ def run():
     print(f"\n✓ {len(final_movies)} movies, {total_st} showtimes → {DATA_FILE}")
 
 
+def validate_per_cinema_per_day(all_raw: list[dict]) -> None:
+    """Raise if any cinema returns zero showtimes for any date in its expected window."""
+    from ocine import _dates_until_next_thursday
+
+    today = date.today()
+    std_dates = {(today + timedelta(days=i)).isoformat() for i in range(7)}
+
+    # Ocine runs on a Friday→Thursday cycle; its window may be shorter than 7 days.
+    ocine_dates = set(_dates_until_next_thursday())
+
+    expected: dict[str, set[str]] = {
+        "babel":         std_dates,
+        "lys":           std_dates,
+        "abc_park":      std_dates,
+        "abc_elsaler":   std_dates,
+        "abc_granturia": std_dates,
+        "ocine":         ocine_dates,
+        "dor":           std_dates,
+        "yelmo":         std_dates,
+        "kinepolis":     std_dates,
+    }
+
+    covered: set[tuple[str, str]] = set()
+    for row in all_raw:
+        covered.add((row["cinema"], row["date"]))
+
+    missing = []
+    for cinema, dates in sorted(expected.items()):
+        for d in sorted(dates):
+            if (cinema, d) not in covered:
+                missing.append(f"  {cinema} on {d}")
+
+    if missing:
+        raise RuntimeError(
+            "Every cinema must have at least 1 movie for each expected day.\n"
+            "Missing showtimes for:\n" + "\n".join(missing)
+        )
+
+
 if __name__ == "__main__":
-    run()
+    try:
+        run()
+    except Exception as exc:
+        print(f"\n✗ FATAL: {exc}", file=sys.stderr)
+        sys.exit(1)
