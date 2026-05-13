@@ -12,6 +12,7 @@ import sys
 import time
 import hashlib
 import requests
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, timedelta
 from pathlib import Path
 
@@ -141,18 +142,28 @@ def run():
     # Raw showtimes: list of dicts with title, language (raw), cinema, date, time, url
     all_raw = []
     scraper_errors = []
-    for cinema_id, scrape_fn in scrapers:
-        print(f"\n[{cinema_id}] Scraping…")
+
+    def _run(cinema_id: str, scrape_fn) -> tuple[str, list, "Exception | None"]:
+        print(f"[{cinema_id}] Scraping…")
         try:
             rows = scrape_fn()
             for r in rows:
                 r["cinema"]   = cinema_id
                 r["language"] = normalize_lang(r.get("language", ""))
-            all_raw.extend(rows)
-            print(f"  → {len(rows)} showtimes")
+            print(f"[{cinema_id}] → {len(rows)} showtimes")
+            return cinema_id, rows, None
         except Exception as e:
-            scraper_errors.append((cinema_id, e))
-            print(f"  ✗ Failed: {e}")
+            print(f"[{cinema_id}] ✗ Failed: {e}")
+            return cinema_id, [], e
+
+    with ThreadPoolExecutor(max_workers=len(scrapers)) as pool:
+        futures = {pool.submit(_run, cid, fn): cid for cid, fn in scrapers}
+        for future in as_completed(futures):
+            cinema_id, rows, error = future.result()
+            if error:
+                scraper_errors.append((cinema_id, error))
+            else:
+                all_raw.extend(rows)
 
     if scraper_errors:
         raise RuntimeError(
