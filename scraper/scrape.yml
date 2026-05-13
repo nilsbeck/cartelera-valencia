@@ -41,6 +41,11 @@ jobs:
           cd scraper
           python run.py
 
+      - name: Validate scrape output
+        env:
+          AFTER_SCRAPE: "1"
+        run: pytest scraper/tests/ -v --tb=short
+
       - name: Commit updated data
         run: |
           git config user.name  "cartelera-bot"

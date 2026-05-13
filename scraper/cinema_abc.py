@@ -39,6 +39,18 @@ _UA = (
 )
 
 
+def _detect_language(etiq_el) -> str:
+    """Return raw language code from the .etiq-hora element (or None)."""
+    if etiq_el is None:
+        return "es"
+    text = etiq_el.inner_text().strip().lower()
+    if "vose" in text:
+        return "vose"
+    if text in ("vo", "v.o.", "v.o.s.", "v.o.s.e."):
+        return "vo"
+    return "es"
+
+
 def _scrape_one(page, base_url: str) -> list[dict]:
     """Scrape one ABC cinema page that is already loaded in `page`."""
     results = []
@@ -75,8 +87,7 @@ def _scrape_one(page, base_url: str) -> list[dict]:
 
             # Language label lives inside .etiq-hora
             etiq_el = ses.query_selector("div.etiq-hora")
-            lang_raw = etiq_el.inner_text().strip() if etiq_el else ""
-            language = "vose" if "vose" in lang_raw.lower() else "es"
+            language = _detect_language(etiq_el)
 
             results.append({
                 "title":    title,

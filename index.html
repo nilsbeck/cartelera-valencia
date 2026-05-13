@@ -17,9 +17,10 @@
     --dim:       #3a3a44;
     --accent:    #f0c040;
     --accent2:   #e05a2b;
-    --vo-color:  #4db8ff;
-    --es-color:  #ff7eb3;
-    --val-color: #7ed9a0;
+    --vo-color:   #4db8ff;
+    --vose-color: #a78bfa;
+    --es-color:   #ff7eb3;
+    --val-color:  #7ed9a0;
     --pill-bg:   #1a1a20;
     --pill-hover:#252530;
     --card-hover:#141418;
@@ -152,9 +153,10 @@
     font-weight: 500;
   }
 
-  .toggle[data-lang="VO"].active  { background: var(--vo-color);  border-color: var(--vo-color); }
-  .toggle[data-lang="ES"].active  { background: var(--es-color);  border-color: var(--es-color); }
-  .toggle[data-lang="VAL"].active { background: var(--val-color); border-color: var(--val-color); }
+  .toggle[data-lang="VO"].active   { background: var(--vo-color);   border-color: var(--vo-color); }
+  .toggle[data-lang="VOSE"].active { background: var(--vose-color); border-color: var(--vose-color); }
+  .toggle[data-lang="ES"].active   { background: var(--es-color);   border-color: var(--es-color); }
+  .toggle[data-lang="VAL"].active  { background: var(--val-color);  border-color: var(--val-color); }
 
   .toggle[data-cinema].active {
     background: var(--accent);
@@ -347,9 +349,10 @@
     flex-shrink: 0;
   }
 
-  .lang-VO  { background: rgba(77,184,255,0.12); color: var(--vo-color);  border: 1px solid rgba(77,184,255,0.2); }
-  .lang-ES  { background: rgba(255,126,179,0.12); color: var(--es-color); border: 1px solid rgba(255,126,179,0.2); }
-  .lang-VAL { background: rgba(126,217,160,0.12); color: var(--val-color);border: 1px solid rgba(126,217,160,0.2); }
+  .lang-VO   { background: rgba(77,184,255,0.12);  color: var(--vo-color);   border: 1px solid rgba(77,184,255,0.2); }
+  .lang-VOSE { background: rgba(167,139,250,0.12); color: var(--vose-color); border: 1px solid rgba(167,139,250,0.2); }
+  .lang-ES   { background: rgba(255,126,179,0.12); color: var(--es-color);   border: 1px solid rgba(255,126,179,0.2); }
+  .lang-VAL  { background: rgba(126,217,160,0.12); color: var(--val-color);  border: 1px solid rgba(126,217,160,0.2); }
 
   .time-pills {
     display: flex;
@@ -526,6 +529,7 @@
   <div class="filter-row filter-langs" id="filter-langs">
     <span class="filter-label">Lang</span>
     <button class="toggle active" data-lang="VO">VO</button>
+    <button class="toggle active" data-lang="VOSE">VOSE</button>
     <button class="toggle active" data-lang="ES">ES</button>
     <button class="toggle active" data-lang="VAL">VAL</button>
   </div>
@@ -696,7 +700,7 @@ function cinemaLabel(id) {
 
 let state = {
   data: null,
-  activeLangs: new Set(['VO', 'ES', 'VAL']),
+  activeLangs: new Set(['VO', 'VOSE', 'ES', 'VAL']),
   activeCinemas: new Set(),
   allCinemas: [],
   activeDate: null,
