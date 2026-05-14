@@ -43,7 +43,7 @@ CINEMAS = [
 
 _UA = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
 )
 
 _MONTHS = {
@@ -57,12 +57,10 @@ _MONTHS = {
 # element whose text looks like a Spanish date ("14 de mayo", "jueves 14 mayo").
 _JS_SESSIONS = """
 () => {
-    const MONTHS = {
-        'enero':1,'febrero':2,'marzo':3,'abril':4,'mayo':5,'junio':6,
-        'julio':7,'agosto':8,'septiembre':9,'octubre':10,'noviembre':11,'diciembre':12
-    };
     function looksLikeDate(text) {
-        return /\\d{1,2}\\s+(?:de\\s+)?[a-záéíóúñ]{4,}/.test(text.toLowerCase());
+        const t = text.toLowerCase();
+        return /\\d{1,2}\\s+(?:de\\s+)?[a-z\\u00e0-\\u00fc]{4,}/.test(t)
+            || /\\d{1,2}[/-]\\d{1,2}([/-]\\d{2,4})?/.test(t);
     }
     function findDateText(el) {
         let node = el;
@@ -70,19 +68,26 @@ _JS_SESSIONS = """
             let sib = node.previousElementSibling;
             while (sib) {
                 const t = (sib.textContent || '').trim();
-                if (t.length < 80 && looksLikeDate(t)) return t;
+                if (t.length < 120 && looksLikeDate(t)) return t;
                 sib = sib.previousElementSibling;
             }
             node = node.parentElement;
         }
         return '';
     }
-    return Array.from(document.querySelectorAll('div.cont-ses')).map(ses => {
-        const horaEl = ses.querySelector('div.hora-ses');
+    // Try primary selector then common fallbacks
+    const SESS_SELS = ['div.cont-ses', '.cont-ses', 'div.sesion-item', 'div.session-item', 'li.sesion'];
+    let sesDivs = [];
+    for (const sel of SESS_SELS) {
+        sesDivs = Array.from(document.querySelectorAll(sel));
+        if (sesDivs.length > 0) break;
+    }
+    return sesDivs.map(ses => {
+        const horaEl = ses.querySelector('div.hora-ses, .hora-ses, .hora, .time');
         if (!horaEl) return null;
         const time = (horaEl.childNodes[0] ? horaEl.childNodes[0].textContent : '').trim();
         if (!time.includes(':')) return null;
-        const etiq = ses.querySelector('div.etiq-hora');
+        const etiq = ses.querySelector('div.etiq-hora, .etiq-hora, .etiqueta, .version, .lang');
         return {
             time:     time,
             lang:     etiq ? etiq.textContent.trim() : '',
@@ -96,23 +101,44 @@ _JS_SESSIONS = """
 def _parse_ficha_date(text: str) -> "str | None":
     """
     Parse a Spanish date string like 'Jueves, 14 de mayo' → '2026-05-14'.
+    Also handles numeric formats like '14/05' or '14-05-2026'.
     Returns None if unparseable.
     """
-    m = re.search(r"(\d{1,2})\s+(?:de\s+)?([a-záéíóúñ]+)", text.lower())
-    if not m:
-        return None
-    try:
-        day   = int(m.group(1))
-        month = _MONTHS.get(m.group(2))
-        if not month:
-            return None
-        today  = date.today()
-        target = date(today.year, month, day)
-        if target < today - timedelta(days=1):
-            target = date(today.year + 1, month, day)
-        return target.isoformat()
-    except (ValueError, TypeError):
-        return None
+    t = text.lower()
+    today = date.today()
+
+    # Try word-month format first: "14 de mayo", "14 mayo", etc.
+    m = re.search(r"(\d{1,2})\s+(?:de\s+)?([a-záéíóúñ]+)", t)
+    if m:
+        try:
+            day   = int(m.group(1))
+            month = _MONTHS.get(m.group(2))
+            if month:
+                target = date(today.year, month, day)
+                if target < today - timedelta(days=1):
+                    target = date(today.year + 1, month, day)
+                return target.isoformat()
+        except (ValueError, TypeError):
+            pass
+
+    # Fallback: numeric format "DD/MM" or "DD-MM" or "DD/MM/YYYY"
+    m2 = re.search(r"(\d{1,2})[/-](\d{1,2})(?:[/-](\d{2,4}))?", t)
+    if m2:
+        try:
+            day, month = int(m2.group(1)), int(m2.group(2))
+            year_raw = m2.group(3)
+            if year_raw:
+                year = int(year_raw) if len(year_raw) == 4 else 2000 + int(year_raw)
+            else:
+                year = today.year
+                target = date(year, month, day)
+                if target < today - timedelta(days=1):
+                    year += 1
+            return date(year, month, day).isoformat()
+        except (ValueError, TypeError):
+            pass
+
+    return None
 
 
 def _detect_lang_from_text(text: str) -> str:
@@ -143,8 +169,11 @@ def _collect_ficha_urls(page, base_url: str) -> dict[str, str]:
 
     for pag in ("cartelera", "vose"):
         try:
-            page.goto(f"{base_url}/index?pag={pag}", timeout=30000)
-            page.wait_for_load_state("networkidle", timeout=15000)
+            page.goto(f"{base_url}/index?pag={pag}", timeout=30000, wait_until="domcontentloaded")
+            try:
+                page.wait_for_selector("div.cartelera.bloque33, a[href*='pag=ficha']", timeout=15000)
+            except Exception:
+                pass  # content may already be present
         except Exception as e:
             print(f"  ⚠ ABC ({base_url} ?pag={pag}) load error: {e}")
             continue
@@ -177,15 +206,23 @@ def _scrape_ficha(page, ficha_url: str, title: str) -> list[dict]:
     Uses JS DOM traversal to pair sessions with their nearest date header.
     """
     try:
-        page.goto(ficha_url, timeout=30000)
-        page.wait_for_load_state("networkidle", timeout=15000)
+        page.goto(ficha_url, timeout=30000, wait_until="domcontentloaded")
+        try:
+            page.wait_for_selector("div.cont-ses, div.hora-ses", timeout=10000)
+        except Exception:
+            pass  # selector may not exist on this page
     except Exception as e:
         print(f"  ⚠ ABC ficha error ({ficha_url}): {e}")
         return []
 
     try:
         raw_sessions = page.evaluate(_JS_SESSIONS)
-    except Exception:
+    except Exception as e:
+        print(f"  ⚠ ABC JS eval error for '{title}': {e}")
+        return []
+
+    if not raw_sessions:
+        print(f"  ⚠ ABC no sessions found for: {title} ({ficha_url})")
         return []
 
     today = date.today()
