@@ -7,15 +7,16 @@ Two-phase approach:
 Phase 1 (Playwright, cinema page):
   For each movie block collect title, language, and the sesiones page URL.
 
-Phase 2 (Playwright, per-movie sesiones page):
-  Navigate to each /sesiones/ page (JS-rendered) and parse date tabs + session
-  links.  We reuse the same browser page to avoid launching a new browser.
+Phase 2 (requests + BeautifulSoup, per-movie sesiones page):
+  Fetch each /sesiones/ page with requests (static HTML) and parse date tabs +
+  session links.
 
   Date tabs: <li><a href="#N">Day DD/MM</a></li>
   Session sections: <div id="N"> containing <a href="/entrada/...">HH:MM</a>
 """
 
 import re
+import requests
 from datetime import date, timedelta
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
@@ -27,6 +28,8 @@ _UA = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/136.0 Safari/537.36"
 )
+
+_HEADERS = {"User-Agent": _UA}
 
 
 def _parse_sesiones_date(tab_text: str) -> "str | None":
@@ -46,18 +49,15 @@ def _parse_sesiones_date(tab_text: str) -> "str | None":
         return None
 
 
-def _fetch_session_map(page, sesiones_url: str) -> "dict[tuple[str,str], str]":
+def _fetch_session_map(sesiones_url: str) -> "dict[tuple[str,str], str]":
     """
-    Navigate to a /sesiones/ page with Playwright and return
+    Fetch a /sesiones/ page with requests and return
     {(date_str, time_str): booking_url}.  Returns empty dict on failure.
     """
     try:
-        page.goto(sesiones_url, timeout=20000, wait_until="domcontentloaded")
-        try:
-            page.wait_for_selector("a[href^='#']", timeout=10000)
-        except Exception:
-            pass
-        html = page.content()
+        r = requests.get(sesiones_url, headers=_HEADERS, timeout=15)
+        r.raise_for_status()
+        html = r.text
     except Exception:
         return {}
 
@@ -155,15 +155,14 @@ def scrape() -> list[dict]:
             if not phase1:
                 print("  ⚠ Lys page loaded but found no movie blocks")
 
-        # Phase 2: fetch per-movie sesiones pages for multi-day sessions
-        # Reuse the same browser page so JS rendering works correctly.
-        session_cache: dict[str, dict[tuple[str, str], str]] = {}
-        for entry in phase1:
-            url = entry["sesiones_url"]
-            if url and url not in session_cache:
-                session_cache[url] = _fetch_session_map(page, url)
-
         browser.close()
+
+    # Phase 2: fetch per-movie sesiones pages for multi-day sessions
+    session_cache: dict[str, dict[tuple[str, str], str]] = {}
+    for entry in phase1:
+        url = entry["sesiones_url"]
+        if url and url not in session_cache:
+            session_cache[url] = _fetch_session_map(url)
 
     for entry in phase1:
         session_map = session_cache.get(entry["sesiones_url"], {})
