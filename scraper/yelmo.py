@@ -3,13 +3,12 @@ Yelmo Cines Valencia scraper — Mercado de Campanar location only.
 URL: https://www.yelmocines.es/cartelera/valencia/mercado-de-campanar?fecha=YYYY-MM-DD
 
 DOM structure (client-rendered — Playwright MUST wait for JS):
-  section#now__city.listaCarteleraHorario  (empty placeholder in raw HTML)
-    article                                → one movie
-      .descripcion header h3              → title
-      .horarioExp                         → one version/language group
-        span                              → language label (first span)
-        a > time  OR  time               → showtime element
-          text / datetime attr            → "HH:MM"
+  section#now__city article              → one movie
+    [data-cinema="mercado-de-campanar"]  → groups sessions for this cinema
+      div                                → one showtime row
+        label / span / p                 → language version label
+        time                             → "HH:MM"
+        a                                → booking link
 
 One page request per date (7 days). Each page URL filters by ?fecha=.
 """
@@ -38,15 +37,12 @@ def scrape() -> list[dict]:
 
             try:
                 page.goto(url, timeout=30000)
-                # The page is JS-rendered; wait until at least one article appears
-                # (falls back gracefully with timeout if no films are listed)
                 try:
                     page.wait_for_selector(
                         "section#now__city article",
                         timeout=15000,
                     )
                 except Exception:
-                    # No films for this date (or selector changed) — move on
                     continue
 
                 movie_blocks = page.query_selector_all("section#now__city article")
@@ -61,77 +57,65 @@ def scrape() -> list[dict]:
                     if not title:
                         continue
 
-                    # Each .horarioExp row = one language version
-                    version_blocks = block.query_selector_all(".horarioExp")
+                    # Each [data-cinema="mercado-de-campanar"] groups session rows for
+                    # that location. Each direct child div is one showtime: it contains
+                    # a language label, a <time> tag, and the booking <a>.
+                    sessions = block.evaluate(r"""el => {
+                        const out = [];
 
-                    if version_blocks:
-                        for vb in version_blocks:
-                            # Walk all spans; use the first one that doesn't look
-                            # like a time (HH:MM) — avoids picking up icon/time
-                            # spans nested inside <a> elements before the label.
-                            language = vb.evaluate("""el => {
-                                for (const s of el.querySelectorAll('span')) {
-                                    const t = s.textContent.trim();
-                                    if (t && !/^\\d{1,2}:\\d{2}/.test(t)) return t;
+                        for (const outer of el.querySelectorAll('[data-cinema="mercado-de-campanar"]')) {
+                            const rows = Array.from(outer.querySelectorAll(':scope > div'));
+                            const candidates = rows.length ? rows : [outer];
+
+                            for (const row of candidates) {
+                                for (const time of row.querySelectorAll('time')) {
+                                    const timeText = time.getAttribute('datetime') || time.textContent.trim();
+                                    if (!timeText || !timeText.includes(':')) continue;
+
+                                    let lang = '';
+                                    for (const lbl of row.querySelectorAll('label, span, p')) {
+                                        const t = lbl.textContent.trim();
+                                        if (t && !/^\d{1,2}:\d{2}/.test(t)) { lang = t; break; }
+                                    }
+
+                                    const a = time.closest('a') || row.querySelector('a');
+                                    out.push({ time: timeText, lang, href: a ? a.href : '' });
                                 }
-                                return '';
-                            }""") or "es"
+                            }
+                        }
 
-                            # Times: prefer <a><time>HH:MM</time></a>,
-                            # fall back to bare <time> elements
-                            time_anchors = vb.query_selector_all("a")
-                            if time_anchors:
-                                for a_el in time_anchors:
-                                    href = a_el.get_attribute("href") or url
-                                    time_el = a_el.query_selector("time")
-                                    if time_el:
-                                        time_text = (
-                                            time_el.get_attribute("datetime")
-                                            or time_el.inner_text()
-                                        ).strip()
-                                    else:
-                                        time_text = a_el.inner_text().strip()
-                                    if not time_text or ":" not in time_text:
-                                        continue
-                                    results.append({
-                                        "title":    title,
-                                        "language": language,
-                                        "date":     date_str,
-                                        "time":     time_text[:5],  # "HH:MM"
-                                        "url":      href if href.startswith("http") else BASE_URL + href,
-                                    })
-                            else:
-                                # Bare <time> elements (no wrapping <a>)
-                                for time_el in vb.query_selector_all("time"):
-                                    time_text = (
-                                        time_el.get_attribute("datetime")
-                                        or time_el.inner_text()
-                                    ).strip()
-                                    if not time_text or ":" not in time_text:
-                                        continue
-                                    results.append({
-                                        "title":    title,
-                                        "language": language,
-                                        "date":     date_str,
-                                        "time":     time_text[:5],
-                                        "url":      url,
-                                    })
-                    else:
-                        # Flat fallback: no .horarioExp, gather all <time> in block
-                        for time_el in block.query_selector_all("time"):
-                            time_text = (
-                                time_el.get_attribute("datetime")
-                                or time_el.inner_text()
-                            ).strip()
-                            if not time_text or ":" not in time_text:
-                                continue
-                            results.append({
-                                "title":    title,
-                                "language": "es",
-                                "date":     date_str,
-                                "time":     time_text[:5],
-                                "url":      url,
-                            })
+                        // Fallback: old .horarioExp structure
+                        if (!out.length) {
+                            for (const vb of el.querySelectorAll('.horarioExp')) {
+                                let lang = '';
+                                for (const s of vb.querySelectorAll('span')) {
+                                    const t = s.textContent.trim();
+                                    if (t && !/^\d{1,2}:\d{2}/.test(t)) { lang = t; break; }
+                                }
+                                for (const time of vb.querySelectorAll('time')) {
+                                    const timeText = time.getAttribute('datetime') || time.textContent.trim();
+                                    if (!timeText || !timeText.includes(':')) continue;
+                                    const a = time.closest('a') || vb.querySelector('a');
+                                    out.push({ time: timeText, lang, href: a ? a.href : '' });
+                                }
+                            }
+                        }
+
+                        return out;
+                    }""")
+
+                    for s in sessions:
+                        time_text = (s.get("time") or "")[:5]
+                        if not time_text or ":" not in time_text:
+                            continue
+                        href = s.get("href") or url
+                        results.append({
+                            "title":    title,
+                            "language": s.get("lang") or "es",
+                            "date":     date_str,
+                            "time":     time_text,
+                            "url":      href if href.startswith("http") else BASE_URL + href,
+                        })
 
             except Exception as e:
                 print(f"  ⚠ Yelmo error on {date_str}: {e}")
