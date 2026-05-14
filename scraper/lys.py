@@ -94,7 +94,8 @@ def _fetch_session_map(sesiones_url: str) -> "dict[tuple[str,str], str]":
 
 def scrape() -> list[dict]:
     results = []
-    phase1: list[dict] = []  # {title, language, sesiones_url}
+    today = date.today().isoformat()
+    phase1: list[dict] = []  # {title, language, sesiones_url, direct: [{date,time,url}]}
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
@@ -129,19 +130,33 @@ def scrape() -> list[dict]:
                         if href2 and "/sesiones/" in href2:
                             sesiones_url = href2 if href2.startswith("http") else BASE_URL + href2
 
-                if not sesiones_url:
-                    continue
-
                 # Language from span.label-cinema (VOSE / VO / empty → ES)
                 lang_el = block.query_selector("span.label-cinema")
                 language = lang_el.inner_text().strip() if lang_el else "es"
                 if not language:
                     language = "es"
 
+                # Collect today's direct session times as Phase-2 fallback
+                direct = []
+                for a_el in block.query_selector_all("a.sesion"):
+                    cls = a_el.get_attribute("class") or ""
+                    if "vtadanger" in cls:
+                        continue
+                    time_text = a_el.inner_text().strip()
+                    a_href = a_el.get_attribute("href") or ""
+                    if not time_text or ":" not in time_text:
+                        continue
+                    direct.append({
+                        "date": today,
+                        "time": time_text,
+                        "url":  a_href if a_href.startswith("http") else BASE_URL + a_href,
+                    })
+
                 phase1.append({
-                    "title":       title,
-                    "language":    language,
+                    "title":        title,
+                    "language":     language,
                     "sesiones_url": sesiones_url,
+                    "direct":       direct,
                 })
 
         except Exception as e:
@@ -156,18 +171,28 @@ def scrape() -> list[dict]:
     session_cache: dict[str, dict[tuple[str, str], str]] = {}
     for entry in phase1:
         url = entry["sesiones_url"]
-        if url not in session_cache:
+        if url and url not in session_cache:
             session_cache[url] = _fetch_session_map(url)
 
     for entry in phase1:
         session_map = session_cache.get(entry["sesiones_url"], {})
-        for (date_str, time_str), url in session_map.items():
-            results.append({
-                "title":    entry["title"],
-                "language": entry["language"],
-                "date":     date_str,
-                "time":     time_str,
-                "url":      url,
-            })
+        if session_map:
+            for (date_str, time_str), url in session_map.items():
+                results.append({
+                    "title":    entry["title"],
+                    "language": entry["language"],
+                    "date":     date_str,
+                    "time":     time_str,
+                    "url":      url,
+                })
+        elif entry["direct"]:
+            # Phase 2 unavailable — fall back to today's sessions from Phase 1
+            print(f"  ⚠ Lys Phase 2 empty for '{entry['title']}', using today's sessions")
+            for d in entry["direct"]:
+                results.append({
+                    "title":    entry["title"],
+                    "language": entry["language"],
+                    **d,
+                })
 
     return results
