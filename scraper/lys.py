@@ -2,28 +2,20 @@
 Cines Lys Valencia scraper.
 URL: https://www.reservaentradas.com/cine/valencia/cineslys
 
-Two-phase approach (mirrors babel.py):
+Two-phase approach:
 
 Phase 1 (Playwright, cinema page):
   For each movie block collect title, language, and the sesiones page URL.
-  The "Ver más" link (a.sesion.vtadanger) and the title link both point to
-  the movie's /sesiones/ page on reservaentradas.com.
 
-  DOM structure (server-rendered Bootstrap/jQuery):
-    div.movie.row
-      div.title-movie-list a   → title text + href → /sesiones/… URL
-      span.label-cinema        → language label (VOSE / VO / empty = ES)
-      a.sesion.vtadanger       → "Ver más" link → /sesiones/… URL (fallback)
-
-Phase 2 (requests + BeautifulSoup, per-movie sesiones page):
-  Fetch each movie's /sesiones/ page which lists sessions grouped by date.
+Phase 2 (Playwright, per-movie sesiones page):
+  Navigate to each /sesiones/ page (JS-rendered) and parse date tabs + session
+  links.  We reuse the same browser page to avoid launching a new browser.
 
   Date tabs: <li><a href="#N">Day DD/MM</a></li>
-  Session sections: <div id="N"> containing <a href="/entrada/.../{id}/?step=2">HH:MM</a>
+  Session sections: <div id="N"> containing <a href="/entrada/...">HH:MM</a>
 """
 
 import re
-import requests
 from datetime import date, timedelta
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
@@ -31,12 +23,10 @@ from playwright.sync_api import sync_playwright
 BASE_URL    = "https://www.reservaentradas.com"
 CINEMA_PATH = "/cine/valencia/cineslys"
 
-_HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/136.0 Safari/537.36"
-    ),
-}
+_UA = (
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/136.0 Safari/537.36"
+)
 
 
 def _parse_sesiones_date(tab_text: str) -> "str | None":
@@ -56,18 +46,22 @@ def _parse_sesiones_date(tab_text: str) -> "str | None":
         return None
 
 
-def _fetch_session_map(sesiones_url: str) -> "dict[tuple[str,str], str]":
+def _fetch_session_map(page, sesiones_url: str) -> "dict[tuple[str,str], str]":
     """
-    Fetch a /sesiones/ page and return {(date_str, time_str): booking_url}.
-    Returns empty dict on failure.
+    Navigate to a /sesiones/ page with Playwright and return
+    {(date_str, time_str): booking_url}.  Returns empty dict on failure.
     """
     try:
-        r = requests.get(sesiones_url, headers=_HEADERS, timeout=15)
-        r.raise_for_status()
+        page.goto(sesiones_url, timeout=20000, wait_until="domcontentloaded")
+        try:
+            page.wait_for_selector("a[href^='#']", timeout=10000)
+        except Exception:
+            pass
+        html = page.content()
     except Exception:
         return {}
 
-    soup = BeautifulSoup(r.text, "html.parser")
+    soup = BeautifulSoup(html, "html.parser")
     result: dict[tuple[str, str], str] = {}
 
     tab_links = soup.find_all("a", href=re.compile(r"^#\d+$"))
@@ -95,21 +89,20 @@ def _fetch_session_map(sesiones_url: str) -> "dict[tuple[str,str], str]":
 def scrape() -> list[dict]:
     results = []
     today = date.today().isoformat()
-    phase1: list[dict] = []  # {title, language, sesiones_url, direct: [{date,time,url}]}
+    phase1: list[dict] = []
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        page = browser.new_page(user_agent=_HEADERS["User-Agent"])
+        page = browser.new_page(user_agent=_UA)
 
         try:
             page.goto(f"{BASE_URL}{CINEMA_PATH}", timeout=30000, wait_until="domcontentloaded")
             try:
                 page.wait_for_selector("div.movie.row", timeout=15000)
             except Exception:
-                pass  # content may already be present
+                pass
 
             for block in page.query_selector_all("div.movie.row"):
-                # Title
                 title_el = block.query_selector("div.title-movie-list a")
                 if not title_el:
                     continue
@@ -117,7 +110,6 @@ def scrape() -> list[dict]:
                 if not title:
                     continue
 
-                # Sesiones URL: prefer title link, fall back to vtadanger "Ver más"
                 sesiones_url = ""
                 href = title_el.get_attribute("href") or ""
                 if href and "/sesiones/" in href:
@@ -130,13 +122,11 @@ def scrape() -> list[dict]:
                         if href2 and "/sesiones/" in href2:
                             sesiones_url = href2 if href2.startswith("http") else BASE_URL + href2
 
-                # Language from span.label-cinema (VOSE / VO / empty → ES)
                 lang_el = block.query_selector("span.label-cinema")
                 language = lang_el.inner_text().strip() if lang_el else "es"
                 if not language:
                     language = "es"
 
-                # Collect today's direct session times as Phase-2 fallback
                 direct = []
                 for a_el in block.query_selector_all("a.sesion"):
                     cls = a_el.get_attribute("class") or ""
@@ -165,14 +155,15 @@ def scrape() -> list[dict]:
             if not phase1:
                 print("  ⚠ Lys page loaded but found no movie blocks")
 
-        browser.close()
+        # Phase 2: fetch per-movie sesiones pages for multi-day sessions
+        # Reuse the same browser page so JS rendering works correctly.
+        session_cache: dict[str, dict[tuple[str, str], str]] = {}
+        for entry in phase1:
+            url = entry["sesiones_url"]
+            if url and url not in session_cache:
+                session_cache[url] = _fetch_session_map(page, url)
 
-    # Phase 2: fetch per-movie sesiones pages for multi-day sessions
-    session_cache: dict[str, dict[tuple[str, str], str]] = {}
-    for entry in phase1:
-        url = entry["sesiones_url"]
-        if url and url not in session_cache:
-            session_cache[url] = _fetch_session_map(url)
+        browser.close()
 
     for entry in phase1:
         session_map = session_cache.get(entry["sesiones_url"], {})
@@ -186,7 +177,6 @@ def scrape() -> list[dict]:
                     "url":      url,
                 })
         elif entry["direct"]:
-            # Phase 2 unavailable — fall back to today's sessions from Phase 1
             print(f"  ⚠ Lys Phase 2 empty for '{entry['title']}', using today's sessions")
             for d in entry["direct"]:
                 results.append({
