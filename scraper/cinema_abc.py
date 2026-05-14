@@ -57,24 +57,56 @@ _MONTHS = {
 # element whose text looks like a Spanish date ("14 de mayo", "jueves 14 mayo").
 _JS_SESSIONS = """
 () => {
+    // Require an actual Spanish month name to avoid false-positives like "12 años".
+    const _MONTH_RE = /enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre/;
     function looksLikeDate(text) {
-        const t = text.toLowerCase();
-        return /\\d{1,2}\\s+(?:de\\s+)?[a-z\\u00e0-\\u00fc]{4,}/.test(t)
-            || /\\d{1,2}[/-]\\d{1,2}([/-]\\d{2,4})?/.test(t);
+        const t = text.toLowerCase().trim();
+        if (t.length > 80) return false;
+        return _MONTH_RE.test(t) && /\\d{1,2}/.test(t);
     }
+
     function findDateText(el) {
+        // Strategy 1: data-* attributes on the element or any ancestor.
         let node = el;
+        while (node && node !== document.body) {
+            for (const attr of ['data-date', 'data-fecha', 'data-day', 'id-date', 'data-session-date']) {
+                const val = node.getAttribute(attr);
+                if (val) return val;
+            }
+            node = node.parentElement;
+        }
+
+        // Strategy 2: walk backwards through previous siblings at each DOM level.
+        node = el;
         while (node && node !== document.body) {
             let sib = node.previousElementSibling;
             while (sib) {
                 const t = (sib.textContent || '').trim();
-                if (t.length < 120 && looksLikeDate(t)) return t;
+                if (looksLikeDate(t)) return t;
                 sib = sib.previousElementSibling;
             }
             node = node.parentElement;
         }
+
+        // Strategy 3: table column header (for weekly-grid layouts).
+        const td = el.closest('td, th');
+        if (td) {
+            const row = td.parentElement;
+            const colIdx = row ? Array.from(row.children).indexOf(td) : -1;
+            const table = td.closest('table');
+            if (table && colIdx >= 0) {
+                const headerRow = table.querySelector('thead tr') || table.querySelector('tr');
+                if (headerRow && headerRow !== row) {
+                    const cell = headerRow.children[colIdx];
+                    const t = cell ? (cell.textContent || '').trim() : '';
+                    if (t) return t;
+                }
+            }
+        }
+
         return '';
     }
+
     // Try primary selector then common fallbacks
     const SESS_SELS = ['div.cont-ses', '.cont-ses', 'div.sesion-item', 'div.session-item', 'li.sesion'];
     let sesDivs = [];

@@ -23,6 +23,7 @@ Film page URL pattern:
 """
 
 import re
+import time as _time
 from datetime import date, timedelta
 from playwright.sync_api import sync_playwright
 
@@ -92,7 +93,15 @@ def scrape() -> list[dict]:
             # wait_until="commit" fires as soon as response headers arrive,
             # then we wait separately for the content selector. This avoids
             # the 60 s domcontentloaded timeout on sites that delay that event.
-            page.goto(BASE_URL, timeout=60000, wait_until="commit")
+            for _attempt in range(3):
+                try:
+                    page.goto(BASE_URL, timeout=90000, wait_until="commit")
+                    break
+                except Exception as _e:
+                    if _attempt == 2:
+                        raise
+                    print(f"  ⚠ Ocine goto retry {_attempt + 1}: {_e}")
+                    _time.sleep(2 ** _attempt)
             page.wait_for_selector("div.peli-item.element-item", timeout=90000)
 
             for block in page.query_selector_all("div.peli-item.element-item"):
