@@ -2,16 +2,16 @@
 Ocine Premium Aqua Valencia scraper.
 URL: https://www.ocinepremiumaqua.es/
 
-Two-phase approach:
+Two-phase approach (requests + BeautifulSoup — no browser required):
 
-Phase 1 (Playwright, main page):
+Phase 1 (main page):
   Discover currently-showing films with their detail-page URLs.
   Each film block (div.peli-item.element-item) contains a link to
   /film-{id}/p?{slug}= which is the per-film session page.
 
-Phase 2 (Playwright, per-film date pages):
+Phase 2 (per-film date pages):
   For each film URL × date (today → next Thursday):
-    Navigate to {film_url}&selectedDate={YYYY-MM-DD}
+    Fetch {film_url}&selectedDate={YYYY-MM-DD}
     Parse sessions from table.planificacions → tr.plans rows.
     Language is detected from tr class names and adjacent version labels.
 
@@ -23,15 +23,20 @@ Film page URL pattern:
 """
 
 import re
+import requests
 from datetime import date, timedelta
-from playwright.sync_api import sync_playwright
+from bs4 import BeautifulSoup
 
 BASE_URL = "https://www.ocinepremiumaqua.es"
 
-_UA = (
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
-)
+_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
+}
 
 _FILM_LINK_RE = re.compile(r"/film-\d+/p")
 
@@ -81,109 +86,91 @@ def _detect_lang(text: str) -> str:
 def scrape() -> list[dict]:
     results = []
     dates = _dates_until_next_thursday()
+    sess = requests.Session()
+    sess.headers.update(_HEADERS)
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page(user_agent=_UA)
+    # ── Phase 1: discover film detail URLs ───────────────────────────
+    try:
+        r = sess.get(BASE_URL, timeout=30)
+        r.raise_for_status()
+    except Exception as e:
+        print(f"  ⚠ Ocine: failed to load {BASE_URL}: {e}")
+        return []
 
-        # ── Phase 1: discover film detail URLs ───────────────────────────
-        film_entries: list[dict] = []
-        try:
-            # wait_until="commit" fires on first response byte, before JS executes.
-            # This avoids a 30 s domcontentloaded stall on sites with heavy blocking scripts.
-            page.goto(BASE_URL, timeout=30000, wait_until="commit")
-        except Exception as e:
-            print(f"  ⚠ Ocine: failed to load {BASE_URL}: {e}")
-            browser.close()
-            return results
+    soup = BeautifulSoup(r.text, "html.parser")
+    film_entries: list[dict] = []
 
-        try:
-            page.wait_for_selector("div.peli-item.element-item", timeout=30000)
-        except Exception:
-            snippet = page.content()[:1500]
-            print(f"  ⚠ Ocine: film-block selector not found at {page.url} — page snippet: {snippet}")
-            browser.close()
-            return results
+    for block in soup.find_all("div", class_=lambda c: c and "peli-item" in c and "element-item" in c):
+        h4 = block.find("h4")
+        if not h4:
+            continue
+        title = h4.get_text(strip=True)
+        if not title:
+            continue
 
-        blocks = page.query_selector_all("div.peli-item.element-item")
-        for block in blocks:
-            h4 = block.query_selector("h4")
-            if not h4:
+        link = block.find("a", href=_FILM_LINK_RE) or h4.find("a", href=_FILM_LINK_RE)
+        if not link:
+            continue
+        href = link.get("href", "")
+        if not _FILM_LINK_RE.search(href):
+            continue
+
+        film_url = href if href.startswith("http") else BASE_URL + href
+        film_url = re.sub(r"[&?]selectedDate=[^&]*", "", film_url).rstrip("?&")
+        film_entries.append({"title": title, "url": film_url})
+
+    if not film_entries:
+        print(f"  ⚠ Ocine: no film blocks found — page snippet: {r.text[:800]}")
+        return []
+
+    # ── Phase 2: per-film, per-date session scraping ─────────────────
+    for entry in film_entries:
+        title    = entry["title"]
+        film_url = entry["url"]
+        sep      = "&" if "?" in film_url else "?"
+
+        for date_str in dates:
+            target = f"{film_url}{sep}selectedDate={date_str}"
+            try:
+                r2 = sess.get(target, timeout=20)
+                r2.raise_for_status()
+            except Exception:
                 continue
-            title = h4.inner_text().strip()
-            if not title:
-                continue
 
-            # Find the link to /film-{id}/p within this block
-            link_el = (
-                block.query_selector("a[href*='/film-'][href*='/p']")
-                or h4.query_selector("a[href*='/film-']")
-            )
-            if not link_el:
-                continue
-            href = link_el.get_attribute("href") or ""
-            if not _FILM_LINK_RE.search(href):
-                continue
+            soup2 = BeautifulSoup(r2.text, "html.parser")
 
-            film_url = href if href.startswith("http") else BASE_URL + href
-            # Drop any selectedDate already in the link
-            film_url = re.sub(r"[&?]selectedDate=[^&]*", "", film_url).rstrip("?&")
-            film_entries.append({"title": title, "url": film_url})
+            for tr in soup2.find_all("tr", class_="plans"):
+                cls = " ".join(tr.get("class") or [])
 
-        # ── Phase 2: per-film, per-date session scraping ─────────────────
-        for entry in film_entries:
-            title    = entry["title"]
-            film_url = entry["url"]
-            sep      = "&" if "?" in film_url else "?"
+                # Language priority:
+                # 1. Token in the tr's own class string
+                # 2. A version-label element inside the tr
+                # 3. Text of the immediately preceding sibling tr
+                lang = _detect_lang(cls)
 
-            for date_str in dates:
-                target = f"{film_url}{sep}selectedDate={date_str}"
-                try:
-                    page.goto(target, timeout=30000, wait_until="domcontentloaded")
-                except Exception:
-                    continue
+                if lang == "es":
+                    label_el = tr.find(class_=lambda c: c and any(
+                        x in " ".join(c) for x in
+                        ["versio", "version", "idioma", "horasessio-titol", "film-version", "session-version"]
+                    ))
+                    if label_el:
+                        lang = _detect_lang(label_el.get_text())
 
-                for tr in page.query_selector_all("tr.plans"):
-                    cls = tr.get_attribute("class") or ""
+                if lang == "es":
+                    prev = tr.find_previous_sibling("tr")
+                    if prev:
+                        lang = _detect_lang(prev.get_text())
 
-                    # Language priority:
-                    # 1. Token in the tr's own class string
-                    # 2. A version-label element inside the tr
-                    # 3. Text of the immediately preceding sibling tr (date/header row)
-                    lang = _detect_lang(cls)
-
-                    if lang == "es":
-                        label_el = tr.query_selector(
-                            "td.versio, td.version, td.idioma, "
-                            "span.versio, span.version, span.idioma, "
-                            "div.versio, div.version, .horasessio-titol, "
-                            ".film-version, .session-version"
-                        )
-                        if label_el:
-                            lang = _detect_lang(label_el.inner_text())
-
-                    if lang == "es":
-                        prev_text = tr.evaluate(
-                            "el => { "
-                            "  const p = el.previousElementSibling; "
-                            "  return p ? p.innerText : ''; "
-                            "}"
-                        )
-                        if prev_text:
-                            lang = _detect_lang(prev_text)
-
-                    for btn in tr.query_selector_all("div.horasessio button"):
-                        time_text = btn.inner_text().strip()
-                        if not time_text or ":" not in time_text:
-                            continue
-                        results.append({
-                            "title":    title,
-                            "language": lang,
-                            "date":     date_str,
-                            "time":     time_text,
-                            "url":      film_url,
-                        })
-
-        browser.close()
+                for btn in tr.find_all("button"):
+                    time_text = btn.get_text(strip=True)
+                    if not time_text or ":" not in time_text:
+                        continue
+                    results.append({
+                        "title":    title,
+                        "language": lang,
+                        "date":     date_str,
+                        "time":     time_text,
+                        "url":      film_url,
+                    })
 
     return results
