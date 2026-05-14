@@ -30,7 +30,7 @@ BASE_URL = "https://www.ocinepremiumaqua.es"
 
 _UA = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
 )
 
 _FILM_LINK_RE = re.compile(r"/film-\d+/p")
@@ -89,8 +89,11 @@ def scrape() -> list[dict]:
         # ── Phase 1: discover film detail URLs ───────────────────────────
         film_entries: list[dict] = []
         try:
-            page.goto(BASE_URL, timeout=60000, wait_until="domcontentloaded")
-            page.wait_for_selector("div.peli-item.element-item", timeout=20000)
+            # wait_until="commit" fires as soon as response headers arrive,
+            # then we wait separately for the content selector. This avoids
+            # the 60 s domcontentloaded timeout on sites that delay that event.
+            page.goto(BASE_URL, timeout=30000, wait_until="commit")
+            page.wait_for_selector("div.peli-item.element-item", timeout=90000)
 
             for block in page.query_selector_all("div.peli-item.element-item"):
                 h4 = block.query_selector("h4")
@@ -129,7 +132,6 @@ def scrape() -> list[dict]:
                 target = f"{film_url}{sep}selectedDate={date_str}"
                 try:
                     page.goto(target, timeout=30000, wait_until="domcontentloaded")
-                    page.wait_for_load_state("networkidle", timeout=10000)
                 except Exception:
                     continue
 
