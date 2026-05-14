@@ -204,12 +204,11 @@ def run():
                     all_raw.extend(rows)
 
     if scraper_errors:
-        raise RuntimeError(
-            "Scraper failures — cannot produce reliable output:\n"
-            + "\n".join(f"  {cid}: {err}" for cid, err in scraper_errors)
-        )
+        for cid, err in scraper_errors:
+            print(f"  ⚠ Scraper failed: {cid}: {err}")
 
-    validate_per_cinema_per_day(all_raw)
+    warnings = [f"Scraper failed — {cid}: {err}" for cid, err in scraper_errors]
+    warnings += validate_per_cinema_per_day(all_raw)
 
     # Group by normalized title; preserve casing of first occurrence
     by_title: dict[str, list] = {}
@@ -285,10 +284,11 @@ def run():
 
     total_st = sum(len(m["showtimes"]) for m in final_movies)
     print(f"\n✓ {len(final_movies)} movies, {total_st} showtimes → {DATA_FILE}")
+    return warnings
 
 
-def validate_per_cinema_per_day(all_raw: list[dict]) -> None:
-    """Raise if any cinema returns zero showtimes for any date in its expected window."""
+def validate_per_cinema_per_day(all_raw: list[dict]) -> list[str]:
+    """Return warning strings for any cinema missing showtimes on an expected day."""
     today = date.today()
     std_dates = {(today + timedelta(days=i)).isoformat() for i in range(7)}
 
@@ -308,22 +308,23 @@ def validate_per_cinema_per_day(all_raw: list[dict]) -> None:
     for row in all_raw:
         covered.add((row["cinema"], row["date"]))
 
-    missing = []
+    warnings = []
     for cinema, dates in sorted(expected.items()):
         for d in sorted(dates):
             if (cinema, d) not in covered:
-                missing.append(f"  {cinema} on {d}")
+                warnings.append(f"{cinema} missing on {d}")
 
-    if missing:
-        raise RuntimeError(
-            "Every cinema must have at least 1 movie for each expected day.\n"
-            "Missing showtimes for:\n" + "\n".join(missing)
-        )
+    return warnings
 
 
 if __name__ == "__main__":
     try:
-        run()
+        warnings = run()
     except Exception as exc:
         print(f"\n✗ FATAL: {exc}", file=sys.stderr)
+        sys.exit(1)
+    if warnings:
+        print("\n⚠ Completed with warnings:", file=sys.stderr)
+        for w in warnings:
+            print(f"  {w}", file=sys.stderr)
         sys.exit(1)
