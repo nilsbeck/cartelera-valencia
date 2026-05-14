@@ -2,7 +2,7 @@
 Cines Babel Valencia scraper.
 URL: https://cinesbabel.com/cartelera/
 
-Phase 1 (Playwright, cartelera page):
+Phase 1 (requests + BeautifulSoup, cartelera page):
   Collect per-movie: title, language, and the movie's /sesiones/ URL.
 
   DOM structure (server-rendered WordPress):
@@ -12,8 +12,8 @@ Phase 1 (Playwright, cartelera page):
       div (text "Subtítulos: X")→ subtitle language
       table.tabla-sesiones
         tr
-          td[0]  → date label (ignored in phase 2)
-          td[1+] a → href = /sesiones/... URL (movie-level; used to find sesiones page)
+          td[0]  → date label
+          td[1+] a → href = /sesiones/... URL + time text
 
 Phase 2 (requests + BeautifulSoup, per-movie sesiones page):
   For each movie, fetch its reservaentradas.com /sesiones/ page which lists
@@ -29,7 +29,6 @@ import re
 import requests
 from datetime import date, timedelta
 from bs4 import BeautifulSoup
-from playwright.sync_api import sync_playwright
 
 BASE_URL     = "https://cinesbabel.com"
 BOOKING_BASE = "https://www.reservaentradas.com"
@@ -88,21 +87,26 @@ def _parse_sesiones_date(tab_text: str) -> "str | None":
         return None
 
 
-def _detect_language(block) -> str:
+def _detect_language_texts(texts: list) -> str:
+    """Core language detection logic shared between Playwright and BS4 paths."""
     idioma = ""
     subtitulos = ""
-    for div in block.query_selector_all("div"):
-        text = div.inner_text().strip()
+    for text in texts:
         if text.startswith("Idioma:"):
             idioma = text.split(":", 1)[1].strip().lower()
         elif text.startswith("Subtítulos:"):
             subtitulos = text.split(":", 1)[1].strip().lower()
-
     if subtitulos and subtitulos not in ("", "no"):
         return "vose"
     if idioma in ("español", "castellano", ""):
         return "es"
     return "vo"
+
+
+def _detect_language(block) -> str:
+    """Playwright-style block interface; kept for test compatibility."""
+    texts = [el.inner_text().strip() for el in block.query_selector_all("div")]
+    return _detect_language_texts(texts)
 
 
 def _fetch_session_map(sesiones_url: str) -> "dict[tuple[str,str], str]":
@@ -144,60 +148,58 @@ def _fetch_session_map(sesiones_url: str) -> "dict[tuple[str,str], str]":
 
 def scrape() -> list[dict]:
     results = []
-    # Phase 1 entries: {title, language, date, time, sesiones_url}
     phase1: list[dict] = []
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page(user_agent=_HEADERS["User-Agent"])
+    try:
+        r = requests.get(f"{BASE_URL}/cartelera/", headers=_HEADERS, timeout=30)
+        r.raise_for_status()
+    except Exception as e:
+        print(f"  ⚠ Babel (cartelera) error: {e}")
+        return []
 
-        try:
-            page.goto(f"{BASE_URL}/cartelera/", timeout=30000, wait_until="domcontentloaded")
-            try:
-                page.wait_for_selector("div.pelicula-post", timeout=15000)
-            except Exception:
-                pass  # content may already be present
+    soup = BeautifulSoup(r.text, "html.parser")
 
-            for block in page.query_selector_all("div.pelicula-post"):
-                title_el = block.query_selector("h2")
-                if not title_el:
+    for block in soup.find_all("div", class_="pelicula-post"):
+        h2 = block.find("h2")
+        if not h2:
+            continue
+        title = h2.get_text(strip=True)
+        if not title:
+            continue
+
+        language = _detect_language_texts(
+            [div.get_text(strip=True) for div in block.find_all("div")]
+        )
+
+        table = block.find("table", class_="tabla-sesiones")
+        if not table:
+            continue
+
+        for tr in table.find_all("tr"):
+            cells = tr.find_all("td")
+            if len(cells) < 2:
+                continue
+
+            date_str = _parse_cartelera_date(cells[0].get_text(strip=True))
+            if not date_str:
+                continue
+
+            for cell in cells[1:]:
+                a_el = cell.find("a")
+                if not a_el:
                     continue
-                title = title_el.inner_text().strip()
-                if not title:
+                time_text = a_el.get_text(strip=True)
+                href = a_el.get("href") or ""
+                if not time_text or ":" not in time_text:
                     continue
-
-                language = _detect_language(block)
-
-                for row in block.query_selector_all("table.tabla-sesiones tr"):
-                    cells = row.query_selector_all("td")
-                    if len(cells) < 2:
-                        continue
-
-                    date_str = _parse_cartelera_date(cells[0].inner_text().strip())
-                    if not date_str:
-                        continue
-
-                    for cell in cells[1:]:
-                        a_el = cell.query_selector("a")
-                        if not a_el:
-                            continue
-                        time_text = a_el.inner_text().strip()
-                        href = a_el.get_attribute("href") or ""
-                        if not time_text or ":" not in time_text:
-                            continue
-                        sesiones_url = href if href.startswith("http") else BASE_URL + href
-                        phase1.append({
-                            "title":       title,
-                            "language":    language,
-                            "date":        date_str,
-                            "time":        time_text,
-                            "sesiones_url": sesiones_url,
-                        })
-
-        except Exception as e:
-            print(f"  ⚠ Babel (cartelera) error: {e}")
-
-        browser.close()
+                sesiones_url = href if href.startswith("http") else BASE_URL + href
+                phase1.append({
+                    "title":        title,
+                    "language":     language,
+                    "date":         date_str,
+                    "time":         time_text,
+                    "sesiones_url": sesiones_url,
+                })
 
     # Phase 2: upgrade movie-level URLs to session-specific booking URLs
     session_cache: dict[str, dict[tuple[str, str], str]] = {}
