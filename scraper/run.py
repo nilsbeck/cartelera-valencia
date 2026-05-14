@@ -127,19 +127,19 @@ def run():
     existing = load_existing()
     movie_index = build_movie_index(existing)
 
-    scrapers = [
-        # requests-only scrapers first — they're fast and free up slots quickly
-        ("kinepolis",     scrape_kinepolis),
-        ("dor",           scrape_dor),
-        # Playwright scrapers, interleaved so same-domain pairs don't start together:
-        # babel and lys both hit reservaentradas.com → separated by abc_park
-        # abc_park / abc_elsaler / abc_granturia all hit cinesabc.com → spaced out
-        ("babel",         scrape_babel),
+    # Scrapers that run individually in parallel
+    solo_scrapers = [
+        ("babel",     scrape_babel),
+        ("lys",       scrape_lys),
+        ("ocine",     scrape_ocine),
+        ("dor",       scrape_dor),
+        ("yelmo",     scrape_yelmo),
+        ("kinepolis", scrape_kinepolis),
+    ]
+    # ABC cinemas share cinesabc.com — run them sequentially as one pool task
+    abc_scrapers = [
         ("abc_park",      scrape_park),
-        ("yelmo",         scrape_yelmo),
-        ("lys",           scrape_lys),
         ("abc_elsaler",   scrape_elsaler),
-        ("ocine",         scrape_ocine),
         ("abc_granturia", scrape_granturia),
     ]
 
@@ -147,7 +147,7 @@ def run():
     all_raw = []
     scraper_errors = []
 
-    def _run(cinema_id: str, scrape_fn) -> tuple[str, list, "Exception | None"]:
+    def _run(cinema_id: str, scrape_fn) -> list[tuple]:
         print(f"[{cinema_id}] Scraping…")
         try:
             rows = scrape_fn()
@@ -155,19 +155,26 @@ def run():
                 r["cinema"]   = cinema_id
                 r["language"] = normalize_lang(r.get("language", ""))
             print(f"[{cinema_id}] → {len(rows)} showtimes")
-            return cinema_id, rows, None
+            return [(cinema_id, rows, None)]
         except Exception as e:
             print(f"[{cinema_id}] ✗ Failed: {e}")
-            return cinema_id, [], e
+            return [(cinema_id, [], e)]
+
+    def _run_abc() -> list[tuple]:
+        results = []
+        for cinema_id, scrape_fn in abc_scrapers:
+            results.extend(_run(cinema_id, scrape_fn))
+        return results
 
     with ThreadPoolExecutor(max_workers=4) as pool:
-        futures = {pool.submit(_run, cid, fn): cid for cid, fn in scrapers}
+        futures = [pool.submit(_run, cid, fn) for cid, fn in solo_scrapers]
+        futures.append(pool.submit(_run_abc))
         for future in as_completed(futures):
-            cinema_id, rows, error = future.result()
-            if error:
-                scraper_errors.append((cinema_id, error))
-            else:
-                all_raw.extend(rows)
+            for cinema_id, rows, error in future.result():
+                if error:
+                    scraper_errors.append((cinema_id, error))
+                else:
+                    all_raw.extend(rows)
 
     if scraper_errors:
         raise RuntimeError(
