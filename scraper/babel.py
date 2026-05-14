@@ -42,7 +42,7 @@ _MONTHS = {
 _HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+        "(KHTML, like Gecko) Chrome/136.0 Safari/537.36"
     ),
 }
 
@@ -152,8 +152,11 @@ def scrape() -> list[dict]:
         page = browser.new_page(user_agent=_HEADERS["User-Agent"])
 
         try:
-            page.goto(f"{BASE_URL}/cartelera/", timeout=30000)
-            page.wait_for_load_state("networkidle", timeout=15000)
+            page.goto(f"{BASE_URL}/cartelera/", timeout=30000, wait_until="domcontentloaded")
+            try:
+                page.wait_for_selector("div.pelicula-post", timeout=15000)
+            except Exception:
+                pass  # content may already be present
 
             for block in page.query_selector_all("div.pelicula-post"):
                 title_el = block.query_selector("h2")

@@ -92,7 +92,7 @@ def scrape() -> list[dict]:
             # wait_until="commit" fires as soon as response headers arrive,
             # then we wait separately for the content selector. This avoids
             # the 60 s domcontentloaded timeout on sites that delay that event.
-            page.goto(BASE_URL, timeout=30000, wait_until="commit")
+            page.goto(BASE_URL, timeout=60000, wait_until="commit")
             page.wait_for_selector("div.peli-item.element-item", timeout=90000)
 
             for block in page.query_selector_all("div.peli-item.element-item"):
