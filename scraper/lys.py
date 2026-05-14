@@ -7,16 +7,15 @@ Two-phase approach:
 Phase 1 (Playwright, cinema page):
   For each movie block collect title, language, and the sesiones page URL.
 
-Phase 2 (requests + BeautifulSoup, per-movie sesiones page):
-  Fetch each /sesiones/ page with requests (static HTML) and parse date tabs +
-  session links.
+Phase 2 (Playwright, per-movie sesiones page):
+  Navigate to each /sesiones/ page (JS-rendered) and parse date tabs + session
+  links.  We reuse the same browser page to avoid launching a new browser.
 
   Date tabs: <li><a href="#N">Day DD/MM</a></li>
   Session sections: <div id="N"> containing <a href="/entrada/...">HH:MM</a>
 """
 
 import re
-import requests
 from datetime import date, timedelta
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
@@ -28,8 +27,6 @@ _UA = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/136.0 Safari/537.36"
 )
-
-_HEADERS = {"User-Agent": _UA}
 
 
 def _parse_sesiones_date(tab_text: str) -> "str | None":
@@ -49,15 +46,25 @@ def _parse_sesiones_date(tab_text: str) -> "str | None":
         return None
 
 
-def _fetch_session_map(sesiones_url: str) -> "dict[tuple[str,str], str]":
+def _fetch_session_map(page, sesiones_url: str) -> "dict[tuple[str,str], str]":
     """
-    Fetch a /sesiones/ page with requests and return
+    Navigate to a /sesiones/ page with Playwright and return
     {(date_str, time_str): booking_url}.  Returns empty dict on failure.
+
+    The page is JS-rendered: the date tabs and /entrada/ booking links are
+    injected by client-side JS after DOMContentLoaded, so requests+BS4 gets
+    bare HTML and yields nothing.  We wait specifically for an /entrada/
+    href, which is the definitive signal that the session list has rendered
+    (a generic `a[href^='#']` selector matches static page anchors and
+    returns before the booking links exist).
     """
     try:
-        r = requests.get(sesiones_url, headers=_HEADERS, timeout=15)
-        r.raise_for_status()
-        html = r.text
+        page.goto(sesiones_url, timeout=30000, wait_until="domcontentloaded")
+        try:
+            page.wait_for_selector("a[href*='/entrada/']", timeout=10000)
+        except Exception:
+            pass
+        html = page.content()
     except Exception:
         return {}
 
@@ -90,6 +97,7 @@ def scrape() -> list[dict]:
     results = []
     today = date.today().isoformat()
     phase1: list[dict] = []
+    session_cache: dict[str, dict[tuple[str, str], str]] = {}
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
@@ -155,14 +163,19 @@ def scrape() -> list[dict]:
             if not phase1:
                 print("  ⚠ Lys page loaded but found no movie blocks")
 
+        # Phase 2: fetch per-movie sesiones pages for multi-day sessions.
+        # Reuse the same Playwright page so the /sesiones/ JS rendering works.
+        for entry in phase1:
+            url = entry["sesiones_url"]
+            if url and url not in session_cache:
+                session_cache[url] = _fetch_session_map(page, url)
+
         browser.close()
 
-    # Phase 2: fetch per-movie sesiones pages for multi-day sessions
-    session_cache: dict[str, dict[tuple[str, str], str]] = {}
-    for entry in phase1:
-        url = entry["sesiones_url"]
-        if url and url not in session_cache:
-            session_cache[url] = _fetch_session_map(url)
+    phase2_hits = sum(1 for entry in phase1 if session_cache.get(entry["sesiones_url"]))
+    if phase1 and phase2_hits == 0:
+        print(f"  ⚠ Lys Phase 2 returned no sessions for any of {len(phase1)} movies "
+              f"— /sesiones/ pages may not be rendering")
 
     for entry in phase1:
         session_map = session_cache.get(entry["sesiones_url"], {})
