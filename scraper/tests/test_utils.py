@@ -8,7 +8,7 @@ import json
 import os
 import sys
 from pathlib import Path
-from datetime import date
+from datetime import date, timedelta
 import pytest
 
 # Coverage/output tests require a fresh scrape to be meaningful.
@@ -21,7 +21,7 @@ _after_scrape = pytest.mark.skipif(
 # Make scraper modules importable
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from run import normalize_lang, normalize_title_key, slugify, merge_showtimes, build_movie_index
+from run import normalize_lang, normalize_title_key, slugify, merge_showtimes, build_movie_index, validate_per_cinema_per_day
 from babel import _parse_date as babel_parse_date, _detect_language as babel_detect_lang
 from cinestudio_dor import _parse_date_range, _parse_times, _detect_language as dor_detect_lang
 from kinepolis import _detect_language as kine_detect_lang, _extract_json_array
@@ -874,3 +874,171 @@ class TestCrawlerCoverage:
             f"Only {len(active_movies)} movies with upcoming showtimes — "
             "scraper may have failed silently"
         )
+
+
+# ─────────────────────────────────────────────
+# Yelmo language pipeline
+# ─────────────────────────────────────────────
+
+class TestYelmoLanguagePipeline:
+    """Yelmo emits verbose version labels.  Encode the expected mapping here
+    so that any change to normalize_lang that breaks Yelmo is caught in CI."""
+
+    def test_vose_verbose_2d(self):
+        assert normalize_lang("2D INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)") == "VOSE"
+
+    def test_vose_verbose_3d(self):
+        assert normalize_lang("3D INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)") == "VOSE"
+
+    def test_es_2d_espanol(self):
+        assert normalize_lang("2D ESPAÑOL") == "ES"
+
+    def test_es_3d_castellano(self):
+        assert normalize_lang("3D CASTELLANO") == "ES"
+
+    def test_empty_defaults_es(self):
+        assert normalize_lang("") == "ES"
+
+    def test_yelmo_pipeline_in_health_check(self):
+        """Matches the TestCrawlerHealthNormalization contract for Yelmo."""
+        assert normalize_lang("2D INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)") == "VOSE"
+        assert normalize_lang("2D ESPAÑOL") == "ES"
+        assert normalize_lang("3D CASTELLANO") == "ES"
+
+
+# ─────────────────────────────────────────────
+# validate_per_cinema_per_day
+# ─────────────────────────────────────────────
+
+class TestValidatePerCinemaPerDay:
+    ALL_CINEMAS = [
+        "babel", "lys", "mn4",
+        "abc_park", "abc_elsaler", "abc_granturia",
+        "dor", "yelmo", "kinepolis",
+    ]
+
+    def _full_coverage(self):
+        today = date.today()
+        return [
+            {"cinema": cinema, "date": (today + timedelta(days=i)).isoformat()}
+            for cinema in self.ALL_CINEMAS
+            for i in range(7)
+        ]
+
+    def test_full_coverage_returns_empty(self):
+        assert validate_per_cinema_per_day(self._full_coverage()) == []
+
+    def test_missing_cinema_returns_seven_warnings(self):
+        rows = [r for r in self._full_coverage() if r["cinema"] != "dor"]
+        warnings = validate_per_cinema_per_day(rows)
+        assert len(warnings) == 7
+        assert all("dor" in w for w in warnings)
+
+    def test_missing_one_day_returns_one_warning(self):
+        today = date.today().isoformat()
+        rows = [r for r in self._full_coverage()
+                if not (r["cinema"] == "yelmo" and r["date"] == today)]
+        warnings = validate_per_cinema_per_day(rows)
+        assert len(warnings) == 1
+        assert "yelmo" in warnings[0]
+        assert today in warnings[0]
+
+    def test_never_raises(self):
+        result = validate_per_cinema_per_day([])
+        assert isinstance(result, list)
+        assert len(result) > 0  # empty input means everything is missing
+
+    def test_returns_list_not_exception(self):
+        # Regression: old behaviour was to raise RuntimeError
+        try:
+            result = validate_per_cinema_per_day([])
+            assert isinstance(result, list)
+        except RuntimeError:
+            pytest.fail("validate_per_cinema_per_day must return warnings, not raise")
+
+
+# ─────────────────────────────────────────────
+# build_movie_index with normalised titles
+# ─────────────────────────────────────────────
+
+class TestBuildMovieIndexNormalized:
+    def _movie(self, title, *, has_tmdb=False):
+        return {
+            "title": title,
+            "poster": "p.jpg" if has_tmdb else None,
+            "rating": 7.5 if has_tmdb else None,
+            "trailer_youtube_id": "x" if has_tmdb else None,
+            "showtimes": [],
+        }
+
+    def test_year_annotation_found_by_clean_key(self):
+        existing = {"movies": [self._movie("Top Gun (1986) - 40 Aniversario", has_tmdb=True)]}
+        index = build_movie_index(existing)
+        # Scraped title without year should resolve to same index entry
+        assert normalize_title_key("Top Gun 40 Aniversario") in index
+
+    def test_tmdb_enriched_entry_wins_over_bare(self):
+        existing = {"movies": [
+            self._movie("Top Gun (1986)", has_tmdb=True),
+            self._movie("Top Gun",        has_tmdb=False),
+        ]}
+        index = build_movie_index(existing)
+        key = normalize_title_key("Top Gun")
+        assert index[key]["poster"] == "p.jpg"
+
+    def test_showtimes_merged_across_title_variants(self):
+        st1 = {"cinema": "yelmo",     "language": "ES", "date": "2026-05-14", "time": "18:00"}
+        st2 = {"cinema": "kinepolis", "language": "ES", "date": "2026-05-14", "time": "20:00"}
+        existing = {"movies": [
+            {**self._movie("Top Gun (1986)"), "showtimes": [st1]},
+            {**self._movie("Top Gun"),        "showtimes": [st2]},
+        ]}
+        index = build_movie_index(existing)
+        key = normalize_title_key("Top Gun")
+        assert len(index[key]["showtimes"]) == 2
+
+
+# ─────────────────────────────────────────────
+# Cinestudio d'Or retry logic
+# ─────────────────────────────────────────────
+
+class TestDorRetryLogic:
+    """Verify the exponential-backoff retry loop in cinestudio_dor.scrape()."""
+
+    def _mock_ok(self):
+        from unittest.mock import Mock
+        r = Mock()
+        r.text = "<html><body></body></html>"
+        r.raise_for_status = Mock()
+        return r
+
+    def _mock_fail(self):
+        from unittest.mock import Mock
+        r = Mock()
+        r.raise_for_status = Mock(side_effect=Exception("429 Too Many Requests"))
+        return r
+
+    def test_success_on_first_attempt(self):
+        from unittest.mock import patch, Mock
+        import cinestudio_dor
+        with patch("cinestudio_dor.requests.get", return_value=self._mock_ok()) as m:
+            cinestudio_dor.scrape()
+            assert m.call_count == 1
+
+    def test_retries_after_failure(self):
+        from unittest.mock import patch
+        import cinestudio_dor
+        side_effects = [self._mock_fail(), self._mock_fail(), self._mock_ok()]
+        with patch("cinestudio_dor.requests.get", side_effect=side_effects) as m:
+            with patch("cinestudio_dor.time.sleep"):
+                cinestudio_dor.scrape()
+            assert m.call_count == 3
+
+    def test_all_retries_exhausted_returns_empty(self):
+        from unittest.mock import patch
+        import cinestudio_dor
+        with patch("cinestudio_dor.requests.get", return_value=self._mock_fail()) as m:
+            with patch("cinestudio_dor.time.sleep"):
+                result = cinestudio_dor.scrape()
+            assert result == []
+            assert m.call_count == 4  # 4 attempts: delays 0, 2, 4, 8
