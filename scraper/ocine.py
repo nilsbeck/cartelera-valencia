@@ -23,7 +23,6 @@ Film page URL pattern:
 """
 
 import re
-import time as _time
 from datetime import date, timedelta
 from playwright.sync_api import sync_playwright
 
@@ -90,21 +89,18 @@ def scrape() -> list[dict]:
         # ── Phase 1: discover film detail URLs ───────────────────────────
         film_entries: list[dict] = []
         try:
-            # wait_until="commit" fires as soon as response headers arrive,
-            # then we wait separately for the content selector. This avoids
-            # the 60 s domcontentloaded timeout on sites that delay that event.
-            for _attempt in range(3):
-                try:
-                    page.goto(BASE_URL, timeout=90000, wait_until="commit")
-                    break
-                except Exception as _e:
-                    if _attempt == 2:
-                        raise
-                    print(f"  ⚠ Ocine goto retry {_attempt + 1}: {_e}")
-                    _time.sleep(2 ** _attempt)
-            page.wait_for_selector("div.peli-item.element-item", timeout=90000)
+            page.goto(BASE_URL, timeout=30000, wait_until="domcontentloaded")
+        except Exception as e:
+            print(f"  ⚠ Ocine: failed to load {BASE_URL}: {e}")
+            browser.close()
+            return results
 
-            for block in page.query_selector_all("div.peli-item.element-item"):
+        blocks = page.query_selector_all("div.peli-item.element-item")
+        if not blocks:
+            snippet = page.content()[:1000]
+            print(f"  ⚠ Ocine: no film blocks found — page snippet: {snippet}")
+        else:
+            for block in blocks:
                 h4 = block.query_selector("h4")
                 if not h4:
                     continue
@@ -127,9 +123,6 @@ def scrape() -> list[dict]:
                 # Drop any selectedDate already in the link
                 film_url = re.sub(r"[&?]selectedDate=[^&]*", "", film_url).rstrip("?&")
                 film_entries.append({"title": title, "url": film_url})
-
-        except Exception as e:
-            print(f"  ⚠ Ocine (discovery) error: {e}")
 
         # ── Phase 2: per-film, per-date session scraping ─────────────────
         for entry in film_entries:
