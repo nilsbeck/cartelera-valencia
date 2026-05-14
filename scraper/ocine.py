@@ -27,7 +27,7 @@ import requests
 from datetime import date, timedelta
 from bs4 import BeautifulSoup
 
-BASE_URL = "https://www.ocinepremiumaqua.es"
+BASE_URL = "https://ocinepremiumaqua.es"
 
 _HEADERS = {
     "User-Agent": (
