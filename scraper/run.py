@@ -19,6 +19,7 @@ from pathlib import Path
 # ── Cinema scrapers (one per file)
 from babel     import scrape as scrape_babel
 from lys       import scrape as scrape_lys
+from mn4       import scrape as scrape_mn4
 from cinema_abc import scrape_park, scrape_elsaler, scrape_granturia
 from cinestudio_dor import scrape as scrape_dor
 from yelmo     import scrape as scrape_yelmo
@@ -130,6 +131,7 @@ def run():
     solo_scrapers = [
         ("babel",     scrape_babel),
         ("lys",       scrape_lys),
+        ("mn4",       scrape_mn4),
         ("dor",       scrape_dor),
         ("yelmo",     scrape_yelmo),
         ("kinepolis", scrape_kinepolis),
@@ -266,6 +268,7 @@ def validate_per_cinema_per_day(all_raw: list[dict]) -> None:
     expected: dict[str, set[str]] = {
         "babel":         std_dates,
         "lys":           std_dates,
+        "mn4":           std_dates,
         "abc_park":      std_dates,
         "abc_elsaler":   std_dates,
         "abc_granturia": std_dates,
