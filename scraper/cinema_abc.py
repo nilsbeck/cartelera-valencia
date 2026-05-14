@@ -227,9 +227,11 @@ def _scrape_ficha(page, ficha_url: str, title: str) -> list[dict]:
 
     today = date.today()
     results = []
+    unparseable_dates = []
     for item in raw_sessions:
         date_str = _parse_ficha_date(item.get("dateText", ""))
         if not date_str:
+            unparseable_dates.append(repr(item.get("dateText", "")))
             continue
         if date.fromisoformat(date_str) < today:
             continue
@@ -243,6 +245,10 @@ def _scrape_ficha(page, ficha_url: str, title: str) -> list[dict]:
             "time":     item["time"],
             "url":      ficha_url,
         })
+
+    if not results and unparseable_dates:
+        sample = unparseable_dates[:3]
+        print(f"  ⚠ ABC date parse failed for '{title}' — dateText samples: {sample}")
 
     return results
 
