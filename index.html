@@ -807,6 +807,8 @@ function renderMovies() {
     return { ...movie, showtimes };
   }).filter(m => m.showtimes.length > 0);
 
+  filtered.sort((a, b) => a.title.localeCompare(b.title, 'es', { sensitivity: 'base' }));
+
   document.getElementById('results-count').textContent =
     filtered.length ? `${filtered.length} películas` : '';
 

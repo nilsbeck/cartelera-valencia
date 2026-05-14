@@ -21,7 +21,7 @@ _after_scrape = pytest.mark.skipif(
 # Make scraper modules importable
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from run import normalize_lang, slugify, merge_showtimes, build_movie_index
+from run import normalize_lang, normalize_title_key, slugify, merge_showtimes, build_movie_index
 from babel import _parse_date as babel_parse_date, _detect_language as babel_detect_lang
 from cinestudio_dor import _parse_date_range, _parse_times, _detect_language as dor_detect_lang
 from kinepolis import _detect_language as kine_detect_lang, _extract_json_array
@@ -66,6 +66,37 @@ class TestNormalizeLang:
     def test_strips_whitespace(self):
         assert normalize_lang("  VO  ")   == "VO"
         assert normalize_lang("\tVOSE\n") == "VOSE"
+
+    def test_verbose_labels(self):
+        # Yelmo emits long version labels — VOSE/VO must be detected as substrings
+        assert normalize_lang("2D INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)") == "VOSE"
+        assert normalize_lang("2D V.O.S.E. - Inglés")                    == "VOSE"
+        assert normalize_lang("3D Versión Original")                      == "VO"
+        assert normalize_lang("2D Doblado al castellano")                 == "ES"
+
+
+# ─────────────────────────────────────────────
+# normalize_title_key
+# ─────────────────────────────────────────────
+
+class TestNormalizeTitleKey:
+    def test_year_annotation_stripped(self):
+        assert normalize_title_key("TOP GUN (1986) - 40 ANIVERSARIO") == \
+               normalize_title_key("Top Gun 40 Aniversario")
+
+    def test_separator_variants(self):
+        assert normalize_title_key("Avengers: Endgame") == "avengers endgame"
+        assert normalize_title_key("Spider-Man: No Way Home") == "spider man no way home"
+
+    def test_distinct_films_stay_separate(self):
+        assert normalize_title_key("Top Gun") != normalize_title_key("Top Gun 40 Aniversario")
+        assert normalize_title_key("Top Gun") != normalize_title_key("Top Gun: Maverick")
+
+    def test_case_insensitive(self):
+        assert normalize_title_key("THE BATMAN") == normalize_title_key("The Batman")
+
+    def test_extra_whitespace(self):
+        assert normalize_title_key("  Dune   Part Two  ") == "dune part two"
 
 
 # ─────────────────────────────────────────────

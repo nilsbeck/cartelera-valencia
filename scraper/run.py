@@ -48,7 +48,34 @@ LANG_MAP = {
 }
 
 def normalize_lang(raw: str) -> str:
-    return LANG_MAP.get(raw.strip().lower(), "ES")
+    cleaned = raw.strip().lower()
+    if cleaned in LANG_MAP:
+        return LANG_MAP[cleaned]
+    # Substring fallback for verbose labels like "2D INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)"
+    if "vose" in cleaned or "v.o.s.e" in cleaned:
+        return "VOSE"
+    if "valencià" in cleaned or "valenciano" in cleaned:
+        return "VAL"
+    if "v.o." in cleaned or "original" in cleaned:
+        return "VO"
+    if "castellano" in cleaned or "español" in cleaned or "doblad" in cleaned:
+        return "ES"
+    return "ES"
+
+
+def normalize_title_key(title: str) -> str:
+    """Produce a dedup key from a movie title.
+
+    Strips year annotations like (1986), normalizes separators, and lowercases
+    so that 'TOP GUN (1986) - 40 ANIVERSARIO' and 'Top Gun 40 Aniversario'
+    produce the same key while distinct films (e.g. 'Top Gun' vs
+    'Top Gun: Maverick') remain separate.
+    """
+    t = title.strip().lower()
+    t = re.sub(r"\(\d{4}\)", "", t)       # remove year: (1986)
+    t = re.sub(r"[:\-·,|]+", " ", t)     # separators → space
+    t = re.sub(r"\s+", " ", t).strip()
+    return t
 
 
 def slugify(text: str) -> str:
@@ -91,10 +118,10 @@ def has_tmdb_data(movie: dict) -> bool:
 
 
 def build_movie_index(existing: dict) -> dict:
-    """Index existing movies by title (lowercased) for dedup, merging duplicates."""
+    """Index existing movies by normalized title for dedup, merging duplicates."""
     index = {}
     for m in existing.get("movies", []):
-        key = m["title"].lower()
+        key = normalize_title_key(m["title"])
         if key in index:
             # Prefer the entry that has TMDB data
             if has_tmdb_data(m) and not has_tmdb_data(index[key]):
@@ -184,12 +211,12 @@ def run():
 
     validate_per_cinema_per_day(all_raw)
 
-    # Group by title (case-insensitive; preserve casing of first occurrence)
+    # Group by normalized title; preserve casing of first occurrence
     by_title: dict[str, list] = {}
     title_canonical: dict[str, str] = {}
     for row in all_raw:
         t = row["title"].strip()
-        key = t.lower()
+        key = normalize_title_key(t)
         if key not in title_canonical:
             title_canonical[key] = t
         by_title.setdefault(key, []).append(row)
