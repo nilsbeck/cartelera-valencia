@@ -291,11 +291,15 @@ def validate_per_cinema_per_day(all_raw: list[dict]) -> list[str]:
     """Return warning strings for any cinema missing showtimes on an expected day."""
     today = date.today()
     std_dates = {(today + timedelta(days=i)).isoformat() for i in range(7)}
+    # Lys and MN4 multi-day data comes from reservaentradas.com /sesiones/
+    # pages, which drop past sessions during the day. By late afternoon today
+    # may legitimately be absent, so only require the next 6 days.
+    future_only = std_dates - {today.isoformat()}
 
     expected: dict[str, set[str]] = {
         "babel":         std_dates,
-        "lys":           std_dates,
-        "mn4":           std_dates,
+        "lys":           future_only,
+        "mn4":           future_only,
         "abc_park":      std_dates,
         "abc_elsaler":   std_dates,
         "abc_granturia": std_dates,
