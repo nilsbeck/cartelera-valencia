@@ -57,73 +57,70 @@ _MONTHS = {
 # element whose text looks like a Spanish date ("14 de mayo", "jueves 14 mayo").
 _JS_SESSIONS = """
 () => {
-    // Require an actual Spanish month name to avoid false-positives like "12 años".
-    const _MONTH_RE = /enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre/;
-    function looksLikeDate(text) {
-        const t = text.toLowerCase().trim();
-        if (t.length > 80) return false;
-        return _MONTH_RE.test(t) && /\\d{1,2}/.test(t);
-    }
+    const MONTH_RE = /enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre/i;
 
-    function findDateText(el) {
-        // Strategy 1: data-* attributes on the element or any ancestor.
-        let node = el;
-        while (node && node !== document.body) {
-            for (const attr of ['data-date', 'data-fecha', 'data-day', 'id-date', 'data-session-date']) {
-                const val = node.getAttribute(attr);
-                if (val) return val;
+    // Collect every element whose direct text looks like a Spanish date heading.
+    // "Direct text" = text nodes that are immediate children (not deep descendants),
+    // so container divs that happen to contain month words are excluded.
+    function collectDateEls() {
+        const out = [];
+        const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_ELEMENT);
+        let el;
+        while ((el = walker.nextNode())) {
+            const ownText = Array.from(el.childNodes)
+                .filter(n => n.nodeType === Node.TEXT_NODE)
+                .map(n => n.textContent.trim())
+                .filter(t => t.length > 0)
+                .join(' ');
+            if (ownText.length > 2 && ownText.length < 80
+                    && MONTH_RE.test(ownText) && /\\d{1,2}/.test(ownText)) {
+                out.push({el, text: ownText});
             }
-            node = node.parentElement;
         }
-
-        // Strategy 2: walk backwards through previous siblings at each DOM level.
-        node = el;
-        while (node && node !== document.body) {
-            let sib = node.previousElementSibling;
-            while (sib) {
-                const t = (sib.textContent || '').trim();
-                if (looksLikeDate(t)) return t;
-                sib = sib.previousElementSibling;
-            }
-            node = node.parentElement;
-        }
-
-        // Strategy 3: table column header (for weekly-grid layouts).
-        const td = el.closest('td, th');
-        if (td) {
-            const row = td.parentElement;
-            const colIdx = row ? Array.from(row.children).indexOf(td) : -1;
-            const table = td.closest('table');
-            if (table && colIdx >= 0) {
-                const headerRow = table.querySelector('thead tr') || table.querySelector('tr');
-                if (headerRow && headerRow !== row) {
-                    const cell = headerRow.children[colIdx];
-                    const t = cell ? (cell.textContent || '').trim() : '';
-                    if (t) return t;
+        // Fallback: consider any short leaf element whose full text looks like a date
+        if (out.length === 0) {
+            const walker2 = document.createTreeWalker(document.body, NodeFilter.SHOW_ELEMENT);
+            while ((el = walker2.nextNode())) {
+                if (el.children.length > 0) continue;  // leaf elements only
+                const t = (el.textContent || '').trim();
+                if (t.length > 2 && t.length < 80 && MONTH_RE.test(t) && /\\d{1,2}/.test(t)) {
+                    out.push({el, text: t});
                 }
             }
         }
-
-        return '';
+        return out;
     }
 
-    // Try primary selector then common fallbacks
+    const dateEls = collectDateEls();
+
     const SESS_SELS = ['div.cont-ses', '.cont-ses', 'div.sesion-item', 'div.session-item', 'li.sesion'];
-    let sesDivs = [];
+    let sessions = [];
     for (const sel of SESS_SELS) {
-        sesDivs = Array.from(document.querySelectorAll(sel));
-        if (sesDivs.length > 0) break;
+        sessions = Array.from(document.querySelectorAll(sel));
+        if (sessions.length > 0) break;
     }
-    return sesDivs.map(ses => {
+
+    return sessions.map(ses => {
         const horaEl = ses.querySelector('div.hora-ses, .hora-ses, .hora, .time');
         if (!horaEl) return null;
         const time = (horaEl.childNodes[0] ? horaEl.childNodes[0].textContent : '').trim();
         if (!time.includes(':')) return null;
         const etiq = ses.querySelector('div.etiq-hora, .etiq-hora, .etiqueta, .version, .lang');
+
+        // Find the date element that most recently precedes this session in document order.
+        // compareDocumentPosition returns a bitmask; bit 4 (value 4) means the argument
+        // (ses) follows the context object (dateEl) — i.e. dateEl comes before ses.
+        let dateText = '';
+        for (const {el: dateEl, text} of dateEls) {
+            if (dateEl.compareDocumentPosition(ses) & 4) {
+                dateText = text;
+            }
+        }
+
         return {
-            time:     time,
+            time,
             lang:     etiq ? etiq.textContent.trim() : '',
-            dateText: findDateText(ses)
+            dateText,
         };
     }).filter(Boolean);
 }
