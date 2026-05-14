@@ -93,6 +93,7 @@ def scrape() -> list[dict]:
             # wait_until="commit" fires as soon as response headers arrive,
             # then we wait separately for the content selector. This avoids
             # the 60 s domcontentloaded timeout on sites that delay that event.
+            # Retry up to 3 times with exponential backoff for transient connectivity issues.
             for _attempt in range(3):
                 try:
                     page.goto(BASE_URL, timeout=90000, wait_until="commit")

@@ -53,45 +53,60 @@ _MONTHS = {
 }
 
 # JavaScript that returns [{time, lang, dateText}] for all sessions on the page.
-# For each div.cont-ses it walks backwards up the DOM to find the nearest
-# element whose text looks like a Spanish date ("14 de mayo", "jueves 14 mayo").
+# Tries four strategies in order:
+#   1. Date cell inside the session element itself (table-row pattern)
+#   2. data-date / data-fecha / data-dia attribute on session or ancestor
+#   3. Nearest preceding sibling (at any ancestor level) whose text looks like a date
+#   4. Falls back to empty string (triggers diagnostic print in Python)
 _JS_SESSIONS = """
 () => {
-    const MONTH_RE = /enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre/i;
+    const MONTH_WORD_RE = /enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre/i;
+    const NUMERIC_DATE_RE = /\\b(\\d{1,2})[\\/-](\\d{1,2})(?:[\\/-](\\d{2,4}))?\\b/;
+    const ISO_DATE_RE = /\\b(\\d{4})-(\\d{2})-(\\d{2})\\b/;
 
-    // Collect every element whose direct text looks like a Spanish date heading.
-    // "Direct text" = text nodes that are immediate children (not deep descendants),
-    // so container divs that happen to contain month words are excluded.
-    function collectDateEls() {
-        const out = [];
-        const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_ELEMENT);
-        let el;
-        while ((el = walker.nextNode())) {
-            const ownText = Array.from(el.childNodes)
-                .filter(n => n.nodeType === Node.TEXT_NODE)
-                .map(n => n.textContent.trim())
-                .filter(t => t.length > 0)
-                .join(' ');
-            if (ownText.length > 2 && ownText.length < 80
-                    && MONTH_RE.test(ownText) && /\\d{1,2}/.test(ownText)) {
-                out.push({el, text: ownText});
-            }
-        }
-        // Fallback: consider any short leaf element whose full text looks like a date
-        if (out.length === 0) {
-            const walker2 = document.createTreeWalker(document.body, NodeFilter.SHOW_ELEMENT);
-            while ((el = walker2.nextNode())) {
-                if (el.children.length > 0) continue;  // leaf elements only
-                const t = (el.textContent || '').trim();
-                if (t.length > 2 && t.length < 80 && MONTH_RE.test(t) && /\\d{1,2}/.test(t)) {
-                    out.push({el, text: t});
-                }
-            }
-        }
-        return out;
+    function looksLikeDate(text) {
+        if (!text || text.includes(':')) return false;  // skip times like "17:30"
+        const t = text.toLowerCase().trim();
+        if (t.length > 120) return false;
+        return MONTH_WORD_RE.test(t) || NUMERIC_DATE_RE.test(t) || ISO_DATE_RE.test(t);
     }
 
-    const dateEls = collectDateEls();
+    function dataDateOf(el) {
+        return el.dataset.date || el.dataset.fecha || el.dataset.dia || el.dataset.day || '';
+    }
+
+    function findDateText(ses) {
+        // Strategy 1: date inside session (e.g. first <td> in a table row)
+        const inner = ses.querySelector(
+            '[class*="fecha"], [class*="date"], [class*="dia"], [class*="day"], td:first-child'
+        );
+        if (inner) {
+            const t = (inner.textContent || '').trim();
+            if (looksLikeDate(t)) return t;
+        }
+
+        // Strategy 2: data attribute on session or any ancestor
+        let node = ses;
+        while (node && node !== document.body) {
+            const d = dataDateOf(node);
+            if (d) return d;
+            node = node.parentElement;
+        }
+
+        // Strategy 3: nearest preceding sibling (walk up the tree)
+        node = ses;
+        while (node && node !== document.body) {
+            let sib = node.previousElementSibling;
+            while (sib) {
+                const t = (sib.textContent || '').trim();
+                if (looksLikeDate(t)) return t;
+                sib = sib.previousElementSibling;
+            }
+            node = node.parentElement;
+        }
+
+        return '';
+    }
 
     const SESS_SELS = ['div.cont-ses', '.cont-ses', 'div.sesion-item', 'div.session-item', 'li.sesion'];
     let sessions = [];
@@ -106,38 +121,82 @@ _JS_SESSIONS = """
         const time = (horaEl.childNodes[0] ? horaEl.childNodes[0].textContent : '').trim();
         if (!time.includes(':')) return null;
         const etiq = ses.querySelector('div.etiq-hora, .etiq-hora, .etiqueta, .version, .lang');
-
-        // Find the date element that most recently precedes this session in document order.
-        // compareDocumentPosition returns a bitmask; bit 4 (value 4) means the argument
-        // (ses) follows the context object (dateEl) — i.e. dateEl comes before ses.
-        let dateText = '';
-        for (const {el: dateEl, text} of dateEls) {
-            if (dateEl.compareDocumentPosition(ses) & 4) {
-                dateText = text;
-            }
-        }
-
         return {
             time,
             lang:     etiq ? etiq.textContent.trim() : '',
-            dateText,
+            dateText: findDateText(ses),
         };
     }).filter(Boolean);
+}
+"""
+
+# Diagnostic JS: dumps context around the first session element.
+# Called only when sessions are found but all have empty dateText.
+_JS_DIAGNOSTIC = """
+() => {
+    const ses = document.querySelector('div.cont-ses, .cont-ses, div.hora-ses');
+    if (!ses) return {found: false, url: location.href};
+
+    // Parent chain (up to 6 levels)
+    const chain = [];
+    let node = ses;
+    while (node && node !== document.body && chain.length < 6) {
+        const ownText = Array.from(node.childNodes)
+            .filter(n => n.nodeType === 3)
+            .map(n => n.textContent.trim())
+            .filter(t => t)
+            .join(' | ');
+        chain.push({tag: node.tagName, cls: node.className, id: node.id,
+                    ownText, data: JSON.stringify(node.dataset)});
+        node = node.parentElement;
+    }
+
+    // Previous siblings of the session and its parent
+    function prevSibsOf(el, limit) {
+        const out = [];
+        let sib = el ? el.previousElementSibling : null;
+        while (sib && out.length < limit) {
+            out.push({tag: sib.tagName, cls: sib.className, id: sib.id,
+                      text: (sib.textContent || '').trim().slice(0, 200),
+                      data: JSON.stringify(sib.dataset)});
+            sib = sib.previousElementSibling;
+        }
+        return out;
+    }
+
+    return {
+        found:         true,
+        url:           location.href,
+        chain,
+        sesOwnSibs:    prevSibsOf(ses, 5),
+        parentSibs:    prevSibsOf(ses.parentElement, 5),
+        sesHtml:       ses.outerHTML.slice(0, 800),
+    };
 }
 """
 
 
 def _parse_ficha_date(text: str) -> "str | None":
     """
-    Parse a Spanish date string like 'Jueves, 14 de mayo' → '2026-05-14'.
-    Also handles numeric formats like '14/05' or '14-05-2026'.
+    Parse a date string into ISO format.
+    Handles: 'Jueves, 14 de mayo', '14/05', '14-05-2026', '2026-05-14'.
     Returns None if unparseable.
     """
-    t = text.lower()
+    t = text.strip()
     today = date.today()
 
-    # Try word-month format first: "14 de mayo", "14 mayo", etc.
-    m = re.search(r"(\d{1,2})\s+(?:de\s+)?([a-záéíóúñ]+)", t)
+    # ISO format YYYY-MM-DD (from data-date attributes)
+    m_iso = re.match(r"(\d{4})-(\d{2})-(\d{2})", t)
+    if m_iso:
+        try:
+            return date(int(m_iso.group(1)), int(m_iso.group(2)), int(m_iso.group(3))).isoformat()
+        except (ValueError, TypeError):
+            pass
+
+    tl = t.lower()
+
+    # Word-month format: "14 de mayo", "14 mayo", "jueves, 14 de mayo", etc.
+    m = re.search(r"(\d{1,2})\s+(?:de\s+)?([a-záéíóúñ]+)", tl)
     if m:
         try:
             day   = int(m.group(1))
@@ -150,20 +209,22 @@ def _parse_ficha_date(text: str) -> "str | None":
         except (ValueError, TypeError):
             pass
 
-    # Fallback: numeric format "DD/MM" or "DD-MM" or "DD/MM/YYYY"
-    m2 = re.search(r"(\d{1,2})[/-](\d{1,2})(?:[/-](\d{2,4}))?", t)
+    # Numeric format "DD/MM" or "DD-MM" or "DD/MM/YYYY"
+    # Use a word boundary to avoid matching "2026-05-14" as day=20, month=26
+    m2 = re.search(r"(?<!\d)(\d{1,2})[/-](\d{1,2})(?:[/-](\d{2,4}))?(?!\d)", tl)
     if m2:
         try:
             day, month = int(m2.group(1)), int(m2.group(2))
-            year_raw = m2.group(3)
-            if year_raw:
-                year = int(year_raw) if len(year_raw) == 4 else 2000 + int(year_raw)
-            else:
-                year = today.year
-                target = date(year, month, day)
-                if target < today - timedelta(days=1):
-                    year += 1
-            return date(year, month, day).isoformat()
+            if 1 <= day <= 31 and 1 <= month <= 12:
+                year_raw = m2.group(3)
+                if year_raw:
+                    year = int(year_raw) if len(year_raw) == 4 else 2000 + int(year_raw)
+                else:
+                    year = today.year
+                    target = date(year, month, day)
+                    if target < today - timedelta(days=1):
+                        year += 1
+                return date(year, month, day).isoformat()
         except (ValueError, TypeError):
             pass
 
@@ -194,7 +255,6 @@ def _collect_ficha_urls(page, base_url: str) -> dict[str, str]:
     are included alongside the main programme.
     """
     entries: dict[str, str] = {}
-    today = date.today().isoformat()
 
     for pag in ("cartelera", "vose"):
         try:
@@ -253,6 +313,14 @@ def _scrape_ficha(page, ficha_url: str, title: str) -> list[dict]:
     if not raw_sessions:
         print(f"  ⚠ ABC no sessions found for: {title} ({ficha_url})")
         return []
+
+    # Diagnostic: if all sessions have empty dateText, dump DOM context once per ficha
+    if all(not s.get("dateText") for s in raw_sessions):
+        try:
+            diag = page.evaluate(_JS_DIAGNOSTIC)
+            print(f"  ⚠ ABC empty dateText for '{title}' — diagnostic: {diag}")
+        except Exception as _de:
+            print(f"  ⚠ ABC diagnostic error for '{title}': {_de}")
 
     today = date.today()
     results = []
