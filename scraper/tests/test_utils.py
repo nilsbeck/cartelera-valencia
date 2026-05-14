@@ -196,10 +196,9 @@ class TestShowtimesSchema:
 
             for s in movie["showtimes"]:
                 assert s["cinema"] in {
-                    "babel", "lys",
+                    "babel", "lys", "mn4",
                     "abc_park", "abc_elsaler", "abc_granturia",
-                    "ocine", "dor",
-                    "yelmo", "kinepolis",
+                    "dor", "yelmo", "kinepolis",
                 }, f"Unknown cinema: {s['cinema']}"
                 assert s["language"] in {"VO", "VOSE", "ES", "VAL"}, \
                     f"Unknown language: {s['language']}"
@@ -796,22 +795,20 @@ class TestCrawlerCoverage:
     def test_per_cinema_per_day_coverage(self):
         """Every cinema must have at least 1 movie for each day in its expected window."""
         from datetime import timedelta
-        from ocine import _dates_until_next_thursday
 
         with open(self.DATA_FILE) as f:
             data = json.load(f)
 
         today = date.today()
         std_dates = {(today + timedelta(days=i)).isoformat() for i in range(7)}
-        ocine_dates = set(_dates_until_next_thursday())
 
         expected = {
             "babel":         std_dates,
             "lys":           std_dates,
+            "mn4":           std_dates,
             "abc_park":      std_dates,
             "abc_elsaler":   std_dates,
             "abc_granturia": std_dates,
-            "ocine":         ocine_dates,
             "dor":           std_dates,
             "yelmo":         std_dates,
             "kinepolis":     std_dates,
