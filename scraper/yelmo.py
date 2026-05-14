@@ -62,6 +62,7 @@ def scrape() -> list[dict]:
                     # a language label, a <time> tag, and the booking <a>.
                     sessions = block.evaluate(r"""el => {
                         const out = [];
+                        const langPattern = /VOSE|V\.O\.S\.E|V\.O\.|ESPAÑOL|CASTELLANO|VALENCIÀ|VALENCIANO|INGLÉS|DOBLAD|SUBTITULAD/i;
 
                         for (const outer of el.querySelectorAll('[data-cinema="mercado-de-campanar"]')) {
                             const rows = Array.from(outer.querySelectorAll(':scope > div'));
@@ -75,7 +76,7 @@ def scrape() -> list[dict]:
                                     let lang = '';
                                     for (const lbl of row.querySelectorAll('label, span, p')) {
                                         const t = lbl.textContent.trim();
-                                        if (t && !/^\d{1,2}:\d{2}/.test(t)) { lang = t; break; }
+                                        if (t && langPattern.test(t)) { lang = t; break; }
                                     }
 
                                     const a = time.closest('a') || row.querySelector('a');
@@ -90,7 +91,7 @@ def scrape() -> list[dict]:
                                 let lang = '';
                                 for (const s of vb.querySelectorAll('span')) {
                                     const t = s.textContent.trim();
-                                    if (t && !/^\d{1,2}:\d{2}/.test(t)) { lang = t; break; }
+                                    if (t && langPattern.test(t)) { lang = t; break; }
                                 }
                                 for (const time of vb.querySelectorAll('time')) {
                                     const timeText = time.getAttribute('datetime') || time.textContent.trim();
