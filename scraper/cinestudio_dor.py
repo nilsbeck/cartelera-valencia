@@ -24,12 +24,26 @@ Date handling:
 """
 
 import re
+import time
 import requests
 from bs4 import BeautifulSoup
 from datetime import date, timedelta
 
 BASE_URL    = "https://www.cinestudiodor.es/"
 BOOKING_URL = "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+
+_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/136.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Referer": "https://www.google.es/",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+}
 
 _MONTHS_ES = {
     "enero": 1, "febrero": 2, "marzo": 3, "abril": 4,
@@ -133,15 +147,18 @@ def scrape() -> list[dict]:
     today = date.today()
     valid_dates = {(today + timedelta(days=i)).isoformat() for i in range(7)}
 
-    try:
-        resp = requests.get(
-            BASE_URL,
-            headers={"User-Agent": "Mozilla/5.0"},
-            timeout=20,
-        )
-        resp.raise_for_status()
-    except Exception as e:
-        print(f"  ⚠ Cinestudio d'Or fetch error: {e}")
+    resp = None
+    for attempt, delay in enumerate([0, 2, 4, 8]):
+        if delay:
+            time.sleep(delay)
+        try:
+            resp = requests.get(BASE_URL, headers=_HEADERS, timeout=20)
+            resp.raise_for_status()
+            break
+        except Exception as e:
+            print(f"  ⚠ Cinestudio d'Or fetch error (attempt {attempt + 1}): {e}")
+            resp = None
+    if resp is None:
         return results
 
     soup = BeautifulSoup(resp.text, "html.parser")
