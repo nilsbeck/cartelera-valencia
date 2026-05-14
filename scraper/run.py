@@ -48,7 +48,19 @@ LANG_MAP = {
 }
 
 def normalize_lang(raw: str) -> str:
-    return LANG_MAP.get(raw.strip().lower(), "ES")
+    cleaned = raw.strip().lower()
+    if cleaned in LANG_MAP:
+        return LANG_MAP[cleaned]
+    # Substring fallback for verbose labels like "2D INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)"
+    if "vose" in cleaned or "v.o.s.e" in cleaned:
+        return "VOSE"
+    if "valencià" in cleaned or "valenciano" in cleaned:
+        return "VAL"
+    if "v.o." in cleaned or "original" in cleaned:
+        return "VO"
+    if "castellano" in cleaned or "español" in cleaned or "doblad" in cleaned:
+        return "ES"
+    return "ES"
 
 
 def slugify(text: str) -> str:

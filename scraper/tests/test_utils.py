@@ -67,6 +67,13 @@ class TestNormalizeLang:
         assert normalize_lang("  VO  ")   == "VO"
         assert normalize_lang("\tVOSE\n") == "VOSE"
 
+    def test_verbose_labels(self):
+        # Yelmo emits long version labels — VOSE/VO must be detected as substrings
+        assert normalize_lang("2D INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)") == "VOSE"
+        assert normalize_lang("2D V.O.S.E. - Inglés")                    == "VOSE"
+        assert normalize_lang("3D Versión Original")                      == "VO"
+        assert normalize_lang("2D Doblado al castellano")                 == "ES"
+
 
 # ─────────────────────────────────────────────
 # slugify
