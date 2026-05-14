@@ -21,11 +21,6 @@ BASE_URL  = "https://www.yelmocines.es"
 CITY_SLUG = "valencia/mercado-de-campanar"
 
 
-def _is_novapark_href(href: str) -> bool:
-    """Return True if a session booking link belongs to Yelmo NovaPark."""
-    return "novapark" in href.lower()
-
-
 def scrape() -> list[dict]:
     results = []
 
@@ -88,9 +83,6 @@ def scrape() -> list[dict]:
                             if time_anchors:
                                 for a_el in time_anchors:
                                     href = a_el.get_attribute("href") or url
-                                    # Each session link encodes the cinema; skip NovaPark.
-                                    if _is_novapark_href(href):
-                                        continue
                                     time_el = a_el.query_selector("time")
                                     if time_el:
                                         time_text = (
