@@ -71,11 +71,16 @@ def scrape() -> list[dict]:
 
                     if version_blocks:
                         for vb in version_blocks:
-                            # First span = language label
-                            lang_el  = vb.query_selector("span")
-                            language = lang_el.inner_text().strip() if lang_el else "es"
-                            if not language:
-                                language = "es"
+                            # Walk all spans; use the first one that doesn't look
+                            # like a time (HH:MM) — avoids picking up icon/time
+                            # spans nested inside <a> elements before the label.
+                            language = vb.evaluate("""el => {
+                                for (const s of el.querySelectorAll('span')) {
+                                    const t = s.textContent.trim();
+                                    if (t && !/^\\d{1,2}:\\d{2}/.test(t)) return t;
+                                }
+                                return '';
+                            }""") or "es"
 
                             # Times: prefer <a><time>HH:MM</time></a>,
                             # fall back to bare <time> elements
