@@ -89,40 +89,46 @@ def scrape() -> list[dict]:
         # ── Phase 1: discover film detail URLs ───────────────────────────
         film_entries: list[dict] = []
         try:
-            page.goto(BASE_URL, timeout=30000, wait_until="domcontentloaded")
+            # wait_until="commit" fires on first response byte, before JS executes.
+            # This avoids a 30 s domcontentloaded stall on sites with heavy blocking scripts.
+            page.goto(BASE_URL, timeout=30000, wait_until="commit")
         except Exception as e:
             print(f"  ⚠ Ocine: failed to load {BASE_URL}: {e}")
             browser.close()
             return results
 
+        try:
+            page.wait_for_selector("div.peli-item.element-item", timeout=30000)
+        except Exception:
+            snippet = page.content()[:1500]
+            print(f"  ⚠ Ocine: film-block selector not found at {page.url} — page snippet: {snippet}")
+            browser.close()
+            return results
+
         blocks = page.query_selector_all("div.peli-item.element-item")
-        if not blocks:
-            snippet = page.content()[:1000]
-            print(f"  ⚠ Ocine: no film blocks found — page snippet: {snippet}")
-        else:
-            for block in blocks:
-                h4 = block.query_selector("h4")
-                if not h4:
-                    continue
-                title = h4.inner_text().strip()
-                if not title:
-                    continue
+        for block in blocks:
+            h4 = block.query_selector("h4")
+            if not h4:
+                continue
+            title = h4.inner_text().strip()
+            if not title:
+                continue
 
-                # Find the link to /film-{id}/p within this block
-                link_el = (
-                    block.query_selector("a[href*='/film-'][href*='/p']")
-                    or h4.query_selector("a[href*='/film-']")
-                )
-                if not link_el:
-                    continue
-                href = link_el.get_attribute("href") or ""
-                if not _FILM_LINK_RE.search(href):
-                    continue
+            # Find the link to /film-{id}/p within this block
+            link_el = (
+                block.query_selector("a[href*='/film-'][href*='/p']")
+                or h4.query_selector("a[href*='/film-']")
+            )
+            if not link_el:
+                continue
+            href = link_el.get_attribute("href") or ""
+            if not _FILM_LINK_RE.search(href):
+                continue
 
-                film_url = href if href.startswith("http") else BASE_URL + href
-                # Drop any selectedDate already in the link
-                film_url = re.sub(r"[&?]selectedDate=[^&]*", "", film_url).rstrip("?&")
-                film_entries.append({"title": title, "url": film_url})
+            film_url = href if href.startswith("http") else BASE_URL + href
+            # Drop any selectedDate already in the link
+            film_url = re.sub(r"[&?]selectedDate=[^&]*", "", film_url).rstrip("?&")
+            film_entries.append({"title": title, "url": film_url})
 
         # ── Phase 2: per-film, per-date session scraping ─────────────────
         for entry in film_entries:
