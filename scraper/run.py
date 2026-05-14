@@ -20,7 +20,6 @@ from pathlib import Path
 from babel     import scrape as scrape_babel
 from lys       import scrape as scrape_lys
 from cinema_abc import scrape_park, scrape_elsaler, scrape_granturia
-from ocine          import scrape as scrape_ocine
 from cinestudio_dor import scrape as scrape_dor
 from yelmo     import scrape as scrape_yelmo
 from kinepolis import scrape as scrape_kinepolis
@@ -131,7 +130,6 @@ def run():
     solo_scrapers = [
         ("babel",     scrape_babel),
         ("lys",       scrape_lys),
-        ("ocine",     scrape_ocine),
         ("dor",       scrape_dor),
         ("yelmo",     scrape_yelmo),
         ("kinepolis", scrape_kinepolis),
@@ -262,13 +260,8 @@ def run():
 
 def validate_per_cinema_per_day(all_raw: list[dict]) -> None:
     """Raise if any cinema returns zero showtimes for any date in its expected window."""
-    from ocine import _dates_until_next_thursday
-
     today = date.today()
     std_dates = {(today + timedelta(days=i)).isoformat() for i in range(7)}
-
-    # Ocine runs on a Friday→Thursday cycle; its window may be shorter than 7 days.
-    ocine_dates = set(_dates_until_next_thursday())
 
     expected: dict[str, set[str]] = {
         "babel":         std_dates,
@@ -276,7 +269,6 @@ def validate_per_cinema_per_day(all_raw: list[dict]) -> None:
         "abc_park":      std_dates,
         "abc_elsaler":   std_dates,
         "abc_granturia": std_dates,
-        "ocine":         ocine_dates,
         "dor":           std_dates,
         "yelmo":         std_dates,
         "kinepolis":     std_dates,
