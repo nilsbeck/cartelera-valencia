@@ -448,6 +448,97 @@
           "date": "2026-05-20",
           "time": "22:10",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43677"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-08",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-08",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-09",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-09",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-10",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-10",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-11",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-12",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-13",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-14",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-16",
+          "time": "16:45",
+          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-15",
+          "time": "16:45",
+          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-17",
+          "time": "16:45",
+          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
         }
       ]
     },
@@ -7997,22 +8088,7 @@
           "date": "2026-05-28",
           "time": "19:30",
           "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/taxi-driver/381198/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-103",
-      "title": "TAXI DRIVER (1976)",
-      "title_local": "Taxi Driver",
-      "poster": "posters/taxi-driver-1976.jpg",
-      "rating": 8.1,
-      "duration": 113,
-      "genres": [
-        "Crimen",
-        "Drama"
-      ],
-      "trailer_youtube_id": "zdqCqDSTVNI",
-      "showtimes": [
+        },
         {
           "cinema": "abc_park",
           "language": "VOSE",
@@ -9386,6 +9462,20 @@
         {
           "cinema": "mn4",
           "language": "ES",
+          "date": "2026-05-14",
+          "time": "20:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/billie-eilish-hit-me-hard-and-soft-the-tour-en-3d/84012/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "VOSE",
+          "date": "2026-05-14",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/billie-eilish-hit-me-hard-and-soft-the-tour-en-3d/84011/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "VOSE",
           "date": "2026-05-14",
           "time": "20:40",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/billie-eilish-hit-me-hard-and-soft-the-tour-en-3d/84012/?step=2"
@@ -15725,6 +15815,27 @@
           "date": "2026-05-21",
           "time": "22:20",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2929"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
         }
       ]
     },
@@ -44099,6 +44210,48 @@
           "date": "2026-05-20",
           "time": "20:20",
           "url": "https://kinepolis.es/movies/detail/36600/HO00006450/0/el-beso-de-la-mujer-arana"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "17:35",
+          "url": "https://kinepolis.es/movies/detail/36600/HO00006450/0/el-beso-de-la-mujer-arana"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "20:10",
+          "url": "https://kinepolis.es/movies/detail/36600/HO00006450/0/el-beso-de-la-mujer-arana"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "17:35",
+          "url": "https://kinepolis.es/movies/detail/36600/HO00006450/0/el-beso-de-la-mujer-arana"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "20:10",
+          "url": "https://kinepolis.es/movies/detail/36600/HO00006450/0/el-beso-de-la-mujer-arana"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "17:35",
+          "url": "https://kinepolis.es/movies/detail/36600/HO00006450/0/el-beso-de-la-mujer-arana"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "20:10",
+          "url": "https://kinepolis.es/movies/detail/36600/HO00006450/0/el-beso-de-la-mujer-arana"
         }
       ]
     },
@@ -50669,112 +50822,202 @@
           "date": "2026-05-21",
           "time": "19:10",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-40-aniversario/84523/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1515899",
-      "title": "Billie Eilish. Hit Me Hard and Soft: The Tour",
-      "title_local": "Billie Eilish - Hit Me Hard and Soft: The Tour (en 3D)",
-      "poster": "posters/billie-eilish-hit-me-hard-and-soft-the-tour.jpg",
-      "rating": null,
-      "duration": 114,
-      "genres": [
-        "Música",
-        "Documental"
-      ],
-      "trailer_youtube_id": "9ElURjcuWLQ",
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-05-08",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
         },
         {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-05-08",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-05-09",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-05-09",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-05-10",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-05-10",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-05-11",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-05-12",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
-        },
-        {
-          "cinema": "kinepolis",
+          "cinema": "abc_park",
           "language": "VO",
           "date": "2026-05-13",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
+          "time": "19:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3034"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "abc_elsaler",
           "language": "VO",
+          "date": "2026-05-13",
+          "time": "19:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VO",
+          "date": "2026-05-13",
+          "time": "19:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
           "date": "2026-05-14",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3034"
         },
         {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-05-16",
-          "time": "16:45",
-          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
+          "cinema": "abc_park",
+          "language": "VOSE",
           "date": "2026-05-15",
-          "time": "16:45",
-          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3034"
         },
         {
-          "cinema": "kinepolis",
-          "language": "VO",
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
           "date": "2026-05-17",
-          "time": "16:45",
-          "url": "https://kinepolis.es/movies/detail/37465/HO00006391/0/billie-eilish-hit-me-hard-and-soft-the-tour"
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-05-14",
+          "time": "19:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-05-18",
+          "time": "20:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-05-19",
+          "time": "20:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-05-21",
+          "time": "20:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-05-14",
+          "time": "19:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "19:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "19:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "19:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "19:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "19:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "19:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
         }
       ]
     },
@@ -54320,214 +54563,6 @@
           "date": "2026-06-07",
           "time": "20:00",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
-        }
-      ]
-    },
-    {
-      "id": "local-top-gun-1986-40-aniversario",
-      "title": "TOP GUN (1986) - 40 ANIVERSARIO",
-      "title_local": "TOP GUN (1986) - 40 ANIVERSARIO",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "VO",
-          "date": "2026-05-13",
-          "time": "19:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VO",
-          "date": "2026-05-13",
-          "time": "19:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VO",
-          "date": "2026-05-13",
-          "time": "19:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-14",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-15",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-16",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-17",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-05-14",
-          "time": "19:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "22:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "22:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "22:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-05-18",
-          "time": "20:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-05-19",
-          "time": "20:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "22:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-05-21",
-          "time": "20:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-05-14",
-          "time": "19:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "19:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "19:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "19:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "19:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "19:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "19:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
         }
       ]
     },
