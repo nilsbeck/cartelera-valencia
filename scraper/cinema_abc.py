@@ -53,61 +53,19 @@ _MONTHS = {
 }
 
 # JavaScript that returns [{time, lang, dateText}] for all sessions on the page.
-# Tries four strategies in order:
-#   1. Date cell inside the session element itself (table-row pattern)
-#   2. data-date / data-fecha / data-dia attribute on session or ancestor
-#   3. Nearest preceding sibling (at any ancestor level) whose text looks like a date
-#   4. Falls back to empty string (triggers diagnostic print in Python)
+# ABC uses jQuery UI tabs: dates are in the tab-nav anchors, not in sibling DOM nodes.
+# Structure:
+#   <div id="tabs-sesiones" class="ui-tabs ...">
+#     <ul>  <li><a href="#tabs-N">Miér 14/05</a></li> ...  </ul>
+#     <div id="tabs-N" class="ui-tabs-panel ...">
+#       <div class="panel-sesiones">
+#         <div class="cont-ses" id-ses="N"> ... </div>
+#       </div>
+#     </div>
+#   </div>
+# The panel id always matches the session's id-ses attribute with "tabs-" prefix.
 _JS_SESSIONS = """
 () => {
-    const MONTH_WORD_RE = /enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre/i;
-    const NUMERIC_DATE_RE = /\\b(\\d{1,2})[\\/-](\\d{1,2})(?:[\\/-](\\d{2,4}))?\\b/;
-    const ISO_DATE_RE = /\\b(\\d{4})-(\\d{2})-(\\d{2})\\b/;
-
-    function looksLikeDate(text) {
-        if (!text || text.includes(':')) return false;  // skip times like "17:30"
-        const t = text.toLowerCase().trim();
-        if (t.length > 120) return false;
-        return MONTH_WORD_RE.test(t) || NUMERIC_DATE_RE.test(t) || ISO_DATE_RE.test(t);
-    }
-
-    function dataDateOf(el) {
-        return el.dataset.date || el.dataset.fecha || el.dataset.dia || el.dataset.day || '';
-    }
-
-    function findDateText(ses) {
-        // Strategy 1: date inside session (e.g. first <td> in a table row)
-        const inner = ses.querySelector(
-            '[class*="fecha"], [class*="date"], [class*="dia"], [class*="day"], td:first-child'
-        );
-        if (inner) {
-            const t = (inner.textContent || '').trim();
-            if (looksLikeDate(t)) return t;
-        }
-
-        // Strategy 2: data attribute on session or any ancestor
-        let node = ses;
-        while (node && node !== document.body) {
-            const d = dataDateOf(node);
-            if (d) return d;
-            node = node.parentElement;
-        }
-
-        // Strategy 3: nearest preceding sibling (walk up the tree)
-        node = ses;
-        while (node && node !== document.body) {
-            let sib = node.previousElementSibling;
-            while (sib) {
-                const t = (sib.textContent || '').trim();
-                if (looksLikeDate(t)) return t;
-                sib = sib.previousElementSibling;
-            }
-            node = node.parentElement;
-        }
-
-        return '';
-    }
-
     const SESS_SELS = ['div.cont-ses', '.cont-ses', 'div.sesion-item', 'div.session-item', 'li.sesion'];
     let sessions = [];
     for (const sel of SESS_SELS) {
@@ -121,57 +79,26 @@ _JS_SESSIONS = """
         const time = (horaEl.childNodes[0] ? horaEl.childNodes[0].textContent : '').trim();
         if (!time.includes(':')) return null;
         const etiq = ses.querySelector('div.etiq-hora, .etiq-hora, .etiqueta, .version, .lang');
+
+        // Walk up to the nearest ancestor with an id starting with "tabs-"
+        // (the jQuery UI tab panel), then find its nav anchor for the date.
+        let dateText = '';
+        let node = ses.parentElement;
+        while (node && node !== document.body) {
+            if (node.id && node.id.startsWith('tabs-')) {
+                const anchor = document.querySelector('a[href="#' + node.id + '"]');
+                if (anchor) dateText = anchor.textContent.trim();
+                break;
+            }
+            node = node.parentElement;
+        }
+
         return {
             time,
             lang:     etiq ? etiq.textContent.trim() : '',
-            dateText: findDateText(ses),
+            dateText,
         };
     }).filter(Boolean);
-}
-"""
-
-# Diagnostic JS: dumps context around the first session element.
-# Called only when sessions are found but all have empty dateText.
-_JS_DIAGNOSTIC = """
-() => {
-    const ses = document.querySelector('div.cont-ses, .cont-ses, div.hora-ses');
-    if (!ses) return {found: false, url: location.href};
-
-    // Parent chain (up to 6 levels)
-    const chain = [];
-    let node = ses;
-    while (node && node !== document.body && chain.length < 6) {
-        const ownText = Array.from(node.childNodes)
-            .filter(n => n.nodeType === 3)
-            .map(n => n.textContent.trim())
-            .filter(t => t)
-            .join(' | ');
-        chain.push({tag: node.tagName, cls: node.className, id: node.id,
-                    ownText, data: JSON.stringify(node.dataset)});
-        node = node.parentElement;
-    }
-
-    // Previous siblings of the session and its parent
-    function prevSibsOf(el, limit) {
-        const out = [];
-        let sib = el ? el.previousElementSibling : null;
-        while (sib && out.length < limit) {
-            out.push({tag: sib.tagName, cls: sib.className, id: sib.id,
-                      text: (sib.textContent || '').trim().slice(0, 200),
-                      data: JSON.stringify(sib.dataset)});
-            sib = sib.previousElementSibling;
-        }
-        return out;
-    }
-
-    return {
-        found:         true,
-        url:           location.href,
-        chain,
-        sesOwnSibs:    prevSibsOf(ses, 5),
-        parentSibs:    prevSibsOf(ses.parentElement, 5),
-        sesHtml:       ses.outerHTML.slice(0, 800),
-    };
 }
 """
 
@@ -313,14 +240,6 @@ def _scrape_ficha(page, ficha_url: str, title: str) -> list[dict]:
     if not raw_sessions:
         print(f"  ⚠ ABC no sessions found for: {title} ({ficha_url})")
         return []
-
-    # Diagnostic: if all sessions have empty dateText, dump DOM context once per ficha
-    if all(not s.get("dateText") for s in raw_sessions):
-        try:
-            diag = page.evaluate(_JS_DIAGNOSTIC)
-            print(f"  ⚠ ABC empty dateText for '{title}' — diagnostic: {diag}")
-        except Exception as _de:
-            print(f"  ⚠ ABC diagnostic error for '{title}': {_de}")
 
     today = date.today()
     results = []
