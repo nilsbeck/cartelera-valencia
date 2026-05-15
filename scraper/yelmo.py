@@ -23,7 +23,7 @@ which is why an earlier scraper got 100% ES — see commit history for context.
 """
 
 import re
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 from playwright.sync_api import sync_playwright
 
 BASE_URL  = "https://www.yelmocines.es"
@@ -41,12 +41,16 @@ _SPANISH_MONTHS = {
     "noviembre": 11, "diciembre": 12,
 }
 
+# .NET DateTime ticks: 1 tick = 100 ns, epoch = 0001-01-01 00:00:00 UTC.
+# Yelmo's #ddlDate options use this format, e.g. 639144000000000000 = 2026-05-15.
+_DOTNET_EPOCH = datetime(1, 1, 1)
+
 
 def _parse_date_option(text: str) -> "str | None":
     """Extract YYYY-MM-DD from a #ddlDate option's value or visible text.
 
-    Accepts ISO ('2026-05-15'), DD/MM/YYYY, DD-MM-YYYY, and Spanish dates
-    ('Jueves, 15 de Mayo' / '15 de mayo de 2026').
+    Accepts ISO ('2026-05-15'), DD/MM/YYYY, DD-MM-YYYY, .NET tick counts, and
+    Spanish dates ('Jueves, 15 de Mayo' / '15 de mayo de 2026').
     """
     if not text:
         return None
@@ -60,7 +64,16 @@ def _parse_date_option(text: str) -> "str | None":
     if m:
         return f"{m.group(3)}-{int(m.group(2)):02d}-{int(m.group(1)):02d}"
 
-    m = re.search(r"(\d{1,2})\s+de\s+([A-Za-zñÑáéíóúÁÉÍÓÚ]+)(?:\s+de\s+(\d{4}))?", s, re.I)
+    # Pure-digit value with magnitude consistent with .NET ticks for a date
+    # in this century (≈ 6e17). Anything shorter is a year/index/etc.
+    if s.isdigit() and len(s) >= 18:
+        try:
+            dt = _DOTNET_EPOCH + timedelta(microseconds=int(s) // 10)
+            return dt.date().isoformat()
+        except (OverflowError, ValueError):
+            pass
+
+    m = re.search(r"(\d{1,2})\s+(?:de\s+)?([A-Za-zñÑáéíóúÁÉÍÓÚ]+)(?:\s+de\s+(\d{4}))?", s, re.I)
     if m:
         day = int(m.group(1))
         month = _SPANISH_MONTHS.get(m.group(2).lower())
@@ -92,8 +105,8 @@ _SESSION_EVAL = r"""() => {
         return '';
     }
 
-    // Use a substring match on data-cinema in case the actual slug is
-    // 'valencia-mercado-de-campanar' or similar — 'campanar' is unique to us.
+    // Substring match on data-cinema in case the actual slug includes a
+    // city prefix or trailing tag — 'campanar' is unique to this location.
     for (const row of document.querySelectorAll('div[data-cinema*="campanar" i]')) {
         for (const time of row.querySelectorAll('time')) {
             const timeText = (time.getAttribute('datetime') || time.textContent || '').trim();
@@ -122,15 +135,13 @@ def scrape() -> list[dict]:
 
         # ── Phase 1: enumerate movies from the cartelera ──────────────
         # Each movie heading is an <h3> wrapping an <a href="/sinopsis/...">.
+        status = None
         try:
             resp = page.goto(f"{BASE_URL}/cartelera/{CITY_SLUG}", timeout=30000)
-            status = resp.status if resp else "n/a"
-            page.wait_for_selector(
-                "h3 a[href*='/sinopsis/']",
-                timeout=15000,
-            )
+            status = resp.status if resp else None
+            page.wait_for_selector("h3 a[href*='/sinopsis/']", timeout=15000)
         except Exception as e:
-            _log(f"  ⚠ Yelmo cartelera enumeration failed (status={status if 'status' in dir() else '?'}): {e}")
+            _log(f"  ⚠ Yelmo cartelera enumeration failed (status={status}): {e}")
             browser.close()
             return []
 
@@ -147,40 +158,26 @@ def scrape() -> list[dict]:
             return Array.from(seen.values());
         }""")
 
-        _log(f"  [yelmo] Phase 1: {len(movies)} movies (cartelera HTTP {status})")
-
         if not movies:
-            _log("  ⚠ Yelmo: no movies found on cartelera")
+            _log(f"  ⚠ Yelmo: no movies found on cartelera (status={status})")
             browser.close()
             return []
 
         # ── Phase 2: walk each movie's sinopsis page across dates ─────
-        diag_dumps_remaining = 3
+        diagnosed = False
         for movie in movies:
             try:
                 page.goto(movie["url"], timeout=30000)
-                # Wait for the date picker to actually populate, not just the
-                # empty <select id="ddlDate"> shell. The cinema rows or option
-                # children — whichever appears — confirms hydration.
+                # state="attached": <option> children inside an unopened
+                # <select> are never CSS-visible, so the default visibility
+                # wait would always time out even though the DOM is ready.
                 page.wait_for_selector(
                     "#ddlDate option, [data-cinema]",
+                    state="attached",
                     timeout=15000,
                 )
             except Exception as e:
                 _log(f"  ⚠ Yelmo sinopsis fetch failed for '{movie['title']}': {e}")
-                if diag_dumps_remaining > 0:
-                    try:
-                        fail_diag = page.evaluate(r"""() => ({
-                            url: location.href,
-                            has_select: !!document.querySelector('#ddlDate'),
-                            select_html: (document.querySelector('#ddlDate') || {}).outerHTML || null,
-                            any_data_cinema: document.querySelectorAll('[data-cinema]').length,
-                            body_len: document.body.innerHTML.length,
-                        })""")
-                        _log(f"  [yelmo] FAILDIAG: {fail_diag}")
-                    except Exception:
-                        pass
-                    diag_dumps_remaining -= 1
                 continue
 
             date_options = page.evaluate(r"""() => {
@@ -192,26 +189,17 @@ def scrape() -> list[dict]:
                 }));
             }""")
 
-            if diag_dumps_remaining > 0:
-                diag = page.evaluate(r"""() => {
-                    const sel = document.querySelector('#ddlDate');
-                    const opts = sel ? Array.from(sel.options).slice(0,3).map(o => ({v:o.value, t:(o.textContent||'').trim()})) : [];
-                    const cinemas = new Set();
+            if not diagnosed:
+                cinemas = page.evaluate(r"""() => {
+                    const s = new Set();
                     for (const d of document.querySelectorAll('[data-cinema]')) {
-                        cinemas.add(d.getAttribute('data-cinema'));
+                        s.add(d.getAttribute('data-cinema'));
                     }
-                    return {
-                        url: location.href,
-                        sample_options: opts,
-                        all_data_cinema: Array.from(cinemas),
-                        labels_count: document.querySelectorAll('[data-cinema] label').length,
-                        times_count:  document.querySelectorAll('[data-cinema] time').length,
-                    };
+                    return Array.from(s);
                 }""")
-                _log(f"  [yelmo] DIAG '{movie['title']}' @ {diag['url']}: options={diag['sample_options']} data-cinema={diag['all_data_cinema']} labels={diag['labels_count']} times={diag['times_count']}")
-                diag_dumps_remaining -= 1
+                _log(f"  [yelmo] data-cinema values seen: {cinemas}")
+                diagnosed = True
 
-            movie_session_count = 0
             for opt in date_options:
                 iso = _parse_date_option(opt["value"]) or _parse_date_option(opt["text"])
                 if not iso or iso not in target_dates:
@@ -219,13 +207,12 @@ def scrape() -> list[dict]:
 
                 try:
                     page.select_option("#ddlDate", value=opt["value"])
-                    # Some Yelmo handlers listen for 'change' rather than the
-                    # synthetic event Playwright emits; force-dispatch it.
+                    # Some handlers listen for native 'change' rather than the
+                    # synthetic event select_option emits; force-dispatch it.
                     page.evaluate(r"""() => {
                         const sel = document.querySelector('#ddlDate');
                         if (sel) sel.dispatchEvent(new Event('change', {bubbles: true}));
                     }""")
-                    # Wait for sessions for our cinema on this date to appear.
                     try:
                         page.wait_for_function(
                             r"""() => {
@@ -235,6 +222,7 @@ def scrape() -> list[dict]:
                             timeout=5000,
                         )
                     except Exception:
+                        # Genuinely no sessions for this cinema on this day.
                         pass
                 except Exception as e:
                     _log(f"  ⚠ Yelmo select_option failed ({movie['title']} {iso}): {e}")
@@ -253,7 +241,6 @@ def scrape() -> list[dict]:
                         "time":     time_text,
                         "url":      href if href.startswith("http") else BASE_URL + href,
                     })
-                    movie_session_count += 1
 
         browser.close()
 
