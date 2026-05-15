@@ -179,10 +179,14 @@ def _scrape_playwright(dates: list[str]) -> list[dict]:
             return []
 
         films = page.evaluate(r"""() => {
-            const seen = new Map();
-            const blocks = document.querySelectorAll('div.peli-item');
+            // Explicit array + Set so the returned shape is unambiguous
+            // (PR #59's Map+shorthand variant produced an entry with
+            // url=undefined that JSON-serialised to {"title": ...} only,
+            // crashing Phase 2 with KeyError('url')).
+            const out = [];
+            const seenUrls = new Set();
             const re = /\/film-\d+\/p/;
-            for (const block of blocks) {
+            for (const block of document.querySelectorAll('div.peli-item')) {
                 const h4 = block.querySelector('h4');
                 if (!h4) continue;
                 const title = (h4.textContent || '').trim();
@@ -193,9 +197,11 @@ def _scrape_playwright(dates: list[str]) -> list[dict]:
                 if (!re.test(href)) continue;
                 let url = href.startsWith('http') ? href : (location.origin + href);
                 url = url.replace(/[?&]selectedDate=[^&]*/g, '').replace(/[?&]$/, '');
-                if (!seen.has(url)) seen.set(url, { title, url });
+                if (!url || seenUrls.has(url)) continue;
+                seenUrls.add(url);
+                out.push({"title": title, "url": url});
             }
-            return Array.from(seen.values());
+            return out;
         }""")
 
         _log(f"  [ocine] Phase 1: {len(films)} films")
@@ -218,7 +224,14 @@ def _scrape_playwright(dates: list[str]) -> list[dict]:
         # ── Phase 2: per-film, per-date session pages ─────────────────
         diagnosed = False
         for film in films:
-            film_url = film["url"]
+            if not isinstance(film, dict):
+                _log(f"  ⚠ Ocine: unexpected film entry type {type(film).__name__}: {film!r}")
+                continue
+            film_url = film.get("url")
+            title    = film.get("title")
+            if not film_url or not title:
+                _log(f"  ⚠ Ocine: skipping malformed film entry: {film!r}")
+                continue
             sep = "&" if "?" in film_url else "?"
             for date_str in dates:
                 target = f"{film_url}{sep}selectedDate={date_str}"
@@ -250,7 +263,7 @@ def _scrape_playwright(dates: list[str]) -> list[dict]:
                         pass
                     diagnosed = True
 
-                results.extend(_parse_sessions(html, film["title"], film_url, date_str))
+                results.extend(_parse_sessions(html, title, film_url, date_str))
 
         browser.close()
     return results
