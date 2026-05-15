@@ -92,7 +92,9 @@ _SESSION_EVAL = r"""() => {
         return '';
     }
 
-    for (const row of document.querySelectorAll('div[data-cinema="mercado-de-campanar"]')) {
+    // Use a substring match on data-cinema in case the actual slug is
+    // 'valencia-mercado-de-campanar' or similar — 'campanar' is unique to us.
+    for (const row of document.querySelectorAll('div[data-cinema*="campanar" i]')) {
         for (const time of row.querySelectorAll('time')) {
             const timeText = (time.getAttribute('datetime') || time.textContent || '').trim();
             if (!timeText || !timeText.includes(':')) continue;
@@ -103,6 +105,10 @@ _SESSION_EVAL = r"""() => {
     }
     return out;
 }"""
+
+
+def _log(msg: str) -> None:
+    print(msg, flush=True)
 
 
 def scrape() -> list[dict]:
@@ -117,13 +123,14 @@ def scrape() -> list[dict]:
         # ── Phase 1: enumerate movies from the cartelera ──────────────
         # Each movie heading is an <h3> wrapping an <a href="/sinopsis/...">.
         try:
-            page.goto(f"{BASE_URL}/cartelera/{CITY_SLUG}", timeout=30000)
+            resp = page.goto(f"{BASE_URL}/cartelera/{CITY_SLUG}", timeout=30000)
+            status = resp.status if resp else "n/a"
             page.wait_for_selector(
                 "h3 a[href*='/sinopsis/']",
                 timeout=15000,
             )
         except Exception as e:
-            print(f"  ⚠ Yelmo cartelera enumeration failed: {e}")
+            _log(f"  ⚠ Yelmo cartelera enumeration failed (status={status if 'status' in dir() else '?'}): {e}")
             browser.close()
             return []
 
@@ -138,18 +145,21 @@ def scrape() -> list[dict]:
             return Array.from(seen.values());
         }""")
 
+        _log(f"  [yelmo] Phase 1: {len(movies)} movies (cartelera HTTP {status})")
+
         if not movies:
-            print("  ⚠ Yelmo: no movies found on cartelera")
+            _log("  ⚠ Yelmo: no movies found on cartelera")
             browser.close()
             return []
 
         # ── Phase 2: walk each movie's sinopsis page across dates ─────
+        diag_dumped = False
         for movie in movies:
             try:
                 page.goto(movie["url"], timeout=30000)
                 page.wait_for_selector("#ddlDate", timeout=10000)
             except Exception as e:
-                print(f"  ⚠ Yelmo sinopsis fetch failed for '{movie['title']}': {e}")
+                _log(f"  ⚠ Yelmo sinopsis fetch failed for '{movie['title']}': {e}")
                 continue
 
             date_options = page.evaluate(r"""() => {
@@ -161,6 +171,25 @@ def scrape() -> list[dict]:
                 }));
             }""")
 
+            if not diag_dumped:
+                diag = page.evaluate(r"""() => {
+                    const sel = document.querySelector('#ddlDate');
+                    const opts = sel ? Array.from(sel.options).slice(0,3).map(o => ({v:o.value, t:(o.textContent||'').trim()})) : [];
+                    const cinemas = new Set();
+                    for (const d of document.querySelectorAll('[data-cinema]')) {
+                        cinemas.add(d.getAttribute('data-cinema'));
+                    }
+                    return {
+                        sample_options: opts,
+                        all_data_cinema: Array.from(cinemas),
+                        labels_count: document.querySelectorAll('[data-cinema] label').length,
+                        times_count:  document.querySelectorAll('[data-cinema] time').length,
+                    };
+                }""")
+                _log(f"  [yelmo] DIAG '{movie['title']}': options={diag['sample_options']} data-cinema={diag['all_data_cinema']} labels={diag['labels_count']} times={diag['times_count']}")
+                diag_dumped = True
+
+            movie_session_count = 0
             for opt in date_options:
                 iso = _parse_date_option(opt["value"]) or _parse_date_option(opt["text"])
                 if not iso or iso not in target_dates:
@@ -168,26 +197,25 @@ def scrape() -> list[dict]:
 
                 try:
                     page.select_option("#ddlDate", value=opt["value"])
-                    # Wait for the version <label>s for our cinema to hydrate
-                    # for this newly selected date. May genuinely be empty if
-                    # the movie is not screened at Mercado de Campanar on this
-                    # day — fall through after timeout.
+                    # Some Yelmo handlers listen for 'change' rather than the
+                    # synthetic event Playwright emits; force-dispatch it.
+                    page.evaluate(r"""() => {
+                        const sel = document.querySelector('#ddlDate');
+                        if (sel) sel.dispatchEvent(new Event('change', {bubbles: true}));
+                    }""")
+                    # Wait for sessions for our cinema on this date to appear.
                     try:
                         page.wait_for_function(
                             r"""() => {
-                                const labels = document.querySelectorAll(
-                                    'div[data-cinema="mercado-de-campanar"] label'
-                                );
-                                return Array.from(labels).some(
-                                    l => l.textContent.trim().length > 3
-                                );
+                                const rows = document.querySelectorAll('div[data-cinema*="campanar" i]');
+                                return Array.from(rows).some(r => r.querySelectorAll('time').length > 0);
                             }""",
-                            timeout=4000,
+                            timeout=5000,
                         )
                     except Exception:
                         pass
                 except Exception as e:
-                    print(f"  ⚠ Yelmo select_option failed ({movie['title']} {iso}): {e}")
+                    _log(f"  ⚠ Yelmo select_option failed ({movie['title']} {iso}): {e}")
                     continue
 
                 sessions = page.evaluate(_SESSION_EVAL)
@@ -203,6 +231,7 @@ def scrape() -> list[dict]:
                         "time":     time_text,
                         "url":      href if href.startswith("http") else BASE_URL + href,
                     })
+                    movie_session_count += 1
 
         browser.close()
 
