@@ -22,6 +22,7 @@ CITY_SLUG = "valencia/mercado-de-campanar"
 
 def scrape() -> list[dict]:
     results = []
+    diagnostic_printed = False
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
@@ -66,6 +67,43 @@ def scrape() -> list[dict]:
                     pass  # legitimately no sessions for this day — keep going
 
                 movie_blocks = page.query_selector_all("section#now__city article")
+
+                # One-time diagnostic: dump what Playwright actually sees so
+                # we can tell whether labels hydrated, whether the article
+                # scope includes session content, etc. Prints on the first
+                # scrape iteration that finds any articles.
+                if not diagnostic_printed and movie_blocks:
+                    diag = page.evaluate(r"""() => {
+                        const articles = document.querySelectorAll('section#now__city article');
+                        const out = {
+                            article_count: articles.length,
+                            dc_doc_count: document.querySelectorAll('[data-cinema="mercado-de-campanar"]').length,
+                            dc_labels: document.querySelectorAll('[data-cinema="mercado-de-campanar"] label').length,
+                            dc_times: document.querySelectorAll('[data-cinema="mercado-de-campanar"] time').length,
+                            label_samples: [],
+                            first_article_dc_inside: 0,
+                            first_article_html: '',
+                        };
+                        const labels = document.querySelectorAll('[data-cinema="mercado-de-campanar"] label');
+                        for (let i = 0; i < Math.min(labels.length, 5); i++) {
+                            out.label_samples.push((labels[i].textContent || '').trim());
+                        }
+                        if (articles[0]) {
+                            out.first_article_dc_inside = articles[0].querySelectorAll('[data-cinema="mercado-de-campanar"]').length;
+                            out.first_article_html = (articles[0].outerHTML || '').slice(0, 2500);
+                        }
+                        return out;
+                    }""")
+                    print(f"  [yelmo-diag] date={date_str}")
+                    print(f"  [yelmo-diag] articles={diag['article_count']} "
+                          f"dc_doc={diag['dc_doc_count']} "
+                          f"dc_inside_article0={diag['first_article_dc_inside']} "
+                          f"dc_labels={diag['dc_labels']} dc_times={diag['dc_times']}")
+                    print(f"  [yelmo-diag] label_samples={diag['label_samples']}")
+                    print(f"  [yelmo-diag] article0_html_2500:")
+                    for line in diag['first_article_html'].splitlines():
+                        print(f"    {line}")
+                    diagnostic_printed = True
 
                 for block in movie_blocks:
                     title_el = block.query_selector(".descripcion header h3")
