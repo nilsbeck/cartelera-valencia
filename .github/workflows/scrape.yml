@@ -1,8 +1,12 @@
 name: Scrape
 
+# Scheduled scraping now runs locally on your server in Docker — see
+# DOCKER.md. We keep this workflow only for manual triggers (workflow_dispatch)
+# in case you want to run a scrape from the Actions tab without the laptop.
+# Note: GitHub-hosted runners cannot reach ocinepremiumaqua.es (PR #57), so a
+# manual run here will skip Ocine.
+
 on:
-  schedule:
-    - cron: '0 3 * * *'
   workflow_dispatch:
 
 concurrency:
