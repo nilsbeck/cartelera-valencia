@@ -46,7 +46,9 @@ def _parse_sesiones_date(tab_text: str) -> "str | None":
         return None
 
 
-def _fetch_session_map(page, sesiones_url: str) -> "dict[tuple[str,str], str]":
+def _fetch_session_map(
+    page, sesiones_url: str, diag: bool = False,
+) -> "dict[tuple[str,str], str]":
     """
     Navigate to a /sesiones/ page with Playwright and return
     {(date_str, time_str): booking_url}.  Returns empty dict on failure.
@@ -58,15 +60,47 @@ def _fetch_session_map(page, sesiones_url: str) -> "dict[tuple[str,str], str]":
     (a generic `a[href^='#']` selector matches static page anchors and
     returns before the booking links exist).
     """
+    status = None
+    wait_ok = False
     try:
-        page.goto(sesiones_url, timeout=30000, wait_until="domcontentloaded")
+        resp = page.goto(sesiones_url, timeout=30000, wait_until="domcontentloaded")
+        status = resp.status if resp else None
         try:
             page.wait_for_selector("a[href*='/entrada/']", timeout=10000)
+            wait_ok = True
         except Exception:
             pass
         html = page.content()
-    except Exception:
+    except Exception as e:
+        if diag:
+            print(f"  [lys] DIAG sesiones goto failed for {sesiones_url}: {e}", flush=True)
         return {}
+
+    if diag:
+        try:
+            d = page.evaluate(r"""() => {
+                const tabs = Array.from(document.querySelectorAll('a[href^="#"]'))
+                    .slice(0, 6)
+                    .map(a => a.getAttribute('href') + ' :: ' + (a.textContent || '').trim().slice(0, 30));
+                const idDivs = Array.from(document.querySelectorAll('div[id]'))
+                    .filter(d => /^\d+$/.test(d.id))
+                    .map(d => d.id)
+                    .slice(0, 10);
+                return {
+                    url: location.href,
+                    sample_tab_anchors: tabs,
+                    entrada_count: document.querySelectorAll('a[href*="/entrada/"]').length,
+                    numeric_id_divs: idDivs,
+                    body_len: document.body.innerHTML.length,
+                    aria_tabs: document.querySelectorAll('[data-tab],[data-target],[aria-controls],[role="tab"]').length,
+                };
+            }""")
+            print(
+                f"  [lys] DIAG sesiones (status={status} wait_ok={wait_ok}): {d}",
+                flush=True,
+            )
+        except Exception as e:
+            print(f"  [lys] DIAG evaluate failed: {e}", flush=True)
 
     soup = BeautifulSoup(html, "html.parser")
     result: dict[tuple[str, str], str] = {}
@@ -165,10 +199,14 @@ def scrape() -> list[dict]:
 
         # Phase 2: fetch per-movie sesiones pages for multi-day sessions.
         # Reuse the same Playwright page so the /sesiones/ JS rendering works.
+        diagnosed = False
         for entry in phase1:
             url = entry["sesiones_url"]
             if url and url not in session_cache:
-                session_cache[url] = _fetch_session_map(page, url)
+                session_cache[url] = _fetch_session_map(
+                    page, url, diag=not diagnosed,
+                )
+                diagnosed = True
 
         browser.close()
 
