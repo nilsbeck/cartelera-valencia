@@ -123,6 +123,26 @@ def _parse_sessions(html: str, title: str, film_url: str, date_str: str) -> list
     return out
 
 
+def _goto_with_retry(page, url: str, label: str) -> "int | None":
+    """Navigate with wait_until='commit' and one retry.
+
+    'commit' fires as soon as the HTTP response starts arriving, instead of
+    waiting for DOMContentLoaded — Ocine's homepage holds DOMContentLoaded
+    open past 30s while late-loading third-party scripts (analytics, etc.)
+    settle, even though the markup we actually need is already in the DOM.
+    Subsequent wait_for_selector calls are the real readiness signal.
+    """
+    last_exc: "Exception | None" = None
+    for attempt in (1, 2):
+        try:
+            resp = page.goto(url, timeout=60000, wait_until="commit")
+            return resp.status if resp else None
+        except Exception as e:
+            last_exc = e
+            _log(f"  ⚠ Ocine {label} goto attempt {attempt} failed: {e}")
+    raise last_exc if last_exc else RuntimeError("goto failed without exception")
+
+
 def scrape() -> list[dict]:
     results: list[dict] = []
     dates = _dates_until_next_thursday()
@@ -134,12 +154,11 @@ def scrape() -> list[dict]:
         # ── Phase 1: enumerate film tiles ─────────────────────────────
         status = None
         try:
-            resp = page.goto(BASE_URL, timeout=30000, wait_until="domcontentloaded")
-            status = resp.status if resp else None
+            status = _goto_with_retry(page, BASE_URL, "main page")
             page.wait_for_selector(
                 "div.peli-item, a[href*='/film-']",
                 state="attached",
-                timeout=15000,
+                timeout=20000,
             )
         except Exception as e:
             _log(f"  ⚠ Ocine main page failed (status={status}): {e}")
@@ -191,7 +210,7 @@ def scrape() -> list[dict]:
             for date_str in dates:
                 target = f"{film_url}{sep}selectedDate={date_str}"
                 try:
-                    page.goto(target, timeout=30000, wait_until="domcontentloaded")
+                    _goto_with_retry(page, target, f"session {date_str}")
                     try:
                         page.wait_for_selector(
                             "tr.plans, .no-sesiones, .sin-sesiones",
