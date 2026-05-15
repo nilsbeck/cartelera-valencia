@@ -900,12 +900,19 @@ class TestValidatePerCinemaPerDay:
     ]
 
     def _full_coverage(self):
+        # Cinemas with a fixed 7-day window get 7 days; ocine uses its
+        # variable today..next-Thursday window so the fixture matches the
+        # validator's expectation regardless of which weekday the test runs.
         today = date.today()
-        return [
+        rows = [
             {"cinema": cinema, "date": (today + timedelta(days=i)).isoformat()}
             for cinema in self.ALL_CINEMAS
             for i in range(7)
         ]
+        rows.extend(
+            {"cinema": "ocine", "date": d} for d in _dates_until_next_thursday()
+        )
+        return rows
 
     def test_full_coverage_returns_empty(self):
         assert validate_per_cinema_per_day(self._full_coverage()) == []
