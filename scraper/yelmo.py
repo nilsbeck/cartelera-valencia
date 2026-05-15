@@ -46,12 +46,20 @@ def scrape() -> list[dict]:
                     continue
 
                 # Sessions and their version <label>s hydrate after the
-                # article shells appear. Without this wait, evaluate() can
-                # see the article but find no <label> children, so every
+                # article shells appear. wait_for_selector returns as soon
+                # as a (possibly empty) <label> node exists, so wait until
+                # at least one label has actual text — otherwise every
                 # session falls back to ES.
                 try:
-                    page.wait_for_selector(
-                        '[data-cinema="mercado-de-campanar"] label',
+                    page.wait_for_function(
+                        """() => {
+                            const labels = document.querySelectorAll(
+                                '[data-cinema="mercado-de-campanar"] label'
+                            );
+                            return Array.from(labels).some(
+                                l => l.textContent.trim().length > 3
+                            );
+                        }""",
                         timeout=10000,
                     )
                 except Exception:
