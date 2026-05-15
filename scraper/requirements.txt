@@ -5,3 +5,4 @@ requests
 playwright==1.59.*
 beautifulsoup4
 pytest
+apprise

@@ -286,7 +286,25 @@ def run():
 
     total_st = sum(len(m["showtimes"]) for m in final_movies)
     print(f"\n✓ {len(final_movies)} movies, {total_st} showtimes → {DATA_FILE}")
-    return warnings
+
+    # Build the summary the notifier sends out. Kept here (not in main)
+    # so the per-cinema counts come from the same all_raw that drove the
+    # validation logic — no risk of the body lying about coverage.
+    cinema_counts: dict[str, int] = {}
+    for row in all_raw:
+        cinema_counts[row["cinema"]] = cinema_counts.get(row["cinema"], 0) + 1
+
+    summary_lines = [
+        f"Movies:    {len(final_movies)}",
+        f"Showtimes: {total_st}",
+        "",
+        "Per cinema:",
+    ]
+    for cid in sorted(cinema_counts):
+        summary_lines.append(f"  • {cid}: {cinema_counts[cid]}")
+    summary = "\n".join(summary_lines)
+
+    return warnings, summary
 
 
 def validate_per_cinema_per_day(all_raw: list[dict]) -> list[str]:
@@ -328,13 +346,34 @@ def validate_per_cinema_per_day(all_raw: list[dict]) -> list[str]:
 
 
 if __name__ == "__main__":
+    import traceback
+    from notify import notify
+
     try:
-        warnings = run()
+        warnings, summary = run()
     except Exception as exc:
+        notify(
+            title="Cartelera Valencia: ✗ FATAL",
+            body=f"{exc}\n\n{traceback.format_exc()}",
+            warning=True,
+        )
         print(f"\n✗ FATAL: {exc}", file=sys.stderr)
         sys.exit(1)
+
     if warnings:
+        body = summary + "\n\nWarnings:\n" + "\n".join(f"  • {w}" for w in warnings)
+        notify(
+            title=f"Cartelera Valencia: ⚠ {len(warnings)} warning(s)",
+            body=body,
+            warning=True,
+        )
         print("\n⚠ Completed with warnings:", file=sys.stderr)
         for w in warnings:
             print(f"  {w}", file=sys.stderr)
         sys.exit(1)
+
+    notify(
+        title="Cartelera Valencia: ✓ clean run",
+        body=summary,
+        warning=False,
+    )

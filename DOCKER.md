@@ -75,6 +75,33 @@ freshly-cloned `main`. So:
 - **Edits to `scraper/requirements.txt` or `Dockerfile`**: rebuild with
   `docker compose build --no-cache`.
 
+## Notifications
+
+The scraper can ping you on warnings / failures via
+[Apprise](https://github.com/caronc/apprise), which speaks email, Telegram,
+Discord, ntfy, Pushover, … 80+ services.
+
+Set `APPRISE_URLS` in `.env` to a whitespace- or comma-separated list of
+target URLs. Examples:
+
+```
+# Gmail with an app password
+APPRISE_URLS=mailto://you:app-password@smtp.gmail.com
+
+# Fastmail / generic SMTPS
+APPRISE_URLS=mailtos://you:pass@smtp.fastmail.com:465?from=you@example.com
+
+# Multiple targets
+APPRISE_URLS=mailto://… tgram://bottoken/chatid
+```
+
+See the [Apprise wiki](https://github.com/caronc/apprise/wiki) for the
+exact URL format for each service.
+
+By default you only get pinged when the run finishes with warnings or
+crashes. To also get a daily "clean run" heartbeat email, set
+`APPRISE_NOTIFY_ON_SUCCESS=1`.
+
 ## Disabling the old GitHub Actions schedule
 
 The `Scrape` workflow in `.github/workflows/scrape.yml` now keeps only
