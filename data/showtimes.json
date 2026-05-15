@@ -30594,6 +30594,139 @@
       ]
     },
     {
+      "id": "tmdb-1436219",
+      "title": "PIZZA MOVIES",
+      "title_local": "Pizza Movies",
+      "poster": "posters/pizza-movies.jpg",
+      "rating": 7.0,
+      "duration": 95,
+      "genres": [
+        "Comedia"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84344/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84346/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "20:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84347/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84348/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "20:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84349/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "20:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84350/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "20:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84351/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "20:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84352/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "20:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84515/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "16:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "16:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "16:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1391325",
       "title": "LA FAMILIA BENETÓN +2",
       "title_local": "La familia Benetón +2",
@@ -34513,139 +34646,6 @@
           "date": "2026-05-21",
           "time": "18:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-isla-de-amrum/64200/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1436219",
-      "title": "PIZZA MOVIES",
-      "title_local": "Pizza Movies",
-      "poster": "posters/pizza-movies.jpg",
-      "rating": 7.0,
-      "duration": 95,
-      "genres": [
-        "Comedia"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "16:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84344/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "16:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84346/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "20:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84347/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "16:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84348/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "20:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84349/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "20:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84350/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-19",
-          "time": "20:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84351/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "20:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84352/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "20:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84515/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "16:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "16:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "16:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-19",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
         }
       ]
     },
@@ -53950,9 +53950,192 @@
       ]
     },
     {
+      "id": "local-cine-a-ciegas",
+      "title": "CINE A CIEGAS",
+      "title_local": "CINE A CIEGAS",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cine-a-ciegas/84248/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-22",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cine-a-ciegas/84249/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-29",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cine-a-ciegas/84250/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-david-una-aventura-gigante",
+      "title": "DAVID: UNA AVENTURA GIGANTE",
+      "title_local": "DAVID: UNA AVENTURA GIGANTE",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-13",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3027"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-13",
+          "time": "16:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3027"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-13",
+          "time": "17:50",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3027"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-14",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/david-una-aventura-gigante/84155/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/david-una-aventura-gigante/84406/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/david-una-aventura-gigante/84407/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/david-una-aventura-gigante/84408/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "12:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3027"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-14",
+          "time": "16:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3027"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "12:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3027"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-14",
+          "time": "17:50",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3027"
+        }
+      ]
+    },
+    {
+      "id": "local-el-se-or-de-los-anillos-la-comunidad-del-anillo-version-extendida",
+      "title": "EL SEÑOR DE LOS ANILLOS: LA COMUNIDAD DEL ANILLO (VERSIÓN EXTENDIDA)",
+      "title_local": "EL SEÑOR DE LOS ANILLOS: LA COMUNIDAD DEL ANILLO (VERSIÓN EXTENDIDA)",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/83420/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/83421/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/83422/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/84373/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/84374/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/84375/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/84517/?step=2"
+        }
+      ]
+    },
+    {
       "id": "local-top-gun-40-aniversario",
-      "title": "Top Gun 40 Aniversario",
-      "title_local": "Top Gun 40 Aniversario",
+      "title": "TOP GUN 40 ANIVERSARIO",
+      "title_local": "TOP GUN 40 ANIVERSARIO",
       "poster": null,
       "rating": null,
       "duration": null,
@@ -54378,6 +54561,74 @@
           "date": "2026-05-21",
           "time": "15:30",
           "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
+        }
+      ]
+    },
+    {
+      "id": "local-top-gun-maverick-reestreno",
+      "title": "TOP GUN: MAVERICK REESTRENO",
+      "title_local": "TOP GUN: MAVERICK REESTRENO",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-14",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/83680/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84415/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84416/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84417/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84418/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84419/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84420/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84524/?step=2"
         }
       ]
     },
@@ -55206,257 +55457,6 @@
           "date": "2026-06-16",
           "time": "18:30",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/club-de-lectura-babel-donde-viven-los-monstruos/63910/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-cine-a-ciegas",
-      "title": "CINE A CIEGAS",
-      "title_local": "CINE A CIEGAS",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cine-a-ciegas/84248/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-22",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cine-a-ciegas/84249/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-29",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cine-a-ciegas/84250/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-david-una-aventura-gigante",
-      "title": "DAVID: UNA AVENTURA GIGANTE",
-      "title_local": "DAVID: UNA AVENTURA GIGANTE",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-13",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3027"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-05-13",
-          "time": "16:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3027"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-13",
-          "time": "17:50",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3027"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-14",
-          "time": "17:50",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/david-una-aventura-gigante/84155/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/david-una-aventura-gigante/84406/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/david-una-aventura-gigante/84407/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/david-una-aventura-gigante/84408/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "12:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3027"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-05-14",
-          "time": "16:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3027"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "12:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3027"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-14",
-          "time": "17:50",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3027"
-        }
-      ]
-    },
-    {
-      "id": "local-el-se-or-de-los-anillos-la-comunidad-del-anillo-version-extendida",
-      "title": "EL SEÑOR DE LOS ANILLOS: LA COMUNIDAD DEL ANILLO (VERSIÓN EXTENDIDA)",
-      "title_local": "EL SEÑOR DE LOS ANILLOS: LA COMUNIDAD DEL ANILLO (VERSIÓN EXTENDIDA)",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/83420/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/83421/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/83422/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/84373/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-19",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/84374/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/84375/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/84517/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-top-gun-maverick-reestreno",
-      "title": "TOP GUN: MAVERICK REESTRENO",
-      "title_local": "TOP GUN: MAVERICK REESTRENO",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-14",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/83680/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84415/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84416/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84417/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84418/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-19",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84419/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84420/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84524/?step=2"
         }
       ]
     },
