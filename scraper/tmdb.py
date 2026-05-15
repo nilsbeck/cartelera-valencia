@@ -6,6 +6,7 @@ Requires env var: TMDB_API_KEY
 """
 
 import os
+import re
 import requests
 
 TMDB_KEY  = os.environ.get("TMDB_API_KEY", "")
@@ -15,24 +16,115 @@ HEADERS   = {"accept": "application/json"}
 LANG      = "es-ES"   # prefer Spanish metadata
 
 
+# ── Title cleaning ────────────────────────────────────────────────────────────
+#
+# Cinema schedules are full of programmed-event titles like
+#   "Cine con coloquio – Iron Maiden: Burning ambition"
+#   "EL PADRINO (50 ANIVERSARIO)"
+#   "EL SEÑOR DE LOS ANILLOS: LA COMUNIDAD DEL ANILLO-VERSIÓN EXTENDIDA"
+#   "TOP GUN: MAVERICK REESTRENO"
+# TMDB will never match the raw string, but does match the cleaned film name.
+
+_PREFIX_RE = re.compile(
+    r"^\s*(?:"
+    r"30\s+a[nñ]os\s+30\s+pel[ií]culas"
+    r"|cine\s+con\s+coloquio"
+    r"|cine\s+con\s+cineastas"
+    r"|cine\s+familiar"
+    r"|cine\s+club"
+    r"|club\s+de\s+lectura(?:\s+\w+)*"
+    r"|producci[óo]n\s+valenciana"
+    r"|presentaci[óo]n"
+    r"|docs\s+vlc\d+"
+    r"|pelos\s+de\s+punta"
+    r")\s*[:\-–—]\s*",
+    re.IGNORECASE,
+)
+
+_SUFFIX_PATTERNS = [
+    re.compile(r"\s*[-–—]\s*pase\s+especial\s+con\s+coloquio\s*$", re.IGNORECASE),
+    re.compile(r"\s*[-–—]\s*club\s+rosebud\s*$",                   re.IGNORECASE),
+    re.compile(r"\s*[-–—]?\s+(?:re|pre)?estreno\s*$",              re.IGNORECASE),
+    re.compile(r"\s*\(\s*\d+\s*[°ºo]?\s*aniversario\s*\)\s*$",     re.IGNORECASE),
+    re.compile(r"\s+\d+\s*[°ºo]?\s*aniversario\s*$",               re.IGNORECASE),
+    re.compile(r"\s*[-–—]?\s*\(\s*versi[óo]n\s+extendida\s*\)\s*$", re.IGNORECASE),
+    re.compile(r"\s*[-–—]\s*versi[óo]n\s+extendida\s*$",           re.IGNORECASE),
+    re.compile(r"\s+\d{1,2}/\d{1,2}\s*$"),
+    re.compile(r"\s*\(\s*\d{4}\s*\)\s*$"),
+]
+
+# Last-ditch: anything inside trailing parens. Run only as final fallback —
+# many films legitimately carry a parenthetical (e.g. "In the mood for love
+# (Deseando amar)") that's actually useful for the first attempt.
+_TRAILING_PARENS = re.compile(r"\s*\([^)]*\)\s*$")
+
+
+def _clean_title(title: str) -> str:
+    """Strip programmed-event prefix and event/anniversary suffix."""
+    t = (title or "").strip()
+    if not t:
+        return t
+    m = _PREFIX_RE.match(t)
+    if m:
+        t = t[m.end():].strip()
+    while True:
+        before = t
+        for p in _SUFFIX_PATTERNS:
+            t = p.sub("", t)
+        t = t.rstrip(" -–—:")
+        if t == before:
+            break
+    return t
+
+
+def _search_candidates(title: str) -> list[str]:
+    """Title variants to try against TMDB, most-faithful first."""
+    seen: list[str] = []
+
+    def _add(s: str) -> None:
+        s = s.strip()
+        if s and s not in seen:
+            seen.append(s)
+
+    _add(title)
+    cleaned = _clean_title(title)
+    _add(cleaned)
+    # Final fallback: also drop any trailing parenthetical from the cleaned form.
+    _add(_TRAILING_PARENS.sub("", cleaned))
+    return seen
+
+
+# ── TMDB search ───────────────────────────────────────────────────────────────
+
+def _tmdb_search(query: str) -> list[dict]:
+    r = requests.get(
+        f"{BASE_URL}/search/movie",
+        params={"api_key": TMDB_KEY, "query": query, "language": LANG},
+        headers=HEADERS,
+        timeout=8,
+    )
+    r.raise_for_status()
+    return r.json().get("results", [])
+
+
 def enrich_movie(title: str) -> "dict | None":
     if not TMDB_KEY:
         print("  ⚠ TMDB_API_KEY not set, skipping enrichment")
         return None
 
-    # 1. Search
-    try:
-        r = requests.get(
-            f"{BASE_URL}/search/movie",
-            params={"api_key": TMDB_KEY, "query": title, "language": LANG},
-            headers=HEADERS,
-            timeout=8,
-        )
-        r.raise_for_status()
-        results = r.json().get("results", [])
-    except Exception as e:
-        print(f"  ✗ TMDB search failed: {e}")
-        return None
+    results: list[dict] = []
+    matched_query = title
+    for candidate in _search_candidates(title):
+        try:
+            results = _tmdb_search(candidate)
+        except Exception as e:
+            print(f"  ✗ TMDB search failed for {candidate!r}: {e}")
+            return None
+        if results:
+            matched_query = candidate
+            if candidate != title:
+                print(f"  ↻ Retried as: {candidate}")
+            break
 
     if not results:
         print(f"  ✗ No TMDB result for: {title}")
