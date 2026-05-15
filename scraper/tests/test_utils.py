@@ -811,11 +811,14 @@ class TestCrawlerCoverage:
 
         today = date.today()
         std_dates = {(today + timedelta(days=i)).isoformat() for i in range(7)}
+        # Lys/MN4 may legitimately drop today after past sessions are over —
+        # see validate_per_cinema_per_day in run.py.
+        future_only = std_dates - {today.isoformat()}
 
         expected = {
             "babel":         std_dates,
-            "lys":           std_dates,
-            "mn4":           std_dates,
+            "lys":           future_only,
+            "mn4":           future_only,
             "abc_park":      std_dates,
             "abc_elsaler":   std_dates,
             "abc_granturia": std_dates,

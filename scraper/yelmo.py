@@ -62,7 +62,23 @@ def scrape() -> list[dict]:
                     # a language label, a <time> tag, and the booking <a>.
                     sessions = block.evaluate(r"""el => {
                         const out = [];
-                        const langPattern = /VOSE|V\.O\.S\.E|V\.O\.|ESPAÑOL|CASTELLANO|VALENCIÀ|VALENCIANO|INGLÉS|DOBLAD|SUBTITULAD/i;
+
+                        // Read the version from the <label> attached to a
+                        // session. Labels contain a substring like "vose",
+                        // "español", "vo", "castellano" etc. — match by
+                        // contains and emit a canonical code so
+                        // normalize_lang maps cleanly.
+                        function detectLang(row) {
+                            for (const label of row.querySelectorAll('label')) {
+                                const text = (label.textContent || '').trim().toLowerCase();
+                                if (!text) continue;
+                                if (text.includes('vose') || text.includes('v.o.s.e')) return 'VOSE';
+                                if (text.includes('español') || text.includes('castellano') || text.includes('doblad')) return 'ES';
+                                if (text.includes('valencià') || text.includes('valenciano')) return 'VAL';
+                                if (text.includes('original') || text.includes('v.o.') || /\bvo\b/.test(text)) return 'VO';
+                            }
+                            return '';
+                        }
 
                         for (const outer of el.querySelectorAll('[data-cinema="mercado-de-campanar"]')) {
                             const rows = Array.from(outer.querySelectorAll(':scope > div'));
@@ -73,12 +89,7 @@ def scrape() -> list[dict]:
                                     const timeText = time.getAttribute('datetime') || time.textContent.trim();
                                     if (!timeText || !timeText.includes(':')) continue;
 
-                                    let lang = '';
-                                    for (const lbl of row.querySelectorAll('label, span, p')) {
-                                        const t = lbl.textContent.trim();
-                                        if (t && langPattern.test(t)) { lang = t; break; }
-                                    }
-
+                                    const lang = detectLang(row);
                                     const a = time.closest('a') || row.querySelector('a');
                                     out.push({ time: timeText, lang, href: a ? a.href : '' });
                                 }
@@ -88,11 +99,7 @@ def scrape() -> list[dict]:
                         // Fallback: old .horarioExp structure
                         if (!out.length) {
                             for (const vb of el.querySelectorAll('.horarioExp')) {
-                                let lang = '';
-                                for (const s of vb.querySelectorAll('span')) {
-                                    const t = s.textContent.trim();
-                                    if (t && langPattern.test(t)) { lang = t; break; }
-                                }
+                                const lang = detectLang(vb);
                                 for (const time of vb.querySelectorAll('time')) {
                                     const timeText = time.getAttribute('datetime') || time.textContent.trim();
                                     if (!timeText || !timeText.includes(':')) continue;
