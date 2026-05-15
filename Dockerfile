@@ -1,7 +1,7 @@
 # Use Microsoft's official Playwright image so Chromium and all its OS
 # dependencies are already installed and version-matched to the playwright
 # Python package. Pinning the tag means the image is reproducible.
-FROM mcr.microsoft.com/playwright/python:v1.56.0-jammy
+FROM mcr.microsoft.com/playwright/python:v1.59.0-jammy
 
 ENV PYTHONUNBUFFERED=1 \
     PIP_DISABLE_PIP_VERSION_CHECK=1 \

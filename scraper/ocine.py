@@ -2,25 +2,35 @@
 Ocine Premium Aqua Valencia scraper.
 URL: https://www.ocinepremiumaqua.es/
 
-The site is server-rendered HTML (commit 1b91936 confirmed requests+BS4 was
-sufficient when reachable). The blocker isn't rendering, it's network: from
-GitHub-hosted runner IPs the origin silently drops connections (no HTTP
-response ever arrives, see commit bbfe860). We route through a tiny EU
-fetch-proxy on Render (see ../proxy/) when OCINE_PROXY_URL is configured,
-falling back to direct fetches otherwise so the scraper degrades cleanly
-in local development.
+Two-phase scrape with a runtime switch between Playwright (default) and
+a requests+BS4 path via the EU fetch-proxy (see ../proxy/).
+
+Why the switch:
+  - From a US GitHub-hosted runner the origin silently drops connections
+    (bbfe860, PR #56, PR #57). Even Render's Frankfurt egress hits a TCP
+    connect-timeout — the block is by cloud-IP, not geo.
+  - From a residential IP (home server in Docker, see ../DOCKER.md) the
+    origin responds, but the page is client-rendered: requests+BS4 lands
+    on an empty shell. Playwright renders it correctly.
+
+So:
+  - OCINE_PROXY_URL unset (home / direct path) → Playwright two-phase.
+  - OCINE_PROXY_URL set (proxy path, only useful if the proxy host can
+    render JS — currently the bundled proxy can't, so this path is
+    effectively disabled until someone bolts a headless browser on it).
 
 Phase 1 (main page):
-  Enumerate film tiles (div.peli-item.element-item → h4 title + /film-{id}/p
-  link).
+  Wait for film tiles to render, then enumerate (title, /film-{id}/p URL).
 
 Phase 2 (per-film date pages):
-  For each film × date in today..next-Thursday, GET
+  For each film × date in today..next-Thursday, navigate to
     {film_url}&selectedDate={YYYY-MM-DD}
-  and parse table.planificacions → tr.plans rows. Language priority:
-    1. version token in the tr's own class string
-    2. version-label element inside the row
-    3. preceding sibling row's text
+  wait for the session table to hydrate, then parse tr.plans rows.
+
+Language priority inside a tr.plans row:
+  1. version token in the tr's own class string
+  2. version-label element inside the row
+  3. preceding sibling row's text
 
 Spanish cinemas programme on a Friday→Thursday cycle, so sessions cover
 today through the upcoming Thursday.
@@ -33,6 +43,7 @@ from urllib.parse import quote
 
 import requests
 from bs4 import BeautifulSoup
+from playwright.sync_api import sync_playwright
 
 BASE_URL = "https://ocinepremiumaqua.es"
 
@@ -96,44 +107,8 @@ def _log(msg: str) -> None:
     print(msg, flush=True)
 
 
-def _make_fetcher():
-    """Return (fetch_html, mode_label).
-
-    fetch_html(url, *, timeout) -> str. Routes through the configured EU
-    proxy when OCINE_PROXY_URL is set; otherwise hits the origin directly.
-    """
-    proxy_url   = os.environ.get("OCINE_PROXY_URL",   "").rstrip("/")
-    proxy_token = os.environ.get("OCINE_PROXY_TOKEN", "")
-    sess = requests.Session()
-
-    if proxy_url:
-        proxy_headers = {"X-Proxy-Token": proxy_token} if proxy_token else {}
-        proxy_headers["X-Forward-User-Agent"] = _UA
-
-        def fetch_html(url: str, timeout: int = 30) -> str:
-            r = sess.get(
-                f"{proxy_url}/fetch",
-                params={"url": url},
-                headers=proxy_headers,
-                timeout=timeout,
-            )
-            r.raise_for_status()
-            return r.text
-
-        return fetch_html, "proxy"
-
-    sess.headers.update(_DIRECT_HEADERS)
-
-    def fetch_html(url: str, timeout: int = 30) -> str:
-        r = sess.get(url, timeout=timeout)
-        r.raise_for_status()
-        return r.text
-
-    return fetch_html, "direct"
-
-
 def _parse_sessions(html: str, title: str, film_url: str, date_str: str) -> list[dict]:
-    """Parse the session table from a film-detail page's HTML."""
+    """Parse the session table from a film-detail page's rendered HTML."""
     soup = BeautifulSoup(html, "html.parser")
     out: list[dict] = []
     for tr in soup.find_all("tr", class_="plans"):
@@ -169,18 +144,154 @@ def _parse_sessions(html: str, title: str, film_url: str, date_str: str) -> list
     return out
 
 
-def scrape() -> list[dict]:
-    results: list[dict] = []
-    dates = _dates_until_next_thursday()
-    fetch_html, mode = _make_fetcher()
-    _log(f"  [ocine] fetch mode: {mode}")
+# ── Playwright path (used when running from a residential IP) ────────────────
 
-    # ── Phase 1: enumerate film tiles ─────────────────────────────────
-    # First call may include a Render free-tier cold-start (~10–30s).
+def _goto_with_retry(page, url: str, label: str) -> "int | None":
+    """Navigate with wait_until='commit' and one retry — see PR #56."""
+    last_exc: "Exception | None" = None
+    for attempt in (1, 2):
+        try:
+            resp = page.goto(url, timeout=60000, wait_until="commit")
+            return resp.status if resp else None
+        except Exception as e:
+            last_exc = e
+            _log(f"  ⚠ Ocine {label} goto attempt {attempt} failed: {e}")
+    raise last_exc if last_exc else RuntimeError("goto failed without exception")
+
+
+def _scrape_playwright(dates: list[str]) -> list[dict]:
+    results: list[dict] = []
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page(user_agent=_UA)
+
+        # ── Phase 1: enumerate film tiles ─────────────────────────────
+        try:
+            _goto_with_retry(page, BASE_URL, "main page")
+            page.wait_for_selector(
+                "div.peli-item, a[href*='/film-']",
+                state="attached",
+                timeout=20000,
+            )
+        except Exception as e:
+            _log(f"  ⚠ Ocine main page failed: {e}")
+            browser.close()
+            return []
+
+        films = page.evaluate(r"""() => {
+            const seen = new Map();
+            const blocks = document.querySelectorAll('div.peli-item');
+            const re = /\/film-\d+\/p/;
+            for (const block of blocks) {
+                const h4 = block.querySelector('h4');
+                if (!h4) continue;
+                const title = (h4.textContent || '').trim();
+                if (!title) continue;
+                const a = block.querySelector('a[href*="/film-"]');
+                if (!a) continue;
+                const href = a.getAttribute('href') || '';
+                if (!re.test(href)) continue;
+                let url = href.startsWith('http') ? href : (location.origin + href);
+                url = url.replace(/[?&]selectedDate=[^&]*/g, '').replace(/[?&]$/, '');
+                if (!seen.has(url)) seen.set(url, { title, url });
+            }
+            return Array.from(seen.values());
+        }""")
+
+        _log(f"  [ocine] Phase 1: {len(films)} films")
+
+        if not films:
+            try:
+                diag = page.evaluate(r"""() => ({
+                    url: location.href,
+                    peli_items: document.querySelectorAll('div.peli-item').length,
+                    any_film_links: document.querySelectorAll('a[href*="/film-"]').length,
+                    h4_count: document.querySelectorAll('h4').length,
+                    body_len: document.body.innerHTML.length,
+                })""")
+                _log(f"  [ocine] DIAG main page: {diag}")
+            except Exception:
+                pass
+            browser.close()
+            return []
+
+        # ── Phase 2: per-film, per-date session pages ─────────────────
+        diagnosed = False
+        for film in films:
+            film_url = film["url"]
+            sep = "&" if "?" in film_url else "?"
+            for date_str in dates:
+                target = f"{film_url}{sep}selectedDate={date_str}"
+                try:
+                    _goto_with_retry(page, target, f"session {date_str}")
+                    try:
+                        page.wait_for_selector(
+                            "tr.plans, .no-sesiones, .sin-sesiones",
+                            state="attached",
+                            timeout=8000,
+                        )
+                    except Exception:
+                        pass
+                    html = page.content()
+                except Exception as e:
+                    _log(f"  ⚠ Ocine session fetch failed ({film['title']} {date_str}): {e}")
+                    continue
+
+                if not diagnosed:
+                    try:
+                        d = page.evaluate(r"""() => ({
+                            url: location.href,
+                            plans_rows: document.querySelectorAll('tr.plans').length,
+                            buttons:    document.querySelectorAll('tr.plans button').length,
+                            body_len:   document.body.innerHTML.length,
+                        })""")
+                        _log(f"  [ocine] DIAG first session page: {d}")
+                    except Exception:
+                        pass
+                    diagnosed = True
+
+                results.extend(_parse_sessions(html, film["title"], film_url, date_str))
+
+        browser.close()
+    return results
+
+
+# ── Proxy path (kept for the manual workflow_dispatch on GH Actions) ─────────
+
+def _make_proxy_fetcher():
+    """Returns fetch_html(url, *, timeout) that calls the configured proxy.
+
+    Caller must check OCINE_PROXY_URL is non-empty before invoking.
+    """
+    proxy_url   = os.environ["OCINE_PROXY_URL"].rstrip("/")
+    proxy_token = os.environ.get("OCINE_PROXY_TOKEN", "")
+    sess = requests.Session()
+    proxy_headers = {"X-Proxy-Token": proxy_token} if proxy_token else {}
+    proxy_headers["X-Forward-User-Agent"] = _UA
+
+    def fetch_html(url: str, timeout: int = 30) -> str:
+        r = sess.get(
+            f"{proxy_url}/fetch",
+            params={"url": url},
+            headers=proxy_headers,
+            timeout=timeout,
+        )
+        r.raise_for_status()
+        return r.text
+
+    return fetch_html
+
+
+def _scrape_via_proxy(dates: list[str]) -> list[dict]:
+    """requests+BS4 path. Only useful if the proxy host can render JS;
+    currently the bundled Render proxy can't, so this returns empty."""
+    fetch_html = _make_proxy_fetcher()
+    results: list[dict] = []
+
     try:
         html = fetch_html(BASE_URL, timeout=60)
     except Exception as e:
-        _log(f"  ⚠ Ocine main page failed: {e}")
+        _log(f"  ⚠ Ocine main page failed (via proxy): {e}")
         return []
 
     soup = BeautifulSoup(html, "html.parser")
@@ -209,18 +320,17 @@ def scrape() -> list[dict]:
         seen_urls.add(film_url)
         films.append({"title": title, "url": film_url})
 
-    _log(f"  [ocine] Phase 1: {len(films)} films")
+    _log(f"  [ocine] Phase 1 (proxy): {len(films)} films")
 
     if not films:
         _log(
-            f"  [ocine] DIAG main page: peli_item_divs="
+            f"  [ocine] DIAG main page (proxy): peli_item_divs="
             f"{len(soup.find_all('div', class_=lambda c: c and 'peli-item' in c))}, "
             f"film_links={len(soup.find_all('a', href=_FILM_LINK_RE))}, "
             f"body_len={len(html)}"
         )
         return []
 
-    # ── Phase 2: per-film, per-date session pages ─────────────────────
     diagnosed = False
     for film in films:
         film_url = film["url"]
@@ -232,17 +342,24 @@ def scrape() -> list[dict]:
             except Exception as e:
                 _log(f"  ⚠ Ocine session fetch failed ({film['title']} {date_str}): {e}")
                 continue
-
             if not diagnosed:
                 soup2 = BeautifulSoup(html, "html.parser")
                 _log(
-                    f"  [ocine] DIAG first session page: "
+                    f"  [ocine] DIAG first session page (proxy): "
                     f"plans_rows={len(soup2.find_all('tr', class_='plans'))}, "
                     f"buttons={len(soup2.select('tr.plans button'))}, "
                     f"body_len={len(html)}"
                 )
                 diagnosed = True
-
             results.extend(_parse_sessions(html, film["title"], film_url, date_str))
 
     return results
+
+
+def scrape() -> list[dict]:
+    dates = _dates_until_next_thursday()
+    if os.environ.get("OCINE_PROXY_URL"):
+        _log("  [ocine] fetch mode: proxy")
+        return _scrape_via_proxy(dates)
+    _log("  [ocine] fetch mode: playwright (direct)")
+    return _scrape_playwright(dates)
