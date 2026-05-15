@@ -137,7 +137,9 @@ def scrape() -> list[dict]:
         movies = page.evaluate(r"""() => {
             const seen = new Map();
             for (const a of document.querySelectorAll('h3 a[href*="/sinopsis/"]')) {
-                const href = a.href.split('?')[0].split('#')[0];
+                // Preserve any query string — Yelmo may use it to carry the
+                // cinema scope (city/location) into the sinopsis page.
+                const href = a.href.split('#')[0];
                 if (seen.has(href)) continue;
                 const title = (a.textContent || '').trim();
                 if (title) seen.set(href, { title, url: href });
@@ -153,13 +155,32 @@ def scrape() -> list[dict]:
             return []
 
         # ── Phase 2: walk each movie's sinopsis page across dates ─────
-        diag_dumped = False
+        diag_dumps_remaining = 3
         for movie in movies:
             try:
                 page.goto(movie["url"], timeout=30000)
-                page.wait_for_selector("#ddlDate", timeout=10000)
+                # Wait for the date picker to actually populate, not just the
+                # empty <select id="ddlDate"> shell. The cinema rows or option
+                # children — whichever appears — confirms hydration.
+                page.wait_for_selector(
+                    "#ddlDate option, [data-cinema]",
+                    timeout=15000,
+                )
             except Exception as e:
                 _log(f"  ⚠ Yelmo sinopsis fetch failed for '{movie['title']}': {e}")
+                if diag_dumps_remaining > 0:
+                    try:
+                        fail_diag = page.evaluate(r"""() => ({
+                            url: location.href,
+                            has_select: !!document.querySelector('#ddlDate'),
+                            select_html: (document.querySelector('#ddlDate') || {}).outerHTML || null,
+                            any_data_cinema: document.querySelectorAll('[data-cinema]').length,
+                            body_len: document.body.innerHTML.length,
+                        })""")
+                        _log(f"  [yelmo] FAILDIAG: {fail_diag}")
+                    except Exception:
+                        pass
+                    diag_dumps_remaining -= 1
                 continue
 
             date_options = page.evaluate(r"""() => {
@@ -171,7 +192,7 @@ def scrape() -> list[dict]:
                 }));
             }""")
 
-            if not diag_dumped:
+            if diag_dumps_remaining > 0:
                 diag = page.evaluate(r"""() => {
                     const sel = document.querySelector('#ddlDate');
                     const opts = sel ? Array.from(sel.options).slice(0,3).map(o => ({v:o.value, t:(o.textContent||'').trim()})) : [];
@@ -180,14 +201,15 @@ def scrape() -> list[dict]:
                         cinemas.add(d.getAttribute('data-cinema'));
                     }
                     return {
+                        url: location.href,
                         sample_options: opts,
                         all_data_cinema: Array.from(cinemas),
                         labels_count: document.querySelectorAll('[data-cinema] label').length,
                         times_count:  document.querySelectorAll('[data-cinema] time').length,
                     };
                 }""")
-                _log(f"  [yelmo] DIAG '{movie['title']}': options={diag['sample_options']} data-cinema={diag['all_data_cinema']} labels={diag['labels_count']} times={diag['times_count']}")
-                diag_dumped = True
+                _log(f"  [yelmo] DIAG '{movie['title']}' @ {diag['url']}: options={diag['sample_options']} data-cinema={diag['all_data_cinema']} labels={diag['labels_count']} times={diag['times_count']}")
+                diag_dumps_remaining -= 1
 
             movie_session_count = 0
             for opt in date_options:
