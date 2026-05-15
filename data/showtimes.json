@@ -67,6 +67,28 @@
       ]
     },
     {
+      "id": "tmdb-238",
+      "title": "EL PADRINO (50 ANIVERSARIO)",
+      "title_local": "El padrino",
+      "poster": "posters/el-padrino-50-aniversario.jpg",
+      "rating": 8.7,
+      "duration": 175,
+      "genres": [
+        "Drama",
+        "Crimen"
+      ],
+      "trailer_youtube_id": "Ew9ngL1GZvs",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-26",
+          "time": "18:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=488"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1515899",
       "title": "Billie Eilish. Hit Me Hard and Soft - The Tour",
       "title_local": "Billie Eilish - Hit Me Hard and Soft: The Tour (en 3D)",
@@ -498,6 +520,64 @@
           "date": "2026-05-21",
           "time": "20:45",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44182"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44182"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "21:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44186"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "21:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44187"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-18",
+          "time": "19:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44082"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-19",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44191"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-122",
+      "title": "EL SEÑOR DE LOS ANILLOS: EL RETORNO DEL REY-VERSIÓN EXTENDIDA",
+      "title_local": "El señor de los anillos: El retorno del rey",
+      "poster": "posters/el-se-or-de-los-anillos-el-retorno-del-rey-version-extendida.jpg",
+      "rating": 8.5,
+      "duration": 202,
+      "genres": [
+        "Aventura",
+        "Fantasía",
+        "Acción"
+      ],
+      "trailer_youtube_id": "zckJCxYxn1g",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-29",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=1387"
         }
       ]
     },
@@ -593,6 +673,71 @@
           "date": "2026-05-20",
           "time": "17:30",
           "url": "https://kinepolis.es/movies/detail/4940/HO00006431/0/el-senor-de-los-anillos-la-comunidad-del-anill"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-120",
+      "title": "EL SEÑOR DE LOS ANILLOS: LA COMUNIDAD DEL ANILLO (VERSIÓN EXTENDIDA)",
+      "title_local": "El señor de los anillos: La comunidad del anillo",
+      "poster": "posters/el-se-or-de-los-anillos-la-comunidad-del-anillo-version-extendida.jpg",
+      "rating": 8.4,
+      "duration": 179,
+      "genres": [
+        "Aventura",
+        "Fantasía",
+        "Acción"
+      ],
+      "trailer_youtube_id": "_nZdmwHrcnw",
+      "showtimes": [
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/83420/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/83421/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/83422/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/84373/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/84374/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/84375/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/84517/?step=2"
         }
       ]
     },
@@ -756,6 +901,115 @@
           "date": "2026-05-21",
           "time": "19:30",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18594"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "20:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43996"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43997"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44000"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-18",
+          "time": "20:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44002"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-19",
+          "time": "20:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44018"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-20",
+          "time": "20:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44037"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-21",
+          "time": "20:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44067"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-120",
+      "title": "EL SEÑOR DE LOS ANILLOS: LA COMUNIDAD DEL ANILLO-VERSIÓN EXTENDIDA",
+      "title_local": "El señor de los anillos: La comunidad del anillo",
+      "poster": "posters/el-se-or-de-los-anillos-la-comunidad-del-anillo-version-extendida.jpg",
+      "rating": 8.4,
+      "duration": 179,
+      "genres": [
+        "Aventura",
+        "Fantasía",
+        "Acción"
+      ],
+      "trailer_youtube_id": "_nZdmwHrcnw",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=1978"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=1978"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=1978"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-121",
+      "title": "EL SEÑOR DE LOS ANILLOS: LAS DOS TORRES-VERSIÓN EXTENDIDA",
+      "title_local": "El señor de los anillos: Las dos torres",
+      "poster": "posters/el-se-or-de-los-anillos-las-dos-torres-version-extendida.jpg",
+      "rating": 8.4,
+      "duration": 180,
+      "genres": [
+        "Aventura",
+        "Fantasía",
+        "Acción"
+      ],
+      "trailer_youtube_id": "nuTU5XcZTLA",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-22",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=1977"
         }
       ]
     },
@@ -4672,6 +4926,62 @@
           "date": "2026-05-21",
           "time": "17:10",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=19098"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44108"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "18:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44107"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44159"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "18:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44160"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "18:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44115"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "18:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44125"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "18:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44146"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "19:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43902"
         }
       ]
     },
@@ -8145,6 +8455,97 @@
           "date": "2026-05-21",
           "time": "17:00",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44076"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "20:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43909"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44046"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "16:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44077"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44049"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "16:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44079"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-18",
+          "time": "20:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44052"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "17:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44084"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-19",
+          "time": "20:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44129"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "17:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44168"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-20",
+          "time": "20:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44150"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "17:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44174"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-21",
+          "time": "17:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44177"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-21",
+          "time": "17:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44177"
         }
       ]
     },
@@ -8395,6 +8796,410 @@
       ]
     },
     {
+      "id": "tmdb-361743",
+      "title": "TOP GUN: MAVERICK REESTRENO",
+      "title_local": "Top Gun: Maverick",
+      "poster": "posters/top-gun-maverick-reestreno.jpg",
+      "rating": 8.2,
+      "duration": 131,
+      "genres": [
+        "Acción",
+        "Drama"
+      ],
+      "trailer_youtube_id": "Klc__shdj88",
+      "showtimes": [
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-14",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/83680/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84415/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84416/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84417/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84418/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84419/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84420/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84524/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1376838",
+      "title": "Cine Club – Un mundo frágil y maravilloso",
+      "title_local": "Un mundo frágil y maravilloso",
+      "poster": "posters/cine-club-un-mundo-fragil-y-maravilloso.jpg",
+      "rating": 8.2,
+      "duration": 110,
+      "genres": [
+        "Romance",
+        "Drama",
+        "Comedia"
+      ],
+      "trailer_youtube_id": "tfhS2aXatiA",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-21",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-club-un-mundo-fragil-y-maravilloso/64197/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-361743",
+      "title": "Top Gun: Maverick (Reestreno)",
+      "title_local": "Top Gun: Maverick",
+      "poster": "posters/top-gun-maverick-reestreno.jpg",
+      "rating": 8.2,
+      "duration": 131,
+      "genres": [
+        "Acción",
+        "Drama"
+      ],
+      "trailer_youtube_id": "Klc__shdj88",
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-13",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43219"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-13",
+          "time": "19:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43220"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-13",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18739"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-14",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43219"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-14",
+          "time": "19:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43220"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-14",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18739"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43219"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "19:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43220"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18739"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43219"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "19:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43220"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18739"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43219"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "19:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43220"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18739"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43219"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "19:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43220"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18739"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43219"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "19:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43220"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18739"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43222"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "19:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43221"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "20:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43227"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "20:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43227"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "20:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43227"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "20:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43227"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "20:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43227"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "20:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43227"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "20:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43227"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "19:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43228"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18741"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "19:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43228"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "19:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43229"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "19:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43233"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-18",
+          "time": "19:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43963"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-19",
+          "time": "19:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44008"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "20:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44029"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-20",
+          "time": "19:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44027"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-490",
+      "title": "EL SÉPTIMO SELLO (1957)",
+      "title_local": "El séptimo sello",
+      "poster": "posters/el-septimo-sello-1957.jpg",
+      "rating": 8.2,
+      "duration": 96,
+      "genres": [
+        "Fantasía",
+        "Drama"
+      ],
+      "trailer_youtube_id": "vZucwtdSvJ8",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-22",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3037"
+        }
+      ]
+    },
+    {
       "id": "tmdb-103",
       "title": "TAXI DRIVER",
       "title_local": "Taxi Driver",
@@ -8420,6 +9225,197 @@
           "date": "2026-05-15",
           "time": "20:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3038"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-843",
+      "title": "30 años 30 películas – In the mood for love (Deseando amar)",
+      "title_local": "Deseando amar",
+      "poster": "posters/30-a-os-30-peliculas-in-the-mood-for-love-deseando-amar.jpg",
+      "rating": 8.1,
+      "duration": 95,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "trailer_youtube_id": "rc3QleuaQMw",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-08",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/63976/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-09",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/63977/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-10",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/63978/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-11",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/63998/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-12",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64015/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-05-08",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/63976/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-05-09",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/63977/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-05-10",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/63978/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-05-11",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/63998/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-05-12",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64015/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-05-13",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64032/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-05-14",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64049/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-14",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64049/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64134/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64111/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64143/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-18",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64175/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-19",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64194/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-20",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64094/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-21",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64204/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-843",
+      "title": "DESEANDO AMAR (1982)",
+      "title_local": "Deseando amar",
+      "poster": "posters/deseando-amar-1982.jpg",
+      "rating": 8.1,
+      "duration": 95,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "trailer_youtube_id": "rc3QleuaQMw",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-14",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3039"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-21",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3039"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-21",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3039"
         }
       ]
     },
@@ -8869,6 +9865,430 @@
           "date": "2026-05-21",
           "time": "16:00",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3070"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "16:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44047"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "18:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44047"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "16:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44048"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "18:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44048"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "17:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43953"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-10515",
+      "title": "El castillo en el cielo (40 aniversario)",
+      "title_local": "El castillo en el cielo",
+      "poster": "posters/el-castillo-en-el-cielo-40-aniversario.jpg",
+      "rating": 8.0,
+      "duration": 125,
+      "genres": [
+        "Aventura",
+        "Fantasía",
+        "Animación"
+      ],
+      "trailer_youtube_id": "5lMRfLJGXSM",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/63599/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/64083/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/64118/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/64088/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/64157/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/64109/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/63599/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/64083/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/64118/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/64088/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/64157/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-20",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/64109/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-21",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/64207/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "19:40",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3077"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "19:40",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3077"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "11:55",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3077"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "19:40",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3077"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-18",
+          "time": "19:40",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3077"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-19",
+          "time": "20:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3077"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-20",
+          "time": "19:40",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3077"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-21",
+          "time": "17:50",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3077"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3077"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "20:25",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3077"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3077"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "20:25",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3077"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "11:45",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3077"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3077"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "20:25",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3077"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3077"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-05-20",
+          "time": "20:25",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3077"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-10515",
+      "title": "El Castillo en el Cielo (40º Aniversario)",
+      "title_local": "El castillo en el cielo",
+      "poster": "posters/el-castillo-en-el-cielo-40-aniversario.jpg",
+      "rating": 8.0,
+      "duration": 125,
+      "genres": [
+        "Aventura",
+        "Fantasía",
+        "Animación"
+      ],
+      "trailer_youtube_id": "5lMRfLJGXSM",
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43815"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18936"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43815"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18936"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43815"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18936"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43815"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18936"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43815"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18936"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43815"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18936"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43815"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18936"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43815"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43816"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43817"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-18",
+          "time": "17:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43818"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-19",
+          "time": "18:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44190"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-20",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44149"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-21",
+          "time": "17:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43930"
         }
       ]
     },
@@ -17023,6 +18443,167 @@
           "date": "2026-05-21",
           "time": "22:00",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=19099"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "17:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43897"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "19:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43897"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "22:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43897"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "16:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43921"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "19:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43921"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "22:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43921"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "16:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43957"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "16:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44165"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "19:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44165"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "22:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44165"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-18",
+          "time": "17:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43927"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-18",
+          "time": "19:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43927"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-18",
+          "time": "22:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43927"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-19",
+          "time": "17:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44135"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-19",
+          "time": "19:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44135"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-19",
+          "time": "22:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44135"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-20",
+          "time": "17:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44156"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-20",
+          "time": "19:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44156"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-20",
+          "time": "22:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44156"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "21:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44004"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-21",
+          "time": "17:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43986"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-21",
+          "time": "19:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43986"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-21",
+          "time": "22:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43986"
         }
       ]
     },
@@ -17995,6 +19576,29 @@
       ]
     },
     {
+      "id": "tmdb-378107",
+      "title": "DOCS VLC2026 – Un día más con vida",
+      "title_local": "Un día más con vida",
+      "poster": "posters/docs-vlc2026-un-dia-mas-con-vida.jpg",
+      "rating": 7.4,
+      "duration": 86,
+      "genres": [
+        "Animación",
+        "Documental",
+        "Historia"
+      ],
+      "trailer_youtube_id": "q7ASutCFetE",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-23",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/docs-vlc2026-un-dia-mas-con-vida/64060/?step=2"
+        }
+      ]
+    },
+    {
       "id": "tmdb-999075",
       "title": "LA CHICA ZURDA",
       "title_local": "La chica zurda",
@@ -18531,6 +20135,27 @@
           "date": "2026-05-21",
           "time": "22:10",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3020"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "20:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=41461"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "20:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=41462"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "20:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=41463"
         }
       ]
     },
@@ -29013,6 +30638,195 @@
           "date": "2026-05-21",
           "time": "22:20",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=19090"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "18:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43911"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "21:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43911"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43912"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "18:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43912"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "21:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43912"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "17:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43936"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "19:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43936"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43947"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "18:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43947"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "21:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43947"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "17:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43937"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "19:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43937"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-18",
+          "time": "18:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43948"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-18",
+          "time": "20:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43948"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-18",
+          "time": "21:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43948"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-19",
+          "time": "18:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44020"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-19",
+          "time": "20:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44020"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-19",
+          "time": "21:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44020"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-20",
+          "time": "18:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44039"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-20",
+          "time": "20:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44039"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-20",
+          "time": "21:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44039"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-21",
+          "time": "18:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43919"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-21",
+          "time": "20:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43919"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-21",
+          "time": "21:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43919"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43920"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "19:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43920"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "22:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43920"
         }
       ]
     },
@@ -29048,6 +30862,35 @@
           "date": "2026-05-19",
           "time": "16:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/amigo-silencioso/64192/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1642859",
+      "title": "Cine con coloquio – Iron Maiden: Burning ambition",
+      "title_local": "Iron Maiden: Burning Ambition",
+      "poster": "posters/cine-con-coloquio-iron-maiden-burning-ambition.jpg",
+      "rating": 7.2,
+      "duration": 105,
+      "genres": [
+        "Documental",
+        "Música"
+      ],
+      "trailer_youtube_id": "pD_H2u79tp0",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-coloquio-iron-maiden-burning-ambition/62988/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-coloquio-iron-maiden-burning-ambition/62988/?step=2"
         }
       ]
     },
@@ -29111,6 +30954,442 @@
           "date": "2026-05-21",
           "time": "16:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3071"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-744",
+      "title": "Top Gun 40 Aniversario",
+      "title_local": "Top Gun: Ídolos del aire",
+      "poster": "posters/top-gun-40-aniversario.jpg",
+      "rating": 7.1,
+      "duration": 110,
+      "genres": [
+        "Acción",
+        "Drama",
+        "Romance"
+      ],
+      "trailer_youtube_id": "Klc__shdj88",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-13",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-13",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/3610/HO00006442/0/top-gun-40-aniversario"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-14",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-14",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/3610/HO00006442/0/top-gun-40-aniversario"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-15",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/3610/HO00006442/0/top-gun-40-aniversario"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-16",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/3610/HO00006442/0/top-gun-40-aniversario"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-17",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/3610/HO00006442/0/top-gun-40-aniversario"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-18",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/3610/HO00006442/0/top-gun-40-aniversario"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "17:15",
+          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-18",
+          "time": "17:40",
+          "url": "https://kinepolis.es/movies/detail/3610/HO00006442/0/top-gun-40-aniversario"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "17:15",
+          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-19",
+          "time": "17:40",
+          "url": "https://kinepolis.es/movies/detail/3610/HO00006442/0/top-gun-40-aniversario"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "17:15",
+          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-20",
+          "time": "17:40",
+          "url": "https://kinepolis.es/movies/detail/3610/HO00006442/0/top-gun-40-aniversario"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-14",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-40-aniversario/83675/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "19:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-40-aniversario/84409/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "19:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-40-aniversario/84410/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "19:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-40-aniversario/84411/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "19:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-40-aniversario/84412/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "19:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-40-aniversario/84413/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "19:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-40-aniversario/84414/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "19:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-40-aniversario/84523/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VO",
+          "date": "2026-05-13",
+          "time": "19:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VO",
+          "date": "2026-05-13",
+          "time": "19:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VO",
+          "date": "2026-05-13",
+          "time": "19:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-14",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-05-14",
+          "time": "19:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-05-18",
+          "time": "20:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-05-19",
+          "time": "20:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-05-21",
+          "time": "20:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-05-14",
+          "time": "19:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "19:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "19:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "19:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "19:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "19:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "19:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
         }
       ]
     },
@@ -29952,6 +32231,104 @@
           "date": "2026-05-21",
           "time": "22:10",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3069"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "22:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44091"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "17:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44184"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "19:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44185"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "22:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44185"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "17:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44189"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "20:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44189"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "19:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44188"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "22:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44188"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-18",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44081"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-18",
+          "time": "22:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44081"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-19",
+          "time": "22:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44124"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-20",
+          "time": "22:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44145"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "17:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43983"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-21",
+          "time": "18:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44068"
         }
       ]
     },
@@ -30433,6 +32810,239 @@
       ]
     },
     {
+      "id": "tmdb-744",
+      "title": "Top Gun (40 Aniversario)",
+      "title_local": "Top Gun: Ídolos del aire",
+      "poster": "posters/top-gun-40-aniversario.jpg",
+      "rating": 7.1,
+      "duration": 110,
+      "genres": [
+        "Acción",
+        "Drama",
+        "Romance"
+      ],
+      "trailer_youtube_id": "Klc__shdj88",
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-13",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43217"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-13",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43218"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-13",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=19064"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-14",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43217"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-14",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43218"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-14",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=19064"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43217"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43218"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=19064"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43217"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43218"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=19064"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43217"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43218"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=19064"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43217"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43218"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=19064"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43217"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43218"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=19064"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43224"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43223"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43225"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43226"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43226"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43231"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43235"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-18",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43965"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-19",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44006"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-20",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44025"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1391325",
       "title": "LA FAMILIA BENETÓN   2",
       "title_local": "La familia Benetón +2",
@@ -30590,139 +33200,6 @@
           "date": "2026-05-21",
           "time": "20:10",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-familia-beneton-2/84533/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1436219",
-      "title": "PIZZA MOVIES",
-      "title_local": "Pizza Movies",
-      "poster": "posters/pizza-movies.jpg",
-      "rating": 7.0,
-      "duration": 95,
-      "genres": [
-        "Comedia"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "16:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84344/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "16:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84346/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "20:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84347/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "16:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84348/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "20:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84349/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "20:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84350/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-19",
-          "time": "20:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84351/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "20:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84352/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "20:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84515/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "16:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "16:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "16:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-19",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
         }
       ]
     },
@@ -33754,6 +36231,20 @@
           "date": "2026-05-21",
           "time": "17:35",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43873"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "15:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44096"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "15:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44097"
         }
       ]
     },
@@ -33973,6 +36464,139 @@
           "date": "2026-06-04",
           "time": "22:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-drama/64078/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1436219",
+      "title": "PIZZA MOVIES",
+      "title_local": "Pizza Movies",
+      "poster": "posters/pizza-movies.jpg",
+      "rating": 7.0,
+      "duration": 95,
+      "genres": [
+        "Comedia"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84344/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84346/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "20:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84347/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84348/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "20:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84349/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "20:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84350/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "20:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84351/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "20:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84352/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "20:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/pizza-movies/84515/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-15",
+          "time": "16:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "16:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "16:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3067"
         }
       ]
     },
@@ -34651,6 +37275,51 @@
     },
     {
       "id": "tmdb-1019871",
+      "title": "Cine con coloquio –  La chica del coro",
+      "title_local": "La chica del coro",
+      "poster": "posters/cine-con-coloquio-la-chica-del-coro.jpg",
+      "rating": 7.0,
+      "duration": 89,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "trailer_youtube_id": "Rm9m7u-NsN4",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-18",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-coloquio-la-chica-del-coro/64082/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1325734",
+      "title": "EL DRAMA - PREESTRENO",
+      "title_local": "El drama",
+      "poster": "posters/el-drama-preestreno.jpg",
+      "rating": 7.0,
+      "duration": 105,
+      "genres": [
+        "Romance",
+        "Comedia",
+        "Drama"
+      ],
+      "trailer_youtube_id": "0ZDzsH3XGFA",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-19",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3060"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1019871",
       "title": "LA CHICA DEL CORO (LITTLE TROUBLE GIRLS)",
       "title_local": "La chica del coro (Little Trouble Girls)",
       "poster": "posters/la-chica-del-coro-little-trouble-girls.jpg",
@@ -34710,6 +37379,76 @@
           "date": "2026-05-21",
           "time": "18:25",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3080"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1269644",
+      "title": "LA ISLA DE AMRUM - CLUB ROSEBUD",
+      "title_local": "La isla de Amrum",
+      "poster": "posters/la-isla-de-amrum-club-rosebud.jpg",
+      "rating": 7.0,
+      "duration": 93,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": "-izT0MKkvZY",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "16:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3078"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-18",
+          "time": "17:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3078"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "16:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3078"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "17:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3078"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "19:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3078"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-20",
+          "time": "17:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3078"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "16:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3078"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "17:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3078"
         }
       ]
     },
@@ -39331,6 +42070,13 @@
           "date": "2026-05-21",
           "time": "22:15",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=19097"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "17:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43874"
         }
       ]
     },
@@ -40088,6 +42834,106 @@
           "date": "2026-05-21",
           "time": "22:30",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3076"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "19:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44103"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44106"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "22:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44105"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44161"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "22:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44162"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-18",
+          "time": "20:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44114"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "22:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44113"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-19",
+          "time": "20:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44126"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "22:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44127"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-20",
+          "time": "20:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44147"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "22:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44148"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1257406",
+      "title": "DOS FISCALES - CLUB ROSEBUD",
+      "title_local": "Dos fiscales",
+      "poster": "posters/dos-fiscales-club-rosebud.jpg",
+      "rating": 6.9,
+      "duration": 118,
+      "genres": [
+        "Drama",
+        "Misterio",
+        "Suspense"
+      ],
+      "trailer_youtube_id": "rzYfw1M9qT4",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "16:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3100"
         }
       ]
     },
@@ -41040,6 +43886,153 @@
           "date": "2026-05-21",
           "time": "20:25",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3068"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "19:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43970"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "16:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43975"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "20:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43975"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "18:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43974"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "22:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43974"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "16:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43976"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "20:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43976"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "18:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43977"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "22:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43977"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "17:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43980"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "22:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43980"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-18",
+          "time": "19:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43982"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "17:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44013"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "22:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44013"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-19",
+          "time": "19:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44011"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "17:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44032"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "22:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44032"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-20",
+          "time": "19:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44030"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44089"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "22:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44089"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-21",
+          "time": "20:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44088"
         }
       ]
     },
@@ -45200,6 +48193,41 @@
           "date": "2026-05-21",
           "time": "17:45",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=19104"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "16:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43887"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "18:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43998"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "16:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44001"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "18:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43999"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "17:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43889"
         }
       ]
     },
@@ -48935,6 +51963,51 @@
       ]
     },
     {
+      "id": "tmdb-16523",
+      "title": "Club de lectura Babel – Donde viven los monstruos",
+      "title_local": "Donde viven los monstruos",
+      "poster": "posters/club-de-lectura-babel-donde-viven-los-monstruos.jpg",
+      "rating": 6.5,
+      "duration": 102,
+      "genres": [
+        "Fantasía",
+        "Drama",
+        "Aventura"
+      ],
+      "trailer_youtube_id": "G6DD3K86X8k",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-16",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/club-de-lectura-babel-donde-viven-los-monstruos/63910/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-11852",
+      "title": "DOCS VLC2026 – Este cuerpo mío",
+      "title_local": "¡Este cuerpo no es el mío!",
+      "poster": "posters/docs-vlc2026-este-cuerpo-mio.jpg",
+      "rating": 6.4,
+      "duration": 104,
+      "genres": [
+        "Comedia",
+        "Fantasía"
+      ],
+      "trailer_youtube_id": "6z5zbY-0QCA",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/docs-vlc2026-este-cuerpo-mio/64055/?step=2"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1158616",
       "title": "EL AMIGO INESPERADO",
       "title_local": "El amigo inesperado",
@@ -49253,6 +52326,36 @@
           "date": "2026-05-20",
           "time": "22:15",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3030"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-677561",
+      "title": "Cine familiar – Los legendarios",
+      "title_local": "Los legendarios",
+      "poster": "posters/cine-familiar-los-legendarios.jpg",
+      "rating": 6.2,
+      "duration": 90,
+      "genres": [
+        "Acción",
+        "Aventura",
+        "Animación"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-familiar-los-legendarios/64087/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-familiar-los-legendarios/64092/?step=2"
         }
       ]
     },
@@ -50258,6 +53361,125 @@
           "date": "2026-05-21",
           "time": "22:20",
           "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3073"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "19:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44056"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "16:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44060"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "21:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44060"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "19:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44059"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "16:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44061"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "21:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44061"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "19:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44062"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "17:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44066"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-18",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44065"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-19",
+          "time": "17:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44118"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-19",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44116"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "17:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44139"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-20",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44137"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-21",
+          "time": "19:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44101"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-662022",
+      "title": "DOCS VLC2026 – Irregular",
+      "title_local": "Irregular",
+      "poster": "posters/docs-vlc2026-irregular.jpg",
+      "rating": 6.0,
+      "duration": 102,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": "sd1qDZZACmY",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-23",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/docs-vlc2026-irregular/64061/?step=2"
         }
       ]
     },
@@ -50415,6 +53637,52 @@
           "date": "2026-05-21",
           "time": "17:30",
           "url": "https://kinepolis.es/movies/detail/38178/HO00006397/0/la-boheme"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-181833",
+      "title": "Cine con cineastas – Cowgirl",
+      "title_local": "Cowgirl",
+      "poster": "posters/cine-con-cineastas-cowgirl.jpg",
+      "rating": 4.3,
+      "duration": 84,
+      "genres": [
+        "Comedia",
+        "Crimen",
+        "Romance"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-cineastas-cowgirl/64080/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-181833",
+      "title": "COWGIRL - PASE ESPECIAL CON COLOQUIO",
+      "title_local": "Cowgirl",
+      "poster": "posters/cowgirl-pase-especial-con-coloquio.jpg",
+      "rating": 4.3,
+      "duration": 84,
+      "genres": [
+        "Comedia",
+        "Crimen",
+        "Romance"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-20",
+          "time": "18:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3084"
         }
       ]
     },
@@ -53946,6 +57214,83 @@
           "date": "2026-05-21",
           "time": "22:15",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43907"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "17:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43908"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-16",
+          "time": "17:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43987"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "19:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43989"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-17",
+          "time": "17:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43992"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "19:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43990"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-18",
+          "time": "17:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43993"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-19",
+          "time": "17:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44016"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-20",
+          "time": "17:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44035"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-21",
+          "time": "17:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43904"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-21",
+          "time": "22:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43904"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-21",
+          "time": "19:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43903"
         }
       ]
     },
@@ -54072,719 +57417,6 @@
       ]
     },
     {
-      "id": "local-el-se-or-de-los-anillos-la-comunidad-del-anillo-version-extendida",
-      "title": "EL SEÑOR DE LOS ANILLOS: LA COMUNIDAD DEL ANILLO (VERSIÓN EXTENDIDA)",
-      "title_local": "EL SEÑOR DE LOS ANILLOS: LA COMUNIDAD DEL ANILLO (VERSIÓN EXTENDIDA)",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/83420/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/83421/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/83422/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/84373/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-19",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/84374/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/84375/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-la-comunidad-del-anillo-version-extendida/84517/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-top-gun-40-aniversario",
-      "title": "TOP GUN 40 ANIVERSARIO",
-      "title_local": "TOP GUN 40 ANIVERSARIO",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-13",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-05-13",
-          "time": "15:30",
-          "url": "https://kinepolis.es/movies/detail/3610/HO00006442/0/top-gun-40-aniversario"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-14",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-05-14",
-          "time": "15:30",
-          "url": "https://kinepolis.es/movies/detail/3610/HO00006442/0/top-gun-40-aniversario"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "15:30",
-          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-05-15",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/3610/HO00006442/0/top-gun-40-aniversario"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-05-16",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/3610/HO00006442/0/top-gun-40-aniversario"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-05-17",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/3610/HO00006442/0/top-gun-40-aniversario"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-05-18",
-          "time": "19:00",
-          "url": "https://kinepolis.es/movies/detail/3610/HO00006442/0/top-gun-40-aniversario"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-19",
-          "time": "17:15",
-          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-05-18",
-          "time": "17:40",
-          "url": "https://kinepolis.es/movies/detail/3610/HO00006442/0/top-gun-40-aniversario"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "17:15",
-          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-05-19",
-          "time": "17:40",
-          "url": "https://kinepolis.es/movies/detail/3610/HO00006442/0/top-gun-40-aniversario"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "15:30",
-          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "15:30",
-          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "17:15",
-          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-05-20",
-          "time": "17:40",
-          "url": "https://kinepolis.es/movies/detail/3610/HO00006442/0/top-gun-40-aniversario"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-14",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-40-aniversario/83675/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "19:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-40-aniversario/84409/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "19:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-40-aniversario/84410/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "19:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-40-aniversario/84411/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "19:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-40-aniversario/84412/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-19",
-          "time": "19:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-40-aniversario/84413/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "19:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-40-aniversario/84414/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "19:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-40-aniversario/84523/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VO",
-          "date": "2026-05-13",
-          "time": "19:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VO",
-          "date": "2026-05-13",
-          "time": "19:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VO",
-          "date": "2026-05-13",
-          "time": "19:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-14",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-15",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-16",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-17",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-05-14",
-          "time": "19:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "22:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "22:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "22:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-05-18",
-          "time": "20:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-05-19",
-          "time": "20:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "22:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-05-21",
-          "time": "20:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-05-14",
-          "time": "19:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "19:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "19:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "19:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "19:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "19:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "19:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3034"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "15:30",
-          "url": "https://kinepolis.es/movies/detail/3610/HO00006441/0/top-gun-40-aniversario"
-        }
-      ]
-    },
-    {
-      "id": "local-top-gun-maverick-reestreno",
-      "title": "TOP GUN: MAVERICK REESTRENO",
-      "title_local": "TOP GUN: MAVERICK REESTRENO",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-14",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/83680/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84415/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84416/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84417/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84418/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-19",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84419/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84420/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/top-gun-maverick-reestreno/84524/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-30-a-os-30-peliculas-in-the-mood-for-love-deseando-amar",
-      "title": "30 años 30 películas – In the mood for love (Deseando amar)",
-      "title_local": "30 años 30 películas – In the mood for love (Deseando amar)",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-08",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/63976/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-09",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/63977/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-10",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/63978/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-11",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/63998/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-12",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64015/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-05-08",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/63976/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-05-09",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/63977/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-05-10",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/63978/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-05-11",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/63998/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-05-12",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64015/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-05-13",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64032/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-05-14",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64049/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-14",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64049/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-15",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64134/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-16",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64111/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-17",
-          "time": "18:25",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64143/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-18",
-          "time": "20:25",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64175/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-19",
-          "time": "20:25",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64194/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-20",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64094/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-21",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64204/?step=2"
-        }
-      ]
-    },
-    {
       "id": "local-pelos-de-punta-bloque-i-cinematografias-para-erizar-la-piel-terror-sexualidad",
       "title": "Pelos de punta:Bloque I: Cinematografías para erizar la piel. Terror, sexualidad",
       "title_local": "Pelos de punta:Bloque I: Cinematografías para erizar la piel. Terror, sexualidad",
@@ -54800,254 +57432,6 @@
           "date": "2026-05-15",
           "time": "18:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/pelos-de-punta-bloque-i-cinematografias-para-erizar-la-piel-terror-sexualidad/63605/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-el-castillo-en-el-cielo-40-aniversario",
-      "title": "El castillo en el cielo (40 aniversario)",
-      "title_local": "El castillo en el cielo (40 aniversario)",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/63599/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/64083/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/64118/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/64088/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/64157/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/64109/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-15",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/63599/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-16",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/64083/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-16",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/64118/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-17",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/64088/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-17",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/64157/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-20",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/64109/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-21",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-castillo-en-el-cielo-40-aniversario/64207/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-15",
-          "time": "19:40",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3077"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-16",
-          "time": "19:40",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3077"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-17",
-          "time": "11:55",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3077"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-17",
-          "time": "19:40",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3077"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-18",
-          "time": "19:40",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3077"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-19",
-          "time": "20:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3077"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-20",
-          "time": "19:40",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3077"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-21",
-          "time": "17:50",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3077"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3077"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-05-15",
-          "time": "20:25",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3077"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3077"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-05-16",
-          "time": "20:25",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3077"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "11:45",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3077"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3077"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-05-17",
-          "time": "20:25",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3077"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3077"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-05-20",
-          "time": "20:25",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3077"
-        }
-      ]
-    },
-    {
-      "id": "local-cine-con-coloquio-iron-maiden-burning-ambition",
-      "title": "Cine con coloquio – Iron Maiden: Burning ambition",
-      "title_local": "Cine con coloquio – Iron Maiden: Burning ambition",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-coloquio-iron-maiden-burning-ambition/62988/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-15",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-coloquio-iron-maiden-burning-ambition/62988/?step=2"
         }
       ]
     },
@@ -55115,13 +57499,16 @@
       ]
     },
     {
-      "id": "local-produccion-valenciana-la-terra-negra",
+      "id": "tmdb-1361451",
       "title": "Producción valenciana – La terra negra",
-      "title_local": "Producción valenciana – La terra negra",
-      "poster": null,
+      "title_local": "La tierra negra",
+      "poster": "posters/produccion-valenciana-la-terra-negra.jpg",
       "rating": null,
-      "duration": null,
-      "genres": [],
+      "duration": 98,
+      "genres": [
+        "Drama",
+        "Crimen"
+      ],
       "trailer_youtube_id": null,
       "showtimes": [
         {
@@ -55169,32 +57556,6 @@
       ]
     },
     {
-      "id": "local-cine-familiar-los-legendarios",
-      "title": "Cine familiar – Los legendarios",
-      "title_local": "Cine familiar – Los legendarios",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-familiar-los-legendarios/64087/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-familiar-los-legendarios/64092/?step=2"
-        }
-      ]
-    },
-    {
       "id": "local-pelos-de-punta-bloque-ii-me-miras-me-pagas",
       "title": "Pelos de punta : Bloque II: Me mirás Me pagás.",
       "title_local": "Pelos de punta : Bloque II: Me mirás Me pagás.",
@@ -55214,25 +57575,6 @@
       ]
     },
     {
-      "id": "local-docs-vlc2026-este-cuerpo-mio",
-      "title": "DOCS VLC2026 – Este cuerpo mío",
-      "title_local": "DOCS VLC2026 – Este cuerpo mío",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/docs-vlc2026-este-cuerpo-mio/64055/?step=2"
-        }
-      ]
-    },
-    {
       "id": "local-docs-vlc2026-el-blasco",
       "title": "DOCS VLC2026 – El Blasco",
       "title_local": "DOCS VLC2026 – El Blasco",
@@ -55248,25 +57590,6 @@
           "date": "2026-05-17",
           "time": "19:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/docs-vlc2026-el-blasco/64056/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-cine-con-coloquio-la-chica-del-coro",
-      "title": "Cine con coloquio –  La chica del coro",
-      "title_local": "Cine con coloquio –  La chica del coro",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-18",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-coloquio-la-chica-del-coro/64082/?step=2"
         }
       ]
     },
@@ -55309,32 +57632,15 @@
       ]
     },
     {
-      "id": "local-cine-club-un-mundo-fragil-y-maravilloso",
-      "title": "Cine Club – Un mundo frágil y maravilloso",
-      "title_local": "Cine Club – Un mundo frágil y maravilloso",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-21",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-club-un-mundo-fragil-y-maravilloso/64197/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-docs-vlc2026-valkyries",
+      "id": "tmdb-1628516",
       "title": "DOCS VLC2026 – Valkyries",
-      "title_local": "DOCS VLC2026 – Valkyries",
-      "poster": null,
+      "title_local": "VALKYRIES",
+      "poster": "posters/docs-vlc2026-valkyries.jpg",
       "rating": null,
-      "duration": null,
-      "genres": [],
+      "duration": 93,
+      "genres": [
+        "Documental"
+      ],
       "trailer_youtube_id": null,
       "showtimes": [
         {
@@ -55343,25 +57649,6 @@
           "date": "2026-05-21",
           "time": "19:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/docs-vlc2026-valkyries/64058/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-cine-con-cineastas-cowgirl",
-      "title": "Cine con cineastas – Cowgirl",
-      "title_local": "Cine con cineastas – Cowgirl",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-cineastas-cowgirl/64080/?step=2"
         }
       ]
     },
@@ -55385,44 +57672,6 @@
       ]
     },
     {
-      "id": "local-docs-vlc2026-un-dia-mas-con-vida",
-      "title": "DOCS VLC2026 – Un día más con vida",
-      "title_local": "DOCS VLC2026 – Un día más con vida",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-23",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/docs-vlc2026-un-dia-mas-con-vida/64060/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-docs-vlc2026-irregular",
-      "title": "DOCS VLC2026 – Irregular",
-      "title_local": "DOCS VLC2026 – Irregular",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-23",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/docs-vlc2026-irregular/64061/?step=2"
-        }
-      ]
-    },
-    {
       "id": "local-power-point-party-edicion-cine-03",
       "title": "Power Point Party. Edición Cine 03",
       "title_local": "Power Point Party. Edición Cine 03",
@@ -55438,558 +57687,6 @@
           "date": "2026-05-30",
           "time": "11:30",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/power-point-party-edicion-cine-03/63606/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-club-de-lectura-babel-donde-viven-los-monstruos",
-      "title": "Club de lectura Babel – Donde viven los monstruos",
-      "title_local": "Club de lectura Babel – Donde viven los monstruos",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-06-16",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/club-de-lectura-babel-donde-viven-los-monstruos/63910/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-el-castillo-en-el-cielo-40-aniversario",
-      "title": "El Castillo en el Cielo (40º Aniversario)",
-      "title_local": "El Castillo en el Cielo (40º Aniversario)",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "17:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43815"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "17:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18936"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "17:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43815"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "17:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18936"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "17:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43815"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "17:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18936"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "17:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43815"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "17:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18936"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-19",
-          "time": "17:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43815"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-19",
-          "time": "17:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18936"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "17:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43815"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "17:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18936"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "17:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43815"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "17:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18936"
-        }
-      ]
-    },
-    {
-      "id": "local-top-gun-40-aniversario",
-      "title": "Top Gun (40 Aniversario)",
-      "title_local": "Top Gun (40 Aniversario)",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-13",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43217"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-13",
-          "time": "17:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43218"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-13",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=19064"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-14",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43217"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-14",
-          "time": "17:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43218"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-14",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=19064"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43217"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "17:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43218"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=19064"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43217"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "17:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43218"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=19064"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43217"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "17:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43218"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=19064"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43217"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "17:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43218"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=19064"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-19",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43217"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-19",
-          "time": "17:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43218"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-19",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=19064"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43224"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "17:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43223"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43225"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "17:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43226"
-        }
-      ]
-    },
-    {
-      "id": "local-top-gun-maverick-reestreno",
-      "title": "Top Gun: Maverick (Reestreno)",
-      "title_local": "Top Gun: Maverick (Reestreno)",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-13",
-          "time": "20:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43219"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-13",
-          "time": "19:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43220"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-13",
-          "time": "20:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18739"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-14",
-          "time": "20:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43219"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-14",
-          "time": "19:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43220"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-14",
-          "time": "20:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18739"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "20:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43219"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "19:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43220"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "20:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18739"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "20:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43219"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "19:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43220"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "20:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18739"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "20:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43219"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "19:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43220"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "20:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18739"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "20:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43219"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "19:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43220"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "20:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18739"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-19",
-          "time": "20:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43219"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-19",
-          "time": "19:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43220"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-19",
-          "time": "20:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18739"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "20:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43222"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "19:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43221"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "20:25",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43227"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "20:25",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43227"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "20:25",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43227"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "20:25",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43227"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-19",
-          "time": "20:25",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43227"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "20:25",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43227"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "20:25",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43227"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "19:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43228"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "20:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=1059&showtimeVistaId=18741"
         }
       ]
     },
@@ -56048,58 +57745,6 @@
           "date": "2026-06-07",
           "time": "22:30",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3101"
-        }
-      ]
-    },
-    {
-      "id": "local-cowgirl-pase-especial-con-coloquio",
-      "title": "COWGIRL - PASE ESPECIAL CON COLOQUIO",
-      "title_local": "COWGIRL - PASE ESPECIAL CON COLOQUIO",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "18:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3084"
-        }
-      ]
-    },
-    {
-      "id": "local-deseando-amar-1982",
-      "title": "DESEANDO AMAR (1982)",
-      "title_local": "DESEANDO AMAR (1982)",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-14",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3039"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-21",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3039"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-21",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3039"
         }
       ]
     },
@@ -56279,70 +57924,17 @@
       ]
     },
     {
-      "id": "local-dos-fiscales-club-rosebud",
-      "title": "DOS FISCALES - CLUB ROSEBUD",
-      "title_local": "DOS FISCALES - CLUB ROSEBUD",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-27",
-          "time": "16:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3100"
-        }
-      ]
-    },
-    {
-      "id": "local-el-drama-preestreno",
-      "title": "EL DRAMA - PREESTRENO",
-      "title_local": "EL DRAMA - PREESTRENO",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-19",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3060"
-        }
-      ]
-    },
-    {
-      "id": "local-el-padrino-50-aniversario",
-      "title": "EL PADRINO (50 ANIVERSARIO)",
-      "title_local": "EL PADRINO (50 ANIVERSARIO)",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-26",
-          "time": "18:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=488"
-        }
-      ]
-    },
-    {
-      "id": "local-el-secreto-del-park-20-05",
+      "id": "tmdb-1495052",
       "title": "EL SECRETO DEL PARK 20/05",
-      "title_local": "EL SECRETO DEL PARK 20/05",
+      "title_local": "Sira y el secreto del parque",
       "poster": null,
       "rating": null,
       "duration": null,
-      "genres": [],
+      "genres": [
+        "Animación",
+        "Aventura",
+        "Fantasía"
+      ],
       "trailer_youtube_id": null,
       "showtimes": [
         {
@@ -56351,96 +57943,6 @@
           "date": "2026-05-20",
           "time": "20:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3098"
-        }
-      ]
-    },
-    {
-      "id": "local-el-se-or-de-los-anillos-la-comunidad-del-anillo-version-extendida",
-      "title": "EL SEÑOR DE LOS ANILLOS: LA COMUNIDAD DEL ANILLO-VERSIÓN EXTENDIDA",
-      "title_local": "EL SEÑOR DE LOS ANILLOS: LA COMUNIDAD DEL ANILLO-VERSIÓN EXTENDIDA",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-15",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=1978"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-16",
-          "time": "20:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=1978"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-17",
-          "time": "20:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=1978"
-        }
-      ]
-    },
-    {
-      "id": "local-el-se-or-de-los-anillos-las-dos-torres-version-extendida",
-      "title": "EL SEÑOR DE LOS ANILLOS: LAS DOS TORRES-VERSIÓN EXTENDIDA",
-      "title_local": "EL SEÑOR DE LOS ANILLOS: LAS DOS TORRES-VERSIÓN EXTENDIDA",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-22",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=1977"
-        }
-      ]
-    },
-    {
-      "id": "local-el-se-or-de-los-anillos-el-retorno-del-rey-version-extendida",
-      "title": "EL SEÑOR DE LOS ANILLOS: EL RETORNO DEL REY-VERSIÓN EXTENDIDA",
-      "title_local": "EL SEÑOR DE LOS ANILLOS: EL RETORNO DEL REY-VERSIÓN EXTENDIDA",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-29",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=1387"
-        }
-      ]
-    },
-    {
-      "id": "local-el-septimo-sello-1957",
-      "title": "EL SÉPTIMO SELLO (1957)",
-      "title_local": "EL SÉPTIMO SELLO (1957)",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-22",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3037"
         }
       ]
     },
@@ -56518,74 +58020,6 @@
           "date": "2026-05-19",
           "time": "19:40",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
-        }
-      ]
-    },
-    {
-      "id": "local-la-isla-de-amrum-club-rosebud",
-      "title": "LA ISLA DE AMRUM - CLUB ROSEBUD",
-      "title_local": "LA ISLA DE AMRUM - CLUB ROSEBUD",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "16:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3078"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-18",
-          "time": "17:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3078"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-19",
-          "time": "16:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3078"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-19",
-          "time": "17:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3078"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-19",
-          "time": "19:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3078"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-20",
-          "time": "17:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3078"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "16:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3078"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "17:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3078"
         }
       ]
     },
