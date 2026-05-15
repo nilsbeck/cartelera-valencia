@@ -45,6 +45,18 @@ def scrape() -> list[dict]:
                 except Exception:
                     continue
 
+                # Sessions and their version <label>s hydrate after the
+                # article shells appear. Without this wait, evaluate() can
+                # see the article but find no <label> children, so every
+                # session falls back to ES.
+                try:
+                    page.wait_for_selector(
+                        '[data-cinema="mercado-de-campanar"] label',
+                        timeout=10000,
+                    )
+                except Exception:
+                    pass  # legitimately no sessions for this day — keep going
+
                 movie_blocks = page.query_selector_all("section#now__city article")
 
                 for block in movie_blocks:
