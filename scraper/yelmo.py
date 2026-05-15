@@ -115,10 +115,11 @@ def scrape() -> list[dict]:
         page = browser.new_page(user_agent=_UA)
 
         # ── Phase 1: enumerate movies from the cartelera ──────────────
+        # Each movie heading is an <h3> wrapping an <a href="/sinopsis/...">.
         try:
             page.goto(f"{BASE_URL}/cartelera/{CITY_SLUG}", timeout=30000)
             page.wait_for_selector(
-                "section#now__city article a[href*='/sinopsis/']",
+                "h3 a[href*='/sinopsis/']",
                 timeout=15000,
             )
         except Exception as e:
@@ -128,17 +129,10 @@ def scrape() -> list[dict]:
 
         movies = page.evaluate(r"""() => {
             const seen = new Map();
-            for (const a of document.querySelectorAll(
-                'section#now__city article a[href*="/sinopsis/"]'
-            )) {
+            for (const a of document.querySelectorAll('h3 a[href*="/sinopsis/"]')) {
                 const href = a.href.split('?')[0].split('#')[0];
                 if (seen.has(href)) continue;
-                const article = a.closest('article');
-                const titleEl = (article && (
-                    article.querySelector('.descripcion header h3') ||
-                    article.querySelector('h3')
-                )) || a;
-                const title = (titleEl.textContent || '').trim();
+                const title = (a.textContent || '').trim();
                 if (title) seen.set(href, { title, url: href });
             }
             return Array.from(seen.values());
