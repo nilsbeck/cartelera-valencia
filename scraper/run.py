@@ -22,6 +22,7 @@ from lys       import scrape as scrape_lys
 from mn4       import scrape as scrape_mn4
 from cinema_abc import scrape_park, scrape_elsaler, scrape_granturia
 from cinestudio_dor import scrape as scrape_dor
+from ocine     import scrape as scrape_ocine, _dates_until_next_thursday
 from yelmo     import scrape as scrape_yelmo
 from kinepolis import scrape as scrape_kinepolis
 from tmdb              import enrich_movie
@@ -160,6 +161,7 @@ def run():
         ("lys",       scrape_lys),
         ("mn4",       scrape_mn4),
         ("dor",       scrape_dor),
+        ("ocine",     scrape_ocine),
         ("yelmo",     scrape_yelmo),
         ("kinepolis", scrape_kinepolis),
     ]
@@ -296,6 +298,9 @@ def validate_per_cinema_per_day(all_raw: list[dict]) -> list[str]:
     # may legitimately be absent, so only require the next 6 days.
     future_only = std_dates - {today.isoformat()}
 
+    # Ocine runs on a Friday→Thursday cycle; its window may be shorter than 7 days.
+    ocine_dates = set(_dates_until_next_thursday())
+
     expected: dict[str, set[str]] = {
         "babel":         std_dates,
         "lys":           future_only,
@@ -304,6 +309,7 @@ def validate_per_cinema_per_day(all_raw: list[dict]) -> list[str]:
         "abc_elsaler":   std_dates,
         "abc_granturia": std_dates,
         "dor":           std_dates,
+        "ocine":         ocine_dates,
         "yelmo":         std_dates,
         "kinepolis":     std_dates,
     }

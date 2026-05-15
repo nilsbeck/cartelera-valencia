@@ -2,45 +2,40 @@
 Ocine Premium Aqua Valencia scraper.
 URL: https://www.ocinepremiumaqua.es/
 
-Two-phase approach (requests + BeautifulSoup — no browser required):
+Two-phase Playwright approach. The main page is a JS-rendered Isotope grid
+(div.peli-item.element-item entries are arranged client-side) and the per-film
+schedule table is hydrated after the date selection round-trips, so plain
+requests+BeautifulSoup gets an empty shell — that's what disabled this
+scraper in commit bbfe860 ("connectivity is resolved" never happened because
+the issue was rendering, not connectivity).
 
 Phase 1 (main page):
-  Discover currently-showing films with their detail-page URLs.
-  Each film block (div.peli-item.element-item) contains a link to
-  /film-{id}/p?{slug}= which is the per-film session page.
+  Wait for film tiles to render, then enumerate (title, /film-{id}/p URL).
 
 Phase 2 (per-film date pages):
-  For each film URL × date (today → next Thursday):
-    Fetch {film_url}&selectedDate={YYYY-MM-DD}
-    Parse sessions from table.planificacions → tr.plans rows.
-    Language is detected from tr class names and adjacent version labels.
+  For each film × date in today..next-Thursday, navigate to
+    {film_url}&selectedDate={YYYY-MM-DD}
+  wait for the session table to hydrate, then parse tr.plans rows.
+  Language priority:
+    1. version token in the tr's own class string
+    2. version-label element inside the row
+    3. preceding sibling row's text
 
-Spanish cinemas programme on a Friday→Thursday weekly cycle, so sessions
-are published from today through the upcoming Thursday.
-
-Film page URL pattern:
-  https://www.ocinepremiumaqua.es/film-{id}/p?{movie-slug}=&selectedDate=YYYY-MM-DD
+Spanish cinemas programme on a Friday→Thursday cycle, so sessions cover
+today through the upcoming Thursday.
 """
 
 import re
-import requests
 from datetime import date, timedelta
 from bs4 import BeautifulSoup
+from playwright.sync_api import sync_playwright
 
 BASE_URL = "https://ocinepremiumaqua.es"
 
-_HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/136.0 Safari/537.36"
-    ),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-    "Accept-Language": "es-ES,es;q=0.9",
-    "Accept-Encoding": "gzip, deflate, br",
-    "Referer": "https://www.google.es/",
-    "Connection": "keep-alive",
-    "Upgrade-Insecure-Requests": "1",
-}
+_UA = (
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/136.0 Safari/537.36"
+)
 
 _FILM_LINK_RE = re.compile(r"/film-\d+/p")
 
@@ -87,94 +82,144 @@ def _detect_lang(text: str) -> str:
     return "es"
 
 
-def scrape() -> list[dict]:
-    results = []
-    dates = _dates_until_next_thursday()
-    sess = requests.Session()
-    sess.headers.update(_HEADERS)
+def _log(msg: str) -> None:
+    print(msg, flush=True)
 
-    # ── Phase 1: discover film detail URLs ───────────────────────────
-    try:
-        r = sess.get(BASE_URL, timeout=30)
-        r.raise_for_status()
-    except Exception as e:
-        print(f"  ⚠ Ocine: failed to load {BASE_URL}: {e}")
-        return []
 
-    soup = BeautifulSoup(r.text, "html.parser")
-    film_entries: list[dict] = []
+def _parse_sessions(html: str, title: str, film_url: str, date_str: str) -> list[dict]:
+    """Parse the session table from a film-detail page's rendered HTML."""
+    soup = BeautifulSoup(html, "html.parser")
+    out: list[dict] = []
+    for tr in soup.find_all("tr", class_="plans"):
+        cls = " ".join(tr.get("class") or [])
 
-    for block in soup.find_all("div", class_=lambda c: c and "peli-item" in c and "element-item" in c):
-        h4 = block.find("h4")
-        if not h4:
-            continue
-        title = h4.get_text(strip=True)
-        if not title:
-            continue
+        lang = _detect_lang(cls)
 
-        link = block.find("a", href=_FILM_LINK_RE) or h4.find("a", href=_FILM_LINK_RE)
-        if not link:
-            continue
-        href = link.get("href", "")
-        if not _FILM_LINK_RE.search(href):
-            continue
+        if lang == "es":
+            label_el = tr.find(class_=lambda c: c and any(
+                x in " ".join(c) for x in
+                ["versio", "version", "idioma", "horasessio-titol",
+                 "film-version", "session-version"]
+            ))
+            if label_el:
+                lang = _detect_lang(label_el.get_text())
 
-        film_url = href if href.startswith("http") else BASE_URL + href
-        film_url = re.sub(r"[&?]selectedDate=[^&]*", "", film_url).rstrip("?&")
-        film_entries.append({"title": title, "url": film_url})
+        if lang == "es":
+            prev = tr.find_previous_sibling("tr")
+            if prev:
+                lang = _detect_lang(prev.get_text())
 
-    if not film_entries:
-        print(f"  ⚠ Ocine: no film blocks found — page snippet: {r.text[:800]}")
-        return []
-
-    # ── Phase 2: per-film, per-date session scraping ─────────────────
-    for entry in film_entries:
-        title    = entry["title"]
-        film_url = entry["url"]
-        sep      = "&" if "?" in film_url else "?"
-
-        for date_str in dates:
-            target = f"{film_url}{sep}selectedDate={date_str}"
-            try:
-                r2 = sess.get(target, timeout=20)
-                r2.raise_for_status()
-            except Exception:
+        for btn in tr.find_all("button"):
+            time_text = btn.get_text(strip=True)
+            if not time_text or ":" not in time_text:
                 continue
+            out.append({
+                "title":    title,
+                "language": lang,
+                "date":     date_str,
+                "time":     time_text,
+                "url":      film_url,
+            })
+    return out
 
-            soup2 = BeautifulSoup(r2.text, "html.parser")
 
-            for tr in soup2.find_all("tr", class_="plans"):
-                cls = " ".join(tr.get("class") or [])
+def scrape() -> list[dict]:
+    results: list[dict] = []
+    dates = _dates_until_next_thursday()
 
-                # Language priority:
-                # 1. Token in the tr's own class string
-                # 2. A version-label element inside the tr
-                # 3. Text of the immediately preceding sibling tr
-                lang = _detect_lang(cls)
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page(user_agent=_UA)
 
-                if lang == "es":
-                    label_el = tr.find(class_=lambda c: c and any(
-                        x in " ".join(c) for x in
-                        ["versio", "version", "idioma", "horasessio-titol", "film-version", "session-version"]
-                    ))
-                    if label_el:
-                        lang = _detect_lang(label_el.get_text())
+        # ── Phase 1: enumerate film tiles ─────────────────────────────
+        status = None
+        try:
+            resp = page.goto(BASE_URL, timeout=30000, wait_until="domcontentloaded")
+            status = resp.status if resp else None
+            page.wait_for_selector(
+                "div.peli-item, a[href*='/film-']",
+                state="attached",
+                timeout=15000,
+            )
+        except Exception as e:
+            _log(f"  ⚠ Ocine main page failed (status={status}): {e}")
+            browser.close()
+            return []
 
-                if lang == "es":
-                    prev = tr.find_previous_sibling("tr")
-                    if prev:
-                        lang = _detect_lang(prev.get_text())
+        films = page.evaluate(r"""() => {
+            const seen = new Map();
+            const blocks = document.querySelectorAll('div.peli-item');
+            const re = /\/film-\d+\/p/;
+            for (const block of blocks) {
+                const h4 = block.querySelector('h4');
+                if (!h4) continue;
+                const title = (h4.textContent || '').trim();
+                if (!title) continue;
+                const a = block.querySelector('a[href*="/film-"]');
+                if (!a) continue;
+                const href = a.getAttribute('href') || '';
+                if (!re.test(href)) continue;
+                let url = href.startsWith('http') ? href : (location.origin + href);
+                url = url.replace(/[?&]selectedDate=[^&]*/g, '').replace(/[?&]$/, '');
+                if (!seen.has(url)) seen.set(url, { title, url });
+            }
+            return Array.from(seen.values());
+        }""")
 
-                for btn in tr.find_all("button"):
-                    time_text = btn.get_text(strip=True)
-                    if not time_text or ":" not in time_text:
-                        continue
-                    results.append({
-                        "title":    title,
-                        "language": lang,
-                        "date":     date_str,
-                        "time":     time_text,
-                        "url":      film_url,
-                    })
+        _log(f"  [ocine] Phase 1: {len(films)} films (HTTP {status})")
+
+        if not films:
+            try:
+                diag = page.evaluate(r"""() => ({
+                    url: location.href,
+                    peli_items: document.querySelectorAll('div.peli-item').length,
+                    any_film_links: document.querySelectorAll('a[href*="/film-"]').length,
+                    h4_count: document.querySelectorAll('h4').length,
+                    body_len: document.body.innerHTML.length,
+                })""")
+                _log(f"  [ocine] DIAG main page: {diag}")
+            except Exception:
+                pass
+            browser.close()
+            return []
+
+        # ── Phase 2: per-film, per-date session pages ─────────────────
+        diagnosed = False
+        for film in films:
+            film_url = film["url"]
+            sep = "&" if "?" in film_url else "?"
+            for date_str in dates:
+                target = f"{film_url}{sep}selectedDate={date_str}"
+                try:
+                    page.goto(target, timeout=30000, wait_until="domcontentloaded")
+                    try:
+                        page.wait_for_selector(
+                            "tr.plans, .no-sesiones, .sin-sesiones",
+                            state="attached",
+                            timeout=8000,
+                        )
+                    except Exception:
+                        pass
+                    html = page.content()
+                except Exception as e:
+                    _log(f"  ⚠ Ocine session fetch failed ({film['title']} {date_str}): {e}")
+                    continue
+
+                if not diagnosed:
+                    try:
+                        d = page.evaluate(r"""() => ({
+                            url: location.href,
+                            plans_rows: document.querySelectorAll('tr.plans').length,
+                            buttons:    document.querySelectorAll('tr.plans button').length,
+                            body_len:   document.body.innerHTML.length,
+                        })""")
+                        _log(f"  [ocine] DIAG session page: {d}")
+                    except Exception:
+                        pass
+                    diagnosed = True
+
+                results.extend(_parse_sessions(html, film["title"], film_url, date_str))
+
+        browser.close()
 
     return results
