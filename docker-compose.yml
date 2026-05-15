@@ -1,0 +1,10 @@
+# Convenience wrapper so `docker compose run --rm scraper` Just Works.
+# Cron entry on the host calls this; secrets come from a .env file
+# alongside this compose file (gitignored).
+services:
+  scraper:
+    build: .
+    image: cartelera-scraper:latest
+    env_file:
+      - .env
+    restart: "no"
