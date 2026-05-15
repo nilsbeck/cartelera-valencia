@@ -2,21 +2,22 @@
 Ocine Premium Aqua Valencia scraper.
 URL: https://www.ocinepremiumaqua.es/
 
-Two-phase Playwright approach. The main page is a JS-rendered Isotope grid
-(div.peli-item.element-item entries are arranged client-side) and the per-film
-schedule table is hydrated after the date selection round-trips, so plain
-requests+BeautifulSoup gets an empty shell — that's what disabled this
-scraper in commit bbfe860 ("connectivity is resolved" never happened because
-the issue was rendering, not connectivity).
+The site is server-rendered HTML (commit 1b91936 confirmed requests+BS4 was
+sufficient when reachable). The blocker isn't rendering, it's network: from
+GitHub-hosted runner IPs the origin silently drops connections (no HTTP
+response ever arrives, see commit bbfe860). We route through a tiny EU
+fetch-proxy on Render (see ../proxy/) when OCINE_PROXY_URL is configured,
+falling back to direct fetches otherwise so the scraper degrades cleanly
+in local development.
 
 Phase 1 (main page):
-  Wait for film tiles to render, then enumerate (title, /film-{id}/p URL).
+  Enumerate film tiles (div.peli-item.element-item → h4 title + /film-{id}/p
+  link).
 
 Phase 2 (per-film date pages):
-  For each film × date in today..next-Thursday, navigate to
+  For each film × date in today..next-Thursday, GET
     {film_url}&selectedDate={YYYY-MM-DD}
-  wait for the session table to hydrate, then parse tr.plans rows.
-  Language priority:
+  and parse table.planificacions → tr.plans rows. Language priority:
     1. version token in the tr's own class string
     2. version-label element inside the row
     3. preceding sibling row's text
@@ -25,10 +26,13 @@ Spanish cinemas programme on a Friday→Thursday cycle, so sessions cover
 today through the upcoming Thursday.
 """
 
+import os
 import re
 from datetime import date, timedelta
+from urllib.parse import quote
+
+import requests
 from bs4 import BeautifulSoup
-from playwright.sync_api import sync_playwright
 
 BASE_URL = "https://ocinepremiumaqua.es"
 
@@ -36,6 +40,16 @@ _UA = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/136.0 Safari/537.36"
 )
+
+_DIRECT_HEADERS = {
+    "User-Agent": _UA,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "es-ES,es;q=0.9",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Referer": "https://www.google.es/",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+}
 
 _FILM_LINK_RE = re.compile(r"/film-\d+/p")
 
@@ -55,11 +69,7 @@ _LANG_TOKENS: list[tuple[str, str]] = [
 
 
 def _dates_until_next_thursday() -> list[str]:
-    """
-    Return ISO date strings from today through the upcoming Thursday (inclusive).
-    Covers the current Spanish cinema week (Friday → Thursday cycle).
-    If today is Thursday, returns today through the following Thursday (8 days).
-    """
+    """ISO date strings from today through the upcoming Thursday (inclusive)."""
     today = date.today()
     days_ahead = (3 - today.weekday()) % 7  # 3 = Thursday
     if days_ahead == 0:
@@ -86,8 +96,44 @@ def _log(msg: str) -> None:
     print(msg, flush=True)
 
 
+def _make_fetcher():
+    """Return (fetch_html, mode_label).
+
+    fetch_html(url, *, timeout) -> str. Routes through the configured EU
+    proxy when OCINE_PROXY_URL is set; otherwise hits the origin directly.
+    """
+    proxy_url   = os.environ.get("OCINE_PROXY_URL",   "").rstrip("/")
+    proxy_token = os.environ.get("OCINE_PROXY_TOKEN", "")
+    sess = requests.Session()
+
+    if proxy_url:
+        proxy_headers = {"X-Proxy-Token": proxy_token} if proxy_token else {}
+        proxy_headers["X-Forward-User-Agent"] = _UA
+
+        def fetch_html(url: str, timeout: int = 30) -> str:
+            r = sess.get(
+                f"{proxy_url}/fetch",
+                params={"url": url},
+                headers=proxy_headers,
+                timeout=timeout,
+            )
+            r.raise_for_status()
+            return r.text
+
+        return fetch_html, "proxy"
+
+    sess.headers.update(_DIRECT_HEADERS)
+
+    def fetch_html(url: str, timeout: int = 30) -> str:
+        r = sess.get(url, timeout=timeout)
+        r.raise_for_status()
+        return r.text
+
+    return fetch_html, "direct"
+
+
 def _parse_sessions(html: str, title: str, film_url: str, date_str: str) -> list[dict]:
-    """Parse the session table from a film-detail page's rendered HTML."""
+    """Parse the session table from a film-detail page's HTML."""
     soup = BeautifulSoup(html, "html.parser")
     out: list[dict] = []
     for tr in soup.find_all("tr", class_="plans"):
@@ -123,122 +169,80 @@ def _parse_sessions(html: str, title: str, film_url: str, date_str: str) -> list
     return out
 
 
-def _goto_with_retry(page, url: str, label: str) -> "int | None":
-    """Navigate with wait_until='commit' and one retry.
-
-    'commit' fires as soon as the HTTP response starts arriving, instead of
-    waiting for DOMContentLoaded — Ocine's homepage holds DOMContentLoaded
-    open past 30s while late-loading third-party scripts (analytics, etc.)
-    settle, even though the markup we actually need is already in the DOM.
-    Subsequent wait_for_selector calls are the real readiness signal.
-    """
-    last_exc: "Exception | None" = None
-    for attempt in (1, 2):
-        try:
-            resp = page.goto(url, timeout=60000, wait_until="commit")
-            return resp.status if resp else None
-        except Exception as e:
-            last_exc = e
-            _log(f"  ⚠ Ocine {label} goto attempt {attempt} failed: {e}")
-    raise last_exc if last_exc else RuntimeError("goto failed without exception")
-
-
 def scrape() -> list[dict]:
     results: list[dict] = []
     dates = _dates_until_next_thursday()
+    fetch_html, mode = _make_fetcher()
+    _log(f"  [ocine] fetch mode: {mode}")
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page(user_agent=_UA)
+    # ── Phase 1: enumerate film tiles ─────────────────────────────────
+    # First call may include a Render free-tier cold-start (~10–30s).
+    try:
+        html = fetch_html(BASE_URL, timeout=60)
+    except Exception as e:
+        _log(f"  ⚠ Ocine main page failed: {e}")
+        return []
 
-        # ── Phase 1: enumerate film tiles ─────────────────────────────
-        status = None
-        try:
-            status = _goto_with_retry(page, BASE_URL, "main page")
-            page.wait_for_selector(
-                "div.peli-item, a[href*='/film-']",
-                state="attached",
-                timeout=20000,
-            )
-        except Exception as e:
-            _log(f"  ⚠ Ocine main page failed (status={status}): {e}")
-            browser.close()
-            return []
+    soup = BeautifulSoup(html, "html.parser")
+    films: list[dict] = []
+    seen_urls: set[str] = set()
 
-        films = page.evaluate(r"""() => {
-            const seen = new Map();
-            const blocks = document.querySelectorAll('div.peli-item');
-            const re = /\/film-\d+\/p/;
-            for (const block of blocks) {
-                const h4 = block.querySelector('h4');
-                if (!h4) continue;
-                const title = (h4.textContent || '').trim();
-                if (!title) continue;
-                const a = block.querySelector('a[href*="/film-"]');
-                if (!a) continue;
-                const href = a.getAttribute('href') || '';
-                if (!re.test(href)) continue;
-                let url = href.startsWith('http') ? href : (location.origin + href);
-                url = url.replace(/[?&]selectedDate=[^&]*/g, '').replace(/[?&]$/, '');
-                if (!seen.has(url)) seen.set(url, { title, url });
-            }
-            return Array.from(seen.values());
-        }""")
+    for block in soup.find_all("div", class_=lambda c: c and "peli-item" in c):
+        h4 = block.find("h4")
+        if not h4:
+            continue
+        title = h4.get_text(strip=True)
+        if not title:
+            continue
 
-        _log(f"  [ocine] Phase 1: {len(films)} films (HTTP {status})")
+        link = block.find("a", href=_FILM_LINK_RE) or h4.find("a", href=_FILM_LINK_RE)
+        if not link:
+            continue
+        href = link.get("href", "")
+        if not _FILM_LINK_RE.search(href):
+            continue
 
-        if not films:
+        film_url = href if href.startswith("http") else BASE_URL + href
+        film_url = re.sub(r"[&?]selectedDate=[^&]*", "", film_url).rstrip("?&")
+        if film_url in seen_urls:
+            continue
+        seen_urls.add(film_url)
+        films.append({"title": title, "url": film_url})
+
+    _log(f"  [ocine] Phase 1: {len(films)} films")
+
+    if not films:
+        _log(
+            f"  [ocine] DIAG main page: peli_item_divs="
+            f"{len(soup.find_all('div', class_=lambda c: c and 'peli-item' in c))}, "
+            f"film_links={len(soup.find_all('a', href=_FILM_LINK_RE))}, "
+            f"body_len={len(html)}"
+        )
+        return []
+
+    # ── Phase 2: per-film, per-date session pages ─────────────────────
+    diagnosed = False
+    for film in films:
+        film_url = film["url"]
+        sep = "&" if "?" in film_url else "?"
+        for date_str in dates:
+            target = f"{film_url}{sep}selectedDate={date_str}"
             try:
-                diag = page.evaluate(r"""() => ({
-                    url: location.href,
-                    peli_items: document.querySelectorAll('div.peli-item').length,
-                    any_film_links: document.querySelectorAll('a[href*="/film-"]').length,
-                    h4_count: document.querySelectorAll('h4').length,
-                    body_len: document.body.innerHTML.length,
-                })""")
-                _log(f"  [ocine] DIAG main page: {diag}")
-            except Exception:
-                pass
-            browser.close()
-            return []
+                html = fetch_html(target, timeout=30)
+            except Exception as e:
+                _log(f"  ⚠ Ocine session fetch failed ({film['title']} {date_str}): {e}")
+                continue
 
-        # ── Phase 2: per-film, per-date session pages ─────────────────
-        diagnosed = False
-        for film in films:
-            film_url = film["url"]
-            sep = "&" if "?" in film_url else "?"
-            for date_str in dates:
-                target = f"{film_url}{sep}selectedDate={date_str}"
-                try:
-                    _goto_with_retry(page, target, f"session {date_str}")
-                    try:
-                        page.wait_for_selector(
-                            "tr.plans, .no-sesiones, .sin-sesiones",
-                            state="attached",
-                            timeout=8000,
-                        )
-                    except Exception:
-                        pass
-                    html = page.content()
-                except Exception as e:
-                    _log(f"  ⚠ Ocine session fetch failed ({film['title']} {date_str}): {e}")
-                    continue
+            if not diagnosed:
+                soup2 = BeautifulSoup(html, "html.parser")
+                _log(
+                    f"  [ocine] DIAG first session page: "
+                    f"plans_rows={len(soup2.find_all('tr', class_='plans'))}, "
+                    f"buttons={len(soup2.select('tr.plans button'))}, "
+                    f"body_len={len(html)}"
+                )
+                diagnosed = True
 
-                if not diagnosed:
-                    try:
-                        d = page.evaluate(r"""() => ({
-                            url: location.href,
-                            plans_rows: document.querySelectorAll('tr.plans').length,
-                            buttons:    document.querySelectorAll('tr.plans button').length,
-                            body_len:   document.body.innerHTML.length,
-                        })""")
-                        _log(f"  [ocine] DIAG session page: {d}")
-                    except Exception:
-                        pass
-                    diagnosed = True
-
-                results.extend(_parse_sessions(html, film["title"], film_url, date_str))
-
-        browser.close()
+            results.extend(_parse_sessions(html, film["title"], film_url, date_str))
 
     return results
