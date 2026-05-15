@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: cartelera-valencia-proxy
+    runtime: python
+    region: frankfurt
+    plan: free
+    rootDir: proxy
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT --workers 1 --threads 4 --timeout 60
+    healthCheckPath: /
+    envVars:
+      - key: PROXY_TOKEN
+        generateValue: true
+      - key: ALLOWED_HOSTS
+        value: ocinepremiumaqua.es,www.ocinepremiumaqua.es
