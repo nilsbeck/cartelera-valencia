@@ -1,4 +1,7 @@
 requests
-playwright
+# Pinned so it matches the Playwright Chromium baked into the Dockerfile
+# image (mcr.microsoft.com/playwright/python:v1.59.0-jammy). Bump both
+# together when you want a newer browser.
+playwright==1.59.*
 beautifulsoup4
 pytest
