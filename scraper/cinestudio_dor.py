@@ -3,15 +3,19 @@ Cinestudio d'Or Valencia scraper.
 URL: https://www.cinestudiodor.es/
 
 The site is a Blogger blog where each post = one currently-showing film.
-Structure (static HTML — requests, no Playwright needed):
+Each post body contains:
 
-  div.post-outer                    → one film post
-    h3 a                            → title (h3 is display:none)
-    div.separator > b               → date range  e.g. "20 — 26 abril"
-                                      or "27 abril — 3 mayo"
-    span > span[font-size:medium]   → times       e.g. "16:30h. 20:30h."
-    span[font-size:x-small]         → language    e.g. "versión doblada / digital"
-                                                        "versión original / subtítulos en castellano"
+  div.separator > b               → date range  e.g. "20 — 26 abril"
+                                    or "27 abril — 3 mayo"
+  span > span[font-size:medium]   → times       e.g. "16:30h. 20:30h."
+  span[font-size:x-small]         → language    e.g. "versión doblada / digital"
+                                                     "versión original / subtítulos en castellano"
+
+The homepage is hosted on Google's Blogger infrastructure and from a shared
+CI IP returns Google's "sorry/index" 429 CAPTCHA. The Blogger Atom feed
+(/feeds/posts/default) serves the same post bodies and is meant for
+aggregators, so it almost never hits the same rate guard. We try the feed
+first; if it fails, fall back to the homepage retry path.
 
 Booking URL: https://www.reservaentradas.com/cine/valencia/cinestudiodor
 (all sessions share the same booking page)
@@ -25,11 +29,17 @@ Date handling:
 
 import re
 import time
+import warnings
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
 from datetime import date, timedelta
 
+# Atom feed served with XML declarations is parsed with html.parser
+# (lxml isn't a dependency); the resulting warning isn't actionable.
+warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
+
 BASE_URL    = "https://www.cinestudiodor.es/"
+FEED_URL    = "https://www.cinestudiodor.es/feeds/posts/default?alt=atom&max-results=50"
 BOOKING_URL = "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
 
 _HEADERS = {
@@ -43,6 +53,14 @@ _HEADERS = {
     "Referer": "https://www.google.es/",
     "Connection": "keep-alive",
     "Upgrade-Insecure-Requests": "1",
+}
+
+_FEED_HEADERS = {
+    # Feed-reader UA — Google treats requests for /feeds/ from aggregators
+    # under a separate (much friendlier) rate-limit bucket than the homepage.
+    "User-Agent": "CarteleraValenciaBot/1.0 (+https://github.com/nilsbeck/cartelera-valencia)",
+    "Accept":     "application/atom+xml, application/xml;q=0.9, */*;q=0.5",
+    "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
 }
 
 _MONTHS_ES = {
@@ -140,13 +158,45 @@ def _detect_language(text: str) -> str:
     return "es"
 
 
-# ── Main scrape ───────────────────────────────────────────────────────────────
+# ── Source loaders ────────────────────────────────────────────────────────────
 
-def scrape() -> list[dict]:
-    results = []
-    today = date.today()
-    valid_dates = {(today + timedelta(days=i)).isoformat() for i in range(7)}
+def _iter_feed_entries() -> "list[tuple[str, BeautifulSoup]] | None":
+    """Try the Blogger Atom feed. Returns [(title, post_soup), ...] or None on failure.
 
+    Each Atom <entry> exposes the post title in <title> and the post HTML
+    body inside <content type='html'> as escaped/CDATA-wrapped markup. We
+    re-parse the content with html.parser to land in the same node API the
+    homepage path uses.
+    """
+    try:
+        r = requests.get(FEED_URL, headers=_FEED_HEADERS, timeout=20)
+        r.raise_for_status()
+    except Exception as e:
+        print(f"  ⚠ Cinestudio d'Or feed fetch error: {e}")
+        return None
+
+    # html.parser is forgiving enough for Atom: namespaced tags survive as
+    # literal local names when we use find_all('entry') etc.
+    feed = BeautifulSoup(r.text, "html.parser")
+    entries: list[tuple[str, BeautifulSoup]] = []
+    for entry in feed.find_all("entry"):
+        title_el = entry.find("title")
+        content_el = entry.find("content")
+        if not title_el or not content_el:
+            continue
+        title = title_el.get_text(strip=True)
+        if not title:
+            continue
+        post_html = content_el.get_text()  # CDATA unwraps as text
+        if not post_html.strip():
+            continue
+        post = BeautifulSoup(post_html, "html.parser")
+        entries.append((title, post))
+    return entries if entries else None
+
+
+def _iter_homepage_posts() -> "list[tuple[str, BeautifulSoup]] | None":
+    """Fall-back path: fetch the homepage and extract div.post-outer blocks."""
     resp = None
     for attempt, delay in enumerate([0, 2, 4, 8]):
         if delay:
@@ -156,58 +206,80 @@ def scrape() -> list[dict]:
             resp.raise_for_status()
             break
         except Exception as e:
-            print(f"  ⚠ Cinestudio d'Or fetch error (attempt {attempt + 1}): {e}")
+            print(f"  ⚠ Cinestudio d'Or homepage fetch error (attempt {attempt + 1}): {e}")
             resp = None
     if resp is None:
-        return results
+        return None
 
     soup = BeautifulSoup(resp.text, "html.parser")
-
+    out: list[tuple[str, BeautifulSoup]] = []
     for post in soup.select("div.post-outer"):
-        # Title (inside hidden h3)
         h3_a = post.select_one("h3 a")
         if not h3_a:
             continue
         title = h3_a.get_text(strip=True)
-        if not title:
-            continue
+        if title:
+            out.append((title, post))
+    return out
 
-        # Date range: first <b> inside a div.separator
-        b_el = post.select_one("div.separator b")
-        if not b_el:
-            continue
-        date_range_text = b_el.get_text(strip=True)
-        post_dates = _parse_date_range(date_range_text)
-        valid_post_dates = [d for d in post_dates if d.isoformat() in valid_dates]
-        if not valid_post_dates:
-            continue
 
-        # Times: look for a span containing a span with font-size:medium
-        times: list[str] = []
-        for span in post.find_all("span", style=lambda s: s and "medium" in s):
-            times = _parse_times(span.get_text())
-            if times:
-                break
+# ── Post parser ───────────────────────────────────────────────────────────────
 
-        if not times:
-            continue
+def _parse_post(
+    title: str,
+    post: BeautifulSoup,
+    valid_dates: "set[str]",
+) -> list[dict]:
+    b_el = post.select_one("div.separator b")
+    if not b_el:
+        return []
+    post_dates = _parse_date_range(b_el.get_text(strip=True))
+    valid_post_dates = [d for d in post_dates if d.isoformat() in valid_dates]
+    if not valid_post_dates:
+        return []
 
-        # Language: span with font-size:x-small
-        language = "es"
-        for span in post.find_all("span", style=lambda s: s and "x-small" in s):
-            lang_text = span.get_text(strip=True)
-            if lang_text:
-                language = _detect_language(lang_text)
-                break
+    times: list[str] = []
+    for span in post.find_all("span", style=lambda s: s and "medium" in s):
+        times = _parse_times(span.get_text())
+        if times:
+            break
+    if not times:
+        return []
 
-        for d in valid_post_dates:
-            for t in times:
-                results.append({
-                    "title":    title,
-                    "language": language,
-                    "date":     d.isoformat(),
-                    "time":     t,
-                    "url":      BOOKING_URL,
-                })
+    language = "es"
+    for span in post.find_all("span", style=lambda s: s and "x-small" in s):
+        lang_text = span.get_text(strip=True)
+        if lang_text:
+            language = _detect_language(lang_text)
+            break
 
+    return [
+        {
+            "title":    title,
+            "language": language,
+            "date":     d.isoformat(),
+            "time":     t,
+            "url":      BOOKING_URL,
+        }
+        for d in valid_post_dates
+        for t in times
+    ]
+
+
+# ── Main scrape ───────────────────────────────────────────────────────────────
+
+def scrape() -> list[dict]:
+    today = date.today()
+    valid_dates = {(today + timedelta(days=i)).isoformat() for i in range(7)}
+
+    posts = _iter_feed_entries()
+    if posts is None:
+        print("  ⚠ Cinestudio d'Or: feed unavailable, falling back to homepage")
+        posts = _iter_homepage_posts()
+    if not posts:
+        return []
+
+    results: list[dict] = []
+    for title, post in posts:
+        results.extend(_parse_post(title, post, valid_dates))
     return results

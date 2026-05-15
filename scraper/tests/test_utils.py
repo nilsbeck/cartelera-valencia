@@ -992,11 +992,16 @@ class TestBuildMovieIndexNormalized:
 # ─────────────────────────────────────────────
 
 class TestDorRetryLogic:
-    """Verify the exponential-backoff retry loop in cinestudio_dor.scrape()."""
+    """Verify cinestudio_dor.scrape()'s two-source flow:
+       1 try on the Atom feed, then 4-attempt exponential backoff on the
+       homepage if the feed yielded no entries.
+    """
 
     def _mock_ok(self):
         from unittest.mock import Mock
         r = Mock()
+        # Empty body — no <entry> for the feed path, no div.post-outer for
+        # the homepage path; both code paths return an empty result list.
         r.text = "<html><body></body></html>"
         r.raise_for_status = Mock()
         return r
@@ -1008,13 +1013,17 @@ class TestDorRetryLogic:
         return r
 
     def test_success_on_first_attempt(self):
-        from unittest.mock import patch, Mock
+        """Feed succeeds but has no entries → falls back to homepage, which
+        succeeds on attempt 1. Total: 1 feed call + 1 homepage call = 2."""
+        from unittest.mock import patch
         import cinestudio_dor
         with patch("cinestudio_dor.requests.get", return_value=self._mock_ok()) as m:
             cinestudio_dor.scrape()
-            assert m.call_count == 1
+            assert m.call_count == 2
 
     def test_retries_after_failure(self):
+        """Feed fails, homepage retries: attempt 1 fails, attempt 2 succeeds.
+        Total: 1 + 2 = 3 calls."""
         from unittest.mock import patch
         import cinestudio_dor
         side_effects = [self._mock_fail(), self._mock_fail(), self._mock_ok()]
@@ -1024,10 +1033,11 @@ class TestDorRetryLogic:
             assert m.call_count == 3
 
     def test_all_retries_exhausted_returns_empty(self):
+        """Every call fails: 1 feed attempt + 4 homepage attempts = 5."""
         from unittest.mock import patch
         import cinestudio_dor
         with patch("cinestudio_dor.requests.get", return_value=self._mock_fail()) as m:
             with patch("cinestudio_dor.time.sleep"):
                 result = cinestudio_dor.scrape()
             assert result == []
-            assert m.call_count == 4  # 4 attempts: delays 0, 2, 4, 8
+            assert m.call_count == 5  # 1 feed + 4 homepage attempts (delays 0, 2, 4, 8)
