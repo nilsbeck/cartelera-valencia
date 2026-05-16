@@ -229,8 +229,15 @@ def _scrape_playwright(dates: list[str]) -> list[dict]:
                 // Empty days have a "No hay sesiones previstas" <p> instead
                 // of buttons — we still mark the date as "seen" so Phase 2
                 // doesn't re-fetch a known-empty day.
+                //
+                // datesSeen is a plain deduped Array (not a Set). One live
+                // run produced `datesSeen=[{}]` on the Python side, which
+                // implies Playwright's structured-clone serialiser was
+                // emitting the Set instance itself instead of its contents
+                // even though we called Array.from() on it. A plain array
+                // round-trips cleanly.
                 const sessions = [];
-                const datesSeen = new Set();
+                const datesSeen = [];
                 const table = block.querySelector('table.planificacions');
                 if (table) {
                     for (const tr of table.querySelectorAll('tr')) {
@@ -240,7 +247,7 @@ def _scrape_playwright(dates: list[str]) -> list[dict]:
                             if (dateRe.test(c)) { dateStr = c; break; }
                         }
                         if (!dateStr) continue;
-                        datesSeen.add(dateStr);
+                        if (!datesSeen.includes(dateStr)) datesSeen.push(dateStr);
                         if (!classes.includes('plans')) continue;
                         for (const btn of tr.querySelectorAll('button')) {
                             const t = (btn.textContent || '').trim();
@@ -255,7 +262,7 @@ def _scrape_playwright(dates: list[str]) -> list[dict]:
                     "title": title,
                     "url": url,
                     "sessions": sessions,
-                    "datesSeen": Array.from(datesSeen),
+                    "datesSeen": datesSeen,
                 });
             }
             return out;
@@ -297,6 +304,13 @@ def _scrape_playwright(dates: list[str]) -> list[dict]:
                     f"sessions_n={len(sample.get('sessions') or [])} "
                     f"datesSeen_sample={(sample.get('datesSeen') or [])[:3]!r}"
                 )
+                # Belt-and-braces — dump the raw entry as JSON so a future
+                # serialisation glitch is obvious without code-spelunking.
+                import json as _json
+                try:
+                    _log(f"  [ocine] DIAG film[0] raw: {_json.dumps(sample, ensure_ascii=False)[:400]}")
+                except Exception:
+                    pass
 
         followups: list[tuple[str, str, list[str]]] = []
         inline_count = 0
