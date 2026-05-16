@@ -4845,6 +4845,41 @@
           "date": "2026-05-21",
           "time": "19:10",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43902"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "11:45",
+          "url": "https://www.ocinepremiumaqua.es/film-9973/p?las-ovejas-detectives"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "16:45",
+          "url": "https://www.ocinepremiumaqua.es/film-9973/p?las-ovejas-detectives"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "11:45",
+          "url": "https://www.ocinepremiumaqua.es/film-9973/p?las-ovejas-detectives"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "16:45",
+          "url": "https://www.ocinepremiumaqua.es/film-9973/p?las-ovejas-detectives"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "16:45",
+          "url": "https://www.ocinepremiumaqua.es/film-9973/p?las-ovejas-detectives"
         }
       ]
     },
@@ -8451,6 +8486,27 @@
           "date": "2026-05-17",
           "time": "20:50",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44049"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "19:45",
+          "url": "https://www.ocinepremiumaqua.es/film-9692/p?proyecto-salvacion"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "19:45",
+          "url": "https://www.ocinepremiumaqua.es/film-9692/p?proyecto-salvacion"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "19:45",
+          "url": "https://www.ocinepremiumaqua.es/film-9692/p?proyecto-salvacion"
         }
       ]
     },
@@ -9113,6 +9169,20 @@
           "date": "2026-05-21",
           "time": "21:30",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=572"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "21:15",
+          "url": "https://www.ocinepremiumaqua.es/film-3112/p?top-gun-maverick"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "21:15",
+          "url": "https://www.ocinepremiumaqua.es/film-3112/p?top-gun-maverick"
         }
       ]
     },
@@ -10101,6 +10171,41 @@
           "date": "2026-05-17",
           "time": "16:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/hoppers/84290/?step=2"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "11:45",
+          "url": "https://www.ocinepremiumaqua.es/film-9605/p?hoppers"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "15:30",
+          "url": "https://www.ocinepremiumaqua.es/film-9605/p?hoppers"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "11:45",
+          "url": "https://www.ocinepremiumaqua.es/film-9605/p?hoppers"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "15:30",
+          "url": "https://www.ocinepremiumaqua.es/film-9605/p?hoppers"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "15:30",
+          "url": "https://www.ocinepremiumaqua.es/film-9605/p?hoppers"
         }
       ]
     },
@@ -32617,6 +32722,36 @@
       ]
     },
     {
+      "id": "tmdb-744",
+      "title": "TOP GUN (40 ANIVERSARIO)",
+      "title_local": "Top Gun: Ídolos del aire",
+      "poster": "posters/top-gun-40-aniversario.jpg",
+      "rating": 7.1,
+      "duration": 110,
+      "genres": [
+        "Acción",
+        "Drama",
+        "Romance"
+      ],
+      "trailer_youtube_id": "Klc__shdj88",
+      "showtimes": [
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "19:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10128/p?top-gun-40-aniversario"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "19:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10128/p?top-gun-40-aniversario"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1019871",
       "title": "La chica del coro",
       "title_local": "La chica del coro (Little Trouble Girls)",
@@ -37051,6 +37186,55 @@
           "date": "2026-05-17",
           "time": "19:00",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3083"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1391325",
+      "title": "La Familia Beneton +2",
+      "title_local": "La familia Benetón +2",
+      "poster": "posters/la-familia-beneton-2.jpg",
+      "rating": 7.0,
+      "duration": 87,
+      "genres": [
+        "Comedia"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "12:00",
+          "url": "https://www.ocinepremiumaqua.es/film-9939/p?la-familia-beneton-2"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "16:15",
+          "url": "https://www.ocinepremiumaqua.es/film-9939/p?la-familia-beneton-2"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "12:00",
+          "url": "https://www.ocinepremiumaqua.es/film-9939/p?la-familia-beneton-2"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "16:15",
+          "url": "https://www.ocinepremiumaqua.es/film-9939/p?la-familia-beneton-2"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "16:15",
+          "url": "https://www.ocinepremiumaqua.es/film-9939/p?la-familia-beneton-2"
         }
       ]
     },
@@ -43922,6 +44106,69 @@
           "date": "2026-05-21",
           "time": "20:05",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44088"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "12:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10187/p?hokum"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "17:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10187/p?hokum"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "21:10",
+          "url": "https://www.ocinepremiumaqua.es/film-10187/p?hokum"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "23:15",
+          "url": "https://www.ocinepremiumaqua.es/film-10187/p?hokum"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "12:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10187/p?hokum"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "17:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10187/p?hokum"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "21:10",
+          "url": "https://www.ocinepremiumaqua.es/film-10187/p?hokum"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "17:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10187/p?hokum"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "21:10",
+          "url": "https://www.ocinepremiumaqua.es/film-10187/p?hokum"
         }
       ]
     },
@@ -48156,6 +48403,35 @@
       ]
     },
     {
+      "id": "tmdb-1642859",
+      "title": "Iron Maiden: Burning Ambition (VOSE)",
+      "title_local": "Iron Maiden: Burning Ambition",
+      "poster": "posters/iron-maiden-burning-ambition-vose.jpg",
+      "rating": 6.8,
+      "duration": 105,
+      "genres": [
+        "Documental",
+        "Música"
+      ],
+      "trailer_youtube_id": "pD_H2u79tp0",
+      "showtimes": [
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "20:15",
+          "url": "https://www.ocinepremiumaqua.es/film-9918/p?iron-maiden-burning-ambition-vose"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "20:15",
+          "url": "https://www.ocinepremiumaqua.es/film-9918/p?iron-maiden-burning-ambition-vose"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1291659",
       "title": "EL MAGO DEL KREMLIN",
       "title_local": "El mago del Kremlin",
@@ -51570,6 +51846,27 @@
           "date": "2026-05-21",
           "time": "22:45",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43888"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "15:45",
+          "url": "https://www.ocinepremiumaqua.es/film-9732/p?torrente-presidente"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "15:45",
+          "url": "https://www.ocinepremiumaqua.es/film-9732/p?torrente-presidente"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "15:45",
+          "url": "https://www.ocinepremiumaqua.es/film-9732/p?torrente-presidente"
         }
       ]
     },
@@ -54116,6 +54413,20 @@
           "date": "2026-05-14",
           "time": "17:50",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3027"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "12:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10123/p?david-una-aventura-gigante"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "12:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10123/p?david-una-aventura-gigante"
         }
       ]
     },
@@ -57009,6 +57320,55 @@
           "date": "2026-05-21",
           "time": "19:35",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43903"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "12:00",
+          "url": "https://www.ocinepremiumaqua.es/film-8812/p?mortal-kombat-ii"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "18:00",
+          "url": "https://www.ocinepremiumaqua.es/film-8812/p?mortal-kombat-ii"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "12:00",
+          "url": "https://www.ocinepremiumaqua.es/film-8812/p?mortal-kombat-ii"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "18:00",
+          "url": "https://www.ocinepremiumaqua.es/film-8812/p?mortal-kombat-ii"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "22:30",
+          "url": "https://www.ocinepremiumaqua.es/film-8812/p?mortal-kombat-ii"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "18:00",
+          "url": "https://www.ocinepremiumaqua.es/film-8812/p?mortal-kombat-ii"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "22:30",
+          "url": "https://www.ocinepremiumaqua.es/film-8812/p?mortal-kombat-ii"
         }
       ]
     },
@@ -59226,6 +59586,39 @@
           "date": "2026-05-21",
           "time": "18:05",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3053"
+        }
+      ]
+    },
+    {
+      "id": "local-el-castillo-en-el-cielo-urban-vose",
+      "title": "El Castillo en el Cielo (URBAN) (VOSE)",
+      "title_local": "El Castillo en el Cielo (URBAN) (VOSE)",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-16",
+          "time": "17:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10202/p?el-castillo-en-el-cielo-urban-vose"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-17",
+          "time": "17:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10202/p?el-castillo-en-el-cielo-urban-vose"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-18",
+          "time": "17:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10202/p?el-castillo-en-el-cielo-urban-vose"
         }
       ]
     }
