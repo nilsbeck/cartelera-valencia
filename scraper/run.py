@@ -349,6 +349,13 @@ if __name__ == "__main__":
     import traceback
     from notify import notify
 
+    # Exit codes:
+    #   0 = clean run, no warnings.
+    #   1 = scrape produced warnings (a cinema returned 0 sessions for a day,
+    #       one scraper raised, etc.) — data on disk is still valid and
+    #       should be committed.
+    #   2 = fatal: run() itself raised. Don't commit, the dataset may be
+    #       partial or absent.
     try:
         warnings, summary = run()
     except Exception as exc:
@@ -358,8 +365,7 @@ if __name__ == "__main__":
             warning=True,
         )
         print(f"\n✗ FATAL: {exc}", file=sys.stderr)
-        sys.exit(1)
-
+        sys.exit(2)
     if warnings:
         body = summary + "\n\nWarnings:\n" + "\n".join(f"  • {w}" for w in warnings)
         notify(
