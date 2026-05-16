@@ -281,6 +281,23 @@ def _scrape_playwright(dates: list[str]) -> list[dict]:
         # Normalise + emit inline sessions, decide which films need Phase 2.
         # The homepage table doesn't carry a version label, so inline
         # sessions default to language="es" (which is the Ocine norm).
+        #
+        # Defensive coercion: even though the Phase 1 JS only ever pushes
+        # strings into the dates Set and {date, time} dicts into sessions,
+        # one live run came back with a list element that wasn't a string —
+        # crashing `set(datesSeen)` with "unhashable type: 'dict'". So we
+        # filter both lists to the shapes we expect, and dump the first
+        # film's structure on entry so we can see what Playwright sent.
+        if films:
+            sample = films[0]
+            if isinstance(sample, dict):
+                _log(
+                    f"  [ocine] DIAG film[0]: title={sample.get('title')!r} "
+                    f"url={sample.get('url')!r} "
+                    f"sessions_n={len(sample.get('sessions') or [])} "
+                    f"datesSeen_sample={(sample.get('datesSeen') or [])[:3]!r}"
+                )
+
         followups: list[tuple[str, str, list[str]]] = []
         inline_count = 0
         live_films = 0
@@ -290,15 +307,24 @@ def _scrape_playwright(dates: list[str]) -> list[dict]:
                 continue
             title    = film.get("title") or ""
             film_url = film.get("url") or ""
-            inline   = film.get("sessions") or []
-            seen     = set(film.get("datesSeen") or [])
+
+            raw_sessions = film.get("sessions") or []
+            raw_dates    = film.get("datesSeen") or []
+            inline = [
+                s for s in raw_sessions
+                if isinstance(s, dict)
+                and isinstance(s.get("date"), str)
+                and isinstance(s.get("time"), str)
+            ]
+            seen = {d for d in raw_dates if isinstance(d, str)}
+
             if not title or not film_url:
-                _log(f"  ⚠ Ocine: skipping malformed film entry: {film!r}")
+                _log(f"  ⚠ Ocine: skipping malformed film entry: title={title!r} url={film_url!r}")
                 continue
 
             for s in inline:
-                d = s.get("date")
-                t = (s.get("time") or "")[:5]
+                d = s["date"]
+                t = s["time"][:5]
                 if not d or d not in target_dates or not t or ":" not in t:
                     continue
                 results.append({
