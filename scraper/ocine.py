@@ -147,15 +147,24 @@ def _parse_sessions(html: str, title: str, film_url: str, date_str: str) -> list
 # ── Playwright path (used when running from a residential IP) ────────────────
 
 def _goto_with_retry(page, url: str, label: str) -> "int | None":
-    """Navigate with wait_until='commit' and one retry — see PR #56."""
+    """Navigate with wait_until='commit' and one retry.
+
+    Skips the retry on `ERR_CONNECTION_CLOSED` / `ERR_CONNECTION_REFUSED` —
+    those indicate the origin is actively rejecting (rate-guard, IP-block).
+    A second attempt only makes the rate-guard angrier and doubles the
+    error-storm length.
+    """
     last_exc: "Exception | None" = None
     for attempt in (1, 2):
         try:
-            resp = page.goto(url, timeout=60000, wait_until="commit")
+            resp = page.goto(url, timeout=15000, wait_until="commit")
             return resp.status if resp else None
         except Exception as e:
             last_exc = e
             _log(f"  ⚠ Ocine {label} goto attempt {attempt} failed: {e}")
+            msg = str(e)
+            if "ERR_CONNECTION_CLOSED" in msg or "ERR_CONNECTION_REFUSED" in msg:
+                break
     raise last_exc if last_exc else RuntimeError("goto failed without exception")
 
 
@@ -222,8 +231,19 @@ def _scrape_playwright(dates: list[str]) -> list[dict]:
             return []
 
         # ── Phase 2: per-film, per-date session pages ─────────────────
+        # Circuit breaker — Ocine's rate-guard returns ERR_CONNECTION_CLOSED
+        # after a handful of rapid requests. Once that starts, every
+        # remaining navigation will fail too, so stop early instead of
+        # logging 200+ lines of identical error noise. We keep whatever
+        # sessions Phase 2 had already collected.
+        MAX_CONSECUTIVE_FAILURES = 5
+        consecutive_failures = 0
+        aborted = False
+
         diagnosed = False
         for film in films:
+            if aborted:
+                break
             if not isinstance(film, dict):
                 _log(f"  ⚠ Ocine: unexpected film entry type {type(film).__name__}: {film!r}")
                 continue
@@ -234,6 +254,15 @@ def _scrape_playwright(dates: list[str]) -> list[dict]:
                 continue
             sep = "&" if "?" in film_url else "?"
             for date_str in dates:
+                if consecutive_failures >= MAX_CONSECUTIVE_FAILURES:
+                    _log(
+                        f"  ⚠ Ocine: {MAX_CONSECUTIVE_FAILURES} consecutive "
+                        f"failures, aborting remaining {films.__len__()} films "
+                        f"(likely rate-limited by upstream)"
+                    )
+                    aborted = True
+                    break
+
                 target = f"{film_url}{sep}selectedDate={date_str}"
                 try:
                     _goto_with_retry(page, target, f"session {date_str}")
@@ -247,8 +276,12 @@ def _scrape_playwright(dates: list[str]) -> list[dict]:
                         pass
                     html = page.content()
                 except Exception as e:
-                    _log(f"  ⚠ Ocine session fetch failed ({film['title']} {date_str}): {e}")
+                    consecutive_failures += 1
+                    _log(f"  ⚠ Ocine session fetch failed ({title} {date_str}): {e}")
                     continue
+
+                # Success — clear the circuit-breaker counter.
+                consecutive_failures = 0
 
                 if not diagnosed:
                     try:
