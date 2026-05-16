@@ -35,11 +35,17 @@ git config user.email "$GIT_USER_EMAIL"
 # The container ships /app/scraper with its dependencies already installed,
 # but the running code should come from the freshly-cloned repo so a `git
 # push` of a scraper change is picked up on the next run.
-python "$WORK/scraper/run.py"
+python "$WORK/scraper/run.py" && SCRAPER_EXIT=0 || SCRAPER_EXIT=$?
+# Exit codes from run.py:
+#   0 = clean, 1 = warnings (data still valid), ≥2 = fatal (skip commit).
+if [ "${SCRAPER_EXIT:-0}" -ge 2 ]; then
+    echo "scraper fatal (exit $SCRAPER_EXIT) — skipping commit and push"
+    exit "$SCRAPER_EXIT"
+fi
 
 if git diff --quiet -- data posters; then
     echo "no data changes — nothing to commit"
-    exit 0
+    exit "$SCRAPER_EXIT"
 fi
 
 git add data posters
@@ -49,11 +55,14 @@ git commit -m "chore: update showtimes [skip ci]"
 for attempt in 1 2 3; do
     if git pull --rebase origin main && git push origin main; then
         echo "pushed (attempt $attempt)"
-        exit 0
+        # Preserve the warning signal — exit 1 if the scrape had warnings
+        # even though the push itself succeeded. Systemd / cron see the
+        # unit as failed, which is what you want for "look at the logs".
+        exit "${SCRAPER_EXIT:-0}"
     fi
     echo "push attempt $attempt failed, retrying…"
     sleep $((attempt * 5))
 done
 
 echo "push failed after 3 attempts" >&2
-exit 1
+exit 3
