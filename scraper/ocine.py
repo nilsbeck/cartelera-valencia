@@ -147,25 +147,50 @@ def _parse_sessions(html: str, title: str, film_url: str, date_str: str) -> list
 # ── Playwright path (used when running from a residential IP) ────────────────
 
 def _goto_with_retry(page, url: str, label: str) -> "int | None":
-    """Navigate with wait_until='commit' and one retry — see PR #56."""
+    """Navigate with wait_until='commit' and one retry.
+
+    Skips the retry on ERR_CONNECTION_CLOSED / ERR_CONNECTION_REFUSED —
+    those are active rejections from the upstream rate-guard; retrying
+    immediately just makes it angrier and doubles the storm length.
+    """
     last_exc: "Exception | None" = None
     for attempt in (1, 2):
         try:
-            resp = page.goto(url, timeout=60000, wait_until="commit")
+            resp = page.goto(url, timeout=15000, wait_until="commit")
             return resp.status if resp else None
         except Exception as e:
             last_exc = e
             _log(f"  ⚠ Ocine {label} goto attempt {attempt} failed: {e}")
+            msg = str(e)
+            if "ERR_CONNECTION_CLOSED" in msg or "ERR_CONNECTION_REFUSED" in msg:
+                break
     raise last_exc if last_exc else RuntimeError("goto failed without exception")
 
 
 def _scrape_playwright(dates: list[str]) -> list[dict]:
+    """Two-phase scrape.
+
+    Phase 1 — fetch the homepage and harvest:
+      - the film URL (for any deeper fetches)
+      - whatever sessions are already embedded inline inside each tile's
+        `table.planificacions` (today + the next 2 days, typically).
+      Films whose tile has only "No hay sesiones previstas" placeholders
+      get marked dead — Phase 2 will skip them so we don't burn rate-guard
+      budget on coming-soon entries.
+
+    Phase 2 — for each LIVE film, fetch only the target dates that the
+    homepage didn't already cover. Cap by a 5-consecutive-failure circuit
+    breaker so a rate-guard storm bails out instead of logging hundreds
+    of identical ERR_CONNECTION_CLOSED lines.
+    """
     results: list[dict] = []
+    target_dates = set(dates)
+
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         page = browser.new_page(user_agent=_UA)
 
-        # ── Phase 1: enumerate film tiles ─────────────────────────────
+        # ── Phase 1: enumerate tiles + harvest inline sessions ────────
         try:
             _goto_with_retry(page, BASE_URL, "main page")
             page.wait_for_selector(
@@ -179,13 +204,11 @@ def _scrape_playwright(dates: list[str]) -> list[dict]:
             return []
 
         films = page.evaluate(r"""() => {
-            // Explicit array + Set so the returned shape is unambiguous
-            // (PR #59's Map+shorthand variant produced an entry with
-            // url=undefined that JSON-serialised to {"title": ...} only,
-            // crashing Phase 2 with KeyError('url')).
             const out = [];
             const seenUrls = new Set();
-            const re = /\/film-\d+\/p/;
+            const filmRe = /\/film-\d+\/p/;
+            const dateRe = /^\d{4}-\d{2}-\d{2}$/;
+
             for (const block of document.querySelectorAll('div.peli-item')) {
                 const h4 = block.querySelector('h4');
                 if (!h4) continue;
@@ -194,12 +217,46 @@ def _scrape_playwright(dates: list[str]) -> list[dict]:
                 const a = block.querySelector('a[href*="/film-"]');
                 if (!a) continue;
                 const href = a.getAttribute('href') || '';
-                if (!re.test(href)) continue;
+                if (!filmRe.test(href)) continue;
                 let url = href.startsWith('http') ? href : (location.origin + href);
                 url = url.replace(/[?&]selectedDate=[^&]*/g, '').replace(/[?&]$/, '');
                 if (!url || seenUrls.has(url)) continue;
                 seenUrls.add(url);
-                out.push({"title": title, "url": url});
+
+                // Harvest inline planificacions — each row is either a date
+                // header <tr class="YYYY-MM-DD"> or a session row
+                // <tr class="YYYY-MM-DD plans"> whose buttons hold the times.
+                // Empty days have a "No hay sesiones previstas" <p> instead
+                // of buttons — we still mark the date as "seen" so Phase 2
+                // doesn't re-fetch a known-empty day.
+                const sessions = [];
+                const datesSeen = new Set();
+                const table = block.querySelector('table.planificacions');
+                if (table) {
+                    for (const tr of table.querySelectorAll('tr')) {
+                        const classes = (tr.className || '').split(/\s+/);
+                        let dateStr = null;
+                        for (const c of classes) {
+                            if (dateRe.test(c)) { dateStr = c; break; }
+                        }
+                        if (!dateStr) continue;
+                        datesSeen.add(dateStr);
+                        if (!classes.includes('plans')) continue;
+                        for (const btn of tr.querySelectorAll('button')) {
+                            const t = (btn.textContent || '').trim();
+                            if (t && t.includes(':')) {
+                                sessions.push({"date": dateStr, "time": t});
+                            }
+                        }
+                    }
+                }
+
+                out.push({
+                    "title": title,
+                    "url": url,
+                    "sessions": sessions,
+                    "datesSeen": Array.from(datesSeen),
+                });
             }
             return out;
         }""")
@@ -221,19 +278,76 @@ def _scrape_playwright(dates: list[str]) -> list[dict]:
             browser.close()
             return []
 
-        # ── Phase 2: per-film, per-date session pages ─────────────────
-        diagnosed = False
+        # Normalise + emit inline sessions, decide which films need Phase 2.
+        # The homepage table doesn't carry a version label, so inline
+        # sessions default to language="es" (which is the Ocine norm).
+        followups: list[tuple[str, str, list[str]]] = []
+        inline_count = 0
+        live_films = 0
         for film in films:
             if not isinstance(film, dict):
-                _log(f"  ⚠ Ocine: unexpected film entry type {type(film).__name__}: {film!r}")
+                _log(f"  ⚠ Ocine: unexpected film entry type: {film!r}")
                 continue
-            film_url = film.get("url")
-            title    = film.get("title")
-            if not film_url or not title:
+            title    = film.get("title") or ""
+            film_url = film.get("url") or ""
+            inline   = film.get("sessions") or []
+            seen     = set(film.get("datesSeen") or [])
+            if not title or not film_url:
                 _log(f"  ⚠ Ocine: skipping malformed film entry: {film!r}")
                 continue
+
+            for s in inline:
+                d = s.get("date")
+                t = (s.get("time") or "")[:5]
+                if not d or d not in target_dates or not t or ":" not in t:
+                    continue
+                results.append({
+                    "title":    title,
+                    "language": "es",
+                    "date":     d,
+                    "time":     t,
+                    "url":      film_url,
+                })
+                inline_count += 1
+
+            if not inline:
+                # Coming-soon placeholder — every date is "no sesiones".
+                # Skip Phase 2 entirely; nothing to learn there.
+                continue
+            live_films += 1
+
+            missing = sorted(target_dates - seen)
+            if missing:
+                followups.append((title, film_url, missing))
+
+        _log(f"  [ocine] Phase 1 inline: {inline_count} showtimes from {live_films} live films")
+        if not followups:
+            browser.close()
+            return results
+
+        # ── Phase 2: only the dates the homepage didn't cover ─────────
+        followup_count = sum(len(m) for _, _, m in followups)
+        _log(f"  [ocine] Phase 2: {followup_count} follow-up fetches across {len(followups)} films")
+
+        MAX_CONSECUTIVE_FAILURES = 5
+        consecutive_failures = 0
+        aborted = False
+
+        diagnosed = False
+        for title, film_url, missing in followups:
+            if aborted:
+                break
             sep = "&" if "?" in film_url else "?"
-            for date_str in dates:
+            for date_str in missing:
+                if consecutive_failures >= MAX_CONSECUTIVE_FAILURES:
+                    _log(
+                        f"  ⚠ Ocine: {MAX_CONSECUTIVE_FAILURES} consecutive "
+                        f"failures, aborting remaining Phase 2 fetches "
+                        f"(likely rate-limited by upstream)"
+                    )
+                    aborted = True
+                    break
+
                 target = f"{film_url}{sep}selectedDate={date_str}"
                 try:
                     _goto_with_retry(page, target, f"session {date_str}")
@@ -247,8 +361,11 @@ def _scrape_playwright(dates: list[str]) -> list[dict]:
                         pass
                     html = page.content()
                 except Exception as e:
-                    _log(f"  ⚠ Ocine session fetch failed ({film['title']} {date_str}): {e}")
+                    consecutive_failures += 1
+                    _log(f"  ⚠ Ocine session fetch failed ({title} {date_str}): {e}")
                     continue
+
+                consecutive_failures = 0
 
                 if not diagnosed:
                     try:
@@ -258,7 +375,7 @@ def _scrape_playwright(dates: list[str]) -> list[dict]:
                             buttons:    document.querySelectorAll('tr.plans button').length,
                             body_len:   document.body.innerHTML.length,
                         })""")
-                        _log(f"  [ocine] DIAG first session page: {d}")
+                        _log(f"  [ocine] DIAG first Phase 2 page: {d}")
                     except Exception:
                         pass
                     diagnosed = True
