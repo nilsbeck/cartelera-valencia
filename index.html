@@ -515,6 +515,15 @@
     .cinema-name { width: 60px; font-size: 9px; }
     .logo { font-size: 22px; }
     .toggle { font-size: 10px; padding: 4px 8px; }
+
+    /* Wrap filter chips & date pills onto multiple lines instead of
+       horizontal-scrolling — every option stays visible without swiping. */
+    .filter-row,
+    .date-tabs {
+      flex-wrap: wrap;
+      overflow-x: visible;
+      row-gap: 6px;
+    }
   }
 </style>
 </head>
