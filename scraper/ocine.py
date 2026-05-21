@@ -107,6 +107,10 @@ def _log(msg: str) -> None:
     print(msg, flush=True)
 
 
+def _truthy(value: "str | None") -> bool:
+    return (value or "").strip().lower() in ("1", "true", "yes", "on")
+
+
 def _parse_sessions(html: str, title: str, film_url: str, date_str: str) -> list[dict]:
     """Parse the session table from a film-detail page's rendered HTML."""
     soup = BeautifulSoup(html, "html.parser")
@@ -362,6 +366,19 @@ def _scrape_playwright(dates: list[str]) -> list[dict]:
 
         _log(f"  [ocine] Phase 1 inline: {inline_count} showtimes from {live_films} live films")
         if not followups:
+            browser.close()
+            return results
+
+        # Phase 2 is opt-in. Ocine's rate-guard closes the connection after
+        # ~5–7 quick requests, and even the fetches that succeed return a
+        # detail page whose session table never hydrates (plans_rows=0). So
+        # by default we stop at the homepage's inline coverage (today + the
+        # next ~2 days). Set OCINE_DEEP_SCAN=1 to attempt the trailing dates.
+        if not _truthy(os.environ.get("OCINE_DEEP_SCAN")):
+            _log(
+                f"  [ocine] Phase 2 skipped (OCINE_DEEP_SCAN not set); "
+                f"would have been {sum(len(m) for _, _, m in followups)} fetches"
+            )
             browser.close()
             return results
 
