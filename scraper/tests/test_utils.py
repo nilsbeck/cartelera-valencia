@@ -228,14 +228,18 @@ class TestShowtimesSchema:
                 assert s["cinema"] in {
                     "babel", "lys", "mn4",
                     "abc_park", "abc_elsaler", "abc_granturia",
-                    "dor", "yelmo", "kinepolis",
+                    "dor", "ocine", "yelmo", "kinepolis",
                 }, f"Unknown cinema: {s['cinema']}"
                 assert s["language"] in {"VO", "VOSE", "ES", "VAL"}, \
                     f"Unknown language: {s['language']}"
                 assert len(s["date"]) == 10, f"Bad date format: {s['date']}"
                 assert ":" in s["time"],     f"Bad time format: {s['time']}"
 
+    @_after_scrape
     def test_updated_at_is_today_or_recent(self):
+        # Freshness only makes sense right after a scrape — gated behind
+        # AFTER_SCRAPE so it runs in scrape.yml's validation step, not on
+        # every code PR (where the committed data is naturally older).
         if not self.DATA_FILE.exists():
             return
 
