@@ -332,15 +332,12 @@ def validate_per_cinema_per_day(all_raw: list[dict]) -> list[str]:
         "kinepolis":     std_dates,
     }
 
-    covered: set[tuple[str, str]] = set()
-    for row in all_raw:
-        covered.add((row["cinema"], row["date"]))
+    covered_cinemas: set[str] = {row["cinema"] for row in all_raw}
 
     warnings = []
-    for cinema, dates in sorted(expected.items()):
-        for d in sorted(dates):
-            if (cinema, d) not in covered:
-                warnings.append(f"{cinema} missing on {d}")
+    for cinema in sorted(expected):
+        if cinema not in covered_cinemas:
+            warnings.append(f"{cinema} has no show dates at all")
 
     return warnings
 

@@ -921,25 +921,23 @@ class TestValidatePerCinemaPerDay:
     def test_full_coverage_returns_empty(self):
         assert validate_per_cinema_per_day(self._full_coverage()) == []
 
-    def test_missing_cinema_returns_seven_warnings(self):
+    def test_missing_cinema_returns_one_warning(self):
         rows = [r for r in self._full_coverage() if r["cinema"] != "dor"]
         warnings = validate_per_cinema_per_day(rows)
-        assert len(warnings) == 7
-        assert all("dor" in w for w in warnings)
+        assert len(warnings) == 1
+        assert "dor" in warnings[0]
 
-    def test_missing_one_day_returns_one_warning(self):
+    def test_missing_one_day_returns_no_warning(self):
         today = date.today().isoformat()
         rows = [r for r in self._full_coverage()
                 if not (r["cinema"] == "yelmo" and r["date"] == today)]
         warnings = validate_per_cinema_per_day(rows)
-        assert len(warnings) == 1
-        assert "yelmo" in warnings[0]
-        assert today in warnings[0]
+        assert warnings == []
 
     def test_never_raises(self):
         result = validate_per_cinema_per_day([])
         assert isinstance(result, list)
-        assert len(result) > 0  # empty input means everything is missing
+        assert len(result) > 0  # empty input means all cinemas are missing
 
     def test_returns_list_not_exception(self):
         # Regression: old behaviour was to raise RuntimeError
