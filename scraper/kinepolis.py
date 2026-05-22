@@ -96,8 +96,9 @@ def _detect_language(raw_attrs: str, session_attrs: list) -> str:
 
 # ── main scrape ───────────────────────────────────────────────────────────────
 
-def scrape() -> list[dict]:
-    results = []
+def scrape() -> tuple[list[dict], list[str]]:
+    results: list[dict] = []
+    diags:   list[str]  = []
 
     headers = {
         "User-Agent": (
@@ -113,6 +114,10 @@ def scrape() -> list[dict]:
         "Referer": "https://kinepolis.es/",
     }
 
+    def _diag(msg: str) -> None:
+        print(f"  [kinepolis] {msg}", flush=True)
+        diags.append(msg)
+
     try:
         r = requests.get(
             f"{BASE_URL}/?complex={COMPLEX}&main_section=ya+a+la+venta",
@@ -120,13 +125,13 @@ def scrape() -> list[dict]:
             timeout=20,
         )
     except Exception as e:
-        print(f"  ⚠ Kinepolis fetch error (network): {e}")
-        return results
+        _diag(f"network error: {e}")
+        return results, diags
 
-    print(f"  [kinepolis] HTTP {r.status_code}, body {len(r.text)} bytes")
+    _diag(f"HTTP {r.status_code}, body {len(r.text)} bytes")
     if r.status_code != 200:
-        print(f"  ⚠ Kinepolis fetch error: HTTP {r.status_code} — {r.text[:120].strip()!r}")
-        return results
+        _diag(f"blocked: {r.text[:120].strip()!r}")
+        return results, diags
 
     html = r.text
 
@@ -135,13 +140,13 @@ def scrape() -> list[dict]:
     sessions_list = _extract_json_array(html, '"sessions":[')
 
     if not films_list:
-        print("  ⚠ Kinepolis: 'films' marker not found — page structure may have changed")
-        return results
+        _diag("'films' marker not found — page structure may have changed")
+        return results, diags
     if not sessions_list:
-        print("  ⚠ Kinepolis: 'sessions' marker not found — page structure may have changed")
-        return results
+        _diag("'sessions' marker not found — page structure may have changed")
+        return results, diags
 
-    print(f"  [kinepolis] parsed {len(films_list)} films, {len(sessions_list)} total sessions")
+    _diag(f"parsed {len(films_list)} films, {len(sessions_list)} total sessions")
 
     # Index films by their id field for O(1) lookup
     films_by_id: dict[str, dict] = {f["id"]: f for f in films_list if "id" in f}
@@ -208,15 +213,21 @@ def scrape() -> list[dict]:
         })
 
     if kval_total == 0:
-        print(f"  ⚠ Kinepolis: sessions array has {len(sessions_list)} entries but none for complex={COMPLEX!r} — new week not published yet?")
+        _diag(
+            f"{len(sessions_list)} total sessions parsed but none for "
+            f"complex={COMPLEX!r} — new week not published yet?"
+        )
     elif not results:
         date_range = f"{min(valid_dates)} – {max(valid_dates)}"
-        kval_dates = {
+        kval_dates = sorted({
             re.match(r"(\d{4}-\d{2}-\d{2})", s.get("showtime", "")).group(1)
             for s in sessions_list
             if s.get("complexOperator") == COMPLEX
             and re.match(r"(\d{4}-\d{2}-\d{2})", s.get("showtime", ""))
-        }
-        print(f"  ⚠ Kinepolis: {kval_total} KVAL sessions found but none in window {date_range}; KVAL session dates: {sorted(kval_dates)}")
+        })
+        _diag(
+            f"{kval_total} KVAL sessions found but none in window {date_range}; "
+            f"KVAL dates on site: {kval_dates}"
+        )
 
-    return results
+    return results, diags

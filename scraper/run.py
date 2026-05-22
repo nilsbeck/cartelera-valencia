@@ -175,19 +175,27 @@ def run():
     # Raw showtimes: list of dicts with title, language (raw), cinema, date, time, url
     all_raw = []
     scraper_errors = []
+    # Diagnostic strings returned by scrapers that support it (e.g. kinepolis).
+    # Keyed by cinema_id; included in warning mail when the cinema has 0 results.
+    cinema_diags: dict[str, list[str]] = {}
 
     def _run(cinema_id: str, scrape_fn) -> list[tuple]:
         print(f"[{cinema_id}] Scraping…")
         try:
-            rows = scrape_fn()
+            raw = scrape_fn()
+            # Scrapers may return (rows, diags) or just rows.
+            if isinstance(raw, tuple):
+                rows, diags = raw
+            else:
+                rows, diags = raw, []
             for r in rows:
                 r["cinema"]   = cinema_id
                 r["language"] = normalize_lang(r.get("language", ""))
             print(f"[{cinema_id}] → {len(rows)} showtimes")
-            return [(cinema_id, rows, None)]
+            return [(cinema_id, rows, None, diags)]
         except Exception as e:
             print(f"[{cinema_id}] ✗ Failed: {e}")
-            return [(cinema_id, [], e)]
+            return [(cinema_id, [], e, [])]
 
     def _run_abc() -> list[tuple]:
         results = []
@@ -199,18 +207,24 @@ def run():
         futures = [pool.submit(_run, cid, fn) for cid, fn in solo_scrapers]
         futures.append(pool.submit(_run_abc))
         for future in as_completed(futures):
-            for cinema_id, rows, error in future.result():
+            for cinema_id, rows, error, diags in future.result():
                 if error:
                     scraper_errors.append((cinema_id, error))
                 else:
                     all_raw.extend(rows)
+                    if diags:
+                        cinema_diags[cinema_id] = diags
 
     if scraper_errors:
         for cid, err in scraper_errors:
             print(f"  ⚠ Scraper failed: {cid}: {err}")
 
     warnings = [f"Scraper failed — {cid}: {err}" for cid, err in scraper_errors]
-    warnings += validate_per_cinema_per_day(all_raw)
+    for w in validate_per_cinema_per_day(all_raw):
+        cinema = w.split(" ")[0]
+        if cinema in cinema_diags:
+            w = w + "\n    " + "\n    ".join(cinema_diags[cinema])
+        warnings.append(w)
 
     # Group by normalized title; preserve casing of first occurrence
     by_title: dict[str, list] = {}
