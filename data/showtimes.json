@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-21T07:00:00Z",
+  "updated_at": "2026-05-22T07:00:00Z",
   "movies": [
     {
       "id": "tmdb-238",
@@ -108,6 +108,120 @@
           "date": "2026-05-28",
           "time": "20:20",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-senor-de-los-anillos-las-dos-torres-version-extendida/84646/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-121",
+      "title": "El señor de los anillos: Las dos torres",
+      "title_local": "El señor de los anillos: Las dos torres",
+      "poster": "posters/el-se-or-de-los-anillos-las-dos-torres.jpg",
+      "rating": 8.4,
+      "duration": 180,
+      "genres": [
+        "Aventura",
+        "Fantasía",
+        "Acción"
+      ],
+      "trailer_youtube_id": "nuTU5XcZTLA",
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-22",
+          "time": "19:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42909"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-22",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44343"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-23",
+          "time": "19:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42910"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-23",
+          "time": "20:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44344"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "19:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42911"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-24",
+          "time": "20:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44347"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "19:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44252"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-25",
+          "time": "20:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44348"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "19:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44291"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-26",
+          "time": "20:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44391"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "19:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44304"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-27",
+          "time": "20:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44406"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "19:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44317"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "20:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44422"
         }
       ]
     },
@@ -1322,6 +1436,337 @@
           "date": "2026-05-27",
           "time": "20:05",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/incontrolable-i-swear/64347/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/incontrolable-i-swear/64331/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1376838",
+      "title": "Un mundo frágil y maravilloso",
+      "title_local": "Un mundo frágil y maravilloso",
+      "poster": "posters/un-mundo-fragil-y-maravilloso.jpg",
+      "rating": 8.2,
+      "duration": 110,
+      "genres": [
+        "Romance",
+        "Drama",
+        "Comedia"
+      ],
+      "trailer_youtube_id": "tfhS2aXatiA",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-22",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64224/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-22",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64240/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-23",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64262/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-23",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64256/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-23",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64254/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-24",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64267/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-24",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64284/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-24",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64275/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-25",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64303/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-25",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64294/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-26",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64322/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-26",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64313/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-27",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64359/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-27",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64360/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-22",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382111/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-22",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382112/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-23",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382113/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-23",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382114/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382115/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382116/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382278/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382279/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382280/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382281/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382231/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382232/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382339/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382340/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-22",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-22",
+          "time": "22:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-23",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-23",
+          "time": "22:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "12:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-24",
+          "time": "22:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-25",
+          "time": "22:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "17:55",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-27",
+          "time": "22:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "17:55",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "22:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64337/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64342/?step=2"
         }
       ]
     },
@@ -4509,6 +4954,76 @@
           "date": "2026-05-23",
           "time": "15:40",
           "url": "https://www.ocinepremiumaqua.es/film-9973/p?las-ovejas-detectives"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-22",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44476"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-22",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44384"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-23",
+          "time": "16:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44229"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-23",
+          "time": "18:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44230"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-24",
+          "time": "16:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44386"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "18:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44385"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44388"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44401"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44416"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44432"
         }
       ]
     },
@@ -8367,316 +8882,174 @@
           "date": "2026-05-28",
           "time": "22:00",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2933"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1376838",
-      "title": "Un mundo frágil y maravilloso",
-      "title_local": "Un mundo frágil y maravilloso",
-      "poster": "posters/un-mundo-fragil-y-maravilloso.jpg",
-      "rating": 8.2,
-      "duration": 110,
-      "genres": [
-        "Romance",
-        "Drama",
-        "Comedia"
-      ],
-      "trailer_youtube_id": "tfhS2aXatiA",
-      "showtimes": [
+        },
         {
-          "cinema": "babel",
+          "cinema": "lys",
           "language": "VOSE",
           "date": "2026-05-22",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64224/?step=2"
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/proyecto-salvacion/382129/?step=2"
         },
         {
-          "cinema": "babel",
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-23",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/proyecto-salvacion/382130/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-24",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/proyecto-salvacion/382131/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-25",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/proyecto-salvacion/382290/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-25",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/proyecto-salvacion/382288/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-26",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/proyecto-salvacion/382291/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-26",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/proyecto-salvacion/382289/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-27",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/proyecto-salvacion/382237/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/proyecto-salvacion/382345/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/proyecto-salvacion/382344/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-22",
+          "time": "17:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44242"
+        },
+        {
+          "cinema": "yelmo",
           "language": "VOSE",
           "date": "2026-05-22",
-          "time": "20:25",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64240/?step=2"
+          "time": "20:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44383"
         },
         {
-          "cinema": "babel",
-          "language": "VOSE",
+          "cinema": "yelmo",
+          "language": "ES",
           "date": "2026-05-23",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64262/?step=2"
+          "time": "17:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44345"
         },
         {
-          "cinema": "babel",
+          "cinema": "yelmo",
           "language": "VOSE",
           "date": "2026-05-23",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64256/?step=2"
+          "time": "21:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44241"
         },
         {
-          "cinema": "babel",
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "17:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44346"
+        },
+        {
+          "cinema": "yelmo",
           "language": "VOSE",
-          "date": "2026-05-23",
+          "date": "2026-05-24",
+          "time": "21:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44387"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "17:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44349"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-25",
           "time": "20:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64254/?step=2"
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44389"
         },
         {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-24",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64267/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-24",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64284/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-24",
-          "time": "20:25",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64275/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-25",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64303/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-25",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64294/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-26",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64322/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-26",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64313/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-27",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64359/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-27",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-mundo-fragil-y-maravilloso/64360/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-05-22",
-          "time": "16:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382111/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-05-22",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382112/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-05-23",
-          "time": "16:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382113/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-05-23",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382114/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-05-24",
-          "time": "16:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382115/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-05-24",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382116/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-05-25",
-          "time": "16:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382278/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-05-25",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382279/?step=2"
-        },
-        {
-          "cinema": "lys",
+          "cinema": "yelmo",
           "language": "ES",
           "date": "2026-05-26",
-          "time": "16:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382280/?step=2"
+          "time": "17:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44390"
         },
         {
-          "cinema": "lys",
-          "language": "ES",
+          "cinema": "yelmo",
+          "language": "VOSE",
           "date": "2026-05-26",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382281/?step=2"
+          "time": "20:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44400"
         },
         {
-          "cinema": "lys",
+          "cinema": "yelmo",
           "language": "ES",
           "date": "2026-05-27",
-          "time": "16:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382231/?step=2"
+          "time": "17:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44405"
         },
         {
-          "cinema": "lys",
-          "language": "ES",
+          "cinema": "yelmo",
+          "language": "VOSE",
           "date": "2026-05-27",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382232/?step=2"
+          "time": "20:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44415"
         },
         {
-          "cinema": "lys",
+          "cinema": "yelmo",
           "language": "ES",
           "date": "2026-05-28",
-          "time": "16:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382339/?step=2"
+          "time": "17:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44421"
         },
         {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-05-28",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/un-mundo-fragil-y-maravilloso/382340/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-22",
-          "time": "18:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-22",
-          "time": "22:35",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-23",
-          "time": "18:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-23",
-          "time": "22:35",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-24",
-          "time": "12:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-24",
-          "time": "18:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-24",
-          "time": "22:35",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-25",
-          "time": "18:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-25",
-          "time": "22:35",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-26",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-27",
-          "time": "17:55",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-27",
-          "time": "22:35",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-28",
-          "time": "17:55",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
-        },
-        {
-          "cinema": "abc_park",
+          "cinema": "yelmo",
           "language": "VOSE",
           "date": "2026-05-28",
-          "time": "22:35",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3088"
+          "time": "20:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44431"
         }
       ]
     },
@@ -8699,35 +9072,6 @@
           "date": "2026-05-22",
           "time": "20:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3037"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-103",
-      "title": "TAXI DRIVER",
-      "title_local": "Taxi Driver",
-      "poster": "posters/taxi-driver.jpg",
-      "rating": 8.1,
-      "duration": 113,
-      "genres": [
-        "Crimen",
-        "Drama"
-      ],
-      "trailer_youtube_id": "zdqCqDSTVNI",
-      "showtimes": [
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-05-28",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/taxi-driver/381198/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-05-15",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3038"
         }
       ]
     },
@@ -8925,6 +9269,42 @@
           "date": "2026-05-27",
           "time": "18:20",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64356/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/64328/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-103",
+      "title": "TAXI DRIVER",
+      "title_local": "Taxi Driver",
+      "poster": "posters/taxi-driver.jpg",
+      "rating": 8.1,
+      "duration": 113,
+      "genres": [
+        "Crimen",
+        "Drama"
+      ],
+      "trailer_youtube_id": "zdqCqDSTVNI",
+      "showtimes": [
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/taxi-driver/381198/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-05-15",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3038"
         }
       ]
     },
@@ -9727,6 +10107,13 @@
           "date": "2026-05-27",
           "time": "20:20",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-sing-street/64357/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-sing-street/64343/?step=2"
         }
       ]
     },
@@ -9834,6 +10221,27 @@
           "date": "2026-05-23",
           "time": "11:30",
           "url": "https://www.ocinepremiumaqua.es/film-9605/p?hoppers"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-22",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44477"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-23",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44245"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44250"
         }
       ]
     },
@@ -19112,6 +19520,41 @@
           "date": "2026-05-28",
           "time": "22:30",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2929"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "18:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44327"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "20:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44327"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "17:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44324"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44324"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "22:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44324"
         }
       ]
     },
@@ -32377,6 +32820,41 @@
           "date": "2026-05-28",
           "time": "22:20",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2964"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "17:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44316"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "19:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44316"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "22:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44316"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "18:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44320"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "21:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44320"
         }
       ]
     },
@@ -32431,6 +32909,20 @@
           "cinema": "dor",
           "language": "ES",
           "date": "2026-05-27",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-05-28",
           "time": "22:15",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -32959,6 +33451,13 @@
           "date": "2026-05-26",
           "time": "21:55",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3023"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/resurrection/64334/?step=2"
         }
       ]
     },
@@ -33120,6 +33619,20 @@
           "date": "2026-05-28",
           "time": "16:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3091"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/tres-mujeres/64326/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/tres-mujeres/64327/?step=2"
         }
       ]
     },
@@ -34445,6 +34958,20 @@
           "date": "2026-05-27",
           "time": "16:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-chica-del-coro/64348/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-chica-del-coro/64340/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-chica-del-coro/64341/?step=2"
         }
       ]
     },
@@ -35026,6 +35553,13 @@
           "date": "2026-05-25",
           "time": "16:10",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3022"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-isla-de-amrum/64329/?step=2"
         }
       ]
     },
@@ -38822,6 +39356,55 @@
           "date": "2026-05-28",
           "time": "16:00",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2987"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-22",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44471"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-23",
+          "time": "15:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44234"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "15:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44271"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "17:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44370"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "17:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44399"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "17:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44414"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "17:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44430"
         }
       ]
     },
@@ -44830,6 +45413,55 @@
           "date": "2026-05-23",
           "time": "20:20",
           "url": "https://www.ocinepremiumaqua.es/film-9951/p?la-momia-de-lee-cronin"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-22",
+          "time": "21:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44232"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-23",
+          "time": "21:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44354"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "21:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44355"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "21:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44359"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "21:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44395"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "21:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44410"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "21:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44426"
         }
       ]
     },
@@ -46666,6 +47298,20 @@
           "date": "2026-05-23",
           "time": "23:30",
           "url": "https://www.ocinepremiumaqua.es/film-10187/p?hokum"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "20:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44434"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "22:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44433"
         }
       ]
     },
@@ -51162,6 +51808,97 @@
           "date": "2026-05-28",
           "time": "18:15",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2913"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-22",
+          "time": "17:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44222"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-22",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44475"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-22",
+          "time": "18:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44475"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-23",
+          "time": "16:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44364"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-23",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44375"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-23",
+          "time": "18:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44375"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-24",
+          "time": "16:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44365"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44376"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "18:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44376"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "18:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44380"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "18:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44404"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "18:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44419"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "18:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44435"
         }
       ]
     },
@@ -51722,42 +52459,13 @@
           "date": "2026-05-28",
           "time": "17:55",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3092"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1314481",
-      "title": "El Diablo viste de Prada 2 (VOSE)",
-      "title_local": "El diablo viste de Prada 2",
-      "poster": "posters/el-diablo-viste-de-prada-2-vose.jpg",
-      "rating": 6.6,
-      "duration": 119,
-      "genres": [
-        "Comedia",
-        "Drama"
-      ],
-      "trailer_youtube_id": "PMd1at7OwiE",
-      "showtimes": [
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "20:15",
-          "url": "https://www.ocinepremiumaqua.es/film-9933/p?el-diablo-viste-de-prada-2-vose"
         },
         {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-05-22",
-          "time": "22:30",
-          "url": "https://www.ocinepremiumaqua.es/film-9933/p?el-diablo-viste-de-prada-2-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-05-23",
-          "time": "22:30",
-          "url": "https://www.ocinepremiumaqua.es/film-9933/p?el-diablo-viste-de-prada-2-vose"
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/las-catadoras-de-hitler/64339/?step=2"
         }
       ]
     },
@@ -51876,6 +52584,20 @@
           "cinema": "dor",
           "language": "ES",
           "date": "2026-05-27",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "16:45",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-05-28",
           "time": "20:30",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -57025,6 +57747,83 @@
           "date": "2026-05-28",
           "time": "22:20",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3014"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42882"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "19:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42882"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42882"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "21:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42882"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "17:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42881"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "20:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44323"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42877"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "18:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42877"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "19:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42877"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "21:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42877"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "22:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=42877"
         }
       ]
     },
@@ -57454,57 +58253,6 @@
           "date": "2026-05-28",
           "time": "22:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/star-wars-the-mandalorian-and-grogu/84580/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1228710",
-      "title": "The Mandalorian and Grogu (VOSE)",
-      "title_local": "Star Wars: The Mandalorian and Grogu",
-      "poster": "posters/the-mandalorian-and-grogu-vose.jpg",
-      "rating": 6.4,
-      "duration": 132,
-      "genres": [
-        "Aventura",
-        "Ciencia ficción",
-        "Acción"
-      ],
-      "trailer_youtube_id": "uwild1rw7Aw",
-      "showtimes": [
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "21:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10066/p?the-mandalorian-and-grogu-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-05-22",
-          "time": "20:15",
-          "url": "https://www.ocinepremiumaqua.es/film-10066/p?the-mandalorian-and-grogu-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-05-22",
-          "time": "21:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10066/p?the-mandalorian-and-grogu-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-05-23",
-          "time": "20:15",
-          "url": "https://www.ocinepremiumaqua.es/film-10066/p?the-mandalorian-and-grogu-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-05-23",
-          "time": "21:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10066/p?the-mandalorian-and-grogu-vose"
         }
       ]
     },
@@ -57953,6 +58701,55 @@
           "date": "2026-05-28",
           "time": "16:00",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3074"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-22",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-amigo-inesperado/382168/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-23",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-amigo-inesperado/382169/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-24",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-amigo-inesperado/382170/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-25",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-amigo-inesperado/382308/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-26",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-amigo-inesperado/382309/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-27",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-amigo-inesperado/382250/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-amigo-inesperado/382352/?step=2"
         }
       ]
     },
@@ -58179,6 +58976,20 @@
           "date": "2026-05-28",
           "time": "17:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/love-me-tender/382362/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/love-me-tender/64335/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/love-me-tender/64336/?step=2"
         }
       ]
     },
@@ -58490,6 +59301,104 @@
           "date": "2026-05-28",
           "time": "20:10",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3095"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-22",
+          "time": "19:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44360"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-22",
+          "time": "22:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44361"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-23",
+          "time": "19:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44363"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-23",
+          "time": "21:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44362"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-24",
+          "time": "19:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44366"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "21:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44367"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-25",
+          "time": "19:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44369"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "21:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44368"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-26",
+          "time": "19:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44397"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "21:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44398"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-27",
+          "time": "19:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44412"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "21:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44413"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "19:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44428"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "21:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44429"
         }
       ]
     },
@@ -60693,6 +61602,244 @@
           "date": "2026-05-28",
           "time": "22:50",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3093"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-22",
+          "time": "17:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44350"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-22",
+          "time": "19:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44350"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-22",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44474"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-22",
+          "time": "17:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44474"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-22",
+          "time": "20:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44474"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-22",
+          "time": "22:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44474"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-23",
+          "time": "17:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44353"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-23",
+          "time": "19:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44353"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-23",
+          "time": "16:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44335"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-23",
+          "time": "18:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44335"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-23",
+          "time": "20:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44335"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-23",
+          "time": "22:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44335"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-24",
+          "time": "17:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44356"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-24",
+          "time": "19:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44356"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "16:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44336"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "18:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44336"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "20:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44336"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "22:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44336"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-25",
+          "time": "19:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44358"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44340"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "19:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44340"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "22:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44340"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-26",
+          "time": "19:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44396"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44394"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "19:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44394"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "22:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44394"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-27",
+          "time": "19:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44411"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44409"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "19:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44409"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "22:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44409"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "19:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44427"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44425"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "19:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44425"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "22:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44425"
         }
       ]
     },
@@ -61060,6 +62207,111 @@
           "date": "2026-05-28",
           "time": "18:10",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3090"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cowgirl/64330/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-22",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cowgirl/382183/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-22",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cowgirl/382184/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-23",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cowgirl/382185/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-23",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cowgirl/382186/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-24",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cowgirl/382187/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-24",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cowgirl/382188/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-25",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cowgirl/382316/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-25",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cowgirl/382317/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-26",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cowgirl/382318/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-26",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cowgirl/382319/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-27",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cowgirl/382255/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-27",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cowgirl/382256/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cowgirl/382356/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cowgirl/382357/?step=2"
         }
       ]
     },
@@ -61452,6 +62704,187 @@
           "date": "2026-05-28",
           "time": "20:15",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3058"
+        }
+      ]
+    },
+    {
+      "id": "local-docs-vlc2026-retrato-de-una-cerilla",
+      "title": "DOCS VLC2026 – Retrato de una cerilla",
+      "title_local": "DOCS VLC2026 – Retrato de una cerilla",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-22",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/docs-vlc2026-retrato-de-una-cerilla/64059/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-asesinato-en-la-3a-planta",
+      "title": "Asesinato en la 3a planta",
+      "title_local": "Asesinato en la 3a planta",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-22",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64230/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-22",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64231/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-23",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64248/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-23",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64249/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-24",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64266/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-24",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64286/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-24",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64276/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-25",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64305/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-25",
+          "time": "22:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64295/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-26",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64324/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-26",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64314/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-27",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64350/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-27",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64351/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64332/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-05-28",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64333/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-power-point-party-edicion-cine-03",
+      "title": "Power Point Party. Edición Cine 03",
+      "title_local": "Power Point Party. Edición Cine 03",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-05-30",
+          "time": "11:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/power-point-party-edicion-cine-03/63606/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-a-n-t-i-2026-felix-dare-to-dream",
+      "title": "A.N.T.I.  2026. FELIX, DARE TO DREAM",
+      "title_local": "A.N.T.I.  2026. FELIX, DARE TO DREAM",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-19",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/a-n-t-i-2026-felix-dare-to-dream/63907/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/a-n-t-i-2026-felix-dare-to-dream/63908/?step=2"
         }
       ]
     },
@@ -65467,6 +66900,13 @@
           "date": "2026-05-22",
           "time": "16:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/xdocsvalencia-miss-jobson/381139/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-05-22",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/xdocsvalencia-miss-jobson/381139/?step=2"
         }
       ]
     },
@@ -65483,6 +66923,13 @@
         {
           "cinema": "lys",
           "language": "ES",
+          "date": "2026-05-22",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/xdocsvalencia-mariri/381140/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
           "date": "2026-05-22",
           "time": "18:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/xdocsvalencia-mariri/381140/?step=2"
@@ -65512,236 +66959,20 @@
           "date": "2026-05-23",
           "time": "16:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/xdocsvalencia-un-arbre-es-un-arbre/381142/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1567798",
-      "title": "Serás Farruquito",
-      "title_local": "Serás Farruquito",
-      "poster": "posters/seras-farruquito.jpg",
-      "rating": null,
-      "duration": 89,
-      "genres": [
-        "Documental"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-15",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/seras-farruquito/64127/?step=2"
         },
         {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-16",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/seras-farruquito/64115/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-17",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/seras-farruquito/64155/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-18",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/seras-farruquito/64160/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-19",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/seras-farruquito/64182/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-20",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/seras-farruquito/64093/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/seras-farruquito/64205/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-docs-vlc2026-retrato-de-una-cerilla",
-      "title": "DOCS VLC2026 – Retrato de una cerilla",
-      "title_local": "DOCS VLC2026 – Retrato de una cerilla",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-22",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/docs-vlc2026-retrato-de-una-cerilla/64059/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-asesinato-en-la-3a-planta",
-      "title": "Asesinato en la 3a planta",
-      "title_local": "Asesinato en la 3a planta",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
+          "cinema": "lys",
           "language": "VOSE",
           "date": "2026-05-22",
-          "time": "20:25",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64230/?step=2"
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/xdocsvalencia-un-arbre-es-un-arbre/381141/?step=2"
         },
         {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-22",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64231/?step=2"
-        },
-        {
-          "cinema": "babel",
+          "cinema": "lys",
           "language": "VOSE",
           "date": "2026-05-23",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64248/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-23",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64249/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-24",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64266/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-24",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64286/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-24",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64276/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-25",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64305/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-25",
-          "time": "22:25",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64295/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-26",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64324/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-26",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64314/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-27",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64350/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-05-27",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64351/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-power-point-party-edicion-cine-03",
-      "title": "Power Point Party. Edición Cine 03",
-      "title_local": "Power Point Party. Edición Cine 03",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-30",
-          "time": "11:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/power-point-party-edicion-cine-03/63606/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-a-n-t-i-2026-felix-dare-to-dream",
-      "title": "A.N.T.I.  2026. FELIX, DARE TO DREAM",
-      "title_local": "A.N.T.I.  2026. FELIX, DARE TO DREAM",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-06-19",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/a-n-t-i-2026-felix-dare-to-dream/63907/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-06-20",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/a-n-t-i-2026-felix-dare-to-dream/63908/?step=2"
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/xdocsvalencia-un-arbre-es-un-arbre/381142/?step=2"
         }
       ]
     },
@@ -67361,63 +68592,6 @@
           "date": "2026-05-28",
           "time": "19:50",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3096"
-        }
-      ]
-    },
-    {
-      "id": "local-el-castillo-en-el-cielo-urban-vose-40-aniversario",
-      "title": "El Castillo en el Cielo (URBAN) (VOSE)  (40º Aniversario)",
-      "title_local": "El Castillo en el Cielo (URBAN) (VOSE)  (40º Aniversario)",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "17:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10202/p?el-castillo-en-el-cielo-urban-vose-40-aniversario"
-        }
-      ]
-    },
-    {
-      "id": "local-el-se-or-de-los-anillos-la-comunidad-del-anillo-version-extendida-urban",
-      "title": "El Señor de los Anillos: La Comunidad del Anillo (versión extendida) (URBAN)",
-      "title_local": "El Señor de los Anillos: La Comunidad del Anillo (versión extendida) (URBAN)",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "19:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10114/p?el-seor-de-los-anillos-la-comunidad-del-anillo-version-extendida-urban"
-        }
-      ]
-    },
-    {
-      "id": "local-the-mandalorian-and-grogu-atmos-vose",
-      "title": "The Mandalorian and Grogu (ATMOS) (VOSE)",
-      "title_local": "The Mandalorian and Grogu (ATMOS) (VOSE)",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-05-21",
-          "time": "20:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10069/p?the-mandalorian-and-grogu-atmos-vose"
         }
       ]
     }
