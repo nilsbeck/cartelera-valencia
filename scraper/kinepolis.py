@@ -96,8 +96,9 @@ def _detect_language(raw_attrs: str, session_attrs: list) -> str:
 
 # ── main scrape ───────────────────────────────────────────────────────────────
 
-def scrape() -> list[dict]:
-    results = []
+def scrape() -> tuple[list[dict], list[str]]:
+    results: list[dict] = []
+    diags:   list[str]  = []
 
     headers = {
         "User-Agent": (
@@ -113,16 +114,24 @@ def scrape() -> list[dict]:
         "Referer": "https://kinepolis.es/",
     }
 
+    def _diag(msg: str) -> None:
+        print(f"  [kinepolis] {msg}", flush=True)
+        diags.append(msg)
+
     try:
         r = requests.get(
             f"{BASE_URL}/?complex={COMPLEX}&main_section=ya+a+la+venta",
             headers=headers,
             timeout=20,
         )
-        r.raise_for_status()
     except Exception as e:
-        print(f"  ⚠ Kinepolis fetch error: {e}")
-        return results
+        _diag(f"network error: {e}")
+        return results, diags
+
+    _diag(f"HTTP {r.status_code}, body {len(r.text)} bytes")
+    if r.status_code != 200:
+        _diag(f"blocked: {r.text[:120].strip()!r}")
+        return results, diags
 
     html = r.text
 
@@ -131,11 +140,13 @@ def scrape() -> list[dict]:
     sessions_list = _extract_json_array(html, '"sessions":[')
 
     if not films_list:
-        print("  ⚠ Kinepolis: could not parse 'films' JSON — page structure may have changed")
-        return results
+        _diag("'films' marker not found — page structure may have changed")
+        return results, diags
     if not sessions_list:
-        print("  ⚠ Kinepolis: could not parse 'sessions' JSON — page structure may have changed")
-        return results
+        _diag("'sessions' marker not found — page structure may have changed")
+        return results, diags
+
+    _diag(f"parsed {len(films_list)} films, {len(sessions_list)} total sessions")
 
     # Index films by their id field for O(1) lookup
     films_by_id: dict[str, dict] = {f["id"]: f for f in films_list if "id" in f}
@@ -144,10 +155,12 @@ def scrape() -> list[dict]:
     today       = date.today()
     valid_dates = {(today + timedelta(days=i)).isoformat() for i in range(7)}
 
+    kval_total = 0
     for sess in sessions_list:
         # Only Valencia
         if sess.get("complexOperator") != COMPLEX:
             continue
+        kval_total += 1
         # Only public screenings
         if not sess.get("isPublicScreening", True):
             continue
@@ -199,4 +212,22 @@ def scrape() -> list[dict]:
             "url":      url,
         })
 
-    return results
+    if kval_total == 0:
+        _diag(
+            f"{len(sessions_list)} total sessions parsed but none for "
+            f"complex={COMPLEX!r} — new week not published yet?"
+        )
+    elif not results:
+        date_range = f"{min(valid_dates)} – {max(valid_dates)}"
+        kval_dates = sorted({
+            re.match(r"(\d{4}-\d{2}-\d{2})", s.get("showtime", "")).group(1)
+            for s in sessions_list
+            if s.get("complexOperator") == COMPLEX
+            and re.match(r"(\d{4}-\d{2}-\d{2})", s.get("showtime", ""))
+        })
+        _diag(
+            f"{kval_total} KVAL sessions found but none in window {date_range}; "
+            f"KVAL dates on site: {kval_dates}"
+        )
+
+    return results, diags
