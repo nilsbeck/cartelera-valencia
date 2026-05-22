@@ -119,9 +119,13 @@ def scrape() -> list[dict]:
             headers=headers,
             timeout=20,
         )
-        r.raise_for_status()
     except Exception as e:
-        print(f"  ⚠ Kinepolis fetch error: {e}")
+        print(f"  ⚠ Kinepolis fetch error (network): {e}")
+        return results
+
+    print(f"  [kinepolis] HTTP {r.status_code}, body {len(r.text)} bytes")
+    if r.status_code != 200:
+        print(f"  ⚠ Kinepolis fetch error: HTTP {r.status_code} — {r.text[:120].strip()!r}")
         return results
 
     html = r.text
@@ -131,11 +135,13 @@ def scrape() -> list[dict]:
     sessions_list = _extract_json_array(html, '"sessions":[')
 
     if not films_list:
-        print("  ⚠ Kinepolis: could not parse 'films' JSON — page structure may have changed")
+        print("  ⚠ Kinepolis: 'films' marker not found — page structure may have changed")
         return results
     if not sessions_list:
-        print("  ⚠ Kinepolis: could not parse 'sessions' JSON — page structure may have changed")
+        print("  ⚠ Kinepolis: 'sessions' marker not found — page structure may have changed")
         return results
+
+    print(f"  [kinepolis] parsed {len(films_list)} films, {len(sessions_list)} total sessions")
 
     # Index films by their id field for O(1) lookup
     films_by_id: dict[str, dict] = {f["id"]: f for f in films_list if "id" in f}
@@ -144,10 +150,12 @@ def scrape() -> list[dict]:
     today       = date.today()
     valid_dates = {(today + timedelta(days=i)).isoformat() for i in range(7)}
 
+    kval_total = 0
     for sess in sessions_list:
         # Only Valencia
         if sess.get("complexOperator") != COMPLEX:
             continue
+        kval_total += 1
         # Only public screenings
         if not sess.get("isPublicScreening", True):
             continue
@@ -198,5 +206,17 @@ def scrape() -> list[dict]:
             "time":     time_str,
             "url":      url,
         })
+
+    if kval_total == 0:
+        print(f"  ⚠ Kinepolis: sessions array has {len(sessions_list)} entries but none for complex={COMPLEX!r} — new week not published yet?")
+    elif not results:
+        date_range = f"{min(valid_dates)} – {max(valid_dates)}"
+        kval_dates = {
+            re.match(r"(\d{4}-\d{2}-\d{2})", s.get("showtime", "")).group(1)
+            for s in sessions_list
+            if s.get("complexOperator") == COMPLEX
+            and re.match(r"(\d{4}-\d{2}-\d{2})", s.get("showtime", ""))
+        }
+        print(f"  ⚠ Kinepolis: {kval_total} KVAL sessions found but none in window {date_range}; KVAL session dates: {sorted(kval_dates)}")
 
     return results
