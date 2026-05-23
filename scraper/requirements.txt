@@ -1,4 +1,8 @@
 requests
+# Chrome-impersonating HTTP client. kinepolis.es sits behind a WAF that
+# fingerprints the TLS/HTTP2 handshake and 403s plain-requests traffic, so
+# the Kinépolis scraper fetches through curl_cffi's impersonation instead.
+curl_cffi
 # Pinned so it matches the Playwright Chromium baked into the Dockerfile
 # image (mcr.microsoft.com/playwright/python:v1.59.0-jammy). Bump both
 # together when you want a newer browser.

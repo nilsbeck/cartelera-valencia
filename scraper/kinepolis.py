@@ -7,7 +7,11 @@ The page (Drupal + Comato) embeds two JSON blobs in <script> tags:
   2. "films":[...]     — full film records
 
 Strategy:
-  - Fetch with requests (no Playwright — the data is in the HTML source)
+  - Fetch with curl_cffi impersonating Chrome (no Playwright — the data is
+    in the HTML source). The origin sits behind a WAF that fingerprints the
+    TLS/HTTP2 handshake and 403s plain-requests traffic, so a spoofed
+    User-Agent alone is not enough — the handshake itself must look like
+    Chrome's.
   - Parse both JSON arrays
   - Filter sessions by complexOperator == "KVAL" and date in next 7 days
   - Join film title via film.id → films[].id
@@ -30,8 +34,9 @@ Language mapping:
 import json
 import re
 import unicodedata
-import requests
 from datetime import date, timedelta
+
+from curl_cffi import requests
 
 BASE_URL = "https://kinepolis.es"
 COMPLEX  = "KVAL"
@@ -100,17 +105,11 @@ def scrape() -> tuple[list[dict], list[str]]:
     results: list[dict] = []
     diags:   list[str]  = []
 
+    # User-Agent and Accept are left to impersonate="chrome" so the UA string
+    # matches the spoofed TLS fingerprint; a hardcoded UA version would
+    # contradict the handshake and re-trip the WAF.
     headers = {
-        "User-Agent": (
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/124.0.0.0 Safari/537.36"
-        ),
         "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
-        "Accept": (
-            "text/html,application/xhtml+xml,application/xml;"
-            "q=0.9,image/avif,image/webp,*/*;q=0.8"
-        ),
         "Referer": "https://kinepolis.es/",
     }
 
@@ -123,6 +122,7 @@ def scrape() -> tuple[list[dict], list[str]]:
             f"{BASE_URL}/?complex={COMPLEX}&main_section=ya+a+la+venta",
             headers=headers,
             timeout=20,
+            impersonate="chrome",
         )
     except Exception as e:
         _diag(f"network error: {e}")
