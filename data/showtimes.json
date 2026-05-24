@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-23T07:00:00Z",
+  "updated_at": "2026-05-24T07:00:00Z",
   "movies": [
     {
       "id": "tmdb-238",
@@ -25,6 +25,66 @@
     },
     {
       "id": "tmdb-122",
+      "title": "El Señor de los Anillos: El Retorno",
+      "title_local": "El señor de los anillos: El retorno del rey",
+      "poster": "posters/el-se-or-de-los-anillos-el-retorno.jpg",
+      "rating": 8.5,
+      "duration": 202,
+      "genres": [
+        "Aventura",
+        "Fantasía",
+        "Acción"
+      ],
+      "trailer_youtube_id": "zckJCxYxn1g",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-29",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/6366/HO00003710/0/el-senor-de-los-anillos-el-retorno"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-30",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/6366/HO00003710/0/el-senor-de-los-anillos-el-retorno"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-122",
+      "title": "El Señor de los Anillos: El Retorno del Rey",
+      "title_local": "El señor de los anillos: El retorno del rey",
+      "poster": "posters/el-se-or-de-los-anillos-el-retorno-del-rey.jpg",
+      "rating": 8.5,
+      "duration": 202,
+      "genres": [
+        "Aventura",
+        "Fantasía",
+        "Acción"
+      ],
+      "trailer_youtube_id": "zckJCxYxn1g",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-29",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/6366/HO00003707/0/el-senor-de-los-anillos-el-retorno-del-rey"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-30",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/6366/HO00003707/0/el-senor-de-los-anillos-el-retorno-del-rey"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-122",
       "title": "EL SEÑOR DE LOS ANILLOS: EL RETORNO DEL REY-VERSIÓN EXTENDIDA",
       "title_local": "El señor de los anillos: El retorno del rey",
       "poster": "posters/el-se-or-de-los-anillos-el-retorno-del-rey-version-extendida.jpg",
@@ -43,6 +103,73 @@
           "date": "2026-05-29",
           "time": "20:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=1387"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-121",
+      "title": "El Señor de los Anillos: Las Dos",
+      "title_local": "El señor de los anillos: Las dos torres",
+      "poster": "posters/el-se-or-de-los-anillos-las-dos.jpg",
+      "rating": 8.4,
+      "duration": 180,
+      "genres": [
+        "Aventura",
+        "Fantasía",
+        "Acción"
+      ],
+      "trailer_youtube_id": "nuTU5XcZTLA",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-24",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/6404/HO00003709/0/el-senor-de-los-anillos-las-dos"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-28",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/6404/HO00003709/0/el-senor-de-los-anillos-las-dos"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-121",
+      "title": "El Señor de los Anillos: Las Dos Tor",
+      "title_local": "El señor de los anillos: Las dos torres",
+      "poster": "posters/el-se-or-de-los-anillos-las-dos-tor.jpg",
+      "rating": 8.4,
+      "duration": 180,
+      "genres": [
+        "Aventura",
+        "Fantasía",
+        "Acción"
+      ],
+      "trailer_youtube_id": "nuTU5XcZTLA",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/6404/HO00003706/0/el-senor-de-los-anillos-las-dos-tor"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/6404/HO00003706/0/el-senor-de-los-anillos-las-dos-tor"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/6404/HO00003706/0/el-senor-de-los-anillos-las-dos-tor"
         }
       ]
     },
@@ -5045,6 +5172,76 @@
           "date": "2026-05-25",
           "time": "15:40",
           "url": "https://www.ocinepremiumaqua.es/film-9973/p?las-ovejas-detectives"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "10:00",
+          "url": "https://kinepolis.es/movies/detail/35547/HO00006385/0/las-ovejas-detectives"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/35547/HO00006385/0/las-ovejas-detectives"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "17:15",
+          "url": "https://kinepolis.es/movies/detail/35547/HO00006385/0/las-ovejas-detectives"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "12:30",
+          "url": "https://kinepolis.es/movies/detail/35547/HO00006385/0/las-ovejas-detectives"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "14:15",
+          "url": "https://kinepolis.es/movies/detail/35547/HO00006385/0/las-ovejas-detectives"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/35547/HO00006385/0/las-ovejas-detectives"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/35547/HO00006385/0/las-ovejas-detectives"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/35547/HO00006385/0/las-ovejas-detectives"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/35547/HO00006385/0/las-ovejas-detectives"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "15:40",
+          "url": "https://www.ocinepremiumaqua.es/film-9973/p?las-ovejas-detectives"
         }
       ]
     },
@@ -9071,6 +9268,55 @@
           "date": "2026-05-28",
           "time": "20:10",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44431"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "09:30",
+          "url": "https://kinepolis.es/movies/detail/35548/HO00006311/0/proyecto-salvacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/35548/HO00006311/0/proyecto-salvacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/35548/HO00006311/0/proyecto-salvacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/35548/HO00006311/0/proyecto-salvacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/35548/HO00006311/0/proyecto-salvacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/35548/HO00006311/0/proyecto-salvacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/35548/HO00006311/0/proyecto-salvacion"
         }
       ]
     },
@@ -10277,6 +10523,13 @@
           "date": "2026-05-24",
           "time": "11:30",
           "url": "https://www.ocinepremiumaqua.es/film-9605/p?hoppers"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "10:00",
+          "url": "https://kinepolis.es/movies/detail/34872/HO00006084/0/hoppers"
         }
       ]
     },
@@ -10328,6 +10581,43 @@
           "date": "2026-05-31",
           "time": "16:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/shrek-25-aniversario/64222/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-808",
+      "title": "Shrek",
+      "title_local": "Shrek",
+      "poster": "posters/shrek.jpg",
+      "rating": 7.8,
+      "duration": 92,
+      "genres": [
+        "Animación",
+        "Comedia",
+        "Fantasía"
+      ],
+      "trailer_youtube_id": "ppDwfm6e498",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-29",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/14132/HO00006470/0/shrek"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-30",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/14132/HO00006470/0/shrek"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-30",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/14132/HO00006470/0/shrek"
         }
       ]
     },
@@ -11301,6 +11591,13 @@
           "cinema": "ocine",
           "language": "ES",
           "date": "2026-05-25",
+          "time": "17:15",
+          "url": "https://www.ocinepremiumaqua.es/film-9865/p?super-mario-galaxy-la-pelucula-urban"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-26",
           "time": "17:15",
           "url": "https://www.ocinepremiumaqua.es/film-9865/p?super-mario-galaxy-la-pelucula-urban"
         }
@@ -19650,6 +19947,139 @@
           "date": "2026-05-28",
           "time": "22:30",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44324"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "09:30",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-24",
+          "time": "14:15",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006364/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "13:30",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "16:15",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "19:15",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/36362/HO00006157/0/el-diablo-viste-de-prada-2"
         }
       ]
     },
@@ -20408,29 +20838,6 @@
           "date": "2026-05-26",
           "time": "16:10",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3029"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-378107",
-      "title": "DOCS VLC2026 – Un día más con vida",
-      "title_local": "Un día más con vida",
-      "poster": "posters/docs-vlc2026-un-dia-mas-con-vida.jpg",
-      "rating": 7.4,
-      "duration": 86,
-      "genres": [
-        "Animación",
-        "Documental",
-        "Historia"
-      ],
-      "trailer_youtube_id": "q7ASutCFetE",
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-23",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/docs-vlc2026-un-dia-mas-con-vida/64060/?step=2"
         }
       ]
     },
@@ -32950,6 +33357,335 @@
           "date": "2026-05-28",
           "time": "21:05",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44320"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "09:45",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "13:30",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "19:15",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-24",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006393/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-24",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006393/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-24",
+          "time": "13:00",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006393/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-25",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006393/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-25",
+          "time": "18:45",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006393/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-27",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006393/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-27",
+          "time": "18:45",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006393/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-28",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006393/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-28",
+          "time": "18:45",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006393/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-26",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006393/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-26",
+          "time": "18:45",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006393/0/michael"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "11:45",
+          "url": "https://www.ocinepremiumaqua.es/film-9942/p?michael"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "15:30",
+          "url": "https://www.ocinepremiumaqua.es/film-9942/p?michael"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "17:20",
+          "url": "https://www.ocinepremiumaqua.es/film-9942/p?michael"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "17:45",
+          "url": "https://www.ocinepremiumaqua.es/film-9942/p?michael"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "19:00",
+          "url": "https://www.ocinepremiumaqua.es/film-9942/p?michael"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "19:45",
+          "url": "https://www.ocinepremiumaqua.es/film-9942/p?michael"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "22:15",
+          "url": "https://www.ocinepremiumaqua.es/film-9942/p?michael"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "15:30",
+          "url": "https://www.ocinepremiumaqua.es/film-9942/p?michael"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "17:20",
+          "url": "https://www.ocinepremiumaqua.es/film-9942/p?michael"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "17:45",
+          "url": "https://www.ocinepremiumaqua.es/film-9942/p?michael"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "19:45",
+          "url": "https://www.ocinepremiumaqua.es/film-9942/p?michael"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "22:15",
+          "url": "https://www.ocinepremiumaqua.es/film-9942/p?michael"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "15:30",
+          "url": "https://www.ocinepremiumaqua.es/film-9942/p?michael"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "17:20",
+          "url": "https://www.ocinepremiumaqua.es/film-9942/p?michael"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "17:45",
+          "url": "https://www.ocinepremiumaqua.es/film-9942/p?michael"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "19:45",
+          "url": "https://www.ocinepremiumaqua.es/film-9942/p?michael"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "22:15",
+          "url": "https://www.ocinepremiumaqua.es/film-9942/p?michael"
         }
       ]
     },
@@ -33032,6 +33768,20 @@
           "cinema": "dor",
           "language": "ES",
           "date": "2026-05-29",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-05-30",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-05-30",
           "time": "22:15",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -34884,6 +35634,13 @@
           "date": "2026-05-28",
           "time": "17:50",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3069"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/37393/HO00006464/0/jugada-maestra"
         }
       ]
     },
@@ -35909,6 +36666,69 @@
           "date": "2026-06-04",
           "time": "22:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-drama/64078/?step=2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-29",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/37179/HO00006453/0/el-drama"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-29",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/37179/HO00006453/0/el-drama"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-29",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/37179/HO00006454/0/el-drama"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-29",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/37179/HO00006454/0/el-drama"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-30",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/37179/HO00006454/0/el-drama"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-30",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/37179/HO00006454/0/el-drama"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-30",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/37179/HO00006453/0/el-drama"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-30",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/37179/HO00006453/0/el-drama"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-30",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/37179/HO00006453/0/el-drama"
         }
       ]
     },
@@ -39547,6 +40367,13 @@
           "cinema": "ocine",
           "language": "ES",
           "date": "2026-05-25",
+          "time": "15:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10060/p?la-familia-beneton-2-urban"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-26",
           "time": "15:30",
           "url": "https://www.ocinepremiumaqua.es/film-10060/p?la-familia-beneton-2-urban"
         }
@@ -45620,6 +46447,55 @@
           "date": "2026-05-25",
           "time": "20:20",
           "url": "https://www.ocinepremiumaqua.es/film-9951/p?la-momia-de-lee-cronin"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/36596/HO00006362/0/la-momia-de-lee-cronin"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/36596/HO00006362/0/la-momia-de-lee-cronin"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/36596/HO00006362/0/la-momia-de-lee-cronin"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/36596/HO00006362/0/la-momia-de-lee-cronin"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/36596/HO00006362/0/la-momia-de-lee-cronin"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/36596/HO00006362/0/la-momia-de-lee-cronin"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "20:20",
+          "url": "https://www.ocinepremiumaqua.es/film-9951/p?la-momia-de-lee-cronin"
         }
       ]
     },
@@ -47489,6 +48365,20 @@
           "cinema": "ocine",
           "language": "ES",
           "date": "2026-05-25",
+          "time": "22:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10187/p?hokum"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "15:15",
+          "url": "https://www.ocinepremiumaqua.es/film-10187/p?hokum"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-26",
           "time": "22:45",
           "url": "https://www.ocinepremiumaqua.es/film-10187/p?hokum"
         }
@@ -52078,6 +52968,69 @@
           "date": "2026-05-28",
           "time": "18:05",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44435"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "09:30",
+          "url": "https://kinepolis.es/movies/detail/36701/HO00006309/0/super-mario-galaxy-la-pelicula"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "13:30",
+          "url": "https://kinepolis.es/movies/detail/36701/HO00006309/0/super-mario-galaxy-la-pelicula"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/36701/HO00006309/0/super-mario-galaxy-la-pelicula"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "14:15",
+          "url": "https://kinepolis.es/movies/detail/36701/HO00006309/0/super-mario-galaxy-la-pelicula"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/36701/HO00006309/0/super-mario-galaxy-la-pelicula"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/36701/HO00006309/0/super-mario-galaxy-la-pelicula"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/36701/HO00006309/0/super-mario-galaxy-la-pelicula"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/36701/HO00006309/0/super-mario-galaxy-la-pelicula"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "15:15",
+          "url": "https://kinepolis.es/movies/detail/36701/HO00006309/0/super-mario-galaxy-la-pelicula"
         }
       ]
     },
@@ -52649,6 +53602,470 @@
       ]
     },
     {
+      "id": "tmdb-1228710",
+      "title": "The Mandalorian & Grogu",
+      "title_local": "Star Wars: The Mandalorian and Grogu",
+      "poster": "posters/the-mandalorian-grogu.jpg",
+      "rating": 6.6,
+      "duration": 132,
+      "genres": [
+        "Acción",
+        "Aventura",
+        "Ciencia ficción"
+      ],
+      "trailer_youtube_id": "uwild1rw7Aw",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-24",
+          "time": "14:15",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006430/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-24",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006430/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "09:30",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "12:30",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "10:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-24",
+          "time": "13:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006430/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-24",
+          "time": "09:45",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006430/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "14:15",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-25",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006430/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-25",
+          "time": "19:15",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006430/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-27",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006430/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-27",
+          "time": "19:15",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006430/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-28",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006430/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-28",
+          "time": "19:15",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006430/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-26",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006430/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-26",
+          "time": "19:15",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006430/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33767/HO00006158/0/the-mandalorian-grogu"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1314481",
       "title": "El Diablo viste de Prada 2 (VOSE)",
       "title_local": "El diablo viste de Prada 2",
@@ -52679,6 +54096,13 @@
           "cinema": "ocine",
           "language": "ES",
           "date": "2026-05-25",
+          "time": "22:30",
+          "url": "https://www.ocinepremiumaqua.es/film-9933/p?el-diablo-viste-de-prada-2-vose"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-26",
           "time": "22:30",
           "url": "https://www.ocinepremiumaqua.es/film-9933/p?el-diablo-viste-de-prada-2-vose"
         }
@@ -52827,6 +54251,20 @@
           "cinema": "dor",
           "language": "ES",
           "date": "2026-05-29",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-05-30",
+          "time": "16:45",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-05-30",
           "time": "20:30",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -56315,6 +57753,20 @@
           "date": "2026-05-28",
           "time": "22:30",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=2869"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "09:45",
+          "url": "https://kinepolis.es/movies/detail/37628/HO00006295/0/torrente-presidente"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "13:30",
+          "url": "https://kinepolis.es/movies/detail/37628/HO00006295/0/torrente-presidente"
         }
       ]
     },
@@ -56372,6 +57824,13 @@
           "language": "ES",
           "date": "2026-05-25",
           "time": "21:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10066/p?the-mandalorian-and-grogu-vose"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "20:15",
           "url": "https://www.ocinepremiumaqua.es/film-10066/p?the-mandalorian-and-grogu-vose"
         }
       ]
@@ -59721,6 +61180,118 @@
           "date": "2026-05-28",
           "time": "22:30",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3095"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "09:45",
+          "url": "https://kinepolis.es/movies/detail/38282/HO00006463/0/beast-la-bestia"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-24",
+          "time": "13:30",
+          "url": "https://kinepolis.es/movies/detail/38282/HO00006471/0/beast-la-bestia"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "16:15",
+          "url": "https://kinepolis.es/movies/detail/38282/HO00006463/0/beast-la-bestia"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/38282/HO00006463/0/beast-la-bestia"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-25",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/38282/HO00006471/0/beast-la-bestia"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/38282/HO00006463/0/beast-la-bestia"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/38282/HO00006463/0/beast-la-bestia"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-27",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/38282/HO00006471/0/beast-la-bestia"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/38282/HO00006463/0/beast-la-bestia"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/38282/HO00006463/0/beast-la-bestia"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-28",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/38282/HO00006471/0/beast-la-bestia"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/38282/HO00006463/0/beast-la-bestia"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/38282/HO00006463/0/beast-la-bestia"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-26",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/38282/HO00006471/0/beast-la-bestia"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/38282/HO00006463/0/beast-la-bestia"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/38282/HO00006463/0/beast-la-bestia"
         }
       ]
     },
@@ -61003,27 +62574,6 @@
       ]
     },
     {
-      "id": "tmdb-662022",
-      "title": "DOCS VLC2026 – Irregular",
-      "title_local": "Irregular",
-      "poster": "posters/docs-vlc2026-irregular.jpg",
-      "rating": 6.0,
-      "duration": 102,
-      "genres": [
-        "Drama"
-      ],
-      "trailer_youtube_id": "sd1qDZZACmY",
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-05-23",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/docs-vlc2026-irregular/64061/?step=2"
-        }
-      ]
-    },
-    {
       "id": "tmdb-1368314",
       "title": "El Pasajero Nocturno",
       "title_local": "El pasajero nocturno",
@@ -62209,6 +63759,139 @@
           "cinema": "ocine",
           "language": "ES",
           "date": "2026-05-25",
+          "time": "22:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10219/p?el-pasajero-nocturno"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/37559/HO00006472/0/el-pasajero-nocturno"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "17:15",
+          "url": "https://kinepolis.es/movies/detail/37559/HO00006472/0/el-pasajero-nocturno"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-24",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/37559/HO00006473/0/el-pasajero-nocturno"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/37559/HO00006472/0/el-pasajero-nocturno"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/37559/HO00006472/0/el-pasajero-nocturno"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-25",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/37559/HO00006473/0/el-pasajero-nocturno"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/37559/HO00006472/0/el-pasajero-nocturno"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/37559/HO00006472/0/el-pasajero-nocturno"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-27",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/37559/HO00006473/0/el-pasajero-nocturno"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/37559/HO00006472/0/el-pasajero-nocturno"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/37559/HO00006472/0/el-pasajero-nocturno"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-28",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/37559/HO00006473/0/el-pasajero-nocturno"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/37559/HO00006472/0/el-pasajero-nocturno"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/37559/HO00006472/0/el-pasajero-nocturno"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-05-26",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/37559/HO00006473/0/el-pasajero-nocturno"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "11:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10219/p?el-pasajero-nocturno"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "15:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10219/p?el-pasajero-nocturno"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-26",
+          "time": "17:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10219/p?el-pasajero-nocturno"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-05-26",
           "time": "22:45",
           "url": "https://www.ocinepremiumaqua.es/film-10219/p?el-pasajero-nocturno"
         }
@@ -67268,72 +68951,62 @@
           "date": "2026-05-24",
           "time": "11:45",
           "url": "https://www.ocinepremiumaqua.es/film-8812/p?mortal-kombat-ii"
-        }
-      ]
-    },
-    {
-      "id": "local-xdocsvalencia-un-arbre-es-un-arbre",
-      "title": "XDOCSVALENCIA - UN ARBRE ÉS UN ARBRE",
-      "title_local": "XDOCSVALENCIA - UN ARBRE ÉS UN ARBRE",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
+        },
         {
-          "cinema": "lys",
+          "cinema": "kinepolis",
           "language": "ES",
-          "date": "2026-05-22",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/xdocsvalencia-un-arbre-es-un-arbre/381141/?step=2"
+          "date": "2026-05-24",
+          "time": "19:45",
+          "url": "https://kinepolis.es/movies/detail/34019/HO00006369/0/mortal-kombat-ii"
         },
         {
-          "cinema": "lys",
+          "cinema": "kinepolis",
           "language": "ES",
-          "date": "2026-05-23",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/xdocsvalencia-un-arbre-es-un-arbre/381142/?step=2"
+          "date": "2026-05-24",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/34019/HO00006369/0/mortal-kombat-ii"
         },
         {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-05-22",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/xdocsvalencia-un-arbre-es-un-arbre/381141/?step=2"
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-25",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/34019/HO00006369/0/mortal-kombat-ii"
         },
         {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-05-23",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/xdocsvalencia-un-arbre-es-un-arbre/381142/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-xdocsvalencia-camigrants",
-      "title": "XDOCSVALENCIA - CAMIGRANTS",
-      "title_local": "XDOCSVALENCIA - CAMIGRANTS",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-27",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/34019/HO00006369/0/mortal-kombat-ii"
+        },
         {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-05-23",
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/34019/HO00006369/0/mortal-kombat-ii"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-26",
           "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/xdocsvalencia-camigrants/381143/?step=2"
+          "url": "https://kinepolis.es/movies/detail/34019/HO00006369/0/mortal-kombat-ii"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-05-28",
+          "time": "17:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44318"
         }
       ]
     },
     {
-      "id": "local-xdocsvalencia-les-memories-de-martha-heard",
-      "title": "XDOCSVALENCIA - LES MEMÒRIES DE MARTHA HEARD",
-      "title_local": "XDOCSVALENCIA - LES MEMÒRIES DE MARTHA HEARD",
+      "id": "local-xavi-castillo-30-anys-fent-el-moniato",
+      "title": "Xavi Castillo: 30 Anys Fent el Moniato",
+      "title_local": "Xavi Castillo: 30 Anys Fent el Moniato",
       "poster": null,
       "rating": null,
       "duration": null,
@@ -67341,11 +69014,30 @@
       "trailer_youtube_id": null,
       "showtimes": [
         {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-05-23",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/xdocsvalencia-les-memories-de-martha-heard/381144/?step=2"
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-24",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/23408/HO00003986/0/xavi-castillo-30-anys-fent-el-moniato"
+        }
+      ]
+    },
+    {
+      "id": "local-raul-anton-hay-mas-tontos-que-ventanas",
+      "title": "Raúl Antón. Hay más tontos que ventanas",
+      "title_local": "Raúl Antón. Hay más tontos que ventanas",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-05-29",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/35567/HO00005614/0/raul-anton-hay-mas-tontos-que-ventanas"
         }
       ]
     },
