@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-07T07:00:00Z",
+  "updated_at": "2026-06-08T07:00:00Z",
   "movies": [
     {
       "id": "tmdb-1357813",
@@ -1578,6 +1578,29 @@
           "date": "2026-06-10",
           "time": "18:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/incontrolable-i-swear/64619/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-128",
+      "title": "LA PRINCESA MONONOKE",
+      "title_local": "La princesa Mononoke",
+      "poster": "posters/la-princesa-mononoke.jpg",
+      "rating": 8.3,
+      "duration": 134,
+      "genres": [
+        "Aventura",
+        "Fantasía",
+        "Animación"
+      ],
+      "trailer_youtube_id": "I1dHzoRl0sQ",
+      "showtimes": [
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-06-08",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-princesa-mononoke/381489/?step=2"
         }
       ]
     },
@@ -6419,6 +6442,13 @@
           "date": "2026-06-09",
           "time": "17:50",
           "url": "https://www.ocinepremiumaqua.es/film-9973/p?las-ovejas-detectives"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "17:50",
+          "url": "https://www.ocinepremiumaqua.es/film-9973/p?las-ovejas-detectives"
         }
       ]
     },
@@ -10858,6 +10888,13 @@
           "date": "2026-06-08",
           "time": "15:00",
           "url": "https://kinepolis.es/movies/detail/35548/HO00006311/0/proyecto-salvacion"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-11",
+          "time": "20:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=45343"
         }
       ]
     },
@@ -11194,6 +11231,20 @@
           "cinema": "ocine",
           "language": "ES",
           "date": "2026-06-09",
+          "time": "22:40",
+          "url": "https://www.ocinepremiumaqua.es/film-10057/p?la-momia-de-lee-cronin-urban"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "15:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10057/p?la-momia-de-lee-cronin-urban"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-10",
           "time": "22:40",
           "url": "https://www.ocinepremiumaqua.es/film-10057/p?la-momia-de-lee-cronin-urban"
         }
@@ -12387,6 +12438,20 @@
           "cinema": "dor",
           "language": "ES",
           "date": "2026-06-13",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-06-14",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-06-14",
           "time": "22:20",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -24091,142 +24156,20 @@
           "date": "2026-06-09",
           "time": "20:20",
           "url": "https://www.ocinepremiumaqua.es/film-9904/p?el-diablo-viste-de-prada-2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1515899",
-      "title": "BILLIE EILISH. HIT ME HARD AND SOFT: THE TOUR 3D",
-      "title_local": "Billie Eilish - Hit Me Hard and Soft: The Tour (en 3D)",
-      "poster": "posters/billie-eilish-hit-me-hard-and-soft-the-tour-3d.jpg",
-      "rating": 7.5,
-      "duration": 114,
-      "genres": [
-        "Música",
-        "Documental"
-      ],
-      "trailer_youtube_id": "9ElURjcuWLQ",
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-06-07",
-          "time": "12:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3011"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1220564",
-      "title": "EL AGENTE SECRETO",
-      "title_local": "El agente secreto",
-      "poster": "posters/el-agente-secreto.jpg",
-      "rating": 7.3,
-      "duration": 161,
-      "genres": [
-        "Suspense",
-        "Drama",
-        "Crimen"
-      ],
-      "trailer_youtube_id": "9UfrzDKrhEc",
-      "showtimes": [
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-06-01",
-          "time": "17:15",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         },
         {
-          "cinema": "dor",
+          "cinema": "ocine",
           "language": "ES",
-          "date": "2026-06-01",
-          "time": "21:25",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+          "date": "2026-06-10",
+          "time": "15:40",
+          "url": "https://www.ocinepremiumaqua.es/film-9904/p?el-diablo-viste-de-prada-2"
         },
         {
-          "cinema": "dor",
+          "cinema": "ocine",
           "language": "ES",
-          "date": "2026-06-02",
-          "time": "17:15",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-06-02",
-          "time": "21:25",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-06-03",
-          "time": "17:15",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-06-03",
-          "time": "21:25",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-06-04",
-          "time": "17:15",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-06-04",
-          "time": "21:25",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "17:15",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "21:25",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "17:15",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "21:25",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "17:15",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "21:25",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+          "date": "2026-06-10",
+          "time": "20:20",
+          "url": "https://www.ocinepremiumaqua.es/film-9904/p?el-diablo-viste-de-prada-2"
         }
       ]
     },
@@ -39724,120 +39667,6 @@
       ]
     },
     {
-      "id": "tmdb-1275779",
-      "title": "El Día de la Revelación",
-      "title_local": "El día de la revelación",
-      "poster": "posters/el-dia-de-la-revelacion.jpg",
-      "rating": 7.2,
-      "duration": 146,
-      "genres": [
-        "Misterio",
-        "Ciencia ficción",
-        "Suspense"
-      ],
-      "trailer_youtube_id": "icDuEHSxE-w",
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-12",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-12",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-12",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/37486/HO00006482/0/el-dia-de-la-revelacion"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-12",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-12",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-12",
-          "time": "18:00",
-          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-13",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/37486/HO00006482/0/el-dia-de-la-revelacion"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-13",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/37486/HO00006482/0/el-dia-de-la-revelacion"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "18:00",
-          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
-        }
-      ]
-    },
-    {
       "id": "tmdb-680770",
       "title": "FLEAK",
       "title_local": "Fleak",
@@ -40326,6 +40155,176 @@
           "date": "2026-06-07",
           "time": "11:45",
           "url": "https://www.ocinepremiumaqua.es/film-10284/p?fleak"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1275779",
+      "title": "El Día de la Revelación",
+      "title_local": "El día de la revelación",
+      "poster": "posters/el-dia-de-la-revelacion.jpg",
+      "rating": 7.2,
+      "duration": 146,
+      "genres": [
+        "Misterio",
+        "Ciencia ficción",
+        "Suspense"
+      ],
+      "trailer_youtube_id": "icDuEHSxE-w",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-12",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-12",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-12",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006482/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-12",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-12",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-12",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-13",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006482/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-13",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-13",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-13",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-13",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006482/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-13",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-13",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-13",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-14",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006482/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-14",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-14",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-14",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-14",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006482/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-14",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-14",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-14",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
         }
       ]
     },
@@ -44190,6 +44189,69 @@
       ]
     },
     {
+      "id": "tmdb-1391325",
+      "title": "LA FAMILIA BENETÓN   2",
+      "title_local": "La familia Benetón +2",
+      "poster": "posters/la-familia-beneton-2.jpg",
+      "rating": 7.0,
+      "duration": 87,
+      "genres": [
+        "Comedia"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-06-05",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-familia-beneton-2/85194/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-familia-beneton-2/85195/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-familia-beneton-2/85196/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-06-08",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-familia-beneton-2/85335/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-familia-beneton-2/85336/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-familia-beneton-2/85337/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-06-11",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-familia-beneton-2/85338/?step=2"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1280405",
       "title": "Saliendo del Nido",
       "title_local": "Saliendo del nido",
@@ -44489,69 +44551,6 @@
           "date": "2026-06-08",
           "time": "14:30",
           "url": "https://kinepolis.es/movies/detail/38546/HO00006490/0/saliendo-del-nido"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1391325",
-      "title": "LA FAMILIA BENETÓN   2",
-      "title_local": "La familia Benetón +2",
-      "poster": "posters/la-familia-beneton-2.jpg",
-      "rating": 7.0,
-      "duration": 87,
-      "genres": [
-        "Comedia"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-familia-beneton-2/85194/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-familia-beneton-2/85195/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-familia-beneton-2/85196/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-08",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-familia-beneton-2/85335/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-familia-beneton-2/85336/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-10",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-familia-beneton-2/85337/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-11",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-familia-beneton-2/85338/?step=2"
         }
       ]
     },
@@ -57268,6 +57267,13 @@
           "date": "2026-06-09",
           "time": "22:40",
           "url": "https://www.ocinepremiumaqua.es/film-10187/p?hokum"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "22:40",
+          "url": "https://www.ocinepremiumaqua.es/film-10187/p?hokum"
         }
       ]
     },
@@ -62805,6 +62811,20 @@
           "cinema": "ocine",
           "language": "ES",
           "date": "2026-06-09",
+          "time": "17:30",
+          "url": "https://www.ocinepremiumaqua.es/film-9854/p?super-mario-galaxy-la-pelucula"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "15:30",
+          "url": "https://www.ocinepremiumaqua.es/film-9854/p?super-mario-galaxy-la-pelucula"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-10",
           "time": "17:30",
           "url": "https://www.ocinepremiumaqua.es/film-9854/p?super-mario-galaxy-la-pelucula"
         }
@@ -74199,70 +74219,6 @@
       ]
     },
     {
-      "id": "tmdb-1398486",
-      "title": "MAIGRET Y LA MUERTE DEL EMBAJADOR",
-      "title_local": "Maigret y la muerte del embajador",
-      "poster": "posters/maigret-y-la-muerte-del-embajador.jpg",
-      "rating": 6.1,
-      "duration": 80,
-      "genres": [
-        "Crimen",
-        "Misterio"
-      ],
-      "trailer_youtube_id": "QdR2xExpvQM",
-      "showtimes": [
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-06-01",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-06-02",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-06-03",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-06-04",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        }
-      ]
-    },
-    {
       "id": "tmdb-1001736",
       "title": "Conoce a los bárbaros",
       "title_local": "Conoce a los bárbaros",
@@ -75023,6 +74979,20 @@
           "cinema": "dor",
           "language": "ES",
           "date": "2026-06-13",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-06-14",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-06-14",
           "time": "20:30",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -77427,6 +77397,13 @@
           "date": "2026-06-09",
           "time": "22:45",
           "url": "https://www.ocinepremiumaqua.es/film-10219/p?el-pasajero-nocturno"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "22:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10219/p?el-pasajero-nocturno"
         }
       ]
     },
@@ -79272,28 +79249,6 @@
           "date": "2026-06-11",
           "time": "16:10",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3130"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1308553",
-      "title": "HAI JAWANI TOH ISHQ HONA HAI",
-      "title_local": "है जवानी तो इश्क होना है",
-      "poster": "posters/hai-jawani-toh-ishq-hona-hai.jpg",
-      "rating": 4.5,
-      "duration": 136,
-      "genres": [
-        "Romance",
-        "Comedia"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3147"
         }
       ]
     },
@@ -81575,6 +81530,116 @@
       ]
     },
     {
+      "id": "local-30-peliculas-30-a-os-una-historia-verdadera",
+      "title": "30 películas 30 años – Una historia verdadera",
+      "title_local": "30 películas 30 años – Una historia verdadera",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-06-05",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-peliculas-30-anos-una-historia-verdadera/64528/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-06-06",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-peliculas-30-anos-una-historia-verdadera/64547/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-06-07",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-peliculas-30-anos-una-historia-verdadera/64567/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-06-08",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-peliculas-30-anos-una-historia-verdadera/64587/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-06-09",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-peliculas-30-anos-una-historia-verdadera/64607/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-06-10",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-peliculas-30-anos-una-historia-verdadera/64627/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-06-11",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-peliculas-30-anos-una-historia-verdadera/64631/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1690880",
+      "title": "Los ilusos 13+13",
+      "title_local": "Los ilusos 13 + 13",
+      "poster": "posters/los-ilusos-13-13.jpg",
+      "rating": null,
+      "duration": 93,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ilusos-13-13/64551/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-08",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ilusos-13-13/64571/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ilusos-13-13/64591/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ilusos-13-13/64611/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-11",
+          "time": "22:05",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ilusos-13-13/64632/?step=2"
+        }
+      ]
+    },
+    {
       "id": "local-asesinato-en-la-3a-planta",
       "title": "Asesinato en la 3a planta",
       "title_local": "Asesinato en la 3a planta",
@@ -81779,116 +81844,6 @@
           "date": "2026-06-09",
           "time": "18:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/asesinato-en-la-3a-planta/64599/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-30-peliculas-30-a-os-una-historia-verdadera",
-      "title": "30 películas 30 años – Una historia verdadera",
-      "title_local": "30 películas 30 años – Una historia verdadera",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-06-05",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-peliculas-30-anos-una-historia-verdadera/64528/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-06-06",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-peliculas-30-anos-una-historia-verdadera/64547/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-06-07",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-peliculas-30-anos-una-historia-verdadera/64567/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-06-08",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-peliculas-30-anos-una-historia-verdadera/64587/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-06-09",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-peliculas-30-anos-una-historia-verdadera/64607/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-06-10",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-peliculas-30-anos-una-historia-verdadera/64627/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-06-11",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-peliculas-30-anos-una-historia-verdadera/64631/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1690880",
-      "title": "Los ilusos 13+13",
-      "title_local": "Los ilusos 13 + 13",
-      "poster": "posters/los-ilusos-13-13.jpg",
-      "rating": null,
-      "duration": 93,
-      "genres": [
-        "Drama"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ilusos-13-13/64551/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-06-08",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ilusos-13-13/64571/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ilusos-13-13/64591/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-06-10",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ilusos-13-13/64611/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-06-11",
-          "time": "22:05",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ilusos-13-13/64632/?step=2"
         }
       ]
     },
@@ -84005,840 +83960,6 @@
           "date": "2026-06-08",
           "time": "20:15",
           "url": "https://kinepolis.es/movies/detail/38522/HO00006483/0/todo-lo-que-nunca-fuimos"
-        }
-      ]
-    },
-    {
-      "id": "local-tia-visantica-coses-de-mare-valenciana",
-      "title": "Tia Visantica: Coses de mare Valenciana",
-      "title_local": "Tia Visantica: Coses de mare Valenciana",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/36664/HO00005926/0/tia-visantica-coses-de-mare-valenciana"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1667198",
-      "title": "The Amazing Digital Circus: El Último Acto",
-      "title_local": "The Amazing Digital Circus: El Último Acto",
-      "poster": "posters/the-amazing-digital-circus-el-ultimo-acto.jpg",
-      "rating": null,
-      "duration": 94,
-      "genres": [
-        "Animación",
-        "Drama",
-        "Ciencia ficción"
-      ],
-      "trailer_youtube_id": "vNGAtHBhdiM",
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-04",
-          "time": "15:30",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-04",
-          "time": "17:45",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-04",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-04",
-          "time": "16:15",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-04",
-          "time": "18:30",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-05",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-05",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-06",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-06",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-07",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-07",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-06",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-06",
-          "time": "19:45",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-07",
-          "time": "19:45",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-07",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-05",
-          "time": "19:45",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-08",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-08",
-          "time": "19:45",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-08",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-09",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-09",
-          "time": "19:45",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-09",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-10",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-10",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-10",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-11",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-11",
-          "time": "19:45",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-11",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "mn4",
-          "language": "VOSE",
-          "date": "2026-06-05",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/the-amazing-digital-circus-el-ultimo-acto/85170/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "VOSE",
-          "date": "2026-06-06",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/the-amazing-digital-circus-el-ultimo-acto/85171/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "VOSE",
-          "date": "2026-06-07",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/the-amazing-digital-circus-el-ultimo-acto/85172/?step=2"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-08",
-          "time": "14:15",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-08",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-08",
-          "time": "16:45",
-          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1273221",
-      "title": "Scary Movie 6",
-      "title_local": "Scary Movie",
-      "poster": "posters/scary-movie-6.jpg",
-      "rating": null,
-      "duration": 95,
-      "genres": [
-        "Comedia",
-        "Terror"
-      ],
-      "trailer_youtube_id": "2aMPPfmP5cY",
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "20:20",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-06",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006481/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-07",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006481/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-05",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006481/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-08",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-08",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-08",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-08",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-08",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-08",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-10",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-10",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-10",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-10",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-10",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-10",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "16:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "18:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "20:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "22:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "23:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "11:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "16:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "18:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "20:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "22:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "23:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-11",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-11",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-11",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-11",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-11",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-11",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "11:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "16:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "18:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "20:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "22:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-08",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006481/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-08",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "17:15",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-08",
-          "time": "16:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-08",
-          "time": "18:10",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-08",
-          "time": "20:20",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-08",
-          "time": "22:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "16:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "17:15",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "18:10",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "20:20",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "22:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1701849",
-      "title": "BTS WORLD TOUR ARIRANG in BUSAN",
-      "title_local": "BTS World Tour ‘Arirang’ in Busan: Live Viewing",
-      "poster": "posters/bts-world-tour-arirang-in-busan.jpg",
-      "rating": null,
-      "duration": null,
-      "genres": [
-        "Música"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "09:45",
-          "url": "https://kinepolis.es/movies/detail/38407/HO00006487/0/bts-world-tour-arirang-in-busan"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "13:30",
-          "url": "https://kinepolis.es/movies/detail/38407/HO00006487/0/bts-world-tour-arirang-in-busan"
         }
       ]
     },
@@ -88644,10 +87765,625 @@
       ]
     },
     {
+      "id": "local-tia-visantica-coses-de-mare-valenciana",
+      "title": "Tia Visantica: Coses de mare Valenciana",
+      "title_local": "Tia Visantica: Coses de mare Valenciana",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-13",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/36664/HO00005926/0/tia-visantica-coses-de-mare-valenciana"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1701849",
+      "title": "BTS WORLD TOUR ARIRANG in BUSAN",
+      "title_local": "BTS World Tour ‘Arirang’ in Busan: Live Viewing",
+      "poster": "posters/bts-world-tour-arirang-in-busan.jpg",
+      "rating": null,
+      "duration": null,
+      "genres": [
+        "Música"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-13",
+          "time": "09:45",
+          "url": "https://kinepolis.es/movies/detail/38407/HO00006487/0/bts-world-tour-arirang-in-busan"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-13",
+          "time": "13:30",
+          "url": "https://kinepolis.es/movies/detail/38407/HO00006487/0/bts-world-tour-arirang-in-busan"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1273221",
+      "title": "Scary Movie 6",
+      "title_local": "Scary Movie",
+      "poster": "posters/scary-movie-6.jpg",
+      "rating": null,
+      "duration": 95,
+      "genres": [
+        "Comedia",
+        "Terror"
+      ],
+      "trailer_youtube_id": "2aMPPfmP5cY",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-05",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-05",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-05",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-05",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-05",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-05",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "20:20",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-06",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006481/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-07",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006481/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-05",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006481/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-08",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-08",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-08",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-08",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-08",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-08",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-05",
+          "time": "16:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-05",
+          "time": "18:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-05",
+          "time": "20:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-05",
+          "time": "22:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-05",
+          "time": "23:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "11:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "16:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "18:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "20:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "22:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "23:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-11",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-11",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-11",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-11",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-11",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-11",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "11:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "16:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "18:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "20:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "22:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-08",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006481/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-08",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "17:15",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-08",
+          "time": "16:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-08",
+          "time": "18:10",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-08",
+          "time": "20:20",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-08",
+          "time": "22:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "16:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "17:15",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "18:10",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "20:20",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "22:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "16:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "17:15",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "18:10",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "20:20",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "22:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1667198",
-      "title": "THE AMAZING DIGITAL CIRCUS: THE LAST ACT",
+      "title": "The Amazing Digital Circus: El Último Acto",
       "title_local": "The Amazing Digital Circus: El Último Acto",
-      "poster": "posters/the-amazing-digital-circus-the-last-act.jpg",
+      "poster": "posters/the-amazing-digital-circus-el-ultimo-acto.jpg",
       "rating": null,
       "duration": 94,
       "genres": [
@@ -88658,459 +88394,242 @@
       "trailer_youtube_id": "vNGAtHBhdiM",
       "showtimes": [
         {
-          "cinema": "abc_park",
-          "language": "VOSE",
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-04",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-04",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-04",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-04",
+          "time": "16:15",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
           "date": "2026-06-04",
           "time": "18:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
         },
         {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-06-04",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
+          "cinema": "kinepolis",
+          "language": "VO",
           "date": "2026-06-05",
-          "time": "18:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-06-05",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-06-06",
-          "time": "18:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-06-06",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-06-07",
-          "time": "12:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-06-07",
-          "time": "18:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-06-07",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-06-04",
-          "time": "18:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-06-04",
-          "time": "20:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-06-05",
-          "time": "18:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-06-05",
-          "time": "20:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-06-06",
-          "time": "18:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-06-06",
-          "time": "20:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-06-07",
-          "time": "12:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-06-07",
-          "time": "18:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-06-07",
-          "time": "20:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-06-04",
-          "time": "18:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-06-04",
-          "time": "20:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-06-05",
-          "time": "18:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-06-05",
-          "time": "20:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-06-06",
-          "time": "18:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-06-06",
-          "time": "20:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-06-07",
-          "time": "18:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-06-07",
-          "time": "20:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-06-04",
-          "time": "21:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-06-04",
-          "time": "22:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-06-04",
-          "time": "21:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-06-04",
-          "time": "21:35",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-06-05",
-          "time": "19:55",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-06-06",
-          "time": "19:55",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-06-07",
-          "time": "19:55",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-06-06",
-          "time": "20:10",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-06-08",
-          "time": "19:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-06-10",
           "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
         },
         {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-06-08",
-          "time": "20:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-06-09",
-          "time": "20:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-06-10",
-          "time": "20:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-06-11",
-          "time": "20:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-06-08",
-          "time": "18:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-06-09",
-          "time": "18:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-06-10",
-          "time": "18:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-06-11",
-          "time": "18:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-06-04",
-          "time": "17:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43539"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-06-04",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43539"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-06-04",
-          "time": "19:05",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43539"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-06-04",
-          "time": "20:05",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43539"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-06-04",
-          "time": "22:10",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43539"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
+          "cinema": "kinepolis",
+          "language": "VO",
           "date": "2026-06-05",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43533"
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
         },
         {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-06-05",
-          "time": "20:05",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43533"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
+          "cinema": "kinepolis",
+          "language": "VO",
           "date": "2026-06-06",
           "time": "16:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43534"
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
         },
         {
-          "cinema": "yelmo",
-          "language": "VOSE",
+          "cinema": "kinepolis",
+          "language": "VO",
           "date": "2026-06-06",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43534"
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
         },
         {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-06-06",
-          "time": "20:05",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43534"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
+          "cinema": "kinepolis",
+          "language": "VO",
           "date": "2026-06-07",
           "time": "16:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43537"
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
         },
         {
-          "cinema": "yelmo",
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-07",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-06",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-06",
+          "time": "19:45",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-07",
+          "time": "19:45",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-07",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-05",
+          "time": "19:45",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-08",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-08",
+          "time": "19:45",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-08",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-09",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-09",
+          "time": "19:45",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-09",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-10",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-10",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-10",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-11",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-11",
+          "time": "19:45",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-11",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
+        },
+        {
+          "cinema": "mn4",
+          "language": "VOSE",
+          "date": "2026-06-05",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/the-amazing-digital-circus-el-ultimo-acto/85170/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "VOSE",
+          "date": "2026-06-06",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/the-amazing-digital-circus-el-ultimo-acto/85171/?step=2"
+        },
+        {
+          "cinema": "mn4",
           "language": "VOSE",
           "date": "2026-06-07",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43537"
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/the-amazing-digital-circus-el-ultimo-acto/85172/?step=2"
         },
         {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-06-07",
-          "time": "20:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43537"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
+          "cinema": "kinepolis",
+          "language": "VO",
           "date": "2026-06-08",
-          "time": "16:05",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=45123"
+          "time": "14:15",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
         },
         {
-          "cinema": "yelmo",
-          "language": "VOSE",
+          "cinema": "kinepolis",
+          "language": "VO",
           "date": "2026-06-08",
-          "time": "18:10",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=45123"
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
         },
         {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-06-09",
-          "time": "16:05",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=45215"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-06-09",
-          "time": "18:10",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=45215"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-06-10",
-          "time": "16:05",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=45263"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-06-10",
-          "time": "18:10",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=45263"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-06-11",
-          "time": "16:05",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=45314"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-06-11",
-          "time": "18:10",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=45314"
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-08",
+          "time": "16:45",
+          "url": "https://kinepolis.es/movies/detail/38283/HO00006447/0/the-amazing-digital-circus-el-ultimo-acto"
         }
       ]
     },
@@ -90905,6 +90424,477 @@
       ]
     },
     {
+      "id": "tmdb-1667198",
+      "title": "THE AMAZING DIGITAL CIRCUS: THE LAST ACT",
+      "title_local": "The Amazing Digital Circus: El Último Acto",
+      "poster": "posters/the-amazing-digital-circus-the-last-act.jpg",
+      "rating": null,
+      "duration": 94,
+      "genres": [
+        "Animación",
+        "Drama",
+        "Ciencia ficción"
+      ],
+      "trailer_youtube_id": "vNGAtHBhdiM",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-06-04",
+          "time": "18:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-06-04",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-06-05",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-06-05",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-06-06",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-06-06",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-06-07",
+          "time": "12:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-06-07",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-06-07",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-06-04",
+          "time": "18:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-06-04",
+          "time": "20:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-06-05",
+          "time": "18:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-06-05",
+          "time": "20:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-06-06",
+          "time": "18:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-06-06",
+          "time": "20:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-06-07",
+          "time": "12:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-06-07",
+          "time": "18:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-06-07",
+          "time": "20:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-06-04",
+          "time": "18:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-06-04",
+          "time": "20:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-06-05",
+          "time": "18:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-06-05",
+          "time": "20:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-06-06",
+          "time": "18:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-06-06",
+          "time": "20:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-06-07",
+          "time": "18:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-06-07",
+          "time": "20:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-06-04",
+          "time": "21:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-06-04",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-06-04",
+          "time": "21:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-06-04",
+          "time": "21:35",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-06-05",
+          "time": "19:55",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-06-06",
+          "time": "19:55",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-06-07",
+          "time": "19:55",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-06-06",
+          "time": "20:10",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-06-08",
+          "time": "19:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-06-10",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-06-08",
+          "time": "20:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-06-09",
+          "time": "20:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-06-10",
+          "time": "20:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-06-11",
+          "time": "20:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-06-08",
+          "time": "18:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-06-09",
+          "time": "18:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-06-10",
+          "time": "18:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-06-11",
+          "time": "18:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3042"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-04",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43539"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-04",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43539"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-04",
+          "time": "19:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43539"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-04",
+          "time": "20:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43539"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-04",
+          "time": "22:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43539"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-05",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43533"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-05",
+          "time": "20:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43533"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-06",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43534"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-06",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43534"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-06",
+          "time": "20:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43534"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-07",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43537"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-07",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43537"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-07",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=43537"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-08",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=45123"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-08",
+          "time": "18:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=45123"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-09",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=45215"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-09",
+          "time": "18:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=45215"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-10",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=45263"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-10",
+          "time": "18:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=45263"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-11",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=45314"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-11",
+          "time": "18:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=45314"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1513026",
       "title": "UNA PELÍCULA DE MIEDO",
       "title_local": "Una película de miedo",
@@ -90983,970 +90973,6 @@
           "date": "2026-06-14",
           "time": "18:30",
           "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3127"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1480613",
-      "title": "La silla",
-      "title_local": "La silla",
-      "poster": "posters/la-silla.jpg",
-      "rating": null,
-      "duration": null,
-      "genres": [
-        "Suspense",
-        "Terror"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-30",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/38504/HO00006485/0/la-silla"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-30",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/38504/HO00006485/0/la-silla"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-30",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/38504/HO00006485/0/la-silla"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-30",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/38504/HO00006485/0/la-silla"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-29",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/38504/HO00006485/0/la-silla"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-29",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/38504/HO00006485/0/la-silla"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-29",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/38504/HO00006485/0/la-silla"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-31",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/38504/HO00006485/0/la-silla"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-31",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/38504/HO00006485/0/la-silla"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-31",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/38504/HO00006485/0/la-silla"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-05-31",
-          "time": "09:30",
-          "url": "https://kinepolis.es/movies/detail/38504/HO00006485/0/la-silla"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-01",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/38504/HO00006485/0/la-silla"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-01",
-          "time": "18:30",
-          "url": "https://kinepolis.es/movies/detail/38504/HO00006485/0/la-silla"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-01",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/38504/HO00006485/0/la-silla"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-02",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/38504/HO00006485/0/la-silla"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-02",
-          "time": "18:30",
-          "url": "https://kinepolis.es/movies/detail/38504/HO00006485/0/la-silla"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-02",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/38504/HO00006485/0/la-silla"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-03",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/38504/HO00006485/0/la-silla"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-03",
-          "time": "18:30",
-          "url": "https://kinepolis.es/movies/detail/38504/HO00006485/0/la-silla"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-03",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/38504/HO00006485/0/la-silla"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-04",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/38504/HO00006485/0/la-silla"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-04",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/38504/HO00006485/0/la-silla"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-29",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-silla/84962/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-29",
-          "time": "22:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-silla/84963/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-30",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-silla/84964/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-30",
-          "time": "22:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-silla/84965/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-31",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-silla/84966/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-05-31",
-          "time": "22:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-silla/84967/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-01",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-silla/84958/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-02",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-silla/84959/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-03",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-silla/84960/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-04",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-silla/84961/?step=2"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-29",
-          "time": "19:55",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44721"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-29",
-          "time": "21:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44721"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-30",
-          "time": "19:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44724"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-30",
-          "time": "21:40",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44724"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-31",
-          "time": "19:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44727"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-05-31",
-          "time": "21:40",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44727"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-06-01",
-          "time": "20:05",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44730"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-06-01",
-          "time": "21:50",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44730"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-06-02",
-          "time": "19:55",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44754"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-06-02",
-          "time": "21:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44754"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-06-03",
-          "time": "19:55",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44773"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-06-03",
-          "time": "21:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44773"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-06-04",
-          "time": "22:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44562"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-29",
-          "time": "20:50",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-30",
-          "time": "20:50",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-05-31",
-          "time": "20:50",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-01",
-          "time": "20:50",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-02",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-03",
-          "time": "20:55",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-04",
-          "time": "20:50",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-05-29",
-          "time": "22:10",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-05-30",
-          "time": "22:10",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-05-31",
-          "time": "22:10",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-06-01",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-06-01",
-          "time": "22:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-06-02",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-06-02",
-          "time": "22:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-06-03",
-          "time": "22:10",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-06-04",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-06-04",
-          "time": "22:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-29",
-          "time": "20:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-29",
-          "time": "22:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-30",
-          "time": "20:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-05-31",
-          "time": "22:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-01",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-01",
-          "time": "20:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-01",
-          "time": "22:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-02",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-02",
-          "time": "20:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-02",
-          "time": "22:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-03",
-          "time": "20:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-03",
-          "time": "22:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-04",
-          "time": "20:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-04",
-          "time": "22:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3106"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-05-30",
-          "time": "11:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-05-30",
-          "time": "16:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-05-30",
-          "time": "18:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-05-30",
-          "time": "20:15",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-05-30",
-          "time": "21:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-05-31",
-          "time": "11:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-05-31",
-          "time": "16:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-05-31",
-          "time": "18:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-05-31",
-          "time": "20:15",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-05-31",
-          "time": "21:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-01",
-          "time": "16:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-01",
-          "time": "18:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-01",
-          "time": "20:15",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-01",
-          "time": "21:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-02",
-          "time": "16:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-02",
-          "time": "18:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-02",
-          "time": "20:15",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-02",
-          "time": "21:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-03",
-          "time": "16:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-03",
-          "time": "18:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-03",
-          "time": "20:15",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-03",
-          "time": "21:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-04",
-          "time": "16:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-04",
-          "time": "20:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-04",
-          "time": "22:15",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-06-04",
-          "time": "22:05",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44562"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "11:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "11:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10279/p?la-silla"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1705642",
-      "title": "SHREK  (25º aniversario)",
-      "title_local": "Shrek 25 Aniversario",
-      "poster": "posters/shrek-25-aniversario.jpg",
-      "rating": null,
-      "duration": 92,
-      "genres": [
-        "Comedia",
-        "Animación",
-        "Fantasía"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-04",
-          "time": "16:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10207/p?shrek-25-aniversario"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "15:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10207/p?shrek-25-aniversario"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "15:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10207/p?shrek-25-aniversario"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "15:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10207/p?shrek-25-aniversario"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1667198",
-      "title": "The Amazing Digital Circus: The Last Act (VOSE)",
-      "title_local": "The Amazing Digital Circus: El Último Acto",
-      "poster": "posters/the-amazing-digital-circus-the-last-act-vose.jpg",
-      "rating": null,
-      "duration": 94,
-      "genres": [
-        "Animación",
-        "Drama",
-        "Ciencia ficción"
-      ],
-      "trailer_youtube_id": "vNGAtHBhdiM",
-      "showtimes": [
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-04",
-          "time": "17:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10145/p?the-amazing-digital-circus-the-last-act-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-04",
-          "time": "17:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10145/p?the-amazing-digital-circus-the-last-act-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-04",
-          "time": "18:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10145/p?the-amazing-digital-circus-the-last-act-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-04",
-          "time": "18:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10145/p?the-amazing-digital-circus-the-last-act-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-04",
-          "time": "18:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10145/p?the-amazing-digital-circus-the-last-act-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-04",
-          "time": "19:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10145/p?the-amazing-digital-circus-the-last-act-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "17:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10145/p?the-amazing-digital-circus-the-last-act-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "17:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10145/p?the-amazing-digital-circus-the-last-act-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "18:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10145/p?the-amazing-digital-circus-the-last-act-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "18:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10145/p?the-amazing-digital-circus-the-last-act-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "19:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10145/p?the-amazing-digital-circus-the-last-act-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "11:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10145/p?the-amazing-digital-circus-the-last-act-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "17:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10145/p?the-amazing-digital-circus-the-last-act-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "17:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10145/p?the-amazing-digital-circus-the-last-act-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "18:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10145/p?the-amazing-digital-circus-the-last-act-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "18:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10145/p?the-amazing-digital-circus-the-last-act-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "19:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10145/p?the-amazing-digital-circus-the-last-act-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "11:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10145/p?the-amazing-digital-circus-the-last-act-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "17:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10145/p?the-amazing-digital-circus-the-last-act-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "17:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10145/p?the-amazing-digital-circus-the-last-act-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "18:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10145/p?the-amazing-digital-circus-the-last-act-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "18:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10145/p?the-amazing-digital-circus-the-last-act-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "19:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10145/p?the-amazing-digital-circus-the-last-act-vose"
         }
       ]
     }
