@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T07:00:00Z",
+  "updated_at": "2026-06-14T07:00:00Z",
   "movies": [
     {
       "id": "tmdb-1357813",
@@ -273,112 +273,6 @@
           "date": "2026-06-15",
           "time": "16:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3132"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-936075",
-      "title": "Michael (URBAN)",
-      "title_local": "Michael",
-      "poster": "posters/michael-urban.jpg",
-      "rating": 8.5,
-      "duration": 128,
-      "genres": [
-        "Música",
-        "Drama"
-      ],
-      "trailer_youtube_id": "k-YAcjaLuSI",
-      "showtimes": [
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-12",
-          "time": "17:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10008/p?michael-urban"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-12",
-          "time": "20:15",
-          "url": "https://www.ocinepremiumaqua.es/film-10008/p?michael-urban"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-12",
-          "time": "22:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10008/p?michael-urban"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "17:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10008/p?michael-urban"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "20:15",
-          "url": "https://www.ocinepremiumaqua.es/film-10008/p?michael-urban"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "22:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10008/p?michael-urban"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-14",
-          "time": "11:15",
-          "url": "https://www.ocinepremiumaqua.es/film-10008/p?michael-urban"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-14",
-          "time": "17:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10008/p?michael-urban"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-14",
-          "time": "20:15",
-          "url": "https://www.ocinepremiumaqua.es/film-10008/p?michael-urban"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-14",
-          "time": "22:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10008/p?michael-urban"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-15",
-          "time": "17:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10008/p?michael-urban"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-15",
-          "time": "20:15",
-          "url": "https://www.ocinepremiumaqua.es/film-10008/p?michael-urban"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-15",
-          "time": "22:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10008/p?michael-urban"
         }
       ]
     },
@@ -11878,88 +11772,24 @@
       ]
     },
     {
-      "id": "tmdb-1461201",
-      "title": "El guardían del árbol de alcanfor (VOSE)",
-      "title_local": "El guardián del árbol de alcanfor",
-      "poster": "posters/el-guardian-del-arbol-de-alcanfor-vose.jpg",
-      "rating": 8.0,
-      "duration": 113,
+      "id": "tmdb-1339713",
+      "title": "Obsession",
+      "title_local": "Obsesión",
+      "poster": "posters/obsession.jpg",
+      "rating": 7.9,
+      "duration": 100,
       "genres": [
-        "Animación",
-        "Drama",
-        "Misterio"
+        "Terror",
+        "Suspense"
       ],
-      "trailer_youtube_id": null,
+      "trailer_youtube_id": "gMC8kkwbIQQ",
       "showtimes": [
         {
-          "cinema": "ocine",
+          "cinema": "kinepolis",
           "language": "ES",
-          "date": "2026-06-12",
-          "time": "16:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10386/p?el-guarduan-del-arbol-de-alcanfor-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-12",
-          "time": "18:15",
-          "url": "https://www.ocinepremiumaqua.es/film-10386/p?el-guarduan-del-arbol-de-alcanfor-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "11:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10386/p?el-guarduan-del-arbol-de-alcanfor-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "16:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10386/p?el-guarduan-del-arbol-de-alcanfor-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "18:15",
-          "url": "https://www.ocinepremiumaqua.es/film-10386/p?el-guarduan-del-arbol-de-alcanfor-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-14",
-          "time": "11:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10386/p?el-guarduan-del-arbol-de-alcanfor-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-14",
-          "time": "16:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10386/p?el-guarduan-del-arbol-de-alcanfor-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-14",
-          "time": "18:15",
-          "url": "https://www.ocinepremiumaqua.es/film-10386/p?el-guarduan-del-arbol-de-alcanfor-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-15",
-          "time": "16:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10386/p?el-guarduan-del-arbol-de-alcanfor-vose"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-15",
-          "time": "18:15",
-          "url": "https://www.ocinepremiumaqua.es/film-10386/p?el-guarduan-del-arbol-de-alcanfor-vose"
+          "date": "2026-06-20",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/37328/HO00006388/0/obsession"
         }
       ]
     },
@@ -47634,6 +47464,104 @@
           "date": "2026-06-19",
           "time": "18:30",
           "url": "https://kinepolis.es/movies/detail/33766/HO00006159/0/toy-story-5"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-20",
+          "time": "16:45",
+          "url": "https://kinepolis.es/movies/detail/33766/HO00006498/0/toy-story-5"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-20",
+          "time": "19:15",
+          "url": "https://kinepolis.es/movies/detail/33766/HO00006498/0/toy-story-5"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/33766/HO00006159/0/toy-story-5"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/33766/HO00006159/0/toy-story-5"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/33766/HO00006159/0/toy-story-5"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "15:15",
+          "url": "https://kinepolis.es/movies/detail/33766/HO00006159/0/toy-story-5"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "14:45",
+          "url": "https://kinepolis.es/movies/detail/33766/HO00006159/0/toy-story-5"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "17:15",
+          "url": "https://kinepolis.es/movies/detail/33766/HO00006159/0/toy-story-5"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "19:45",
+          "url": "https://kinepolis.es/movies/detail/33766/HO00006159/0/toy-story-5"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "14:15",
+          "url": "https://kinepolis.es/movies/detail/33766/HO00006159/0/toy-story-5"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/33766/HO00006159/0/toy-story-5"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/33766/HO00006159/0/toy-story-5"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "16:15",
+          "url": "https://kinepolis.es/movies/detail/33766/HO00006159/0/toy-story-5"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "18:45",
+          "url": "https://kinepolis.es/movies/detail/33766/HO00006159/0/toy-story-5"
         }
       ]
     },
@@ -64634,6 +64562,20 @@
           "date": "2026-06-19",
           "time": "22:00",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "18:05",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
       ]
     },
@@ -80171,6 +80113,20 @@
           "date": "2026-06-19",
           "time": "20:25",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
       ]
     },
@@ -80787,6 +80743,13 @@
           "date": "2026-06-19",
           "time": "20:15",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/a-n-t-i-2026-felix-dare-to-dream/63907/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-06-20",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/a-n-t-i-2026-felix-dare-to-dream/63908/?step=2"
         }
       ]
     },
@@ -84935,53 +84898,6 @@
       ]
     },
     {
-      "id": "local-tia-visantica-coses-de-mare-valenciana",
-      "title": "Tia Visantica: Coses de mare Valenciana",
-      "title_local": "Tia Visantica: Coses de mare Valenciana",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/36664/HO00005926/0/tia-visantica-coses-de-mare-valenciana"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1701849",
-      "title": "BTS WORLD TOUR ARIRANG in BUSAN",
-      "title_local": "BTS World Tour ‘Arirang’ in Busan: Live Viewing",
-      "poster": "posters/bts-world-tour-arirang-in-busan.jpg",
-      "rating": null,
-      "duration": null,
-      "genres": [
-        "Música"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "09:45",
-          "url": "https://kinepolis.es/movies/detail/38407/HO00006487/0/bts-world-tour-arirang-in-busan"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "13:30",
-          "url": "https://kinepolis.es/movies/detail/38407/HO00006487/0/bts-world-tour-arirang-in-busan"
-        }
-      ]
-    },
-    {
       "id": "tmdb-1273221",
       "title": "Scary Movie 6",
       "title_local": "Scary Movie",
@@ -86686,30 +86602,28 @@
       ]
     },
     {
-      "id": "tmdb-1701849",
-      "title": "BTS WORLD TOUR ARIRANG IN BUSAN: LIVE VIEWING",
-      "title_local": "BTS World Tour ‘Arirang’ in Busan: Live Viewing",
-      "poster": "posters/bts-world-tour-arirang-in-busan-live-viewing.jpg",
+      "id": "local-cine-a-ciegas",
+      "title": "CINE A CIEGAS",
+      "title_local": "CINE A CIEGAS",
+      "poster": null,
       "rating": null,
       "duration": null,
-      "genres": [
-        "Música"
-      ],
+      "genres": [],
       "trailer_youtube_id": null,
       "showtimes": [
         {
-          "cinema": "yelmo",
+          "cinema": "mn4",
           "language": "ES",
-          "date": "2026-06-13",
-          "time": "11:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44794"
+          "date": "2026-06-19",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cine-a-ciegas/85852/?step=2"
         },
         {
-          "cinema": "yelmo",
+          "cinema": "mn4",
           "language": "ES",
-          "date": "2026-06-13",
-          "time": "15:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44794"
+          "date": "2026-06-26",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cine-a-ciegas/85853/?step=2"
         }
       ]
     },
@@ -87258,6 +87172,35 @@
           "date": "2026-06-14",
           "time": "16:30",
           "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3042"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1514847",
+      "title": "Ivan&Hadoum",
+      "title_local": "Iván & Hadoum",
+      "poster": "posters/ivan-hadoum.jpg",
+      "rating": null,
+      "duration": 100,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-06-14",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=45530"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-06-16",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=45533"
         }
       ]
     },
@@ -87895,32 +87838,6 @@
           "date": "2026-06-16",
           "time": "20:20",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=2540"
-        }
-      ]
-    },
-    {
-      "id": "local-bts-wourld-tour-arirang-in-busan",
-      "title": "BTS WOURLD TOUR 'ARIRANG' IN BUSAN",
-      "title_local": "BTS WOURLD TOUR 'ARIRANG' IN BUSAN",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "11:45",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3141"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "15:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3141"
         }
       ]
     },
@@ -89114,36 +89031,6 @@
       ]
     },
     {
-      "id": "tmdb-1692272",
-      "title": "PLAVE Asia Tour DASH: Quantum Leap Encore in Cinemas",
-      "title_local": "플레이브 아시아 투어 [대쉬: 퀀텀 리프] 앙코르 인 시네마",
-      "poster": "posters/plave-asia-tour-dash-quantum-leap-encore-in-cinemas.jpg",
-      "rating": null,
-      "duration": 139,
-      "genres": [
-        "Documental",
-        "Música",
-        "Animación"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-06-12",
-          "time": "22:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3148"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-06-13",
-          "time": "22:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3148"
-        }
-      ]
-    },
-    {
       "id": "local-shadow-of-forgotten-ancestors-1965",
       "title": "SHADOW OF FORGOTTEN ANCESTORS (1965)",
       "title_local": "SHADOW OF FORGOTTEN ANCESTORS (1965)",
@@ -89178,39 +89065,6 @@
           "date": "2026-07-09",
           "time": "20:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3123"
-        }
-      ]
-    },
-    {
-      "id": "local-the-furious-pase-especial-wilder-cinema",
-      "title": "THE FURIOUS - PASE ESPECIAL WILDER CINEMA",
-      "title_local": "THE FURIOUS - PASE ESPECIAL WILDER CINEMA",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-06-12",
-          "time": "22:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3149"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-06-13",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3149"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-06-13",
-          "time": "22:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3149"
         }
       ]
     },
@@ -89319,62 +89173,6 @@
           "date": "2026-06-14",
           "time": "16:00",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3171"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1701849",
-      "title": "BTS WORLD TOUR 'ARIRANG' IN BUSAN: LIVE VIEWING",
-      "title_local": "BTS World Tour ‘Arirang’ in Busan: Live Viewing",
-      "poster": "posters/bts-world-tour-arirang-in-busan-live-viewing.jpg",
-      "rating": null,
-      "duration": null,
-      "genres": [
-        "Música"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "11:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10292/p?bts-world-tour-arirang-in-busan-live-viewing"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "11:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10292/p?bts-world-tour-arirang-in-busan-live-viewing"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "15:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10293/p?bts-world-tour-arirang-in-busan-live-viewing"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1701849",
-      "title": "BTS WORLD TOUR 'ARIRANG' IN BUSAN: LIVE VIEWING (URBAN)",
-      "title_local": "BTS World Tour ‘Arirang’ in Busan: Live Viewing",
-      "poster": "posters/bts-world-tour-arirang-in-busan-live-viewing-urban.jpg",
-      "rating": null,
-      "duration": null,
-      "genres": [
-        "Música"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "11:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10409/p?bts-world-tour-arirang-in-busan-live-viewing-urban"
         }
       ]
     }
