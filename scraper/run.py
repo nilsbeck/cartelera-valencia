@@ -8,6 +8,7 @@ Writes: data/showtimes.json, posters/<slug>.jpg
 import json
 import os
 import re
+import sys
 import time
 import hashlib
 import requests
@@ -98,6 +99,33 @@ def merge_showtimes(existing: list, new: list) -> list:
     return result
 
 
+def _warn(message: str) -> None:
+    """Print a warning both as plain text and as a GitHub Actions annotation."""
+    print(f"  ⚠ WARNING: {message}")
+    # GHA annotation — shows up in the workflow log and step summary
+    print(f"::warning::{message}", flush=True)
+
+
+def _write_step_summary(failed: list, scrapers: list) -> None:
+    """Append a failure table to the GitHub Actions step summary if available."""
+    summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if not summary_path:
+        return
+    working = [cid for cid, _ in scrapers if cid not in failed]
+    lines = [
+        "## Scraper run summary\n",
+        "| Cinema | Status |",
+        "| --- | --- |",
+    ]
+    for cid in working:
+        lines.append(f"| {cid} | ✅ OK |")
+    for cid in failed:
+        lines.append(f"| {cid} | ❌ 0 showtimes |")
+    lines.append(f"\n> {len(failed)} scraper(s) need attention.\n")
+    with open(summary_path, "a", encoding="utf-8") as f:
+        f.write("\n".join(lines) + "\n")
+
+
 def run():
     print("── Cartelera Valencia Scraper ──")
     existing = load_existing()
@@ -113,6 +141,7 @@ def run():
 
     # Raw showtimes: list of dicts with title, language (raw), cinema, date, time, url
     all_raw = []
+    failed_cinemas: list[str] = []
     for cinema_id, scrape_fn in scrapers:
         print(f"\n[{cinema_id}] Scraping…")
         try:
@@ -121,9 +150,14 @@ def run():
                 r["cinema"]   = cinema_id
                 r["language"] = normalize_lang(r.get("language", ""))
             all_raw.extend(rows)
-            print(f"  → {len(rows)} showtimes")
+            if len(rows) == 0:
+                _warn(f"{cinema_id}: returned 0 showtimes — scraper may be broken or selectors need updating")
+                failed_cinemas.append(cinema_id)
+            else:
+                print(f"  → {len(rows)} showtimes")
         except Exception as e:
-            print(f"  ✗ Failed: {e}")
+            _warn(f"{cinema_id}: scraper raised an exception — {e}")
+            failed_cinemas.append(cinema_id)
 
     # Group by title
     by_title: dict[str, list] = {}
@@ -195,6 +229,11 @@ def run():
 
     total_st = sum(len(m["showtimes"]) for m in final_movies)
     print(f"\n✓ {len(final_movies)} movies, {total_st} showtimes → {DATA_FILE}")
+
+    if failed_cinemas:
+        _warn(f"SUMMARY: {len(failed_cinemas)} cinema(s) produced no data: {', '.join(failed_cinemas)}")
+        _write_step_summary(failed_cinemas, scrapers)
+        sys.exit(1)
 
 
 if __name__ == "__main__":

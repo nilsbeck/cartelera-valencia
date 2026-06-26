@@ -32,14 +32,26 @@ jobs:
         run: playwright install chromium --with-deps
 
       - name: Run scraper
+        id: scraper
+        continue-on-error: true
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: python scraper/run.py
 
       - name: Commit and push results
+        # Always commit whatever data was collected, even on partial failure
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/showtimes.json posters/
           git diff --cached --quiet || git commit -m "chore: update showtimes [skip ci]"
           git push
+
+      - name: Fail job if scraper had errors
+        # Re-raise the failure AFTER committing so the job is marked failed
+        # and GitHub sends an email notification to the repo owner.
+        if: steps.scraper.outcome == 'failure'
+        run: |
+          echo "::error::One or more cinema scrapers returned 0 showtimes. Check the step summary and scraper logs above."
+          exit 1
