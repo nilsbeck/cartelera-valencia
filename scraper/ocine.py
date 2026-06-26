@@ -101,6 +101,7 @@ def _log(msg: str) -> None:
 
 
 def _fetch_cartellera(proxy_url: "str | None", proxy_token: str) -> "dict | None":
+    import time
     if proxy_url:
         proxy_url = proxy_url.rstrip("/")
         hdrs: dict[str, str] = {}
@@ -108,10 +109,13 @@ def _fetch_cartellera(proxy_url: "str | None", proxy_token: str) -> "dict | None
             hdrs["X-Proxy-Token"] = proxy_token
         # Render free tier sleeps after inactivity; wake it with a cheap
         # health-check so the cold-start delay doesn't eat into our real fetch.
+        t0 = time.monotonic()
         try:
-            requests.get(f"{proxy_url}/", headers=hdrs, timeout=70)
-        except Exception:
-            pass  # warmup is best-effort; proceed regardless
+            resp = requests.get(f"{proxy_url}/", headers=hdrs, timeout=70)
+            _log(f"  [ocine] proxy warmup ok ({time.monotonic()-t0:.1f}s) status={resp.status_code} body={resp.text[:80]!r}")
+        except Exception as e:
+            _log(f"  [ocine] proxy warmup failed ({time.monotonic()-t0:.1f}s): {e}")
+        t1 = time.monotonic()
         try:
             r = requests.get(
                 f"{proxy_url}/fetch",
@@ -119,10 +123,11 @@ def _fetch_cartellera(proxy_url: "str | None", proxy_token: str) -> "dict | None
                 headers=hdrs,
                 timeout=30,
             )
+            _log(f"  [ocine] proxy fetch status={r.status_code} ({time.monotonic()-t1:.1f}s) body[:120]={r.text[:120]!r}")
             r.raise_for_status()
             return r.json()
         except Exception as e:
-            _log(f"  ⚠ Ocine JSON fetch (via proxy) failed: {e}")
+            _log(f"  ⚠ Ocine JSON fetch (via proxy) failed ({time.monotonic()-t1:.1f}s): {e}")
             return None
     else:
         try:
