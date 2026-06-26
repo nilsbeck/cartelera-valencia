@@ -1,10 +1,9 @@
 name: Scrape
 
-# Scheduled scraping now runs locally on your server in Docker — see
-# DOCKER.md. We keep this workflow only for manual triggers (workflow_dispatch)
-# in case you want to run a scrape from the Actions tab without the laptop.
-# Note: GitHub-hosted runners cannot reach ocinepremiumaqua.es (PR #57), so a
-# manual run here will skip Ocine.
+# Scheduled scraping runs locally on your server in Docker — see DOCKER.md.
+# This workflow exists only for manual triggers (workflow_dispatch).
+# NOTE: Ocine blocks all cloud/datacenter IPs so it returns 0 results here;
+# the Docker run (residential IP) is the only path that scrapes Ocine.
 
 on:
   workflow_dispatch:
@@ -43,9 +42,7 @@ jobs:
 
       - name: Run scraper
         env:
-          TMDB_API_KEY:      ${{ secrets.TMDB_API_KEY }}
-          OCINE_PROXY_URL:   ${{ secrets.OCINE_PROXY_URL }}
-          OCINE_PROXY_TOKEN: ${{ secrets.OCINE_PROXY_TOKEN }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: python scraper/run.py
 
       - name: Commit and push results
