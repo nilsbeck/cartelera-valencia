@@ -41,7 +41,9 @@ jobs:
 
       - name: Run scraper
         env:
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TMDB_API_KEY:      ${{ secrets.TMDB_API_KEY }}
+          OCINE_PROXY_URL:   ${{ secrets.OCINE_PROXY_URL }}
+          OCINE_PROXY_TOKEN: ${{ secrets.OCINE_PROXY_TOKEN }}
         run: python scraper/run.py
 
       - name: Commit and push results

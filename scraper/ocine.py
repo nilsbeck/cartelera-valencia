@@ -5,7 +5,7 @@ URL: https://www.ocinepremiumaqua.es/
 The Joomla com_cines module pre-generates a static JSON file at
 /components/com_cines/json/es_cartellera.json that contains all current
 sessions for all films.  We fetch that file with plain requests — no
-JavaScript rendering or proxy needed.
+JavaScript rendering needed.
 
 The JSON has two film arrays:
   data  — Spanish-dubbed versions  → language="es"
@@ -13,8 +13,16 @@ The JSON has two film arrays:
 
 Each film entry's Planificacions list contains one dict per session with
 plan_data (YYYY-MM-DD) and plan_horainici (HH:MM:SS).
+
+Ocine's server blocks cloud-datacenter IPs (GitHub Actions, AWS, etc.) at
+the TCP level.  When OCINE_PROXY_URL is set, requests are routed through the
+EU fetch-proxy on Render.  The proxy runs on Render's free tier which sleeps
+after inactivity, so the first call sends a cheap warm-up GET / before the
+real fetch.  That way the cold-start wait is absorbed by the warmup, and the
+actual JSON read completes quickly once the proxy is awake.
 """
 
+import os
 import re
 import requests
 from datetime import date, timedelta
@@ -92,19 +100,48 @@ def _log(msg: str) -> None:
     print(msg, flush=True)
 
 
-def _fetch_cartellera() -> "dict | None":
-    try:
-        r = requests.get(_CARTELLERA_JSON, headers=_HEADERS, timeout=30)
-        r.raise_for_status()
-        return r.json()
-    except Exception as e:
-        _log(f"  ⚠ Ocine JSON fetch failed: {e}")
-        return None
+def _fetch_cartellera(proxy_url: "str | None", proxy_token: str) -> "dict | None":
+    if proxy_url:
+        proxy_url = proxy_url.rstrip("/")
+        hdrs: dict[str, str] = {}
+        if proxy_token:
+            hdrs["X-Proxy-Token"] = proxy_token
+        # Render free tier sleeps after inactivity; wake it with a cheap
+        # health-check so the cold-start delay doesn't eat into our real fetch.
+        try:
+            requests.get(f"{proxy_url}/", headers=hdrs, timeout=70)
+        except Exception:
+            pass  # warmup is best-effort; proceed regardless
+        try:
+            r = requests.get(
+                f"{proxy_url}/fetch",
+                params={"url": _CARTELLERA_JSON},
+                headers=hdrs,
+                timeout=30,
+            )
+            r.raise_for_status()
+            return r.json()
+        except Exception as e:
+            _log(f"  ⚠ Ocine JSON fetch (via proxy) failed: {e}")
+            return None
+    else:
+        try:
+            r = requests.get(_CARTELLERA_JSON, headers=_HEADERS, timeout=30)
+            r.raise_for_status()
+            return r.json()
+        except Exception as e:
+            _log(f"  ⚠ Ocine JSON fetch failed: {e}")
+            return None
 
 
 def scrape() -> list[dict]:
-    _log("  [ocine] fetch mode: JSON direct")
-    data = _fetch_cartellera()
+    proxy_url   = os.environ.get("OCINE_PROXY_URL")
+    proxy_token = os.environ.get("OCINE_PROXY_TOKEN", "")
+
+    mode = "JSON via proxy" if proxy_url else "JSON direct"
+    _log(f"  [ocine] fetch mode: {mode}")
+
+    data = _fetch_cartellera(proxy_url, proxy_token)
     if not data:
         return []
 
