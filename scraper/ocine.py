@@ -49,18 +49,41 @@ _FORMAT_TAG_RE = re.compile(
     re.IGNORECASE,
 )
 
+# Ordered so longer/more-specific tokens are checked first.
+# "v.o.s.e" and "subtitulad" must precede "v.o." and "original"
+# so VOSE beats VO when both substrings are present.
+_LANG_TOKENS: list[tuple[str, str]] = [
+    ("vose",       "vose"),
+    ("v.o.s.e",    "vose"),
+    ("subtitulad", "vose"),
+    ("v.o.",       "vo"),
+    ("original",   "vo"),
+    ("doblad",     "es"),
+    ("castellano", "es"),
+    ("español",    "es"),
+]
 
-def _dates_until_next_thursday() -> set[str]:
+
+def _detect_lang(text: str) -> str:
+    """Infer a raw language tag from a version-label string."""
+    t = text.lower()
+    for token, lang in _LANG_TOKENS:
+        if token in t:
+            return lang
+    return "es"
+
+
+def _dates_until_next_thursday() -> list[str]:
     """ISO date strings from today through the upcoming Thursday (inclusive)."""
     today = date.today()
     days_ahead = (3 - today.weekday()) % 7  # Thursday = weekday 3
     if days_ahead == 0:
         days_ahead = 7
     end = today + timedelta(days=days_ahead)
-    result: set[str] = set()
+    result: list[str] = []
     d = today
     while d <= end:
-        result.add(d.isoformat())
+        result.append(d.isoformat())
         d += timedelta(days=1)
     return result
 
@@ -117,7 +140,7 @@ def scrape() -> list[dict]:
     if not data:
         return []
 
-    target_dates = _dates_until_next_thursday()
+    target_dates = set(_dates_until_next_thursday())
     results: list[dict] = []
 
     # "data" = ES dubbed, "vose" = original language + Spanish subtitles
