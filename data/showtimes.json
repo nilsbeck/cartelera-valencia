@@ -1,0 +1,1531 @@
+{
+  "updated_at": "2026-06-26T07:00:00Z",
+  "movies": [
+    {
+      "id": "tmdb-1339713",
+      "title": "Obsession",
+      "title_local": "Obsesión",
+      "poster": "posters/obsession.jpg",
+      "rating": 7.9,
+      "duration": 108,
+      "genres": [
+        "Terror",
+        "Suspense"
+      ],
+      "trailer_youtube_id": "gMC8kkwbIQQ",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/obsession/2382/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "20:05",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/obsession/2382/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/obsession/2382/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/obsession/2382/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/obsession/2382/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/obsession/2382/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/obsession/2382/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/obsession/2382/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/obsession/2382/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/obsession/2382/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/obsession/2382/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/obsession/2382/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/obsession/2382/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/obsession/2382/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/obsession/2382/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/obsession/2382/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/obsession/2382/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/obsession/2382/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/obsession/2382/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/obsession/2382/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/obsession/2382/"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1313229",
+      "title": "Nino",
+      "title_local": "Nino",
+      "poster": "posters/nino.jpg",
+      "rating": 7.3,
+      "duration": 96,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": "TVvFKulmNfI",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/nino/2384/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/nino/2384/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/nino/2384/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/nino/2384/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/nino/2384/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "22:25",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/nino/2384/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/nino/2384/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/nino/2384/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "22:25",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/nino/2384/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/nino/2384/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/nino/2384/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "22:25",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/nino/2384/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/nino/2384/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/nino/2384/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "22:25",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/nino/2384/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/nino/2384/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/nino/2384/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/nino/2384/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/nino/2384/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/nino/2384/"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1284016",
+      "title": "Letras robadas",
+      "title_local": "Letras robadas",
+      "poster": "posters/letras-robadas.jpg",
+      "rating": 7.3,
+      "duration": 99,
+      "genres": [
+        "Comedia",
+        "Música",
+        "Drama"
+      ],
+      "trailer_youtube_id": "-faiHUsbP_U",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/letras-robadas/2385/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "20:45",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/letras-robadas/2385/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/letras-robadas/2385/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/letras-robadas/2385/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/letras-robadas/2385/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/letras-robadas/2385/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/letras-robadas/2385/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/letras-robadas/2385/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/letras-robadas/2385/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/letras-robadas/2385/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/letras-robadas/2385/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/letras-robadas/2385/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/letras-robadas/2385/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/letras-robadas/2385/"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1340206",
+      "title": "Un talento único",
+      "title_local": "Un talento único",
+      "poster": "posters/un-talento-unico.jpg",
+      "rating": 7.2,
+      "duration": 109,
+      "genres": [
+        "Suspense",
+        "Crimen",
+        "Drama"
+      ],
+      "trailer_youtube_id": "HYxzyLVJORA",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/un-talento-unico/2363/"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1294698",
+      "title": "Caso 137",
+      "title_local": "Caso 137",
+      "poster": "posters/caso-137.jpg",
+      "rating": 7.0,
+      "duration": 115,
+      "genres": [
+        "Crimen",
+        "Drama"
+      ],
+      "trailer_youtube_id": "DRKJKfGbEjc",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/caso-137/2378/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/caso-137/2378/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/caso-137/2378/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/caso-137/2378/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/caso-137/2378/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/caso-137/2378/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/caso-137/2378/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/caso-137/2378/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/caso-137/2378/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/caso-137/2378/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "22:25",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/caso-137/2378/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/caso-137/2378/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/caso-137/2378/"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1325734",
+      "title": "El drama",
+      "title_local": "El drama",
+      "poster": "posters/el-drama.jpg",
+      "rating": 7.0,
+      "duration": 105,
+      "genres": [
+        "Romance",
+        "Comedia",
+        "Drama"
+      ],
+      "trailer_youtube_id": "0ZDzsH3XGFA",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/el-drama/2308/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "20:05",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/el-drama/2308/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "20:05",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/el-drama/2308/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "20:05",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/el-drama/2308/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "20:05",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/el-drama/2308/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/el-drama/2308/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/el-drama/2308/"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1083381",
+      "title": "Backrooms",
+      "title_local": "Backrooms",
+      "poster": "posters/backrooms.jpg",
+      "rating": 6.9,
+      "duration": 105,
+      "genres": [
+        "Terror",
+        "Misterio",
+        "Ciencia ficción"
+      ],
+      "trailer_youtube_id": "0HjdiohVOik",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/backrooms/2355/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/backrooms/2355/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/backrooms/2355/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/backrooms/2355/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/backrooms/2355/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/backrooms/2355/"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1275779",
+      "title": "El día de la revelación",
+      "title_local": "El día de la revelación",
+      "poster": "posters/el-dia-de-la-revelacion.jpg",
+      "rating": 6.7,
+      "duration": 145,
+      "genres": [
+        "Ciencia ficción",
+        "Suspense"
+      ],
+      "trailer_youtube_id": "icDuEHSxE-w",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "18:05",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/el-dia-de-la-revelacion/2366/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/el-dia-de-la-revelacion/2366/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/el-dia-de-la-revelacion/2366/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/el-dia-de-la-revelacion/2366/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/el-dia-de-la-revelacion/2366/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/el-dia-de-la-revelacion/2366/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/el-dia-de-la-revelacion/2366/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/el-dia-de-la-revelacion/2366/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/el-dia-de-la-revelacion/2366/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/el-dia-de-la-revelacion/2366/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/el-dia-de-la-revelacion/2366/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/el-dia-de-la-revelacion/2366/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/el-dia-de-la-revelacion/2366/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/el-dia-de-la-revelacion/2366/"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1211442",
+      "title": "Rebuilding",
+      "title_local": "Rebuilding",
+      "poster": "posters/rebuilding.jpg",
+      "rating": 6.5,
+      "duration": 96,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": "QkwoapyJjiI",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/rebuilding/2350/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/rebuilding/2350/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/rebuilding/2350/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/rebuilding/2350/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/rebuilding/2350/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/rebuilding/2350/"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1091275",
+      "title": "Los últimos días de María Antonieta",
+      "title_local": "Los últimos días de María Antonieta",
+      "poster": "posters/los-ultimos-dias-de-maria-antonieta.jpg",
+      "rating": 6.1,
+      "duration": 101,
+      "genres": [
+        "Drama",
+        "Historia"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/2389/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/2389/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/2389/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/2389/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/2389/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/2389/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/2389/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/2389/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/2389/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/2389/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/2389/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/2389/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/2389/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/2389/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/2389/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/2389/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/2389/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/2389/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/2389/"
+        }
+      ]
+    },
+    {
+      "id": "local-cine-con-cineastas-morir-no-siempre-sale-bien",
+      "title": "Cine con cineastas – Morir no siempre sale bien",
+      "title_local": "Cine con cineastas – Morir no siempre sale bien",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/cine-con-cineastas---morir-no-siempre-sale-bien/2375/"
+        }
+      ]
+    },
+    {
+      "id": "local-30-a-os-30-peliculas-profundo-carmesi",
+      "title": "30 años 30 películas – Profundo carmesí",
+      "title_local": "30 años 30 películas – Profundo carmesí",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "20:05",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/30-anos-30-peliculas---profundo-carmesi/2390/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/30-anos-30-peliculas---profundo-carmesi/2390/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/30-anos-30-peliculas---profundo-carmesi/2390/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/30-anos-30-peliculas---profundo-carmesi/2390/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/30-anos-30-peliculas---profundo-carmesi/2390/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/30-anos-30-peliculas---profundo-carmesi/2390/"
+        }
+      ]
+    },
+    {
+      "id": "local-produccion-valenciana-morir-no-siempre-sale-bien",
+      "title": "Producción valenciana – Morir no siempre sale bien",
+      "title_local": "Producción valenciana – Morir no siempre sale bien",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/produccion-valenciana---morir-no-siempre-sale-bien/2374/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/produccion-valenciana---morir-no-siempre-sale-bien/2374/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/produccion-valenciana---morir-no-siempre-sale-bien/2374/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/produccion-valenciana---morir-no-siempre-sale-bien/2374/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/produccion-valenciana---morir-no-siempre-sale-bien/2374/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/produccion-valenciana---morir-no-siempre-sale-bien/2374/"
+        }
+      ]
+    },
+    {
+      "id": "local-30-a-os-30-peliculas-paris-texas",
+      "title": "30 años 30 películas – Paris, Texas",
+      "title_local": "30 años 30 películas – Paris, Texas",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/30-anos-30-peliculas---paris-texas/2368/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/30-anos-30-peliculas---paris-texas/2368/"
+        }
+      ]
+    },
+    {
+      "id": "local-cine-club-profundo-carmesi",
+      "title": "Cine Club – Profundo carmesí",
+      "title_local": "Cine Club – Profundo carmesí",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/cine-club---profundo-carmesi/2392/"
+        }
+      ]
+    },
+    {
+      "id": "local-30-a-os-30-peliculas-in-the-mood-for-love-deseando-amar",
+      "title": "30 años 30 películas – In the mood for love (Deseando amar)",
+      "title_local": "30 años 30 películas – In the mood for love (Deseando amar)",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/30-anos-30-peliculas---in-the-mood-for-love-deseando-amar/2295/"
+        }
+      ]
+    },
+    {
+      "id": "local-power-point-party-edicion-cine-04",
+      "title": "Power Point Party. Edición Cine 04",
+      "title_local": "Power Point Party. Edición Cine 04",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/power-point-party-edicion-cine-04/2360/"
+        }
+      ]
+    },
+    {
+      "id": "local-akira-4k",
+      "title": "Akira 4K",
+      "title_local": "Akira 4K",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/akira-4k/2383/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/akira-4k/2383/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-05",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/akira-4k/2383/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-08",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/akira-4k/2383/"
+        }
+      ]
+    },
+    {
+      "id": "local-oh-pera-tosca",
+      "title": "óh!pera – Tosca",
+      "title_local": "óh!pera – Tosca",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-09",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/oh-pera---tosca/2393/"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1368337",
+      "title": "La odisea",
+      "title_local": "La Odisea",
+      "poster": "posters/la-odisea.jpg",
+      "rating": null,
+      "duration": 172,
+      "genres": [
+        "Aventura",
+        "Acción",
+        "Fantasía"
+      ],
+      "trailer_youtube_id": "f_bKjZeJBBI",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/la-odisea/2391/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "19:05",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/la-odisea/2391/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "21:45",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/la-odisea/2391/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-18",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/la-odisea/2391/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-18",
+          "time": "19:05",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/la-odisea/2391/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-18",
+          "time": "21:45",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/la-odisea/2391/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-19",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/la-odisea/2391/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-19",
+          "time": "19:05",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/la-odisea/2391/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-19",
+          "time": "21:45",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/la-odisea/2391/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-20",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/la-odisea/2391/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-20",
+          "time": "19:05",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/la-odisea/2391/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-20",
+          "time": "21:45",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/la-odisea/2391/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-21",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/la-odisea/2391/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-21",
+          "time": "19:05",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/la-odisea/2391/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-21",
+          "time": "21:45",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/la-odisea/2391/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-22",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/la-odisea/2391/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-22",
+          "time": "19:05",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/la-odisea/2391/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-22",
+          "time": "21:45",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/la-odisea/2391/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-23",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/la-odisea/2391/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-23",
+          "time": "19:05",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/la-odisea/2391/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-23",
+          "time": "21:45",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/la-odisea/2391/"
+        }
+      ]
+    },
+    {
+      "id": "local-oh-pera-aida",
+      "title": "óh!pera – Aida",
+      "title_local": "óh!pera – Aida",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-23",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/oh-pera---aida/2394/"
+        }
+      ]
+    },
+    {
+      "id": "local-oh-pera-otello",
+      "title": "óh!pera – Otello",
+      "title_local": "óh!pera – Otello",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-08-06",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/oh-pera---otello/2395/"
+        }
+      ]
+    },
+    {
+      "id": "local-oh-pera-andrea-chenier",
+      "title": "óh!pera – Andrea Chénier",
+      "title_local": "óh!pera – Andrea Chénier",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-08-20",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/oh-pera---andrea-chenier/2386/"
+        }
+      ]
+    },
+    {
+      "id": "local-oh-pera-carmen",
+      "title": "óh!pera – Carmen",
+      "title_local": "óh!pera – Carmen",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/oh-pera---carmen/2387/"
+        }
+      ]
+    },
+    {
+      "id": "local-oh-pera-nabucco",
+      "title": "óh!pera – Nabucco",
+      "title_local": "óh!pera – Nabucco",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-09-17",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/oh-pera---nabucco/2388/"
+        }
+      ]
+    }
+  ]
+}
