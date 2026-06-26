@@ -14,15 +14,13 @@ The JSON has two film arrays:
 Each film entry's Planificacions list contains one dict per session with
 plan_data (YYYY-MM-DD) and plan_horainici (HH:MM:SS).
 
-Ocine's server blocks cloud-datacenter IPs (GitHub Actions, AWS, etc.) at
-the TCP level.  When OCINE_PROXY_URL is set, requests are routed through the
-EU fetch-proxy on Render.  The proxy runs on Render's free tier which sleeps
-after inactivity, so the first call sends a cheap warm-up GET / before the
-real fetch.  That way the cold-start wait is absorbed by the warmup, and the
-actual JSON read completes quickly once the proxy is awake.
+NOTE: Ocine silently drops connections from cloud-datacenter IPs (GitHub
+Actions, Render, AWS, etc.) — the TCP handshake completes but no data is
+ever sent, so every read eventually times out.  This scraper only works
+from a residential IP (the scheduled Docker run).  The manual GitHub
+Actions trigger will always return 0 results for Ocine.
 """
 
-import os
 import re
 import requests
 from datetime import date, timedelta
@@ -100,53 +98,22 @@ def _log(msg: str) -> None:
     print(msg, flush=True)
 
 
-def _fetch_cartellera(proxy_url: "str | None", proxy_token: str) -> "dict | None":
-    import time
-    if proxy_url:
-        proxy_url = proxy_url.rstrip("/")
-        hdrs: dict[str, str] = {}
-        if proxy_token:
-            hdrs["X-Proxy-Token"] = proxy_token
-        # Render free tier sleeps after inactivity; wake it with a cheap
-        # health-check so the cold-start delay doesn't eat into our real fetch.
-        t0 = time.monotonic()
-        try:
-            resp = requests.get(f"{proxy_url}/", headers=hdrs, timeout=70)
-            _log(f"  [ocine] proxy warmup ok ({time.monotonic()-t0:.1f}s) status={resp.status_code} body={resp.text[:80]!r}")
-        except Exception as e:
-            _log(f"  [ocine] proxy warmup failed ({time.monotonic()-t0:.1f}s): {e}")
-        t1 = time.monotonic()
-        try:
-            r = requests.get(
-                f"{proxy_url}/fetch",
-                params={"url": _CARTELLERA_JSON},
-                headers=hdrs,
-                timeout=30,
-            )
-            _log(f"  [ocine] proxy fetch status={r.status_code} ({time.monotonic()-t1:.1f}s) body[:120]={r.text[:120]!r}")
-            r.raise_for_status()
-            return r.json()
-        except Exception as e:
-            _log(f"  ⚠ Ocine JSON fetch (via proxy) failed ({time.monotonic()-t1:.1f}s): {e}")
-            return None
-    else:
-        try:
-            r = requests.get(_CARTELLERA_JSON, headers=_HEADERS, timeout=30)
-            r.raise_for_status()
-            return r.json()
-        except Exception as e:
-            _log(f"  ⚠ Ocine JSON fetch failed: {e}")
-            return None
+def _fetch_cartellera() -> "dict | None":
+    try:
+        r = requests.get(_CARTELLERA_JSON, headers=_HEADERS, timeout=30)
+        r.raise_for_status()
+        return r.json()
+    except requests.exceptions.ConnectTimeout:
+        _log("  ⚠ Ocine: connection timed out — server blocks cloud/datacenter IPs; skipping")
+        return None
+    except Exception as e:
+        _log(f"  ⚠ Ocine JSON fetch failed: {e}")
+        return None
 
 
 def scrape() -> list[dict]:
-    proxy_url   = os.environ.get("OCINE_PROXY_URL")
-    proxy_token = os.environ.get("OCINE_PROXY_TOKEN", "")
-
-    mode = "JSON via proxy" if proxy_url else "JSON direct"
-    _log(f"  [ocine] fetch mode: {mode}")
-
-    data = _fetch_cartellera(proxy_url, proxy_token)
+    _log("  [ocine] fetch mode: JSON direct")
+    data = _fetch_cartellera()
     if not data:
         return []
 
