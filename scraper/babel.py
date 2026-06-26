@@ -150,12 +150,8 @@ def scrape() -> list[dict]:
     results = []
     phase1: list[dict] = []
 
-    try:
-        r = requests.get(f"{BASE_URL}/cartelera/", headers=_HEADERS, timeout=30)
-        r.raise_for_status()
-    except Exception as e:
-        print(f"  ⚠ Babel (cartelera) error: {e}")
-        return []
+    r = requests.get(f"{BASE_URL}/cartelera/", headers=_HEADERS, timeout=30)
+    r.raise_for_status()
 
     soup = BeautifulSoup(r.text, "html.parser")
 

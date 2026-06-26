@@ -220,7 +220,7 @@ def run():
             print(f"  ⚠ Scraper failed: {cid}: {err}")
 
     warnings = [f"Scraper failed — {cid}: {err}" for cid, err in scraper_errors]
-    for w in validate_per_cinema_per_day(all_raw):
+    for w in validate_per_cinema_per_day(all_raw, scraper_errors):
         cinema = w.split(" ")[0]
         if cinema in cinema_diags:
             w = w + "\n    " + "\n    ".join(cinema_diags[cinema])
@@ -321,8 +321,16 @@ def run():
     return warnings, summary
 
 
-def validate_per_cinema_per_day(all_raw: list[dict]) -> list[str]:
-    """Return warning strings for any cinema missing showtimes on an expected day."""
+def validate_per_cinema_per_day(
+    all_raw: list[dict],
+    scraper_errors: "list[tuple] | None" = None,
+) -> list[str]:
+    """Return warning strings for any cinema missing showtimes on an expected day.
+
+    Cinemas that already appear in scraper_errors are skipped — the error
+    entry there carries the actual failure reason and re-reporting them here
+    would produce redundant, less informative warnings.
+    """
     today = date.today()
     std_dates = {(today + timedelta(days=i)).isoformat() for i in range(7)}
     # Lys and MN4 multi-day data comes from reservaentradas.com /sesiones/
@@ -346,10 +354,13 @@ def validate_per_cinema_per_day(all_raw: list[dict]) -> list[str]:
         "kinepolis":     std_dates,
     }
 
+    already_reported = {cid for cid, _ in (scraper_errors or [])}
     covered_cinemas: set[str] = {row["cinema"] for row in all_raw}
 
     warnings = []
     for cinema in sorted(expected):
+        if cinema in already_reported:
+            continue  # error already surfaced with full details in scraper_errors
         if cinema not in covered_cinemas:
             warnings.append(f"{cinema} has no show dates at all")
 

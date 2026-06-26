@@ -141,9 +141,8 @@ def scrape() -> list[dict]:
             status = resp.status if resp else None
             page.wait_for_selector("h3 a[href*='/sinopsis/']", timeout=15000)
         except Exception as e:
-            _log(f"  ⚠ Yelmo cartelera enumeration failed (status={status}): {e}")
             browser.close()
-            return []
+            raise RuntimeError(f"Yelmo cartelera load failed (status={status}): {e}") from e
 
         movies = page.evaluate(r"""() => {
             const seen = new Map();
@@ -159,9 +158,8 @@ def scrape() -> list[dict]:
         }""")
 
         if not movies:
-            _log(f"  ⚠ Yelmo: no movies found on cartelera (status={status})")
             browser.close()
-            return []
+            raise RuntimeError(f"Yelmo: no movies found on cartelera (status={status})")
 
         # ── Phase 2: walk each movie's sinopsis page across dates ─────
         diagnosed = False
