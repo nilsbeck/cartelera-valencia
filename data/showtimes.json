@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T07:00:00Z",
+  "updated_at": "2026-06-27T07:00:00Z",
   "movies": [
     {
       "id": "tmdb-655",
@@ -1806,6 +1806,13 @@
           "date": "2026-07-02",
           "time": "22:10",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3145"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-27",
+          "time": "19:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=45359"
         }
       ]
     },
@@ -1843,6 +1850,13 @@
           "date": "2026-07-05",
           "time": "20:15",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=2985"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-03",
+          "time": "18:40",
+          "url": "https://kinepolis.es/movies/detail/12002/HO00003175/0/akira"
         }
       ]
     },
@@ -4878,6 +4892,69 @@
           "language": "ES",
           "date": "2026-07-02",
           "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "16:45",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-03",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006484/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-03",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006484/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "18:00",
           "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
         }
       ]
@@ -17097,6 +17174,62 @@
           "date": "2026-07-02",
           "time": "22:30",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3188"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-27",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46404"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "16:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46424"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-28",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46423"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "16:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46443"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-29",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46442"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "16:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46461"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-30",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46462"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "20:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3188"
         }
       ]
     },
@@ -17706,6 +17839,36 @@
           "date": "2026-07-02",
           "time": "16:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3192"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-13597",
+      "title": "DENTRO DEL LABERINTO (LA CUEVA SHOW)",
+      "title_local": "Dentro del laberinto",
+      "poster": "posters/dentro-del-laberinto-la-cueva-show.jpg",
+      "rating": 7.3,
+      "duration": 101,
+      "genres": [
+        "Aventura",
+        "Familia",
+        "Fantasía"
+      ],
+      "trailer_youtube_id": "8bJy0GF2RZ0",
+      "showtimes": [
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/dentro-del-laberinto-la-cueva-show/85524/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/dentro-del-laberinto-la-cueva-show/85525/?step=2"
         }
       ]
     },
@@ -40408,547 +40571,6 @@
       ]
     },
     {
-      "id": "tmdb-1117857",
-      "title": "DREAMS",
-      "title_local": "En sueños",
-      "poster": "posters/dreams.jpg",
-      "rating": 7.0,
-      "duration": 87,
-      "genres": [
-        "Aventura",
-        "Animación",
-        "Comedia"
-      ],
-      "trailer_youtube_id": "Jjjcn4acAC8",
-      "showtimes": [
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-06-19",
-          "time": "19:45",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383539/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-06-19",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383540/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-06-20",
-          "time": "19:45",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383541/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-06-20",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383542/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-06-21",
-          "time": "19:45",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383543/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-06-21",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383544/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-06-22",
-          "time": "19:45",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383653/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-06-23",
-          "time": "19:45",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383654/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-06-23",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383701/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-06-24",
-          "time": "19:45",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383596/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-06-24",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383597/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-19",
-          "time": "16:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-19",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-19",
-          "time": "22:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-20",
-          "time": "16:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-20",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-20",
-          "time": "22:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-21",
-          "time": "12:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-21",
-          "time": "16:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-21",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-21",
-          "time": "22:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-22",
-          "time": "16:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-22",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-22",
-          "time": "22:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-23",
-          "time": "16:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-23",
-          "time": "22:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-24",
-          "time": "16:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-24",
-          "time": "18:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-24",
-          "time": "22:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-25",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-25",
-          "time": "18:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-25",
-          "time": "22:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-06-19",
-          "time": "18:35",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-06-20",
-          "time": "18:35",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-06-21",
-          "time": "18:35",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-06-22",
-          "time": "18:35",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-06-23",
-          "time": "18:35",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-06-24",
-          "time": "18:35",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-06-25",
-          "time": "18:35",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-19",
-          "time": "18:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-19",
-          "time": "22:20",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-20",
-          "time": "18:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-20",
-          "time": "22:20",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-21",
-          "time": "18:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-21",
-          "time": "22:20",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-22",
-          "time": "18:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-22",
-          "time": "22:20",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-23",
-          "time": "18:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-23",
-          "time": "22:20",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-24",
-          "time": "18:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-24",
-          "time": "22:20",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-25",
-          "time": "18:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-25",
-          "time": "22:20",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-06-23",
-          "time": "19:45",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383654/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-06-23",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383701/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-06-24",
-          "time": "19:45",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383596/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-06-24",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383597/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-06-26",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383798/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-06-27",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383799/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-06-28",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383800/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-06-29",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383942/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-06-30",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383943/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-26",
-          "time": "16:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-26",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-27",
-          "time": "16:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-27",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-28",
-          "time": "16:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-28",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-29",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-30",
-          "time": "20:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-06-26",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383798/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-06-27",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383799/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-06-28",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383800/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-06-29",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383942/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-06-30",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383943/?step=2"
-        }
-      ]
-    },
-    {
       "id": "tmdb-1325734",
       "title": "El drama",
       "title_local": "El drama",
@@ -45294,6 +44916,547 @@
           "date": "2026-07-02",
           "time": "20:10",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-drama/65088/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1117857",
+      "title": "DREAMS",
+      "title_local": "En sueños",
+      "poster": "posters/dreams.jpg",
+      "rating": 7.0,
+      "duration": 87,
+      "genres": [
+        "Aventura",
+        "Animación",
+        "Comedia"
+      ],
+      "trailer_youtube_id": "Jjjcn4acAC8",
+      "showtimes": [
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-06-19",
+          "time": "19:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383539/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-06-19",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383540/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-06-20",
+          "time": "19:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383541/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-06-20",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383542/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-06-21",
+          "time": "19:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383543/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-06-21",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383544/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-06-22",
+          "time": "19:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383653/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-06-23",
+          "time": "19:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383654/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-06-23",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383701/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-06-24",
+          "time": "19:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383596/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-06-24",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383597/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-19",
+          "time": "16:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-19",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-19",
+          "time": "22:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "16:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "22:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-21",
+          "time": "12:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-21",
+          "time": "16:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-21",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-21",
+          "time": "22:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-22",
+          "time": "16:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-22",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-22",
+          "time": "22:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-23",
+          "time": "16:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-23",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-24",
+          "time": "16:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-24",
+          "time": "18:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-24",
+          "time": "22:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-25",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-25",
+          "time": "18:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-25",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-06-19",
+          "time": "18:35",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "18:35",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-06-21",
+          "time": "18:35",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-06-22",
+          "time": "18:35",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-06-23",
+          "time": "18:35",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-06-24",
+          "time": "18:35",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-06-25",
+          "time": "18:35",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-06-19",
+          "time": "18:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-06-19",
+          "time": "22:20",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "18:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "22:20",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-06-21",
+          "time": "18:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-06-21",
+          "time": "22:20",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-06-22",
+          "time": "18:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-06-22",
+          "time": "22:20",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-06-23",
+          "time": "18:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-06-23",
+          "time": "22:20",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-06-24",
+          "time": "18:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-06-24",
+          "time": "22:20",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-06-25",
+          "time": "18:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-06-25",
+          "time": "22:20",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-06-23",
+          "time": "19:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383654/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-06-23",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383701/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-06-24",
+          "time": "19:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383596/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-06-24",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383597/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-06-26",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383798/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-06-27",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383799/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-06-28",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383800/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-06-29",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383942/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-06-30",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383943/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "16:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "16:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "16:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "20:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3177"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383798/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383799/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383800/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383942/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/dreams/383943/?step=2"
         }
       ]
     },
@@ -51526,6 +51689,48 @@
           "date": "2026-07-02",
           "time": "18:00",
           "url": "https://kinepolis.es/movies/detail/33766/HO00006159/0/toy-story-5"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "16:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46504"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "18:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46504"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "20:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46504"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "16:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46507"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "18:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46507"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "20:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46507"
         }
       ]
     },
@@ -55516,6 +55721,13 @@
           "language": "VOSE",
           "date": "2026-07-02",
           "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/caso-137/65098/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-02",
+          "time": "22:10",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/caso-137/65098/?step=2"
         }
       ]
@@ -62696,6 +62908,34 @@
           "language": "ES",
           "date": "2026-07-02",
           "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/37920/HO00006476/0/backrooms"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "20:05",
+          "url": "https://kinepolis.es/movies/detail/37920/HO00006476/0/backrooms"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/37920/HO00006476/0/backrooms"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/37920/HO00006476/0/backrooms"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "20:00",
           "url": "https://kinepolis.es/movies/detail/37920/HO00006476/0/backrooms"
         }
       ]
@@ -70529,6 +70769,13 @@
           "date": "2026-07-02",
           "time": "20:35",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/rebuilding/65092/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-01",
+          "time": "22:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/rebuilding/65068/?step=2"
         }
       ]
     },
@@ -72406,6 +72653,20 @@
           "cinema": "dor",
           "language": "ES",
           "date": "2026-07-02",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-07-03",
           "time": "22:10",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -77570,6 +77831,13 @@
           "date": "2026-07-02",
           "time": "21:45",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3014"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "22:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3014"
         }
       ]
     },
@@ -79692,6 +79960,154 @@
           "date": "2026-06-30",
           "time": "22:10",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/habitacion-n-ordm-13/86419/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1091275",
+      "title": "Los últimos días de María Antonieta",
+      "title_local": "Los últimos días de María Antonieta",
+      "poster": "posters/los-ultimos-dias-de-maria-antonieta.jpg",
+      "rating": 6.1,
+      "duration": 101,
+      "genres": [
+        "Drama",
+        "Historia"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-06-26",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/64969/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-06-26",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/64979/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-06-26",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/64976/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-06-27",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65013/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-06-27",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65004/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-06-27",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65014/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-06-28",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65015/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-06-28",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65005/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-06-28",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65016/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-06-29",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65017/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-06-29",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65006/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-06-29",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65018/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-06-30",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/64985/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-06-30",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/64982/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-06-30",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/64986/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-01",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65065/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-01",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65062/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-02",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65085/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-02",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65082/?step=2"
         }
       ]
     },
@@ -81847,154 +82263,6 @@
       ]
     },
     {
-      "id": "tmdb-1091275",
-      "title": "Los últimos días de María Antonieta",
-      "title_local": "Los últimos días de María Antonieta",
-      "poster": "posters/los-ultimos-dias-de-maria-antonieta.jpg",
-      "rating": 6.1,
-      "duration": 101,
-      "genres": [
-        "Drama",
-        "Historia"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-06-26",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/64969/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-06-26",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/64979/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-06-26",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/64976/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-06-27",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65013/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-06-27",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65004/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-06-27",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65014/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-06-28",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65015/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-06-28",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65005/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-06-28",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65016/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-06-29",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65017/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-06-29",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65006/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-06-29",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65018/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-06-30",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/64985/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-06-30",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/64982/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-06-30",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/64986/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-01",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65065/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-01",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65062/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-02",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65085/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-02",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/los-ultimos-dias-de-maria-antonieta/65082/?step=2"
-        }
-      ]
-    },
-    {
       "id": "tmdb-278924",
       "title": "RESURRECTION",
       "title_local": "Mechanic: Resurrection",
@@ -82104,6 +82372,20 @@
           "cinema": "dor",
           "language": "ES",
           "date": "2026-07-02",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "16:45",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-07-03",
           "time": "20:25",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -82885,6 +83167,13 @@
           "language": "ES",
           "date": "2026-07-02",
           "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/6922/HO00006386/0/masters-del-universo"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "19:40",
           "url": "https://kinepolis.es/movies/detail/6922/HO00006386/0/masters-del-universo"
         }
       ]
@@ -88782,6 +89071,69 @@
           "date": "2026-07-02",
           "time": "22:20",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3167"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-27",
+          "time": "16:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46509"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46496"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "18:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46496"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46496"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "22:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46496"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46501"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "18:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46501"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46501"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "22:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46501"
         }
       ]
     },
@@ -88920,6 +89272,755 @@
           "date": "2026-06-28",
           "time": "20:20",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1447881",
+      "title": "Producción valenciana – Morir no siempre sale bien",
+      "title_local": "Morir no siempre sale bien",
+      "poster": "posters/produccion-valenciana-morir-no-siempre-sale-bien.jpg",
+      "rating": null,
+      "duration": 97,
+      "genres": [
+        "Comedia"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-morir-no-siempre-sale-bien/65049/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-morir-no-siempre-sale-bien/65050/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-morir-no-siempre-sale-bien/65051/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-morir-no-siempre-sale-bien/65052/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-morir-no-siempre-sale-bien/65053/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-morir-no-siempre-sale-bien/65054/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-morir-no-siempre-sale-bien/64997/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-morir-no-siempre-sale-bien/64998/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-morir-no-siempre-sale-bien/65077/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-morir-no-siempre-sale-bien/65095/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-power-point-party-edicion-cine-04",
+      "title": "Power Point Party. Edición Cine 04",
+      "title_local": "Power Point Party. Edición Cine 04",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/power-point-party-edicion-cine-04/64647/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-akira-4k-1988",
+      "title": "Akira 4K",
+      "title_local": "Akira 4K",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-07-03",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2985"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-07-04",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2985"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-07-05",
+          "time": "20:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2985"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-03",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/akira-4k/64927/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-04",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/akira-4k/64928/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-05",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/akira-4k/64929/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-08",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/akira-4k/64930/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-oh-pera-tosca",
+      "title": "óh!pera – Tosca",
+      "title_local": "óh!pera – Tosca",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-07-09",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/oh-pera-tosca/64957/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1368337",
+      "title": "LA ODISEA",
+      "title_local": "La Odisea",
+      "poster": "posters/la-odisea.jpg",
+      "rating": null,
+      "duration": 172,
+      "genres": [
+        "Aventura",
+        "Acción",
+        "Fantasía"
+      ],
+      "trailer_youtube_id": "f_bKjZeJBBI",
+      "showtimes": [
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "18:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "19:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-07-17",
+          "time": "20:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "21:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-18",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-18",
+          "time": "18:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-18",
+          "time": "19:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-07-18",
+          "time": "20:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-18",
+          "time": "21:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-19",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-19",
+          "time": "18:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-19",
+          "time": "19:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-07-19",
+          "time": "20:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-19",
+          "time": "21:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "16:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "19:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "21:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-18",
+          "time": "16:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-18",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-18",
+          "time": "19:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-18",
+          "time": "21:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-19",
+          "time": "16:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-19",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-19",
+          "time": "19:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-19",
+          "time": "21:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "18:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "19:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-07-17",
+          "time": "20:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-18",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-18",
+          "time": "18:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-18",
+          "time": "19:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-07-18",
+          "time": "20:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-18",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-19",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-19",
+          "time": "18:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-19",
+          "time": "19:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-07-19",
+          "time": "20:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-19",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "00:01",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-17",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64941/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-17",
+          "time": "19:05",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64942/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-17",
+          "time": "21:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64934/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-18",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64943/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-18",
+          "time": "19:05",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64944/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-18",
+          "time": "21:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64935/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-19",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64945/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-19",
+          "time": "19:05",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64946/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-19",
+          "time": "21:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64936/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-20",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64947/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-20",
+          "time": "19:05",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64948/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-20",
+          "time": "21:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64937/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-21",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64949/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-21",
+          "time": "19:05",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64950/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-21",
+          "time": "21:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64938/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-22",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64951/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-22",
+          "time": "19:05",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64952/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-22",
+          "time": "21:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64939/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-23",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64953/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-23",
+          "time": "19:05",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64954/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-23",
+          "time": "21:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64940/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-07-16",
+          "time": "00:01",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
+        }
+      ]
+    },
+    {
+      "id": "local-oh-pera-aida",
+      "title": "óh!pera – Aida",
+      "title_local": "óh!pera – Aida",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-07-23",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/oh-pera-aida/64962/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-oh-pera-otello",
+      "title": "óh!pera – Otello",
+      "title_local": "óh!pera – Otello",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-08-06",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/oh-pera-otello/64958/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-oh-pera-andrea-chenier",
+      "title": "óh!pera – Andrea Chénier",
+      "title_local": "óh!pera – Andrea Chénier",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-08-20",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/oh-pera-andrea-chenier/64959/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-oh-pera-carmen",
+      "title": "óh!pera – Carmen",
+      "title_local": "óh!pera – Carmen",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-09-03",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/oh-pera-carmen/64960/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-oh-pera-nabucco",
+      "title": "óh!pera – Nabucco",
+      "title_local": "óh!pera – Nabucco",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-09-17",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/oh-pera-nabucco/64961/?step=2"
         }
       ]
     },
@@ -89312,6 +90413,32 @@
           "date": "2026-07-02",
           "time": "20:25",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3190"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3190"
+        }
+      ]
+    },
+    {
+      "id": "local-recital-viva-italia-filarmonica-de-berlin",
+      "title": "RECITAL: VIVA ITALIA! FILARMONICA DE BERLIN",
+      "title_local": "RECITAL: VIVA ITALIA! FILARMONICA DE BERLIN",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "lys",
+          "language": "VO",
+          "date": "2026-06-27",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/recital-viva-italia-filarmonica-de-berlin/383075/?step=2"
         }
       ]
     },
@@ -92033,776 +93160,6 @@
       ]
     },
     {
-      "id": "tmdb-1447881",
-      "title": "Cine con cineastas – Morir no siempre sale bien",
-      "title_local": "Morir no siempre sale bien",
-      "poster": "posters/cine-con-cineastas-morir-no-siempre-sale-bien.jpg",
-      "rating": null,
-      "duration": 97,
-      "genres": [
-        "Comedia"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-06-26",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-cineastas-morir-no-siempre-sale-bien/64788/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1447881",
-      "title": "Producción valenciana – Morir no siempre sale bien",
-      "title_local": "Morir no siempre sale bien",
-      "poster": "posters/produccion-valenciana-morir-no-siempre-sale-bien.jpg",
-      "rating": null,
-      "duration": 97,
-      "genres": [
-        "Comedia"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-06-27",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-morir-no-siempre-sale-bien/65049/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-06-27",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-morir-no-siempre-sale-bien/65050/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-06-28",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-morir-no-siempre-sale-bien/65051/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-06-28",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-morir-no-siempre-sale-bien/65052/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-06-29",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-morir-no-siempre-sale-bien/65053/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-06-29",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-morir-no-siempre-sale-bien/65054/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-06-30",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-morir-no-siempre-sale-bien/64997/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-06-30",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-morir-no-siempre-sale-bien/64998/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-07-01",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-morir-no-siempre-sale-bien/65077/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-07-02",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/produccion-valenciana-morir-no-siempre-sale-bien/65095/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-power-point-party-edicion-cine-04",
-      "title": "Power Point Party. Edición Cine 04",
-      "title_local": "Power Point Party. Edición Cine 04",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-07-03",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/power-point-party-edicion-cine-04/64647/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-akira-4k-1988",
-      "title": "Akira 4K",
-      "title_local": "Akira 4K",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-07-03",
-          "time": "22:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2985"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-07-04",
-          "time": "22:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2985"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-07-05",
-          "time": "20:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=2985"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-03",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/akira-4k/64927/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-04",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/akira-4k/64928/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-05",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/akira-4k/64929/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-08",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/akira-4k/64930/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-oh-pera-tosca",
-      "title": "óh!pera – Tosca",
-      "title_local": "óh!pera – Tosca",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-07-09",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/oh-pera-tosca/64957/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1368337",
-      "title": "LA ODISEA",
-      "title_local": "La Odisea",
-      "poster": "posters/la-odisea.jpg",
-      "rating": null,
-      "duration": 172,
-      "genres": [
-        "Aventura",
-        "Acción",
-        "Fantasía"
-      ],
-      "trailer_youtube_id": "f_bKjZeJBBI",
-      "showtimes": [
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-17",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-17",
-          "time": "18:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-17",
-          "time": "19:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-07-17",
-          "time": "20:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-17",
-          "time": "21:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-18",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-18",
-          "time": "18:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-18",
-          "time": "19:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-07-18",
-          "time": "20:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-18",
-          "time": "21:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-19",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-19",
-          "time": "18:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-19",
-          "time": "19:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-07-19",
-          "time": "20:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-19",
-          "time": "21:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-17",
-          "time": "16:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-17",
-          "time": "18:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-17",
-          "time": "19:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-17",
-          "time": "21:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-18",
-          "time": "16:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-18",
-          "time": "18:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-18",
-          "time": "19:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-18",
-          "time": "21:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-19",
-          "time": "16:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-19",
-          "time": "18:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-19",
-          "time": "19:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-19",
-          "time": "21:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-17",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-17",
-          "time": "18:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-17",
-          "time": "19:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-07-17",
-          "time": "20:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-17",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-18",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-18",
-          "time": "18:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-18",
-          "time": "19:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-07-18",
-          "time": "20:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-18",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-19",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-19",
-          "time": "18:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-19",
-          "time": "19:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-07-19",
-          "time": "20:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-19",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "00:01",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-17",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64941/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-17",
-          "time": "19:05",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64942/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-17",
-          "time": "21:45",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64934/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-18",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64943/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-18",
-          "time": "19:05",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64944/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-18",
-          "time": "21:45",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64935/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-19",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64945/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-19",
-          "time": "19:05",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64946/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-19",
-          "time": "21:45",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64936/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-20",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64947/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-20",
-          "time": "19:05",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64948/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-20",
-          "time": "21:45",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64937/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-21",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64949/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-21",
-          "time": "19:05",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64950/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-21",
-          "time": "21:45",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64938/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-22",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64951/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-22",
-          "time": "19:05",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64952/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-22",
-          "time": "21:45",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64939/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-23",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64953/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-23",
-          "time": "19:05",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64954/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-23",
-          "time": "21:45",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-odisea/64940/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-07-16",
-          "time": "00:01",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
-        }
-      ]
-    },
-    {
-      "id": "local-oh-pera-aida",
-      "title": "óh!pera – Aida",
-      "title_local": "óh!pera – Aida",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-07-23",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/oh-pera-aida/64962/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-oh-pera-otello",
-      "title": "óh!pera – Otello",
-      "title_local": "óh!pera – Otello",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-08-06",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/oh-pera-otello/64958/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-oh-pera-andrea-chenier",
-      "title": "óh!pera – Andrea Chénier",
-      "title_local": "óh!pera – Andrea Chénier",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-08-20",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/oh-pera-andrea-chenier/64959/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-oh-pera-carmen",
-      "title": "óh!pera – Carmen",
-      "title_local": "óh!pera – Carmen",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-09-03",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/oh-pera-carmen/64960/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-oh-pera-nabucco",
-      "title": "óh!pera – Nabucco",
-      "title_local": "óh!pera – Nabucco",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-09-17",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/oh-pera-nabucco/64961/?step=2"
-        }
-      ]
-    },
-    {
       "id": "tmdb-1446912",
       "title": "Cada día nace un listo",
       "title_local": "Cada día nace un listo",
@@ -94756,25 +95113,6 @@
       ]
     },
     {
-      "id": "local-cine-a-ciegas",
-      "title": "CINE A CIEGAS",
-      "title_local": "CINE A CIEGAS",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-26",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cine-a-ciegas/85853/?step=2"
-        }
-      ]
-    },
-    {
       "id": "tmdb-1612018",
       "title": "Jackass: Lo mejor para el final",
       "title_local": "Jackass: Lo mejor para el final",
@@ -95368,6 +95706,25 @@
           "date": "2026-07-02",
           "time": "22:35",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
+        }
+      ]
+    },
+    {
+      "id": "local-hipnosis-y-mentalismo-de-toni-pons",
+      "title": "Hipnosis y Mentalismo de Toni Pons",
+      "title_local": "Hipnosis y Mentalismo de Toni Pons",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/3947/HO00000810/0/hipnosis-y-mentalismo-de-toni-pons"
         }
       ]
     },
@@ -96607,6 +96964,27 @@
           "language": "ES",
           "date": "2026-07-02",
           "time": "18:45",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "17:30",
           "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
         }
       ]
