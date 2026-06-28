@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T07:00:00Z",
+  "updated_at": "2026-06-28T07:00:00Z",
   "movies": [
     {
       "id": "tmdb-655",
@@ -1813,6 +1813,13 @@
           "date": "2026-06-27",
           "time": "19:55",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=45359"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-28",
+          "time": "19:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=45363"
         }
       ]
     },
@@ -1855,6 +1862,13 @@
           "cinema": "kinepolis",
           "language": "VO",
           "date": "2026-07-03",
+          "time": "18:40",
+          "url": "https://kinepolis.es/movies/detail/12002/HO00003175/0/akira"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-04",
           "time": "18:40",
           "url": "https://kinepolis.es/movies/detail/12002/HO00003175/0/akira"
         }
@@ -4955,6 +4969,90 @@
           "language": "ES",
           "date": "2026-07-03",
           "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-04",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006484/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "16:45",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-04",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006484/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "16:15",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "17:45",
           "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
         }
       ]
@@ -72669,6 +72767,20 @@
           "date": "2026-07-03",
           "time": "22:10",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
       ]
     },
@@ -82388,6 +82500,20 @@
           "date": "2026-07-03",
           "time": "20:25",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "16:45",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
       ]
     },
@@ -90424,25 +90550,6 @@
       ]
     },
     {
-      "id": "local-recital-viva-italia-filarmonica-de-berlin",
-      "title": "RECITAL: VIVA ITALIA! FILARMONICA DE BERLIN",
-      "title_local": "RECITAL: VIVA ITALIA! FILARMONICA DE BERLIN",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "lys",
-          "language": "VO",
-          "date": "2026-06-27",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/recital-viva-italia-filarmonica-de-berlin/383075/?step=2"
-        }
-      ]
-    },
-    {
       "id": "tmdb-1497463",
       "title": "Todo lo que nunca fuimos",
       "title_local": "Todo lo que nunca fuimos",
@@ -93160,6 +93267,1883 @@
       ]
     },
     {
+      "id": "local-hipnosis-y-mentalismo-de-toni-pons",
+      "title": "Hipnosis y Mentalismo de Toni Pons",
+      "title_local": "Hipnosis y Mentalismo de Toni Pons",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/3947/HO00000810/0/hipnosis-y-mentalismo-de-toni-pons"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1612018",
+      "title": "Jackass: Lo mejor para el final",
+      "title_local": "Jackass: Lo mejor para el final",
+      "poster": "posters/jackass-lo-mejor-para-el-final.jpg",
+      "rating": null,
+      "duration": 104,
+      "genres": [
+        "Acción",
+        "Comedia",
+        "Documental"
+      ],
+      "trailer_youtube_id": "sNwzFhGwA94",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-27",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/37827/HO00006514/0/jackass-lo-mejor-para-el-final"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-27",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/37827/HO00006514/0/jackass-lo-mejor-para-el-final"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-28",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/37827/HO00006514/0/jackass-lo-mejor-para-el-final"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-28",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/37827/HO00006514/0/jackass-lo-mejor-para-el-final"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-26",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/37827/HO00006514/0/jackass-lo-mejor-para-el-final"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-01",
+          "time": "20:20",
+          "url": "https://kinepolis.es/movies/detail/37827/HO00006514/0/jackass-lo-mejor-para-el-final"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86433/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86434/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86435/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86436/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86437/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86425/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86439/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86440/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86441/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86442/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86443/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86444/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86445/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86446/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86447/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86448/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86573/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86574/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86575/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86576/?step=2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-26",
+          "time": "18:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46382"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "22:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46383"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-27",
+          "time": "18:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46403"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "22:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46402"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-28",
+          "time": "18:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46422"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "22:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46421"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-29",
+          "time": "18:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46441"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "22:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46440"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-06-30",
+          "time": "18:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46463"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "22:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46464"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "22:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "22:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "12:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "22:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "22:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "22:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "20:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "22:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "20:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "22:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "16:10",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "22:35",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "16:10",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "22:35",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "16:10",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "22:35",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "16:10",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "22:35",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "16:10",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "22:35",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "22:35",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "22:35",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1273221",
+      "title": "Scary Movie 6",
+      "title_local": "Scary Movie",
+      "poster": "posters/scary-movie-6.jpg",
+      "rating": null,
+      "duration": 95,
+      "genres": [
+        "Comedia",
+        "Terror"
+      ],
+      "trailer_youtube_id": "2aMPPfmP5cY",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-05",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-05",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-05",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-05",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-05",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-05",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "20:20",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-06",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006481/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-07",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006481/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-05",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006481/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-08",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-08",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-08",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-08",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-08",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-08",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-05",
+          "time": "16:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-05",
+          "time": "18:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-05",
+          "time": "20:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-05",
+          "time": "22:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-05",
+          "time": "23:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "11:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "16:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "18:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "20:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "22:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-06",
+          "time": "23:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-11",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-11",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-11",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-11",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-11",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-11",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "11:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "16:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "18:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "20:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "22:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-06-08",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006481/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-08",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-07",
+          "time": "17:15",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-08",
+          "time": "16:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-08",
+          "time": "18:10",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-08",
+          "time": "20:20",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-08",
+          "time": "22:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "16:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "17:15",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "18:10",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "20:20",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "22:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "16:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "17:15",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "18:10",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "20:20",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-10",
+          "time": "22:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-09",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-14",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-14",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-14",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-14",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-14",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-14",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-13",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-13",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-13",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-13",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-13",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-13",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-12",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-12",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-12",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-12",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-15",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-15",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-15",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-16",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-16",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-16",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-12",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-17",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-17",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-17",
+          "time": "16:10",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-17",
+          "time": "18:20",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-11",
+          "time": "16:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-11",
+          "time": "18:10",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-11",
+          "time": "20:20",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-11",
+          "time": "22:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-11",
+          "time": "22:40",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-12",
+          "time": "15:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-12",
+          "time": "17:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-12",
+          "time": "20:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-12",
+          "time": "22:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-13",
+          "time": "15:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-13",
+          "time": "17:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-13",
+          "time": "20:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-13",
+          "time": "22:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-18",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-14",
+          "time": "11:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-14",
+          "time": "15:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-14",
+          "time": "17:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-14",
+          "time": "20:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-14",
+          "time": "22:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-15",
+          "time": "15:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-15",
+          "time": "17:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-15",
+          "time": "20:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-15",
+          "time": "22:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-16",
+          "time": "15:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-16",
+          "time": "17:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-16",
+          "time": "20:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-16",
+          "time": "22:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-17",
+          "time": "20:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-06-17",
+          "time": "22:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-19",
+          "time": "17:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-19",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-19",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-19",
+          "time": "18:45",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-21",
+          "time": "17:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-21",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-21",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-21",
+          "time": "18:45",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-21",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "17:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-20",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-22",
+          "time": "17:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-22",
+          "time": "19:45",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-22",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-23",
+          "time": "17:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-23",
+          "time": "19:45",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-23",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-24",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-24",
+          "time": "17:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-24",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-24",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-24",
+          "time": "18:45",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-25",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-25",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-27",
+          "time": "18:45",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-28",
+          "time": "18:45",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-26",
+          "time": "18:45",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-02",
+          "time": "18:45",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-29",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-06-30",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-01",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1446912",
       "title": "Cada día nace un listo",
       "title_local": "Cada día nace un listo",
@@ -95109,1883 +97093,6 @@
           "date": "2026-06-28",
           "time": "16:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cada-dia-nace-un-listo/86379/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1612018",
-      "title": "Jackass: Lo mejor para el final",
-      "title_local": "Jackass: Lo mejor para el final",
-      "poster": "posters/jackass-lo-mejor-para-el-final.jpg",
-      "rating": null,
-      "duration": 104,
-      "genres": [
-        "Acción",
-        "Comedia",
-        "Documental"
-      ],
-      "trailer_youtube_id": "sNwzFhGwA94",
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-27",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/37827/HO00006514/0/jackass-lo-mejor-para-el-final"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-27",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-27",
-          "time": "18:30",
-          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-27",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/37827/HO00006514/0/jackass-lo-mejor-para-el-final"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-28",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/37827/HO00006514/0/jackass-lo-mejor-para-el-final"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-28",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-28",
-          "time": "18:30",
-          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-28",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/37827/HO00006514/0/jackass-lo-mejor-para-el-final"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-26",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-26",
-          "time": "18:30",
-          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-26",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/37827/HO00006514/0/jackass-lo-mejor-para-el-final"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-29",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-29",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-30",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-30",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-01",
-          "time": "15:30",
-          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-01",
-          "time": "18:00",
-          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-07-01",
-          "time": "20:20",
-          "url": "https://kinepolis.es/movies/detail/37827/HO00006514/0/jackass-lo-mejor-para-el-final"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-26",
-          "time": "16:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86433/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-26",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86434/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-26",
-          "time": "20:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86435/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-26",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86436/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-27",
-          "time": "16:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86437/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-27",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86425/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-28",
-          "time": "16:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86439/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-28",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86440/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-28",
-          "time": "20:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86441/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-28",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86442/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-29",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86443/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-29",
-          "time": "20:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86444/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-29",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86445/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-30",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86446/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-30",
-          "time": "20:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86447/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-06-30",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86448/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-01",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86573/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-02",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86574/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-02",
-          "time": "20:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86575/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-02",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/jackass-lo-mejor-para-el-final/86576/?step=2"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-02",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-02",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/37827/HO00006513/0/jackass-lo-mejor-para-el-final"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-06-26",
-          "time": "18:35",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46382"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-06-26",
-          "time": "22:50",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46383"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-06-27",
-          "time": "18:35",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46403"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-06-27",
-          "time": "22:50",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46402"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-06-28",
-          "time": "18:35",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46422"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-06-28",
-          "time": "22:50",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46421"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-06-29",
-          "time": "18:35",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46441"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-06-29",
-          "time": "22:50",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46440"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-06-30",
-          "time": "18:35",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46463"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-06-30",
-          "time": "22:50",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46464"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-26",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-26",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-26",
-          "time": "22:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-27",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-27",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-27",
-          "time": "22:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-28",
-          "time": "12:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-28",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-28",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-28",
-          "time": "22:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-29",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-29",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-29",
-          "time": "22:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-30",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-30",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-06-30",
-          "time": "22:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-01",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-01",
-          "time": "20:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-01",
-          "time": "22:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-02",
-          "time": "20:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-02",
-          "time": "22:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-26",
-          "time": "16:10",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-26",
-          "time": "22:35",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-27",
-          "time": "16:10",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-27",
-          "time": "22:35",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-28",
-          "time": "16:10",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-28",
-          "time": "22:35",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-29",
-          "time": "16:10",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-29",
-          "time": "22:35",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-30",
-          "time": "16:10",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-06-30",
-          "time": "22:35",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-01",
-          "time": "22:35",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-02",
-          "time": "22:35",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3191"
-        }
-      ]
-    },
-    {
-      "id": "local-hipnosis-y-mentalismo-de-toni-pons",
-      "title": "Hipnosis y Mentalismo de Toni Pons",
-      "title_local": "Hipnosis y Mentalismo de Toni Pons",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-03",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/3947/HO00000810/0/hipnosis-y-mentalismo-de-toni-pons"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1273221",
-      "title": "Scary Movie 6",
-      "title_local": "Scary Movie",
-      "poster": "posters/scary-movie-6.jpg",
-      "rating": null,
-      "duration": 95,
-      "genres": [
-        "Comedia",
-        "Terror"
-      ],
-      "trailer_youtube_id": "2aMPPfmP5cY",
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "20:20",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-06",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006481/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-07",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006481/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-05",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006481/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-08",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-08",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-08",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-08",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-08",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-08",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-10",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-10",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-10",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-10",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-10",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-10",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "16:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "18:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "20:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "22:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-05",
-          "time": "23:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "11:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "16:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "18:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "20:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "22:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-06",
-          "time": "23:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-11",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-11",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-11",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-11",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-11",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-11",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "11:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "16:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "18:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "20:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "22:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-06-08",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006481/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-08",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-07",
-          "time": "17:15",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-08",
-          "time": "16:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-08",
-          "time": "18:10",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-08",
-          "time": "20:20",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-08",
-          "time": "22:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "16:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "17:15",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "18:10",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "20:20",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "22:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-10",
-          "time": "16:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-10",
-          "time": "17:15",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-10",
-          "time": "18:10",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-10",
-          "time": "20:20",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-10",
-          "time": "22:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-09",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-14",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-14",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-14",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-14",
-          "time": "20:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-14",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-14",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "20:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-12",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-12",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-12",
-          "time": "20:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-12",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-15",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-15",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-15",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-16",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-16",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-16",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-12",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-17",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-17",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-17",
-          "time": "16:10",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-17",
-          "time": "18:20",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-11",
-          "time": "16:00",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-11",
-          "time": "18:10",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-11",
-          "time": "20:20",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-11",
-          "time": "22:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-11",
-          "time": "22:40",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-12",
-          "time": "15:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-12",
-          "time": "17:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-12",
-          "time": "20:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-12",
-          "time": "22:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "15:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "17:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "20:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-13",
-          "time": "22:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-18",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-14",
-          "time": "11:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-14",
-          "time": "15:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-14",
-          "time": "17:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-14",
-          "time": "20:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-14",
-          "time": "22:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-15",
-          "time": "15:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-15",
-          "time": "17:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-15",
-          "time": "20:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-15",
-          "time": "22:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-16",
-          "time": "15:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-16",
-          "time": "17:45",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-16",
-          "time": "20:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-16",
-          "time": "22:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-17",
-          "time": "20:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "ocine",
-          "language": "ES",
-          "date": "2026-06-17",
-          "time": "22:30",
-          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-19",
-          "time": "17:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-19",
-          "time": "20:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-19",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-19",
-          "time": "18:45",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-21",
-          "time": "17:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-21",
-          "time": "20:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-21",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-21",
-          "time": "18:45",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-21",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-20",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-20",
-          "time": "17:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-20",
-          "time": "20:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-20",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-20",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-22",
-          "time": "17:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-22",
-          "time": "19:45",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-22",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-23",
-          "time": "17:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-23",
-          "time": "19:45",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-23",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-24",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-24",
-          "time": "17:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-24",
-          "time": "20:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-24",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-24",
-          "time": "18:45",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-25",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-25",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-27",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-27",
-          "time": "18:45",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-28",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-28",
-          "time": "18:45",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-26",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-26",
-          "time": "18:45",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-29",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-30",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-01",
-          "time": "19:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-01",
-          "time": "17:45",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-02",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-02",
-          "time": "18:45",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-29",
-          "time": "20:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-06-30",
-          "time": "20:15",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-01",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/33914/HO00006392/0/scary-movie-6"
         }
       ]
     },
