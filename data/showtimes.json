@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T07:00:00Z",
+  "updated_at": "2026-07-11T07:00:00Z",
   "movies": [
     {
       "id": "tmdb-1447420",
@@ -5720,6 +5720,27 @@
           "date": "2026-07-16",
           "time": "21:30",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47220"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/37328/HO00006388/0/obsession"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/37328/HO00006388/0/obsession"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/37328/HO00006388/0/obsession"
         }
       ]
     },
@@ -11487,6 +11508,55 @@
           "date": "2026-07-16",
           "time": "18:35",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47219"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-12",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006484/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-11",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006484/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "17:10",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
         }
       ]
     },
@@ -11832,6 +11902,20 @@
           "cinema": "dor",
           "language": "ES",
           "date": "2026-07-16",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "17:15",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-07-17",
           "time": "20:30",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -31664,6 +31748,41 @@
           "date": "2026-07-12",
           "time": "22:00",
           "url": "https://www.ocinepremiumaqua.es/film-10176/p?el-dua-de-la-revelacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "15:15",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "20:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10176/p?el-dua-de-la-revelacion"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "22:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10176/p?el-dua-de-la-revelacion"
         }
       ]
     },
@@ -49816,6 +49935,42 @@
           "date": "2026-07-12",
           "time": "11:15",
           "url": "https://www.ocinepremiumaqua.es/film-9942/p?michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/33241/HO00006349/0/michael"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1212763",
+      "title": "Posesión infernal: En llamas",
+      "title_local": "Posesión infernal: En llamas",
+      "poster": "posters/posesion-infernal-en-llamas.jpg",
+      "rating": 7.2,
+      "duration": 109,
+      "genres": [
+        "Terror",
+        "Suspense"
+      ],
+      "trailer_youtube_id": "RddZObTlmA8",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/36816/HO00006550/0/posesion-infernal-en-llamas"
         }
       ]
     },
@@ -50231,6 +50386,70 @@
           "date": "2026-07-16",
           "time": "16:30",
           "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3223"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-copia-perfecta/87057/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1212763",
+      "title": "POSESIÓN INFERNAL: EN LLAMAS - PREESTRENO",
+      "title_local": "Posesión infernal: En llamas",
+      "poster": "posters/posesion-infernal-en-llamas-preestreno.jpg",
+      "rating": 7.1,
+      "duration": 109,
+      "genres": [
+        "Terror",
+        "Suspense"
+      ],
+      "trailer_youtube_id": "RddZObTlmA8",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3236"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-07-16",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3236"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "20:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3236"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-07-16",
+          "time": "20:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3236"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "20:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3236"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-07-16",
+          "time": "21:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3236"
         }
       ]
     },
@@ -64879,6 +65098,27 @@
           "date": "2026-07-16",
           "time": "19:40",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47241"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-11",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/33766/HO00006498/0/toy-story-5"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33766/HO00006159/0/toy-story-5"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33766/HO00006159/0/toy-story-5"
         }
       ]
     },
@@ -66237,6 +66477,1135 @@
           "date": "2026-07-16",
           "time": "17:30",
           "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cosas-que-no-olvidare/384703/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1284465",
+      "title": "La Muerte de Robin Hood",
+      "title_local": "La muerte de Robin Hood",
+      "poster": "posters/la-muerte-de-robin-hood.jpg",
+      "rating": 6.8,
+      "duration": 123,
+      "genres": [
+        "Aventura",
+        "Drama",
+        "Suspense"
+      ],
+      "trailer_youtube_id": "tlSDDuWxO_0",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-05",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-05",
+          "time": "14:10",
+          "url": "https://kinepolis.es/movies/detail/37577/HO00006546/0/la-muerte-de-robin-hood"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-05",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "17:15",
+          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-04",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/37577/HO00006546/0/la-muerte-de-robin-hood"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "17:15",
+          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-06",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-06",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-07",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-07",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-08",
+          "time": "17:15",
+          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-08",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-08",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/37577/HO00006546/0/la-muerte-de-robin-hood"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384181/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384184/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384182/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384185/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-05",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384183/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-05",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384186/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-07",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384266/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86694/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86695/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86783/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86696/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86697/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86784/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-05",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86698/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-05",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86699/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-05",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86785/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-06",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86700/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-07",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86701/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-07",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86787/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-08",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86832/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-09",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86833/?step=2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-09",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-09",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "16:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46726"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "22:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46726"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-07-03",
+          "time": "19:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46727"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "16:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46731"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "22:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46731"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-07-04",
+          "time": "19:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46730"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-05",
+          "time": "16:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46744"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-05",
+          "time": "22:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46744"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-07-05",
+          "time": "19:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46745"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-06",
+          "time": "16:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46817"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-06",
+          "time": "22:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46817"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-07-06",
+          "time": "19:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46816"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-07",
+          "time": "16:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46820"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-07",
+          "time": "22:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46820"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-07-07",
+          "time": "19:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46821"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-05",
+          "time": "11:55",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-05",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-05",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-06",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-06",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-07",
+          "time": "20:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-07",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-08",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-09",
+          "time": "22:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "16:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "20:05",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "16:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "20:05",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-05",
+          "time": "12:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-05",
+          "time": "16:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-05",
+          "time": "20:05",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-06",
+          "time": "16:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-06",
+          "time": "18:35",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-07",
+          "time": "16:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-07",
+          "time": "18:35",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-08",
+          "time": "20:05",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-09",
+          "time": "20:05",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "17:50",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "20:05",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-03",
+          "time": "22:10",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "17:50",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "20:05",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-04",
+          "time": "22:10",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-05",
+          "time": "17:50",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-05",
+          "time": "20:05",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-05",
+          "time": "22:10",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-06",
+          "time": "17:50",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-06",
+          "time": "20:05",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-06",
+          "time": "22:10",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-07",
+          "time": "17:50",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-07",
+          "time": "20:05",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-07",
+          "time": "22:10",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-08",
+          "time": "17:50",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-08",
+          "time": "20:05",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-08",
+          "time": "22:10",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-09",
+          "time": "17:50",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-09",
+          "time": "20:05",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-09",
+          "time": "22:10",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-08",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384327/?step=2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-06",
+          "time": "19:45",
+          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86931/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86932/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86933/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86934/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86935/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86936/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86937/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-08",
+          "time": "16:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46874"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-08",
+          "time": "21:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46874"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-07-08",
+          "time": "19:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46875"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-09",
+          "time": "16:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46889"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-09",
+          "time": "21:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46889"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-07-09",
+          "time": "19:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46888"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-07-08",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384327/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-07-10",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384576/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-07-11",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384577/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-07-12",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384578/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-07-13",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384627/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-07-14",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384649/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-07-15",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384675/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-07-16",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384700/?step=2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "17:15",
+          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "22:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "22:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "22:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "22:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "22:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "22:20",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "22:20",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "22:20",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "22:20",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "22:20",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "22:20",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "22:20",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384576/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384577/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384578/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384627/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384649/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384675/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384700/?step=2"
         }
       ]
     },
@@ -73666,1135 +75035,13 @@
           "date": "2026-07-12",
           "time": "23:45",
           "url": "https://www.ocinepremiumaqua.es/film-10257/p?backrooms"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1284465",
-      "title": "La Muerte de Robin Hood",
-      "title_local": "La muerte de Robin Hood",
-      "poster": "posters/la-muerte-de-robin-hood.jpg",
-      "rating": 6.8,
-      "duration": 123,
-      "genres": [
-        "Aventura",
-        "Drama",
-        "Suspense"
-      ],
-      "trailer_youtube_id": "tlSDDuWxO_0",
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-05",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-07-05",
-          "time": "14:10",
-          "url": "https://kinepolis.es/movies/detail/37577/HO00006546/0/la-muerte-de-robin-hood"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-05",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-03",
-          "time": "17:15",
-          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-03",
-          "time": "20:15",
-          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-07-04",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/37577/HO00006546/0/la-muerte-de-robin-hood"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-04",
-          "time": "17:15",
-          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-04",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-06",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-06",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-07",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-07",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-08",
-          "time": "17:15",
-          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-08",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-07-08",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/37577/HO00006546/0/la-muerte-de-robin-hood"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-07-03",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384181/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-07-03",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384184/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-07-04",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384182/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-07-04",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384185/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-07-05",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384183/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-07-05",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384186/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-07-07",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384266/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-03",
-          "time": "15:50",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86694/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-03",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86695/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-03",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86783/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-04",
-          "time": "15:50",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86696/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-04",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86697/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-04",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86784/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-05",
-          "time": "15:50",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86698/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-05",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86699/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-05",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86785/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-06",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86700/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-07",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86701/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-07",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86787/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-08",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86832/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-09",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86833/?step=2"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-09",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-09",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-07-03",
-          "time": "16:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46726"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-07-03",
-          "time": "22:05",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46726"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-07-03",
-          "time": "19:25",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46727"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-07-04",
-          "time": "16:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46731"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-07-04",
-          "time": "22:05",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46731"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-07-04",
-          "time": "19:25",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46730"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-07-05",
-          "time": "16:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46744"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-07-05",
-          "time": "22:05",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46744"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-07-05",
-          "time": "19:25",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46745"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-07-06",
-          "time": "16:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46817"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-07-06",
-          "time": "22:05",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46817"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-07-06",
-          "time": "19:25",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46816"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-07-07",
-          "time": "16:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46820"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-07-07",
-          "time": "22:05",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46820"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-07-07",
-          "time": "19:25",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46821"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-03",
-          "time": "20:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-03",
-          "time": "22:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-04",
-          "time": "20:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-04",
-          "time": "22:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-05",
-          "time": "11:55",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-05",
-          "time": "20:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-05",
-          "time": "22:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-06",
-          "time": "20:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-06",
-          "time": "22:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-07",
-          "time": "20:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-07",
-          "time": "22:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-08",
-          "time": "20:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-09",
-          "time": "22:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-03",
-          "time": "16:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-03",
-          "time": "20:05",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-04",
-          "time": "16:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-04",
-          "time": "20:05",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-05",
-          "time": "12:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-05",
-          "time": "16:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-05",
-          "time": "20:05",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-06",
-          "time": "16:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-06",
-          "time": "18:35",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-07",
-          "time": "16:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-07",
-          "time": "18:35",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-08",
-          "time": "20:05",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-09",
-          "time": "20:05",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-03",
-          "time": "17:50",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-03",
-          "time": "20:05",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-03",
-          "time": "22:10",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-04",
-          "time": "17:50",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-04",
-          "time": "20:05",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-04",
-          "time": "22:10",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-05",
-          "time": "17:50",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-05",
-          "time": "20:05",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-05",
-          "time": "22:10",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-06",
-          "time": "17:50",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-06",
-          "time": "20:05",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-06",
-          "time": "22:10",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-07",
-          "time": "17:50",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-07",
-          "time": "20:05",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-07",
-          "time": "22:10",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-08",
-          "time": "17:50",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-08",
-          "time": "20:05",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-08",
-          "time": "22:10",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-09",
-          "time": "17:50",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-09",
-          "time": "20:05",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-09",
-          "time": "22:10",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-07-08",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384327/?step=2"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-06",
-          "time": "19:45",
-          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86931/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86932/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86933/?step=2"
         },
         {
-          "cinema": "mn4",
+          "cinema": "ocine",
           "language": "ES",
           "date": "2026-07-13",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86934/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-14",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86935/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86936/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-muerte-de-robin-hood/86937/?step=2"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-07-08",
-          "time": "16:55",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46874"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-07-08",
-          "time": "21:55",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46874"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-07-08",
-          "time": "19:25",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46875"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-07-09",
-          "time": "16:55",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46889"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-07-09",
-          "time": "21:55",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46889"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-07-09",
-          "time": "19:25",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=46888"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-07-08",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384327/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-07-10",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384576/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-07-11",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384577/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-07-12",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384578/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-07-13",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384627/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-07-14",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384649/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-07-15",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384675/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-07-16",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384700/?step=2"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "17:15",
-          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "22:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "22:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "22:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "22:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "22:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "22:20",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "22:20",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "22:20",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "22:20",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-14",
-          "time": "22:20",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "22:20",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "22:20",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-14",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-14",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3214"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/37577/HO00006545/0/la-muerte-de-robin-hood"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384576/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384577/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384578/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384627/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-07-14",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384649/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384675/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-muerte-de-robin-hood/384700/?step=2"
+          "time": "21:40",
+          "url": "https://www.ocinepremiumaqua.es/film-10257/p?backrooms"
         }
       ]
     },
@@ -78271,6 +78518,34 @@
           "date": "2026-07-16",
           "time": "18:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/las-corrientes/65359/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "18:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3219"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "18:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3219"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "18:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3219"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "18:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3219"
         }
       ]
     },
@@ -83371,6 +83646,13 @@
           "date": "2026-07-16",
           "time": "22:10",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3229"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/andy/86975/?step=2"
         }
       ]
     },
@@ -86922,6 +87204,41 @@
           "date": "2026-07-12",
           "time": "15:50",
           "url": "https://www.ocinepremiumaqua.es/film-10182/p?supergirl"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "18:45",
+          "url": "https://kinepolis.es/movies/detail/34021/HO00006370/0/supergirl"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/34021/HO00006370/0/supergirl"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "17:15",
+          "url": "https://kinepolis.es/movies/detail/34021/HO00006370/0/supergirl"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "19:40",
+          "url": "https://kinepolis.es/movies/detail/34021/HO00006370/0/supergirl"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "15:50",
+          "url": "https://www.ocinepremiumaqua.es/film-10182/p?supergirl"
         }
       ]
     },
@@ -87025,6 +87342,20 @@
           "cinema": "dor",
           "language": "ES",
           "date": "2026-07-16",
+          "time": "22:05",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "18:50",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-07-17",
           "time": "22:05",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -87671,6 +88002,139 @@
           "date": "2026-07-19",
           "time": "16:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-17",
+          "time": "13:00",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00006515/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-17",
+          "time": "14:45",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00006515/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-17",
+          "time": "18:45",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00006515/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-17",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00006515/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-17",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00006515/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "19:45",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "14:45",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "20:45",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
         }
       ]
     },
@@ -87801,6 +88265,515 @@
           "date": "2026-09-17",
           "time": "19:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/oh-pera-nabucco/64961/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-backrooms-liquidacion-total-version-extendida",
+      "title": "BACKROOMS: LIQUIDACIÓN TOTAL (VERSIÓN EXTENDIDA)",
+      "title_local": "BACKROOMS: LIQUIDACIÓN TOTAL (VERSIÓN EXTENDIDA)",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "17:50",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "22:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "17:50",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "22:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "17:50",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "22:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "17:50",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "22:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "20:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "22:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "17:50",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "22:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "17:50",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "22:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "20:05",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "20:05",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "12:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "20:05",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "20:05",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "20:05",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "20:05",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "20:05",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "18:20",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "20:05",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "18:20",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "20:05",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "18:20",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "20:05",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "18:20",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "20:05",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "18:20",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "20:05",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "18:20",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "20:05",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "18:20",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "20:05",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87012/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87013/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87014/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87015/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87016/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87017/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87018/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87019/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87022/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87023/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87024/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87025/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-07-10",
+          "time": "21:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47258"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-07-11",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47259"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "22:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47260"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-07-12",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47262"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "22:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47261"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-07-13",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47263"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "22:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47264"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-07-14",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47265"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-07-15",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47266"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "22:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47267"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-07-16",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47268"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "22:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47269"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-07-11",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/backrooms-liquidacion-total-version-extendida/384596/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-07-11",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/backrooms-liquidacion-total-version-extendida/384597/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-07-12",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/backrooms-liquidacion-total-version-extendida/384598/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-07-12",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/backrooms-liquidacion-total-version-extendida/384599/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-07-13",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/backrooms-liquidacion-total-version-extendida/384631/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-07-14",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/backrooms-liquidacion-total-version-extendida/384653/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-07-15",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/backrooms-liquidacion-total-version-extendida/384680/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-07-15",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/backrooms-liquidacion-total-version-extendida/384681/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-07-16",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/backrooms-liquidacion-total-version-extendida/384704/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87020/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87021/?step=2"
         }
       ]
     },
@@ -89138,6 +90111,62 @@
           "date": "2026-07-16",
           "time": "22:10",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3230"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "18:05",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/haciendo-amigos/87156/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/haciendo-amigos/87157/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/haciendo-amigos/87158/?step=2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/38604/HO00006548/0/haciendo-amigos"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/38604/HO00006548/0/haciendo-amigos"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/38604/HO00006548/0/haciendo-amigos"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/38604/HO00006548/0/haciendo-amigos"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/38604/HO00006548/0/haciendo-amigos"
         }
       ]
     },
@@ -93039,6 +94068,69 @@
           "date": "2026-07-16",
           "time": "16:15",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47224"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "16:40",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-14",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006531/0/vaiana"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-14",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006531/0/vaiana"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "19:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47164"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "22:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47164"
         }
       ]
     },
@@ -93473,6 +94565,850 @@
           "date": "2026-07-16",
           "time": "18:05",
           "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3186"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1242876",
+      "title": "A 500 MILLAS DE CASA (500 MILES)",
+      "title_local": "A 500 millas de casa",
+      "poster": "posters/a-500-millas-de-casa-500-miles.jpg",
+      "rating": null,
+      "duration": 102,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": "M0pP7xKvFJ0",
+      "showtimes": [
+        {
+          "cinema": "mn4",
+          "language": "VOSE",
+          "date": "2026-07-10",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/a-500-millas-de-casa-500-miles/87002/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "VOSE",
+          "date": "2026-07-10",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/a-500-millas-de-casa-500-miles/87003/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "VOSE",
+          "date": "2026-07-11",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/a-500-millas-de-casa-500-miles/87004/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "VOSE",
+          "date": "2026-07-11",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/a-500-millas-de-casa-500-miles/87005/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "VOSE",
+          "date": "2026-07-12",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/a-500-millas-de-casa-500-miles/87006/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "VOSE",
+          "date": "2026-07-12",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/a-500-millas-de-casa-500-miles/87007/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "VOSE",
+          "date": "2026-07-13",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/a-500-millas-de-casa-500-miles/87008/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "VOSE",
+          "date": "2026-07-15",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/a-500-millas-de-casa-500-miles/87010/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "VOSE",
+          "date": "2026-07-16",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/a-500-millas-de-casa-500-miles/87011/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "VOSE",
+          "date": "2026-07-14",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/a-500-millas-de-casa-500-miles/87009/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1361852",
+      "title": "EL CONVENTO",
+      "title_local": "El Convento",
+      "poster": "posters/el-convento.jpg",
+      "rating": null,
+      "duration": 99,
+      "genres": [
+        "Terror",
+        "Suspense"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-convento/86978/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-convento/86979/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-convento/86980/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-convento/86981/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-convento/86983/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-convento/86984/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "22:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "22:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "22:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "22:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "22:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "22:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "22:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "22:50",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "22:45",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "22:45",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "22:45",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "22:50",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "22:45",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "22:50",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "20:40",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "22:35",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "20:40",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "22:35",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "20:40",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "22:35",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "20:40",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "22:35",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "20:40",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "22:35",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "20:40",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "22:35",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "20:40",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "22:35",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-convento/86982/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1447097",
+      "title": "Tal vez",
+      "title_local": "Tal vez",
+      "poster": "posters/tal-vez.jpg",
+      "rating": null,
+      "duration": 116,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "19:45",
+          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "20:20",
+          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tal-vez/86962/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tal-vez/86963/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "18:05",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tal-vez/86964/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tal-vez/86965/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "18:05",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tal-vez/86966/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "18:05",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tal-vez/86967/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "18:05",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tal-vez/86969/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "18:05",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tal-vez/86970/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "20:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "20:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "20:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "20:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "20:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "17:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "17:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "17:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "17:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "17:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "17:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "17:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "20:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "20:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "20:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "20:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "20:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "20:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "20:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "18:05",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tal-vez/86968/?step=2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-815043",
+      "title": "WINNIPEG, EL BARCO DE LA ESPERANZA",
+      "title_local": "Winnipeg, El Barco de la Esperanza",
+      "poster": "posters/winnipeg-el-barco-de-la-esperanza.jpg",
+      "rating": null,
+      "duration": 82,
+      "genres": [
+        "Aventura",
+        "Animación",
+        "Drama"
+      ],
+      "trailer_youtube_id": "eCYwlyTcmOQ",
+      "showtimes": [
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/winnipeg-el-barco-de-la-esperanza/87060/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/winnipeg-el-barco-de-la-esperanza/87061/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/winnipeg-el-barco-de-la-esperanza/87062/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/winnipeg-el-barco-de-la-esperanza/87063/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/winnipeg-el-barco-de-la-esperanza/87065/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/winnipeg-el-barco-de-la-esperanza/87066/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "16:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3224"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "16:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3224"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "16:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3224"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "16:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3224"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "16:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3224"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "16:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3224"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/winnipeg-el-barco-de-la-esperanza/87064/?step=2"
         }
       ]
     },
@@ -94804,378 +96740,13 @@
           "date": "2026-07-12",
           "time": "22:45",
           "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1447097",
-      "title": "Tal vez",
-      "title_local": "Tal vez",
-      "poster": "posters/tal-vez.jpg",
-      "rating": null,
-      "duration": 116,
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
         },
         {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "17:45",
-          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "19:45",
-          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
-        },
-        {
-          "cinema": "kinepolis",
+          "cinema": "ocine",
           "language": "ES",
           "date": "2026-07-13",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "20:15",
-          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "20:15",
-          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "20:20",
-          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/38770/HO00006589/0/tal-vez"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "15:50",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tal-vez/86962/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "15:50",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tal-vez/86963/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "18:05",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tal-vez/86964/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "15:50",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tal-vez/86965/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "18:05",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tal-vez/86966/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "18:05",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tal-vez/86967/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "18:05",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tal-vez/86969/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "18:05",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tal-vez/86970/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "20:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "20:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "20:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "20:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-14",
-          "time": "22:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "20:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "17:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "17:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "17:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "17:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-14",
-          "time": "17:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "17:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "17:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "20:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "20:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "20:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "20:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-14",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-14",
-          "time": "20:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "20:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "20:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3225"
+          "time": "22:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10173/p?scary-movie-6"
         }
       ]
     },
@@ -95258,925 +96829,20 @@
           "date": "2026-07-16",
           "time": "19:45",
           "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1242876",
-      "title": "A 500 MILLAS DE CASA (500 MILES)",
-      "title_local": "A 500 millas de casa",
-      "poster": "posters/a-500-millas-de-casa-500-miles.jpg",
-      "rating": null,
-      "duration": 102,
-      "genres": [
-        "Drama"
-      ],
-      "trailer_youtube_id": "M0pP7xKvFJ0",
-      "showtimes": [
-        {
-          "cinema": "mn4",
-          "language": "VOSE",
-          "date": "2026-07-10",
-          "time": "15:50",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/a-500-millas-de-casa-500-miles/87002/?step=2"
         },
         {
-          "cinema": "mn4",
-          "language": "VOSE",
-          "date": "2026-07-10",
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
           "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/a-500-millas-de-casa-500-miles/87003/?step=2"
+          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
         },
         {
-          "cinema": "mn4",
-          "language": "VOSE",
-          "date": "2026-07-11",
-          "time": "15:50",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/a-500-millas-de-casa-500-miles/87004/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "VOSE",
-          "date": "2026-07-11",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/a-500-millas-de-casa-500-miles/87005/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "VOSE",
-          "date": "2026-07-12",
-          "time": "15:50",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/a-500-millas-de-casa-500-miles/87006/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "VOSE",
-          "date": "2026-07-12",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/a-500-millas-de-casa-500-miles/87007/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "VOSE",
-          "date": "2026-07-13",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/a-500-millas-de-casa-500-miles/87008/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "VOSE",
-          "date": "2026-07-15",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/a-500-millas-de-casa-500-miles/87010/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "VOSE",
-          "date": "2026-07-16",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/a-500-millas-de-casa-500-miles/87011/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-backrooms-liquidacion-total-version-extendida",
-      "title": "BACKROOMS: LIQUIDACIÓN TOTAL (VERSIÓN EXTENDIDA)",
-      "title_local": "BACKROOMS: LIQUIDACIÓN TOTAL (VERSIÓN EXTENDIDA)",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "17:50",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "22:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "17:50",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "22:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "17:50",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "22:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "17:50",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "22:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_park",
+          "cinema": "kinepolis",
           "language": "ES",
           "date": "2026-07-14",
-          "time": "20:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-14",
-          "time": "22:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "17:50",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "22:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "17:50",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "22:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "20:05",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "20:05",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "12:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "20:05",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "20:05",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-14",
-          "time": "20:05",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "20:05",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "20:05",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "18:20",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "20:05",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "18:20",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "20:05",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "18:20",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "20:05",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "18:20",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "20:05",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-14",
-          "time": "18:20",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-14",
-          "time": "20:05",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "18:20",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "20:05",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "18:20",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "20:05",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3231"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-10",
           "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87012/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87013/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87014/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87015/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87016/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87017/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87018/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87019/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87022/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87023/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87024/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/backrooms-liquidacion-total-version-extendida/87025/?step=2"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-07-10",
-          "time": "21:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47258"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-07-11",
-          "time": "20:40",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47259"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "22:10",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47260"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-07-12",
-          "time": "20:40",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47262"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "22:10",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47261"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-07-13",
-          "time": "20:40",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47263"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "22:10",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47264"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-07-14",
-          "time": "20:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47265"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-07-15",
-          "time": "20:40",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47266"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "22:10",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47267"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-07-16",
-          "time": "20:40",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47268"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "22:10",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47269"
-        }
-      ]
-    },
-    {
-      "id": "local-cine-a-ciegas",
-      "title": "CINE A CIEGAS",
-      "title_local": "CINE A CIEGAS",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cine-a-ciegas/86887/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1361852",
-      "title": "EL CONVENTO",
-      "title_local": "El Convento",
-      "poster": "posters/el-convento.jpg",
-      "rating": null,
-      "duration": 99,
-      "genres": [
-        "Terror",
-        "Suspense"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-convento/86978/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-convento/86979/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-convento/86980/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-convento/86981/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-convento/86983/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-convento/86984/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "22:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "22:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "22:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "22:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-14",
-          "time": "22:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "22:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "22:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "22:50",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "22:45",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "22:45",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "22:45",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-14",
-          "time": "22:50",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "22:45",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "22:50",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "20:40",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "22:35",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "20:40",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "22:35",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "20:40",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "22:35",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "20:40",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "22:35",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-14",
-          "time": "20:40",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-14",
-          "time": "22:35",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "20:40",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "22:35",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "20:40",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "22:35",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3227"
-        }
-      ]
-    },
-    {
-      "id": "local-mundial-2026-espa-a-vs-belgica",
-      "title": "MUNDIAL 2026: ESPAÑA vs BELGICA",
-      "title_local": "MUNDIAL 2026: ESPAÑA vs BELGICA",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "21:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mundial-2026-espana-vs-belgica/87155/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-815043",
-      "title": "WINNIPEG, EL BARCO DE LA ESPERANZA",
-      "title_local": "Winnipeg, El Barco de la Esperanza",
-      "poster": "posters/winnipeg-el-barco-de-la-esperanza.jpg",
-      "rating": null,
-      "duration": 82,
-      "genres": [
-        "Aventura",
-        "Animación",
-        "Drama"
-      ],
-      "trailer_youtube_id": "eCYwlyTcmOQ",
-      "showtimes": [
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "22:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/winnipeg-el-barco-de-la-esperanza/87060/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "22:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/winnipeg-el-barco-de-la-esperanza/87061/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "22:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/winnipeg-el-barco-de-la-esperanza/87062/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "22:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/winnipeg-el-barco-de-la-esperanza/87063/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "22:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/winnipeg-el-barco-de-la-esperanza/87065/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "22:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/winnipeg-el-barco-de-la-esperanza/87066/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "16:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3224"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "16:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3224"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "16:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3224"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "16:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3224"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "16:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3224"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "16:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3224"
-        }
-      ]
-    },
-    {
-      "id": "local-espa-a-vs-belgica-copa-mundial-de-la-fifa-2026",
-      "title": "España vs Bélgica. Copa Mundial de la FIFA 2026",
-      "title_local": "España vs Bélgica. Copa Mundial de la FIFA 2026",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "20:40",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47271"
+          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
         }
       ]
     },
@@ -96733,6 +97399,20 @@
           "date": "2026-07-16",
           "time": "16:10",
           "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3215"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "16:20",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3215"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "16:20",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3215"
         }
       ]
     },
