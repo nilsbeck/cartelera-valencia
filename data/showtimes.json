@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T07:00:00Z",
+  "updated_at": "2026-07-18T07:00:00Z",
   "movies": [
     {
       "id": "tmdb-1447420",
@@ -7620,6 +7620,29 @@
           "date": "2026-07-19",
           "time": "11:55",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=2985"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-313369",
+      "title": "LA LA LAND (10º ANIVERSARIO)",
+      "title_local": "La ciudad de las estrellas (La La Land)",
+      "poster": "posters/la-la-land-10-aniversario.jpg",
+      "rating": 7.9,
+      "duration": 128,
+      "genres": [
+        "Comedia",
+        "Drama",
+        "Romance"
+      ],
+      "trailer_youtube_id": "_oBwwSXdO_E",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-08-13",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3250"
         }
       ]
     },
@@ -35372,6 +35395,13 @@
           "date": "2026-07-23",
           "time": "21:15",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47634"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-21",
+          "time": "22:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3128"
         }
       ]
     },
@@ -37130,6 +37160,48 @@
           "cinema": "ocine",
           "language": "ES",
           "date": "2026-07-19",
+          "time": "22:40",
+          "url": "https://www.ocinepremiumaqua.es/film-10312/p?posesion-infernal-en-llamas"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-22",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/36816/HO00006550/0/posesion-infernal-en-llamas"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-22",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/36816/HO00006551/0/posesion-infernal-en-llamas"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-20",
+          "time": "16:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10312/p?posesion-infernal-en-llamas"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-20",
+          "time": "18:10",
+          "url": "https://www.ocinepremiumaqua.es/film-10312/p?posesion-infernal-en-llamas"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-20",
+          "time": "21:15",
+          "url": "https://www.ocinepremiumaqua.es/film-10312/p?posesion-infernal-en-llamas"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-20",
           "time": "22:40",
           "url": "https://www.ocinepremiumaqua.es/film-10312/p?posesion-infernal-en-llamas"
         }
@@ -56218,6 +56290,20 @@
           "date": "2026-07-23",
           "time": "22:05",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-07-24",
+          "time": "17:10",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-07-24",
+          "time": "22:05",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
       ]
     },
@@ -72420,6 +72506,27 @@
           "date": "2026-07-19",
           "time": "20:30",
           "url": "https://www.ocinepremiumaqua.es/film-10234/p?toy-story-5"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-20",
+          "time": "16:10",
+          "url": "https://www.ocinepremiumaqua.es/film-10234/p?toy-story-5"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-20",
+          "time": "18:20",
+          "url": "https://www.ocinepremiumaqua.es/film-10234/p?toy-story-5"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-20",
+          "time": "20:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10234/p?toy-story-5"
         }
       ]
     },
@@ -72491,6 +72598,13 @@
           "cinema": "dor",
           "language": "ES",
           "date": "2026-07-23",
+          "time": "19:25",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-07-24",
           "time": "19:25",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -72935,6 +73049,13 @@
           "date": "2026-07-23",
           "time": "22:50",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3234"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-07-19",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47780"
         }
       ]
     },
@@ -82433,6 +82554,20 @@
           "date": "2026-07-18",
           "time": "23:30",
           "url": "https://www.ocinepremiumaqua.es/film-10257/p?backrooms"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-18",
+          "time": "11:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10257/p?backrooms"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-19",
+          "time": "11:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10257/p?backrooms"
         }
       ]
     },
@@ -84116,6 +84251,27 @@
           "cinema": "ocine",
           "language": "ES",
           "date": "2026-07-19",
+          "time": "21:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10411/p?la-odisea-vose"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-18",
+          "time": "15:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10411/p?la-odisea-vose"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-19",
+          "time": "15:45",
+          "url": "https://www.ocinepremiumaqua.es/film-10411/p?la-odisea-vose"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-20",
           "time": "21:30",
           "url": "https://www.ocinepremiumaqua.es/film-10411/p?la-odisea-vose"
         }
@@ -95450,6 +95606,13 @@
           "date": "2026-07-23",
           "time": "21:50",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47635"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-19",
+          "time": "22:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47551"
         }
       ]
     },
@@ -98504,6 +98667,153 @@
           "date": "2026-07-23",
           "time": "22:40",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47481"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-24",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00006515/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-24",
+          "time": "19:45",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00006515/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-24",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-24",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-24",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-24",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-24",
+          "time": "15:15",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00006515/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-24",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00006515/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-24",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-24",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-24",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-24",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-24",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-07-24",
+          "time": "16:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47276"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-07-24",
+          "time": "17:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47276"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-07-24",
+          "time": "20:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47276"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-07-24",
+          "time": "21:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47276"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-24",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47277"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-24",
+          "time": "18:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47277"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-24",
+          "time": "19:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47277"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-24",
+          "time": "21:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47277"
         }
       ]
     },
@@ -104315,172 +104625,6 @@
       ]
     },
     {
-      "id": "tmdb-1712586",
-      "title": "Sia: Nostalgic for the Present",
-      "title_local": "Sia: Nostalgic for the Present",
-      "poster": "posters/sia-nostalgic-for-the-present.jpg",
-      "rating": null,
-      "duration": 75,
-      "genres": [
-        "Música"
-      ],
-      "trailer_youtube_id": "T6ZStfsJQF0",
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-07-23",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/38674/HO00006530/0/sia-nostalgic-for-the-present"
-        }
-      ]
-    },
-    {
-      "id": "local-backrooms-liquidacion-total-version-extendida",
-      "title": "Backrooms: liquidación total (versión extendida",
-      "title_local": "Backrooms: liquidación total (versión extendida",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-11",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "20:10",
-          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-12",
-          "time": "18:20",
-          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-13",
-          "time": "19:45",
-          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-15",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-10",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "19:45",
-          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-14",
-          "time": "18:00",
-          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-14",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-14",
-          "time": "19:45",
-          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-18",
-          "time": "20:15",
-          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-17",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-20",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-21",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-22",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-07-23",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
-        }
-      ]
-    },
-    {
       "id": "tmdb-1721914",
       "title": "NI CONTIGO NI SIN MÍ",
       "title_local": "Ni contigo ni sin mí",
@@ -104944,6 +105088,172 @@
           "date": "2026-07-23",
           "time": "20:30",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3232"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1712586",
+      "title": "Sia: Nostalgic for the Present",
+      "title_local": "Sia: Nostalgic for the Present",
+      "poster": "posters/sia-nostalgic-for-the-present.jpg",
+      "rating": null,
+      "duration": 75,
+      "genres": [
+        "Música"
+      ],
+      "trailer_youtube_id": "T6ZStfsJQF0",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-07-23",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/38674/HO00006530/0/sia-nostalgic-for-the-present"
+        }
+      ]
+    },
+    {
+      "id": "local-backrooms-liquidacion-total-version-extendida",
+      "title": "Backrooms: liquidación total (versión extendida",
+      "title_local": "Backrooms: liquidación total (versión extendida",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-11",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "20:10",
+          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-12",
+          "time": "18:20",
+          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-13",
+          "time": "19:45",
+          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-15",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-10",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "19:45",
+          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-14",
+          "time": "19:45",
+          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-18",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-17",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-20",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-21",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-22",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-07-23",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
         }
       ]
     },
@@ -107869,6 +108179,13 @@
           "cinema": "ocine",
           "language": "ES",
           "date": "2026-07-19",
+          "time": "21:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10423/p?la-odisea-urban-vose"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-20",
           "time": "21:00",
           "url": "https://www.ocinepremiumaqua.es/film-10423/p?la-odisea-urban-vose"
         }
