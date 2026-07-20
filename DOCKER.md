@@ -52,7 +52,9 @@ The container clones the repo fresh into `/work`, runs `scraper/run.py`,
 commits `data/` and `posters/` if anything changed, and pushes to
 `origin/main`. Nothing is persisted on the host filesystem.
 
-## Cron
+## Scheduling
+
+### Cron
 
 Add to your user crontab (`crontab -e`) — pick an hour appropriate for
 your timezone:
@@ -63,6 +65,32 @@ your timezone:
 
 That's it. The compose file pulls `TMDB_API_KEY` and `GH_TOKEN` from the
 gitignored `.env` automatically.
+
+### systemd timer (Arch and other cron-less distros)
+
+Arch doesn't ship `cron` by default. Use the unit files in
+[`systemd/`](systemd/) instead:
+
+```
+sudo cp systemd/cartelera-scraper.service systemd/cartelera-scraper.timer /etc/systemd/system/
+sudo $EDITOR /etc/systemd/system/cartelera-scraper.service   # set WorkingDirectory
+sudo systemctl daemon-reload
+sudo systemctl enable --now cartelera-scraper.timer
+```
+
+Check it's actually scheduled and see run history:
+
+```
+systemctl list-timers cartelera-scraper.timer   # shows next/last fire time
+journalctl -u cartelera-scraper.service --since "7 days ago"
+```
+
+Run it once immediately, without waiting for the timer:
+
+```
+sudo systemctl start cartelera-scraper.service
+journalctl -u cartelera-scraper.service -f
+```
 
 ## Rebuilding
 

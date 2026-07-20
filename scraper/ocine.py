@@ -290,8 +290,9 @@ def _scrape_playwright(dates: list[str]) -> list[dict]:
             return []
 
         # Normalise + emit inline sessions, decide which films need Phase 2.
-        # The homepage table doesn't carry a version label, so inline
-        # sessions default to language="es" (which is the Ocine norm).
+        # The homepage table doesn't carry a per-session version label, but
+        # the film title often does (e.g. "La Odisea (VOSE)"), so infer from
+        # the title and fall back to "es" (the Ocine norm) otherwise.
         #
         # Defensive coercion: even though the Phase 1 JS only ever pushes
         # strings into the dates Set and {date, time} dicts into sessions,
@@ -340,6 +341,7 @@ def _scrape_playwright(dates: list[str]) -> list[dict]:
                 _log(f"  ⚠ Ocine: skipping malformed film entry: title={title!r} url={film_url!r}")
                 continue
 
+            title_lang = _detect_lang(title)
             for s in inline:
                 d = s["date"]
                 t = s["time"][:5]
@@ -347,7 +349,7 @@ def _scrape_playwright(dates: list[str]) -> list[dict]:
                     continue
                 results.append({
                     "title":    title,
-                    "language": "es",
+                    "language": title_lang,
                     "date":     d,
                     "time":     t,
                     "url":      film_url,

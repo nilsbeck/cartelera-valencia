@@ -1,0 +1,16 @@
+# Install: sudo cp systemd/cartelera-scraper.* /etc/systemd/system/
+# Then edit WorkingDirectory below to point at your clone of this repo.
+[Unit]
+Description=Cartelera Valencia scraper
+Wants=network-online.target
+After=network-online.target docker.service
+Requires=docker.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=/path/to/cartelera-valencia
+ExecStart=/usr/bin/docker compose run --rm scraper
+TimeoutStartSec=900
+
+[Install]
+WantedBy=multi-user.target
