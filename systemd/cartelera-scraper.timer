@@ -1,0 +1,11 @@
+# Install alongside cartelera-scraper.service — see that file for setup.
+[Unit]
+Description=Run cartelera-valencia scraper daily
+
+[Timer]
+OnCalendar=*-*-* 05:30:00
+Persistent=true
+RandomizedDelaySec=300
+
+[Install]
+WantedBy=timers.target
