@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T07:00:00Z",
+  "updated_at": "2026-07-26T07:00:00Z",
   "movies": [
     {
       "id": "tmdb-843",
@@ -841,6 +841,41 @@
           "cinema": "ocine",
           "language": "VOSE",
           "date": "2026-07-27",
+          "time": "21:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10411/p?la-odisea-vose"
+        },
+        {
+          "cinema": "ocine",
+          "language": "VOSE",
+          "date": "2026-07-26",
+          "time": "15:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10411/p?la-odisea-vose"
+        },
+        {
+          "cinema": "ocine",
+          "language": "VOSE",
+          "date": "2026-07-27",
+          "time": "15:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10411/p?la-odisea-vose"
+        },
+        {
+          "cinema": "ocine",
+          "language": "VOSE",
+          "date": "2026-07-28",
+          "time": "15:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10411/p?la-odisea-vose"
+        },
+        {
+          "cinema": "ocine",
+          "language": "VOSE",
+          "date": "2026-07-28",
+          "time": "16:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10411/p?la-odisea-vose"
+        },
+        {
+          "cinema": "ocine",
+          "language": "VOSE",
+          "date": "2026-07-28",
           "time": "21:30",
           "url": "https://www.ocinepremiumaqua.es/film-10411/p?la-odisea-vose"
         }
@@ -8395,6 +8430,27 @@
           "cinema": "ocine",
           "language": "ES",
           "date": "2026-07-27",
+          "time": "21:30",
+          "url": "https://www.ocinepremiumaqua.es/film-9985/p?obsession"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-28",
+          "time": "16:00",
+          "url": "https://www.ocinepremiumaqua.es/film-9985/p?obsession"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-28",
+          "time": "18:10",
+          "url": "https://www.ocinepremiumaqua.es/film-9985/p?obsession"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-28",
           "time": "21:30",
           "url": "https://www.ocinepremiumaqua.es/film-9985/p?obsession"
         }
@@ -30014,6 +30070,48 @@
           "date": "2026-07-30",
           "time": "22:45",
           "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3242"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-26",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-sueno-americano/87745/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-27",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-sueno-americano/87746/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-28",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-sueno-americano/87747/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-29",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-sueno-americano/87748/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-30",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-sueno-americano/87749/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-07-26",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48024"
         }
       ]
     },
@@ -39033,6 +39131,41 @@
           "date": "2026-07-28",
           "time": "19:00",
           "url": "https://kinepolis.es/movies/detail/37486/HO00006389/0/el-dia-de-la-revelacion"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-26",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-dia-de-la-revelacion/87750/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-27",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-dia-de-la-revelacion/87751/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-28",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-dia-de-la-revelacion/87752/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-29",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-dia-de-la-revelacion/87753/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-30",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-dia-de-la-revelacion/87754/?step=2"
         }
       ]
     },
@@ -41643,6 +41776,20 @@
           "cinema": "ocine",
           "language": "ES",
           "date": "2026-07-27",
+          "time": "21:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10312/p?posesion-infernal-en-llamas"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-28",
+          "time": "16:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10312/p?posesion-infernal-en-llamas"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-28",
           "time": "21:30",
           "url": "https://www.ocinepremiumaqua.es/film-10312/p?posesion-infernal-en-llamas"
         }
@@ -78812,6 +78959,27 @@
           "date": "2026-07-27",
           "time": "19:20",
           "url": "https://www.ocinepremiumaqua.es/film-10234/p?toy-story-5"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-28",
+          "time": "15:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10234/p?toy-story-5"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-28",
+          "time": "17:10",
+          "url": "https://www.ocinepremiumaqua.es/film-10234/p?toy-story-5"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-28",
+          "time": "19:20",
+          "url": "https://www.ocinepremiumaqua.es/film-10234/p?toy-story-5"
         }
       ]
     },
@@ -80752,6 +80920,20 @@
           "date": "2026-07-31",
           "time": "22:30",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-08-01",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-08-01",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
       ]
     },
@@ -81433,6 +81615,13 @@
           "date": "2026-07-30",
           "time": "22:45",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3243"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-07-26",
+          "time": "15:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47955"
         }
       ]
     },
@@ -81516,6 +81705,20 @@
           "cinema": "dor",
           "language": "ES",
           "date": "2026-07-31",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-08-01",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-08-01",
           "time": "20:25",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -85565,6 +85768,34 @@
           "date": "2026-07-26",
           "time": "17:50",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/supergirl/87715/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-27",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/supergirl/87755/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-28",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/supergirl/87756/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-29",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/supergirl/87757/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-07-30",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/supergirl/87758/?step=2"
         }
       ]
     },
@@ -85994,316 +86225,34 @@
           "date": "2026-07-26",
           "time": "20:10",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/motor-city/87718/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1582052",
-      "title": "El anfitrión",
-      "title_local": "El extraño anfitrión",
-      "poster": "posters/el-anfitrion.jpg",
-      "rating": null,
-      "duration": 90,
-      "genres": [
-        "Suspense",
-        "Crimen",
-        "Misterio"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-24",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65503/?step=2"
         },
         {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-24",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65512/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-25",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65523/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-25",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65521/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-26",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65542/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-26",
-          "time": "22:25",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65543/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-27",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65565/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-27",
-          "time": "22:25",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65561/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-28",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65580/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-28",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65576/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-28",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65581/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-29",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65596/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-30",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65615/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-07-30",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65613/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-07-24",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-anfitrion/385211/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-07-24",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-anfitrion/385212/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-07-25",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-anfitrion/385213/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-07-25",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-anfitrion/385214/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-07-26",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-anfitrion/385215/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-07-26",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-anfitrion/385216/?step=2"
-        },
-        {
-          "cinema": "lys",
+          "cinema": "mn4",
           "language": "ES",
           "date": "2026-07-27",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-anfitrion/385252/?step=2"
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/motor-city/87759/?step=2"
         },
         {
-          "cinema": "lys",
+          "cinema": "mn4",
           "language": "ES",
           "date": "2026-07-28",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-anfitrion/385287/?step=2"
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/motor-city/87760/?step=2"
         },
         {
-          "cinema": "lys",
+          "cinema": "mn4",
           "language": "ES",
           "date": "2026-07-29",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-anfitrion/385327/?step=2"
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/motor-city/87761/?step=2"
         },
         {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-07-29",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-anfitrion/385328/?step=2"
-        },
-        {
-          "cinema": "lys",
+          "cinema": "mn4",
           "language": "ES",
           "date": "2026-07-30",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-anfitrion/385355/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-24",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-24",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-24",
-          "time": "22:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-25",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-25",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-25",
-          "time": "22:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-26",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-26",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-26",
-          "time": "22:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-27",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-27",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-27",
-          "time": "22:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-28",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-28",
-          "time": "20:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-29",
-          "time": "19:50",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-30",
-          "time": "19:50",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-30",
-          "time": "22:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/motor-city/87762/?step=2"
         }
       ]
     },
@@ -92193,6 +92142,351 @@
           "date": "2026-07-29",
           "time": "16:00",
           "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-29",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/385327/?step=2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-08-01",
+          "time": "13:00",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00006515/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-01",
+          "time": "16:20",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-01",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-26",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47294"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1582052",
+      "title": "El anfitrión",
+      "title_local": "El extraño anfitrión",
+      "poster": "posters/el-anfitrion.jpg",
+      "rating": null,
+      "duration": 90,
+      "genres": [
+        "Suspense",
+        "Crimen",
+        "Misterio"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-24",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65503/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-24",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65512/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-25",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65523/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-25",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65521/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-26",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65542/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-26",
+          "time": "22:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65543/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-27",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65565/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-27",
+          "time": "22:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65561/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-28",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65580/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-28",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65576/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-28",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65581/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-29",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65596/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-30",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65615/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-07-30",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-anfitrion/65613/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-24",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-anfitrion/385211/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-24",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-anfitrion/385212/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-25",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-anfitrion/385213/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-25",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-anfitrion/385214/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-26",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-anfitrion/385215/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-26",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-anfitrion/385216/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-27",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-anfitrion/385252/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-28",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-anfitrion/385287/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-29",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-anfitrion/385327/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-29",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-anfitrion/385328/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-07-30",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-anfitrion/385355/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-24",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-24",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-24",
+          "time": "22:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-25",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-25",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-25",
+          "time": "22:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-26",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-26",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-26",
+          "time": "22:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-27",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-27",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-27",
+          "time": "22:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-28",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-28",
+          "time": "20:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-29",
+          "time": "19:50",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-30",
+          "time": "19:50",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-30",
+          "time": "22:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3241"
         }
       ]
     },
@@ -95662,6 +95956,13 @@
           "date": "2026-07-26",
           "time": "11:30",
           "url": "https://www.ocinepremiumaqua.es/film-10498/p?haciendo-amigos"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-26",
+          "time": "18:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48026"
         }
       ]
     },
@@ -96927,6 +97228,27 @@
           "cinema": "ocine",
           "language": "ES",
           "date": "2026-07-27",
+          "time": "22:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10546/p?tres-de-mas"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-28",
+          "time": "18:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10546/p?tres-de-mas"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-28",
+          "time": "20:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10546/p?tres-de-mas"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-07-28",
           "time": "22:00",
           "url": "https://www.ocinepremiumaqua.es/film-10546/p?tres-de-mas"
         }
@@ -102895,6 +103217,34 @@
           "date": "2026-07-30",
           "time": "17:15",
           "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-07-26",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47960"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-26",
+          "time": "18:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47900"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-26",
+          "time": "20:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47900"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-07-26",
+          "time": "22:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47900"
         }
       ]
     },
@@ -103877,6 +104227,125 @@
           "date": "2026-07-29",
           "time": "16:30",
           "url": "https://kinepolis.es/movies/detail/35287/HO00006387/0/spider-man-brand-new-day"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-01",
+          "time": "13:45",
+          "url": "https://kinepolis.es/movies/detail/35287/HO00006387/0/spider-man-brand-new-day"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-01",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/35287/HO00006387/0/spider-man-brand-new-day"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-01",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/35287/HO00006387/0/spider-man-brand-new-day"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-01",
+          "time": "20:20",
+          "url": "https://kinepolis.es/movies/detail/35287/HO00006387/0/spider-man-brand-new-day"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-01",
+          "time": "17:10",
+          "url": "https://kinepolis.es/movies/detail/35287/HO00006387/0/spider-man-brand-new-day"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-01",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/35287/HO00006387/0/spider-man-brand-new-day"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-08-01",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/35287/HO00006496/0/spider-man-brand-new-day"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-08-01",
+          "time": "18:45",
+          "url": "https://kinepolis.es/movies/detail/35287/HO00006496/0/spider-man-brand-new-day"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-08-01",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/35287/HO00006496/0/spider-man-brand-new-day"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-08-01",
+          "time": "19:45",
+          "url": "https://kinepolis.es/movies/detail/35287/HO00006496/0/spider-man-brand-new-day"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-01",
+          "time": "15:15",
+          "url": "https://kinepolis.es/movies/detail/35287/HO00006387/0/spider-man-brand-new-day"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-01",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/35287/HO00006387/0/spider-man-brand-new-day"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-01",
+          "time": "19:15",
+          "url": "https://kinepolis.es/movies/detail/35287/HO00006387/0/spider-man-brand-new-day"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-01",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/35287/HO00006387/0/spider-man-brand-new-day"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-01",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/35287/HO00006387/0/spider-man-brand-new-day"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-01",
+          "time": "18:10",
+          "url": "https://kinepolis.es/movies/detail/35287/HO00006387/0/spider-man-brand-new-day"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-01",
+          "time": "21:20",
+          "url": "https://kinepolis.es/movies/detail/35287/HO00006387/0/spider-man-brand-new-day"
         }
       ]
     },
@@ -104064,116 +104533,6 @@
           "date": "2026-07-28",
           "time": "19:30",
           "url": "https://kinepolis.es/movies/detail/38751/HO00006591/0/backrooms-liquidacion-total-version-extendida"
-        }
-      ]
-    },
-    {
-      "id": "local-la-odisea-70mm",
-      "title": "LA ODISEA - 70MM",
-      "title_local": "LA ODISEA - 70MM",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-07-17",
-          "time": "20:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-07-18",
-          "time": "20:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-07-19",
-          "time": "20:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-07-21",
-          "time": "20:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-07-23",
-          "time": "20:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-07-20",
-          "time": "20:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-07-22",
-          "time": "20:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-24",
-          "time": "20:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-07-25",
-          "time": "20:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-26",
-          "time": "20:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-07-27",
-          "time": "20:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-28",
-          "time": "20:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-07-30",
-          "time": "20:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-07-29",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
         }
       ]
     },
@@ -104746,6 +105105,116 @@
           "date": "2026-07-30",
           "time": "16:10",
           "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3232"
+        }
+      ]
+    },
+    {
+      "id": "local-la-odisea-70mm",
+      "title": "LA ODISEA - 70MM",
+      "title_local": "LA ODISEA - 70MM",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-07-17",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-07-18",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-07-19",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-07-21",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-07-23",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-07-20",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-07-22",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-24",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-07-25",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-26",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-07-27",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-28",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-07-30",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-07-29",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
         }
       ]
     },
@@ -105515,6 +105984,13 @@
           "date": "2026-07-27",
           "time": "15:30",
           "url": "https://www.ocinepremiumaqua.es/film-10559/p?nicky-la-aprendiz-de-bruja-urban-vose"
+        },
+        {
+          "cinema": "ocine",
+          "language": "VOSE",
+          "date": "2026-07-28",
+          "time": "15:30",
+          "url": "https://www.ocinepremiumaqua.es/film-10559/p?nicky-la-aprendiz-de-bruja-urban-vose"
         }
       ]
     },
@@ -105546,6 +106022,13 @@
           "cinema": "ocine",
           "language": "VOSE",
           "date": "2026-07-27",
+          "time": "21:00",
+          "url": "https://www.ocinepremiumaqua.es/film-10423/p?la-odisea-urban-vose"
+        },
+        {
+          "cinema": "ocine",
+          "language": "VOSE",
+          "date": "2026-07-28",
           "time": "21:00",
           "url": "https://www.ocinepremiumaqua.es/film-10423/p?la-odisea-urban-vose"
         }
