@@ -1,6 +1,35 @@
 {
-  "updated_at": "2026-08-14T07:00:00Z",
+  "updated_at": "2026-08-15T07:00:00Z",
   "movies": [
+    {
+      "id": "tmdb-843",
+      "title": "30 años 30 películas – In the mood for love (Deseando amar)",
+      "title_local": "Deseando amar",
+      "poster": "posters/30-a-os-30-peliculas-in-the-mood-for-love-deseando-amar.jpg",
+      "rating": 8.1,
+      "duration": 95,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "trailer_youtube_id": "rc3QleuaQMw",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-17",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/66133/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-20",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/66182/?step=2"
+        }
+      ]
+    },
     {
       "id": "tmdb-398818",
       "title": "CALL ME BY YOUR NAME",
@@ -10215,69 +10244,34 @@
           "date": "2026-08-19",
           "time": "22:10",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-901563",
-      "title": "30 años 30 películas – Close",
-      "title_local": "Close",
-      "poster": "posters/30-a-os-30-peliculas-close.jpg",
-      "rating": 7.8,
-      "duration": 104,
-      "genres": [
-        "Drama"
-      ],
-      "trailer_youtube_id": "wm6guCngagM",
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-14",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-close/66082/?step=2"
         },
         {
           "cinema": "babel",
           "language": "VOSE",
           "date": "2026-08-15",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-close/66101/?step=2"
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66091/?step=2"
         },
         {
           "cinema": "babel",
           "language": "VOSE",
           "date": "2026-08-16",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-close/66120/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-17",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-close/66139/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-18",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-close/66158/?step=2"
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66109/?step=2"
         },
         {
           "cinema": "babel",
           "language": "VOSE",
           "date": "2026-08-19",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-close/66176/?step=2"
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66167/?step=2"
         },
         {
           "cinema": "babel",
           "language": "VOSE",
           "date": "2026-08-20",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-close/66194/?step=2"
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66191/?step=2"
         }
       ]
     },
@@ -12317,6 +12311,13 @@
           "date": "2026-08-19",
           "time": "22:35",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-tres-colores-azul/66163/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-16",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-tres-colores-azul/66114/?step=2"
         }
       ]
     },
@@ -23152,6 +23153,48 @@
       ]
     },
     {
+      "id": "tmdb-179144",
+      "title": "30 años 30 películas – La gran belleza",
+      "title_local": "La gran belleza",
+      "poster": "posters/30-a-os-30-peliculas-la-gran-belleza.jpg",
+      "rating": 7.5,
+      "duration": 141,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": "koxRDhAQOpw",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-15",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-la-gran-belleza/66085/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-16",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-la-gran-belleza/66104/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-19",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-la-gran-belleza/66161/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-20",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-la-gran-belleza/66180/?step=2"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1462322",
       "title": "La última ronda en Venecia",
       "title_local": "La última ronda en Venecia",
@@ -24233,6 +24276,34 @@
           "date": "2026-08-20",
           "time": "22:30",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-ultima-ronda-en-venecia/66186/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-15",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-ultima-ronda-en-venecia/66199/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-16",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-ultima-ronda-en-venecia/66110/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-17",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-ultima-ronda-en-venecia/66201/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-18",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-ultima-ronda-en-venecia/66202/?step=2"
         }
       ]
     },
@@ -24877,6 +24948,48 @@
           "date": "2026-08-20",
           "time": "20:35",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-taxi-en-tokio/66185/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-15",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-taxi-en-tokio/66090/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-16",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-taxi-en-tokio/66200/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-17",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-taxi-en-tokio/66128/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-18",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-taxi-en-tokio/66147/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-19",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-taxi-en-tokio/66166/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-20",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-taxi-en-tokio/66183/?step=2"
         }
       ]
     },
@@ -26103,6 +26216,13 @@
           "date": "2026-08-20",
           "time": "19:30",
           "url": "https://kinepolis.es/movies/detail/37904/HO00006617/0/en-mar-abierto"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-20",
+          "time": "22:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48878"
         }
       ]
     },
@@ -64334,6 +64454,27 @@
           "date": "2026-08-20",
           "time": "22:30",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-drama/66189/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-17",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-drama/66129/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-18",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-drama/66155/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-19",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-drama/66171/?step=2"
         }
       ]
     },
@@ -64355,6 +64496,29 @@
           "date": "2026-08-26",
           "time": "20:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-coloquio-el-ser-querido/65898/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-385687",
+      "title": "The Fast and the Furious (A Todo Gas)",
+      "title_local": "Fast & Furious X",
+      "poster": "posters/the-fast-and-the-furious-a-todo-gas.jpg",
+      "rating": 7.0,
+      "duration": 140,
+      "genres": [
+        "Acción",
+        "Crimen",
+        "Suspense"
+      ],
+      "trailer_youtube_id": "eoOaKN4qCKw",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-21",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/3889/HO00003408/0/the-fast-and-the-furious-a-todo-gas"
         }
       ]
     },
@@ -79127,6 +79291,27 @@
           "date": "2026-08-20",
           "time": "18:25",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48999"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-17",
+          "time": "22:05",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3126"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "22:05",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3126"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-20",
+          "time": "22:05",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3126"
         }
       ]
     },
@@ -79947,6 +80132,55 @@
           "date": "2026-08-20",
           "time": "18:20",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/omaha/66193/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-18",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/omaha/66146/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-19",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/omaha/66203/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-20",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/omaha/66193/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-804251",
+      "title": "Alcarràs",
+      "title_local": "Alcarràs",
+      "poster": "posters/alcarras.jpg",
+      "rating": 6.8,
+      "duration": 120,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": "BH3XBVoewo8",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/22033/HO00003873/0/alcarras"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "14:15",
+          "url": "https://kinepolis.es/movies/detail/22033/HO00003873/0/alcarras"
         }
       ]
     },
@@ -81054,6 +81288,27 @@
           "date": "2026-08-19",
           "time": "20:25",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3280"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-17",
+          "time": "20:10",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3280"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "20:10",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3280"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-20",
+          "time": "20:10",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3280"
         }
       ]
     },
@@ -82002,6 +82257,27 @@
           "date": "2026-08-19",
           "time": "20:35",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-amor-que-permanece/66162/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-17",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-amor-que-permanece/66136/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-18",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-amor-que-permanece/66205/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-20",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-amor-que-permanece/66181/?step=2"
         }
       ]
     },
@@ -82397,6 +82673,69 @@
           "date": "2026-08-20",
           "time": "18:20",
           "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3282"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-15",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/este-oeste/66094/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-15",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/este-oeste/66095/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-16",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/este-oeste/66113/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-17",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/este-oeste/66132/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-18",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/este-oeste/66151/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-18",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/este-oeste/66152/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-19",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/este-oeste/66170/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-20",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/este-oeste/66204/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-20",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/este-oeste/66195/?step=2"
         }
       ]
     },
@@ -98468,6 +98807,34 @@
           "date": "2026-08-20",
           "time": "21:45",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49000"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-21",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-08-21",
+          "time": "13:00",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00006515/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "10:30",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "10:30",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
         }
       ]
     },
@@ -98588,49 +98955,6 @@
       ]
     },
     {
-      "id": "tmdb-1432474",
-      "title": "Nimrods: a Green Day comedy",
-      "title_local": "Nimrods: A Green Day Comedy",
-      "poster": "posters/nimrods-a-green-day-comedy.jpg",
-      "rating": null,
-      "duration": 116,
-      "genres": [
-        "Comedia",
-        "Música"
-      ],
-      "trailer_youtube_id": "5mtbOhpqroo",
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-08-11",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/38758/HO00006593/0/nimrods-a-green-day-comedy"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-08-14",
-          "time": "18:30",
-          "url": "https://kinepolis.es/movies/detail/38758/HO00006593/0/nimrods-a-green-day-comedy"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-08-11",
-          "time": "20:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47640"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-08-14",
-          "time": "20:05",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=47641"
-        }
-      ]
-    },
-    {
       "id": "tmdb-1728113",
       "title": "Katseye: Wild Hearts",
       "title_local": "KATSEYE: WILD HEARTS",
@@ -98669,6 +98993,20 @@
           "language": "VO",
           "date": "2026-08-15",
           "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/38535/HO00006600/0/katseye-wild-hearts"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-08-15",
+          "time": "11:00",
+          "url": "https://kinepolis.es/movies/detail/38535/HO00006600/0/katseye-wild-hearts"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-08-16",
+          "time": "11:30",
           "url": "https://kinepolis.es/movies/detail/38535/HO00006600/0/katseye-wild-hearts"
         }
       ]
@@ -109396,6 +109734,20 @@
           "date": "2026-08-20",
           "time": "16:05",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48996"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "11:30",
+          "url": "https://kinepolis.es/movies/detail/35287/HO00006387/0/spider-man-brand-new-day"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "11:00",
+          "url": "https://kinepolis.es/movies/detail/35287/HO00006387/0/spider-man-brand-new-day"
         }
       ]
     },
@@ -111474,6 +111826,13 @@
           "date": "2026-08-20",
           "time": "18:30",
           "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-20",
+          "time": "22:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48990"
         }
       ]
     },
@@ -114421,6 +114780,13 @@
           "date": "2026-08-19",
           "time": "16:25",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49020"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-20",
+          "time": "16:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48993"
         }
       ]
     },
@@ -114955,6 +115321,48 @@
           "date": "2026-08-20",
           "time": "22:00",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3284"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48829"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48917"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-17",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48944"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48974"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49015"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-20",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48988"
         }
       ]
     },
@@ -127566,27 +127974,6 @@
       ]
     },
     {
-      "id": "tmdb-1740308",
-      "title": "CORTIS TOUR: PUT YOUR PHONE DOWN",
-      "title_local": "2026 CORTIS TOUR PUT YOUR PHONE DOWN IN LA: LIVE VIEWING",
-      "poster": "posters/cortis-tour-put-your-phone-down.jpg",
-      "rating": null,
-      "duration": null,
-      "genres": [
-        "Música"
-      ],
-      "trailer_youtube_id": "T2c6iAMhons",
-      "showtimes": [
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-08-14",
-          "time": "20:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48703"
-        }
-      ]
-    },
-    {
       "id": "local-assassination-classroom-el-tiempo-que-compartimos",
       "title": "Assassination Classroom: El tiempo que compartimos",
       "title_local": "Assassination Classroom: El tiempo que compartimos",
@@ -128111,25 +128498,6 @@
           "date": "2026-08-20",
           "time": "20:10",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
-        }
-      ]
-    },
-    {
-      "id": "local-la-historia-interminable-wilder-cinema",
-      "title": "LA HISTORIA INTERMINABLE - WILDER CINEMA",
-      "title_local": "LA HISTORIA INTERMINABLE - WILDER CINEMA",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-08-14",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3261"
         }
       ]
     },
