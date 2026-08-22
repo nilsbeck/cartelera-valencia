@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T07:00:00Z",
+  "updated_at": "2026-08-22T07:00:00Z",
   "movies": [
     {
       "id": "tmdb-1288445",
@@ -1070,6 +1070,83 @@
           "date": "2026-08-27",
           "time": "22:30",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3291"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "15:35",
+          "url": "https://kinepolis.es/movies/detail/35720/HO00006625/0/el-motin"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/35720/HO00006625/0/el-motin"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-08-27",
+          "time": "20:20",
+          "url": "https://kinepolis.es/movies/detail/35720/HO00006626/0/el-motin"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-08-22",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49161"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-08-22",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49161"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-08-23",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49222"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-08-23",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49222"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-08-24",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49263"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-08-24",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49263"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-08-25",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49378"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-08-25",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49378"
         }
       ]
     },
@@ -1128,6 +1205,63 @@
           "date": "2026-09-10",
           "time": "19:30",
           "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/call-me-by-your-name/385362/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-671",
+      "title": "Harry Potter y la piedra filosofal",
+      "title_local": "Harry Potter y la piedra filosofal",
+      "poster": "posters/harry-potter-y-la-piedra-filosofal.jpg",
+      "rating": 7.9,
+      "duration": 152,
+      "genres": [
+        "Aventura",
+        "Fantasía"
+      ],
+      "trailer_youtube_id": "l91Km49W9qI",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-08-28",
+          "time": "17:15",
+          "url": "https://kinepolis.es/movies/detail/4470/HO00002916/0/harry-potter-y-la-piedra-filosofal"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/4470/HO00002946/0/harry-potter-y-la-piedra-filosofal"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-08-28",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/4470/HO00002916/0/harry-potter-y-la-piedra-filosofal"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "14:15",
+          "url": "https://kinepolis.es/movies/detail/4470/HO00002946/0/harry-potter-y-la-piedra-filosofal"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "13:30",
+          "url": "https://kinepolis.es/movies/detail/4470/HO00002946/0/harry-potter-y-la-piedra-filosofal"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/4470/HO00002946/0/harry-potter-y-la-piedra-filosofal"
         }
       ]
     },
@@ -15047,6 +15181,48 @@
           "date": "2026-08-27",
           "time": "20:00",
           "url": "https://kinepolis.es/movies/detail/33752/HO00006554/0/el-final-de-oak-street"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-23",
+          "time": "20:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49229"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-23",
+          "time": "22:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49229"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-24",
+          "time": "20:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49276"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-24",
+          "time": "22:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49276"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-25",
+          "time": "20:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49385"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-25",
+          "time": "22:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49385"
         }
       ]
     },
@@ -26347,6 +26523,13 @@
           "date": "2026-08-27",
           "time": "16:00",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3144"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
         }
       ]
     },
@@ -38882,6 +39065,13 @@
           "date": "2026-08-25",
           "time": "16:25",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3276"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/37904/HO00006617/0/en-mar-abierto"
         }
       ]
     },
@@ -43352,6 +43542,13 @@
           "date": "2026-08-25",
           "time": "21:30",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3285"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "17:05",
+          "url": "https://kinepolis.es/movies/detail/37497/HO00006630/0/cuenta-atras"
         }
       ]
     },
@@ -66379,6 +66576,20 @@
           "date": "2026-09-03",
           "time": "22:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-ser-querido/66235/?step=2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "15:35",
+          "url": "https://kinepolis.es/movies/detail/38374/HO00006544/0/el-ser-querido"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "18:45",
+          "url": "https://kinepolis.es/movies/detail/38374/HO00006544/0/el-ser-querido"
         }
       ]
     },
@@ -71831,6 +72042,20 @@
           "date": "2026-08-27",
           "time": "22:35",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3293"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-08-27",
+          "time": "16:10",
+          "url": "https://kinepolis.es/movies/detail/38326/HO00006563/0/insidious-fuera-del-mas-alla"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "19:05",
+          "url": "https://kinepolis.es/movies/detail/38326/HO00006562/0/insidious-fuera-del-mas-alla"
         }
       ]
     },
@@ -89332,6 +89557,27 @@
           "date": "2026-08-27",
           "time": "20:00",
           "url": "https://kinepolis.es/movies/detail/35300/HO00006515/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-08-28",
+          "time": "13:00",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00006515/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
         }
       ]
     },
@@ -89640,6 +89886,13 @@
           "date": "2026-08-27",
           "time": "18:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/vivir-la-tierra/66356/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-22",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/vivir-la-tierra/66243/?step=2"
         }
       ]
     },
@@ -89847,6 +90100,20 @@
           "language": "ES",
           "date": "2026-08-26",
           "time": "17:10",
+          "url": "https://kinepolis.es/movies/detail/36997/HO00006543/0/tadeo-jones-y-la-lampara-maravillosa"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/36997/HO00006543/0/tadeo-jones-y-la-lampara-maravillosa"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "18:30",
           "url": "https://kinepolis.es/movies/detail/36997/HO00006543/0/tadeo-jones-y-la-lampara-maravillosa"
         }
       ]
@@ -102667,2469 +102934,20 @@
           "date": "2026-08-27",
           "time": "19:30",
           "url": "https://kinepolis.es/movies/detail/35287/HO00006387/0/spider-man-brand-new-day"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1614289",
-      "title": "El último mono",
-      "title_local": "El último mono",
-      "poster": "posters/el-ultimo-mono.jpg",
-      "rating": null,
-      "duration": null,
-      "genres": [
-        "Comedia",
-        "Romance"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
         },
         {
           "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "18:00",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "16:15",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "18:20",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "18:00",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "20:15",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "18:00",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "19:40",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "17:20",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "16:15",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "18:30",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-13",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-13",
-          "time": "18:00",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-13",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "14:10",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "16:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88053/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88054/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88055/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88056/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "16:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88057/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88058/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88059/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88060/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "16:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88061/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88062/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88063/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88064/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88065/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88066/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88067/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88068/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88069/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88070/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88248/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88249/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88250/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-13",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88251/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-13",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88252/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-13",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88253/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385703/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385704/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385705/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385706/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385707/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385708/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385709/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385710/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385711/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385712/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385713/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385714/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385848/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385849/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385850/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385917/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385918/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385919/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385805/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385806/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385807/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385808/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-13",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385883/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-13",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385884/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-13",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385885/?step=2"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "15:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48526"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "18:35",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48526"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "20:40",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48526"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "22:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48526"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "15:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48529"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "18:40",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48529"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "20:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48529"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "22:50",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48529"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "15:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48536"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "18:35",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48536"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "20:40",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48536"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "22:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48536"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "15:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48543"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "18:35",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48543"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "20:40",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48543"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "22:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48543"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "15:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48550"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "18:35",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48550"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "20:40",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48550"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "22:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48550"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "16:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "18:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "22:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "16:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "18:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "22:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "16:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "18:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "22:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "16:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "18:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "22:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "16:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "18:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "22:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "16:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "22:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-13",
-          "time": "18:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-13",
-          "time": "22:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "18:10",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "22:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "20:20",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "22:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "12:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "20:20",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "22:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "18:10",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "22:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "18:10",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "22:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "20:20",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "22:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-13",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-13",
-          "time": "20:20",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-13",
-          "time": "22:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "16:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "18:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "20:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "22:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "16:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "18:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "20:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "22:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "16:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "18:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "20:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "22:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "16:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "18:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "20:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "22:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "16:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "18:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "20:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "22:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "16:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "18:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "20:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "22:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-13",
-          "time": "16:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-13",
-          "time": "18:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-13",
-          "time": "20:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-13",
-          "time": "22:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-14",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88401/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-14",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88402/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-14",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88403/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-15",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88404/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-15",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88405/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-15",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88406/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-16",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88407/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-16",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88408/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-16",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88409/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-17",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88410/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-17",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88411/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-17",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88412/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-18",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88413/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-18",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88414/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-18",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88415/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-19",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88416/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-19",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88417/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-19",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88418/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-20",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88419/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-20",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88420/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-20",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88421/?step=2"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "16:05",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48738"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "20:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48738"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "22:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48738"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-13",
-          "time": "16:05",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48765"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-13",
-          "time": "20:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48765"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-13",
-          "time": "22:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48765"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-15",
-          "time": "22:50",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48840"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-16",
-          "time": "22:50",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48921"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-17",
-          "time": "22:50",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48948"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-15",
-          "time": "16:05",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-15",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-16",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-16",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-14",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-17",
-          "time": "18:30",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-18",
-          "time": "18:30",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-14",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386005/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-14",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386006/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-14",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386007/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-15",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386008/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-15",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386009/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-15",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386010/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-16",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386011/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-16",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386012/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-16",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386013/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-17",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386153/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-17",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386154/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-18",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386188/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-18",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386189/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-19",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386109/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-19",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386110/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-19",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386111/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-20",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386223/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-20",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386224/?step=2"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-18",
-          "time": "22:50",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48970"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-14",
-          "time": "16:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-15",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-16",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-17",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-18",
-          "time": "16:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-18",
-          "time": "18:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-19",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-14",
-          "time": "20:45",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-14",
-          "time": "22:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-15",
-          "time": "20:45",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-15",
-          "time": "22:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-16",
-          "time": "20:45",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-16",
-          "time": "22:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-17",
-          "time": "18:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-18",
-          "time": "18:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-19",
-          "time": "20:45",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-19",
-          "time": "22:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-20",
-          "time": "18:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-14",
-          "time": "20:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-14",
-          "time": "22:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-15",
-          "time": "20:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-15",
-          "time": "22:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-16",
-          "time": "20:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-16",
-          "time": "22:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-17",
-          "time": "20:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-17",
-          "time": "22:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-18",
-          "time": "18:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-18",
-          "time": "20:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-18",
-          "time": "22:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-19",
-          "time": "20:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-19",
-          "time": "22:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-20",
-          "time": "18:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-20",
-          "time": "20:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-20",
-          "time": "22:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-19",
-          "time": "14:15",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-19",
-          "time": "16:05",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-19",
-          "time": "22:50",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49017"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-20",
-          "time": "18:30",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-08-20",
-          "time": "22:50",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48990"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-21",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88720/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-21",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88712/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-22",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88721/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-22",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88713/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-23",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88722/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-23",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88714/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-24",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88723/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-24",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88715/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-25",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88724/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-25",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88716/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-08-26",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88990/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
+          "language": "VO",
           "date": "2026-08-27",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88991/?step=2"
+          "time": "15:15",
+          "url": "https://kinepolis.es/movies/detail/35287/HO00006496/0/spider-man-brand-new-day"
         },
         {
           "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-21",
-          "time": "16:35",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-21",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-22",
-          "time": "14:45",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-22",
-          "time": "17:05",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-23",
-          "time": "17:05",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-24",
-          "time": "16:35",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-25",
-          "time": "16:35",
-          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-21",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386349/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-22",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386350/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-23",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386351/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-24",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386419/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-25",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386454/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-21",
-          "time": "16:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-22",
-          "time": "16:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-23",
-          "time": "16:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-24",
-          "time": "16:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-25",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-22",
-          "time": "16:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-23",
-          "time": "16:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-25",
-          "time": "18:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-21",
-          "time": "16:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-21",
-          "time": "18:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-22",
-          "time": "16:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-22",
-          "time": "18:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-23",
-          "time": "16:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-23",
-          "time": "18:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-24",
-          "time": "16:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-24",
-          "time": "18:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-25",
-          "time": "16:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-25",
-          "time": "18:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-26",
-          "time": "16:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
+          "language": "VO",
           "date": "2026-08-27",
-          "time": "16:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
-        }
-      ]
-    },
-    {
-      "id": "local-vaiana-2026",
-      "title": "Vaiana 2026",
-      "title_local": "Vaiana 2026",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-04",
-          "time": "16:45",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-06",
-          "time": "16:45",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-05",
-          "time": "16:45",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "15:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "16:35",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-08",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "15:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-09",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "16:35",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "16:35",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "16:35",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-13",
-          "time": "16:35",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-15",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-15",
-          "time": "14:45",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-15",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-16",
-          "time": "15:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-16",
-          "time": "14:15",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-14",
-          "time": "15:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-17",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-18",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-19",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-19",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-19",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-20",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-21",
-          "time": "18:00",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-21",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-22",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-22",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-23",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-23",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-24",
-          "time": "18:20",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-25",
-          "time": "18:00",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-26",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-27",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/35287/HO00006496/0/spider-man-brand-new-day"
         }
       ]
     },
@@ -108168,6 +105986,2469 @@
           "date": "2026-08-23",
           "time": "11:45",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3248"
+        }
+      ]
+    },
+    {
+      "id": "local-vaiana-2026",
+      "title": "Vaiana 2026",
+      "title_local": "Vaiana 2026",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-04",
+          "time": "16:45",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-06",
+          "time": "16:45",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-05",
+          "time": "16:45",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "16:35",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "16:35",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "16:35",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "16:35",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-13",
+          "time": "16:35",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "14:45",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "14:15",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-14",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-17",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-20",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-21",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-21",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-22",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-22",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-23",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-23",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-24",
+          "time": "18:20",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-25",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-26",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1614289",
+      "title": "El último mono",
+      "title_local": "El último mono",
+      "poster": "posters/el-ultimo-mono.jpg",
+      "rating": null,
+      "duration": null,
+      "genres": [
+        "Comedia",
+        "Romance"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "16:15",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "18:20",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "19:40",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "17:20",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "16:15",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-13",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-13",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-13",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "14:10",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88053/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88054/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88055/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88056/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88057/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88058/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88059/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88060/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88061/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88062/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88063/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88064/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88065/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88066/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88067/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88068/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88069/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88070/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88248/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88249/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88250/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-13",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88251/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-13",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88252/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-13",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88253/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385703/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385704/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385705/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385706/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385707/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385708/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385709/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385710/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385711/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385712/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385713/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385714/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385848/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385849/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385850/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385917/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385918/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385919/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385805/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385806/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385807/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385808/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-13",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385883/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-13",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385884/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-13",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/385885/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48526"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "18:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48526"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48526"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "22:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48526"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48529"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "18:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48529"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48529"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "22:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48529"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48536"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "18:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48536"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48536"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "22:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48536"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48543"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "18:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48543"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48543"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "22:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48543"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48550"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "18:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48550"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48550"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "22:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48550"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "16:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "22:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "16:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "22:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "16:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "22:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "16:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "22:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "16:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "22:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "16:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "22:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-13",
+          "time": "18:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-13",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "18:10",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "20:20",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "12:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "20:20",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "18:10",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "18:10",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "20:20",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-13",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-13",
+          "time": "20:20",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-13",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "16:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "18:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "20:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "22:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "16:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "18:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "20:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "22:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "16:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "18:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "20:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "22:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "16:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "18:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "20:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "22:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "16:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "18:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "20:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "22:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "16:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "18:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "20:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "22:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-13",
+          "time": "16:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-13",
+          "time": "18:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-13",
+          "time": "20:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-13",
+          "time": "22:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-14",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88401/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-14",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88402/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-14",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88403/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88404/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88405/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88406/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88407/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88408/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88409/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-17",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88410/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-17",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88411/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-17",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88412/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88413/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88414/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88415/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88416/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88417/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88418/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-20",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88419/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-20",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88420/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-20",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88421/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48738"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48738"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "22:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48738"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-13",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48765"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-13",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48765"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-13",
+          "time": "22:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48765"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "22:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48840"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "22:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48921"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-17",
+          "time": "22:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48948"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "16:05",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-14",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-17",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-14",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386005/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-14",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386006/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-14",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386007/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386008/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386009/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386010/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386011/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386012/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386013/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-17",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386153/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-17",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386154/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386188/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386189/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386109/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386110/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386111/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-20",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386223/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-20",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386224/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "22:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48970"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-14",
+          "time": "16:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-17",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "16:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-14",
+          "time": "20:45",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-14",
+          "time": "22:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "20:45",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "22:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "20:45",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "22:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-17",
+          "time": "18:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "18:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "20:45",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "22:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-20",
+          "time": "18:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-14",
+          "time": "20:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-14",
+          "time": "22:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "20:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "22:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "20:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "22:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-17",
+          "time": "20:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-17",
+          "time": "22:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "18:25",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "20:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "22:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "20:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "22:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-20",
+          "time": "18:25",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-20",
+          "time": "20:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-20",
+          "time": "22:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "14:15",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "16:05",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "22:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49017"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-20",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-20",
+          "time": "22:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48990"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-21",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88720/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-21",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88712/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-22",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88721/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-22",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88713/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-23",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88722/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-23",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88714/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-24",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88723/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-24",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88715/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-25",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88724/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-25",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88716/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-26",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88990/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/88991/?step=2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-21",
+          "time": "16:35",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-21",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-22",
+          "time": "14:45",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-22",
+          "time": "17:05",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-23",
+          "time": "17:05",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-24",
+          "time": "16:35",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-25",
+          "time": "16:35",
+          "url": "https://kinepolis.es/movies/detail/38624/HO00006549/0/el-ultimo-mono"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-21",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386349/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-22",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386350/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-23",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386351/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-24",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386419/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-25",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ultimo-mono/386454/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-21",
+          "time": "16:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-22",
+          "time": "16:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-23",
+          "time": "16:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-24",
+          "time": "16:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-25",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-22",
+          "time": "16:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-23",
+          "time": "16:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-25",
+          "time": "18:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-21",
+          "time": "16:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-21",
+          "time": "18:25",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-22",
+          "time": "16:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-22",
+          "time": "18:25",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-23",
+          "time": "16:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-23",
+          "time": "18:25",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-24",
+          "time": "16:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-24",
+          "time": "18:25",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-25",
+          "time": "16:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-25",
+          "time": "18:25",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-26",
+          "time": "16:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "16:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
         }
       ]
     },
@@ -117991,6 +118272,104 @@
       ]
     },
     {
+      "id": "tmdb-1487159",
+      "title": "LA INVASIÓ DELS BÀRBARS",
+      "title_local": "La invasió dels bàrbars",
+      "poster": "posters/la-invasio-dels-barbars.jpg",
+      "rating": null,
+      "duration": 117,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-07",
+          "time": "21:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "22:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-23",
+          "time": "22:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-28",
+          "time": "20:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-28",
+          "time": "22:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-04",
+          "time": "20:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "20:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "18:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "19:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-22",
+          "time": "21:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-08-25",
+          "time": "18:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-25",
+          "time": "18:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1728647",
       "title": "LA VENTANA ABIERTA",
       "title_local": "La ventana abierta",
@@ -118086,104 +118465,6 @@
           "date": "2026-08-25",
           "time": "16:25",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3275"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1487159",
-      "title": "LA INVASIÓ DELS BÀRBARS",
-      "title_local": "La invasió dels bàrbars",
-      "poster": "posters/la-invasio-dels-barbars.jpg",
-      "rating": null,
-      "duration": 117,
-      "genres": [
-        "Drama"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-07",
-          "time": "21:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "22:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-23",
-          "time": "22:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-28",
-          "time": "20:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-28",
-          "time": "22:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-04",
-          "time": "20:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "20:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-18",
-          "time": "18:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-18",
-          "time": "19:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-22",
-          "time": "21:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-08-25",
-          "time": "18:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-25",
-          "time": "18:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
         }
       ]
     },
