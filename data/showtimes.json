@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T07:00:00Z",
+  "updated_at": "2026-08-25T07:00:00Z",
   "movies": [
     {
       "id": "tmdb-1288445",
@@ -1147,42 +1147,265 @@
           "date": "2026-08-25",
           "time": "20:20",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49378"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-843",
-      "title": "30 años 30 películas – In the mood for love (Deseando amar)",
-      "title_local": "Deseando amar",
-      "poster": "posters/30-a-os-30-peliculas-in-the-mood-for-love-deseando-amar.jpg",
-      "rating": 8.1,
-      "duration": 95,
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "trailer_youtube_id": "rc3QleuaQMw",
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-17",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/66133/?step=2"
         },
         {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-20",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/66182/?step=2"
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-motin/386562/?step=2"
         },
         {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-24",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-in-the-mood-for-love-deseando-amar/66311/?step=2"
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-motin/386563/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-motin/386564/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-motin/386565/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-motin/386566/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-motin/386567/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-motin/386748/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-motin/386749/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-motin/386815/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-motin/386816/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-motin/386703/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-motin/386704/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-motin/386782/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-motin/386783/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "18:05",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-motin/89221/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-motin/89222/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-motin/89223/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "18:05",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-motin/89224/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-motin/89225/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-motin/89226/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "18:05",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-motin/89227/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-motin/89228/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-motin/89229/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "18:05",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-motin/89230/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-motin/89231/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-motin/89232/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "18:05",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-motin/89233/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-motin/89234/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-motin/89235/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "18:05",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-motin/89236/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-motin/89237/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-motin/89238/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "18:05",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-motin/89239/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-motin/89240/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-motin/89241/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-26",
+          "time": "22:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49417"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "22:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49430"
         }
       ]
     },
@@ -11420,6 +11643,132 @@
           "date": "2026-08-23",
           "time": "20:30",
           "url": "https://kinepolis.es/movies/detail/37328/HO00006388/0/obsession"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-08-28",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/obsession/386634/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-08-28",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/obsession/386635/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-08-29",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/obsession/386636/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-08-29",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/obsession/386637/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-08-30",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/obsession/386638/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-08-30",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/obsession/386639/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-08-31",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/obsession/386768/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-01",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/obsession/386835/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-02",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/obsession/386727/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-02",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/obsession/386728/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-03",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/obsession/386801/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/obsession/89095/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/obsession/89096/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/obsession/89097/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/obsession/89098/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/obsession/89099/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/obsession/89100/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/obsession/89101/?step=2"
         }
       ]
     },
@@ -11477,6 +11826,13 @@
           "language": "VOSE",
           "date": "2026-08-20",
           "time": "20:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3250"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-08-27",
+          "time": "19:30",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3250"
         }
       ]
@@ -11556,6 +11912,69 @@
           "date": "2026-08-30",
           "time": "20:00",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=311"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-901563",
+      "title": "30 años 30 películas – Close",
+      "title_local": "Close",
+      "poster": "posters/30-a-os-30-peliculas-close.jpg",
+      "rating": 7.8,
+      "duration": 104,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": "wm6guCngagM",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-21",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-close/66274/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-22",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-close/66275/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-23",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-close/66295/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-24",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-close/66314/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-25",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-close/66333/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-26",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-close/66348/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-27",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-close/66364/?step=2"
         }
       ]
     },
@@ -12055,69 +12474,76 @@
           "date": "2026-08-27",
           "time": "20:05",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66352/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-901563",
-      "title": "30 años 30 películas – Close",
-      "title_local": "Close",
-      "poster": "posters/30-a-os-30-peliculas-close.jpg",
-      "rating": 7.8,
-      "duration": 104,
-      "genres": [
-        "Drama"
-      ],
-      "trailer_youtube_id": "wm6guCngagM",
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-21",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-close/66274/?step=2"
         },
         {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-22",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-close/66275/?step=2"
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386679/?step=2"
         },
         {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-23",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-close/66295/?step=2"
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386680/?step=2"
         },
         {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-24",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-close/66314/?step=2"
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386681/?step=2"
         },
         {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-25",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-close/66333/?step=2"
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386682/?step=2"
         },
         {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-26",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-close/66348/?step=2"
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386683/?step=2"
         },
         {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-27",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-close/66364/?step=2"
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386684/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386777/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386845/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386741/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386810/?step=2"
         }
       ]
     },
@@ -15284,6 +15710,237 @@
           "date": "2026-08-23",
           "time": "20:55",
           "url": "https://kinepolis.es/movies/detail/33752/HO00006554/0/el-final-de-oak-street"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-final-de-oak-street/386673/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-final-de-oak-street/386670/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-final-de-oak-street/386674/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-final-de-oak-street/386671/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-final-de-oak-street/386675/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-final-de-oak-street/386672/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-final-de-oak-street/386775/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-final-de-oak-street/386843/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-final-de-oak-street/386739/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-final-de-oak-street/386738/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-final-de-oak-street/386808/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-final-de-oak-street/89057/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-final-de-oak-street/89058/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-final-de-oak-street/89059/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-final-de-oak-street/89060/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-final-de-oak-street/89061/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-final-de-oak-street/89062/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-final-de-oak-street/89063/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-final-de-oak-street/89064/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-final-de-oak-street/89065/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-final-de-oak-street/89066/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-final-de-oak-street/89067/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-final-de-oak-street/89068/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-final-de-oak-street/89070/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-final-de-oak-street/89071/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-final-de-oak-street/89073/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-final-de-oak-street/89074/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-final-de-oak-street/89076/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-final-de-oak-street/89077/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-final-de-oak-street/89079/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-final-de-oak-street/89080/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-08-26",
+          "time": "21:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49419"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-08-27",
+          "time": "21:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49433"
         }
       ]
     },
@@ -26591,6 +27248,188 @@
           "date": "2026-08-27",
           "time": "15:00",
           "url": "https://kinepolis.es/movies/detail/36586/HO00006390/0/minions-monsters"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "16:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/minions-amp-monsters/386586/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/minions-amp-monsters/386587/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "16:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/minions-amp-monsters/386588/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/minions-amp-monsters/386589/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "16:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/minions-amp-monsters/386590/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/minions-amp-monsters/386591/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "16:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/minions-amp-monsters/386755/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/minions-amp-monsters/386756/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "16:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/minions-amp-monsters/386822/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/minions-amp-monsters/386823/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "16:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/minions-amp-monsters/386711/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/minions-amp-monsters/386712/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "16:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/minions-amp-monsters/386789/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/minions-amp-monsters/386790/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/minions-amp-monsters/89201/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/minions-amp-monsters/89202/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/minions-amp-monsters/89203/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/minions-amp-monsters/89204/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/minions-amp-monsters/89205/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/minions-amp-monsters/89206/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/minions-amp-monsters/89207/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/minions-amp-monsters/89208/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/minions-amp-monsters/89209/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/minions-amp-monsters/89210/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-26",
+          "time": "17:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49459"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "17:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49481"
         }
       ]
     },
@@ -27844,6 +28683,34 @@
           "date": "2026-08-25",
           "time": "22:30",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-ultima-ronda-en-venecia/66330/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-ultima-ronda-en-venecia/386664/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-ultima-ronda-en-venecia/386665/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-ultima-ronda-en-venecia/386666/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-ultima-ronda-en-venecia/386736/?step=2"
         }
       ]
     },
@@ -30080,6 +30947,62 @@
           "date": "2026-08-27",
           "time": "19:30",
           "url": "https://kinepolis.es/movies/detail/37904/HO00006617/0/en-mar-abierto"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-mar-abierto/89050/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-mar-abierto/89051/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-mar-abierto/89052/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-mar-abierto/89053/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-mar-abierto/89054/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-mar-abierto/89055/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-mar-abierto/89056/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-25",
+          "time": "22:55",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3276"
         }
       ]
     },
@@ -44970,6 +45893,76 @@
           "date": "2026-08-25",
           "time": "19:55",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3223"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-copia-perfecta/386676/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-copia-perfecta/386677/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-copia-perfecta/386678/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-copia-perfecta/386776/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-copia-perfecta/386844/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-copia-perfecta/386740/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-copia-perfecta/386809/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1074074",
+      "title": "Cine con coloquio – El ser querido",
+      "title_local": "El ser querido",
+      "poster": "posters/cine-con-coloquio-el-ser-querido.jpg",
+      "rating": 7.0,
+      "duration": 135,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-08-26",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-coloquio-el-ser-querido/65898/?step=2"
         }
       ]
     },
@@ -50320,27 +51313,6 @@
           "date": "2026-08-27",
           "time": "22:30",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-drama/66357/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1074074",
-      "title": "Cine con coloquio – El ser querido",
-      "title_local": "El ser querido",
-      "poster": "posters/cine-con-coloquio-el-ser-querido.jpg",
-      "rating": 7.0,
-      "duration": 135,
-      "genres": [
-        "Drama"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-08-26",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-coloquio-el-ser-querido/65898/?step=2"
         }
       ]
     },
@@ -65449,6 +66421,153 @@
           "date": "2026-08-27",
           "time": "15:00",
           "url": "https://kinepolis.es/movies/detail/33766/HO00006159/0/toy-story-5"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-26",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/toy-story-5/386493/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/toy-story-5/386533/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/toy-story-5/386649/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/toy-story-5/386650/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/toy-story-5/386651/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/toy-story-5/386771/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/toy-story-5/386838/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/toy-story-5/386732/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/toy-story-5/386804/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/toy-story-5/89033/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/toy-story-5/89034/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/toy-story-5/89035/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/toy-story-5/89036/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/toy-story-5/89037/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/toy-story-5/89038/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/toy-story-5/89039/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/toy-story-5/89040/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/toy-story-5/89041/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/toy-story-5/89042/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-26",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49452"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49472"
         }
       ]
     },
@@ -65535,6 +66654,20 @@
           "date": "2026-08-25",
           "time": "20:15",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49342"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-26",
+          "time": "22:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49409"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "22:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49466"
         }
       ]
     },
@@ -66614,6 +67747,13 @@
           "date": "2026-08-27",
           "time": "18:45",
           "url": "https://kinepolis.es/movies/detail/38374/HO00006544/0/el-ser-querido"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-26",
+          "time": "14:15",
+          "url": "https://kinepolis.es/movies/detail/38374/HO00006544/0/el-ser-querido"
         }
       ]
     },
@@ -67052,6 +68192,104 @@
           "date": "2026-08-27",
           "time": "17:55",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3289"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-coro-de-praga/386628/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-coro-de-praga/386629/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-coro-de-praga/386630/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-coro-de-praga/386631/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-coro-de-praga/386632/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-coro-de-praga/386633/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-coro-de-praga/386766/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-coro-de-praga/386767/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-coro-de-praga/386833/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-coro-de-praga/386834/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-coro-de-praga/386725/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-coro-de-praga/386726/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-coro-de-praga/386799/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-coro-de-praga/386800/?step=2"
         }
       ]
     },
@@ -68663,6 +69901,104 @@
           "date": "2026-08-27",
           "time": "15:05",
           "url": "https://kinepolis.es/movies/detail/37001/HO00006553/0/marsupilami"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/marsupilami/89160/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "21:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/marsupilami/89161/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/marsupilami/89162/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "21:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/marsupilami/89163/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/marsupilami/89164/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "21:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/marsupilami/89165/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/marsupilami/89069/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "21:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/marsupilami/89166/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/marsupilami/89072/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "21:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/marsupilami/89167/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/marsupilami/89075/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "21:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/marsupilami/89168/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/marsupilami/89078/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "21:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/marsupilami/89169/?step=2"
         }
       ]
     },
@@ -71631,6 +72967,482 @@
           "date": "2026-08-27",
           "time": "19:05",
           "url": "https://kinepolis.es/movies/detail/38326/HO00006562/0/insidious-fuera-del-mas-alla"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "16:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386616/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386617/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386618/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386625/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "16:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386619/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386620/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386621/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386626/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "16:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386622/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386623/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386624/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386627/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "16:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386763/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386764/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386765/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "16:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386830/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386831/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386832/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "16:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386721/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386722/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386723/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386724/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "16:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386796/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386797/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/insidious-fuera-del-mas-alla/386798/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89301/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89302/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89303/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "21:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89211/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89304/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89305/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89306/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89307/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "21:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89212/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89308/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89309/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89310/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89311/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "21:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89213/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89312/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89313/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89314/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "21:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89214/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89315/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89316/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89317/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "21:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89215/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89318/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89319/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89320/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "21:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89216/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89321/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89322/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89323/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "21:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89217/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/insidious-fuera-del-mas-alla/89324/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-26",
+          "time": "15:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49413"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-26",
+          "time": "18:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49413"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-26",
+          "time": "20:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49413"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-26",
+          "time": "22:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49413"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-08-26",
+          "time": "19:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49457"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-08-26",
+          "time": "21:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49457"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "15:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49444"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "18:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49444"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "20:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49444"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "22:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49444"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-08-27",
+          "time": "19:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49483"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-08-27",
+          "time": "21:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49483"
         }
       ]
     },
@@ -72193,6 +74005,27 @@
           "date": "2026-08-27",
           "time": "17:45",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3294"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/manual-para-superheroes-la-mascara-roja/89218/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/manual-para-superheroes-la-mascara-roja/89219/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/manual-para-superheroes-la-mascara-roja/89220/?step=2"
         }
       ]
     },
@@ -75095,6 +76928,90 @@
           "date": "2026-08-27",
           "time": "14:35",
           "url": "https://kinepolis.es/movies/detail/37494/HO00006552/0/la-patrulla-canina-la-dino-pelicula"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-patrulla-canina-la-dino-pelicula/89174/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-patrulla-canina-la-dino-pelicula/89043/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-patrulla-canina-la-dino-pelicula/89175/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-patrulla-canina-la-dino-pelicula/89044/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-patrulla-canina-la-dino-pelicula/89176/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-patrulla-canina-la-dino-pelicula/89045/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-patrulla-canina-la-dino-pelicula/89046/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-patrulla-canina-la-dino-pelicula/89047/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-patrulla-canina-la-dino-pelicula/89048/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-patrulla-canina-la-dino-pelicula/89049/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-26",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49455"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49469"
         }
       ]
     },
@@ -89195,6 +91112,447 @@
           "date": "2026-08-30",
           "time": "20:00",
           "url": "https://kinepolis.es/movies/detail/35300/HO00006515/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-08-31",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00006515/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386658/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386652/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386653/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386661/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386583/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386659/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386654/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386655/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386662/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386584/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386660/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386656/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386657/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386663/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386585/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386773/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386772/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386754/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386840/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386839/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386841/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386821/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386735/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386733/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386734/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386710/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386806/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386805/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-odisea/386788/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-odisea/89274/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-odisea/89245/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-odisea/89275/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-odisea/89246/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-odisea/89276/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-odisea/89247/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-odisea/89277/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-odisea/89248/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-odisea/89278/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-odisea/89249/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-odisea/89279/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-odisea/89250/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-odisea/89251/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-odisea/89280/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-odisea/89252/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-odisea/89253/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-odisea/89281/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-odisea/89254/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-odisea/89255/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-odisea/89282/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-odisea/89256/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-odisea/89257/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-odisea/89283/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-odisea/89258/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-26",
+          "time": "17:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49460"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-26",
+          "time": "20:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49460"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-08-26",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49407"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-08-26",
+          "time": "19:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49407"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "17:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49480"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "20:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49480"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-08-27",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49468"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-08-27",
+          "time": "19:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49468"
         }
       ]
     },
@@ -102647,298 +105005,468 @@
           "date": "2026-08-27",
           "time": "18:30",
           "url": "https://kinepolis.es/movies/detail/35287/HO00006496/0/spider-man-brand-new-day"
-        }
-      ]
-    },
-    {
-      "id": "local-vaiana-2026",
-      "title": "Vaiana 2026",
-      "title_local": "Vaiana 2026",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
+        },
         {
-          "cinema": "kinepolis",
+          "cinema": "lys",
           "language": "ES",
-          "date": "2026-08-04",
+          "date": "2026-08-28",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386640/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
           "time": "16:45",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386688/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "lys",
           "language": "ES",
-          "date": "2026-08-06",
+          "date": "2026-08-28",
+          "time": "18:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386641/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386689/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "21:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386646/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386642/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
           "time": "16:45",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386690/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "lys",
           "language": "ES",
-          "date": "2026-08-05",
+          "date": "2026-08-29",
+          "time": "18:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386643/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386691/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "21:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386647/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386644/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
           "time": "16:45",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386692/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "lys",
           "language": "ES",
-          "date": "2026-08-07",
-          "time": "15:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "date": "2026-08-30",
+          "time": "18:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386645/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "lys",
           "language": "ES",
-          "date": "2026-08-07",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "date": "2026-08-30",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386693/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "lys",
           "language": "ES",
-          "date": "2026-08-08",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "date": "2026-08-30",
+          "time": "21:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386648/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "lys",
           "language": "ES",
-          "date": "2026-08-08",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "date": "2026-08-31",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386769/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "lys",
           "language": "ES",
-          "date": "2026-08-08",
-          "time": "16:35",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "date": "2026-08-31",
+          "time": "16:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386779/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "lys",
           "language": "ES",
-          "date": "2026-08-08",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "date": "2026-08-31",
+          "time": "18:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386770/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "lys",
           "language": "ES",
-          "date": "2026-08-09",
-          "time": "15:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "date": "2026-09-01",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386836/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "lys",
           "language": "ES",
-          "date": "2026-08-09",
-          "time": "18:15",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "date": "2026-09-01",
+          "time": "16:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386847/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "lys",
           "language": "ES",
-          "date": "2026-08-10",
-          "time": "16:35",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "date": "2026-09-01",
+          "time": "18:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386837/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "lys",
           "language": "ES",
-          "date": "2026-08-11",
-          "time": "16:35",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "date": "2026-09-02",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386729/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "lys",
           "language": "ES",
-          "date": "2026-08-12",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "date": "2026-09-02",
+          "time": "16:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386743/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "lys",
           "language": "ES",
-          "date": "2026-08-12",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "date": "2026-09-02",
+          "time": "18:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386730/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "lys",
           "language": "ES",
-          "date": "2026-08-12",
-          "time": "16:35",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "date": "2026-09-02",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386744/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "lys",
           "language": "ES",
-          "date": "2026-08-12",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "date": "2026-09-02",
+          "time": "21:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386731/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "lys",
           "language": "ES",
-          "date": "2026-08-13",
-          "time": "16:35",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "date": "2026-09-03",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386802/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "lys",
           "language": "ES",
-          "date": "2026-08-15",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "date": "2026-09-03",
+          "time": "16:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386812/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "lys",
           "language": "ES",
-          "date": "2026-08-15",
-          "time": "14:45",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "date": "2026-09-03",
+          "time": "18:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/spider-man-brand-new-day/386803/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "mn4",
           "language": "ES",
-          "date": "2026-08-15",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "date": "2026-08-28",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89284/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "mn4",
           "language": "ES",
-          "date": "2026-08-16",
-          "time": "15:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-16",
-          "time": "14:15",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-14",
-          "time": "15:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-17",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-18",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-19",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-19",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-19",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-20",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-21",
+          "date": "2026-08-28",
           "time": "18:00",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89188/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "mn4",
           "language": "ES",
-          "date": "2026-08-21",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "date": "2026-08-28",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89285/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "mn4",
           "language": "ES",
-          "date": "2026-08-22",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "date": "2026-08-28",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89286/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "mn4",
           "language": "ES",
-          "date": "2026-08-22",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "date": "2026-08-29",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89287/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "mn4",
           "language": "ES",
-          "date": "2026-08-23",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-23",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-24",
-          "time": "18:20",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-08-25",
+          "date": "2026-08-29",
           "time": "18:00",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89189/?step=2"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89288/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89289/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89290/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89190/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89291/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89292/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89293/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89191/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89184/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89294/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89295/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89192/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89185/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89296/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89297/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89193/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89186/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89298/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89299/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89187/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/spider-man-brand-new-day/89300/?step=2"
+        },
+        {
+          "cinema": "yelmo",
           "language": "ES",
           "date": "2026-08-26",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49410"
         },
         {
-          "cinema": "kinepolis",
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-26",
+          "time": "19:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49410"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-26",
+          "time": "22:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49410"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-08-26",
+          "time": "17:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49454"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-08-26",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49454"
+        },
+        {
+          "cinema": "yelmo",
           "language": "ES",
           "date": "2026-08-27",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49441"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "19:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49441"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "22:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49441"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-08-27",
+          "time": "17:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49470"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-08-27",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49470"
         }
       ]
     },
@@ -105110,6 +107638,347 @@
           "date": "2026-08-27",
           "time": "16:15",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3278"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/89181/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/89182/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/89183/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/89177/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/89178/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/89179/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-ultimo-mono/89180/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-vaiana-2026",
+      "title": "Vaiana 2026",
+      "title_local": "Vaiana 2026",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-04",
+          "time": "16:45",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-06",
+          "time": "16:45",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-05",
+          "time": "16:45",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "16:35",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-08",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-09",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "16:35",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "16:35",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "16:35",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-13",
+          "time": "16:35",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "14:45",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "14:15",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-14",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-17",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-20",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-21",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-21",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-22",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-22",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-23",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-23",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-24",
+          "time": "18:20",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-25",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-26",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
         }
       ]
     },
@@ -105675,6 +108544,13 @@
           "date": "2026-08-27",
           "time": "21:30",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3288"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-25",
+          "time": "21:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3288"
         }
       ]
     },
@@ -113568,6 +116444,69 @@
           "date": "2026-08-25",
           "time": "20:00",
           "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3199"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/vaiana-2026/89242/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/vaiana-2026/89243/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/vaiana-2026/89244/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/vaiana-2026/89325/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/vaiana-2026/89326/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/vaiana-2026/89327/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/vaiana-2026/89328/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-26",
+          "time": "17:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49418"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "17:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49429"
         }
       ]
     },
@@ -114244,6 +117183,105 @@
       ]
     },
     {
+      "id": "tmdb-1728647",
+      "title": "LA VENTANA ABIERTA",
+      "title_local": "La ventana abierta",
+      "poster": "posters/la-ventana-abierta.jpg",
+      "rating": null,
+      "duration": null,
+      "genres": [
+        "Drama",
+        "Suspense"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "18:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3275"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-07",
+          "time": "16:10",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3275"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-10",
+          "time": "16:10",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3275"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "16:10",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3275"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-12",
+          "time": "16:10",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3275"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-08-13",
+          "time": "16:10",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3275"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "16:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3275"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-21",
+          "time": "22:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3275"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-22",
+          "time": "22:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3275"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-23",
+          "time": "22:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3275"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-24",
+          "time": "22:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3275"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-25",
+          "time": "16:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3275"
+        }
+      ]
+    },
+    {
       "id": "local-la-odisea-70mm",
       "title": "LA ODISEA - 70MM",
       "title_local": "LA ODISEA - 70MM",
@@ -114707,6 +117745,62 @@
           "date": "2026-08-23",
           "time": "18:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "16:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-08-28",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "16:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-08-29",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "16:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-08-30",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "16:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-09-02",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3180"
         }
       ]
     },
@@ -114770,6 +117864,130 @@
           "date": "2026-08-27",
           "time": "22:25",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3292"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1487159",
+      "title": "LA INVASIÓ DELS BÀRBARS",
+      "title_local": "La invasió dels bàrbars",
+      "poster": "posters/la-invasio-dels-barbars.jpg",
+      "rating": null,
+      "duration": 117,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-07",
+          "time": "21:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-16",
+          "time": "22:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-23",
+          "time": "22:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-28",
+          "time": "20:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-07-28",
+          "time": "22:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-04",
+          "time": "20:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-11",
+          "time": "20:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "18:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "19:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-22",
+          "time": "21:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-08-25",
+          "time": "18:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-25",
+          "time": "18:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        }
+      ]
+    },
+    {
+      "id": "local-ser-o-no-ser-wilder-cinema",
+      "title": "SER O NO SER - WILDER CINEMA",
+      "title_local": "SER O NO SER - WILDER CINEMA",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-08-25",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3264"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-08-25",
+          "time": "20:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3264"
         }
       ]
     },
@@ -114929,229 +118147,6 @@
           "date": "2026-08-27",
           "time": "22:15",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3295"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1728647",
-      "title": "LA VENTANA ABIERTA",
-      "title_local": "La ventana abierta",
-      "poster": "posters/la-ventana-abierta.jpg",
-      "rating": null,
-      "duration": null,
-      "genres": [
-        "Drama",
-        "Suspense"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "18:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3275"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-07",
-          "time": "16:10",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3275"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-10",
-          "time": "16:10",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3275"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "16:10",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3275"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-12",
-          "time": "16:10",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3275"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-08-13",
-          "time": "16:10",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3275"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-18",
-          "time": "16:35",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3275"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-21",
-          "time": "22:35",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3275"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-22",
-          "time": "22:35",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3275"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-23",
-          "time": "22:35",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3275"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-24",
-          "time": "22:35",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3275"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-25",
-          "time": "16:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3275"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1487159",
-      "title": "LA INVASIÓ DELS BÀRBARS",
-      "title_local": "La invasió dels bàrbars",
-      "poster": "posters/la-invasio-dels-barbars.jpg",
-      "rating": null,
-      "duration": 117,
-      "genres": [
-        "Drama"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-07",
-          "time": "21:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-16",
-          "time": "22:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-23",
-          "time": "22:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-28",
-          "time": "20:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-07-28",
-          "time": "22:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-04",
-          "time": "20:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-11",
-          "time": "20:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-18",
-          "time": "18:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-18",
-          "time": "19:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-22",
-          "time": "21:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-08-25",
-          "time": "18:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-25",
-          "time": "18:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
-        }
-      ]
-    },
-    {
-      "id": "local-ser-o-no-ser-wilder-cinema",
-      "title": "SER O NO SER - WILDER CINEMA",
-      "title_local": "SER O NO SER - WILDER CINEMA",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-08-25",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3264"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-08-25",
-          "time": "20:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3264"
         }
       ]
     },
@@ -118234,6 +121229,13 @@
           "language": "VOSE",
           "date": "2026-09-01",
           "time": "18:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3301"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-09-01",
+          "time": "18:40",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3301"
         }
       ]
