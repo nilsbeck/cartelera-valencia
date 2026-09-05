@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T07:00:00Z",
+  "updated_at": "2026-09-05T07:00:00Z",
   "movies": [
     {
       "id": "tmdb-1498036",
@@ -32941,6 +32941,20 @@
           "date": "2026-09-10",
           "time": "22:15",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-09-11",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-09-11",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
       ]
     },
@@ -61187,6 +61201,76 @@
           "date": "2026-09-10",
           "time": "16:20",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3318"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-05",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cinco-segundos/66654/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-05",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cinco-segundos/66665/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-06",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cinco-segundos/66676/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-06",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cinco-segundos/66681/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-07",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cinco-segundos/66692/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-07",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cinco-segundos/66697/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-08",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cinco-segundos/66708/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-08",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cinco-segundos/66713/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-09",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cinco-segundos/66716/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-10",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cinco-segundos/66742/?step=2"
         }
       ]
     },
@@ -61755,6 +61839,20 @@
           "cinema": "dor",
           "language": "ES",
           "date": "2026-09-10",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-09-11",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-09-11",
           "time": "20:25",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -64723,6 +64821,48 @@
           "date": "2026-09-10",
           "time": "16:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3316"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-05",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-olor-a-leche-quemada/66659/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-06",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-olor-a-leche-quemada/66673/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-07",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-olor-a-leche-quemada/66689/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-08",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-olor-a-leche-quemada/66705/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-09",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-olor-a-leche-quemada/66722/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-10",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-olor-a-leche-quemada/66736/?step=2"
         }
       ]
     },
@@ -69941,6 +70081,57 @@
       ]
     },
     {
+      "id": "tmdb-1302904",
+      "title": "Prácticamente Magia 2",
+      "title_local": "Prácticamente magia 2",
+      "poster": "posters/practicamente-magia-2.jpg",
+      "rating": 5.0,
+      "duration": 130,
+      "genres": [
+        "Romance",
+        "Fantasía",
+        "Comedia"
+      ],
+      "trailer_youtube_id": "Ho10_4IX1jE",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-11",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/36221/HO00006556/0/practicamente-magia-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-11",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/36221/HO00006556/0/practicamente-magia-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-11",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/36221/HO00006556/0/practicamente-magia-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-11",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/36221/HO00006648/0/practicamente-magia-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-11",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/36221/HO00006648/0/practicamente-magia-2"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1477712",
       "title": "Dulce sabor a muerte",
       "title_local": "El Heladero: Dulce sabor a Muerte",
@@ -74130,588 +74321,6 @@
       ]
     },
     {
-      "id": "tmdb-1740328",
-      "title": "Enjambre (Eixam)",
-      "title_local": "Enjambre",
-      "poster": "posters/enjambre-eixam.jpg",
-      "rating": null,
-      "duration": 100,
-      "genres": [
-        "Suspense",
-        "Misterio"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-09-04",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/enjambre-eixam/66650/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-09-06",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/enjambre-eixam/66680/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-09-07",
-          "time": "18:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/enjambre-eixam/66685/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-09-08",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/enjambre-eixam/66712/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-04",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/386893/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-04",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/386894/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-04",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/386895/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-04",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/386896/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-05",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/386897/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-05",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/386898/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-05",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/386899/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-05",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/386900/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-06",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/386901/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-06",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/386902/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-06",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/386903/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-06",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/386904/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-07",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387022/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-07",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387023/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-07",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387024/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-08",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387056/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-08",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387057/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-08",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387058/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-09",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387092/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-09",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387093/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-09",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387094/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-09",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387095/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-10",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387137/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-10",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387138/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-10",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387139/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-04",
-          "time": "15:50",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89365/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-04",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89366/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-04",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89367/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-04",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89368/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-05",
-          "time": "15:50",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89369/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-05",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89370/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-05",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89371/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-05",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89372/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-06",
-          "time": "15:50",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89373/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-06",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89374/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-06",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89375/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-06",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89376/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-07",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89377/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-07",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89378/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-07",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89379/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-08",
-          "time": "15:50",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89666/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-08",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89380/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-08",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89381/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-08",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89382/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-09",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89544/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-10",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89386/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-10",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89387/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-10",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89388/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-04",
-          "time": "20:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-05",
-          "time": "20:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-06",
-          "time": "20:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-07",
-          "time": "20:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-08",
-          "time": "20:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-09",
-          "time": "20:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-04",
-          "time": "20:25",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-05",
-          "time": "20:25",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-06",
-          "time": "20:25",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-07",
-          "time": "17:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-07",
-          "time": "20:25",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-08",
-          "time": "17:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-08",
-          "time": "20:25",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-09",
-          "time": "20:25",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-10",
-          "time": "17:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-10",
-          "time": "20:25",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-04",
-          "time": "20:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-05",
-          "time": "20:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-06",
-          "time": "20:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-07",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-07",
-          "time": "17:40",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-07",
-          "time": "20:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-08",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-08",
-          "time": "17:40",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-08",
-          "time": "20:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-09",
-          "time": "20:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-10",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-10",
-          "time": "17:40",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-10",
-          "time": "20:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
-        }
-      ]
-    },
-    {
       "id": "tmdb-1549315",
       "title": "Cronos",
       "title_local": "Cronos",
@@ -76235,6 +75844,154 @@
           "date": "2026-09-10",
           "time": "22:10",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3315"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-05",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cronos/66658/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-05",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cronos/66655/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-05",
+          "time": "22:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cronos/66656/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-06",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cronos/66668/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-06",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cronos/66678/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-06",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cronos/66675/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-07",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cronos/66684/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-07",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cronos/66694/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-07",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cronos/66691/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-08",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cronos/66700/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-08",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cronos/66710/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-08",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cronos/66707/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-09",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cronos/66727/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-09",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cronos/66728/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-09",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cronos/66719/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-10",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cronos/66741/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-10",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cronos/66733/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-10",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cronos/66734/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1740328",
+      "title": "Cine con cineastas – Eixam",
+      "title_local": "Enjambre",
+      "poster": "posters/cine-con-cineastas-eixam.jpg",
+      "rating": null,
+      "duration": 100,
+      "genres": [
+        "Suspense",
+        "Misterio"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-05",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-cineastas-eixam/66490/?step=2"
         }
       ]
     },
@@ -79399,9 +79156,9 @@
     },
     {
       "id": "tmdb-1740328",
-      "title": "Cine con cineastas – Eixam",
+      "title": "Enjambre (Eixam)",
       "title_local": "Enjambre",
-      "poster": "posters/cine-con-cineastas-eixam.jpg",
+      "poster": "posters/enjambre-eixam.jpg",
       "rating": null,
       "duration": 100,
       "genres": [
@@ -79412,10 +79169,591 @@
       "showtimes": [
         {
           "cinema": "babel",
+          "language": "ES",
+          "date": "2026-09-04",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/enjambre-eixam/66650/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-09-06",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/enjambre-eixam/66680/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-09-07",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/enjambre-eixam/66685/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-09-08",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/enjambre-eixam/66712/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-04",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/386893/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-04",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/386894/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-04",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/386895/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-04",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/386896/?step=2"
+        },
+        {
+          "cinema": "lys",
           "language": "VOSE",
           "date": "2026-09-05",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/386897/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-05",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/386898/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-05",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/386899/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-05",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/386900/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-06",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/386901/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-06",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/386902/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-06",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/386903/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-06",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/386904/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-07",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387022/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-07",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387023/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-07",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387024/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-08",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387056/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-08",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387057/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-08",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387058/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-09",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387092/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-09",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387093/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-09",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387094/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-09",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387095/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-10",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387137/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-10",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387138/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-10",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/enjambre-eixam/387139/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-04",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89365/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-04",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89366/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-04",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89367/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-04",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89368/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-05",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89369/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-05",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89370/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-05",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89371/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-05",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89372/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-06",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89373/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-06",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89374/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-06",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89375/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-06",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89376/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-07",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89377/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-07",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89378/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-07",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89379/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-08",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89666/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-08",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89380/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-08",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89381/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-08",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89382/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-09",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89544/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-10",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89386/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-10",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89387/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-10",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/enjambre-eixam/89388/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-04",
+          "time": "20:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-05",
+          "time": "20:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-06",
+          "time": "20:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-07",
+          "time": "20:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-08",
+          "time": "20:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-09",
+          "time": "20:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-04",
+          "time": "20:25",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-05",
+          "time": "20:25",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-06",
+          "time": "20:25",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-07",
+          "time": "17:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-07",
+          "time": "20:25",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-08",
+          "time": "17:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-08",
+          "time": "20:25",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-09",
+          "time": "20:25",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-10",
+          "time": "17:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-10",
+          "time": "20:25",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-04",
           "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-cineastas-eixam/66490/?step=2"
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-05",
+          "time": "20:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-06",
+          "time": "20:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-07",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-07",
+          "time": "17:40",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-07",
+          "time": "20:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-08",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-08",
+          "time": "17:40",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-08",
+          "time": "20:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-09",
+          "time": "20:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-10",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-10",
+          "time": "17:40",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-10",
+          "time": "20:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3314"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-06",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/enjambre-eixam/66680/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-07",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/enjambre-eixam/66685/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-08",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/enjambre-eixam/66712/?step=2"
         }
       ]
     },
@@ -96368,6 +96706,20 @@
           "date": "2026-09-10",
           "time": "21:35",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50128"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-11",
+          "time": "16:55",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-11",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
         }
       ]
     },
@@ -112302,6 +112654,13 @@
           "date": "2026-09-10",
           "time": "22:00",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50144"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-07",
+          "time": "20:20",
+          "url": "https://kinepolis.es/movies/detail/35287/HO00006387/0/spider-man-brand-new-day"
         }
       ]
     },
@@ -115732,6 +116091,35 @@
       ]
     },
     {
+      "id": "tmdb-1447853",
+      "title": "Don't look back in anger",
+      "title_local": "Oasis: Don't Look Back in Anger",
+      "poster": "posters/don-t-look-back-in-anger.jpg",
+      "rating": null,
+      "duration": 123,
+      "genres": [
+        "Documental",
+        "Música"
+      ],
+      "trailer_youtube_id": "6z_0B_lyRTo",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-11",
+          "time": "14:15",
+          "url": "https://kinepolis.es/movies/detail/38657/HO00006661/0/don-t-look-back-in-anger"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-11",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/38657/HO00006661/0/don-t-look-back-in-anger"
+        }
+      ]
+    },
+    {
       "id": "local-vaiana-2026",
       "title": "Vaiana 2026",
       "title_local": "Vaiana 2026",
@@ -116127,28 +116515,24 @@
       ]
     },
     {
-      "id": "tmdb-1702801",
-      "title": "André Rieu 2026 Summer Concert: Viva Maastricht!",
-      "title_local": "André Rieu's 2026 Summer Concert: Viva Maastricht!",
-      "poster": "posters/andre-rieu-2026-summer-concert-viva-maastricht.jpg",
+      "id": "tmdb-1684016",
+      "title": "Katy Perry: The Lifetimes Tour - Live From Paris",
+      "title_local": "Katy Perry: The Lifetimes Tour – Live from Paris",
+      "poster": "posters/katy-perry-the-lifetimes-tour-live-from-paris.jpg",
       "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
+      "duration": 119,
+      "genres": [
+        "Documental",
+        "Música"
+      ],
+      "trailer_youtube_id": "pfoJZGiPsOw",
       "showtimes": [
         {
           "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-04",
-          "time": "19:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48032"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-10",
-          "time": "19:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48033"
+          "language": "VOSE",
+          "date": "2026-09-05",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=48092"
         }
       ]
     },
@@ -124749,6 +125133,74 @@
           "date": "2026-09-10",
           "time": "20:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3303"
+        }
+      ]
+    },
+    {
+      "id": "local-club-rosebud-lady-nazca",
+      "title": "CLUB ROSEBUD: LADY NAZCA",
+      "title_local": "CLUB ROSEBUD: LADY NAZCA",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-14",
+          "time": "16:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3346"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-09-14",
+          "time": "17:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3346"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-15",
+          "time": "16:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3346"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-15",
+          "time": "17:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3346"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-15",
+          "time": "19:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3346"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-09-16",
+          "time": "17:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3346"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-17",
+          "time": "16:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3346"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-17",
+          "time": "17:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3346"
         }
       ]
     },
