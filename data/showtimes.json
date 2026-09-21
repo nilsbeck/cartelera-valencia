@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T07:00:00Z",
+  "updated_at": "2026-09-21T07:00:00Z",
   "movies": [
     {
       "id": "tmdb-1288445",
@@ -2850,6 +2850,34 @@
           "date": "2026-09-26",
           "time": "14:30",
           "url": "https://kinepolis.es/movies/detail/36220/HO00006561/0/la-isla-olvidada"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-27",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/36220/HO00006561/0/la-isla-olvidada"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "16:35",
+          "url": "https://kinepolis.es/movies/detail/36220/HO00006560/0/la-isla-olvidada"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/36220/HO00006560/0/la-isla-olvidada"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/36220/HO00006560/0/la-isla-olvidada"
         }
       ]
     },
@@ -3875,120 +3903,6 @@
           "date": "2026-09-24",
           "time": "19:30",
           "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/call-me-by-your-name/387498/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1447879",
-      "title": "MALLORCA CONFIDENCIAL",
-      "title_local": "Mallorca confidencial",
-      "poster": "posters/mallorca-confidencial.jpg",
-      "rating": 8.0,
-      "duration": 90,
-      "genres": [
-        "Crimen",
-        "Drama",
-        "Suspense"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-14",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-14",
-          "time": "20:40",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-15",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-15",
-          "time": "20:40",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-16",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-16",
-          "time": "20:40",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-17",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-17",
-          "time": "20:40",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "20:40",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "20:40",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "20:40",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
       ]
     },
@@ -14816,6 +14730,29 @@
           "date": "2026-09-18",
           "time": "18:30",
           "url": "https://kinepolis.es/movies/detail/37328/HO00006388/0/obsession"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-313369",
+      "title": "LA LA LAND (10º ANIVERSARIO)",
+      "title_local": "La ciudad de las estrellas (La La Land)",
+      "poster": "posters/la-la-land-10-aniversario.jpg",
+      "rating": 7.9,
+      "duration": 128,
+      "genres": [
+        "Comedia",
+        "Drama",
+        "Romance"
+      ],
+      "trailer_youtube_id": "_oBwwSXdO_E",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-09-24",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3250"
         }
       ]
     },
@@ -36809,6 +36746,50 @@
       ]
     },
     {
+      "id": "tmdb-1108427",
+      "title": "Vaiana",
+      "title_local": "Vaiana",
+      "poster": "posters/vaiana.jpg",
+      "rating": 7.4,
+      "duration": 115,
+      "genres": [
+        "Familia",
+        "Fantasía",
+        "Comedia"
+      ],
+      "trailer_youtube_id": "EEz5xbzYPKI",
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "16:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50991"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "16:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51047"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "16:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51067"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "16:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50994"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1447853",
       "title": "OASIS: DON'T LOOK BACK IN ANGER",
       "title_local": "Oasis: Don't Look Back in Anger",
@@ -37901,6 +37882,13 @@
           "date": "2026-09-24",
           "time": "20:00",
           "url": "https://kinepolis.es/movies/detail/38772/HO00006660/0/bad-apples"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-09-24",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50949"
         }
       ]
     },
@@ -37988,6 +37976,13 @@
           "date": "2026-09-26",
           "time": "16:00",
           "url": "https://kinepolis.es/movies/detail/35988/HO00006203/0/mascotas-al-rescate"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/35988/HO00006203/0/mascotas-al-rescate"
         }
       ]
     },
@@ -38018,118 +38013,6 @@
           "date": "2026-09-22",
           "time": "16:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3223"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1609604",
-      "title": "LA LUZ",
-      "title_local": "La luz",
-      "poster": "posters/la-luz.jpg",
-      "rating": 7.0,
-      "duration": 117,
-      "genres": [
-        "Drama"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-14",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-14",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-15",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-15",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-16",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-16",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-17",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-17",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
       ]
     },
@@ -38263,6 +38146,20 @@
           "cinema": "dor",
           "language": "ES",
           "date": "2026-09-26",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-09-27",
           "time": "22:35",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -54319,6 +54216,20 @@
           "date": "2026-09-26",
           "time": "20:40",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "20:40",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
       ]
     },
@@ -60182,6 +60093,13 @@
           "date": "2026-09-26",
           "time": "12:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-familiar-mumbo-jumbo-se-hace-enorme/67054/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-09-27",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-familiar-mumbo-jumbo-se-hace-enorme/67055/?step=2"
         }
       ]
     },
@@ -62403,314 +62321,41 @@
           "date": "2026-09-26",
           "time": "18:45",
           "url": "https://kinepolis.es/movies/detail/38769/HO00006588/0/la-bola-negra"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1368830",
-      "title": "MIS QUERIDÍSIMOS PADRES",
-      "title_local": "Mis queridísimos padres",
-      "poster": "posters/mis-queridisimos-padres.jpg",
-      "rating": 6.2,
-      "duration": 86,
-      "genres": [
-        "Comedia"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "16:45",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387551/?step=2"
         },
         {
-          "cinema": "lys",
+          "cinema": "kinepolis",
           "language": "ES",
-          "date": "2026-09-18",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387552/?step=2"
+          "date": "2026-09-27",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/38769/HO00006588/0/la-bola-negra"
         },
         {
-          "cinema": "lys",
+          "cinema": "kinepolis",
           "language": "ES",
-          "date": "2026-09-19",
-          "time": "16:45",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387553/?step=2"
+          "date": "2026-09-27",
+          "time": "17:15",
+          "url": "https://kinepolis.es/movies/detail/38769/HO00006588/0/la-bola-negra"
         },
         {
-          "cinema": "lys",
+          "cinema": "kinepolis",
           "language": "ES",
-          "date": "2026-09-19",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387554/?step=2"
+          "date": "2026-09-27",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/38769/HO00006588/0/la-bola-negra"
         },
         {
-          "cinema": "lys",
+          "cinema": "kinepolis",
           "language": "ES",
-          "date": "2026-09-20",
-          "time": "16:45",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387555/?step=2"
+          "date": "2026-09-27",
+          "time": "15:25",
+          "url": "https://kinepolis.es/movies/detail/38769/HO00006588/0/la-bola-negra"
         },
         {
-          "cinema": "lys",
+          "cinema": "kinepolis",
           "language": "ES",
-          "date": "2026-09-20",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387556/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "16:45",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387711/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387712/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "16:45",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387742/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387743/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "16:45",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387667/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387668/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "16:45",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387777/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387778/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mis-queridisimos-padres/90294/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mis-queridisimos-padres/90295/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mis-queridisimos-padres/90296/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mis-queridisimos-padres/90297/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mis-queridisimos-padres/90298/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mis-queridisimos-padres/90299/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mis-queridisimos-padres/90300/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mis-queridisimos-padres/90301/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mis-queridisimos-padres/90302/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mis-queridisimos-padres/90303/?step=2"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "17:45",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3365"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3365"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "17:45",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3365"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "17:45",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3365"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "17:45",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3365"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "17:45",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3365"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "17:45",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3365"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "17:45",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3365"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "17:55",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3365"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "20:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3365"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "17:55",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3365"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "20:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3365"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "17:55",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3365"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "20:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3365"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "18:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3365"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "20:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3365"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "20:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3365"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "12:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3365"
+          "date": "2026-09-27",
+          "time": "18:45",
+          "url": "https://kinepolis.es/movies/detail/38769/HO00006588/0/la-bola-negra"
         }
       ]
     },
@@ -63867,6 +63512,314 @@
           "date": "2026-09-24",
           "time": "16:05",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3319"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1368830",
+      "title": "MIS QUERIDÍSIMOS PADRES",
+      "title_local": "Mis queridísimos padres",
+      "poster": "posters/mis-queridisimos-padres.jpg",
+      "rating": 6.2,
+      "duration": 86,
+      "genres": [
+        "Comedia"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "16:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387551/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387552/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "16:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387553/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387554/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "16:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387555/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387556/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "16:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387711/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387712/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "16:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387742/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387743/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "16:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387667/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387668/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "16:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387777/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/mis-queridisimos-padres/387778/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mis-queridisimos-padres/90294/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mis-queridisimos-padres/90295/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mis-queridisimos-padres/90296/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mis-queridisimos-padres/90297/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mis-queridisimos-padres/90298/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mis-queridisimos-padres/90299/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mis-queridisimos-padres/90300/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mis-queridisimos-padres/90301/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mis-queridisimos-padres/90302/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mis-queridisimos-padres/90303/?step=2"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "17:45",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3365"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3365"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "17:45",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3365"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "17:45",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3365"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "17:45",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3365"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "17:45",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3365"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "17:45",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3365"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "17:45",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3365"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "17:55",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3365"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3365"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "17:55",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3365"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3365"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "17:55",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3365"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "20:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3365"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "18:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3365"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "20:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3365"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3365"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "12:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3365"
         }
       ]
     },
@@ -72961,6 +72914,34 @@
           "date": "2026-09-26",
           "time": "20:30",
           "url": "https://kinepolis.es/movies/detail/36221/HO00006556/0/practicamente-magia-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/36221/HO00006556/0/practicamente-magia-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/36221/HO00006556/0/practicamente-magia-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/36221/HO00006556/0/practicamente-magia-2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-21",
+          "time": "20:10",
+          "url": "https://kinepolis.es/movies/detail/36221/HO00006648/0/practicamente-magia-2"
         }
       ]
     },
@@ -76887,6 +76868,209 @@
       ]
     },
     {
+      "id": "tmdb-1649218",
+      "title": "Femení, singular",
+      "title_local": "Femenino, Singular",
+      "poster": "posters/femeni-singular.jpg",
+      "rating": null,
+      "duration": 91,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-18",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/femeni-singular/66942/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-19",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/femeni-singular/66943/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-20",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/femeni-singular/67014/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-21",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/femeni-singular/67015/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-22",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/femeni-singular/67016/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-23",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/femeni-singular/67017/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-24",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/femeni-singular/67045/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/femeni-singular/90122/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/femeni-singular/90123/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/femeni-singular/90124/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/femeni-singular/90125/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/femeni-singular/90126/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/femeni-singular/90127/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/femeni-singular/90128/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "20:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3357"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "20:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3357"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "20:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3357"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3357"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "20:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3357"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "20:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3357"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3357"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-19",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/femeni-singular/387602/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-20",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/femeni-singular/387603/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-21",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/femeni-singular/387724/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-22",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/femeni-singular/387755/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-23",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/femeni-singular/387684/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-24",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/femeni-singular/387790/?step=2"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1291829",
       "title": "Sus hijos",
       "title_local": "Sus hijos",
@@ -77359,209 +77543,6 @@
           "date": "2026-09-24",
           "time": "20:15",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1649218",
-      "title": "Femení, singular",
-      "title_local": "Femenino, Singular",
-      "poster": "posters/femeni-singular.jpg",
-      "rating": null,
-      "duration": 91,
-      "genres": [
-        "Drama"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-18",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/femeni-singular/66942/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-19",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/femeni-singular/66943/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-20",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/femeni-singular/67014/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-21",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/femeni-singular/67015/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-22",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/femeni-singular/67016/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-23",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/femeni-singular/67017/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-24",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/femeni-singular/67045/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/femeni-singular/90122/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/femeni-singular/90123/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/femeni-singular/90124/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/femeni-singular/90125/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/femeni-singular/90126/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/femeni-singular/90127/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/femeni-singular/90128/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "20:35",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3357"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "20:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3357"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "20:35",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3357"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3357"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "20:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3357"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "20:35",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3357"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3357"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-19",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/femeni-singular/387602/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-20",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/femeni-singular/387603/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-21",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/femeni-singular/387724/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-22",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/femeni-singular/387755/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-23",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/femeni-singular/387684/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-09-24",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/femeni-singular/387790/?step=2"
         }
       ]
     },
@@ -78313,6 +78294,25 @@
       ]
     },
     {
+      "id": "local-xavi-castillo-apocalipsi-fatxa",
+      "title": "Xavi Castillo: Apocalipsi Fatxa",
+      "title_local": "Xavi Castillo: Apocalipsi Fatxa",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/38510/HO00006478/0/xavi-castillo-apocalipsi-fatxa"
+        }
+      ]
+    },
+    {
       "id": "local-miki-dkai-hoy-se-lia",
       "title": "Miki Dkai, Hoy se Lia",
       "title_local": "Miki Dkai, Hoy se Lia",
@@ -78347,25 +78347,6 @@
           "date": "2026-09-26",
           "time": "20:00",
           "url": "https://kinepolis.es/movies/detail/3947/HO00000810/0/hipnosis-y-mentalismo-de-toni-pons"
-        }
-      ]
-    },
-    {
-      "id": "local-nct-127-5th-tour-neo-city-soul-the-readline",
-      "title": "NCT 127 5TH Tour Neo City: Soul - The Readline",
-      "title_local": "NCT 127 5TH Tour Neo City: Soul - The Readline",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "15:30",
-          "url": "https://kinepolis.es/movies/detail/39014/HO00006665/0/nct-127-5th-tour-neo-city-soul-the-readline"
         }
       ]
     },
@@ -78518,6 +78499,76 @@
           "date": "2026-09-26",
           "time": "12:30",
           "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-27",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006670/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-27",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006670/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "20:45",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "16:45",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "12:45",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "19:45",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "12:30",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
         }
       ]
     },
@@ -78537,1751 +78588,6 @@
           "date": "2026-09-25",
           "time": "17:00",
           "url": "https://kinepolis.es/movies/detail/38769/HO00006674/0/pelicula-coloquio-streaming-la-bola-negra"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1423191",
-      "title": "Resident Evil",
-      "title_local": "Resident Evil",
-      "poster": "posters/resident-evil.jpg",
-      "rating": null,
-      "duration": 91,
-      "genres": [
-        "Terror",
-        "Suspense",
-        "Aventura"
-      ],
-      "trailer_youtube_id": "mNd1gb19A-c",
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "18:30",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-09-18",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006584/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-09-18",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006584/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-09-19",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006584/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-09-19",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006584/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "18:30",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-09-19",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006584/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-09-20",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006584/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-09-20",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006584/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-09-20",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006584/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "18:30",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "17:20",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-09-21",
-          "time": "20:15",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006584/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "19:40",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "16:15",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "16:15",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "17:20",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "19:40",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-09-22",
-          "time": "20:15",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006584/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "16:15",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "17:20",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "19:35",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-09-23",
-          "time": "20:15",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006584/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-09-24",
-          "time": "20:15",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006584/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "17:20",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "19:40",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "16:15",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387586/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387587/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387592/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387593/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387588/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387589/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387594/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387595/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387590/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387591/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387596/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387597/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387720/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387721/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387722/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387751/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387752/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387753/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387679/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387680/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387681/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387682/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387786/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "18:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387787/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387788/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "16:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/89718/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/89719/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/89720/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/89721/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "16:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/89722/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/89723/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/89724/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/89725/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "16:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/89726/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/89727/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/89728/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/89729/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/90393/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/90394/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/90395/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/90396/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/90397/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/90398/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/90399/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/90400/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/90401/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/90402/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/90403/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/90404/?step=2"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-09-18",
-          "time": "17:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50180"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-09-18",
-          "time": "19:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50180"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-09-18",
-          "time": "21:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50180"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "15:55",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50830"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50830"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "20:05",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50830"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "22:05",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50830"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-09-19",
-          "time": "17:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50181"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-09-19",
-          "time": "19:05",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50181"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-09-19",
-          "time": "21:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50181"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "16:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50187"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50187"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "20:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50187"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "22:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50187"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-09-20",
-          "time": "17:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50188"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-09-20",
-          "time": "19:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50188"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-09-20",
-          "time": "21:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50188"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "16:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50194"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50194"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "20:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50194"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "22:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50194"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-09-21",
-          "time": "17:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50195"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-09-21",
-          "time": "19:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50195"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-09-21",
-          "time": "21:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50195"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "15:55",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50831"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50831"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "20:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50831"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "22:10",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50831"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-09-22",
-          "time": "17:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50206"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-09-22",
-          "time": "19:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50206"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-09-22",
-          "time": "21:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50206"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "15:55",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50832"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50832"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "20:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50832"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "22:10",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50832"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-09-23",
-          "time": "17:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50218"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-09-23",
-          "time": "19:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50218"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-09-23",
-          "time": "21:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50218"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "15:55",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50833"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50833"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "20:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50833"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "22:10",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50833"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-09-24",
-          "time": "17:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50212"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-09-24",
-          "time": "19:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50212"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-09-24",
-          "time": "21:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50212"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "15:55",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50834"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50834"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "20:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50834"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "22:10",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50834"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "16:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "18:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-09-18",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "22:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "16:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "18:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-09-19",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "22:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "12:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "16:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "18:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-09-20",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "22:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "16:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "17:45",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-09-21",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "22:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "17:45",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-09-22",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "22:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "16:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "18:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-09-23",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "22:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "18:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-09-24",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "22:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "16:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "18:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-09-18",
-          "time": "19:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "20:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "22:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "16:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "18:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-09-19",
-          "time": "19:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "20:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "22:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "12:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-09-20",
-          "time": "12:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "16:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "18:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-09-20",
-          "time": "19:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "20:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "22:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "16:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "18:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-09-21",
-          "time": "19:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "20:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "22:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "16:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "18:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-09-22",
-          "time": "19:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "20:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "22:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "16:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "18:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-09-23",
-          "time": "19:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "20:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "22:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "16:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "18:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-09-24",
-          "time": "19:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "22:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "16:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "18:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "20:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "22:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "16:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "18:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "20:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-09-19",
-          "time": "21:35",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "22:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "16:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "18:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "20:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-09-20",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "22:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "16:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "18:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "20:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-09-21",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "22:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "16:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "18:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "20:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-09-22",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "22:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "16:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "18:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "20:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-09-23",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "22:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "16:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "18:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "20:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-09-24",
-          "time": "21:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "22:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-26",
-          "time": "15:30",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-26",
-          "time": "18:00",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-26",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-09-20",
-          "time": "21:05",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50188"
         }
       ]
     },
@@ -98873,46 +97179,6 @@
       ]
     },
     {
-      "id": "local-sesion-de-cortometrajes-emove-internacional-fe",
-      "title": "Sesión de Cortometrajes: eMove Internacional Fe",
-      "title_local": "Sesión de Cortometrajes: eMove Internacional Fe",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/32718/HO00004689/0/sesion-de-cortometrajes-emove-internacional-fe"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/32718/HO00004689/0/sesion-de-cortometrajes-emove-internacional-fe"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/32718/HO00004689/0/sesion-de-cortometrajes-emove-internacional-fe"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/32718/HO00004689/0/sesion-de-cortometrajes-emove-internacional-fe"
-        }
-      ]
-    },
-    {
       "id": "tmdb-1263337",
       "title": "EN EL CORAZÓN DE LA BESTIA",
       "title_local": "En el corazón de la bestia",
@@ -99057,32 +97323,1814 @@
           "date": "2026-09-26",
           "time": "20:30",
           "url": "https://kinepolis.es/movies/detail/38544/HO00006557/0/en-el-corazon-de-la-bestia"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-27",
+          "time": "17:10",
+          "url": "https://kinepolis.es/movies/detail/38544/HO00006558/0/en-el-corazon-de-la-bestia"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-27",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/38544/HO00006558/0/en-el-corazon-de-la-bestia"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/38544/HO00006557/0/en-el-corazon-de-la-bestia"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "18:20",
+          "url": "https://kinepolis.es/movies/detail/38544/HO00006557/0/en-el-corazon-de-la-bestia"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "16:10",
+          "url": "https://kinepolis.es/movies/detail/38544/HO00006557/0/en-el-corazon-de-la-bestia"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/38544/HO00006557/0/en-el-corazon-de-la-bestia"
         }
       ]
     },
     {
-      "id": "local-vaiana-2026",
-      "title": "Vaiana 2026",
-      "title_local": "Vaiana 2026",
-      "poster": null,
+      "id": "tmdb-1423191",
+      "title": "Resident Evil",
+      "title_local": "Resident Evil",
+      "poster": "posters/resident-evil.jpg",
       "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
+      "duration": 91,
+      "genres": [
+        "Terror",
+        "Suspense",
+        "Aventura"
+      ],
+      "trailer_youtube_id": "mNd1gb19A-c",
       "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-18",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006584/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-18",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006584/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-19",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006584/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-19",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006584/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
         {
           "cinema": "kinepolis",
           "language": "ES",
           "date": "2026-09-19",
           "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-19",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006584/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-20",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006584/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-20",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006584/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-20",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006584/0/resident-evil"
         },
         {
           "cinema": "kinepolis",
           "language": "ES",
           "date": "2026-09-20",
           "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/33202/HO00006160/0/vaiana-2026"
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "17:20",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-21",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006584/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "19:40",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "16:15",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "16:15",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "17:20",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "19:40",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-22",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006584/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "16:15",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "17:20",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "19:35",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-23",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006584/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-24",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006584/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "17:20",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "19:40",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "16:15",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387586/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387587/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387592/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387593/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387588/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387589/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387594/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387595/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387590/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387591/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387596/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387597/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387720/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387721/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387722/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387751/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387752/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387753/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387679/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387680/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387681/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387682/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387786/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387787/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/387788/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/89718/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/89719/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/89720/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/89721/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/89722/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/89723/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/89724/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/89725/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/89726/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/89727/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/89728/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/89729/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/90393/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/90394/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/90395/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/90396/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/90397/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/90398/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/90399/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/90400/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/90401/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/90402/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/90403/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/90404/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-09-18",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50180"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-09-18",
+          "time": "19:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50180"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-09-18",
+          "time": "21:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50180"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "15:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50830"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50830"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "20:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50830"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "22:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50830"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-09-19",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50181"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-09-19",
+          "time": "19:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50181"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-09-19",
+          "time": "21:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50181"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50187"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50187"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50187"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "22:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50187"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-09-20",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50188"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-09-20",
+          "time": "19:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50188"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-09-20",
+          "time": "21:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50188"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50194"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50194"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50194"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "22:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50194"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-09-21",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50195"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-09-21",
+          "time": "19:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50195"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-09-21",
+          "time": "21:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50195"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "15:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50831"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50831"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50831"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "22:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50831"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-09-22",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50206"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-09-22",
+          "time": "19:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50206"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-09-22",
+          "time": "21:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50206"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "15:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50832"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50832"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50832"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "22:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50832"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-09-23",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50218"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-09-23",
+          "time": "19:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50218"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-09-23",
+          "time": "21:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50218"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "15:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50833"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50833"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50833"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "22:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50833"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-09-24",
+          "time": "17:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50212"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-09-24",
+          "time": "19:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50212"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-09-24",
+          "time": "21:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50212"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "15:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50834"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50834"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50834"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "22:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50834"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "16:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "18:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-09-18",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "16:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "18:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-09-19",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "12:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "16:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "18:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-09-20",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "16:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "17:45",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-09-21",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "22:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "17:45",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-09-22",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "22:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "16:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "18:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-09-23",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "22:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "18:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-09-24",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "22:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "16:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "18:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-09-18",
+          "time": "19:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "20:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "22:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "16:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "18:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-09-19",
+          "time": "19:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "20:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "22:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "12:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-09-20",
+          "time": "12:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "16:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "18:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-09-20",
+          "time": "19:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "20:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "22:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "16:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "18:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-09-21",
+          "time": "19:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "20:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "22:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "16:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "18:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-09-22",
+          "time": "19:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "20:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "22:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "16:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "18:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-09-23",
+          "time": "19:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "20:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "22:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "16:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "18:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-09-24",
+          "time": "19:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "22:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "16:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "18:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "20:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "22:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "16:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "18:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "20:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-09-19",
+          "time": "21:35",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "22:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "16:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "18:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "20:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-09-20",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "22:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "16:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "18:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "20:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-09-21",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "22:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "16:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "18:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "20:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-09-22",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "22:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "16:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "18:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "20:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-09-23",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "22:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "16:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "18:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "20:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-09-24",
+          "time": "21:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "22:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-26",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-26",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-26",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-09-20",
+          "time": "21:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50188"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
         }
       ]
     },
@@ -130993,6 +131041,39 @@
       ]
     },
     {
+      "id": "local-cine-a-ciegas",
+      "title": "CINE A CIEGAS",
+      "title_local": "CINE A CIEGAS",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-10",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cine-a-ciegas/88682/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cine-a-ciegas/88696/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cine-a-ciegas/90408/?step=2"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1690901",
       "title": "EL NIDO",
       "title_local": "El nido",
@@ -131929,6 +132010,39 @@
           "date": "2026-09-24",
           "time": "16:50",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50943"
+        }
+      ]
+    },
+    {
+      "id": "local-cine-club-lys-tanit",
+      "title": "CINE CLUB LYS, TANIT",
+      "title_local": "CINE CLUB LYS, TANIT",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-21",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cine-club-lys-tanit/387501/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-21",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cine-club-lys-tanit/387503/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-09-21",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cine-club-lys-tanit/387502/?step=2"
         }
       ]
     },
@@ -132905,138 +133019,6 @@
       ]
     },
     {
-      "id": "local-cine-a-ciegas",
-      "title": "CINE A CIEGAS",
-      "title_local": "CINE A CIEGAS",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-10",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cine-a-ciegas/88682/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cine-a-ciegas/88696/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cine-a-ciegas/90408/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1740257",
-      "title": "NCT 127 5TH TOUR NEO CITY - SEOUL - THE REDLINE",
-      "title_local": "NCT 127 5TH TOUR ‘NEO CITY  SEOUL - THE REDLINE’ in CINEMAS",
-      "poster": "posters/nct-127-5th-tour-neo-city-seoul-the-redline.jpg",
-      "rating": null,
-      "duration": 255,
-      "genres": [
-        "Música"
-      ],
-      "trailer_youtube_id": "nWZ_UY9voL4",
-      "showtimes": [
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "17:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=49799"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1721500",
-      "title": "LA CARTA DE ÓSCAR",
-      "title_local": "La carta de Óscar",
-      "poster": "posters/la-carta-de-oscar.jpg",
-      "rating": null,
-      "duration": 91,
-      "genres": [
-        "Drama",
-        "Familia"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3313"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3313"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3313"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "10:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3313"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "10:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3313"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "10:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3313"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3313"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "12:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3313"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3313"
-        }
-      ]
-    },
-    {
       "id": "tmdb-1744439",
       "title": "LAS 3000 MARAVILLAS",
       "title_local": "Las 3000 maravillas",
@@ -133318,6 +133300,84 @@
           "date": "2026-09-24",
           "time": "17:30",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3363"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1721500",
+      "title": "LA CARTA DE ÓSCAR",
+      "title_local": "La carta de Óscar",
+      "poster": "posters/la-carta-de-oscar.jpg",
+      "rating": null,
+      "duration": 91,
+      "genres": [
+        "Drama",
+        "Familia"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3313"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3313"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3313"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "10:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3313"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "10:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3313"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "10:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3313"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3313"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "12:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3313"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3313"
         }
       ]
     },
