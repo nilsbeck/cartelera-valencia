@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T07:00:00Z",
+  "updated_at": "2026-09-26T07:00:00Z",
   "movies": [
     {
       "id": "tmdb-1465063",
@@ -1323,6 +1323,13 @@
           "date": "2026-10-01",
           "time": "22:10",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3349"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-30",
+          "time": "22:50",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3349"
         }
       ]
     },
@@ -1460,113 +1467,6 @@
           "date": "2026-10-01",
           "time": "18:35",
           "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/vengadores-endgame-reestreno/388052/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-37165",
-      "title": "30 años 30 películas – Truman",
-      "title_local": "El show de Truman",
-      "poster": "posters/30-a-os-30-peliculas-truman.jpg",
-      "rating": 8.2,
-      "duration": 103,
-      "genres": [
-        "Comedia",
-        "Drama"
-      ],
-      "trailer_youtube_id": "N1VlDVRiFrk",
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-09-27",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-truman/67075/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-09-25",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-truman/67085/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-09-26",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-truman/67098/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-09-28",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-truman/67117/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-09-28",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-truman/67124/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-09-29",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-truman/67133/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-09-29",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-truman/67131/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-09-30",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-truman/67153/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-09-27",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-truman/67175/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-01",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-truman/67148/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-142773",
-      "title": "Cine con coloquio – Queen Budapest",
-      "title_local": "Queen: El concierto de Budapest",
-      "poster": "posters/cine-con-coloquio-queen-budapest.jpg",
-      "rating": 8.2,
-      "duration": 91,
-      "genres": [
-        "Música",
-        "Documental"
-      ],
-      "trailer_youtube_id": "CnWgjtNWKXI",
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-07",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-coloquio-queen-budapest/67051/?step=2"
         }
       ]
     },
@@ -2899,6 +2799,113 @@
       ]
     },
     {
+      "id": "tmdb-37165",
+      "title": "30 años 30 películas – Truman",
+      "title_local": "El show de Truman",
+      "poster": "posters/30-a-os-30-peliculas-truman.jpg",
+      "rating": 8.2,
+      "duration": 103,
+      "genres": [
+        "Comedia",
+        "Drama"
+      ],
+      "trailer_youtube_id": "N1VlDVRiFrk",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-truman/67075/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-09-25",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-truman/67085/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-09-26",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-truman/67098/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-09-28",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-truman/67117/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-09-28",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-truman/67124/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-09-29",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-truman/67133/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-09-29",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-truman/67131/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-09-30",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-truman/67153/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-truman/67175/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-01",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-truman/67148/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-142773",
+      "title": "Cine con coloquio – Queen Budapest",
+      "title_local": "Queen: El concierto de Budapest",
+      "poster": "posters/cine-con-coloquio-queen-budapest.jpg",
+      "rating": 8.2,
+      "duration": 91,
+      "genres": [
+        "Música",
+        "Documental"
+      ],
+      "trailer_youtube_id": "CnWgjtNWKXI",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-07",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-coloquio-queen-budapest/67051/?step=2"
+        }
+      ]
+    },
+    {
       "id": "tmdb-299534",
       "title": "VENGADORES: ENDGAME",
       "title_local": "Vengadores: Endgame",
@@ -3282,36 +3289,13 @@
           "date": "2026-10-01",
           "time": "20:30",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3320"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-299534",
-      "title": "VENGADORES: ENDGAME 3D",
-      "title_local": "Vengadores: Endgame",
-      "poster": "posters/vengadores-endgame-3d.jpg",
-      "rating": 8.2,
-      "duration": 181,
-      "genres": [
-        "Aventura",
-        "Ciencia ficción",
-        "Acción"
-      ],
-      "trailer_youtube_id": "L2NAh3CIdig",
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-25",
-          "time": "19:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3327"
         },
         {
-          "cinema": "abc_park",
+          "cinema": "abc_granturia",
           "language": "ES",
-          "date": "2026-09-25",
-          "time": "19:40",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3327"
+          "date": "2026-09-29",
+          "time": "20:50",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3320"
         }
       ]
     },
@@ -14255,1074 +14239,6 @@
       ]
     },
     {
-      "id": "tmdb-1432596",
-      "title": "Palestina 36",
-      "title_local": "Palestine 36",
-      "poster": "posters/palestina-36.jpg",
-      "rating": 7.8,
-      "duration": 120,
-      "genres": [
-        "Drama",
-        "Historia",
-        "Bélica"
-      ],
-      "trailer_youtube_id": "14H4J8bewDY",
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-14",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66080/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-14",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66076/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-15",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66099/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-16",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66118/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-16",
-          "time": "18:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66119/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-17",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66137/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-17",
-          "time": "18:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66138/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-18",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66156/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-18",
-          "time": "18:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66157/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-19",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66175/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-19",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66174/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-20",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66192/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-20",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66191/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-14",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386056/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-14",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386058/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-14",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386057/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-15",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386059/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-15",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386061/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-15",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386060/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-16",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386062/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-16",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386064/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-16",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386063/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-17",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386165/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-17",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386166/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-18",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386200/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-18",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386201/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-19",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386126/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-19",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386128/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-19",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386127/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-20",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386234/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-20",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386235/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-14",
-          "time": "22:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-15",
-          "time": "22:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-16",
-          "time": "22:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-17",
-          "time": "22:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-18",
-          "time": "20:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-19",
-          "time": "22:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-15",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66091/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-16",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66109/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-19",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66167/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-20",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66191/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-21",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386358/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-21",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386359/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-21",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386364/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-22",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386360/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-22",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386361/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-22",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386365/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-23",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386362/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-23",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386363/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-23",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386366/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-24",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386421/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-24",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386422/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-25",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386456/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-25",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386457/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-26",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386502/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-26",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386503/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-27",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386539/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-21",
-          "time": "21:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-23",
-          "time": "21:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-24",
-          "time": "21:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-25",
-          "time": "17:45",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-25",
-          "time": "19:55",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-21",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66252/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-22",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66253/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-23",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66284/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-24",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66303/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-25",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66322/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-26",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66342/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-27",
-          "time": "20:05",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66352/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-28",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386679/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-28",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386680/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-29",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386681/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-29",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386682/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-30",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386683/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-30",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386684/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-08-31",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386777/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-01",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386845/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-02",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386741/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-03",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386810/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-27",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66351/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-08-31",
-          "time": "17:45",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-01",
-          "time": "17:45",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-02",
-          "time": "17:45",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-03",
-          "time": "17:45",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-28",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66385/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-29",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66386/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-30",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66412/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-31",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66429/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-01",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66445/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-02",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66471/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-02",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66469/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-03",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66476/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-29",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66386/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-30",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66529/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-08-31",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66530/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-01",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66531/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-02",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66532/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-04",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386995/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-05",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386996/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-06",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386997/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-07",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387045/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-08",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387080/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-09",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387125/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-10",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387160/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-08",
-          "time": "18:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-04",
-          "time": "18:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66639/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-04",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66645/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-05",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66660/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-06",
-          "time": "18:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66669/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-08",
-          "time": "18:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66701/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-09",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66718/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-11",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387301/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-12",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387302/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-13",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387303/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-14",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387396/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-15",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387454/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-16",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387362/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-17",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387421/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-15",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-11",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66775/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-12",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66782/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-13",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66794/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-14",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66808/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-15",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66825/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-16",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66843/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387625/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387626/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387627/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387729/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387760/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387691/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "17:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387793/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387504/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-18",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/67049/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-19",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/67050/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-20",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66911/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-20",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66958/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-21",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66959/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-22",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66960/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-23",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66961/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-24",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/67032/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-26",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/67096/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-26",
-          "time": "18:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/67171/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-27",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/67173/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-28",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/67180/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-29",
-          "time": "18:25",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/67182/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-9479",
-      "title": "PESADILLA ANTES DE NAVIDAD",
-      "title_local": "Pesadilla antes de Navidad",
-      "poster": "posters/pesadilla-antes-de-navidad.jpg",
-      "rating": 7.8,
-      "duration": 75,
-      "genres": [
-        "Fantasía",
-        "Animación",
-        "Familia"
-      ],
-      "trailer_youtube_id": "IoYahD_xNR0",
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-30",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3350"
-        }
-      ]
-    },
-    {
       "id": "tmdb-1101383",
       "title": "El final de Oak Street",
       "title_local": "El final de Oak Street",
@@ -20641,6 +19557,1081 @@
           "date": "2026-09-30",
           "time": "22:50",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51281"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-01",
+          "time": "22:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51278"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1432596",
+      "title": "Palestina 36",
+      "title_local": "Palestine 36",
+      "poster": "posters/palestina-36.jpg",
+      "rating": 7.8,
+      "duration": 120,
+      "genres": [
+        "Drama",
+        "Historia",
+        "Bélica"
+      ],
+      "trailer_youtube_id": "14H4J8bewDY",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-14",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66080/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-14",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66076/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-15",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66099/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-16",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66118/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-16",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66119/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-17",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66137/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-17",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66138/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-18",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66156/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-18",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66157/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-19",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66175/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-19",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66174/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-20",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66192/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-20",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66191/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-14",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386056/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-14",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386058/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-14",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386057/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386059/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386061/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386060/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386062/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386064/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386063/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-17",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386165/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-17",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386166/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386200/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386201/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386126/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386128/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386127/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-20",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386234/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-20",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386235/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-14",
+          "time": "22:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-15",
+          "time": "22:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-16",
+          "time": "22:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-17",
+          "time": "22:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-18",
+          "time": "20:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-19",
+          "time": "22:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-15",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66091/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-16",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66109/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-19",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66167/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-20",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66191/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-21",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386358/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-21",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386359/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-21",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386364/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-22",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386360/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-22",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386361/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-22",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386365/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-23",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386362/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-23",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386363/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-23",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386366/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-24",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386421/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-24",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386422/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-25",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386456/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-25",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386457/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-26",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386502/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-26",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386503/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-27",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386539/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-21",
+          "time": "21:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-23",
+          "time": "21:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-24",
+          "time": "21:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-25",
+          "time": "17:45",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-25",
+          "time": "19:55",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-21",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66252/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-22",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66253/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-23",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66284/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-24",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66303/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-25",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66322/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-26",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66342/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-27",
+          "time": "20:05",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66352/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386679/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-28",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386680/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386681/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-29",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386682/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386683/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-30",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386684/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386777/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386845/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386741/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386810/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-27",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66351/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-08-31",
+          "time": "17:45",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-01",
+          "time": "17:45",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-02",
+          "time": "17:45",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-03",
+          "time": "17:45",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-28",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66385/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-29",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66386/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-30",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66412/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-31",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66429/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-01",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66445/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-02",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66471/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-02",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66469/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-03",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66476/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-29",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66386/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-30",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66529/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-08-31",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66530/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-01",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66531/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-02",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66532/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-04",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386995/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-05",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386996/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-06",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/386997/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-07",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387045/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-08",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387080/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-09",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387125/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-10",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387160/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-08",
+          "time": "18:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-04",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66639/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-04",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66645/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-05",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66660/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-06",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66669/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-08",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66701/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-09",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66718/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-11",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387301/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-12",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387302/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-13",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387303/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-14",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387396/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-15",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387454/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-16",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387362/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-17",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387421/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-15",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-11",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66775/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-12",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66782/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-13",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66794/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-14",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66808/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-15",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66825/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-16",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66843/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387625/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387626/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387627/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387729/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387760/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387691/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387793/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/palestina-36/387504/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3286"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-18",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/67049/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-19",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/67050/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-20",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66911/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-20",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66958/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-21",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66959/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-22",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66960/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-23",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/66961/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-24",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/67032/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-26",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/67096/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-26",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/67171/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-27",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/67173/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-28",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/67180/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-29",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/palestina-36/67182/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-9479",
+      "title": "PESADILLA ANTES DE NAVIDAD",
+      "title_local": "Pesadilla antes de Navidad",
+      "poster": "posters/pesadilla-antes-de-navidad.jpg",
+      "rating": 7.8,
+      "duration": 75,
+      "genres": [
+        "Fantasía",
+        "Animación",
+        "Familia"
+      ],
+      "trailer_youtube_id": "IoYahD_xNR0",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3350"
         }
       ]
     },
@@ -20709,6 +20700,20 @@
           "cinema": "dor",
           "language": "ES",
           "date": "2026-10-01",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "16:45",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-02",
           "time": "20:30",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -38180,6 +38185,20 @@
           "date": "2026-10-01",
           "time": "22:20",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
       ]
     },
@@ -39456,6 +39475,43 @@
       ]
     },
     {
+      "id": "tmdb-1107216",
+      "title": "Mascotas al rescate",
+      "title_local": "Mascotas al rescate",
+      "poster": "posters/mascotas-al-rescate.jpg",
+      "rating": 7.1,
+      "duration": 86,
+      "genres": [
+        "Animación",
+        "Comedia",
+        "Aventura"
+      ],
+      "trailer_youtube_id": "QH8V0wpg18A",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-26",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/35988/HO00006203/0/mascotas-al-rescate"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/35988/HO00006203/0/mascotas-al-rescate"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/35988/HO00006203/0/mascotas-al-rescate"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1443",
       "title": "30 años 30 películas – Las vírgenes suicidas",
       "title_local": "Las vírgenes suicidas",
@@ -39593,43 +39649,6 @@
           "date": "2026-10-08",
           "time": "20:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-cineastas-talk-me/67078/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1107216",
-      "title": "Mascotas al rescate",
-      "title_local": "Mascotas al rescate",
-      "poster": "posters/mascotas-al-rescate.jpg",
-      "rating": 7.1,
-      "duration": 86,
-      "genres": [
-        "Animación",
-        "Comedia",
-        "Aventura"
-      ],
-      "trailer_youtube_id": "QH8V0wpg18A",
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-26",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/35988/HO00006203/0/mascotas-al-rescate"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-27",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/35988/HO00006203/0/mascotas-al-rescate"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-27",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/35988/HO00006203/0/mascotas-al-rescate"
         }
       ]
     },
@@ -66856,6 +66875,90 @@
           "date": "2026-10-01",
           "time": "21:30",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3332"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-26",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51440"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-26",
+          "time": "22:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51440"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "21:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50226"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "22:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50226"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "17:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51424"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "20:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51424"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-26",
+          "time": "18:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3332"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-26",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3332"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "20:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3332"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-29",
+          "time": "18:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3332"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-30",
+          "time": "20:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3332"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-30",
+          "time": "21:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3332"
         }
       ]
     },
@@ -73329,6 +73432,13 @@
           "date": "2026-10-01",
           "time": "22:40",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51232"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "22:50",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3293"
         }
       ]
     },
@@ -76467,6 +76577,13 @@
           "date": "2026-10-01",
           "time": "21:50",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51415"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-26",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3341"
         }
       ]
     },
@@ -105340,6 +105457,34 @@
           "date": "2026-10-01",
           "time": "21:30",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51383"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-26",
+          "time": "21:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51359"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-28",
+          "time": "21:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51376"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-09-29",
+          "time": "21:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51377"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-01",
+          "time": "21:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51383"
         }
       ]
     },
@@ -108611,6 +108756,13 @@
           "date": "2026-10-01",
           "time": "22:15",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51324"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-29",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
         }
       ]
     },
@@ -132832,982 +132984,6 @@
       ]
     },
     {
-      "id": "tmdb-1422041",
-      "title": "Cine con coloquio – La bola negra",
-      "title_local": "La bola negra",
-      "poster": "posters/cine-con-coloquio-la-bola-negra.jpg",
-      "rating": null,
-      "duration": 155,
-      "genres": [
-        "Drama",
-        "Bélica"
-      ],
-      "trailer_youtube_id": "Yn-UxPIwTsU",
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-09-25",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-coloquio-la-bola-negra/65902/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-power-point-party-edicion-cine-05",
-      "title": "Power Point Party. Edición Cine 05",
-      "title_local": "Power Point Party. Edición Cine 05",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-09-26",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/power-point-party-edicion-cine-05/66901/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1291829",
-      "title": "Sus hijos",
-      "title_local": "Sus hijos",
-      "poster": "posters/sus-hijos.jpg",
-      "rating": null,
-      "duration": 119,
-      "genres": [
-        "Drama"
-      ],
-      "trailer_youtube_id": "oRXtqE_yrPQ",
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-18",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66926/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-18",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66922/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-18",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66923/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-19",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66908/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-19",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66927/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-19",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66924/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-19",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66925/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-20",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66912/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-20",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66982/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-20",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66970/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-20",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66971/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-21",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66983/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-21",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66972/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-21",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66973/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-22",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66984/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-22",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66974/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-22",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66975/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-23",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66985/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-23",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66976/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-23",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66977/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-24",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67038/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-24",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67035/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-24",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67036/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/sus-hijos/90386/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/sus-hijos/90387/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/sus-hijos/90388/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/sus-hijos/90389/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/sus-hijos/90390/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/sus-hijos/90391/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/sus-hijos/90392/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "20:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "22:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "20:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "22:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "12:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "20:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "22:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "20:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "22:35",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "22:40",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "20:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "22:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "18:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "21:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "21:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "21:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "21:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "21:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "21:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "21:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "16:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-18",
-          "time": "20:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "16:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-19",
-          "time": "20:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-20",
-          "time": "20:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "16:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "18:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-21",
-          "time": "20:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "16:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "18:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-22",
-          "time": "20:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "16:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-23",
-          "time": "20:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "16:30",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-09-24",
-          "time": "20:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-29",
-          "time": "22:20",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-26",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67092/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-27",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67109/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-28",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67119/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-28",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67118/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-29",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67136/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-26",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67169/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-26",
-          "time": "20:25",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67170/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-27",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67174/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-29",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67184/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-30",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67185/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-01",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67147/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-encuentro-de-dise-o-y-cine-rams",
-      "title": "encuentro de diseño y cine – Rams",
-      "title_local": "encuentro de diseño y cine – Rams",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-27",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/encuentro-de-diseno-y-cine-rams/66755/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-encuentro-de-dise-o-y-cine-objectified",
-      "title": "encuentro de diseño y cine – Objectified",
-      "title_local": "encuentro de diseño y cine – Objectified",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-28",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/encuentro-de-diseno-y-cine-objectified/66756/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-encuentro-de-dise-o-y-cine-as-time-swallows-time",
-      "title": "encuentro de diseño y cine – As Time Swallows Time",
-      "title_local": "encuentro de diseño y cine – As Time Swallows Time",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-29",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/encuentro-de-diseno-y-cine-as-time-swallows-time/66757/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-encuentro-de-dise-o-y-cine-helvetica",
-      "title": "encuentro de diseño y cine – Helvetica",
-      "title_local": "encuentro de diseño y cine – Helvetica",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-09-30",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/encuentro-de-diseno-y-cine-helvetica/66758/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1623608",
-      "title": "Cine Club – Ceniza en la boca",
-      "title_local": "Ceniza en la Boca",
-      "poster": "posters/cine-club-ceniza-en-la-boca.jpg",
-      "rating": null,
-      "duration": 98,
-      "genres": [
-        "Suspense",
-        "Drama"
-      ],
-      "trailer_youtube_id": "YPil4DMIE-0",
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-01",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-club-ceniza-en-la-boca/67076/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-pase-especial-mostra-de-valencia-sur-tes-cendres-un-ciel-si-bas",
-      "title": "Pase especial mostra de València.  Sur tes cendres+Un ciel si bas",
-      "title_local": "Pase especial mostra de València.  Sur tes cendres+Un ciel si bas",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-01",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/pase-especial-mostra-de-valencia-sur-tes-cendres-un-ciel-si-bas/67080/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-encuentro-de-dise-o-y-cine-urbanized",
-      "title": "encuentro de diseño y cine – Urbanized",
-      "title_local": "encuentro de diseño y cine – Urbanized",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-01",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/encuentro-de-diseno-y-cine-urbanized/66759/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1248832",
-      "title": "Digger",
-      "title_local": "Digger",
-      "poster": "posters/digger.jpg",
-      "rating": null,
-      "duration": 128,
-      "genres": [
-        "Comedia"
-      ],
-      "trailer_youtube_id": "job8V254NAE",
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66885/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66886/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66878/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66887/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66888/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66879/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66889/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66890/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66880/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66891/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66892/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66881/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66893/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66894/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66882/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66895/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66896/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66883/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66897/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66898/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66884/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1248832",
-      "title": "Cine Club – Digger",
-      "title_local": "Digger",
-      "poster": "posters/cine-club-digger.jpg",
-      "rating": null,
-      "duration": 128,
-      "genres": [
-        "Comedia"
-      ],
-      "trailer_youtube_id": "job8V254NAE",
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-club-digger/67077/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-clausura-volumens-myriam-bleau-presenta-soft-revolvers",
-      "title": "Clausura Volumens – Myriam Bleau presenta «Soft revolvers»",
-      "title_local": "Clausura Volumens – Myriam Bleau presenta «Soft revolvers»",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/clausura-volumens-myriam-bleau-presenta-soft-revolvers/66905/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-leer-el-cine-aprende-a-mirar-reserva-de-plaza",
-      "title": "Leer el Cine. Aprende a mirar (Reserva de plaza)",
-      "title_local": "Leer el Cine. Aprende a mirar (Reserva de plaza)",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-12-10",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/leer-el-cine-aprende-a-mirar-reserva-de-plaza/66056/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-dune-parte-tres-preestrenos-exclusivos",
-      "title": "Dune: Parte Tres – Preestrenos exclusivos",
-      "title_local": "Dune: Parte Tres – Preestrenos exclusivos",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-12-15",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/dune-parte-tres-preestrenos-exclusivos/66877/?step=2"
-        }
-      ]
-    },
-    {
       "id": "local-xavi-castillo-apocalipsi-fatxa",
       "title": "Xavi Castillo: Apocalipsi Fatxa",
       "title_local": "Xavi Castillo: Apocalipsi Fatxa",
@@ -133823,25 +132999,6 @@
           "date": "2026-09-27",
           "time": "16:00",
           "url": "https://kinepolis.es/movies/detail/38510/HO00006478/0/xavi-castillo-apocalipsi-fatxa"
-        }
-      ]
-    },
-    {
-      "id": "local-miki-dkai-hoy-se-lia",
-      "title": "Miki Dkai, Hoy se Lia",
-      "title_local": "Miki Dkai, Hoy se Lia",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-25",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/38703/HO00006539/0/miki-dkai-hoy-se-lia"
         }
       ]
     },
@@ -134137,21 +133294,325 @@
       ]
     },
     {
-      "id": "local-pelicula-coloquio-streaming-la-bola-negra",
-      "title": "Película +coloquio streaming: La bola negra",
-      "title_local": "Película +coloquio streaming: La bola negra",
-      "poster": null,
+      "id": "tmdb-1283515",
+      "title": "VERITY. LA SOMBRA DE UN ENGAÑO",
+      "title_local": "Verity. La sombra de un engaño",
+      "poster": "posters/verity-la-sombra-de-un-enga-o.jpg",
       "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
+      "duration": 117,
+      "genres": [
+        "Misterio",
+        "Suspense"
+      ],
+      "trailer_youtube_id": "xdPMKhjMSFs",
       "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-02",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-03",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-04",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-02",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-02",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
+        },
         {
           "cinema": "kinepolis",
           "language": "ES",
-          "date": "2026-09-25",
+          "date": "2026-10-02",
           "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/38769/HO00006674/0/pelicula-coloquio-streaming-la-bola-negra"
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1248832",
+      "title": "Digger",
+      "title_local": "Digger",
+      "poster": "posters/digger.jpg",
+      "rating": null,
+      "duration": 128,
+      "genres": [
+        "Comedia"
+      ],
+      "trailer_youtube_id": "job8V254NAE",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66885/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66886/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66878/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66887/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66888/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66879/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66889/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66890/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66880/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66891/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66892/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66881/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66893/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66894/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66882/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66895/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66896/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66883/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66897/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66898/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/digger/66884/?step=2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/35301/HO00006383/0/digger"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/35301/HO00006383/0/digger"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/35301/HO00006383/0/digger"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-02",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/35301/HO00006649/0/digger"
         }
       ]
     },
@@ -134185,28 +133646,6 @@
           "date": "2026-10-08",
           "time": "19:30",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cine-a-ciegas/90408/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1422041",
-      "title": "LA BOLA NEGRA (PASE COLOQUIO STREAMING)",
-      "title_local": "La bola negra",
-      "poster": "posters/la-bola-negra-pase-coloquio-streaming.jpg",
-      "rating": null,
-      "duration": 155,
-      "genres": [
-        "Drama",
-        "Bélica"
-      ],
-      "trailer_youtube_id": "IRHtqjHYPew",
-      "showtimes": [
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-09-25",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra-pase-coloquio-streaming/90439/?step=2"
         }
       ]
     },
@@ -136367,6 +135806,860 @@
       ]
     },
     {
+      "id": "local-power-point-party-edicion-cine-05",
+      "title": "Power Point Party. Edición Cine 05",
+      "title_local": "Power Point Party. Edición Cine 05",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-09-26",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/power-point-party-edicion-cine-05/66901/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1291829",
+      "title": "Sus hijos",
+      "title_local": "Sus hijos",
+      "poster": "posters/sus-hijos.jpg",
+      "rating": null,
+      "duration": 119,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": "oRXtqE_yrPQ",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-18",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66926/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-18",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66922/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-18",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66923/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-19",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66908/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-19",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66927/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-19",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66924/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-19",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66925/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-20",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66912/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-20",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66982/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-20",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66970/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-20",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66971/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-21",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66983/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-21",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66972/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-21",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66973/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-22",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66984/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-22",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66974/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-22",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66975/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-23",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66985/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-23",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66976/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-23",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/66977/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-24",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67038/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-24",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67035/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-24",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67036/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/sus-hijos/90386/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/sus-hijos/90387/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/sus-hijos/90388/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/sus-hijos/90389/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/sus-hijos/90390/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/sus-hijos/90391/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/sus-hijos/90392/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "20:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "22:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "20:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "22:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "12:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "20:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "22:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "20:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "22:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "22:40",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "20:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "22:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "18:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "21:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "21:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "21:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "21:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "21:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "21:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "21:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "16:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-18",
+          "time": "20:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "16:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-19",
+          "time": "20:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-20",
+          "time": "20:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "16:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "18:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-21",
+          "time": "20:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "16:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "18:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-22",
+          "time": "20:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "16:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-23",
+          "time": "20:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "16:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-09-24",
+          "time": "20:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-29",
+          "time": "22:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3359"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-26",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67092/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-27",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67109/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-28",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67119/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-28",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67118/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-29",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67136/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-26",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67169/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-26",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67170/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-27",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67174/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-29",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67184/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-30",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67185/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-01",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sus-hijos/67147/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-encuentro-de-dise-o-y-cine-rams",
+      "title": "encuentro de diseño y cine – Rams",
+      "title_local": "encuentro de diseño y cine – Rams",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-27",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/encuentro-de-diseno-y-cine-rams/66755/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-encuentro-de-dise-o-y-cine-objectified",
+      "title": "encuentro de diseño y cine – Objectified",
+      "title_local": "encuentro de diseño y cine – Objectified",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-28",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/encuentro-de-diseno-y-cine-objectified/66756/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-encuentro-de-dise-o-y-cine-as-time-swallows-time",
+      "title": "encuentro de diseño y cine – As Time Swallows Time",
+      "title_local": "encuentro de diseño y cine – As Time Swallows Time",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-29",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/encuentro-de-diseno-y-cine-as-time-swallows-time/66757/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-encuentro-de-dise-o-y-cine-helvetica",
+      "title": "encuentro de diseño y cine – Helvetica",
+      "title_local": "encuentro de diseño y cine – Helvetica",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-09-30",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/encuentro-de-diseno-y-cine-helvetica/66758/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1623608",
+      "title": "Cine Club – Ceniza en la boca",
+      "title_local": "Ceniza en la Boca",
+      "poster": "posters/cine-club-ceniza-en-la-boca.jpg",
+      "rating": null,
+      "duration": 98,
+      "genres": [
+        "Suspense",
+        "Drama"
+      ],
+      "trailer_youtube_id": "YPil4DMIE-0",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-01",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-club-ceniza-en-la-boca/67076/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-pase-especial-mostra-de-valencia-sur-tes-cendres-un-ciel-si-bas",
+      "title": "Pase especial mostra de València.  Sur tes cendres+Un ciel si bas",
+      "title_local": "Pase especial mostra de València.  Sur tes cendres+Un ciel si bas",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-01",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/pase-especial-mostra-de-valencia-sur-tes-cendres-un-ciel-si-bas/67080/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-encuentro-de-dise-o-y-cine-urbanized",
+      "title": "encuentro de diseño y cine – Urbanized",
+      "title_local": "encuentro de diseño y cine – Urbanized",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-01",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/encuentro-de-diseno-y-cine-urbanized/66759/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1248832",
+      "title": "Cine Club – Digger",
+      "title_local": "Digger",
+      "poster": "posters/cine-club-digger.jpg",
+      "rating": null,
+      "duration": 128,
+      "genres": [
+        "Comedia"
+      ],
+      "trailer_youtube_id": "job8V254NAE",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-club-digger/67077/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-clausura-volumens-myriam-bleau-presenta-soft-revolvers",
+      "title": "Clausura Volumens – Myriam Bleau presenta «Soft revolvers»",
+      "title_local": "Clausura Volumens – Myriam Bleau presenta «Soft revolvers»",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/clausura-volumens-myriam-bleau-presenta-soft-revolvers/66905/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-leer-el-cine-aprende-a-mirar-reserva-de-plaza",
+      "title": "Leer el Cine. Aprende a mirar (Reserva de plaza)",
+      "title_local": "Leer el Cine. Aprende a mirar (Reserva de plaza)",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-12-10",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/leer-el-cine-aprende-a-mirar-reserva-de-plaza/66056/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-dune-parte-tres-preestrenos-exclusivos",
+      "title": "Dune: Parte Tres – Preestrenos exclusivos",
+      "title_local": "Dune: Parte Tres – Preestrenos exclusivos",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-12-15",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/dune-parte-tres-preestrenos-exclusivos/66877/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-la-bola-negra-35mm",
+      "title": "LA BOLA NEGRA - 35MM",
+      "title_local": "LA BOLA NEGRA - 35MM",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-25",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-26",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "11:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-28",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-09-30",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-01",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1542396",
       "title": "SALMONES ROSAS",
       "title_local": "Salmones Rosas",
@@ -136496,67 +136789,6 @@
           "date": "2026-10-01",
           "time": "22:45",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3370"
-        }
-      ]
-    },
-    {
-      "id": "local-la-bola-negra-35mm",
-      "title": "LA BOLA NEGRA - 35MM",
-      "title_local": "LA BOLA NEGRA - 35MM",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-25",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-26",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-27",
-          "time": "11:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-27",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-28",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-30",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-01",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
         }
       ]
     },
@@ -140947,105 +141179,6 @@
           "date": "2026-10-01",
           "time": "20:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3309"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1283515",
-      "title": "VERITY. LA SOMBRA DE UN ENGAÑO",
-      "title_local": "Verity. La sombra de un engaño",
-      "poster": "posters/verity-la-sombra-de-un-enga-o.jpg",
-      "rating": null,
-      "duration": 117,
-      "genres": [
-        "Misterio",
-        "Suspense"
-      ],
-      "trailer_youtube_id": "xdPMKhjMSFs",
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "18:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "22:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "18:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "22:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "18:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "22:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-02",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-03",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-04",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
         }
       ]
     }
