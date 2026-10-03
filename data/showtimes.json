@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T07:00:00Z",
+  "updated_at": "2026-10-03T07:00:00Z",
   "movies": [
     {
       "id": "tmdb-1465063",
@@ -2108,6 +2108,20 @@
           "date": "2026-10-08",
           "time": "22:10",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-09",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-09",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
       ]
     },
@@ -3363,6 +3377,27 @@
       ]
     },
     {
+      "id": "tmdb-336782",
+      "title": "Cine Club – Chicho o Mientras el cuerpo aguante (una comedia didáctica)",
+      "title_local": "Chicho o Mientras el cuerpo aguante (una comedia didáctica)",
+      "poster": "posters/cine-club-chicho-o-mientras-el-cuerpo-aguante-una-comedia-didactica.jpg",
+      "rating": 8.1,
+      "duration": 89,
+      "genres": [
+        "Documental"
+      ],
+      "trailer_youtube_id": "PY0JyyddIU0",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-15",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-club-chicho-o-mientras-el-cuerpo-aguante-una-comedia-didactica/67308/?step=2"
+        }
+      ]
+    },
+    {
       "id": "tmdb-627",
       "title": "TRAINSPOTTING",
       "title_local": "Trainspotting",
@@ -3395,6 +3430,43 @@
           "date": "2026-10-01",
           "time": "19:30",
           "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/trainspotting/387805/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-15",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/trainspotting/388445/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1297842",
+      "title": "Como cabras",
+      "title_local": "GOAT: Como cabras",
+      "poster": "posters/como-cabras.jpg",
+      "rating": 8.0,
+      "duration": 100,
+      "genres": [
+        "Animación",
+        "Comedia",
+        "Familia"
+      ],
+      "trailer_youtube_id": "kmY-rYS7yng",
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50720"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "16:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50721"
         }
       ]
     },
@@ -32212,6 +32284,20 @@
           "date": "2026-10-08",
           "time": "20:25",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-09",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-09",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
       ]
     },
@@ -33410,29 +33496,6 @@
           "date": "2026-10-08",
           "time": "20:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-cineastas-talk-me/67078/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1376415",
-      "title": "LA COPIA PERFECTA",
-      "title_local": "La copia perfecta",
-      "poster": "posters/la-copia-perfecta.jpg",
-      "rating": 7.1,
-      "duration": 128,
-      "genres": [
-        "Historia",
-        "Drama",
-        "Crimen"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3223"
         }
       ]
     },
@@ -40164,6 +40227,62 @@
           "date": "2026-10-08",
           "time": "22:15",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3388"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "17:55",
+          "url": "https://kinepolis.es/movies/detail/38677/HO00006708/0/lucky-strike"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-05",
+          "time": "20:20",
+          "url": "https://kinepolis.es/movies/detail/38677/HO00006709/0/lucky-strike"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "17:55",
+          "url": "https://kinepolis.es/movies/detail/38677/HO00006708/0/lucky-strike"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-06",
+          "time": "20:20",
+          "url": "https://kinepolis.es/movies/detail/38677/HO00006709/0/lucky-strike"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "17:55",
+          "url": "https://kinepolis.es/movies/detail/38677/HO00006708/0/lucky-strike"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-08",
+          "time": "20:20",
+          "url": "https://kinepolis.es/movies/detail/38677/HO00006709/0/lucky-strike"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "17:55",
+          "url": "https://kinepolis.es/movies/detail/38677/HO00006708/0/lucky-strike"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-07",
+          "time": "20:20",
+          "url": "https://kinepolis.es/movies/detail/38677/HO00006709/0/lucky-strike"
         }
       ]
     },
@@ -42247,6 +42366,27 @@
           "date": "2026-10-06",
           "time": "22:30",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3368"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "21:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3368"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "21:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3368"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "22:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3368"
         }
       ]
     },
@@ -46406,6 +46546,27 @@
           "date": "2026-10-08",
           "time": "21:45",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51563"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "21:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51746"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-09",
+          "time": "17:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51748"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-09",
+          "time": "20:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51748"
         }
       ]
     },
@@ -46905,6 +47066,28 @@
           "date": "2026-10-12",
           "time": "18:30",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-cineastas-su-propio-infierno/66873/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-437626",
+      "title": "Cine con coloquio – Stockholm",
+      "title_local": "El captor",
+      "poster": "posters/cine-con-coloquio-stockholm.jpg",
+      "rating": 5.9,
+      "duration": 100,
+      "genres": [
+        "Crimen",
+        "Comedia"
+      ],
+      "trailer_youtube_id": "ydoaqi2Whkk",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-15",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-coloquio-stockholm/67307/?step=2"
         }
       ]
     },
@@ -60109,1645 +60292,6 @@
       ]
     },
     {
-      "id": "tmdb-1283515",
-      "title": "VERITY. LA SOMBRA DE UN ENGAÑO",
-      "title_local": "Verity. La sombra de un engaño",
-      "poster": "posters/verity-la-sombra-de-un-enga-o.jpg",
-      "rating": null,
-      "duration": 117,
-      "genres": [
-        "Misterio",
-        "Suspense"
-      ],
-      "trailer_youtube_id": "xdPMKhjMSFs",
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "18:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "22:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "18:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "22:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "18:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "22:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-02",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-03",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-04",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-10-02",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-10-02",
-          "time": "19:00",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "19:00",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "15:10",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-10-03",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "18:00",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-10-03",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-10-04",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "17:50",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-10-04",
-          "time": "19:00",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-10-04",
-          "time": "09:45",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "10:00",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "15:10",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-10-02",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-10-02",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-10-05",
-          "time": "19:00",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "12:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "18:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-05",
-          "time": "20:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "22:40",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "17:50",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-06",
-          "time": "20:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "22:40",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "18:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-07",
-          "time": "20:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "22:40",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "18:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-08",
-          "time": "20:25",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "22:40",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "18:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-10-02",
-          "time": "20:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "22:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "18:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "20:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "22:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "12:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "18:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "20:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "22:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "18:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-10-05",
-          "time": "20:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "22:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "18:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-10-06",
-          "time": "20:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "22:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "18:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "20:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "22:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "18:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-10-08",
-          "time": "20:15",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "22:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "18:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "20:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "22:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "18:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "20:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "22:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "18:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "20:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "22:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "18:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "20:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "22:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "18:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "20:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "22:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "18:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "20:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "22:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "18:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "20:15",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "22:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-02",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67229/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-02",
-          "time": "18:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67230/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-02",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67231/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-03",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67232/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-03",
-          "time": "18:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67233/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-03",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67234/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-04",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67251/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-04",
-          "time": "18:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67252/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-04",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67253/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-05",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67266/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-05",
-          "time": "18:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67267/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-05",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67268/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-06",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67279/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-06",
-          "time": "20:25",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67272/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-06",
-          "time": "22:45",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67280/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-07",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67291/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-07",
-          "time": "18:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67292/?step=2"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-10-07",
-          "time": "19:00",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-08",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67301/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-08",
-          "time": "18:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67302/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-08",
-          "time": "22:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67303/?step=2"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-10-08",
-          "time": "19:00",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388145/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388146/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388151/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388160/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388147/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388148/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388152/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388161/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388149/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388150/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388153/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388162/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388315/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388316/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388317/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388345/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388346/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388347/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388275/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388276/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388277/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388280/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388379/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388380/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "20:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388381/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388433/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "16:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/89735/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "19:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/89736/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "22:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/89737/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "16:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/89738/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "19:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/89739/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "22:10",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/89740/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "17:50",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/91015/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/90956/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/90957/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "17:50",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/91016/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/90958/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/90959/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "17:50",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/91017/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/90960/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/90961/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "17:50",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/91018/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/90962/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "22:40",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/90963/?step=2"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-02",
-          "time": "16:10",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51117"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-02",
-          "time": "18:40",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51117"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-02",
-          "time": "21:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51117"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "17:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51114"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "20:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51114"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "22:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51114"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-03",
-          "time": "16:15",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51122"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-03",
-          "time": "18:40",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51122"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-03",
-          "time": "21:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51122"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "17:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51125"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "20:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51125"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "22:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51125"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-04",
-          "time": "16:10",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51130"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-04",
-          "time": "18:40",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51130"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-04",
-          "time": "21:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51130"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "17:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51127"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "20:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51127"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "22:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51127"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-05",
-          "time": "16:10",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51495"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-05",
-          "time": "18:40",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51495"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-05",
-          "time": "21:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51495"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "17:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51493"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "20:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51493"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "22:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51493"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-06",
-          "time": "16:10",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51539"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-06",
-          "time": "18:40",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51539"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-06",
-          "time": "21:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51539"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "17:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51677"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "20:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51677"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "22:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51677"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-07",
-          "time": "16:10",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51573"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-07",
-          "time": "18:40",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51573"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-07",
-          "time": "21:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51573"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "17:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51699"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "20:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51699"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "22:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51699"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-08",
-          "time": "16:10",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51556"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-08",
-          "time": "18:40",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51556"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-08",
-          "time": "21:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51556"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "17:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51718"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "20:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51718"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "22:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51718"
-        }
-      ]
-    },
-    {
       "id": "tmdb-1248832",
       "title": "Digger",
       "title_local": "Digger",
@@ -63473,6 +62017,1687 @@
           "date": "2026-10-08",
           "time": "21:30",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3389"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "19:55",
+          "url": "https://kinepolis.es/movies/detail/35301/HO00006383/0/digger"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "19:55",
+          "url": "https://kinepolis.es/movies/detail/35301/HO00006383/0/digger"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "19:55",
+          "url": "https://kinepolis.es/movies/detail/35301/HO00006383/0/digger"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-07",
+          "time": "20:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3389"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "19:55",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3389"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "22:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3389"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1283515",
+      "title": "VERITY. LA SOMBRA DE UN ENGAÑO",
+      "title_local": "Verity. La sombra de un engaño",
+      "poster": "posters/verity-la-sombra-de-un-enga-o.jpg",
+      "rating": null,
+      "duration": 117,
+      "genres": [
+        "Misterio",
+        "Suspense"
+      ],
+      "trailer_youtube_id": "xdPMKhjMSFs",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-02",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-03",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-04",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-02",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-02",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "15:10",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-03",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-03",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-04",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "17:50",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-04",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-04",
+          "time": "09:45",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "10:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "15:10",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-02",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-02",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-05",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "12:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "18:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-05",
+          "time": "20:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "22:40",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "17:50",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-06",
+          "time": "20:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "22:40",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "18:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-07",
+          "time": "20:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "22:40",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "18:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-08",
+          "time": "20:25",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "22:40",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "18:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-10-02",
+          "time": "20:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "18:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "20:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "12:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "18:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "20:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "18:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-10-05",
+          "time": "20:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "18:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-10-06",
+          "time": "20:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "18:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "20:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "18:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-10-08",
+          "time": "20:15",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "22:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "18:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "20:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "18:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "20:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "18:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "20:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "18:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "20:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "18:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "20:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "18:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "20:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "18:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "20:15",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-02",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67229/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-02",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67230/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-02",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67231/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-03",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67232/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-03",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67233/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-03",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67234/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-04",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67251/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-04",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67252/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-04",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67253/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-05",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67266/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-05",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67267/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-05",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67268/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-06",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67279/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-06",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67272/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-06",
+          "time": "22:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67280/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-07",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67291/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-07",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67292/?step=2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-07",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-08",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67301/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-08",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67302/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-08",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/verity-la-sombra-de-un-engano/67303/?step=2"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-08",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006586/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388145/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388146/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388151/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388160/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388147/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388148/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388152/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388161/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388149/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388150/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388153/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388162/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388315/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388316/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388317/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388345/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388346/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388347/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388275/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388276/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388277/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388280/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388379/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388380/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388381/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/388433/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/89735/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "19:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/89736/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/89737/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/89738/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "19:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/89739/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/89740/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/91015/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/90956/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/90957/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/91016/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/90958/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/90959/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/91017/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/90960/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/90961/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/91018/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/90962/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/90963/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-02",
+          "time": "16:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51117"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-02",
+          "time": "18:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51117"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-02",
+          "time": "21:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51117"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "17:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51114"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51114"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "22:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51114"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-03",
+          "time": "16:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51122"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-03",
+          "time": "18:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51122"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-03",
+          "time": "21:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51122"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "17:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51125"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51125"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "22:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51125"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-04",
+          "time": "16:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51130"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-04",
+          "time": "18:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51130"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-04",
+          "time": "21:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51130"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "17:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51127"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51127"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "22:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51127"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-05",
+          "time": "16:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51495"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-05",
+          "time": "18:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51495"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-05",
+          "time": "21:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51495"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "17:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51493"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51493"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "22:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51493"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-06",
+          "time": "16:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51539"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-06",
+          "time": "18:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51539"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-06",
+          "time": "21:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51539"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "17:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51677"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51677"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "22:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51677"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-07",
+          "time": "16:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51573"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-07",
+          "time": "18:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51573"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-07",
+          "time": "21:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51573"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "17:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51699"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51699"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "22:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51699"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-08",
+          "time": "16:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51556"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-08",
+          "time": "18:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51556"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-08",
+          "time": "21:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51556"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "17:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51718"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51718"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "22:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51718"
         }
       ]
     },
@@ -83915,6 +84140,34 @@
           "date": "2026-10-08",
           "time": "21:20",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51715"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "19:20",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "19:20",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "19:20",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "19:25",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
         }
       ]
     },
@@ -111756,480 +112009,6 @@
       ]
     },
     {
-      "id": "local-vengadores-endgame-extended",
-      "title": "Vengadores: Endgame Extended",
-      "title_local": "Vengadores: Endgame Extended",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-25",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-25",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-09-25",
-          "time": "19:45",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006670/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-09-25",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006670/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-25",
-          "time": "20:45",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-25",
-          "time": "16:45",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-25",
-          "time": "12:45",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-25",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-25",
-          "time": "19:15",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-25",
-          "time": "12:30",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-26",
-          "time": "12:45",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-26",
-          "time": "16:45",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-26",
-          "time": "20:45",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-09-26",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006670/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-09-26",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006670/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-26",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-26",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-26",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-26",
-          "time": "19:45",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-26",
-          "time": "12:30",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-27",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-27",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-09-27",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006670/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-09-27",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006670/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-27",
-          "time": "20:45",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-27",
-          "time": "16:45",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-27",
-          "time": "12:45",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-27",
-          "time": "16:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-27",
-          "time": "19:45",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-27",
-          "time": "12:30",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-28",
-          "time": "19:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-29",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-30",
-          "time": "19:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-01",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-09-29",
-          "time": "18:50",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-01",
-          "time": "15:20",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "18:45",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-10-03",
-          "time": "18:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006670/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "19:30",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-03",
-          "time": "16:55",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-10-02",
-          "time": "20:15",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006670/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "18:45",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "18:30",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "20:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "15:30",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "19:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "18:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-04",
-          "time": "09:30",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "15:50",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "18:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "18:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "15:50",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "15:50",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "18:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "15:50",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "18:00",
-          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
-        }
-      ]
-    },
-    {
       "id": "tmdb-1423191",
       "title": "Resident Evil",
       "title_local": "Resident Evil",
@@ -116831,6 +116610,480 @@
       ]
     },
     {
+      "id": "local-vengadores-endgame-extended",
+      "title": "Vengadores: Endgame Extended",
+      "title_local": "Vengadores: Endgame Extended",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-25",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-25",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-25",
+          "time": "19:45",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006670/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-25",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006670/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-25",
+          "time": "20:45",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-25",
+          "time": "16:45",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-25",
+          "time": "12:45",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-25",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-25",
+          "time": "19:15",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-25",
+          "time": "12:30",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-26",
+          "time": "12:45",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-26",
+          "time": "16:45",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-26",
+          "time": "20:45",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-26",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006670/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-26",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006670/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-26",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-26",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-26",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-26",
+          "time": "19:45",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-26",
+          "time": "12:30",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-27",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006670/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-09-27",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006670/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "20:45",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "16:45",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "12:45",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "19:45",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-27",
+          "time": "12:30",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-28",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-29",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-30",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-01",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-09-29",
+          "time": "18:50",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-01",
+          "time": "15:20",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "18:45",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-03",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006670/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "16:55",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-02",
+          "time": "20:15",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006670/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "18:45",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-02",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-04",
+          "time": "09:30",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "15:50",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-05",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-06",
+          "time": "15:50",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "15:50",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-07",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "15:50",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/39035/HO00006669/0/vengadores-endgame-extended"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1634154",
       "title": "Nuda Propiedad",
       "title_local": "Nuda Propiedad",
@@ -117367,6 +117620,27 @@
           "date": "2026-10-08",
           "time": "20:35",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3382"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "15:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51631"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "20:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51631"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "22:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51631"
         }
       ]
     },
@@ -117388,28 +117662,6 @@
           "date": "2026-10-25",
           "time": "14:45",
           "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/bts-world-tour-arirang-in-buenos-aires-live-viewing/387806/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1623608",
-      "title": "CENIZA EN LA BOCA",
-      "title_local": "Ceniza en la Boca",
-      "poster": "posters/ceniza-en-la-boca.jpg",
-      "rating": null,
-      "duration": 98,
-      "genres": [
-        "Suspense",
-        "Drama"
-      ],
-      "trailer_youtube_id": "YPil4DMIE-0",
-      "showtimes": [
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-02",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/387864/?step=2"
         }
       ]
     },
@@ -120395,6 +120647,101 @@
       ]
     },
     {
+      "id": "local-ficiv-las-aventuras-de-tadeo-jones",
+      "title": "FICIV: LAS AVENTURAS DE TADEO JONES",
+      "title_local": "FICIV: LAS AVENTURAS DE TADEO JONES",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ficiv-las-aventuras-de-tadeo-jones/387801/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-ficiv-superthings-la-pelicula",
+      "title": "FICIV: SUPERTHINGS: LA PELÍCULA",
+      "title_local": "FICIV: SUPERTHINGS: LA PELÍCULA",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ficiv-superthings-la-pelicula/387863/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-ficiv-tadeo-jones-2-el-secreto-del-rey-midas",
+      "title": "FICIV: TADEO JONES 2: EL SECRETO DEL REY MIDAS",
+      "title_local": "FICIV: TADEO JONES 2: EL SECRETO DEL REY MIDAS",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ficiv-tadeo-jones-2-el-secreto-del-rey-midas/387802/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-ficiv-tadeo-jones-3-la-tabla-esmeralda",
+      "title": "FICIV: TADEO JONES 3. LA TABLA ESMERALDA",
+      "title_local": "FICIV: TADEO JONES 3. LA TABLA ESMERALDA",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ficiv-tadeo-jones-3-la-tabla-esmeralda/387803/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-ficiv-winnipeg-el-barco-de-la-esperanza",
+      "title": "FICIV: WINNIPEG, EL BARCO DE LA ESPERANZA",
+      "title_local": "FICIV: WINNIPEG, EL BARCO DE LA ESPERANZA",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-03",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ficiv-winnipeg-el-barco-de-la-esperanza/387804/?step=2"
+        }
+      ]
+    },
+    {
       "id": "local-cine-a-ciegas",
       "title": "CINE A CIEGAS",
       "title_local": "CINE A CIEGAS",
@@ -120410,6 +120757,25 @@
           "date": "2026-10-08",
           "time": "19:30",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cine-a-ciegas/90408/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-cosi-fan-tutte-mozart-met-live-26-27",
+      "title": "COSÌ FAN TUTTE (Mozart) - MET LIVE 26-27",
+      "title_local": "COSÌ FAN TUTTE (Mozart) - MET LIVE 26-27",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-03",
+          "time": "19:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=44459"
         }
       ]
     },
@@ -122912,6 +123278,50 @@
       ]
     },
     {
+      "id": "tmdb-1495052",
+      "title": "EL SECRETO DEL PARK - 07/10",
+      "title_local": "Sira y el secreto del parque",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [
+        "Animación",
+        "Aventura",
+        "Fantasía"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-07",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3395"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1487159",
+      "title": "LA INVASIÓ DELS BÀRBARS",
+      "title_local": "La invasió dels bàrbars",
+      "poster": "posters/la-invasio-dels-barbars.jpg",
+      "rating": null,
+      "duration": 117,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-08",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        }
+      ]
+    },
+    {
       "id": "local-mulholland-drive-wilder-cinema",
       "title": "MULHOLLAND DRIVE - WILDER CINEMA",
       "title_local": "MULHOLLAND DRIVE - WILDER CINEMA",
@@ -122927,6 +123337,103 @@
           "date": "2026-10-08",
           "time": "20:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3377"
+        }
+      ]
+    },
+    {
+      "id": "local-gilda-wilder-cinema",
+      "title": "GILDA - WILDER CINEMA",
+      "title_local": "GILDA - WILDER CINEMA",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-13",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3378"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1255833",
+      "title": "WHALEFALL",
+      "title_local": "Whalefall",
+      "poster": "posters/whalefall.jpg",
+      "rating": null,
+      "duration": 106,
+      "genres": [
+        "Suspense"
+      ],
+      "trailer_youtube_id": "Dw-5ZGapGTQ",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-14",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3396"
+        }
+      ]
+    },
+    {
+      "id": "local-la-princesa-mononoke-wilder-cinema",
+      "title": "LA PRINCESA MONONOKE - WILDER CINEMA",
+      "title_local": "LA PRINCESA MONONOKE - WILDER CINEMA",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-15",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3379"
+        }
+      ]
+    },
+    {
+      "id": "local-los-paraguas-de-cherburgo-wilder-cinema",
+      "title": "LOS PARAGUAS DE CHERBURGO - WILDER CINEMA",
+      "title_local": "LOS PARAGUAS DE CHERBURGO - WILDER CINEMA",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-27",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3380"
+        }
+      ]
+    },
+    {
+      "id": "local-dracula-de-bram-stroker-wilder-cinema",
+      "title": "DRÁCULA, DE BRAM STROKER - WILDER CINEMA",
+      "title_local": "DRÁCULA, DE BRAM STROKER - WILDER CINEMA",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3381"
         }
       ]
     },
