@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T07:00:00Z",
+  "updated_at": "2026-10-12T07:00:00Z",
   "movies": [
     {
       "id": "tmdb-1281331",
@@ -3771,163 +3771,6 @@
       ]
     },
     {
-      "id": "tmdb-936075",
-      "title": "MICHAEL",
-      "title_local": "Michael",
-      "poster": "posters/michael.jpg",
-      "rating": 8.6,
-      "duration": 128,
-      "genres": [
-        "Música",
-        "Drama"
-      ],
-      "trailer_youtube_id": "k-YAcjaLuSI",
-      "showtimes": [
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "22:10",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "22:10",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "22:10",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "22:10",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-09",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-09",
-          "time": "22:10",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-10",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-10",
-          "time": "22:10",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-11",
-          "time": "18:15",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-11",
-          "time": "22:10",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1465063",
-      "title": "Cine familiar – La isla olvidada",
-      "title_local": "La isla olvidada",
-      "poster": "posters/cine-familiar-la-isla-olvidada.jpg",
-      "rating": 8.6,
-      "duration": 109,
-      "genres": [
-        "Animación",
-        "Aventura",
-        "Fantasía"
-      ],
-      "trailer_youtube_id": "PhgY8cOJiQA",
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-10-03",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-familiar-la-isla-olvidada/67056/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-10-04",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-familiar-la-isla-olvidada/67057/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-10-10",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-familiar-la-isla-olvidada/67058/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-10-11",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-familiar-la-isla-olvidada/67059/?step=2"
-        }
-      ]
-    },
-    {
       "id": "tmdb-155",
       "title": "EL CABALLERO OSCURO",
       "title_local": "El caballero oscuro",
@@ -4011,28 +3854,6 @@
           "date": "2026-10-15",
           "time": "17:00",
           "url": "https://kinepolis.es/movies/detail/26371/HO00006573/0/la-vida-es-bella"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-142773",
-      "title": "Hungarian Rhapsody: Queen Live in Budapest ’86",
-      "title_local": "Queen: El concierto de Budapest",
-      "poster": "posters/hungarian-rhapsody-queen-live-in-budapest-86.jpg",
-      "rating": 8.2,
-      "duration": 96,
-      "genres": [
-        "Música",
-        "Documental"
-      ],
-      "trailer_youtube_id": "DYdPhqkw0pU",
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-11",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/hungarian-rhapsody-queen-live-in-budapest-86/67374/?step=2"
         }
       ]
     },
@@ -6450,36 +6271,6 @@
       ]
     },
     {
-      "id": "tmdb-1327819",
-      "title": "Hoppers",
-      "title_local": "Hoppers",
-      "poster": "posters/hoppers.jpg",
-      "rating": 8.1,
-      "duration": 104,
-      "genres": [
-        "Aventura",
-        "Animación",
-        "Comedia"
-      ],
-      "trailer_youtube_id": "PypDSyIRRSs",
-      "showtimes": [
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-10",
-          "time": "16:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50722"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-11",
-          "time": "16:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50723"
-        }
-      ]
-    },
-    {
       "id": "tmdb-1278958",
       "title": "LOS MÚSICOS",
       "title_local": "Los Músicos",
@@ -6573,6 +6364,20 @@
           "cinema": "dor",
           "language": "ES",
           "date": "2026-10-17",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-18",
           "time": "20:30",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -23471,6 +23276,20 @@
           "date": "2026-10-17",
           "time": "22:15",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "18:45",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
       ]
     },
@@ -23690,148 +23509,6 @@
           "date": "2026-10-15",
           "time": "22:25",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52122"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-466272",
-      "title": "MEK IN MEK",
-      "title_local": "Érase una vez en… Hollywood",
-      "poster": "posters/mek-in-mek.jpg",
-      "rating": 7.4,
-      "duration": 162,
-      "genres": [
-        "Comedia",
-        "Drama",
-        "Suspense"
-      ],
-      "trailer_youtube_id": "vKgITiP1UMg",
-      "showtimes": [
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-11",
-          "time": "18:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3299"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1422404",
-      "title": "UN TAXI EN TOKIO",
-      "title_local": "Un taxi en Tokio",
-      "poster": "posters/un-taxi-en-tokio.jpg",
-      "rating": 7.3,
-      "duration": 103,
-      "genres": [
-        "Drama"
-      ],
-      "trailer_youtube_id": "vtMGmg5dhaI",
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-09-29",
-          "time": "16:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3222"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-05",
-          "time": "20:25",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "20:25",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "20:25",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "20:25",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-09",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-09",
-          "time": "20:25",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-10",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-10",
-          "time": "20:25",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-11",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-11",
-          "time": "20:25",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
       ]
     },
@@ -25748,6 +25425,27 @@
           "date": "2026-10-17",
           "time": "16:30",
           "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
         }
       ]
     },
@@ -26030,6 +25728,13 @@
           "date": "2026-10-12",
           "time": "12:30",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3387"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-12",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51809"
         }
       ]
     },
@@ -33426,6 +33131,13 @@
           "language": "ES",
           "date": "2026-10-15",
           "time": "20:35",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3403"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-13",
+          "time": "16:15",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3403"
         }
       ]
@@ -40941,6 +40653,20 @@
           "date": "2026-10-17",
           "time": "20:30",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52207"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "17:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52208"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "20:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52208"
         }
       ]
     },
@@ -55372,340 +55098,189 @@
           "date": "2026-10-15",
           "time": "19:35",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52081"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-14",
+          "time": "19:50",
+          "url": "https://kinepolis.es/movies/detail/35301/HO00006383/0/digger"
         }
       ]
     },
     {
-      "id": "tmdb-861933",
-      "title": "La vida de una mujer",
-      "title_local": "La vida de una mujer",
-      "poster": null,
+      "id": "tmdb-1623608",
+      "title": "CENIZA EN LA BOCA",
+      "title_local": "Ceniza en la Boca",
+      "poster": "posters/ceniza-en-la-boca.jpg",
       "rating": null,
-      "duration": 73,
-      "genres": [],
-      "trailer_youtube_id": null,
+      "duration": 98,
+      "genres": [
+        "Suspense",
+        "Drama"
+      ],
+      "trailer_youtube_id": "YPil4DMIE-0",
       "showtimes": [
         {
-          "cinema": "babel",
-          "language": "VOSE",
+          "cinema": "lys",
+          "language": "ES",
           "date": "2026-10-09",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-vida-de-una-mujer/67344/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-10",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-vida-de-una-mujer/67345/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-11",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-vida-de-una-mujer/67346/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-13",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-vida-de-una-mujer/67405/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-14",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-vida-de-una-mujer/67423/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-15",
-          "time": "18:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-vida-de-una-mujer/67442/?step=2"
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/388633/?step=2"
         },
         {
           "cinema": "lys",
           "language": "ES",
           "date": "2026-10-09",
-          "time": "16:25",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388499/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-09",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388500/?step=2"
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/388634/?step=2"
         },
         {
           "cinema": "lys",
           "language": "ES",
           "date": "2026-10-10",
-          "time": "16:25",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388501/?step=2"
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/388635/?step=2"
         },
         {
           "cinema": "lys",
           "language": "ES",
           "date": "2026-10-10",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388502/?step=2"
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/388636/?step=2"
         },
         {
           "cinema": "lys",
           "language": "ES",
           "date": "2026-10-11",
-          "time": "16:25",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388503/?step=2"
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/388637/?step=2"
         },
         {
           "cinema": "lys",
           "language": "ES",
           "date": "2026-10-11",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388504/?step=2"
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/388638/?step=2"
         },
         {
           "cinema": "lys",
           "language": "ES",
           "date": "2026-10-12",
-          "time": "16:25",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388505/?step=2"
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/388639/?step=2"
         },
         {
           "cinema": "lys",
           "language": "ES",
           "date": "2026-10-12",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388506/?step=2"
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/388640/?step=2"
         },
         {
           "cinema": "lys",
           "language": "ES",
           "date": "2026-10-13",
-          "time": "16:25",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388711/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-13",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388712/?step=2"
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/388737/?step=2"
         },
         {
           "cinema": "lys",
           "language": "ES",
           "date": "2026-10-14",
-          "time": "16:25",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388667/?step=2"
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/388700/?step=2"
         },
         {
           "cinema": "lys",
           "language": "ES",
           "date": "2026-10-14",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388668/?step=2"
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/388701/?step=2"
         },
         {
           "cinema": "lys",
           "language": "ES",
           "date": "2026-10-15",
-          "time": "16:25",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388745/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-15",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388746/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-09",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-vida-de-una-mujer/91080/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-10",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-vida-de-una-mujer/91081/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-11",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-vida-de-una-mujer/91392/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-12",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-vida-de-una-mujer/91083/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-13",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-vida-de-una-mujer/91092/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-14",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-vida-de-una-mujer/91094/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-15",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-vida-de-una-mujer/91096/?step=2"
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/388770/?step=2"
         },
         {
           "cinema": "abc_park",
           "language": "ES",
           "date": "2026-10-09",
-          "time": "18:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3400"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-09",
-          "time": "22:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3400"
+          "time": "20:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3399"
         },
         {
           "cinema": "abc_park",
           "language": "ES",
           "date": "2026-10-10",
-          "time": "18:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3400"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-10",
-          "time": "22:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3400"
+          "time": "20:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3399"
         },
         {
           "cinema": "abc_park",
           "language": "ES",
           "date": "2026-10-11",
-          "time": "18:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3400"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-11",
-          "time": "22:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3400"
+          "time": "20:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3399"
         },
         {
           "cinema": "abc_park",
           "language": "ES",
           "date": "2026-10-12",
-          "time": "18:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3400"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-12",
-          "time": "22:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3400"
+          "time": "20:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3399"
         },
         {
           "cinema": "abc_park",
           "language": "ES",
           "date": "2026-10-13",
-          "time": "18:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3400"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-13",
-          "time": "22:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3400"
+          "time": "16:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3399"
         },
         {
           "cinema": "abc_park",
           "language": "ES",
           "date": "2026-10-14",
-          "time": "18:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3400"
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3399"
         },
         {
           "cinema": "abc_park",
           "language": "ES",
           "date": "2026-10-15",
-          "time": "18:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3400"
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3399"
         },
         {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-09",
-          "time": "20:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3400"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-10",
-          "time": "20:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3400"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-11",
-          "time": "20:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3400"
-        },
-        {
-          "cinema": "abc_elsaler",
+          "cinema": "babel",
           "language": "ES",
           "date": "2026-10-12",
-          "time": "20:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3400"
+          "time": "20:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/ceniza-en-la-boca/67386/?step=2"
         },
         {
-          "cinema": "abc_elsaler",
+          "cinema": "babel",
           "language": "ES",
           "date": "2026-10-13",
-          "time": "18:25",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3400"
+          "time": "20:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/ceniza-en-la-boca/67402/?step=2"
         },
         {
-          "cinema": "abc_elsaler",
+          "cinema": "babel",
           "language": "ES",
           "date": "2026-10-14",
-          "time": "20:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3400"
+          "time": "20:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/ceniza-en-la-boca/67420/?step=2"
         },
         {
-          "cinema": "abc_elsaler",
+          "cinema": "babel",
           "language": "ES",
           "date": "2026-10-15",
-          "time": "20:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3400"
+          "time": "20:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/ceniza-en-la-boca/67438/?step=2"
         }
       ]
     },
@@ -58647,6 +58222,347 @@
           "date": "2026-10-15",
           "time": "18:45",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52103"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-14",
+          "time": "17:25",
+          "url": "https://kinepolis.es/movies/detail/35938/HO00006567/0/verity-la-sombra-de-un-engano"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-861933",
+      "title": "La vida de una mujer",
+      "title_local": "La vida de una mujer",
+      "poster": null,
+      "rating": null,
+      "duration": 73,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-09",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-vida-de-una-mujer/67344/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-10",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-vida-de-una-mujer/67345/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-11",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-vida-de-una-mujer/67346/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-13",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-vida-de-una-mujer/67405/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-14",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-vida-de-una-mujer/67423/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-15",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-vida-de-una-mujer/67442/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-09",
+          "time": "16:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388499/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-09",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388500/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-10",
+          "time": "16:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388501/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-10",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388502/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-11",
+          "time": "16:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388503/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-11",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388504/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-12",
+          "time": "16:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388505/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-12",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388506/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-13",
+          "time": "16:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388711/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-13",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388712/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-14",
+          "time": "16:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388667/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-14",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388668/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-15",
+          "time": "16:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388745/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-15",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/388746/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-09",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-vida-de-una-mujer/91080/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-10",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-vida-de-una-mujer/91081/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-11",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-vida-de-una-mujer/91392/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-12",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-vida-de-una-mujer/91083/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-13",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-vida-de-una-mujer/91092/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-14",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-vida-de-una-mujer/91094/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-15",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-vida-de-una-mujer/91096/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-09",
+          "time": "18:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3400"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-09",
+          "time": "22:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3400"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-10",
+          "time": "18:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3400"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-10",
+          "time": "22:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3400"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-11",
+          "time": "18:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3400"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-11",
+          "time": "22:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3400"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-12",
+          "time": "18:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3400"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-12",
+          "time": "22:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3400"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-13",
+          "time": "18:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3400"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-13",
+          "time": "22:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3400"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-14",
+          "time": "18:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3400"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-15",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3400"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-09",
+          "time": "20:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3400"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-10",
+          "time": "20:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3400"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-11",
+          "time": "20:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3400"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-12",
+          "time": "20:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3400"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-13",
+          "time": "18:25",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3400"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-14",
+          "time": "20:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3400"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-15",
+          "time": "20:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3400"
         }
       ]
     },
@@ -58751,154 +58667,6 @@
           "date": "2026-10-25",
           "time": "14:45",
           "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/bts-world-tour-arirang-in-buenos-aires-live-viewing/387806/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1623608",
-      "title": "CENIZA EN LA BOCA",
-      "title_local": "Ceniza en la Boca",
-      "poster": "posters/ceniza-en-la-boca.jpg",
-      "rating": null,
-      "duration": 98,
-      "genres": [
-        "Suspense",
-        "Drama"
-      ],
-      "trailer_youtube_id": "YPil4DMIE-0",
-      "showtimes": [
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-09",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/388633/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-09",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/388634/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-10",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/388635/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-10",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/388636/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-11",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/388637/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-11",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/388638/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-12",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/388639/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-12",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/388640/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-13",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/388737/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-14",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/388700/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-14",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/388701/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-15",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/ceniza-en-la-boca/388770/?step=2"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-09",
-          "time": "20:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3399"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-10",
-          "time": "20:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3399"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-11",
-          "time": "20:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3399"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-12",
-          "time": "20:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3399"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-13",
-          "time": "16:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3399"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-14",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3399"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-15",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3399"
         }
       ]
     },
@@ -95865,6 +95633,27 @@
           "date": "2026-10-17",
           "time": "15:00",
           "url": "https://kinepolis.es/movies/detail/39078/HO00006691/0/always-lalisa"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-12",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50692"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-14",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50693"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-17",
+          "time": "20:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=50694"
         }
       ]
     },
@@ -96024,6 +95813,76 @@
           "language": "ES",
           "date": "2026-10-17",
           "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/34269/HO00006637/0/street-fighter"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "10:00",
+          "url": "https://kinepolis.es/movies/detail/34269/HO00006637/0/street-fighter"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/34269/HO00006637/0/street-fighter"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/34269/HO00006637/0/street-fighter"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "09:30",
+          "url": "https://kinepolis.es/movies/detail/34269/HO00006637/0/street-fighter"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/34269/HO00006637/0/street-fighter"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/34269/HO00006637/0/street-fighter"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-18",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/34269/HO00006717/0/street-fighter"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-18",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/34269/HO00006717/0/street-fighter"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/34269/HO00006637/0/street-fighter"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "18:00",
           "url": "https://kinepolis.es/movies/detail/34269/HO00006637/0/street-fighter"
         }
       ]
