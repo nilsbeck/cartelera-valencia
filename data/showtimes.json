@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T07:00:00Z",
+  "updated_at": "2026-10-20T07:00:00Z",
   "movies": [
     {
       "id": "tmdb-1465063",
@@ -2870,6 +2870,34 @@
           "date": "2026-10-22",
           "time": "16:15",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52411"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-isla-olvidada/92130/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-isla-olvidada/92131/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-isla-olvidada/92132/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3349"
         }
       ]
     },
@@ -4798,6 +4826,48 @@
           "date": "2026-10-25",
           "time": "18:45",
           "url": "https://kinepolis.es/movies/detail/35545/HO00006568/0/clayface"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "15:15",
+          "url": "https://kinepolis.es/movies/detail/35545/HO00006568/0/clayface"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "21:00",
+          "url": "https://kinepolis.es/movies/detail/35545/HO00006568/0/clayface"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/35545/HO00006568/0/clayface"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/35545/HO00006568/0/clayface"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/35545/HO00006568/0/clayface"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "19:15",
+          "url": "https://kinepolis.es/movies/detail/35545/HO00006568/0/clayface"
         }
       ]
     },
@@ -4856,6 +4926,35 @@
           "date": "2026-10-20",
           "time": "17:00",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3184"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1339713",
+      "title": "OBSESSION",
+      "title_local": "Obsession",
+      "poster": "posters/obsession.jpg",
+      "rating": 8.2,
+      "duration": 109,
+      "genres": [
+        "Terror",
+        "Suspense"
+      ],
+      "trailer_youtube_id": "gMC8kkwbIQQ",
+      "showtimes": [
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "22:25",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
       ]
     },
@@ -5241,6 +5340,27 @@
           "date": "2026-10-18",
           "time": "22:30",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/naza/67513/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-10-22",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/naza/389059/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52810"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "16:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52811"
         }
       ]
     },
@@ -6948,6 +7068,29 @@
           "date": "2026-10-18",
           "time": "12:15",
           "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3398"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-313369",
+      "title": "LA LA LAND (10º ANIVERSARIO)",
+      "title_local": "La ciudad de las estrellas (La La Land)",
+      "poster": "posters/la-la-land-10-aniversario.jpg",
+      "rating": 7.9,
+      "duration": 128,
+      "genres": [
+        "Comedia",
+        "Drama",
+        "Romance"
+      ],
+      "trailer_youtube_id": "Zfy4rGzZDes",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "20:20",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3250"
         }
       ]
     },
@@ -9789,6 +9932,34 @@
           "date": "2026-10-20",
           "time": "19:50",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3353"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/coyote-vs-acme/389167/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/coyote-vs-acme/92239/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/coyote-vs-acme/92240/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/coyote-vs-acme/92241/?step=2"
         }
       ]
     },
@@ -10220,6 +10391,27 @@
           "date": "2026-10-22",
           "time": "17:00",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52461"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "16:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52963"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "16:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52680"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "16:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52964"
         }
       ]
     },
@@ -10294,6 +10486,27 @@
           "date": "2026-11-26",
           "time": "20:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3443"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1488613",
+      "title": "UNE AFFAIRE TURQUE (A TURKISH CASE) (41º MOSTRA DE VALÈNCIA)",
+      "title_local": "Une affaire turque",
+      "poster": "posters/une-affaire-turque-a-turkish-case-41-mostra-de-valencia.jpg",
+      "rating": 7.3,
+      "duration": null,
+      "genres": [
+        "Suspense"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-10",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3450"
         }
       ]
     },
@@ -10842,6 +11055,34 @@
           "date": "2026-10-18",
           "time": "19:30",
           "url": "https://kinepolis.es/movies/detail/37911/HO00006727/0/la-invitacion"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-invitacion/389085/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-invitacion/389086/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-invitacion/389089/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-invitacion/389090/?step=2"
         }
       ]
     },
@@ -11789,6 +12030,202 @@
           "date": "2026-10-22",
           "time": "22:45",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3417"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-invitacion/92218/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-invitacion/92219/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-invitacion/92220/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-invitacion/92221/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-invitacion/92222/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-invitacion/92223/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-invitacion/92224/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-invitacion/92225/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-invitacion/92226/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-invitacion/92227/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-invitacion/92229/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-invitacion/92228/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-invitacion/92230/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-invitacion/92231/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-invitacion/92232/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-invitacion/92233/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-invitacion/92234/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-invitacion/92235/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-invitacion/92236/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-invitacion/92237/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-invitacion/92238/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "15:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52658"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-23",
+          "time": "18:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52957"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "16:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52660"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-24",
+          "time": "18:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52657"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-25",
+          "time": "17:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52958"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "16:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52973"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "18:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52972"
         }
       ]
     },
@@ -12638,6 +13075,76 @@
           "date": "2026-10-21",
           "time": "15:45",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52624"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mascotas-al-rescate/92055/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mascotas-al-rescate/92056/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mascotas-al-rescate/92057/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mascotas-al-rescate/92058/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mascotas-al-rescate/92059/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mascotas-al-rescate/92060/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mascotas-al-rescate/92061/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mascotas-al-rescate/92063/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mascotas-al-rescate/92064/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/mascotas-al-rescate/92065/?step=2"
         }
       ]
     },
@@ -13127,6 +13634,55 @@
           "date": "2026-10-22",
           "time": "18:10",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3425"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cars-20-aniversario/91991/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cars-20-aniversario/91992/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cars-20-aniversario/91993/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cars-20-aniversario/91994/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cars-20-aniversario/91995/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cars-20-aniversario/91996/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "17:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cars-20-aniversario/91997/?step=2"
         }
       ]
     },
@@ -13199,6 +13755,34 @@
           "date": "2026-10-22",
           "time": "18:05",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52301"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52687"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "18:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52817"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52819"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "17:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52814"
         }
       ]
     },
@@ -13587,6 +14171,27 @@
           "date": "2026-10-22",
           "time": "20:10",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3427"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1484187",
+      "title": "AL BARANEYA (41º MOSTRA DE VALÈNCIA)",
+      "title_local": "البرانية",
+      "poster": "posters/al-baraneya-41-mostra-de-valencia.jpg",
+      "rating": 7.0,
+      "duration": 84,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-12",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3452"
         }
       ]
     },
@@ -19530,6 +20135,36 @@
           "date": "2026-10-21",
           "time": "22:25",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-ser-querido/67565/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-ser-querido/389063/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1058424",
+      "title": "HOPE- PREESTRENO",
+      "title_local": "Hope",
+      "poster": "posters/hope-preestreno.jpg",
+      "rating": 6.9,
+      "duration": 157,
+      "genres": [
+        "Ciencia ficción",
+        "Misterio",
+        "Acción"
+      ],
+      "trailer_youtube_id": "OFaJzL83y0Q",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3453"
         }
       ]
     },
@@ -19686,6 +20321,27 @@
           "date": "2026-10-22",
           "time": "22:20",
           "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3419"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-20",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3419"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-21",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3419"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3419"
         }
       ]
     },
@@ -20608,6 +21264,13 @@
           "date": "2026-10-22",
           "time": "22:25",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3424"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-10-22",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/kakeru-sheep-in-the-box/389069/?step=2"
         }
       ]
     },
@@ -29226,6 +29889,335 @@
           "date": "2026-10-18",
           "time": "10:00",
           "url": "https://kinepolis.es/movies/detail/38769/HO00006588/0/la-bola-negra"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92321/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92289/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "19:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92322/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "20:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92290/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92323/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92324/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92291/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "19:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92325/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "20:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92292/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92326/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92327/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92293/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "19:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92328/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "20:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92294/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92329/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92339/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "19:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92330/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "21:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92296/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92331/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92340/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "19:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92333/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "21:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92298/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92334/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92341/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "19:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92335/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "21:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92300/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92336/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92342/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "19:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92337/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "21:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92302/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "22:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-bola-negra/92338/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "17:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52702"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "18:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52702"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "20:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52702"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "21:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52702"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "17:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52722"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "18:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52722"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "20:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52722"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "21:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52722"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "17:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52726"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "18:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52726"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52726"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "21:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52726"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "17:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52733"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "18:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52733"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "20:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52733"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "21:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52733"
         }
       ]
     },
@@ -29642,6 +30634,86 @@
           "date": "2026-10-21",
           "time": "22:35",
           "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/boiuna-la-leyenda-del-amazonas/389135/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/boiuna-la-leyenda-del-amazonas/389136/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1483319",
+      "title": "SHANA (41º MOSTRA DE VALÈNCIA)",
+      "title_local": "Shana",
+      "poster": "posters/shana-41-mostra-de-valencia.jpg",
+      "rating": 5.8,
+      "duration": 83,
+      "genres": [
+        "Drama",
+        "Comedia"
+      ],
+      "trailer_youtube_id": "kClDa_QGp8M",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-14",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3457"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1369661",
+      "title": "MY FATHER'S SCENT (41º MOSTRA DE VALÈNCIA)",
+      "title_local": "كولونيا",
+      "poster": "posters/my-father-s-scent-41-mostra-de-valencia.jpg",
+      "rating": 5.7,
+      "duration": 96,
+      "genres": [
+        "Drama",
+        "Suspense"
+      ],
+      "trailer_youtube_id": "K1KAWpEqnVo",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-08",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3447"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-142968",
+      "title": "ESTE OESTE",
+      "title_local": "Al este del oeste",
+      "poster": "posters/este-oeste.jpg",
+      "rating": 5.5,
+      "duration": 82,
+      "genres": [
+        "Comedia",
+        "Western"
+      ],
+      "trailer_youtube_id": "MeVyQGI3jJU",
+      "showtimes": [
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
       ]
     },
@@ -32043,6 +33115,223 @@
           "date": "2026-10-20",
           "time": "22:30",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3407"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-otra-madre/389107/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-otra-madre/389108/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-otra-madre/389111/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-otra-madre/389112/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-otra-madre/92134/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-otra-madre/92135/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-otra-madre/92136/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-otra-madre/92137/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-otra-madre/92138/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-otra-madre/92139/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-otra-madre/92140/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-otra-madre/92141/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-otra-madre/92142/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-otra-madre/92143/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-otra-madre/92144/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-otra-madre/92145/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-otra-madre/92146/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-otra-madre/92147/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-otra-madre/92148/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-otra-madre/92149/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-otra-madre/92150/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-otra-madre/92151/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-otra-madre/92152/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-otra-madre/92153/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-otra-madre/92154/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-23",
+          "time": "20:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52692"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "22:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52691"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "21:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52693"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-25",
+          "time": "20:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52967"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "22:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52966"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-20",
+          "time": "22:10",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3407"
         }
       ]
     },
@@ -38500,6 +39789,91 @@
       ]
     },
     {
+      "id": "tmdb-1518395",
+      "title": "ARRIBA TUTTO",
+      "title_local": "Arriba Tutto",
+      "poster": "posters/arriba-tutto.jpg",
+      "rating": null,
+      "duration": null,
+      "genres": [
+        "Comedia",
+        "Drama"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "18:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3371"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "20:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3371"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "16:10",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3371"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "18:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3371"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "20:25",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3371"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3371"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "18:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3371"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "20:35",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3371"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/arriba-tutto/389054/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "18:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/arriba-tutto/389055/?step=2"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1770237",
       "title": "BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES: LIVE VIEWING",
       "title_local": "BTS World Tour 'Arirang'  in Buenos Aires: Live Viewing",
@@ -38746,39 +40120,6 @@
       ]
     },
     {
-      "id": "local-cine-club-lys-el-mal-hijo",
-      "title": "CINE CLUB LYS, EL MAL HIJO",
-      "title_local": "CINE CLUB LYS, EL MAL HIJO",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-19",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cine-club-lys-el-mal-hijo/388125/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-19",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cine-club-lys-el-mal-hijo/388127/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-19",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cine-club-lys-el-mal-hijo/388126/?step=2"
-        }
-      ]
-    },
-    {
       "id": "local-cita-a-ciegas-con-el-cine",
       "title": "CITA A CIEGAS CON EL CINE",
       "title_local": "CITA A CIEGAS CON EL CINE",
@@ -38812,6 +40153,13 @@
         {
           "cinema": "lys",
           "language": "ES",
+          "date": "2026-10-20",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cita-a-ciegas-con-el-cine/388808/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
           "date": "2026-10-20",
           "time": "19:30",
           "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cita-a-ciegas-con-el-cine/388808/?step=2"
@@ -41664,6 +43012,13 @@
           "date": "2026-10-22",
           "time": "21:30",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52460"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-10-22",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/digger/389130/?step=2"
         }
       ]
     },
@@ -47223,6 +48578,237 @@
           "date": "2026-10-22",
           "time": "22:45",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52528"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/en-el-corazon-de-la-bestia/389072/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "18:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/en-el-corazon-de-la-bestia/389073/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "20:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/en-el-corazon-de-la-bestia/389076/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/en-el-corazon-de-la-bestia/389077/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-el-corazon-de-la-bestia/92243/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-el-corazon-de-la-bestia/92244/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-el-corazon-de-la-bestia/92245/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-el-corazon-de-la-bestia/92246/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-el-corazon-de-la-bestia/92247/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-el-corazon-de-la-bestia/92248/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-el-corazon-de-la-bestia/92249/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-el-corazon-de-la-bestia/92250/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-el-corazon-de-la-bestia/92251/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-el-corazon-de-la-bestia/92252/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-el-corazon-de-la-bestia/92253/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-el-corazon-de-la-bestia/92254/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-el-corazon-de-la-bestia/92255/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-el-corazon-de-la-bestia/92256/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-el-corazon-de-la-bestia/92257/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-el-corazon-de-la-bestia/92258/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-el-corazon-de-la-bestia/92259/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-el-corazon-de-la-bestia/92260/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-el-corazon-de-la-bestia/92261/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-el-corazon-de-la-bestia/92262/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/en-el-corazon-de-la-bestia/92263/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "20:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52683"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-23",
+          "time": "22:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52685"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52968"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-24",
+          "time": "22:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52969"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "19:55",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52682"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-25",
+          "time": "22:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52684"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "20:45",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52971"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "22:50",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52970"
         }
       ]
     },
@@ -48407,6 +49993,167 @@
           "date": "2026-10-18",
           "time": "16:50",
           "url": "https://kinepolis.es/movies/detail/38983/HO00006689/0/la-maleta"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-maleta/389080/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "18:25",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-maleta/389081/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-maleta/92214/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-maleta/92066/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-maleta/92067/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-maleta/92215/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-maleta/92068/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-maleta/92069/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-maleta/92216/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-maleta/92070/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-maleta/92071/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-maleta/92072/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-maleta/92073/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-maleta/92074/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-maleta/92075/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-maleta/92076/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-maleta/92077/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-maleta/92078/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/la-maleta/92079/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "18:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52675"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "22:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52656"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "18:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52965"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "22:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52959"
         }
       ]
     },
@@ -48944,6 +50691,13 @@
           "date": "2026-10-22",
           "time": "22:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-vida-de-una-mujer/67593/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-vida-de-una-mujer/389067/?step=2"
         }
       ]
     },
@@ -55505,6 +57259,146 @@
           "date": "2026-10-20",
           "time": "22:00",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/resident-evil/389116/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/92023/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/92024/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/92025/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/92026/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/92027/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/92028/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/92031/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/92032/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/92033/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/92034/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/resident-evil/92195/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "20:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52678"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-23",
+          "time": "22:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52705"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "20:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52815"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-24",
+          "time": "22:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52816"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "20:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52821"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-25",
+          "time": "22:35",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52820"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "20:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52812"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "22:25",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52813"
         }
       ]
     },
@@ -57053,6 +58947,195 @@
           "date": "2026-10-22",
           "time": "22:45",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3421"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/street-fighter/389062/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/street-fighter/92196/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/street-fighter/92197/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/street-fighter/92198/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/street-fighter/92199/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/street-fighter/92200/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/street-fighter/92201/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "16:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/street-fighter/92202/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/street-fighter/92203/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/street-fighter/92204/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/street-fighter/92205/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/street-fighter/92206/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/street-fighter/92208/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/street-fighter/92209/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/street-fighter/92210/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/street-fighter/92211/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/street-fighter/92212/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/street-fighter/92213/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "17:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52940"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-23",
+          "time": "19:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52941"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "17:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52943"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-24",
+          "time": "19:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52942"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "17:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52946"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-25",
+          "time": "19:30",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52945"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "17:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52949"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "19:40",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52948"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "22:40",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3421"
         }
       ]
     },
@@ -60694,6 +62777,139 @@
           "date": "2026-10-17",
           "time": "22:10",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52466"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/389128/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/91998/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/91999/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/92000/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/92001/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/92002/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/92003/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/92004/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/92005/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/92006/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/92007/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/92008/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/92009/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/92010/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/92011/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-23",
+          "time": "20:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52698"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-24",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52826"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-25",
+          "time": "20:15",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52829"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "20:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52830"
         }
       ]
     },
@@ -62004,6 +64220,237 @@
           "date": "2026-10-22",
           "time": "19:15",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52459"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/whalefall/389121/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/whalefall/389119/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/whalefall/92080/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/whalefall/92081/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/whalefall/92082/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/whalefall/92083/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/whalefall/92084/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/whalefall/92085/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/whalefall/92086/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/whalefall/92087/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "15:50",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/whalefall/92088/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/whalefall/92089/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/whalefall/92090/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/whalefall/92091/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/whalefall/92092/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/whalefall/92093/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/whalefall/92094/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/whalefall/92096/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/whalefall/92097/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/whalefall/92098/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/whalefall/92099/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/whalefall/92100/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/whalefall/92101/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/whalefall/92102/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/whalefall/92103/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "22:40",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/whalefall/92104/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-23",
+          "time": "16:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52663"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "22:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52939"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "22:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52944"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-25",
+          "time": "16:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52727"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "22:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52947"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "16:20",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52732"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "22:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52950"
         }
       ]
     },
@@ -69088,6 +71535,62 @@
           "date": "2026-10-22",
           "time": "15:50",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52354"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tadeo-jones-y-la-lampara-maravillosa/92012/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tadeo-jones-y-la-lampara-maravillosa/92013/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tadeo-jones-y-la-lampara-maravillosa/92014/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tadeo-jones-y-la-lampara-maravillosa/92015/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tadeo-jones-y-la-lampara-maravillosa/92016/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tadeo-jones-y-la-lampara-maravillosa/92017/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tadeo-jones-y-la-lampara-maravillosa/92020/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/tadeo-jones-y-la-lampara-maravillosa/92021/?step=2"
         }
       ]
     },
@@ -89730,72 +92233,6 @@
       ]
     },
     {
-      "id": "local-la-bola-negra-35mm",
-      "title": "LA BOLA NEGRA - 35MM",
-      "title_local": "LA BOLA NEGRA - 35MM",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-19",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-21",
-          "time": "20:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        }
-      ]
-    },
-    {
-      "id": "local-maniatic-leviticus",
-      "title": "MANIATIC: LEVITICUS",
-      "title_local": "MANIATIC: LEVITICUS",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-19",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3434"
-        }
-      ]
-    },
-    {
       "id": "tmdb-1487159",
       "title": "LA INVASIÓ DELS BÀRBARS",
       "title_local": "La invasió dels bàrbars",
@@ -89812,6 +92249,13 @@
           "language": "ES",
           "date": "2026-10-20",
           "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-20",
+          "time": "20:30",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=2854"
         }
       ]
@@ -89906,6 +92350,53 @@
       ]
     },
     {
+      "id": "local-la-bola-negra-35mm",
+      "title": "LA BOLA NEGRA - 35MM",
+      "title_local": "LA BOLA NEGRA - 35MM",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-19",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-21",
+          "time": "20:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        }
+      ]
+    },
+    {
       "id": "local-maniatic-ghost-in-the-cell",
       "title": "MANIATIC: GHOST IN THE CELL",
       "title_local": "MANIATIC: GHOST IN THE CELL",
@@ -89921,77 +92412,6 @@
           "date": "2026-10-21",
           "time": "20:30",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3436"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1518395",
-      "title": "ARRIBA TUTTO",
-      "title_local": "Arriba Tutto",
-      "poster": "posters/arriba-tutto.jpg",
-      "rating": null,
-      "duration": null,
-      "genres": [
-        "Comedia",
-        "Drama"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "18:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3371"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "20:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3371"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "16:10",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3371"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "18:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3371"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "20:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3371"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3371"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "18:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3371"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "20:35",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3371"
         }
       ]
     },
@@ -90098,6 +92518,88 @@
       ]
     },
     {
+      "id": "tmdb-1647192",
+      "title": "AT NO COST (41º MOSTRA DE VALÈNCIA)",
+      "title_local": "Δεν Κοστίζει Τίποτα",
+      "poster": "posters/at-no-cost-41-mostra-de-valencia.jpg",
+      "rating": null,
+      "duration": 79,
+      "genres": [
+        "Documental"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-07",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3445"
+        }
+      ]
+    },
+    {
+      "id": "local-els-dies-clars-41-mostra-de-valencia",
+      "title": "ELS DIES CLARS (41º MOSTRA DE VALÈNCIA)",
+      "title_local": "ELS DIES CLARS (41º MOSTRA DE VALÈNCIA)",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-07",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3446"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1087191",
+      "title": "KEEP ME IN MIND (41º MOSTRA DE VALÈNCIA)",
+      "title_local": "Keep Me In Mind",
+      "poster": "posters/keep-me-in-mind-41-mostra-de-valencia.jpg",
+      "rating": null,
+      "duration": 20,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": "LMt6bewSXRg",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-09",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3448"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1313043",
+      "title": "LA GRAN FIESTA DEL CINE (41º MOSTRA DE VALÈNCIA)",
+      "title_local": "La gran fiesta del cine",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [
+        "Comedia"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-10",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3449"
+        }
+      ]
+    },
+    {
       "id": "local-se-oras-y-se-oras-maria-guerra-y-maria-cubells",
       "title": "SEÑORAS Y SEÑORAS - Maria Guerra y Maria Cubells",
       "title_local": "SEÑORAS Y SEÑORAS - Maria Guerra y Maria Cubells",
@@ -90113,6 +92615,88 @@
           "date": "2026-11-10",
           "time": "20:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3444"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1400378",
+      "title": "CHRONICLES FROM THE SIEGE (41º MOSTRA DE VALÈNCIA)",
+      "title_local": "Chroniques des années de siège",
+      "poster": "posters/chronicles-from-the-siege-41-mostra-de-valencia.jpg",
+      "rating": null,
+      "duration": 98,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": "X0h04OkhrzM",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-11",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3451"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1616233",
+      "title": "HEAR THE YELLOW (41º MOSTRA DE VALÈNCIA)",
+      "title_local": "Günyüzü",
+      "poster": "posters/hear-the-yellow-41-mostra-de-valencia.jpg",
+      "rating": null,
+      "duration": 104,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-13",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3454"
+        }
+      ]
+    },
+    {
+      "id": "local-calle-de-los-angeles-41-mostra-de-valencia",
+      "title": "CALLE DE LOS ÁNGELES (41º MOSTRA DE VALÈNCIA)",
+      "title_local": "CALLE DE LOS ÁNGELES (41º MOSTRA DE VALÈNCIA)",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-13",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3455"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1287822",
+      "title": "HONEY BUNNY (41º MOSTRA DE VALÈNCIA)",
+      "title_local": "Honey Bunny",
+      "poster": "posters/honey-bunny-41-mostra-de-valencia.jpg",
+      "rating": null,
+      "duration": 24,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-14",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3456"
         }
       ]
     }
