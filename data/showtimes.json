@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T07:00:00Z",
+  "updated_at": "2026-10-24T07:00:00Z",
   "movies": [
     {
       "id": "tmdb-1380950",
@@ -7830,6 +7830,20 @@
           "date": "2026-10-29",
           "time": "22:25",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "22:25",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
       ]
     },
@@ -11511,6 +11525,28 @@
       ]
     },
     {
+      "id": "tmdb-948",
+      "title": "La Noche de Halloween",
+      "title_local": "La noche de Halloween",
+      "poster": "posters/la-noche-de-halloween.jpg",
+      "rating": 7.6,
+      "duration": 91,
+      "genres": [
+        "Terror",
+        "Suspense"
+      ],
+      "trailer_youtube_id": "NT0loXUv-ks",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "21:00",
+          "url": "https://kinepolis.es/movies/detail/6279/HO00001869/0/la-noche-de-halloween"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1204680",
       "title": "Coyote vs. Acme",
       "title_local": "Coyote vs. Acme",
@@ -11831,6 +11867,36 @@
           "date": "2026-10-24",
           "time": "14:15",
           "url": "https://kinepolis.es/movies/detail/37576/HO00006677/0/coyote-vs-acme"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1477104",
+      "title": "La Oveja Shaun: Misión Calabaza",
+      "title_local": "La Oveja Shaun: Misión Calabaza",
+      "poster": "posters/la-oveja-shaun-mision-calabaza.jpg",
+      "rating": 7.4,
+      "duration": 81,
+      "genres": [
+        "Animación",
+        "Ciencia ficción",
+        "Comedia"
+      ],
+      "trailer_youtube_id": "daZMq0AyOMc",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/37659/HO00006751/0/la-oveja-shaun-mision-calabaza"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/37659/HO00006751/0/la-oveja-shaun-mision-calabaza"
         }
       ]
     },
@@ -15299,6 +15365,97 @@
           "date": "2026-10-29",
           "time": "22:35",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-invitacion/67781/?step=2"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-24",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3417"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-24",
+          "time": "22:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3417"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-25",
+          "time": "12:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3417"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-25",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3417"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-25",
+          "time": "22:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3417"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "18:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3417"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "22:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3417"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-27",
+          "time": "18:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3417"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-27",
+          "time": "22:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3417"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-28",
+          "time": "17:55",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3417"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-28",
+          "time": "22:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3417"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "18:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3417"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "22:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3417"
         }
       ]
     },
@@ -16943,6 +17100,29 @@
           "date": "2026-10-28",
           "time": "18:05",
           "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3425"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-76492",
+      "title": "Hotel Transilvania",
+      "title_local": "Hotel Transilvania",
+      "poster": "posters/hotel-transilvania.jpg",
+      "rating": 7.0,
+      "duration": 91,
+      "genres": [
+        "Animación",
+        "Comedia",
+        "Familia"
+      ],
+      "trailer_youtube_id": "q4RK3jY7AVk",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/1091/HO00006754/0/hotel-transilvania"
         }
       ]
     },
@@ -23025,6 +23205,65 @@
       ]
     },
     {
+      "id": "tmdb-1058424",
+      "title": "Hope",
+      "title_local": "Hope",
+      "poster": "posters/hope.jpg",
+      "rating": 6.8,
+      "duration": 157,
+      "genres": [
+        "Ciencia ficción",
+        "Misterio",
+        "Acción"
+      ],
+      "trailer_youtube_id": "OFaJzL83y0Q",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/38656/HO00006746/0/hope"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/38656/HO00006746/0/hope"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1564614",
+      "title": "Leviticus",
+      "title_local": "Leviticus",
+      "poster": "posters/leviticus.jpg",
+      "rating": 6.8,
+      "duration": 88,
+      "genres": [
+        "Terror",
+        "Romance"
+      ],
+      "trailer_youtube_id": "WXuK0vlFxII",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/38173/HO00006752/0/leviticus"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/38173/HO00006752/0/leviticus"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1299799",
       "title": "CHOPIN",
       "title_local": "Chopin",
@@ -23268,6 +23507,36 @@
           "date": "2026-10-29",
           "time": "18:00",
           "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3419"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1195803",
+      "title": "Wicker",
+      "title_local": "Wicker",
+      "poster": "posters/wicker.jpg",
+      "rating": 6.5,
+      "duration": 105,
+      "genres": [
+        "Romance",
+        "Fantasía",
+        "Comedia"
+      ],
+      "trailer_youtube_id": "kA9NfV4pM_Q",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "15:40",
+          "url": "https://kinepolis.es/movies/detail/38116/HO00006757/0/wicker"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "19:15",
+          "url": "https://kinepolis.es/movies/detail/38116/HO00006757/0/wicker"
         }
       ]
     },
@@ -33489,6 +33758,34 @@
           "date": "2026-10-29",
           "time": "20:40",
           "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3332"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3332"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3332"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3332"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3332"
         }
       ]
     },
@@ -33965,6 +34262,118 @@
       ]
     },
     {
+      "id": "tmdb-1551205",
+      "title": "VIAJE AL PAÍS DE LOS BLANCOS",
+      "title_local": "Viaje al país de los blancos",
+      "poster": "posters/viaje-al-pais-de-los-blancos.jpg",
+      "rating": 6.0,
+      "duration": 110,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": "-RVlGdw0sig",
+      "showtimes": [
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-19",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-19",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-20",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-20",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-21",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-21",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1244523",
       "title": "BOIÚNA: LA LEYENDA DEL AMAZONAS",
       "title_local": "Boiuna: La leyenda del Amazonas",
@@ -34390,6 +34799,20 @@
           "cinema": "dor",
           "language": "ES",
           "date": "2026-10-29",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-30",
           "time": "20:25",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -37538,116 +37961,6 @@
           "date": "2026-11-07",
           "time": "20:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3472"
-        }
-      ]
-    },
-    {
-      "id": "local-viaje-al-pais-de-los-blancos",
-      "title": "VIAJE AL PAÍS DE LOS BLANCOS",
-      "title_local": "VIAJE AL PAÍS DE LOS BLANCOS",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-19",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-19",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-20",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-20",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-21",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-21",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-23",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-23",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-24",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-24",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-25",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
-        },
-        {
-          "cinema": "dor",
-          "language": "ES",
-          "date": "2026-10-25",
-          "time": "20:20",
-          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
       ]
     },
@@ -91401,6 +91714,41 @@
       ]
     },
     {
+      "id": "tmdb-1365224",
+      "title": "Karateka",
+      "title_local": "Karateka",
+      "poster": "posters/karateka.jpg",
+      "rating": null,
+      "duration": null,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": "W0QNH-Nb9O4",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/38986/HO00006744/0/karateka"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/38986/HO00006744/0/karateka"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "20:45",
+          "url": "https://kinepolis.es/movies/detail/38986/HO00006744/0/karateka"
+        }
+      ]
+    },
+    {
       "id": "local-cine-a-ciegas",
       "title": "CINE A CIEGAS",
       "title_local": "CINE A CIEGAS",
@@ -92599,21 +92947,25 @@
       ]
     },
     {
-      "id": "local-otra-vez-por-primera-vez-retrato-de-una-mujer-en-llamas",
-      "title": "Otra vez, por primera vez – Retrato de una mujer en llamas",
-      "title_local": "Otra vez, por primera vez – Retrato de una mujer en llamas",
-      "poster": null,
+      "id": "tmdb-1744346",
+      "title": "Cine familiar – Superthings: La película",
+      "title_local": "Superthings: La película",
+      "poster": "posters/cine-familiar-superthings-la-pelicula.jpg",
       "rating": null,
-      "duration": null,
-      "genres": [],
+      "duration": 92,
+      "genres": [
+        "Animación",
+        "Acción",
+        "Familia"
+      ],
       "trailer_youtube_id": null,
       "showtimes": [
         {
           "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-23",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/otra-vez-por-primera-vez-retrato-de-una-mujer-en-llamas/67460/?step=2"
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-familiar-superthings-la-pelicula/67608/?step=2"
         }
       ]
     },
@@ -95537,29 +95889,6 @@
       ]
     },
     {
-      "id": "tmdb-1744346",
-      "title": "Cine familiar – Superthings: La película",
-      "title_local": "Superthings: La película",
-      "poster": "posters/cine-familiar-superthings-la-pelicula.jpg",
-      "rating": null,
-      "duration": 92,
-      "genres": [
-        "Animación",
-        "Acción",
-        "Familia"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-24",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-familiar-superthings-la-pelicula/67608/?step=2"
-        }
-      ]
-    },
-    {
       "id": "tmdb-861933",
       "title": "La vida de una mujer",
       "title_local": "La vida de una mujer",
@@ -96997,6 +97326,116 @@
       ]
     },
     {
+      "id": "local-un-amor-posible-possible-love",
+      "title": "UN AMOR POSIBLE (POSSIBLE LOVE)",
+      "title_local": "UN AMOR POSIBLE (POSSIBLE LOVE)",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-23",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-24",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-25",
+          "time": "19:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "19:40",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-27",
+          "time": "19:40",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "17:40",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "21:55",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-10-27",
+          "time": "21:55",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "21:55",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-10-23",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-10-24",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-10-25",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-10-28",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3465"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1393726",
       "title": "LOS NIÑOS ESTÁN BIEN",
       "title_local": "Los niños están bien",
@@ -97126,163 +97565,6 @@
           "date": "2026-10-29",
           "time": "22:25",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3464"
-        }
-      ]
-    },
-    {
-      "id": "local-un-amor-posible-possible-love",
-      "title": "UN AMOR POSIBLE (POSSIBLE LOVE)",
-      "title_local": "UN AMOR POSIBLE (POSSIBLE LOVE)",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-23",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-24",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-25",
-          "time": "19:35",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-26",
-          "time": "19:40",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-27",
-          "time": "19:40",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-29",
-          "time": "17:40",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-10-26",
-          "time": "21:55",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-10-27",
-          "time": "21:55",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-10-29",
-          "time": "21:55",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-10-23",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-10-24",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-10-25",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-10-28",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-10-29",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3465"
-        }
-      ]
-    },
-    {
-      "id": "local-maniatic-film-festival-cortos-2026",
-      "title": "MANIATIC FILM FESTIVAL CORTOS 2026",
-      "title_local": "MANIATIC FILM FESTIVAL CORTOS 2026",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-19",
-          "time": "18:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3432"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-20",
-          "time": "18:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3432"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-21",
-          "time": "18:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3432"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "18:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3432"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-23",
-          "time": "18:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3432"
         }
       ]
     },
@@ -97430,44 +97712,6 @@
           "date": "2026-10-29",
           "time": "16:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3410"
-        }
-      ]
-    },
-    {
-      "id": "local-maniatic-invasion-valencia",
-      "title": "MANIATIC: INVASIÓN VALENCIA",
-      "title_local": "MANIATIC: INVASIÓN VALENCIA",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-23",
-          "time": "19:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3433"
-        }
-      ]
-    },
-    {
-      "id": "local-maniatic-sacrifice",
-      "title": "MANIATIC: SACRIFICE",
-      "title_local": "MANIATIC: SACRIFICE",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-23",
-          "time": "20:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3438"
         }
       ]
     },
@@ -97633,6 +97877,29 @@
           "date": "2026-10-27",
           "time": "20:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3380"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1495052",
+      "title": "EL SECRETO DEL PARK - 28/10",
+      "title_local": "Sira y el secreto del parque",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [
+        "Animación",
+        "Aventura",
+        "Fantasía"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-28",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3491"
         }
       ]
     },
@@ -97987,27 +98254,6 @@
           "date": "2026-11-14",
           "time": "18:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3456"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1781546",
-      "title": "MEK IN MEK",
-      "title_local": "Մեկ in մեկ",
-      "poster": "posters/mek-in-mek.jpg",
-      "rating": null,
-      "duration": 95,
-      "genres": [
-        "Comedia"
-      ],
-      "trailer_youtube_id": "p3HjAHgCMdU",
-      "showtimes": [
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-11-07",
-          "time": "18:30",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3299"
         }
       ]
     },
