@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T07:00:00Z",
+  "updated_at": "2026-10-25T07:00:00Z",
   "movies": [
     {
       "id": "tmdb-1380950",
@@ -7844,6 +7844,20 @@
           "date": "2026-10-30",
           "time": "22:25",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "22:25",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
       ]
     },
@@ -11543,330 +11557,13 @@
           "date": "2026-10-30",
           "time": "21:00",
           "url": "https://kinepolis.es/movies/detail/6279/HO00001869/0/la-noche-de-halloween"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1204680",
-      "title": "Coyote vs. Acme",
-      "title_local": "Coyote vs. Acme",
-      "poster": "posters/coyote-vs-acme.jpg",
-      "rating": 7.5,
-      "duration": 103,
-      "genres": [
-        "Comedia",
-        "Aventura",
-        "Familia"
-      ],
-      "trailer_youtube_id": "kMsiD1Nky5I",
-      "showtimes": [
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-06",
-          "time": "15:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51666"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-06",
-          "time": "20:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51666"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51665"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-06",
-          "time": "22:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51665"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-07",
-          "time": "15:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51688"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-07",
-          "time": "20:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51688"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51687"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-07",
-          "time": "22:35",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51687"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-08",
-          "time": "15:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51708"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-08",
-          "time": "20:15",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51708"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51709"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-08",
-          "time": "22:30",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51709"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-09",
-          "time": "18:50",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51816"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-09",
-          "time": "22:35",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=51815"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-10",
-          "time": "18:55",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52029"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-10",
-          "time": "22:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52110"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-11",
-          "time": "18:55",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52036"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-11",
-          "time": "22:45",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52111"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-12",
-          "time": "18:55",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52043"
         },
         {
           "cinema": "kinepolis",
           "language": "ES",
-          "date": "2026-10-10",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/37576/HO00006677/0/coyote-vs-acme"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-09",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/37576/HO00006677/0/coyote-vs-acme"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-11",
-          "time": "09:45",
-          "url": "https://kinepolis.es/movies/detail/37576/HO00006677/0/coyote-vs-acme"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-11",
-          "time": "13:45",
-          "url": "https://kinepolis.es/movies/detail/37576/HO00006677/0/coyote-vs-acme"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-12",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/37576/HO00006677/0/coyote-vs-acme"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-13",
-          "time": "18:55",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52050"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-13",
-          "time": "22:25",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52115"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-14",
-          "time": "18:55",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52064"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-15",
-          "time": "18:55",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52057"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-15",
-          "time": "22:25",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52122"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-17",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/37576/HO00006677/0/coyote-vs-acme"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-16",
-          "time": "18:00",
-          "url": "https://kinepolis.es/movies/detail/37576/HO00006677/0/coyote-vs-acme"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "09:45",
-          "url": "https://kinepolis.es/movies/detail/37576/HO00006677/0/coyote-vs-acme"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "13:45",
-          "url": "https://kinepolis.es/movies/detail/37576/HO00006677/0/coyote-vs-acme"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-16",
-          "time": "17:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52250"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-17",
-          "time": "16:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52249"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-19",
-          "time": "17:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52452"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-20",
-          "time": "17:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52453"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "17:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52604"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-21",
-          "time": "17:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52456"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "17:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52461"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-23",
-          "time": "16:15",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52963"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-24",
-          "time": "16:20",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52680"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-25",
-          "time": "16:15",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52964"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-24",
-          "time": "14:15",
-          "url": "https://kinepolis.es/movies/detail/37576/HO00006677/0/coyote-vs-acme"
+          "date": "2026-10-31",
+          "time": "21:00",
+          "url": "https://kinepolis.es/movies/detail/6279/HO00001869/0/la-noche-de-halloween"
         }
       ]
     },
@@ -11895,6 +11592,20 @@
           "cinema": "kinepolis",
           "language": "ES",
           "date": "2026-10-30",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/37659/HO00006751/0/la-oveja-shaun-mision-calabaza"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/37659/HO00006751/0/la-oveja-shaun-mision-calabaza"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-31",
           "time": "17:00",
           "url": "https://kinepolis.es/movies/detail/37659/HO00006751/0/la-oveja-shaun-mision-calabaza"
         }
@@ -16569,113 +16280,6 @@
     },
     {
       "id": "tmdb-920",
-      "title": "Cars",
-      "title_local": "Cars",
-      "poster": "posters/cars.jpg",
-      "rating": 7.1,
-      "duration": 116,
-      "genres": [
-        "Animación",
-        "Aventura",
-        "Comedia"
-      ],
-      "trailer_youtube_id": "XszNWHhpaTc",
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-16",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-16",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-17",
-          "time": "14:15",
-          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-17",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-17",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "14:30",
-          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "14:00",
-          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "16:30",
-          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-19",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-20",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-21",
-          "time": "15:45",
-          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-24",
-          "time": "15:30",
-          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-25",
-          "time": "16:35",
-          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-920",
       "title": "CARS (20 ANIVERSARIO)",
       "title_local": "Cars",
       "poster": "posters/cars-20-aniversario.jpg",
@@ -17104,6 +16708,113 @@
       ]
     },
     {
+      "id": "tmdb-920",
+      "title": "Cars",
+      "title_local": "Cars",
+      "poster": "posters/cars.jpg",
+      "rating": 7.1,
+      "duration": 116,
+      "genres": [
+        "Animación",
+        "Aventura",
+        "Comedia"
+      ],
+      "trailer_youtube_id": "XszNWHhpaTc",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-16",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-16",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-17",
+          "time": "14:15",
+          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-17",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-17",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "14:30",
+          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "14:00",
+          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-19",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-20",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-21",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "15:30",
+          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "16:35",
+          "url": "https://kinepolis.es/movies/detail/3943/HO00006694/0/cars"
+        }
+      ]
+    },
+    {
       "id": "tmdb-76492",
       "title": "Hotel Transilvania",
       "title_local": "Hotel Transilvania",
@@ -17121,6 +16832,13 @@
           "cinema": "kinepolis",
           "language": "ES",
           "date": "2026-10-30",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/1091/HO00006754/0/hotel-transilvania"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-31",
           "time": "16:00",
           "url": "https://kinepolis.es/movies/detail/1091/HO00006754/0/hotel-transilvania"
         }
@@ -23231,6 +22949,20 @@
           "date": "2026-10-30",
           "time": "20:30",
           "url": "https://kinepolis.es/movies/detail/38656/HO00006746/0/hope"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/38656/HO00006746/0/hope"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/38656/HO00006746/0/hope"
         }
       ]
     },
@@ -23258,6 +22990,20 @@
           "cinema": "kinepolis",
           "language": "ES",
           "date": "2026-10-30",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/38173/HO00006752/0/leviticus"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/38173/HO00006752/0/leviticus"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-31",
           "time": "20:30",
           "url": "https://kinepolis.es/movies/detail/38173/HO00006752/0/leviticus"
         }
@@ -23536,6 +23282,20 @@
           "language": "ES",
           "date": "2026-10-30",
           "time": "19:15",
+          "url": "https://kinepolis.es/movies/detail/38116/HO00006757/0/wicker"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "15:05",
+          "url": "https://kinepolis.es/movies/detail/38116/HO00006757/0/wicker"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "19:25",
           "url": "https://kinepolis.es/movies/detail/38116/HO00006757/0/wicker"
         }
       ]
@@ -34815,6 +34575,20 @@
           "date": "2026-10-30",
           "time": "20:25",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "20:25",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
       ]
     },
@@ -38902,6 +38676,13 @@
         {
           "cinema": "lys",
           "language": "ES",
+          "date": "2026-10-25",
+          "time": "14:45",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/bts-world-tour-arirang-in-buenos-aires-live-viewing/387806/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VO",
           "date": "2026-10-25",
           "time": "14:45",
           "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/bts-world-tour-arirang-in-buenos-aires-live-viewing/387806/?step=2"
@@ -61900,6 +61681,69 @@
           "date": "2026-10-29",
           "time": "20:15",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-10-25",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/389299/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-10-25",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/389300/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-10-27",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/389426/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-10-27",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/389425/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-10-28",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/389361/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-10-28",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/389359/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-10-28",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/389360/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/389459/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/verity-la-sombra-de-un-engano/389458/?step=2"
         }
       ]
     },
@@ -63914,9 +63758,9 @@
       ]
     },
     {
-      "id": "local-abraham-martin-comedy-padel-tour",
-      "title": "Abraham Martín. Comedy Padel Tour",
-      "title_local": "Abraham Martín. Comedy Padel Tour",
+      "id": "local-cine-a-ciegas",
+      "title": "CINE A CIEGAS",
+      "title_local": "CINE A CIEGAS",
       "poster": null,
       "rating": null,
       "duration": null,
@@ -63924,68 +63768,1038 @@
       "trailer_youtube_id": null,
       "showtimes": [
         {
-          "cinema": "kinepolis",
+          "cinema": "mn4",
           "language": "ES",
-          "date": "2026-10-24",
-          "time": "17:00",
-          "url": "https://kinepolis.es/movies/detail/38425/HO00006461/0/abraham-martin-comedy-padel-tour"
+          "date": "2026-11-05",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cine-a-ciegas/91815/?step=2"
         }
       ]
     },
     {
-      "id": "tmdb-1770237",
-      "title": "BTS World Tour 'Arirang' in Buenos Aires",
-      "title_local": "BTS WORLD TOUR [ARIRANG] in Buenos Aires",
-      "poster": "posters/bts-world-tour-arirang-in-buenos-aires.jpg",
+      "id": "local-exposicion-superthings-rivals-of-kaboom",
+      "title": "EXPOSICIÓN SUPERTHINGS RIVALS OF KABOOM",
+      "title_local": "EXPOSICIÓN SUPERTHINGS RIVALS OF KABOOM",
+      "poster": null,
       "rating": null,
-      "duration": 195,
-      "genres": [
-        "Música"
-      ],
+      "duration": null,
+      "genres": [],
       "trailer_youtube_id": null,
       "showtimes": [
         {
-          "cinema": "kinepolis",
+          "cinema": "mn4",
           "language": "ES",
-          "date": "2026-10-25",
-          "time": "13:45",
-          "url": "https://kinepolis.es/movies/detail/39122/HO00006702/0/bts-world-tour-arirang-in-buenos-aires"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-25",
+          "date": "2026-10-23",
           "time": "17:30",
-          "url": "https://kinepolis.es/movies/detail/39122/HO00006702/0/bts-world-tour-arirang-in-buenos-aires"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1515139",
-      "title": "Ozzy & Black Sabbath: Back to the Beginning",
-      "title_local": "Back to the Beginning: La despedida de Ozzy",
-      "poster": "posters/ozzy-black-sabbath-back-to-the-beginning.jpg",
-      "rating": null,
-      "duration": 100,
-      "genres": [
-        "Música",
-        "Documental"
-      ],
-      "trailer_youtube_id": "REqdAeNUIho",
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-10-28",
-          "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/38434/HO00006712/0/ozzy-black-sabbath-back-to-the-beginning"
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91824/?step=2"
         },
         {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-10-29",
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91825/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91826/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-23",
           "time": "20:30",
-          "url": "https://kinepolis.es/movies/detail/38434/HO00006712/0/ozzy-black-sabbath-back-to-the-beginning"
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91827/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91820/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91821/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91822/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91823/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91828/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91829/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91830/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91831/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91832/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91833/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91834/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91835/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-06",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91836/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-06",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91837/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-06",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91838/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-06",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91839/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-07",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91840/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-07",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91841/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-07",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91842/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-07",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91843/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-13",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91844/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-13",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91845/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-13",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91846/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-13",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91847/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-14",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91848/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-14",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91849/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-14",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91850/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-14",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91851/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-20",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91852/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-20",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91853/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-20",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91854/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-20",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91855/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-21",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91856/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-21",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91857/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-21",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91858/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-21",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91859/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-27",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91860/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-27",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91861/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-27",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91862/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-27",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91863/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-28",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91948/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-28",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91864/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-28",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91865/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-28",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91866/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-28",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91867/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91949/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91868/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91869/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91870/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91871/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-04",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91872/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-04",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91873/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-04",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91874/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-04",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91875/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-05",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91950/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-05",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91876/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-05",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91877/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-05",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91878/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-05",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91879/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-11",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91880/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-11",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91881/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-11",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91882/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-11",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91883/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-12",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91951/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-12",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91884/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-12",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91885/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-12",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91886/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-12",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91887/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-13",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91952/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-13",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91888/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-13",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91889/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-13",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91890/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-13",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91891/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-18",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91892/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-18",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91893/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-18",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91894/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-18",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91895/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-19",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91953/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-19",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91896/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-19",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91897/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-19",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91898/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-19",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91899/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-20",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91954/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-20",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91900/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-20",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91901/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-20",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91902/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-20",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91903/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-23",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91955/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-23",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91908/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-23",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91909/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-23",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91910/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-23",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91911/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-24",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91956/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-24",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91904/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-24",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91905/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-26",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91957/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-26",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91912/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-26",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91913/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-26",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91914/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-26",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91915/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-27",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91958/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-27",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91916/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-27",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91917/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-27",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91918/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-27",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91919/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-28",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91959/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-28",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91920/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-28",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91921/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-28",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91922/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-28",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91923/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-29",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91960/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-29",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91924/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-29",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91925/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-29",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91926/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-29",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91927/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-30",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91961/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-30",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91928/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-30",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91929/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-30",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91930/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-30",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91931/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-31",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91962/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-31",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91932/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-31",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91933/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2027-01-02",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91963/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2027-01-02",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91934/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2027-01-02",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91935/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2027-01-02",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91936/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2027-01-02",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91937/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2027-01-03",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91964/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2027-01-03",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91938/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2027-01-03",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91939/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2027-01-03",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91940/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2027-01-03",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91941/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2027-01-04",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91965/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2027-01-04",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91942/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2027-01-04",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91943/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2027-01-04",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91944/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2027-01-04",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91945/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2027-01-05",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91966/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2027-01-05",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91946/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2027-01-05",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91947/?step=2"
         }
       ]
     },
@@ -71205,6 +72019,243 @@
           "date": "2026-10-29",
           "time": "16:10",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3269"
+        }
+      ]
+    },
+    {
+      "id": "local-un-amor-posible",
+      "title": "UN AMOR POSIBLE",
+      "title_local": "UN AMOR POSIBLE",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "mn4",
+          "language": "VOSE",
+          "date": "2026-10-23",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-amor-posible/92123/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "VOSE",
+          "date": "2026-10-24",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-amor-posible/92124/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "VOSE",
+          "date": "2026-10-25",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-amor-posible/92125/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-amor-posible/92126/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "VOSE",
+          "date": "2026-10-27",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-amor-posible/92127/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "VOSE",
+          "date": "2026-10-28",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-amor-posible/92128/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-amor-posible/92129/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-23",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67694/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-23",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67695/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-24",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67715/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-24",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67716/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-25",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67737/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-25",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67738/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67754/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67755/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-27",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67807/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-27",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67808/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-28",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67772/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-28",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67773/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67782/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1770237",
+      "title": "BTS World Tour 'Arirang' in Buenos Aires",
+      "title_local": "BTS WORLD TOUR [ARIRANG] in Buenos Aires",
+      "poster": "posters/bts-world-tour-arirang-in-buenos-aires.jpg",
+      "rating": null,
+      "duration": 195,
+      "genres": [
+        "Música"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "13:45",
+          "url": "https://kinepolis.es/movies/detail/39122/HO00006702/0/bts-world-tour-arirang-in-buenos-aires"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/39122/HO00006702/0/bts-world-tour-arirang-in-buenos-aires"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1770234",
+      "title": "BTS World Tour 'Arirang' in Sao Paulo",
+      "title_local": "BTS WORLD TOUR [ARIRANG] in São Paulo",
+      "poster": "posters/bts-world-tour-arirang-in-sao-paulo.jpg",
+      "rating": null,
+      "duration": 195,
+      "genres": [
+        "Música"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "13:45",
+          "url": "https://kinepolis.es/movies/detail/39123/HO00006701/0/bts-world-tour-arirang-in-sao-paulo"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/39123/HO00006701/0/bts-world-tour-arirang-in-sao-paulo"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1515139",
+      "title": "Ozzy & Black Sabbath: Back to the Beginning",
+      "title_local": "Back to the Beginning: La despedida de Ozzy",
+      "poster": "posters/ozzy-black-sabbath-back-to-the-beginning.jpg",
+      "rating": null,
+      "duration": 100,
+      "genres": [
+        "Música",
+        "Documental"
+      ],
+      "trailer_youtube_id": "REqdAeNUIho",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-28",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/38434/HO00006712/0/ozzy-black-sabbath-back-to-the-beginning"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-29",
+          "time": "20:30",
+          "url": "https://kinepolis.es/movies/detail/38434/HO00006712/0/ozzy-black-sabbath-back-to-the-beginning"
         }
       ]
     },
@@ -91745,1227 +92796,69 @@
           "date": "2026-10-30",
           "time": "20:45",
           "url": "https://kinepolis.es/movies/detail/38986/HO00006744/0/karateka"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/38986/HO00006744/0/karateka"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "17:45",
+          "url": "https://kinepolis.es/movies/detail/38986/HO00006744/0/karateka"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "20:45",
+          "url": "https://kinepolis.es/movies/detail/38986/HO00006744/0/karateka"
         }
       ]
     },
     {
-      "id": "local-cine-a-ciegas",
-      "title": "CINE A CIEGAS",
-      "title_local": "CINE A CIEGAS",
-      "poster": null,
+      "id": "tmdb-1117898",
+      "title": "El Gato con Sombrero",
+      "title_local": "El gato con sombrero",
+      "poster": "posters/el-gato-con-sombrero.jpg",
       "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-05",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/cine-a-ciegas/91815/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-exposicion-superthings-rivals-of-kaboom",
-      "title": "EXPOSICIÓN SUPERTHINGS RIVALS OF KABOOM",
-      "title_local": "EXPOSICIÓN SUPERTHINGS RIVALS OF KABOOM",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-23",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91824/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-23",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91825/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-23",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91826/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-23",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91827/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-24",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91820/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-24",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91821/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-24",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91822/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-24",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91823/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-30",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91828/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-30",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91829/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-30",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91830/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-30",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91831/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-31",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91832/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-31",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91833/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-31",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91834/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-10-31",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91835/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-06",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91836/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-06",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91837/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-06",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91838/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-06",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91839/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-07",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91840/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-07",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91841/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-07",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91842/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-07",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91843/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-13",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91844/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-13",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91845/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-13",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91846/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-13",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91847/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-14",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91848/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-14",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91849/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-14",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91850/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-14",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91851/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-20",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91852/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-20",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91853/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-20",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91854/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-20",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91855/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-21",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91856/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-21",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91857/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-21",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91858/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-21",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91859/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-27",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91860/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-27",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91861/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-27",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91862/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-27",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91863/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-28",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91948/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-28",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91864/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-28",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91865/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-28",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91866/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-28",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91867/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-29",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91949/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-29",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91868/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-29",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91869/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-29",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91870/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-29",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91871/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-04",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91872/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-04",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91873/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-04",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91874/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-04",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91875/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-05",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91950/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-05",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91876/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-05",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91877/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-05",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91878/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-05",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91879/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-11",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91880/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-11",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91881/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-11",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91882/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-11",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91883/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-12",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91951/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-12",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91884/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-12",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91885/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-12",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91886/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-12",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91887/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-13",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91952/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-13",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91888/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-13",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91889/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-13",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91890/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-13",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91891/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-18",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91892/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-18",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91893/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-18",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91894/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-18",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91895/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-19",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91953/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-19",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91896/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-19",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91897/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-19",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91898/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-19",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91899/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-20",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91954/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-20",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91900/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-20",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91901/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-20",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91902/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-20",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91903/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-23",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91955/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-23",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91908/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-23",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91909/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-23",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91910/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-23",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91911/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-24",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91956/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-24",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91904/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-24",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91905/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-26",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91957/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-26",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91912/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-26",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91913/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-26",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91914/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-26",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91915/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-27",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91958/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-27",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91916/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-27",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91917/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-27",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91918/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-27",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91919/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-28",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91959/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-28",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91920/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-28",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91921/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-28",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91922/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-28",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91923/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-29",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91960/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-29",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91924/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-29",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91925/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-29",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91926/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-29",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91927/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-30",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91961/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-30",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91928/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-30",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91929/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-30",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91930/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-30",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91931/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-31",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91962/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-31",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91932/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-31",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91933/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2027-01-02",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91963/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2027-01-02",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91934/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2027-01-02",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91935/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2027-01-02",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91936/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2027-01-02",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91937/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2027-01-03",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91964/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2027-01-03",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91938/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2027-01-03",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91939/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2027-01-03",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91940/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2027-01-03",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91941/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2027-01-04",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91965/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2027-01-04",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91942/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2027-01-04",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91943/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2027-01-04",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91944/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2027-01-04",
-          "time": "20:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91945/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2027-01-05",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91966/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2027-01-05",
-          "time": "17:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91946/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2027-01-05",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/exposicion-superthings-rivals-of-kaboom/91947/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-un-amor-posible",
-      "title": "UN AMOR POSIBLE",
-      "title_local": "UN AMOR POSIBLE",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "mn4",
-          "language": "VOSE",
-          "date": "2026-10-23",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-amor-posible/92123/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "VOSE",
-          "date": "2026-10-24",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-amor-posible/92124/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "VOSE",
-          "date": "2026-10-25",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-amor-posible/92125/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "VOSE",
-          "date": "2026-10-26",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-amor-posible/92126/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "VOSE",
-          "date": "2026-10-27",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-amor-posible/92127/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "VOSE",
-          "date": "2026-10-28",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-amor-posible/92128/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "VOSE",
-          "date": "2026-10-29",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-amor-posible/92129/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-23",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67694/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-23",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67695/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-24",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67715/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-24",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67716/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-25",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67737/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-25",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67738/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-26",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67754/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-26",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67755/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-27",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67807/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-27",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67808/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-28",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67772/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-28",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67773/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-29",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67782/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1744346",
-      "title": "Cine familiar – Superthings: La película",
-      "title_local": "Superthings: La película",
-      "poster": "posters/cine-familiar-superthings-la-pelicula.jpg",
-      "rating": null,
-      "duration": 92,
+      "duration": 108,
       "genres": [
         "Animación",
-        "Acción",
-        "Familia"
+        "Comedia",
+        "Aventura"
       ],
+      "trailer_youtube_id": "tkZpcypT8Z4",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/33667/HO00006384/0/el-gato-con-sombrero"
+        }
+      ]
+    },
+    {
+      "id": "local-babelitos-superthings-la-pelicula",
+      "title": "Babelitos – Superthings: La película",
+      "title_local": "Babelitos – Superthings: La película",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
       "trailer_youtube_id": null,
       "showtimes": [
         {
           "cinema": "babel",
           "language": "ES",
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-familiar-superthings-la-pelicula/67608/?step=2"
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/babelitos-superthings-la-pelicula/67728/?step=2"
         }
       ]
     },
@@ -96475,25 +96368,6 @@
       ]
     },
     {
-      "id": "local-babelitos-superthings-la-pelicula",
-      "title": "Babelitos – Superthings: La película",
-      "title_local": "Babelitos – Superthings: La película",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-25",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/babelitos-superthings-la-pelicula/67728/?step=2"
-        }
-      ]
-    },
-    {
       "id": "local-wilder-cinema-la-reina-de-africa",
       "title": "Wilder Cinema – La reina de África",
       "title_local": "Wilder Cinema – La reina de África",
@@ -97103,6 +96977,44 @@
       ]
     },
     {
+      "id": "local-babelitos-ratones-al-ataque-operacion-navidad",
+      "title": "Babelitos – Ratones al ataque: Operación Navidad",
+      "title_local": "Babelitos – Ratones al ataque: Operación Navidad",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-11-14",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/babelitos-ratones-al-ataque-operacion-navidad/67814/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-cine-familiar-ratones-al-ataque-operacion-navidad",
+      "title": "Cine familiar – Ratones al ataque: Operación Navidad",
+      "title_local": "Cine familiar – Ratones al ataque: Operación Navidad",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-11-15",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-familiar-ratones-al-ataque-operacion-navidad/67813/?step=2"
+        }
+      ]
+    },
+    {
       "id": "local-leer-el-cine-aprende-a-mirar-reserva-de-plaza",
       "title": "Leer el Cine. Aprende a mirar (Reserva de plaza)",
       "title_local": "Leer el Cine. Aprende a mirar (Reserva de plaza)",
@@ -97205,366 +97117,6 @@
           "date": "2026-10-29",
           "time": "16:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3475"
-        }
-      ]
-    },
-    {
-      "id": "local-la-bola-negra-35mm",
-      "title": "LA BOLA NEGRA - 35MM",
-      "title_local": "LA BOLA NEGRA - 35MM",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-19",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-21",
-          "time": "20:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-23",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-23",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-24",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-24",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-25",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-25",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-26",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-28",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-28",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-29",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        }
-      ]
-    },
-    {
-      "id": "local-un-amor-posible-possible-love",
-      "title": "UN AMOR POSIBLE (POSSIBLE LOVE)",
-      "title_local": "UN AMOR POSIBLE (POSSIBLE LOVE)",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-23",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-24",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-25",
-          "time": "19:35",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-26",
-          "time": "19:40",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-27",
-          "time": "19:40",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-29",
-          "time": "17:40",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-10-26",
-          "time": "21:55",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-10-27",
-          "time": "21:55",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-10-29",
-          "time": "21:55",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-10-23",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-10-24",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-10-25",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-10-28",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3465"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-10-29",
-          "time": "16:00",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3465"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1393726",
-      "title": "LOS NIÑOS ESTÁN BIEN",
-      "title_local": "Los niños están bien",
-      "poster": "posters/los-ni-os-estan-bien.jpg",
-      "rating": null,
-      "duration": 15,
-      "genres": [
-        "Drama"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-23",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3464"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-24",
-          "time": "18:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3464"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-25",
-          "time": "18:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3464"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-26",
-          "time": "18:10",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3464"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-27",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3464"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-28",
-          "time": "18:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3464"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-29",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3464"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-26",
-          "time": "16:25",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3464"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-27",
-          "time": "16:25",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3464"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "VOSE",
-          "date": "2026-10-29",
-          "time": "16:25",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3464"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-23",
-          "time": "22:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3464"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-24",
-          "time": "22:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3464"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-25",
-          "time": "22:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3464"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-10-26",
-          "time": "22:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3464"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "VOSE",
-          "date": "2026-10-27",
-          "time": "22:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3464"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-28",
-          "time": "22:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3464"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-29",
-          "time": "22:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3464"
         }
       ]
     },
@@ -97712,6 +97264,366 @@
           "date": "2026-10-29",
           "time": "16:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3410"
+        }
+      ]
+    },
+    {
+      "id": "local-la-bola-negra-35mm",
+      "title": "LA BOLA NEGRA - 35MM",
+      "title_local": "LA BOLA NEGRA - 35MM",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-19",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-21",
+          "time": "20:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1393726",
+      "title": "LOS NIÑOS ESTÁN BIEN",
+      "title_local": "Los niños están bien",
+      "poster": "posters/los-ni-os-estan-bien.jpg",
+      "rating": null,
+      "duration": 15,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3464"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "18:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3464"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "18:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3464"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "18:10",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3464"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3464"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-28",
+          "time": "18:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3464"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3464"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "16:25",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3464"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "16:25",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3464"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "16:25",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3464"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "22:25",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3464"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "22:25",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3464"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "22:25",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3464"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "22:25",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3464"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-10-27",
+          "time": "22:25",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3464"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "22:25",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3464"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "22:25",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3464"
+        }
+      ]
+    },
+    {
+      "id": "local-un-amor-posible-possible-love",
+      "title": "UN AMOR POSIBLE (POSSIBLE LOVE)",
+      "title_local": "UN AMOR POSIBLE (POSSIBLE LOVE)",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-23",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-24",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-25",
+          "time": "19:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "19:40",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-27",
+          "time": "19:40",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "17:40",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "21:55",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-10-27",
+          "time": "21:55",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "21:55",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-10-23",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-10-24",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-10-25",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-10-28",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3465"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "16:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3465"
         }
       ]
     },
@@ -98254,6 +98166,27 @@
           "date": "2026-11-14",
           "time": "18:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3456"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1781546",
+      "title": "MEK IN MEK",
+      "title_local": "Մեկ in մեկ",
+      "poster": "posters/mek-in-mek.jpg",
+      "rating": null,
+      "duration": 95,
+      "genres": [
+        "Comedia"
+      ],
+      "trailer_youtube_id": "p3HjAHgCMdU",
+      "showtimes": [
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-11-07",
+          "time": "18:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3299"
         }
       ]
     },
