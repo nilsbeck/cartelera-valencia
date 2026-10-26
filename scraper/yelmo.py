@@ -8,8 +8,9 @@ API at api-g.cinepolis.com. We query that API directly instead of the DOM.
 Both hosts sit behind a Cloudflare WAF that 403s datacenter IPs and non-browser
 clients, so requests go through Playwright: load the homepage once (which
 clears Cloudflare and makes the site send its own billboard request), copy the
-headers of that request, and replay them from the same browser context so our
-calls look exactly like the site's.
+headers of that request, and replay them with fetch() inside that page so our
+calls leave through Chrome's own network stack, exactly like the site's.
+(Playwright's ctx.request client is not Chrome and gets a Cloudflare 403.)
 
 Phase 1 — movies at the cinema (operation `Movies`, captured from live traffic):
   POST /v2/billboards/graphql
@@ -78,8 +79,14 @@ query Billboard($countryId: String!, $movieId: String!, $cinemas: String!, $time
   }
 }""" % _SHOWTIME_FIELDS
 
-# Headers the browser computes per request; replaying them would be wrong.
-_DROP_HEADERS = {"content-length", "host", "cookie", "accept-encoding", "connection"}
+# Headers the browser computes per request, or that fetch() refuses to set.
+_DROP_HEADERS = {"content-length", "host", "cookie", "accept-encoding", "connection",
+                 "origin", "referer", "user-agent", "accept-language"}
+
+_FETCH_JS = """async ({url, body, headers}) => {
+    const r = await fetch(url, {method: 'POST', headers, body});
+    return {status: r.status, text: await r.text()};
+}"""
 
 
 def _log(msg: str) -> None:
@@ -184,20 +191,20 @@ def _extract_showtimes(schedule: dict, title: str, target_dates: set, url: str) 
 
 
 class _Api:
-    """Replays GraphQL calls from inside the browser context that loaded the site."""
+    """Replays GraphQL calls with fetch() from inside the page that loaded the site."""
 
-    def __init__(self, ctx, headers: dict):
-        self.ctx = ctx
+    def __init__(self, page, headers: dict):
+        self.page = page
         self.headers = headers
 
     def query(self, operation: str, query: str, variables: dict) -> dict:
         body = {"operationName": operation, "variables": variables, "query": query}
-        resp = self.ctx.request.post(
-            BILLBOARDS, data=json.dumps(body), headers=self.headers, timeout=30000,
+        resp = self.page.evaluate(
+            _FETCH_JS, {"url": BILLBOARDS, "body": json.dumps(body), "headers": self.headers},
         )
-        if resp.status != 200:
-            raise RuntimeError(f"{operation}: HTTP {resp.status} {resp.text()[:200]}")
-        payload = resp.json()
+        if resp["status"] != 200:
+            raise RuntimeError(f"{operation}: HTTP {resp['status']} {resp['text'][:200]}")
+        payload = json.loads(resp["text"])
         if payload.get("errors") and not payload.get("data"):
             raise RuntimeError(f"{operation}: {payload['errors'][0].get('message', payload['errors'])}")
         return payload.get("data") or {}
@@ -231,14 +238,15 @@ def _open_api(p):
         browser.close()
         raise RuntimeError(f"Yelmo site load failed: HTTP {status} at {page.url}")
 
-    headers = {k: v for k, v in captured.items() if not k.startswith(":") and k.lower() not in _DROP_HEADERS}
-    if not headers:
-        # The site never called the API on its own; fall back to the minimum
-        # a browser fetch from cineyelmo.com would send.
+    headers = {k: v for k, v in captured.items()
+               if not k.startswith(":") and not k.lower().startswith("sec-")
+               and k.lower() not in _DROP_HEADERS}
+    if not captured:
+        # The site never called the API on its own; fetch() from the page
+        # still supplies origin, referer and user agent itself.
         _log("  [yelmo] no billboard request seen on the homepage; using default headers")
-        headers = {"content-type": "application/json", "origin": "https://cineyelmo.com",
-                   "referer": SITE_URL, "user-agent": _UA}
-    return browser, _Api(ctx, headers)
+    headers.setdefault("content-type", "application/json")
+    return browser, _Api(page, headers)
 
 
 def scrape() -> "tuple[list[dict], list[str]]":
