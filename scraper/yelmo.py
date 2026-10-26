@@ -139,6 +139,21 @@ def scrape() -> list[dict]:
         try:
             resp = page.goto(f"{BASE_URL}/cartelera/{CITY_SLUG}", timeout=30000)
             status = resp.status if resp else None
+        except Exception as e:
+            browser.close()
+            raise RuntimeError(f"Yelmo cartelera load failed (status={status}): {e}") from e
+
+        # Since 2026-10-24 every yelmocines.es URL 302s to the cinepolis.com
+        # homepage (path dropped), so the selector wait below just timed out
+        # with no hint why. Name the redirect so the warning says what broke.
+        if "yelmocines.es" not in page.url:
+            browser.close()
+            raise RuntimeError(
+                f"Yelmo site moved: cartelera now redirects to {page.url} "
+                f"(status={status}); scraper needs rewriting for the new site"
+            )
+
+        try:
             page.wait_for_selector("h3 a[href*='/sinopsis/']", timeout=15000)
         except Exception as e:
             browser.close()
