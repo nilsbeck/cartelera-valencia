@@ -1,260 +1,293 @@
 """
-Yelmo Cines Valencia scraper — Mercado de Campanar location only.
+Cine Yelmo Valencia scraper — Mercado de Campanar location only.
 
-Two-phase approach:
+Since 2026-10-24 yelmocines.es redirects to cineyelmo.com, a Next.js app that
+renders nothing server-side and gets all its data from Cinépolis's GraphQL
+API at api-g.cinepolis.com. We query that API directly instead of the DOM.
 
-Phase 1 (cartelera listing):
-  Fetch https://www.yelmocines.es/cartelera/valencia/mercado-de-campanar once
-  to enumerate currently-playing movies and their /sinopsis/<slug> URLs.
+Both hosts sit behind a Cloudflare WAF that 403s datacenter IPs and non-browser
+clients, so requests go through Playwright: load the homepage once (which
+clears Cloudflare and makes the site send its own billboard request), copy the
+headers of that request, and replay them from the same browser context so our
+calls look exactly like the site's.
 
-Phase 2 (per-movie sinopsis page):
-  For each movie, fetch /sinopsis/<slug>. The page has a <select id="ddlDate">
-  date picker; changing its value re-renders the session list. For each option
-  whose date is within today..today+6, select it, wait for the sessions to
-  hydrate, and extract every
-    <div class="now__format" data-cinema="mercado-de-campanar">
-      <label>2D ESPAÑOL | (VOSE) | V.O. | …</label>
-      <time class="btn"><a href="…">HH:MM</a></time>
-    </div>
-  emitting one showtime per session.
+Phase 1 — movies at the cinema (operation `Movies`, captured from live traffic):
+  POST /v2/billboards/graphql
+  {countryId: "ES", category: "now-playing" | "pre-sale",
+   cinemas: "mercado-de-campanar-valencia", limit: 100}
 
-The cartelera page only renders a session preview without per-version <label>s,
-which is why an earlier scraper got 100% ES — see commit history for context.
+Phase 2 — sessions per movie (operation `BillboardOrderLinking`, taken from the
+site's JS; it uses the same Apollo client as `Movies`, hence the same URL):
+  {countryId, movieId, cinemaId, controlTime: 0, isAbsoluteExperiencePath}
+  → schedules[].dates[].languages[{language, displayLanguage}].showtimes[]
+If that operation is refused, the older `Billboard` operation (same response
+shape, `cinemas` + `timezone` variables) is tried instead.
+
+Cinema ids come from the `Cities` operation on
+/shared-services/locations/graphql: Mercado de Campanar is
+"mercado-de-campanar-valencia" (Vista id 811).
 """
 
+import json
 import re
 from datetime import date, datetime, timedelta
+from zoneinfo import ZoneInfo
+
 from playwright.sync_api import sync_playwright
 
-BASE_URL  = "https://www.yelmocines.es"
-CITY_SLUG = "valencia/mercado-de-campanar"
+SITE_URL     = "https://cineyelmo.com/es"
+BILLBOARDS   = "https://api-g.cinepolis.com/v2/billboards/graphql"
+COUNTRY_ID   = "ES"
+CINEMA_ID    = "mercado-de-campanar-valencia"
+MADRID       = ZoneInfo("Europe/Madrid")
 
 _UA = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 )
 
-_SPANISH_MONTHS = {
-    "enero": 1, "febrero": 2, "marzo": 3, "abril": 4,
-    "mayo": 5, "junio": 6, "julio": 7, "agosto": 8,
-    "septiembre": 9, "setiembre": 9, "octubre": 10,
-    "noviembre": 11, "diciembre": 12,
-}
-
-# .NET DateTime ticks: 1 tick = 100 ns, epoch = 0001-01-01 00:00:00 UTC.
-# Yelmo's #ddlDate options use this format, e.g. 639144000000000000 = 2026-05-15.
-_DOTNET_EPOCH = datetime(1, 1, 1)
-
-
-def _parse_date_option(text: str) -> "str | None":
-    """Extract YYYY-MM-DD from a #ddlDate option's value or visible text.
-
-    Accepts ISO ('2026-05-15'), DD/MM/YYYY, DD-MM-YYYY, .NET tick counts, and
-    Spanish dates ('Jueves, 15 de Mayo' / '15 de mayo de 2026').
-    """
-    if not text:
-        return None
-    s = text.strip()
-
-    m = re.search(r"(\d{4})-(\d{2})-(\d{2})", s)
-    if m:
-        return f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
-
-    m = re.search(r"(\d{1,2})[/-](\d{1,2})[/-](\d{4})", s)
-    if m:
-        return f"{m.group(3)}-{int(m.group(2)):02d}-{int(m.group(1)):02d}"
-
-    # Pure-digit value with magnitude consistent with .NET ticks for a date
-    # in this century (≈ 6e17). Anything shorter is a year/index/etc.
-    if s.isdigit() and len(s) >= 18:
-        try:
-            dt = _DOTNET_EPOCH + timedelta(microseconds=int(s) // 10)
-            return dt.date().isoformat()
-        except (OverflowError, ValueError):
-            pass
-
-    m = re.search(r"(\d{1,2})\s+(?:de\s+)?([A-Za-zñÑáéíóúÁÉÍÓÚ]+)(?:\s+de\s+(\d{4}))?", s, re.I)
-    if m:
-        day = int(m.group(1))
-        month = _SPANISH_MONTHS.get(m.group(2).lower())
-        year = int(m.group(3)) if m.group(3) else date.today().year
-        if month:
-            target = date(year, month, day)
-            # Roll forward if the un-yeared label would otherwise be in the
-            # past (e.g. December → January wrap).
-            if not m.group(3) and target < date.today() - timedelta(days=1):
-                target = date(year + 1, month, day)
-            return target.isoformat()
-
-    return None
-
-
-_SESSION_EVAL = r"""() => {
-    const out = [];
-
-    function detectLang(row) {
-        for (const label of row.querySelectorAll('label')) {
-            const text = (label.textContent || '').trim().toLowerCase();
-            if (!text) continue;
-            if (text.includes('vose') || text.includes('v.o.s.e')) return 'VOSE';
-            if (text.includes('valencià') || text.includes('valenciano')) return 'VAL';
-            if (text.includes('original') || text.includes('v.o.')) return 'VO';
-            if (text.includes('español') || text.includes('castellano') || text.includes('doblad')) return 'ES';
-            if (/\bvo\b/.test(text)) return 'VO';
-        }
-        return '';
-    }
-
-    // Substring match on data-cinema in case the actual slug includes a
-    // city prefix or trailing tag — 'campanar' is unique to this location.
-    for (const row of document.querySelectorAll('div[data-cinema*="campanar" i]')) {
-        for (const time of row.querySelectorAll('time')) {
-            const timeText = (time.getAttribute('datetime') || time.textContent || '').trim();
-            if (!timeText || !timeText.includes(':')) continue;
-            const lang = detectLang(row);
-            const a = row.querySelector('a[href]');
-            out.push({ time: timeText, lang, href: a ? a.href : '' });
-        }
-    }
-    return out;
+_MOVIES_QUERY = """
+query Movies($countryId: String!, $category: String, $cinemas: String, $after: String, $limit: Int, $isAbsoluteMediaPath: Boolean) {
+  movies(countryId: $countryId, category: $category, cinemas: $cinemas, after: $after, limit: $limit, isAbsoluteMediaPath: $isAbsoluteMediaPath) {
+    totalCount
+    edges { node { id name originalName categories } }
+  }
 }"""
+
+_SHOWTIME_FIELDS = """
+      dates
+      schedules {
+        movieId
+        dates {
+          date
+          languages {
+            language
+            displayLanguage
+            showtimes { sessionId datetime screen format { name } }
+          }
+        }
+      }"""
+
+_ORDER_LINKING_QUERY = """
+query BillboardOrderLinking($countryId: String!, $movieId: String!, $cinemaId: String!, $controlTime: Int!, $isAbsoluteExperiencePath: Boolean!) {
+  billboardOrderLinking(countryId: $countryId, movieId: $movieId, cinemaId: $cinemaId, controlTime: $controlTime, isAbsoluteExperiencePath: $isAbsoluteExperiencePath) {%s
+  }
+}""" % _SHOWTIME_FIELDS
+
+_BILLBOARD_QUERY = """
+query Billboard($countryId: String!, $movieId: String!, $cinemas: String!, $timezone: String) {
+  billboard(countryId: $countryId, movieId: $movieId, cinemas: $cinemas, timezone: $timezone) {%s
+  }
+}""" % _SHOWTIME_FIELDS
+
+# Headers the browser computes per request; replaying them would be wrong.
+_DROP_HEADERS = {"content-length", "host", "cookie", "accept-encoding", "connection"}
 
 
 def _log(msg: str) -> None:
     print(msg, flush=True)
 
 
-def scrape() -> list[dict]:
-    results = []
+def _detect_language(language: str, display: str) -> str:
+    """Map the API's (language, displayLanguage) pair to VOSE / VAL / VO / ES.
+
+    The exact codes the API uses for Spain were not in the captured traffic,
+    so this matches on substrings of both fields. English or another foreign
+    language without an explicit dubbing marker counts as VOSE: Yelmo labelled
+    those "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)" on the old site, and showing
+    a film undubbed without subtitles is not something it does.
+    """
+    text = f"{language} {display}".lower()
+    tokens = set(re.findall(r"[a-zà-ü.]+", text))
+    if "vose" in text or "v.o.s.e" in text or "subt" in text or tokens & {"vos", "sub", "subs"}:
+        return "VOSE"
+    if "valen" in text or tokens & {"val", "va", "vlc"}:
+        return "VAL"
+    if "doblad" in text or "español" in text or "castellano" in text or tokens & {"es", "esp", "spa", "spanish"}:
+        return "ES"
+    if "original" in text or "v.o." in text or tokens & {"vo"}:
+        return "VO"
+    if "ingl" in text or "english" in text or tokens & {"en", "eng", "ing"}:
+        return "VOSE"
+    return "ES"
+
+
+def _parse_showtime(raw: str, fallback_date: str = "") -> "tuple[str, str] | None":
+    """Return (YYYY-MM-DD, HH:MM) in Madrid time for an API datetime.
+
+    A value with an offset or 'Z' is converted to Europe/Madrid; a naive one
+    is taken as already local, which is how the site displays it.
+    """
+    s = (raw or "").strip()
+    if not s:
+        return None
+    try:
+        dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
+        if dt.tzinfo is not None:
+            dt = dt.astimezone(MADRID)
+        return dt.date().isoformat(), dt.strftime("%H:%M")
+    except ValueError:
+        pass
+    m = re.search(r"(\d{1,2}):(\d{2})", s)
+    d = re.search(r"\d{4}-\d{2}-\d{2}", s) or re.search(r"\d{4}-\d{2}-\d{2}", fallback_date or "")
+    if not m or not d:
+        return None
+    return d.group(0), f"{int(m.group(1)):02d}:{m.group(2)}"
+
+
+def _extract_showtimes(schedule: dict, title: str, target_dates: set, url: str) -> "tuple[list[dict], set]":
+    """Flatten a billboard / billboardOrderLinking payload into showtime rows.
+
+    Returns the rows plus the set of (language, displayLanguage) pairs seen,
+    which run.py surfaces in diagnostics so a wrong language guess is visible.
+    """
+    rows, langs, seen = [], set(), set()
+    for sched in (schedule or {}).get("schedules") or []:
+        for day in sched.get("dates") or []:
+            for lang in day.get("languages") or []:
+                code, display = lang.get("language") or "", lang.get("displayLanguage") or ""
+                langs.add((code, display))
+                label = _detect_language(code, display)
+                for st in lang.get("showtimes") or []:
+                    parsed = _parse_showtime(st.get("datetime") or "", day.get("date") or "")
+                    if not parsed or parsed[0] not in target_dates:
+                        continue
+                    key = (parsed, label)
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    rows.append({
+                        "title":    title,
+                        "language": label,
+                        "date":     parsed[0],
+                        "time":     parsed[1],
+                        "url":      url,
+                    })
+    return rows, langs
+
+
+class _Api:
+    """Replays GraphQL calls from inside the browser context that loaded the site."""
+
+    def __init__(self, ctx, headers: dict):
+        self.ctx = ctx
+        self.headers = headers
+
+    def query(self, operation: str, query: str, variables: dict) -> dict:
+        body = {"operationName": operation, "variables": variables, "query": query}
+        resp = self.ctx.request.post(
+            BILLBOARDS, data=json.dumps(body), headers=self.headers, timeout=30000,
+        )
+        if resp.status != 200:
+            raise RuntimeError(f"{operation}: HTTP {resp.status} {resp.text()[:200]}")
+        payload = resp.json()
+        if payload.get("errors") and not payload.get("data"):
+            raise RuntimeError(f"{operation}: {payload['errors'][0].get('message', payload['errors'])}")
+        return payload.get("data") or {}
+
+
+def _open_api(p):
+    """Load the site, wait for its own billboard request, and copy its headers."""
+    browser = p.chromium.launch(headless=True)
+    ctx = browser.new_context(user_agent=_UA, locale="es-ES")
+    page = ctx.new_page()
+    captured: dict = {}
+
+    def on_request(req):
+        if not captured and req.url.startswith(BILLBOARDS) and req.method == "POST":
+            captured.update(req.all_headers())
+
+    page.on("request", on_request)
+    status = None
+    try:
+        resp = page.goto(SITE_URL, timeout=45000)
+        status = resp.status if resp else None
+        for _ in range(40):
+            if captured:
+                break
+            page.wait_for_timeout(500)
+    except Exception as e:
+        browser.close()
+        raise RuntimeError(f"Yelmo site load failed (status={status}): {e}") from e
+
+    if status and status >= 400:
+        browser.close()
+        raise RuntimeError(f"Yelmo site load failed: HTTP {status} at {page.url}")
+
+    headers = {k: v for k, v in captured.items() if not k.startswith(":") and k.lower() not in _DROP_HEADERS}
+    if not headers:
+        # The site never called the API on its own; fall back to the minimum
+        # a browser fetch from cineyelmo.com would send.
+        _log("  [yelmo] no billboard request seen on the homepage; using default headers")
+        headers = {"content-type": "application/json", "origin": "https://cineyelmo.com",
+                   "referer": SITE_URL, "user-agent": _UA}
+    return browser, _Api(ctx, headers)
+
+
+def scrape() -> "tuple[list[dict], list[str]]":
     today = date.today()
     target_dates = {(today + timedelta(days=i)).isoformat() for i in range(7)}
+    results: list[dict] = []
+    diags: list[str] = []
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page(user_agent=_UA)
-
-        # ── Phase 1: enumerate movies from the cartelera ──────────────
-        # Each movie heading is an <h3> wrapping an <a href="/sinopsis/...">.
-        status = None
+        browser, api = _open_api(p)
         try:
-            resp = page.goto(f"{BASE_URL}/cartelera/{CITY_SLUG}", timeout=30000)
-            status = resp.status if resp else None
-        except Exception as e:
-            browser.close()
-            raise RuntimeError(f"Yelmo cartelera load failed (status={status}): {e}") from e
+            # ── Phase 1: movies scheduled at Campanar ─────────────────────
+            movies: dict[str, str] = {}
+            for category in ("now-playing", "pre-sale"):
+                data = api.query("Movies", _MOVIES_QUERY, {
+                    "countryId": COUNTRY_ID, "category": category, "cinemas": CINEMA_ID,
+                    "limit": 100, "isAbsoluteMediaPath": True,
+                })
+                for edge in ((data.get("movies") or {}).get("edges") or []):
+                    node = edge.get("node") or {}
+                    if node.get("id") and node.get("name"):
+                        movies.setdefault(node["id"], node["name"].strip())
+            if not movies:
+                raise RuntimeError(f"Yelmo: Movies returned nothing for {CINEMA_ID}")
+            _log(f"  [yelmo] {len(movies)} movies listed for {CINEMA_ID}")
 
-        # Since 2026-10-24 every yelmocines.es URL 302s to the cinepolis.com
-        # homepage (path dropped), so the selector wait below just timed out
-        # with no hint why. Name the redirect so the warning says what broke.
-        if "yelmocines.es" not in page.url:
-            browser.close()
-            raise RuntimeError(
-                f"Yelmo site moved: cartelera now redirects to {page.url} "
-                f"(status={status}); scraper needs rewriting for the new site"
-            )
-
-        try:
-            page.wait_for_selector("h3 a[href*='/sinopsis/']", timeout=15000)
-        except Exception as e:
-            browser.close()
-            raise RuntimeError(f"Yelmo cartelera load failed (status={status}): {e}") from e
-
-        movies = page.evaluate(r"""() => {
-            const seen = new Map();
-            for (const a of document.querySelectorAll('h3 a[href*="/sinopsis/"]')) {
-                // Preserve any query string — Yelmo may use it to carry the
-                // cinema scope (city/location) into the sinopsis page.
-                const href = a.href.split('#')[0];
-                if (seen.has(href)) continue;
-                const title = (a.textContent || '').trim();
-                if (title) seen.set(href, { title, url: href });
-            }
-            return Array.from(seen.values());
-        }""")
-
-        if not movies:
-            browser.close()
-            raise RuntimeError(f"Yelmo: no movies found on cartelera (status={status})")
-
-        # ── Phase 2: walk each movie's sinopsis page across dates ─────
-        diagnosed = False
-        for movie in movies:
-            try:
-                page.goto(movie["url"], timeout=30000)
-                # state="attached": <option> children inside an unopened
-                # <select> are never CSS-visible, so the default visibility
-                # wait would always time out even though the DOM is ready.
-                page.wait_for_selector(
-                    "#ddlDate option, [data-cinema]",
-                    state="attached",
-                    timeout=15000,
-                )
-            except Exception as e:
-                _log(f"  ⚠ Yelmo sinopsis fetch failed for '{movie['title']}': {e}")
-                continue
-
-            date_options = page.evaluate(r"""() => {
-                const sel = document.querySelector('#ddlDate');
-                if (!sel) return [];
-                return Array.from(sel.options).map(o => ({
-                    value: (o.value || '').trim(),
-                    text:  (o.textContent || '').trim(),
-                }));
-            }""")
-
-            if not diagnosed:
-                cinemas = page.evaluate(r"""() => {
-                    const s = new Set();
-                    for (const d of document.querySelectorAll('[data-cinema]')) {
-                        s.add(d.getAttribute('data-cinema'));
-                    }
-                    return Array.from(s);
-                }""")
-                _log(f"  [yelmo] data-cinema values seen: {cinemas}")
-                diagnosed = True
-
-            for opt in date_options:
-                iso = _parse_date_option(opt["value"]) or _parse_date_option(opt["text"])
-                if not iso or iso not in target_dates:
-                    continue
-
+            # ── Phase 2: sessions per movie ───────────────────────────────
+            use_order_linking = True
+            errors: list[str] = []
+            langs_seen: set = set()
+            for movie_id, title in movies.items():
                 try:
-                    page.select_option("#ddlDate", value=opt["value"])
-                    # Some handlers listen for native 'change' rather than the
-                    # synthetic event select_option emits; force-dispatch it.
-                    page.evaluate(r"""() => {
-                        const sel = document.querySelector('#ddlDate');
-                        if (sel) sel.dispatchEvent(new Event('change', {bubbles: true}));
-                    }""")
-                    try:
-                        page.wait_for_function(
-                            r"""() => {
-                                const rows = document.querySelectorAll('div[data-cinema*="campanar" i]');
-                                return Array.from(rows).some(r => r.querySelectorAll('time').length > 0);
-                            }""",
-                            timeout=5000,
-                        )
-                    except Exception:
-                        # Genuinely no sessions for this cinema on this day.
-                        pass
+                    if use_order_linking:
+                        try:
+                            data = api.query("BillboardOrderLinking", _ORDER_LINKING_QUERY, {
+                                "countryId": COUNTRY_ID, "movieId": movie_id, "cinemaId": CINEMA_ID,
+                                "controlTime": 0, "isAbsoluteExperiencePath": False,
+                            })
+                            schedule = data.get("billboardOrderLinking")
+                        except RuntimeError as e:
+                            # Only switch for good if the operation itself is
+                            # unknown here; a per-movie failure is just logged.
+                            if "Cannot query field" not in str(e) and "Unknown" not in str(e):
+                                raise
+                            _log(f"  [yelmo] BillboardOrderLinking refused ({e}); using Billboard")
+                            use_order_linking = False
+                    if not use_order_linking:
+                        data = api.query("Billboard", _BILLBOARD_QUERY, {
+                            "countryId": COUNTRY_ID, "movieId": movie_id,
+                            "cinemas": CINEMA_ID, "timezone": "Europe/Madrid",
+                        })
+                        schedule = data.get("billboard")
                 except Exception as e:
-                    _log(f"  ⚠ Yelmo select_option failed ({movie['title']} {iso}): {e}")
+                    errors.append(f"{title}: {e}")
                     continue
+                rows, langs = _extract_showtimes(schedule, title, target_dates, SITE_URL)
+                langs_seen |= langs
+                results.extend(rows)
 
-                sessions = page.evaluate(_SESSION_EVAL)
-                for s in sessions:
-                    time_text = (s.get("time") or "")[:5]
-                    if not time_text or ":" not in time_text:
-                        continue
-                    href = s.get("href") or movie["url"]
-                    results.append({
-                        "title":    movie["title"],
-                        "language": s.get("lang") or "es",
-                        "date":     iso,
-                        "time":     time_text,
-                        "url":      href if href.startswith("http") else BASE_URL + href,
-                    })
+            diags.append(f"languages seen (code, display): {sorted(langs_seen)}")
+            if errors:
+                _log(f"  ⚠ Yelmo: {len(errors)} schedule requests failed, first: {errors[0]}")
+                diags.append(f"{len(errors)} schedule requests failed, first: {errors[0]}")
+                if len(errors) == len(movies):
+                    raise RuntimeError(f"Yelmo: every schedule request failed, first: {errors[0]}")
+        finally:
+            browser.close()
 
-        browser.close()
-
-    return results
+    return results, diags

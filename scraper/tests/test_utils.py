@@ -32,6 +32,7 @@ from cinema_abc import (
 )
 from lys import _parse_sesiones_date as lys_parse_date
 from ocine import _dates_until_next_thursday, _detect_lang as ocine_detect_lang
+from yelmo import _detect_language as yelmo_detect_lang, _parse_showtime as yelmo_parse_showtime, _extract_showtimes as yelmo_extract
 
 
 # ─────────────────────────────────────────────
@@ -890,6 +891,62 @@ class TestYelmoLanguagePipeline:
         assert normalize_lang("2D INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)") == "VOSE"
         assert normalize_lang("2D ESPAÑOL") == "ES"
         assert normalize_lang("3D CASTELLANO") == "ES"
+
+
+class TestYelmoApiParsing:
+    """cineyelmo.com GraphQL payloads → showtime rows."""
+
+    def test_language_codes(self):
+        assert yelmo_detect_lang("ESP", "Español") == "ES"
+        assert yelmo_detect_lang("VOSE", "Inglés subtitulado") == "VOSE"
+        assert yelmo_detect_lang("SUB", "Subtitulada") == "VOSE"
+        assert yelmo_detect_lang("ENG", "Inglés") == "VOSE"
+        assert yelmo_detect_lang("VAL", "Valenciano") == "VAL"
+        assert yelmo_detect_lang("VO", "Versión original") == "VO"
+        assert yelmo_detect_lang("", "") == "ES"
+
+    def test_detected_labels_survive_normalize_lang(self):
+        for label in ("ES", "VOSE", "VAL", "VO"):
+            assert normalize_lang(label) == label
+
+    def test_parse_naive_datetime_is_local(self):
+        assert yelmo_parse_showtime("2026-10-26T18:30:00") == ("2026-10-26", "18:30")
+
+    def test_parse_utc_datetime_converts_to_madrid(self):
+        # 26 Oct 2026 is after the DST change: Madrid is UTC+1.
+        assert yelmo_parse_showtime("2026-10-26T21:15:00Z") == ("2026-10-26", "22:15")
+        assert yelmo_parse_showtime("2026-10-26T23:30:00+00:00") == ("2026-10-27", "00:30")
+
+    def test_parse_time_only_uses_fallback_date(self):
+        assert yelmo_parse_showtime("9:05", "2026-10-27") == ("2026-10-27", "09:05")
+        assert yelmo_parse_showtime("", "2026-10-27") is None
+
+    def test_extract_filters_dates_and_dedupes(self):
+        payload = {"schedules": [{"movieId": "clayface", "dates": [
+            {"date": "2026-10-26", "languages": [
+                {"language": "ESP", "displayLanguage": "Español", "showtimes": [
+                    {"datetime": "2026-10-26T18:00:00"}, {"datetime": "2026-10-26T18:00:00"},
+                ]},
+                {"language": "VOSE", "displayLanguage": "Subtitulada", "showtimes": [
+                    {"datetime": "2026-10-26T22:00:00"},
+                ]},
+            ]},
+            {"date": "2026-11-20", "languages": [
+                {"language": "ESP", "displayLanguage": "Español", "showtimes": [
+                    {"datetime": "2026-11-20T18:00:00"},
+                ]},
+            ]},
+        ]}]}
+        rows, langs = yelmo_extract(payload, "Clayface", {"2026-10-26"}, "https://cineyelmo.com/es")
+        assert [(r["date"], r["time"], r["language"]) for r in rows] == [
+            ("2026-10-26", "18:00", "ES"), ("2026-10-26", "22:00", "VOSE"),
+        ]
+        assert all(r["title"] == "Clayface" for r in rows)
+        assert ("VOSE", "Subtitulada") in langs
+
+    def test_extract_handles_empty_payload(self):
+        assert yelmo_extract(None, "X", {"2026-10-26"}, "u") == ([], set())
+        assert yelmo_extract({"schedules": None}, "X", {"2026-10-26"}, "u") == ([], set())
 
 
 # ─────────────────────────────────────────────
