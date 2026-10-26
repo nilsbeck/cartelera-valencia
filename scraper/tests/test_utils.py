@@ -36,7 +36,6 @@ from yelmo import (
     _detect_language as yelmo_detect_lang,
     _parse_showtime as yelmo_parse_showtime,
     _extract_showtimes as yelmo_extract,
-    _missing_dates as yelmo_missing_dates,
 )
 
 
@@ -916,16 +915,6 @@ class TestYelmoApiParsing:
         assert yelmo_detect_lang("SUB ESP", "SUB ESP") == "VOSE"
         assert yelmo_detect_lang("COR", "COR") == "VOSE"  # Korean (K-pop concerts)
 
-    def test_missing_dates(self):
-        payload = {"dates": ["2026-10-26", "2026-10-27", "2026-10-28", "2026-11-30"],
-                   "schedules": [{"dates": [{"date": "2026-10-26", "languages": []}]}]}
-        target = {"2026-10-26", "2026-10-27", "2026-10-28"}
-        assert yelmo_missing_dates(payload, target) == ["2026-10-27", "2026-10-28"]
-        payload["schedules"][0]["dates"] += [{"date": "2026-10-27"}, {"date": "2026-10-28T00:00:00"}]
-        assert yelmo_missing_dates(payload, target) == []
-        assert yelmo_missing_dates(None, target) == []
-        assert yelmo_missing_dates({"dates": None, "schedules": None}, target) == []
-
     def test_detected_labels_survive_normalize_lang(self):
         for label in ("ES", "VOSE", "VAL", "VO"):
             assert normalize_lang(label) == label
@@ -976,6 +965,23 @@ class TestYelmoApiParsing:
         ]
         assert all(r["title"] == "Clayface" for r in rows)
         assert ("VOSE", "Subtitulada") in langs
+
+    def test_extract_live_billboard_payload(self):
+        # Trimmed from the Billboard answer for clayface on 2026-10-26.
+        payload = {"dates": ["2026-10-26", "2026-10-27"], "schedules": [{"movieId": "clayface", "dates": [
+            {"date": "2026-10-26", "languages": [
+                {"language": "ESP", "displayLanguage": "ESPAÑOL", "showtimes": [
+                    {"sessionId": "52712", "datetime": "2026-10-26T15:45:00", "screen": "15", "format": {"name": "2D"}}]},
+                {"language": "SUB ESP", "displayLanguage": "SUB ESP", "showtimes": [
+                    {"sessionId": "52718", "datetime": "2026-10-26T17:00:00", "screen": "16", "format": {"name": "2D"}}]}]},
+            {"date": "2026-10-27", "languages": [
+                {"language": "ESP", "displayLanguage": "ESPAÑOL", "showtimes": [
+                    {"sessionId": "52922", "datetime": "2026-10-27T15:45:00", "screen": "15", "format": {"name": "2D"}}]}]},
+        ]}]}
+        rows, _ = yelmo_extract(payload, "Clayface", {"2026-10-26", "2026-10-27"}, "u")
+        assert [(r["date"], r["time"], r["language"]) for r in rows] == [
+            ("2026-10-26", "15:45", "ES"), ("2026-10-26", "17:00", "VOSE"), ("2026-10-27", "15:45", "ES"),
+        ]
 
     def test_extract_handles_empty_payload(self):
         assert yelmo_extract(None, "X", {"2026-10-26"}, "u") == ([], set())

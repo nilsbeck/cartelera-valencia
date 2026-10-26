@@ -17,12 +17,13 @@ Phase 1 — movies at the cinema (operation `Movies`, captured from live traffic
   {countryId: "ES", category: "now-playing" | "pre-sale",
    cinemas: "mercado-de-campanar-valencia", limit: 100}
 
-Phase 2 — sessions per movie (operation `BillboardOrderLinking`, taken from the
-site's JS; it uses the same Apollo client as `Movies`, hence the same URL):
-  {countryId, movieId, cinemaId, controlTime: 0, isAbsoluteExperiencePath}
-  → schedules[].dates[].languages[{language, displayLanguage}].showtimes[]
-If that operation is refused, the older `Billboard` operation (same response
-shape, `cinemas` + `timezone` variables) is tried instead.
+Phase 2 — sessions per movie (operation `Billboard`, taken from the site's JS):
+  {countryId, movieId, cinemas: "mercado-de-campanar-valencia",
+   timezone: "Europe/Madrid"}
+  → dates[], schedules[].dates[].languages[{language, displayLanguage}].showtimes[]
+It returns every day on sale. `BillboardOrderLinking` (same response shape)
+was tried first and returns only today — 48 showtimes for the week on the
+first live run — so it is kept only as a fallback if `Billboard` is refused.
 
 Cinema ids come from the `Cities` operation on
 /shared-services/locations/graphql: Mercado de Campanar is
@@ -164,26 +165,6 @@ def _parse_showtime(raw: str, fallback_date: str = "") -> "tuple[str, str] | Non
     if not m or not d:
         return None
     return d.group(0), f"{int(m.group(1)):02d}:{m.group(2)}"
-
-
-def _missing_dates(schedule: dict, target_dates: set) -> "list[str]":
-    """Target dates the payload lists as having sessions but carries none for.
-
-    BillboardOrderLinking returned only today's sessions on the first live run
-    (48 showtimes across 56 films for the week) while its top-level `dates`
-    field is the list of days with sessions, the one the site's date picker
-    shows. A non-empty answer here means the other operation should be asked.
-    """
-    if not schedule:
-        return []
-    listed = {m for d in schedule.get("dates") or [] for m in re.findall(r"\d{4}-\d{2}-\d{2}", str(d))}
-    covered = {
-        m
-        for sched in schedule.get("schedules") or []
-        for day in sched.get("dates") or []
-        for m in re.findall(r"\d{4}-\d{2}-\d{2}", str(day.get("date") or ""))
-    }
-    return sorted((listed - covered) & target_dates)
 
 
 def _extract_showtimes(schedule: dict, title: str, target_dates: set, url: str) -> "tuple[list[dict], set]":
@@ -339,59 +320,41 @@ def scrape() -> "tuple[list[dict], list[str]]":
             _log(f"  [yelmo] {len(movies)} movies listed for {CINEMA_ID}")
 
             # ── Phase 2: sessions per movie ───────────────────────────────
-            use_order_linking = True
-            billboard_ok = True
+            use_billboard = True
             errors: list[str] = []
             langs_seen: set = set()
-            filled = 0
             for movie_id, title in movies.items():
-                payloads = []
                 schedule = None
                 try:
-                    if use_order_linking:
-                        try:
-                            data = api.query("BillboardOrderLinking", _ORDER_LINKING_QUERY, {
-                                "countryId": COUNTRY_ID, "movieId": movie_id, "cinemaId": CINEMA_ID,
-                                "controlTime": 0, "isAbsoluteExperiencePath": False,
-                            })
-                            schedule = data.get("billboardOrderLinking")
-                            payloads.append(schedule)
-                        except RuntimeError as e:
-                            # Only switch for good if the operation itself is
-                            # unknown here; a per-movie failure is just logged.
-                            if "Cannot query field" not in str(e) and "Unknown" not in str(e):
-                                raise
-                            _log(f"  [yelmo] BillboardOrderLinking refused ({e}); using Billboard")
-                            use_order_linking = False
-                    if billboard_ok and (not use_order_linking or _missing_dates(schedule, target_dates)):
+                    if use_billboard:
                         try:
                             data = api.query("Billboard", _BILLBOARD_QUERY, {
                                 "countryId": COUNTRY_ID, "movieId": movie_id,
                                 "cinemas": CINEMA_ID, "timezone": "Europe/Madrid",
                             })
-                            payloads.append(data.get("billboard"))
-                            if use_order_linking:
-                                filled += 1
+                            schedule = data.get("billboard")
                         except RuntimeError as e:
-                            if not use_order_linking or ("Cannot query field" not in str(e) and "Unknown" not in str(e)):
+                            # Only switch for good if the operation itself is
+                            # unknown here; a per-movie failure is just logged.
+                            if "Cannot query field" not in str(e) and "Unknown" not in str(e):
                                 raise
-                            _log(f"  [yelmo] Billboard refused ({e}); later days may be missing")
-                            billboard_ok = False
+                            _log(f"  [yelmo] Billboard refused ({e}); using BillboardOrderLinking, today only")
+                            use_billboard = False
+                    if not use_billboard:
+                        data = api.query("BillboardOrderLinking", _ORDER_LINKING_QUERY, {
+                            "countryId": COUNTRY_ID, "movieId": movie_id, "cinemaId": CINEMA_ID,
+                            "controlTime": 0, "isAbsoluteExperiencePath": False,
+                        })
+                        schedule = data.get("billboardOrderLinking")
                 except Exception as e:
                     errors.append(f"{title}: {e}")
                     continue
-                seen = set()
-                for payload in payloads:
-                    rows, langs = _extract_showtimes(payload, title, target_dates, SITE_URL)
-                    langs_seen |= langs
-                    for r in rows:
-                        key = (r["date"], r["time"], r["language"])
-                        if key not in seen:
-                            seen.add(key)
-                            results.append(r)
+                rows, langs = _extract_showtimes(schedule, title, target_dates, SITE_URL)
+                langs_seen |= langs
+                results.extend(rows)
 
             per_day = {d: sum(1 for r in results if r["date"] == d) for d in sorted(target_dates)}
-            _log(f"  [yelmo] showtimes per day: {per_day}; Billboard asked for {filled} films")
+            _log(f"  [yelmo] showtimes per day: {per_day}")
             diags.append(f"showtimes per day: {per_day}")
             diags.append(f"languages seen (code, display): {sorted(langs_seen)}")
             if errors:
