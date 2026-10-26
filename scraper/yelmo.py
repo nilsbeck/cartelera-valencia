@@ -80,8 +80,12 @@ query Billboard($countryId: String!, $movieId: String!, $cinemas: String!, $time
 }""" % _SHOWTIME_FIELDS
 
 # Headers the browser computes per request, or that fetch() refuses to set.
+# Tracing headers are dropped too: the site's Dynatrace agent wraps fetch()
+# and adds its own, and a header the API's CORS policy does not list makes the
+# preflight fail ("TypeError: Failed to fetch", seen on the first live run).
 _DROP_HEADERS = {"content-length", "host", "cookie", "accept-encoding", "connection",
-                 "origin", "referer", "user-agent", "accept-language"}
+                 "origin", "referer", "user-agent", "accept-language", "accept",
+                 "priority", "traceparent", "tracestate"}
 
 _FETCH_JS = """async ({url, body, headers}) => {
     const r = await fetch(url, {method: 'POST', headers, body});
@@ -191,17 +195,53 @@ def _extract_showtimes(schedule: dict, title: str, target_dates: set, url: str) 
 
 
 class _Api:
-    """Replays GraphQL calls with fetch() from inside the page that loaded the site."""
+    """Replays GraphQL calls with fetch() from inside the browser.
 
-    def __init__(self, page, headers: dict):
+    Three ways of sending, tried in order until one gets an HTTP answer, which
+    is then kept for the rest of the run:
+      1. from the cineyelmo.com page, with the headers copied from the site;
+      2. from the same page with only content-type (if a copied header is
+         what failed the CORS preflight);
+      3. from a page on api-g.cinepolis.com itself, where the call is
+         same-origin and CORS does not apply.
+    """
+
+    def __init__(self, ctx, page, headers: dict):
+        self.ctx = ctx
         self.page = page
         self.headers = headers
+        self.chosen = None
+        self.api_page = None
+
+    def _send(self, how: int, body: str) -> dict:
+        if how == 3:
+            if self.api_page is None:
+                self.api_page = self.ctx.new_page()
+                self.api_page.goto(BILLBOARDS, timeout=45000)
+            return self.api_page.evaluate(_FETCH_JS, {
+                "url": BILLBOARDS, "body": body, "headers": {"content-type": "application/json"}})
+        headers = self.headers if how == 1 else {"content-type": "application/json"}
+        return self.page.evaluate(_FETCH_JS, {"url": BILLBOARDS, "body": body, "headers": headers})
 
     def query(self, operation: str, query: str, variables: dict) -> dict:
-        body = {"operationName": operation, "variables": variables, "query": query}
-        resp = self.page.evaluate(
-            _FETCH_JS, {"url": BILLBOARDS, "body": json.dumps(body), "headers": self.headers},
-        )
+        body = json.dumps({"operationName": operation, "variables": variables, "query": query})
+        if self.chosen:
+            resp = self._send(self.chosen, body)
+        else:
+            failures = []
+            for how in (1, 2, 3):
+                try:
+                    resp = self._send(how, body)
+                except Exception as e:
+                    failures.append(f"way {how}: {str(e).splitlines()[0][:160]}")
+                    continue
+                if resp["status"] == 200:
+                    self.chosen = how
+                    _log(f"  [yelmo] API calls work via way {how}")
+                    break
+                failures.append(f"way {how}: HTTP {resp['status']}")
+            else:
+                raise RuntimeError(f"{operation}: no way of calling the API worked: {'; '.join(failures)}")
         if resp["status"] != 200:
             raise RuntimeError(f"{operation}: HTTP {resp['status']} {resp['text'][:200]}")
         payload = json.loads(resp["text"])
@@ -239,14 +279,16 @@ def _open_api(p):
         raise RuntimeError(f"Yelmo site load failed: HTTP {status} at {page.url}")
 
     headers = {k: v for k, v in captured.items()
-               if not k.startswith(":") and not k.lower().startswith("sec-")
+               if not k.startswith(":") and not k.lower().startswith(("sec-", "x-dt"))
                and k.lower() not in _DROP_HEADERS}
     if not captured:
         # The site never called the API on its own; fetch() from the page
         # still supplies origin, referer and user agent itself.
         _log("  [yelmo] no billboard request seen on the homepage; using default headers")
+    # Names only: values may carry session ids or tokens and must not be logged.
+    _log(f"  [yelmo] site request headers: {sorted(captured)}; replaying: {sorted(headers)}")
     headers.setdefault("content-type", "application/json")
-    return browser, _Api(page, headers)
+    return browser, _Api(ctx, page, headers)
 
 
 def scrape() -> "tuple[list[dict], list[str]]":
