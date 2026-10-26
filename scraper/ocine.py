@@ -1,68 +1,46 @@
 """
 Ocine Premium Aqua Valencia scraper.
-URL: https://www.ocinepremiumaqua.es/
 
-Two-phase scrape with a runtime switch between Playwright (default) and
-a requests+BS4 path via the EU fetch-proxy (see ../proxy/).
+Around October 2026 ocinepremiumaqua.es was rebuilt on a site builder and the
+film tiles (div.peli-item, /film-{id}/p links) this scraper read are gone; the
+homepage now only embeds banners. Sessions live in the ticketing app at
+tickets.ocinepremiumaqua.es (SystemBCN), which reads a JSON API. We call that
+API directly — shapes captured from live traffic with ocine_api_probe.py:
 
-Why the switch:
-  - From a US GitHub-hosted runner the origin silently drops connections
-    (bbfe860, PR #56, PR #57). Even Render's Frankfurt egress hits a TCP
-    connect-timeout — the block is by cloud-IP, not geo.
-  - From a residential IP (home server in Docker, see ../DOCKER.md) the
-    origin responds, but the page is client-rendered: requests+BS4 lands
-    on an empty shell. Playwright renders it correctly.
+  POST /api/v1/init      {idioma, urlWeb, …}          → {token, …}
+  POST /api/v1/sessions  {token, idioma, urlWeb}      → {pelicules, anticipades,
+                                                         estrenes, …}
+       film list only; each film's `sessions` is empty here.
+  GET  /api/v1/pelicula/{id}?lang=es                  → the film with sessions:
+       esGrup false → sessions[] on the film itself
+       esGrup true  → subPelicules[] (one per version), each with
+                      propietats[] and sessions[{data, hora, nomSala, …}]
+       catalegPropietats[] maps property codes to labels; the version ones
+       seen live are 13 VO, 14 VOSE, 15 CATALÀ, 16 EUSKERA. No version code
+       means the dubbed Spanish version.
 
-So:
-  - OCINE_PROXY_URL unset (home / direct path) → Playwright two-phase.
-  - OCINE_PROXY_URL set (proxy path, only useful if the proxy host can
-    render JS — currently the bundled proxy can't, so this path is
-    effectively disabled until someone bolts a headless browser on it).
-
-Phase 1 (main page):
-  Wait for film tiles to render, then enumerate (title, /film-{id}/p URL).
-
-Phase 2 (per-film date pages):
-  For each film × date in today..next-Thursday, navigate to
-    {film_url}&selectedDate={YYYY-MM-DD}
-  wait for the session table to hydrate, then parse tr.plans rows.
-
-Language priority inside a tr.plans row:
-  1. version token in the tr's own class string
-  2. version-label element inside the row
-  3. preceding sibling row's text
+The origin drops connections from cloud IPs (PR #57), so this runs on the home
+server, and through Playwright: the calls are made with fetch() from a page on
+tickets.ocinepremiumaqua.es itself, so they are same-origin and look like the
+app's own.
 
 Spanish cinemas programme on a Friday→Thursday cycle, so sessions cover
 today through the upcoming Thursday.
 """
 
-import os
-import re
+import json
 from datetime import date, timedelta
-from urllib.parse import quote
 
-import requests
-from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
-BASE_URL = "https://ocinepremiumaqua.es"
+TICKETS = "https://tickets.ocinepremiumaqua.es"
+APP_URL = f"{TICKETS}/?nocap=1#/"
+FILM_URL = f"{TICKETS}/?nocap=1#/DetallPelicula/{{id}}"
 
 _UA = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/136.0 Safari/537.36"
 )
-
-_DIRECT_HEADERS = {
-    "User-Agent": _UA,
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "es-ES,es;q=0.9",
-    "Accept-Encoding": "gzip, deflate, br",
-    "Referer": "https://www.google.es/",
-    "Connection": "keep-alive",
-    "Upgrade-Insecure-Requests": "1",
-}
-
-_FILM_LINK_RE = re.compile(r"/film-\d+/p")
 
 # Ordered so longer/more-specific tokens are checked first.
 # "v.o.s.e" and "subtitulad" must precede "v.o." and "original"
@@ -77,6 +55,20 @@ _LANG_TOKENS: list[tuple[str, str]] = [
     ("castellano", "es"),
     ("español",    "es"),
 ]
+
+# Version property codes as seen in catalegPropietats on 2026-10-26, used when
+# a response does not carry the catalogue. CATALÀ is the Valencian version.
+_VERSION_CODES = {13: "vo", 14: "vose", 15: "val", 16: "eus"}
+_VERSION_NAMES = {"VO": "vo", "VOSE": "vose", "CAT": "val", "EUS": "eus"}
+
+_GET_JS = """async (url) => {
+    const r = await fetch(url, {headers: {accept: 'application/json'}});
+    return {status: r.status, text: await r.text()};
+}"""
+_POST_JS = """async ({url, body}) => {
+    const r = await fetch(url, {method: 'POST', headers: {'content-type': 'application/json'}, body});
+    return {status: r.status, text: await r.text()};
+}"""
 
 
 def _dates_until_next_thursday() -> list[str]:
@@ -107,448 +99,134 @@ def _log(msg: str) -> None:
     print(msg, flush=True)
 
 
-def _truthy(value: "str | None") -> bool:
-    return (value or "").strip().lower() in ("1", "true", "yes", "on")
+def _version_lang(props: list, catalogue: list, title: str = "") -> str:
+    """Language tag for a film or sub-film from its property codes.
+
+    Codes are resolved through the response's own catalegPropietats (by its
+    short name) when present, falling back to the codes seen live. A title
+    like "Clayface (VOSE)" is checked last, for a version listed without its
+    property. Euskera is reported as-is; run.py maps unknown tags to ES.
+    """
+    names = {c.get("codi"): (c.get("nomCurt") or "").upper() for c in catalogue or []}
+    for code in props or []:
+        if names.get(code) in _VERSION_NAMES:
+            return _VERSION_NAMES[names[code]]
+        if code not in names and code in _VERSION_CODES:
+            return _VERSION_CODES[code]
+    return _detect_lang(title) if title else "es"
 
 
-def _parse_sessions(html: str, title: str, film_url: str, date_str: str) -> list[dict]:
-    """Parse the session table from a film-detail page's rendered HTML."""
-    soup = BeautifulSoup(html, "html.parser")
-    out: list[dict] = []
-    for tr in soup.find_all("tr", class_="plans"):
-        cls = " ".join(tr.get("class") or [])
-
-        lang = _detect_lang(cls)
-
-        if lang == "es":
-            label_el = tr.find(class_=lambda c: c and any(
-                x in " ".join(c) for x in
-                ["versio", "version", "idioma", "horasessio-titol",
-                 "film-version", "session-version"]
-            ))
-            if label_el:
-                lang = _detect_lang(label_el.get_text())
-
-        if lang == "es":
-            prev = tr.find_previous_sibling("tr")
-            if prev:
-                lang = _detect_lang(prev.get_text())
-
-        for btn in tr.find_all("button"):
-            time_text = btn.get_text(strip=True)
-            if not time_text or ":" not in time_text:
+def _extract_sessions(film: dict, title: str, target_dates: set) -> list[dict]:
+    """Showtime rows from a /api/v1/pelicula/{id} answer."""
+    catalogue = film.get("catalegPropietats") or []
+    versions = film.get("subPelicules") if film.get("esGrup") else None
+    if not versions:
+        versions = [film]
+    url = FILM_URL.format(id=film.get("id"))
+    rows, seen = [], set()
+    for version in versions:
+        lang = _version_lang(version.get("propietats"), catalogue, version.get("titol") or "")
+        for s in version.get("sessions") or []:
+            day = (s.get("data") or "")[:10]
+            hhmm = (s.get("hora") or "")[:5]
+            if day not in target_dates or len(hhmm) != 5 or ":" not in hhmm:
                 continue
-            out.append({
-                "title":    title,
-                "language": lang,
-                "date":     date_str,
-                "time":     time_text,
-                "url":      film_url,
-            })
-    return out
+            key = (day, hhmm, lang)
+            if key in seen:
+                continue
+            seen.add(key)
+            rows.append({"title": title, "language": lang, "date": day, "time": hhmm, "url": url})
+    return rows
 
 
-# ── Playwright path (used when running from a residential IP) ────────────────
+def _films_to_fetch(listing: dict, target_dates: set) -> "dict[int, str]":
+    """Film ids → titles from a /api/v1/sessions answer.
 
-def _goto_with_retry(page, url: str, label: str) -> "int | None":
-    """Navigate with wait_until='commit' and one retry.
-
-    Skips the retry on ERR_CONNECTION_CLOSED / ERR_CONNECTION_REFUSED —
-    those are active rejections from the upstream rate-guard; retrying
-    immediately just makes it angrier and doubles the storm length.
+    Everything in `pelicules` (now showing) and `anticipades` (presales), plus
+    `estrenes` (coming soon) whose release date falls inside the window.
     """
-    last_exc: "Exception | None" = None
-    for attempt in (1, 2):
+    films: dict[int, str] = {}
+    for key in ("pelicules", "anticipades", "estrenes"):
+        for f in listing.get(key) or []:
+            if not isinstance(f, dict) or f.get("id") is None or not f.get("titol"):
+                continue
+            if key == "estrenes" and (f.get("dataEstrena") or "")[:10] not in target_dates:
+                continue
+            films.setdefault(f["id"], f["titol"].strip())
+    return films
+
+
+class _Api:
+    def __init__(self, page):
+        self.page = page
+
+    def _parse(self, what: str, resp: dict) -> dict:
+        if resp["status"] != 200:
+            raise RuntimeError(f"Ocine {what}: HTTP {resp['status']} {resp['text'][:200]}")
         try:
-            resp = page.goto(url, timeout=15000, wait_until="commit")
-            return resp.status if resp else None
-        except Exception as e:
-            last_exc = e
-            _log(f"  ⚠ Ocine {label} goto attempt {attempt} failed: {e}")
-            msg = str(e)
-            if "ERR_CONNECTION_CLOSED" in msg or "ERR_CONNECTION_REFUSED" in msg:
-                break
-    raise last_exc if last_exc else RuntimeError("goto failed without exception")
+            return json.loads(resp["text"])
+        except ValueError as e:
+            raise RuntimeError(f"Ocine {what}: not JSON: {resp['text'][:200]}") from e
+
+    def post(self, path: str, body: dict) -> dict:
+        return self._parse(path, self.page.evaluate(_POST_JS, {"url": TICKETS + path, "body": json.dumps(body)}))
+
+    def get(self, path: str) -> dict:
+        return self._parse(path, self.page.evaluate(_GET_JS, TICKETS + path))
 
 
-def _scrape_playwright(dates: list[str]) -> list[dict]:
-    """Two-phase scrape.
-
-    Phase 1 — fetch the homepage and harvest:
-      - the film URL (for any deeper fetches)
-      - whatever sessions are already embedded inline inside each tile's
-        `table.planificacions` (today + the next 2 days, typically).
-      Films whose tile has only "No hay sesiones previstas" placeholders
-      get marked dead — Phase 2 will skip them so we don't burn rate-guard
-      budget on coming-soon entries.
-
-    Phase 2 — for each LIVE film, fetch only the target dates that the
-    homepage didn't already cover. Cap by a 5-consecutive-failure circuit
-    breaker so a rate-guard storm bails out instead of logging hundreds
-    of identical ERR_CONNECTION_CLOSED lines.
-    """
-    results: list[dict] = []
+def scrape() -> "tuple[list[dict], list[str]]":
+    dates = _dates_until_next_thursday()
     target_dates = set(dates)
+    results: list[dict] = []
+    diags: list[str] = []
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        page = browser.new_page(user_agent=_UA)
-
-        # ── Phase 1: enumerate tiles + harvest inline sessions ────────
         try:
-            _goto_with_retry(page, BASE_URL, "main page")
-            page.wait_for_selector(
-                "div.peli-item, a[href*='/film-']",
-                state="attached",
-                timeout=20000,
-            )
-        except Exception as e:
-            _log(f"  ⚠ Ocine main page failed: {e}")
-            browser.close()
-            return []
-
-        films = page.evaluate(r"""() => {
-            const out = [];
-            const seenUrls = new Set();
-            const filmRe = /\/film-\d+\/p/;
-            const dateRe = /^\d{4}-\d{2}-\d{2}$/;
-
-            for (const block of document.querySelectorAll('div.peli-item')) {
-                const h4 = block.querySelector('h4');
-                if (!h4) continue;
-                const title = (h4.textContent || '').trim();
-                if (!title) continue;
-                const a = block.querySelector('a[href*="/film-"]');
-                if (!a) continue;
-                const href = a.getAttribute('href') || '';
-                if (!filmRe.test(href)) continue;
-                let url = href.startsWith('http') ? href : (location.origin + href);
-                url = url.replace(/[?&]selectedDate=[^&]*/g, '').replace(/[?&]$/, '');
-                if (!url || seenUrls.has(url)) continue;
-                seenUrls.add(url);
-
-                // Harvest inline planificacions — each row is either a date
-                // header <tr class="YYYY-MM-DD"> or a session row
-                // <tr class="YYYY-MM-DD plans"> whose buttons hold the times.
-                // Empty days have a "No hay sesiones previstas" <p> instead
-                // of buttons — we still mark the date as "seen" so Phase 2
-                // doesn't re-fetch a known-empty day.
-                //
-                // datesSeen is a plain deduped Array (not a Set). One live
-                // run produced `datesSeen=[{}]` on the Python side, which
-                // implies Playwright's structured-clone serialiser was
-                // emitting the Set instance itself instead of its contents
-                // even though we called Array.from() on it. A plain array
-                // round-trips cleanly.
-                const sessions = [];
-                const datesSeen = [];
-                const table = block.querySelector('table.planificacions');
-                if (table) {
-                    for (const tr of table.querySelectorAll('tr')) {
-                        const classes = (tr.className || '').split(/\s+/);
-                        let dateStr = null;
-                        for (const c of classes) {
-                            if (dateRe.test(c)) { dateStr = c; break; }
-                        }
-                        if (!dateStr) continue;
-                        if (!datesSeen.includes(dateStr)) datesSeen.push(dateStr);
-                        if (!classes.includes('plans')) continue;
-                        for (const btn of tr.querySelectorAll('button')) {
-                            const t = (btn.textContent || '').trim();
-                            if (t && t.includes(':')) {
-                                sessions.push({"date": dateStr, "time": t});
-                            }
-                        }
-                    }
-                }
-
-                out.push({
-                    "title": title,
-                    "url": url,
-                    "sessions": sessions,
-                    "datesSeen": datesSeen,
-                });
-            }
-            return out;
-        }""")
-
-        _log(f"  [ocine] Phase 1: {len(films)} films")
-
-        if not films:
+            page = browser.new_page(user_agent=_UA, locale="es-ES")
             try:
-                diag = page.evaluate(r"""() => ({
-                    url: location.href,
-                    peli_items: document.querySelectorAll('div.peli-item').length,
-                    any_film_links: document.querySelectorAll('a[href*="/film-"]').length,
-                    h4_count: document.querySelectorAll('h4').length,
-                    body_len: document.body.innerHTML.length,
-                })""")
-                _log(f"  [ocine] DIAG main page: {diag}")
-            except Exception:
-                pass
-            browser.close()
-            return []
-
-        # Normalise + emit inline sessions, decide which films need Phase 2.
-        # The homepage table doesn't carry a per-session version label, but
-        # the film title often does (e.g. "La Odisea (VOSE)"), so infer from
-        # the title and fall back to "es" (the Ocine norm) otherwise.
-        #
-        # Defensive coercion: even though the Phase 1 JS only ever pushes
-        # strings into the dates Set and {date, time} dicts into sessions,
-        # one live run came back with a list element that wasn't a string —
-        # crashing `set(datesSeen)` with "unhashable type: 'dict'". So we
-        # filter both lists to the shapes we expect, and dump the first
-        # film's structure on entry so we can see what Playwright sent.
-        if films:
-            sample = films[0]
-            if isinstance(sample, dict):
-                _log(
-                    f"  [ocine] DIAG film[0]: title={sample.get('title')!r} "
-                    f"url={sample.get('url')!r} "
-                    f"sessions_n={len(sample.get('sessions') or [])} "
-                    f"datesSeen_sample={(sample.get('datesSeen') or [])[:3]!r}"
-                )
-                # Belt-and-braces — dump the raw entry as JSON so a future
-                # serialisation glitch is obvious without code-spelunking.
-                import json as _json
-                try:
-                    _log(f"  [ocine] DIAG film[0] raw: {_json.dumps(sample, ensure_ascii=False)[:400]}")
-                except Exception:
-                    pass
-
-        followups: list[tuple[str, str, list[str]]] = []
-        inline_count = 0
-        live_films = 0
-        for film in films:
-            if not isinstance(film, dict):
-                _log(f"  ⚠ Ocine: unexpected film entry type: {film!r}")
-                continue
-            title    = film.get("title") or ""
-            film_url = film.get("url") or ""
-
-            raw_sessions = film.get("sessions") or []
-            raw_dates    = film.get("datesSeen") or []
-            inline = [
-                s for s in raw_sessions
-                if isinstance(s, dict)
-                and isinstance(s.get("date"), str)
-                and isinstance(s.get("time"), str)
-            ]
-            seen = {d for d in raw_dates if isinstance(d, str)}
-
-            if not title or not film_url:
-                _log(f"  ⚠ Ocine: skipping malformed film entry: title={title!r} url={film_url!r}")
-                continue
-
-            title_lang = _detect_lang(title)
-            for s in inline:
-                d = s["date"]
-                t = s["time"][:5]
-                if not d or d not in target_dates or not t or ":" not in t:
-                    continue
-                results.append({
-                    "title":    title,
-                    "language": title_lang,
-                    "date":     d,
-                    "time":     t,
-                    "url":      film_url,
-                })
-                inline_count += 1
-
-            if not inline:
-                # Coming-soon placeholder — every date is "no sesiones".
-                # Skip Phase 2 entirely; nothing to learn there.
-                continue
-            live_films += 1
-
-            missing = sorted(target_dates - seen)
-            if missing:
-                followups.append((title, film_url, missing))
-
-        _log(f"  [ocine] Phase 1 inline: {inline_count} showtimes from {live_films} live films")
-        if not followups:
-            browser.close()
-            return results
-
-        # Phase 2 is opt-in. Ocine's rate-guard closes the connection after
-        # ~5–7 quick requests, and even the fetches that succeed return a
-        # detail page whose session table never hydrates (plans_rows=0). So
-        # by default we stop at the homepage's inline coverage (today + the
-        # next ~2 days). Set OCINE_DEEP_SCAN=1 to attempt the trailing dates.
-        if not _truthy(os.environ.get("OCINE_DEEP_SCAN")):
-            _log(
-                f"  [ocine] Phase 2 skipped (OCINE_DEEP_SCAN not set); "
-                f"would have been {sum(len(m) for _, _, m in followups)} fetches"
-            )
-            browser.close()
-            return results
-
-        # ── Phase 2: only the dates the homepage didn't cover ─────────
-        followup_count = sum(len(m) for _, _, m in followups)
-        _log(f"  [ocine] Phase 2: {followup_count} follow-up fetches across {len(followups)} films")
-
-        MAX_CONSECUTIVE_FAILURES = 5
-        consecutive_failures = 0
-        aborted = False
-
-        diagnosed = False
-        for title, film_url, missing in followups:
-            if aborted:
-                break
-            sep = "&" if "?" in film_url else "?"
-            for date_str in missing:
-                if consecutive_failures >= MAX_CONSECUTIVE_FAILURES:
-                    _log(
-                        f"  ⚠ Ocine: {MAX_CONSECUTIVE_FAILURES} consecutive "
-                        f"failures, aborting remaining Phase 2 fetches "
-                        f"(likely rate-limited by upstream)"
-                    )
-                    aborted = True
-                    break
-
-                target = f"{film_url}{sep}selectedDate={date_str}"
-                try:
-                    _goto_with_retry(page, target, f"session {date_str}")
-                    try:
-                        page.wait_for_selector(
-                            "tr.plans, .no-sesiones, .sin-sesiones",
-                            state="attached",
-                            timeout=8000,
-                        )
-                    except Exception:
-                        pass
-                    html = page.content()
-                except Exception as e:
-                    consecutive_failures += 1
-                    _log(f"  ⚠ Ocine session fetch failed ({title} {date_str}): {e}")
-                    continue
-
-                consecutive_failures = 0
-
-                if not diagnosed:
-                    try:
-                        d = page.evaluate(r"""() => ({
-                            url: location.href,
-                            plans_rows: document.querySelectorAll('tr.plans').length,
-                            buttons:    document.querySelectorAll('tr.plans button').length,
-                            body_len:   document.body.innerHTML.length,
-                        })""")
-                        _log(f"  [ocine] DIAG first Phase 2 page: {d}")
-                    except Exception:
-                        pass
-                    diagnosed = True
-
-                results.extend(_parse_sessions(html, title, film_url, date_str))
-
-        browser.close()
-    return results
-
-
-# ── Proxy path (kept for the manual workflow_dispatch on GH Actions) ─────────
-
-def _make_proxy_fetcher():
-    """Returns fetch_html(url, *, timeout) that calls the configured proxy.
-
-    Caller must check OCINE_PROXY_URL is non-empty before invoking.
-    """
-    proxy_url   = os.environ["OCINE_PROXY_URL"].rstrip("/")
-    proxy_token = os.environ.get("OCINE_PROXY_TOKEN", "")
-    sess = requests.Session()
-    proxy_headers = {"X-Proxy-Token": proxy_token} if proxy_token else {}
-    proxy_headers["X-Forward-User-Agent"] = _UA
-
-    def fetch_html(url: str, timeout: int = 30) -> str:
-        r = sess.get(
-            f"{proxy_url}/fetch",
-            params={"url": url},
-            headers=proxy_headers,
-            timeout=timeout,
-        )
-        r.raise_for_status()
-        return r.text
-
-    return fetch_html
-
-
-def _scrape_via_proxy(dates: list[str]) -> list[dict]:
-    """requests+BS4 path. Only useful if the proxy host can render JS;
-    currently the bundled Render proxy can't, so this returns empty."""
-    fetch_html = _make_proxy_fetcher()
-    results: list[dict] = []
-
-    try:
-        html = fetch_html(BASE_URL, timeout=60)
-    except Exception as e:
-        _log(f"  ⚠ Ocine main page failed (via proxy): {e}")
-        return []
-
-    soup = BeautifulSoup(html, "html.parser")
-    films: list[dict] = []
-    seen_urls: set[str] = set()
-
-    for block in soup.find_all("div", class_=lambda c: c and "peli-item" in c):
-        h4 = block.find("h4")
-        if not h4:
-            continue
-        title = h4.get_text(strip=True)
-        if not title:
-            continue
-
-        link = block.find("a", href=_FILM_LINK_RE) or h4.find("a", href=_FILM_LINK_RE)
-        if not link:
-            continue
-        href = link.get("href", "")
-        if not _FILM_LINK_RE.search(href):
-            continue
-
-        film_url = href if href.startswith("http") else BASE_URL + href
-        film_url = re.sub(r"[&?]selectedDate=[^&]*", "", film_url).rstrip("?&")
-        if film_url in seen_urls:
-            continue
-        seen_urls.add(film_url)
-        films.append({"title": title, "url": film_url})
-
-    _log(f"  [ocine] Phase 1 (proxy): {len(films)} films")
-
-    if not films:
-        _log(
-            f"  [ocine] DIAG main page (proxy): peli_item_divs="
-            f"{len(soup.find_all('div', class_=lambda c: c and 'peli-item' in c))}, "
-            f"film_links={len(soup.find_all('a', href=_FILM_LINK_RE))}, "
-            f"body_len={len(html)}"
-        )
-        return []
-
-    diagnosed = False
-    for film in films:
-        film_url = film["url"]
-        sep = "&" if "?" in film_url else "?"
-        for date_str in dates:
-            target = f"{film_url}{sep}selectedDate={date_str}"
-            try:
-                html = fetch_html(target, timeout=30)
+                page.goto(APP_URL, timeout=45000)
             except Exception as e:
-                _log(f"  ⚠ Ocine session fetch failed ({film['title']} {date_str}): {e}")
-                continue
-            if not diagnosed:
-                soup2 = BeautifulSoup(html, "html.parser")
-                _log(
-                    f"  [ocine] DIAG first session page (proxy): "
-                    f"plans_rows={len(soup2.find_all('tr', class_='plans'))}, "
-                    f"buttons={len(soup2.select('tr.plans button'))}, "
-                    f"body_len={len(html)}"
-                )
-                diagnosed = True
-            results.extend(_parse_sessions(html, film["title"], film_url, date_str))
+                raise RuntimeError(f"Ocine ticketing app load failed: {e}") from e
+            api = _Api(page)
 
-    return results
+            init = api.post("/api/v1/init", {
+                "idioma": "es", "plan": None, "butaques": None, "nume": None,
+                "urlconfirmation": None, "urlinici": None, "deluxe": None, "app": None,
+                "cli": None, "urlWeb": APP_URL, "dataSessio": None, "horaSessio": None,
+                "extern": None, "nomesbar": None,
+            })
+            token = init.get("token")
+            if not token:
+                raise RuntimeError(f"Ocine init returned no token (error={init.get('error')!r})")
 
+            listing = api.post("/api/v1/sessions", {
+                "token": token, "idioma": "es", "urlWeb": f"{TICKETS}/?nocap=1#/SeleccioPelicula",
+            })
+            films = _films_to_fetch(listing, target_dates)
+            if not films:
+                raise RuntimeError(f"Ocine: film list empty (keys: {sorted(listing)})")
+            _log(f"  [ocine] {len(films)} films listed")
 
-def scrape() -> list[dict]:
-    dates = _dates_until_next_thursday()
-    if os.environ.get("OCINE_PROXY_URL"):
-        _log("  [ocine] fetch mode: proxy")
-        return _scrape_via_proxy(dates)
-    _log("  [ocine] fetch mode: playwright (direct)")
-    return _scrape_playwright(dates)
+            errors: list[str] = []
+            for film_id, title in films.items():
+                try:
+                    film = api.get(f"/api/v1/pelicula/{film_id}?lang=es")
+                except Exception as e:
+                    errors.append(f"{title}: {e}")
+                    continue
+                results.extend(_extract_sessions(film, title, target_dates))
+
+            per_day = {d: sum(1 for r in results if r["date"] == d) for d in dates}
+            _log(f"  [ocine] showtimes per day: {per_day}")
+            diags.append(f"showtimes per day: {per_day}")
+            if errors:
+                _log(f"  ⚠ Ocine: {len(errors)} film requests failed, first: {errors[0]}")
+                diags.append(f"{len(errors)} film requests failed, first: {errors[0]}")
+                if len(errors) == len(films):
+                    raise RuntimeError(f"Ocine: every film request failed, first: {errors[0]}")
+        finally:
+            browser.close()
+
+    return results, diags

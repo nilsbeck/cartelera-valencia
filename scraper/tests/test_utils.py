@@ -31,7 +31,13 @@ from cinema_abc import (
     _parse_ficha_date,
 )
 from lys import _parse_sesiones_date as lys_parse_date
-from ocine import _dates_until_next_thursday, _detect_lang as ocine_detect_lang
+from ocine import (
+    _dates_until_next_thursday,
+    _detect_lang as ocine_detect_lang,
+    _version_lang as ocine_version_lang,
+    _extract_sessions as ocine_extract,
+    _films_to_fetch as ocine_films,
+)
 from yelmo import (
     _detect_language as yelmo_detect_lang,
     _parse_showtime as yelmo_parse_showtime,
@@ -578,6 +584,70 @@ class TestOcineDetectLang:
 
     def test_pipeline_es_to_canonical(self):
         assert normalize_lang(ocine_detect_lang("Doblada")) == "ES"
+
+
+class TestOcineApiParsing:
+    """tickets.ocinepremiumaqua.es JSON → showtime rows (shapes from 2026-10-26)."""
+
+    CATALOGUE = [
+        {"codi": 13, "nomCurt": "VO"}, {"codi": 14, "nomCurt": "VOSE"},
+        {"codi": 15, "nomCurt": "CAT"}, {"codi": 16, "nomCurt": "EUS"},
+        {"codi": 5, "nomCurt": "2D"}, {"codi": 2, "nomCurt": "A"},
+    ]
+
+    def test_version_from_catalogue(self):
+        assert ocine_version_lang([5], self.CATALOGUE) == "es"
+        assert ocine_version_lang([5, 14], self.CATALOGUE) == "vose"
+        assert ocine_version_lang([13, 2], self.CATALOGUE) == "vo"
+        assert ocine_version_lang([15], self.CATALOGUE) == "val"
+
+    def test_version_without_catalogue_uses_live_codes(self):
+        assert ocine_version_lang([14], []) == "vose"
+        assert ocine_version_lang([5], []) == "es"
+
+    def test_version_from_title_as_last_resort(self):
+        assert ocine_version_lang([5], self.CATALOGUE, "Clayface (VOSE)") == "vose"
+
+    def test_tags_normalize(self):
+        assert normalize_lang("vose") == "VOSE"
+        assert normalize_lang("val") == "VAL"
+        assert normalize_lang("vo") == "VO"
+        assert normalize_lang("es") == "ES"
+
+    def test_extract_group_film(self):
+        film = {"id": 10966, "esGrup": True, "sessions": None, "catalegPropietats": self.CATALOGUE,
+                "subPelicules": [
+                    {"id": 10965, "titol": "Arriba Tutto", "propietats": [5], "sessions": [
+                        {"data": "2026-10-26", "hora": "16:00:00", "nomSala": "SALA 7"},
+                        {"data": "2026-10-26", "hora": "16:00:00", "nomSala": "SALA 7"},
+                        {"data": "2026-11-05", "hora": "16:00:00"}]},
+                    {"id": 10967, "titol": "Arriba Tutto (VOSE)", "propietats": [5, 14], "sessions": [
+                        {"data": "2026-10-27", "hora": "22:15:00"}]},
+                ]}
+        rows = ocine_extract(film, "Arriba Tutto", {"2026-10-26", "2026-10-27"})
+        assert [(r["date"], r["time"], r["language"]) for r in rows] == [
+            ("2026-10-26", "16:00", "es"), ("2026-10-27", "22:15", "vose"),
+        ]
+        assert rows[0]["url"] == "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10966"
+        assert all(r["title"] == "Arriba Tutto" for r in rows)
+
+    def test_extract_single_film(self):
+        film = {"id": 1, "esGrup": False, "propietats": [13], "catalegPropietats": self.CATALOGUE,
+                "sessions": [{"data": "2026-10-26", "hora": "20:30:00"}]}
+        rows = ocine_extract(film, "X", {"2026-10-26"})
+        assert [(r["time"], r["language"]) for r in rows] == [("20:30", "vo")]
+
+    def test_extract_empty(self):
+        assert ocine_extract({"id": 1, "esGrup": True, "subPelicules": None}, "X", {"2026-10-26"}) == []
+
+    def test_films_to_fetch(self):
+        listing = {
+            "pelicules": [{"id": 1, "titol": "A "}, {"id": 2, "titol": "B"}],
+            "anticipades": [{"id": 3, "titol": "C"}, {"id": 1, "titol": "A again"}],
+            "estrenes": [{"id": 4, "titol": "D", "dataEstrena": "2026-10-28"},
+                         {"id": 5, "titol": "E", "dataEstrena": "2026-12-04"}],
+        }
+        assert ocine_films(listing, {"2026-10-26", "2026-10-28"}) == {1: "A", 2: "B", 3: "C", 4: "D"}
 
 
 # ─────────────────────────────────────────────
