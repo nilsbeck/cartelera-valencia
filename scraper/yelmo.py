@@ -100,11 +100,13 @@ def _log(msg: str) -> None:
 def _detect_language(language: str, display: str) -> str:
     """Map the API's (language, displayLanguage) pair to VOSE / VAL / VO / ES.
 
-    The exact codes the API uses for Spain were not in the captured traffic,
-    so this matches on substrings of both fields. English or another foreign
-    language without an explicit dubbing marker counts as VOSE: Yelmo labelled
-    those "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)" on the old site, and showing
-    a film undubbed without subtitles is not something it does.
+    Codes seen on the first live run (2026-10-26): ("ESP", "ESPAÑOL"),
+    ("SUB ESP", "SUB ESP") and ("COR", "COR"), the last being Korean, used for
+    the K-pop concert films. Anything else is matched on substrings of both
+    fields. A foreign language without an explicit dubbing marker counts as
+    VOSE: Yelmo labelled those "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)" on the
+    old site, and showing a film undubbed without subtitles is not something
+    it does.
     """
     text = f"{language} {display}".lower()
     tokens = set(re.findall(r"[a-zà-ü.]+", text))
@@ -116,7 +118,8 @@ def _detect_language(language: str, display: str) -> str:
         return "ES"
     if "original" in text or "v.o." in text or tokens & {"vo"}:
         return "VO"
-    if "ingl" in text or "english" in text or tokens & {"en", "eng", "ing"}:
+    if (any(w in text for w in ("ingl", "english", "corea", "japon", "franc", "italia", "alem"))
+            or tokens & {"en", "eng", "ing", "cor", "kor", "jap", "jpn", "fra", "ita", "ale"}):
         return "VOSE"
     return "ES"
 
@@ -161,6 +164,26 @@ def _parse_showtime(raw: str, fallback_date: str = "") -> "tuple[str, str] | Non
     if not m or not d:
         return None
     return d.group(0), f"{int(m.group(1)):02d}:{m.group(2)}"
+
+
+def _missing_dates(schedule: dict, target_dates: set) -> "list[str]":
+    """Target dates the payload lists as having sessions but carries none for.
+
+    BillboardOrderLinking returned only today's sessions on the first live run
+    (48 showtimes across 56 films for the week) while its top-level `dates`
+    field is the list of days with sessions, the one the site's date picker
+    shows. A non-empty answer here means the other operation should be asked.
+    """
+    if not schedule:
+        return []
+    listed = {m for d in schedule.get("dates") or [] for m in re.findall(r"\d{4}-\d{2}-\d{2}", str(d))}
+    covered = {
+        m
+        for sched in schedule.get("schedules") or []
+        for day in sched.get("dates") or []
+        for m in re.findall(r"\d{4}-\d{2}-\d{2}", str(day.get("date") or ""))
+    }
+    return sorted((listed - covered) & target_dates)
 
 
 def _extract_showtimes(schedule: dict, title: str, target_dates: set, url: str) -> "tuple[list[dict], set]":
@@ -317,9 +340,13 @@ def scrape() -> "tuple[list[dict], list[str]]":
 
             # ── Phase 2: sessions per movie ───────────────────────────────
             use_order_linking = True
+            billboard_ok = True
             errors: list[str] = []
             langs_seen: set = set()
+            filled = 0
             for movie_id, title in movies.items():
+                payloads = []
+                schedule = None
                 try:
                     if use_order_linking:
                         try:
@@ -328,6 +355,7 @@ def scrape() -> "tuple[list[dict], list[str]]":
                                 "controlTime": 0, "isAbsoluteExperiencePath": False,
                             })
                             schedule = data.get("billboardOrderLinking")
+                            payloads.append(schedule)
                         except RuntimeError as e:
                             # Only switch for good if the operation itself is
                             # unknown here; a per-movie failure is just logged.
@@ -335,19 +363,36 @@ def scrape() -> "tuple[list[dict], list[str]]":
                                 raise
                             _log(f"  [yelmo] BillboardOrderLinking refused ({e}); using Billboard")
                             use_order_linking = False
-                    if not use_order_linking:
-                        data = api.query("Billboard", _BILLBOARD_QUERY, {
-                            "countryId": COUNTRY_ID, "movieId": movie_id,
-                            "cinemas": CINEMA_ID, "timezone": "Europe/Madrid",
-                        })
-                        schedule = data.get("billboard")
+                    if billboard_ok and (not use_order_linking or _missing_dates(schedule, target_dates)):
+                        try:
+                            data = api.query("Billboard", _BILLBOARD_QUERY, {
+                                "countryId": COUNTRY_ID, "movieId": movie_id,
+                                "cinemas": CINEMA_ID, "timezone": "Europe/Madrid",
+                            })
+                            payloads.append(data.get("billboard"))
+                            if use_order_linking:
+                                filled += 1
+                        except RuntimeError as e:
+                            if not use_order_linking or ("Cannot query field" not in str(e) and "Unknown" not in str(e)):
+                                raise
+                            _log(f"  [yelmo] Billboard refused ({e}); later days may be missing")
+                            billboard_ok = False
                 except Exception as e:
                     errors.append(f"{title}: {e}")
                     continue
-                rows, langs = _extract_showtimes(schedule, title, target_dates, SITE_URL)
-                langs_seen |= langs
-                results.extend(rows)
+                seen = set()
+                for payload in payloads:
+                    rows, langs = _extract_showtimes(payload, title, target_dates, SITE_URL)
+                    langs_seen |= langs
+                    for r in rows:
+                        key = (r["date"], r["time"], r["language"])
+                        if key not in seen:
+                            seen.add(key)
+                            results.append(r)
 
+            per_day = {d: sum(1 for r in results if r["date"] == d) for d in sorted(target_dates)}
+            _log(f"  [yelmo] showtimes per day: {per_day}; Billboard asked for {filled} films")
+            diags.append(f"showtimes per day: {per_day}")
             diags.append(f"languages seen (code, display): {sorted(langs_seen)}")
             if errors:
                 _log(f"  ⚠ Yelmo: {len(errors)} schedule requests failed, first: {errors[0]}")

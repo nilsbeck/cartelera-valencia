@@ -32,7 +32,12 @@ from cinema_abc import (
 )
 from lys import _parse_sesiones_date as lys_parse_date
 from ocine import _dates_until_next_thursday, _detect_lang as ocine_detect_lang
-from yelmo import _detect_language as yelmo_detect_lang, _parse_showtime as yelmo_parse_showtime, _extract_showtimes as yelmo_extract
+from yelmo import (
+    _detect_language as yelmo_detect_lang,
+    _parse_showtime as yelmo_parse_showtime,
+    _extract_showtimes as yelmo_extract,
+    _missing_dates as yelmo_missing_dates,
+)
 
 
 # ─────────────────────────────────────────────
@@ -904,6 +909,22 @@ class TestYelmoApiParsing:
         assert yelmo_detect_lang("VAL", "Valenciano") == "VAL"
         assert yelmo_detect_lang("VO", "Versión original") == "VO"
         assert yelmo_detect_lang("", "") == "ES"
+
+    def test_language_codes_seen_live(self):
+        # The pairs the API returned on 2026-10-26.
+        assert yelmo_detect_lang("ESP", "ESPAÑOL") == "ES"
+        assert yelmo_detect_lang("SUB ESP", "SUB ESP") == "VOSE"
+        assert yelmo_detect_lang("COR", "COR") == "VOSE"  # Korean (K-pop concerts)
+
+    def test_missing_dates(self):
+        payload = {"dates": ["2026-10-26", "2026-10-27", "2026-10-28", "2026-11-30"],
+                   "schedules": [{"dates": [{"date": "2026-10-26", "languages": []}]}]}
+        target = {"2026-10-26", "2026-10-27", "2026-10-28"}
+        assert yelmo_missing_dates(payload, target) == ["2026-10-27", "2026-10-28"]
+        payload["schedules"][0]["dates"] += [{"date": "2026-10-27"}, {"date": "2026-10-28T00:00:00"}]
+        assert yelmo_missing_dates(payload, target) == []
+        assert yelmo_missing_dates(None, target) == []
+        assert yelmo_missing_dates({"dates": None, "schedules": None}, target) == []
 
     def test_detected_labels_survive_normalize_lang(self):
         for label in ("ES", "VOSE", "VAL", "VO"):
