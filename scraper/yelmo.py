@@ -403,3 +403,47 @@ def scrape() -> "tuple[list[dict], list[str]]":
             browser.close()
 
     return results, diags
+
+
+def _debug(movie_id: str) -> None:
+    """Print what both schedule operations return for one film.
+
+    Run from the home server when the per-day counts look wrong:
+        python yelmo.py <movie-id>      (e.g. clayface)
+    """
+    def summary(name, payload):
+        print(f"\n=== {name}")
+        if not payload:
+            print("empty:", payload)
+            return
+        print("top-level dates:", payload.get("dates"))
+        for sched in payload.get("schedules") or []:
+            for day in sched.get("dates") or []:
+                counts = {f"{l.get('language')}": len(l.get("showtimes") or []) for l in day.get("languages") or []}
+                print("  ", day.get("date"), counts)
+        print("raw:", json.dumps(payload, ensure_ascii=False)[:2500])
+
+    with sync_playwright() as p:
+        browser, api = _open_api(p)
+        try:
+            for name, op, query, variables, key in (
+                ("BillboardOrderLinking", "BillboardOrderLinking", _ORDER_LINKING_QUERY,
+                 {"countryId": COUNTRY_ID, "movieId": movie_id, "cinemaId": CINEMA_ID,
+                  "controlTime": 0, "isAbsoluteExperiencePath": False}, "billboardOrderLinking"),
+                ("Billboard", "Billboard", _BILLBOARD_QUERY,
+                 {"countryId": COUNTRY_ID, "movieId": movie_id, "cinemas": CINEMA_ID,
+                  "timezone": "Europe/Madrid"}, "billboard"),
+                ("Billboard without timezone", "Billboard", _BILLBOARD_QUERY,
+                 {"countryId": COUNTRY_ID, "movieId": movie_id, "cinemas": CINEMA_ID}, "billboard"),
+            ):
+                try:
+                    summary(name, api.query(op, query, variables).get(key))
+                except Exception as e:
+                    print(f"\n=== {name}\nERROR: {e}")
+        finally:
+            browser.close()
+
+
+if __name__ == "__main__":
+    import sys
+    _debug(sys.argv[1] if len(sys.argv) > 1 else "clayface")
