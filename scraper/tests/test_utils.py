@@ -917,6 +917,18 @@ class TestYelmoApiParsing:
         assert yelmo_parse_showtime("2026-10-26T21:15:00Z") == ("2026-10-26", "22:15")
         assert yelmo_parse_showtime("2026-10-26T23:30:00+00:00") == ("2026-10-27", "00:30")
 
+    def test_parse_utc_datetime_in_summer_time(self):
+        # CEST (UTC+2) until 01:00 UTC on the last Sunday of October.
+        assert yelmo_parse_showtime("2026-07-01T16:00:00Z") == ("2026-07-01", "18:00")
+        assert yelmo_parse_showtime("2026-10-25T00:59:00Z") == ("2026-10-25", "02:59")
+        assert yelmo_parse_showtime("2026-10-25T01:00:00Z") == ("2026-10-25", "02:00")
+        # CET resumes; CEST starts again at 01:00 UTC on the last Sunday of March.
+        assert yelmo_parse_showtime("2027-03-28T00:59:00Z") == ("2027-03-28", "01:59")
+        assert yelmo_parse_showtime("2027-03-28T01:00:00Z") == ("2027-03-28", "03:00")
+
+    def test_parse_offset_datetime(self):
+        assert yelmo_parse_showtime("2026-10-26T18:00:00+01:00") == ("2026-10-26", "18:00")
+
     def test_parse_time_only_uses_fallback_date(self):
         assert yelmo_parse_showtime("9:05", "2026-10-27") == ("2026-10-27", "09:05")
         assert yelmo_parse_showtime("", "2026-10-27") is None

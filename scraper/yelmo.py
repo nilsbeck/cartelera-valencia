@@ -30,8 +30,7 @@ Cinema ids come from the `Cities` operation on
 
 import json
 import re
-from datetime import date, datetime, timedelta
-from zoneinfo import ZoneInfo
+from datetime import date, datetime, timedelta, timezone
 
 from playwright.sync_api import sync_playwright
 
@@ -39,7 +38,6 @@ SITE_URL     = "https://cineyelmo.com/es"
 BILLBOARDS   = "https://api-g.cinepolis.com/v2/billboards/graphql"
 COUNTRY_ID   = "ES"
 CINEMA_ID    = "mercado-de-campanar-valencia"
-MADRID       = ZoneInfo("Europe/Madrid")
 
 _UA = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
@@ -112,6 +110,25 @@ def _detect_language(language: str, display: str) -> str:
     return "ES"
 
 
+def _last_sunday(year: int, month: int) -> date:
+    d = date(year, month + 1, 1) - timedelta(days=1)
+    return d - timedelta(days=(d.weekday() - 6) % 7)
+
+
+def _to_madrid(dt: datetime) -> datetime:
+    """Convert an aware datetime to naive Madrid local time.
+
+    Done by hand rather than with zoneinfo: the Playwright Docker image the
+    scraper runs in ships no tz database, so ZoneInfo("Europe/Madrid") raises.
+    Peninsular Spain is CET (UTC+1), CEST (UTC+2) from 01:00 UTC on the last
+    Sunday of March to 01:00 UTC on the last Sunday of October (EU rule).
+    """
+    utc = dt.astimezone(timezone.utc).replace(tzinfo=None)
+    start = datetime.combine(_last_sunday(utc.year, 3), datetime.min.time()) + timedelta(hours=1)
+    end = datetime.combine(_last_sunday(utc.year, 10), datetime.min.time()) + timedelta(hours=1)
+    return utc + timedelta(hours=2 if start <= utc < end else 1)
+
+
 def _parse_showtime(raw: str, fallback_date: str = "") -> "tuple[str, str] | None":
     """Return (YYYY-MM-DD, HH:MM) in Madrid time for an API datetime.
 
@@ -124,7 +141,7 @@ def _parse_showtime(raw: str, fallback_date: str = "") -> "tuple[str, str] | Non
     try:
         dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
         if dt.tzinfo is not None:
-            dt = dt.astimezone(MADRID)
+            dt = _to_madrid(dt)
         return dt.date().isoformat(), dt.strftime("%H:%M")
     except ValueError:
         pass
