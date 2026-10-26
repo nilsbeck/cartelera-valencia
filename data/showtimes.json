@@ -2,6 +2,34 @@
   "updated_at": "2026-10-26T07:00:00Z",
   "movies": [
     {
+      "id": "tmdb-1105873",
+      "title": "TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW'",
+      "title_local": "TOMORROW X TOGETHER WORLD TOUR  ‘ACT : SWEET MIRAGE’",
+      "poster": "posters/tomorrow-x-together-world-tour-act-tomorrow.jpg",
+      "rating": 10.0,
+      "duration": 180,
+      "genres": [
+        "Música"
+      ],
+      "trailer_youtube_id": "l5qNCNFB9mE",
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "20:10",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-27",
+          "time": "20:10",
+          "url": "https://cineyelmo.com/es"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1380950",
       "title": "EL ESTIGMA DEL SILENCIO",
       "title_local": "El estigma del silencio",
@@ -765,6 +793,174 @@
           "date": "2026-10-29",
           "time": "22:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/wildwood-el-bosque-salvaje/92054/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "15:55",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "18:35",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "21:15",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "16:55",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "19:35",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "22:20",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "15:55",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "18:35",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "21:15",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-27",
+          "time": "16:55",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-27",
+          "time": "19:35",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-27",
+          "time": "22:15",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "15:55",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "18:35",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "21:15",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-28",
+          "time": "16:55",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-28",
+          "time": "19:35",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-28",
+          "time": "22:15",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "15:55",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "18:35",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "21:15",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "16:55",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "19:35",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "22:15",
+          "url": "https://cineyelmo.com/es"
         }
       ]
     },
@@ -7301,6 +7497,55 @@
           "date": "2026-10-29",
           "time": "18:45",
           "url": "https://kinepolis.es/movies/detail/35545/HO00006568/0/clayface"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "15:45",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "18:05",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "20:25",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "22:45",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "17:00",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "19:20",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "21:40",
+          "url": "https://cineyelmo.com/es"
         }
       ]
     },
@@ -8411,6 +8656,56 @@
           "date": "2026-10-28",
           "time": "21:40",
           "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/naza/389329/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "16:05",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-27",
+          "time": "17:10",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-28",
+          "time": "16:05",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "16:05",
+          "url": "https://cineyelmo.com/es"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-694",
+      "title": "El resplandor",
+      "title_local": "El resplandor",
+      "poster": "posters/el-resplandor.jpg",
+      "rating": 8.2,
+      "duration": 146,
+      "genres": [
+        "Terror",
+        "Suspense"
+      ],
+      "trailer_youtube_id": "jAE7dNurHR4",
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "20:00",
+          "url": "https://cineyelmo.com/es"
         }
       ]
     },
@@ -8536,6 +8831,27 @@
           "date": "2026-10-30",
           "time": "20:30",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3350"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "20:05",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "18:00",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "18:00",
+          "url": "https://cineyelmo.com/es"
         }
       ]
     },
@@ -8558,6 +8874,56 @@
           "date": "2026-10-29",
           "time": "18:00",
           "url": "https://kinepolis.es/movies/detail/11788/HO00006574/0/los-puentes-de-madison"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-4481",
+      "title": "Manon",
+      "title_local": "La venganza de Manon",
+      "poster": "posters/manon.jpg",
+      "rating": 7.6,
+      "duration": 120,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": "BxScSXKXwPc",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-10-27",
+          "time": "19:15",
+          "url": "https://kinepolis.es/movies/detail/38606/HO00006713/0/manon"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-948",
+      "title": "La Noche de Halloween",
+      "title_local": "La noche de Halloween",
+      "poster": "posters/la-noche-de-halloween.jpg",
+      "rating": 7.6,
+      "duration": 91,
+      "genres": [
+        "Terror",
+        "Suspense"
+      ],
+      "trailer_youtube_id": "NT0loXUv-ks",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "21:00",
+          "url": "https://kinepolis.es/movies/detail/6279/HO00001869/0/la-noche-de-halloween"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "21:00",
+          "url": "https://kinepolis.es/movies/detail/6279/HO00001869/0/la-noche-de-halloween"
         }
       ]
     },
@@ -11539,56 +11905,6 @@
       ]
     },
     {
-      "id": "tmdb-4481",
-      "title": "Manon",
-      "title_local": "La venganza de Manon",
-      "poster": "posters/manon.jpg",
-      "rating": 7.6,
-      "duration": 120,
-      "genres": [
-        "Drama"
-      ],
-      "trailer_youtube_id": "BxScSXKXwPc",
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-10-27",
-          "time": "19:15",
-          "url": "https://kinepolis.es/movies/detail/38606/HO00006713/0/manon"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-948",
-      "title": "La Noche de Halloween",
-      "title_local": "La noche de Halloween",
-      "poster": "posters/la-noche-de-halloween.jpg",
-      "rating": 7.6,
-      "duration": 91,
-      "genres": [
-        "Terror",
-        "Suspense"
-      ],
-      "trailer_youtube_id": "NT0loXUv-ks",
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-30",
-          "time": "21:00",
-          "url": "https://kinepolis.es/movies/detail/6279/HO00001869/0/la-noche-de-halloween"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-10-31",
-          "time": "21:00",
-          "url": "https://kinepolis.es/movies/detail/6279/HO00001869/0/la-noche-de-halloween"
-        }
-      ]
-    },
-    {
       "id": "tmdb-1477104",
       "title": "La Oveja Shaun: Misión Calabaza",
       "title_local": "La Oveja Shaun: Misión Calabaza",
@@ -11666,6 +11982,27 @@
           "date": "2026-11-01",
           "time": "12:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-familiar-la-oveja-shaun-mision-calabaza/67610/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-377",
+      "title": "Pesadilla en Elm Street",
+      "title_local": "Pesadilla en Elm Street",
+      "poster": "posters/pesadilla-en-elm-street.jpg",
+      "rating": 7.4,
+      "duration": 91,
+      "genres": [
+        "Terror"
+      ],
+      "trailer_youtube_id": "CBcVZcornjI",
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "20:00",
+          "url": "https://cineyelmo.com/es"
         }
       ]
     },
@@ -12740,6 +13077,160 @@
           "date": "2026-10-29",
           "time": "22:05",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3466"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "16:25",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "19:05",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "21:45",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "17:20",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "19:55",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "22:30",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "16:25",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "19:05",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "21:45",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-27",
+          "time": "17:20",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-27",
+          "time": "19:55",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-27",
+          "time": "22:30",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "15:45",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "19:30",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "22:30",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-28",
+          "time": "16:45",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-28",
+          "time": "19:25",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-28",
+          "time": "22:05",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "16:50",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "21:55",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "22:25",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "19:30",
+          "url": "https://cineyelmo.com/es"
         }
       ]
     },
@@ -14332,6 +14823,20 @@
           "date": "2026-10-29",
           "time": "22:35",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3417"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "16:15",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "18:25",
+          "url": "https://cineyelmo.com/es"
         }
       ]
     },
@@ -16739,6 +17244,43 @@
           "date": "2026-10-28",
           "time": "18:05",
           "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3425"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-920",
+      "title": "Cars 20º Aniversario",
+      "title_local": "Cars",
+      "poster": "posters/cars-20-aniversario.jpg",
+      "rating": 7.1,
+      "duration": 116,
+      "genres": [
+        "Animación",
+        "Aventura",
+        "Comedia"
+      ],
+      "trailer_youtube_id": "XszNWHhpaTc",
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "17:45",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "17:45",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "17:45",
+          "url": "https://cineyelmo.com/es"
         }
       ]
     },
@@ -33544,6 +34086,55 @@
           "date": "2026-10-29",
           "time": "22:00",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3332"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-bola-negra/389374/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-bola-negra/389375/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-bola-negra/389404/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "17:15",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "18:40",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "20:20",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "21:50",
+          "url": "https://cineyelmo.com/es"
         }
       ]
     },
@@ -37461,6 +38052,27 @@
       ]
     },
     {
+      "id": "tmdb-1780585",
+      "title": "29-O DANA",
+      "title_local": "29-O Dana",
+      "poster": "posters/29-o-dana.jpg",
+      "rating": 5.0,
+      "duration": 110,
+      "genres": [
+        "Documental"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "19:00",
+          "url": "https://cineyelmo.com/es"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1634140",
       "title": "MALA BESTIA",
       "title_local": "Mala bestia",
@@ -38383,6 +38995,118 @@
           "date": "2026-10-29",
           "time": "18:30",
           "url": "https://kinepolis.es/movies/detail/39236/HO00006706/0/arriba-tutto"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "16:10",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "18:20",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "20:35",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "22:40",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "16:10",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "18:20",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "20:30",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "22:40",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "16:10",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "18:20",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "20:30",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "22:40",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "16:10",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "18:20",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "20:30",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "22:40",
+          "url": "https://cineyelmo.com/es"
         }
       ]
     },
@@ -44444,6 +45168,20 @@
           "date": "2026-10-29",
           "time": "15:45",
           "url": "https://kinepolis.es/movies/detail/38544/HO00006557/0/en-el-corazon-de-la-bestia"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "20:45",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "22:50",
+          "url": "https://cineyelmo.com/es"
         }
       ]
     },
@@ -47159,6 +47897,20 @@
           "date": "2026-10-29",
           "time": "20:00",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3422"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "22:35",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "22:35",
+          "url": "https://cineyelmo.com/es"
         }
       ]
     },
@@ -48224,6 +48976,27 @@
           "date": "2026-10-29",
           "time": "16:00",
           "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3430"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "17:10",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "19:45",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "22:20",
+          "url": "https://cineyelmo.com/es"
         }
       ]
     },
@@ -55317,6 +56090,20 @@
           "date": "2026-10-28",
           "time": "22:25",
           "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52839"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "20:15",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "22:25",
+          "url": "https://cineyelmo.com/es"
         }
       ]
     },
@@ -57474,6 +58261,20 @@
           "date": "2026-10-29",
           "time": "22:35",
           "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3421"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "17:05",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "19:40",
+          "url": "https://cineyelmo.com/es"
         }
       ]
     },
@@ -57987,6 +58788,34 @@
           "date": "2026-10-29",
           "time": "19:00",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3461"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "16:00",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "18:10",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "19:00",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "16:45",
+          "url": "https://cineyelmo.com/es"
         }
       ]
     },
@@ -69559,6 +70388,13 @@
           "date": "2026-10-29",
           "time": "22:40",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/verity-la-sombra-de-un-engano/92011/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "17:25",
+          "url": "https://cineyelmo.com/es"
         }
       ]
     },
@@ -71569,474 +72405,20 @@
           "date": "2026-10-29",
           "time": "21:00",
           "url": "https://kinepolis.es/movies/detail/36602/HO00006597/0/whalefall"
-        }
-      ]
-    },
-    {
-      "id": "local-200-dias-paco-rabal",
-      "title": "200 DÍAS, PACO RABAL",
-      "title_local": "200 DÍAS, PACO RABAL",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-23",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/200-dias-paco-rabal/389199/?step=2"
         },
         {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-24",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/200-dias-paco-rabal/389200/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-25",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/200-dias-paco-rabal/389201/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-26",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/200-dias-paco-rabal/389374/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-27",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/200-dias-paco-rabal/389403/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-28",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/200-dias-paco-rabal/389328/?step=2"
-        },
-        {
-          "cinema": "lys",
+          "cinema": "yelmo",
           "language": "ES",
           "date": "2026-10-29",
-          "time": "16:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/200-dias-paco-rabal/389438/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-cine-club-lys-la-bola-negra",
-      "title": "CINE CLUB LYS, LA BOLA NEGRA",
-      "title_local": "CINE CLUB LYS, LA BOLA NEGRA",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-26",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cine-club-lys-la-bola-negra/389157/?step=2"
+          "time": "22:00",
+          "url": "https://cineyelmo.com/es"
         },
         {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-26",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cine-club-lys-la-bola-negra/389158/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-26",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cine-club-lys-la-bola-negra/389156/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-cita-a-ciegas-con-el-cine",
-      "title": "CITA A CIEGAS CON EL CINE",
-      "title_local": "CITA A CIEGAS CON EL CINE",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "lys",
+          "cinema": "yelmo",
           "language": "VOSE",
-          "date": "2026-10-06",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cita-a-ciegas-con-el-cine/388135/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-13",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cita-a-ciegas-con-el-cine/388479/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-10-13",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cita-a-ciegas-con-el-cine/388479/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-20",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cita-a-ciegas-con-el-cine/388808/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-10-20",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cita-a-ciegas-con-el-cine/388808/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-27",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cita-a-ciegas-con-el-cine/389431/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1482560",
-      "title": "El mal hijo",
-      "title_local": "El mal hijo",
-      "poster": "posters/el-mal-hijo.jpg",
-      "rating": null,
-      "duration": 106,
-      "genres": [
-        "Drama"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-16",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-mal-hijo/67465/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-17",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-mal-hijo/67466/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-19",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-mal-hijo/67542/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-20",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-mal-hijo/67561/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-21",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-mal-hijo/67579/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/el-mal-hijo/2520/"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-16",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/388945/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-16",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/388946/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-17",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/388947/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-17",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/388948/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/388949/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/388950/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-20",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/389045/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-20",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/389046/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-21",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/389123/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-21",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/389124/?step=2"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-16",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-17",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-21",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-21",
-          "time": "22:10",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "22:10",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-16",
-          "time": "20:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-17",
-          "time": "20:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "20:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-19",
-          "time": "20:05",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-20",
-          "time": "20:05",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-21",
-          "time": "20:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "20:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-17",
-          "time": "18:10",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52485"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "18:10",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52488"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-19",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52491"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-20",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52495"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-21",
-          "time": "18:05",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52499"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52503"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-23",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/389303/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-24",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/389304/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-25",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/389305/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-28",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/389362/?step=2"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "22:20",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3418"
-        }
-      ]
-    },
-    {
-      "id": "local-paprika-ciclo-anime-saikuro",
-      "title": "PAPRIKA, CICLO ANIME SAIKURO",
-      "title_local": "PAPRIKA, CICLO ANIME SAIKURO",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-10-26",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/paprika-ciclo-anime-saikuro/386249/?step=2"
+          "date": "2026-10-29",
+          "time": "16:20",
+          "url": "https://cineyelmo.com/es"
         }
       ]
     },
@@ -72094,6 +72476,20 @@
           "date": "2026-10-29",
           "time": "20:30",
           "url": "https://kinepolis.es/movies/detail/38434/HO00006712/0/ozzy-black-sabbath-back-to-the-beginning"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-28",
+          "time": "20:00",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "20:00",
+          "url": "https://cineyelmo.com/es"
         }
       ]
     },
@@ -92710,6 +93106,474 @@
       ]
     },
     {
+      "id": "local-200-dias-paco-rabal",
+      "title": "200 DÍAS, PACO RABAL",
+      "title_local": "200 DÍAS, PACO RABAL",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/200-dias-paco-rabal/389199/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/200-dias-paco-rabal/389200/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/200-dias-paco-rabal/389201/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/200-dias-paco-rabal/389374/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/200-dias-paco-rabal/389403/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/200-dias-paco-rabal/389328/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "16:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/200-dias-paco-rabal/389438/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-cine-club-lys-la-bola-negra",
+      "title": "CINE CLUB LYS, LA BOLA NEGRA",
+      "title_local": "CINE CLUB LYS, LA BOLA NEGRA",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cine-club-lys-la-bola-negra/389157/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cine-club-lys-la-bola-negra/389158/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cine-club-lys-la-bola-negra/389156/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-cita-a-ciegas-con-el-cine",
+      "title": "CITA A CIEGAS CON EL CINE",
+      "title_local": "CITA A CIEGAS CON EL CINE",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-10-06",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cita-a-ciegas-con-el-cine/388135/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-13",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cita-a-ciegas-con-el-cine/388479/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-10-13",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cita-a-ciegas-con-el-cine/388479/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-20",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cita-a-ciegas-con-el-cine/388808/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-10-20",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cita-a-ciegas-con-el-cine/388808/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/cita-a-ciegas-con-el-cine/389431/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1482560",
+      "title": "El mal hijo",
+      "title_local": "El mal hijo",
+      "poster": "posters/el-mal-hijo.jpg",
+      "rating": null,
+      "duration": 106,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-16",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-mal-hijo/67465/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-17",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-mal-hijo/67466/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-19",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-mal-hijo/67542/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-20",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-mal-hijo/67561/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-21",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-mal-hijo/67579/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/el-mal-hijo/2520/"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-16",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/388945/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-16",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/388946/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-17",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/388947/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-17",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/388948/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/388949/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/388950/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-20",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/389045/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-20",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/389046/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-21",
+          "time": "19:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/389123/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-21",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/389124/?step=2"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-16",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3418"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-17",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3418"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3418"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-21",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3418"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-21",
+          "time": "22:10",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3418"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3418"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "22:10",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3418"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-16",
+          "time": "20:25",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3418"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-17",
+          "time": "20:25",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3418"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "20:25",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3418"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-19",
+          "time": "20:05",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3418"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-20",
+          "time": "20:05",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3418"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-21",
+          "time": "20:25",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3418"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "20:25",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3418"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-17",
+          "time": "18:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52485"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "18:10",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52488"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-19",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52491"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-20",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52495"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-21",
+          "time": "18:05",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52499"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "18:00",
+          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52503"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/389303/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/389304/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/389305/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "22:35",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/389362/?step=2"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "22:20",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3418"
+        }
+      ]
+    },
+    {
+      "id": "local-paprika-ciclo-anime-saikuro",
+      "title": "PAPRIKA, CICLO ANIME SAIKURO",
+      "title_local": "PAPRIKA, CICLO ANIME SAIKURO",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/paprika-ciclo-anime-saikuro/386249/?step=2"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1248832",
       "title": "Digger",
       "title_local": "Digger",
@@ -96896,6 +97760,157 @@
           "date": "2026-12-15",
           "time": "19:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/dune-parte-tres-preestrenos-exclusivos/66877/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-bts-world-tour-arirang-in-sao-paulo-live-viewing",
+      "title": "BTS WORLD TOUR ARIRANG IN SAO PAULO: LIVE VIEWING",
+      "title_local": "BTS WORLD TOUR ARIRANG IN SAO PAULO: LIVE VIEWING",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-31",
+          "time": "14:45",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-31",
+          "time": "18:30",
+          "url": "https://cineyelmo.com/es"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1662735",
+      "title": "SEVENTEEN WORLD TOUR 'NEW_'",
+      "title_local": "SEVENTEEN WORLD TOUR [NEW_] ENCORE",
+      "poster": "posters/seventeen-world-tour-new.jpg",
+      "rating": null,
+      "duration": 126,
+      "genres": [
+        "Música"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "18:00",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "20:00",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-30",
+          "time": "20:00",
+          "url": "https://cineyelmo.com/es"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1785968",
+      "title": "ENHYPEN WORLD TOUR 'BLOOD SAGA'",
+      "title_local": "엔하이픈 월드 투어 ‘블러드 사가’",
+      "poster": "posters/enhypen-world-tour-blood-saga.jpg",
+      "rating": null,
+      "duration": 101,
+      "genres": [
+        "Música",
+        "Documental"
+      ],
+      "trailer_youtube_id": "q0XKUFGn_M4",
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-27",
+          "time": "18:00",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-28",
+          "time": "20:00",
+          "url": "https://cineyelmo.com/es"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1797226",
+      "title": "HYBE CHEERING PARTY",
+      "title_local": "하이브 치어링 파티",
+      "poster": "posters/hybe-cheering-party.jpg",
+      "rating": null,
+      "duration": 60,
+      "genres": [
+        "Música"
+      ],
+      "trailer_youtube_id": "q0XKUFGn_M4",
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-28",
+          "time": "18:00",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "18:00",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-30",
+          "time": "18:00",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-31",
+          "time": "16:00",
+          "url": "https://cineyelmo.com/es"
+        }
+      ]
+    },
+    {
+      "id": "local-manon-ballet-live-roh-26-27",
+      "title": "Manon - Ballet Live ROH 26-27",
+      "title_local": "Manon - Ballet Live ROH 26-27",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-27",
+          "time": "20:15",
+          "url": "https://cineyelmo.com/es"
         }
       ]
     },
