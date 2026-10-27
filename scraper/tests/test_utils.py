@@ -974,7 +974,7 @@ class TestYelmoApiParsing:
         assert yelmo_detect_lang("ESP", "Español") == "ES"
         assert yelmo_detect_lang("VOSE", "Inglés subtitulado") == "VOSE"
         assert yelmo_detect_lang("SUB", "Subtitulada") == "VOSE"
-        assert yelmo_detect_lang("ENG", "Inglés") == "VOSE"
+        assert yelmo_detect_lang("ENG", "Inglés") == "VO"
         assert yelmo_detect_lang("VAL", "Valenciano") == "VAL"
         assert yelmo_detect_lang("VO", "Versión original") == "VO"
         assert yelmo_detect_lang("", "") == "ES"
@@ -984,6 +984,10 @@ class TestYelmoApiParsing:
         assert yelmo_detect_lang("ESP", "ESPAÑOL") == "ES"
         assert yelmo_detect_lang("SUB ESP", "SUB ESP") == "VOSE"
         assert yelmo_detect_lang("COR", "COR") == "VOSE"  # Korean (K-pop concerts)
+        # Seen from 2026-10-27; subtitled sessions are "SUB ESP".
+        assert yelmo_detect_lang("NO SUB", "NO SUB") == "VO"
+        assert yelmo_detect_lang("ING", "INGLÉS") == "VO"
+        assert yelmo_detect_lang("ING", "Inglés subtitulado") == "VOSE"
 
     def test_detected_labels_survive_normalize_lang(self):
         for label in ("ES", "VOSE", "VAL", "VO"):

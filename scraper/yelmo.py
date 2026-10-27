@@ -101,16 +101,20 @@ def _log(msg: str) -> None:
 def _detect_language(language: str, display: str) -> str:
     """Map the API's (language, displayLanguage) pair to VOSE / VAL / VO / ES.
 
-    Codes seen on the first live run (2026-10-26): ("ESP", "ESPAÑOL"),
-    ("SUB ESP", "SUB ESP") and ("COR", "COR"), the last being Korean, used for
-    the K-pop concert films. Anything else is matched on substrings of both
-    fields. A foreign language without an explicit dubbing marker counts as
-    VOSE: Yelmo labelled those "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)" on the
-    old site, and showing a film undubbed without subtitles is not something
-    it does.
+    Codes seen live: ("ESP", "ESPAÑOL"), ("SUB ESP", "SUB ESP"), ("COR",
+    "COR") — Korean, for the K-pop concert films — and, from 2026-10-27,
+    ("ING", "INGLÉS") and ("NO SUB", "NO SUB"). The API marks subtitled
+    sessions as "SUB ESP", so "NO SUB" is original audio without subtitles,
+    and plain English is taken the same way: VO. Other foreign languages
+    without a dubbing marker count as VOSE; Korean or Japanese unsubtitled is
+    not something a Spanish multiplex shows. Anything else is matched on
+    substrings of both fields.
     """
     text = f"{language} {display}".lower()
     tokens = set(re.findall(r"[a-zà-ü.]+", text))
+    # Before the VOSE check, which would otherwise match the "sub" in it.
+    if re.search(r"\bno[\s_-]*sub", text) or "sin subt" in text:
+        return "VO"
     if "vose" in text or "v.o.s.e" in text or "subt" in text or tokens & {"vos", "sub", "subs"}:
         return "VOSE"
     if "valen" in text or tokens & {"val", "va", "vlc"}:
@@ -119,8 +123,10 @@ def _detect_language(language: str, display: str) -> str:
         return "ES"
     if "original" in text or "v.o." in text or tokens & {"vo"}:
         return "VO"
-    if (any(w in text for w in ("ingl", "english", "corea", "japon", "franc", "italia", "alem"))
-            or tokens & {"en", "eng", "ing", "cor", "kor", "jap", "jpn", "fra", "ita", "ale"}):
+    if "ingl" in text or "english" in text or tokens & {"en", "eng", "ing"}:
+        return "VO"
+    if (any(w in text for w in ("corea", "japon", "franc", "italia", "alem"))
+            or tokens & {"cor", "kor", "jap", "jpn", "fra", "ita", "ale"}):
         return "VOSE"
     return "ES"
 
@@ -361,7 +367,7 @@ def scrape() -> "tuple[list[dict], list[str]]":
             # ── Phase 2: sessions per movie ───────────────────────────────
             use_billboard = True
             errors: list[str] = []
-            langs_seen: set = set()
+            lang_titles: dict = {}
             for movie_id, title in movies.items():
                 schedule = None
                 try:
@@ -389,13 +395,19 @@ def scrape() -> "tuple[list[dict], list[str]]":
                     errors.append(f"{title}: {e}")
                     continue
                 rows, langs = _extract_showtimes(schedule, title, target_dates, SITE_URL)
-                langs_seen |= langs
+                for pair in langs:
+                    titles = lang_titles.setdefault(pair, [])
+                    if len(titles) < 3:
+                        titles.append(title)
                 results.extend(rows)
 
             per_day = {d: sum(1 for r in results if r["date"] == d) for d in sorted(target_dates)}
             _log(f"  [yelmo] showtimes per day: {per_day}")
             diags.append(f"showtimes per day: {per_day}")
-            diags.append(f"languages seen (code, display): {sorted(langs_seen)}")
+            # A few titles per code, so a doubtful label can be checked on the site.
+            diags.append("languages seen: " + "; ".join(
+                f"{code}/{display} → {_detect_language(code, display)} ({', '.join(t)})"
+                for (code, display), t in sorted(lang_titles.items())))
             if errors:
                 _log(f"  ⚠ Yelmo: {len(errors)} schedule requests failed, first: {errors[0]}")
                 diags.append(f"{len(errors)} schedule requests failed, first: {errors[0]}")
