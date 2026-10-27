@@ -210,10 +210,12 @@ class _Api:
          same-origin and CORS does not apply.
     """
 
-    def __init__(self, ctx, page, headers: dict):
+    def __init__(self, ctx, page, headers: dict, refresh=None):
         self.ctx = ctx
         self.page = page
         self.headers = headers
+        self.refresh = refresh
+        self.refreshed = False
         self.chosen = None
         self.api_page = None
 
@@ -227,15 +229,31 @@ class _Api:
         headers = self.headers if how == 1 else {"content-type": "application/json"}
         return self.page.evaluate(_FETCH_JS, {"url": BILLBOARDS, "body": body, "headers": headers})
 
+    def _send_1(self, body: str) -> dict:
+        """Way 1, re-copying the site's headers once if the API says unauthorised.
+
+        The API wants the x-apikey the site sends (and country-id, language).
+        A 401 on 2026-10-27 after a clean run the day before means the copied
+        credential went stale or was never captured; reloading the site and
+        copying its headers again is the cheapest way to get a current one.
+        """
+        resp = self._send(1, body)
+        if resp["status"] in (401, 403) and self.refresh and not self.refreshed:
+            self.refreshed = True
+            _log(f"  [yelmo] API answered {resp['status']}; reloading the site to copy fresh headers")
+            self.headers = self.refresh()
+            resp = self._send(1, body)
+        return resp
+
     def query(self, operation: str, query: str, variables: dict) -> dict:
         body = json.dumps({"operationName": operation, "variables": variables, "query": query})
         if self.chosen:
-            resp = self._send(self.chosen, body)
+            resp = self._send_1(body) if self.chosen == 1 else self._send(self.chosen, body)
         else:
             failures = []
             for how in (1, 2, 3):
                 try:
-                    resp = self._send(how, body)
+                    resp = self._send_1(body) if how == 1 else self._send(how, body)
                 except Exception as e:
                     failures.append(f"way {how}: {str(e).splitlines()[0][:160]}")
                     continue
@@ -243,15 +261,26 @@ class _Api:
                     self.chosen = how
                     _log(f"  [yelmo] API calls work via way {how}")
                     break
-                failures.append(f"way {how}: HTTP {resp['status']}")
+                failures.append(f"way {how}: HTTP {resp['status']} {resp['text'][:120]!r}")
             else:
-                raise RuntimeError(f"{operation}: no way of calling the API worked: {'; '.join(failures)}")
+                # Header names only, never values (the key, session ids).
+                raise RuntimeError(
+                    f"{operation}: no way of calling the API worked: {'; '.join(failures)}; "
+                    f"replayed header names: {sorted(self.headers)}")
         if resp["status"] != 200:
             raise RuntimeError(f"{operation}: HTTP {resp['status']} {resp['text'][:200]}")
         payload = json.loads(resp["text"])
         if payload.get("errors") and not payload.get("data"):
             raise RuntimeError(f"{operation}: {payload['errors'][0].get('message', payload['errors'])}")
         return payload.get("data") or {}
+
+
+def _replayable(captured: dict) -> dict:
+    headers = {k: v for k, v in captured.items()
+               if not k.startswith(":") and not k.lower().startswith(("sec-", "x-dt"))
+               and k.lower() not in _DROP_HEADERS}
+    headers.setdefault("content-type", "application/json")
+    return headers
 
 
 def _open_api(p):
@@ -266,14 +295,24 @@ def _open_api(p):
             captured.update(req.all_headers())
 
     page.on("request", on_request)
-    status = None
-    try:
-        resp = page.goto(SITE_URL, timeout=45000)
-        status = resp.status if resp else None
+
+    def load(reload: bool) -> "int | None":
+        captured.clear()
+        resp = page.reload(timeout=45000) if reload else page.goto(SITE_URL, timeout=45000)
         for _ in range(40):
             if captured:
                 break
             page.wait_for_timeout(500)
+        return resp.status if resp else None
+
+    status = None
+    try:
+        status = load(reload=False)
+        if not captured and not (status and status >= 400):
+            # Seen once: the site's own billboard request had not gone out
+            # within 20s, so there was no x-apikey to copy. Try once more.
+            _log("  [yelmo] no billboard request seen on the homepage; reloading once")
+            status = load(reload=True)
     except Exception as e:
         browser.close()
         raise RuntimeError(f"Yelmo site load failed (status={status}): {e}") from e
@@ -281,18 +320,18 @@ def _open_api(p):
     if status and status >= 400:
         browser.close()
         raise RuntimeError(f"Yelmo site load failed: HTTP {status} at {page.url}")
-
-    headers = {k: v for k, v in captured.items()
-               if not k.startswith(":") and not k.lower().startswith(("sec-", "x-dt"))
-               and k.lower() not in _DROP_HEADERS}
     if not captured:
-        # The site never called the API on its own; fetch() from the page
-        # still supplies origin, referer and user agent itself.
-        _log("  [yelmo] no billboard request seen on the homepage; using default headers")
+        _log("  [yelmo] still no billboard request seen; calls will go without the site's headers")
+
     # Names only: values may carry session ids or tokens and must not be logged.
-    _log(f"  [yelmo] site request headers: {sorted(captured)}; replaying: {sorted(headers)}")
-    headers.setdefault("content-type", "application/json")
-    return browser, _Api(ctx, page, headers)
+    _log(f"  [yelmo] site request headers: {sorted(captured)}")
+
+    def refresh() -> dict:
+        load(reload=True)
+        _log(f"  [yelmo] re-copied site request headers: {sorted(captured)}")
+        return _replayable(captured)
+
+    return browser, _Api(ctx, page, _replayable(captured), refresh)
 
 
 def scrape() -> "tuple[list[dict], list[str]]":
