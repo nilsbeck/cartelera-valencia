@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T07:00:00Z",
+  "updated_at": "2026-10-29T07:00:00Z",
   "movies": [
     {
       "id": "tmdb-1380950",
@@ -833,6 +833,118 @@
           "date": "2026-11-05",
           "time": "19:00",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3460"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/38332/HO00006741/0/wildwood"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "17:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11003"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "17:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11003"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "17:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11003"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "17:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11003"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "17:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11003"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "17:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11003"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "17:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11003"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "15:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11003"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "15:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11003"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "15:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11003"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "15:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11003"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "15:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11003"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "15:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11003"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "15:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11003"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "22:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3460"
         }
       ]
     },
@@ -1421,6 +1533,34 @@
           "cinema": "yelmo",
           "language": "VOSE",
           "date": "2026-11-03",
+          "time": "19:35",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "22:10",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "16:55",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "22:15",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-11-04",
           "time": "19:35",
           "url": "https://cineyelmo.com/es"
         }
@@ -7272,6 +7412,286 @@
           "date": "2026-11-05",
           "time": "16:30",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3426"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "18:45",
+          "url": "https://kinepolis.es/movies/detail/35545/HO00006568/0/clayface"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "21:00",
+          "url": "https://kinepolis.es/movies/detail/35545/HO00006568/0/clayface"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "18:45",
+          "url": "https://kinepolis.es/movies/detail/35545/HO00006568/0/clayface"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "16:15",
+          "url": "https://kinepolis.es/movies/detail/35545/HO00006568/0/clayface"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "22:35",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "18:05",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "22:45",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "15:45",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "20:20",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "18:10",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10876"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "20:20",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10876"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "22:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10876"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "11:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10876"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "18:10",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10876"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "20:20",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10876"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "22:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10876"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "11:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10876"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "18:10",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10876"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "20:20",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10876"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "22:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10876"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "18:10",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10876"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "20:20",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10876"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "22:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10876"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "18:10",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10876"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "20:20",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10876"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "22:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10876"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "18:10",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10876"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "20:20",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10876"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "22:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10876"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "18:10",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10876"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "20:20",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10876"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "22:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10876"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "16:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3426"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3426"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3426"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3426"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3426"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3426"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3426"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3426"
         }
       ]
     },
@@ -7919,6 +8339,34 @@
           "date": "2026-11-03",
           "time": "18:30",
           "url": "https://kinepolis.es/movies/detail/38769/HO00006588/0/la-bola-negra-sin-subtitulos"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/38769/HO00006588/0/la-bola-negra-sin-subtitulos"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "21:00",
+          "url": "https://kinepolis.es/movies/detail/38769/HO00006588/0/la-bola-negra-sin-subtitulos"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "17:30",
+          "url": "https://kinepolis.es/movies/detail/38769/HO00006588/0/la-bola-negra-sin-subtitulos"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "19:30",
+          "url": "https://kinepolis.es/movies/detail/38769/HO00006588/0/la-bola-negra-sin-subtitulos"
         }
       ]
     },
@@ -8032,6 +8480,35 @@
           "date": "2026-11-01",
           "time": "22:25",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-694",
+      "title": "El resplandor",
+      "title_local": "El resplandor",
+      "poster": "posters/el-resplandor.jpg",
+      "rating": 8.2,
+      "duration": 146,
+      "genres": [
+        "Terror",
+        "Suspense"
+      ],
+      "trailer_youtube_id": "jAE7dNurHR4",
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "19:55",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "mn4",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/el-resplandor/90699/?step=2"
         }
       ]
     },
@@ -8732,28 +9209,76 @@
           "date": "2026-11-03",
           "time": "16:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3402"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-694",
-      "title": "El resplandor",
-      "title_local": "El resplandor",
-      "poster": "posters/el-resplandor.jpg",
-      "rating": 8.2,
-      "duration": 146,
-      "genres": [
-        "Terror",
-        "Suspense"
-      ],
-      "trailer_youtube_id": "jAE7dNurHR4",
-      "showtimes": [
+        },
         {
-          "cinema": "yelmo",
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/naza/389567/?step=2"
+        },
+        {
+          "cinema": "lys",
           "language": "ES",
           "date": "2026-10-31",
-          "time": "19:55",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/naza/389568/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/naza/389569/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/naza/389680/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/naza/389710/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/naza/389746/?step=2"
+        },
+        {
+          "cinema": "lys",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/naza/389789/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "16:15",
           "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/naza/67918/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/naza/67911/?step=2"
         }
       ]
     },
@@ -8777,6 +9302,35 @@
           "date": "2026-11-05",
           "time": "19:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-club-wicker/67939/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-05",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-club-wicker/67939/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1610820",
+      "title": "SANTO ANTONIO - O CASAMENTEIRO DE LISBOA (41º MOSTRA DE VALÈNCIA)",
+      "title_local": "Santo António - O Casamenteiro de Lisboa",
+      "poster": "posters/santo-antonio-o-casamenteiro-de-lisboa-41-mostra-de-valencia.jpg",
+      "rating": 8.0,
+      "duration": 119,
+      "genres": [
+        "Comedia",
+        "Familia"
+      ],
+      "trailer_youtube_id": "kCGwKEo_xTA",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-07",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3493"
         }
       ]
     },
@@ -8821,57 +9375,13 @@
           "date": "2026-11-25",
           "time": "19:30",
           "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-ciudad-de-las-estrellas-la-la-land/389532/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1620313",
-      "title": "EL SAMURÁI Y EL PRISIONERO",
-      "title_local": "El samurai y el prisionero",
-      "poster": "posters/el-samurai-y-el-prisionero.jpg",
-      "rating": 7.9,
-      "duration": 147,
-      "genres": [
-        "Drama",
-        "Historia",
-        "Misterio"
-      ],
-      "trailer_youtube_id": "dY5kXykdbLo",
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-23",
-          "time": "22:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3459"
         },
         {
-          "cinema": "abc_park",
+          "cinema": "lys",
           "language": "VOSE",
-          "date": "2026-10-25",
-          "time": "22:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3459"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-26",
-          "time": "22:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3459"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-27",
-          "time": "22:15",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3459"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-28",
-          "time": "22:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3459"
+          "date": "2026-11-25",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/la-ciudad-de-las-estrellas-la-la-land/389532/?step=2"
         }
       ]
     },
@@ -9091,27 +9601,13 @@
           "date": "2026-11-03",
           "time": "16:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67894/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1483525",
-      "title": "Cine Club – Un amor posible",
-      "title_local": "가능한 사랑",
-      "poster": "posters/cine-club-un-amor-posible.jpg",
-      "rating": 7.8,
-      "duration": 165,
-      "genres": [
-        "Drama"
-      ],
-      "trailer_youtube_id": "zd3qXH9qN70",
-      "showtimes": [
+        },
         {
           "cinema": "babel",
           "language": "VOSE",
-          "date": "2026-10-29",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-club-un-amor-posible/67786/?step=2"
+          "date": "2026-11-04",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-amor-posible/67912/?step=2"
         }
       ]
     },
@@ -9184,6 +9680,34 @@
           "date": "2026-11-01",
           "time": "12:15",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3350"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-30",
+          "time": "18:10",
+          "url": "https://cineyelmo.com/es"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1483525",
+      "title": "Cine Club – Un amor posible",
+      "title_local": "가능한 사랑",
+      "poster": "posters/cine-club-un-amor-posible.jpg",
+      "rating": 7.8,
+      "duration": 165,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": "zd3qXH9qN70",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-club-un-amor-posible/67786/?step=2"
         }
       ]
     },
@@ -9367,6 +9891,13 @@
           "language": "ES",
           "date": "2026-11-03",
           "time": "22:35",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "22:45",
           "url": "https://cineyelmo.com/es"
         }
       ]
@@ -12398,29 +12929,6 @@
       ]
     },
     {
-      "id": "tmdb-9693",
-      "title": "HIJOS DE LOS HOMBRES",
-      "title_local": "Hijos de los hombres",
-      "poster": "posters/hijos-de-los-hombres.jpg",
-      "rating": 7.6,
-      "duration": 109,
-      "genres": [
-        "Ciencia ficción",
-        "Suspense",
-        "Acción"
-      ],
-      "trailer_youtube_id": "2VT2apoX90o",
-      "showtimes": [
-        {
-          "cinema": "lys",
-          "language": "VOSE",
-          "date": "2026-10-28",
-          "time": "19:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/hijos-de-los-hombres/386861/?step=2"
-        }
-      ]
-    },
-    {
       "id": "tmdb-948",
       "title": "La Noche de Halloween",
       "title_local": "La noche de Halloween",
@@ -12496,6 +13004,13 @@
           "language": "ES",
           "date": "2026-11-03",
           "time": "16:25",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "16:30",
           "url": "https://cineyelmo.com/es"
         }
       ]
@@ -12668,6 +13183,48 @@
           "date": "2026-11-03",
           "time": "17:40",
           "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/37659/HO00006751/0/la-oveja-shaun-mision-calabaza"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VO",
+          "date": "2026-11-04",
+          "time": "15:50",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VO",
+          "date": "2026-11-04",
+          "time": "17:40",
+          "url": "https://cineyelmo.com/es"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-377",
+      "title": "Pesadilla en Elm Street",
+      "title_local": "Pesadilla en Elm Street",
+      "poster": "posters/pesadilla-en-elm-street.jpg",
+      "rating": 7.4,
+      "duration": 91,
+      "genres": [
+        "Terror"
+      ],
+      "trailer_youtube_id": "CBcVZcornjI",
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "20:00",
+          "url": "https://cineyelmo.com/es"
         }
       ]
     },
@@ -12691,27 +13248,6 @@
           "date": "2026-11-01",
           "time": "12:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-familiar-la-oveja-shaun-mision-calabaza/67610/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-377",
-      "title": "Pesadilla en Elm Street",
-      "title_local": "Pesadilla en Elm Street",
-      "poster": "posters/pesadilla-en-elm-street.jpg",
-      "rating": 7.4,
-      "duration": 91,
-      "genres": [
-        "Terror"
-      ],
-      "trailer_youtube_id": "CBcVZcornjI",
-      "showtimes": [
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-11-01",
-          "time": "20:00",
-          "url": "https://cineyelmo.com/es"
         }
       ]
     },
@@ -14486,6 +15022,225 @@
           "date": "2026-11-05",
           "time": "16:00",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3466"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/37327/HO00006598/0/sentido-y-sensibilidad"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "21:25",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "22:10",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "19:40",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "22:20",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "17:00",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/sentido-y-sensibilidad-2026/67909/?step=2"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "16:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10996"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "16:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10996"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "16:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10996"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "16:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10996"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "16:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10996"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "16:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10996"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "16:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10996"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "22:25",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3466"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "22:25",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3466"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "22:25",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3466"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1477104",
+      "title": "La oveja shaun. Misión calabaza",
+      "title_local": "La oveja Shaun: Misión calabaza",
+      "poster": "posters/la-oveja-shaun-mision-calabaza.jpg",
+      "rating": 7.3,
+      "duration": 81,
+      "genres": [
+        "Animación",
+        "Ciencia ficción",
+        "Comedia"
+      ],
+      "trailer_youtube_id": "daZMq0AyOMc",
+      "showtimes": [
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11036"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "18:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11036"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "18:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11036"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "18:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11036"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11036"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "18:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11036"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11036"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "18:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11036"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11036"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "18:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11036"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11036"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "18:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11036"
         }
       ]
     },
@@ -16211,6 +16966,69 @@
           "date": "2026-11-05",
           "time": "18:15",
           "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3417"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "17:30",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-11-01",
+          "time": "16:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3417"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-11-01",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3417"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-11-02",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3417"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-11-03",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3417"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-11-03",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3417"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "18:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3417"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-11-05",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3417"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-11-05",
+          "time": "20:35",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3417"
         }
       ]
     },
@@ -17522,6 +18340,69 @@
           "date": "2026-11-05",
           "time": "16:00",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3404"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10896"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "11:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10896"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10896"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "11:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10896"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10896"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10896"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10896"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10896"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10896"
         }
       ]
     },
@@ -18695,6 +19576,20 @@
           "date": "2026-11-03",
           "time": "20:10",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
       ]
     },
@@ -19159,6 +20054,20 @@
           "date": "2026-11-01",
           "time": "12:00",
           "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3425"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "11:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10865"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "11:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10865"
         }
       ]
     },
@@ -19322,6 +20231,20 @@
           "cinema": "dor",
           "language": "ES",
           "date": "2026-11-03",
+          "time": "22:25",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "18:45",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-11-04",
           "time": "22:25",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -25435,6 +26358,13 @@
           "date": "2026-11-03",
           "time": "20:15",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-irina-palm/67906/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/30-anos-30-peliculas-irina-palm/67924/?step=2"
         }
       ]
     },
@@ -25888,6 +26818,307 @@
           "date": "2026-11-03",
           "time": "20:00",
           "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "21:00",
+          "url": "https://kinepolis.es/movies/detail/38656/HO00006746/0/hope"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "21:00",
+          "url": "https://kinepolis.es/movies/detail/38656/HO00006746/0/hope"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/38656/HO00006746/0/hope"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/38656/HO00006746/0/hope"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "15:55",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "19:00",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "22:00",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "17:05",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "20:10",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-30",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/hope/67824/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-30",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/hope/67825/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-31",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/hope/67846/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-31",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/hope/67847/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-01",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/hope/67848/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-01",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/hope/67849/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-02",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/hope/67888/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-02",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/hope/67889/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-03",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/hope/67895/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-03",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/hope/67896/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/hope/67913/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/hope/67914/?step=2"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "23:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11042"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "23:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11042"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11042"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "19:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11042"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "22:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11042"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "19:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11042"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "22:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11042"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11042"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "19:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11042"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "22:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11042"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11042"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "19:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11042"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "22:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11042"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11042"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "19:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11042"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "22:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11042"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11042"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "19:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11042"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "22:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11042"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11042"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "19:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11042"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "22:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11042"
         }
       ]
     },
@@ -26064,6 +27295,195 @@
           "date": "2026-11-03",
           "time": "18:35",
           "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "21:00",
+          "url": "https://kinepolis.es/movies/detail/38173/HO00006752/0/leviticus"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/38173/HO00006752/0/leviticus"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "20:40",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "18:40",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11059"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "21:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11059"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "22:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11059"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "11:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11059"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11059"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "21:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11059"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "22:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11059"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "11:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11059"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11059"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "21:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11059"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "22:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11059"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11059"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "21:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11059"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "22:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11059"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11059"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "21:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11059"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "22:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11059"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11059"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "21:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11059"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "22:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11059"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11059"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "21:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11059"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "22:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11059"
         }
       ]
     },
@@ -26663,6 +28083,272 @@
           "date": "2026-11-03",
           "time": "19:45",
           "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/38116/HO00006757/0/wicker"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "20:10",
+          "url": "https://kinepolis.es/movies/detail/38116/HO00006757/0/wicker"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/38116/HO00006757/0/wicker"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "17:25",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "19:45",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-30",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/wicker/67826/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-30",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/wicker/67827/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-30",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/wicker/67835/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-31",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/wicker/67850/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-31",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/wicker/67851/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-31",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/wicker/67852/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-01",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/wicker/67853/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-01",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/wicker/67854/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-01",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/wicker/67855/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-02",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/wicker/67877/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-02",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/wicker/67883/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-03",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/wicker/67897/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-03",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/wicker/67898/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-03",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/wicker/67899/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/wicker/67915/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/wicker/67916/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/wicker/67917/?step=2"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "20:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11066"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "20:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11066"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "20:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11066"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "20:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11066"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "20:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11066"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "20:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11066"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11066"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "11:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11066"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11066"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "11:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11066"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11066"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11066"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11066"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11066"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11066"
+        },
+        {
+          "cinema": "ocine",
+          "language": "VOSE",
+          "date": "2026-11-05",
+          "time": "20:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11066"
         }
       ]
     },
@@ -26894,6 +28580,20 @@
           "date": "2026-11-03",
           "time": "22:15",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/blue-heron/67907/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/blue-heron/67910/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/blue-heron/67925/?step=2"
         }
       ]
     },
@@ -38466,6 +40166,321 @@
           "date": "2026-11-05",
           "time": "20:35",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3332"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "21:40",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "17:10",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "18:30",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "20:30",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "21:50",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-bola-negra/67919/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-bola-negra/67920/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-bola-negra/67921/?step=2"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "18:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "20:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "18:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "20:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "18:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "20:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "18:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "20:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "18:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "20:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "18:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "20:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "18:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "20:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "19:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "22:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "11:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "19:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "22:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "11:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "19:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "22:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "19:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "22:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "19:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "22:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "19:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "22:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "19:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "22:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10762"
         }
       ]
     },
@@ -38846,6 +40861,28 @@
           "date": "2026-11-01",
           "time": "21:00",
           "url": "https://kinepolis.es/movies/detail/8603/HO00003775/0/halloween-el-final"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1513017",
+      "title": "EL ÚLTIMO ARREBATO",
+      "title_local": "El último arrebato",
+      "poster": "posters/el-ultimo-arrebato.jpg",
+      "rating": 6.0,
+      "duration": 108,
+      "genres": [
+        "Documental",
+        "Historia"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-09",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3529"
         }
       ]
     },
@@ -42524,6 +44561,125 @@
           "date": "2026-11-05",
           "time": "20:10",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3407"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "21:00",
+          "url": "https://kinepolis.es/movies/detail/36587/HO00006601/0/la-otra-madre"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "18:40",
+          "url": "https://kinepolis.es/movies/detail/36587/HO00006601/0/la-otra-madre"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "22:40",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "20:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10696"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "20:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10696"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "20:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10696"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "20:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10696"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "20:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10696"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "20:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10696"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "20:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10696"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "21:45",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3407"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3407"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3407"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "21:45",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3407"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "22:00",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3407"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "21:45",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3407"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "21:45",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3407"
         }
       ]
     },
@@ -42568,27 +44724,6 @@
           "date": "2026-10-29",
           "time": "19:00",
           "url": "https://cineyelmo.com/es"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1634140",
-      "title": "MALA BESTIA",
-      "title_local": "Mala bestia",
-      "poster": "posters/mala-bestia.jpg",
-      "rating": 5.0,
-      "duration": 94,
-      "genres": [
-        "Drama"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-28",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3271"
         }
       ]
     },
@@ -44222,6 +46357,104 @@
           "date": "2026-11-05",
           "time": "21:45",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3371"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/39236/HO00006706/0/arriba-tutto"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "22:35",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "18:20",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "15:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10966"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "15:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10966"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "15:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10966"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "15:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10966"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "15:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10966"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "15:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10966"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "15:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10966"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "18:05",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3371"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "18:05",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3371"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "18:05",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3371"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "18:05",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3371"
         }
       ]
     },
@@ -50997,6 +53230,160 @@
           "date": "2026-11-05",
           "time": "20:30",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3352"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "21:00",
+          "url": "https://kinepolis.es/movies/detail/38544/HO00006557/0/en-el-corazon-de-la-bestia"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "18:45",
+          "url": "https://kinepolis.es/movies/detail/38544/HO00006557/0/en-el-corazon-de-la-bestia"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "20:40",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "22:45",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "20:25",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "22:30",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "18:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10509"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "22:40",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10509"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "11:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10509"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "18:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10509"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "22:40",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10509"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "11:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10509"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "18:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10509"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "22:40",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10509"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "18:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10509"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "22:40",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10509"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "18:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10509"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "22:40",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10509"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "18:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10509"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "22:40",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10509"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "18:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10509"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "22:40",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10509"
         }
       ]
     },
@@ -53831,6 +56218,55 @@
           "date": "2026-11-05",
           "time": "16:10",
           "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3422"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3422"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3422"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3422"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "20:20",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3422"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "20:20",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3422"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "16:00",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3422"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "20:20",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3422"
         }
       ]
     },
@@ -55505,6 +57941,174 @@
           "date": "2026-11-05",
           "time": "22:15",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3430"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/39456/HO00006739/0/leones-en-invierno"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "15:15",
+          "url": "https://kinepolis.es/movies/detail/39456/HO00006739/0/leones-en-invierno"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "15:15",
+          "url": "https://kinepolis.es/movies/detail/39456/HO00006739/0/leones-en-invierno"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "19:50",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "19:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10992"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "22:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10992"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "11:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10992"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "19:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10992"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "22:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10992"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "11:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10992"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "19:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10992"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "22:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10992"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "19:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10992"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "22:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10992"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "19:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10992"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "22:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10992"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "19:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10992"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "22:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10992"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "19:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10992"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "22:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10992"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "22:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3430"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "22:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3430"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "22:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3430"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "22:30",
+          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3430"
         }
       ]
     },
@@ -63025,6 +65629,146 @@
           "date": "2026-11-05",
           "time": "22:00",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3348"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "21:00",
+          "url": "https://kinepolis.es/movies/detail/35830/HO00006566/0/resident-evil"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-30",
+          "time": "16:10",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "20:05",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "22:10",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "22:05",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "17:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10503"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "22:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10503"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "17:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10503"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "22:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10503"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "17:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10503"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "22:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10503"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "17:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10503"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "22:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10503"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "17:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10503"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "22:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10503"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "17:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10503"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "22:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10503"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "17:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10503"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "22:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10503"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "22:15",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3348"
         }
       ]
     },
@@ -65511,6 +68255,76 @@
           "date": "2026-11-02",
           "time": "22:30",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3421"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/34269/HO00006637/0/street-fighter"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "19:30",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "21:55",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "22:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10737"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "22:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10737"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "22:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10737"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "22:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10737"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "22:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10737"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "22:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10737"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "22:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10737"
         }
       ]
     },
@@ -66479,6 +69293,132 @@
           "date": "2026-11-05",
           "time": "16:30",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3461"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "16:00",
+          "url": "https://kinepolis.es/movies/detail/39455/HO00006743/0/superthings-la-pelicula"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "18:00",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "16:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11000"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "18:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11000"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "11:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11000"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "16:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11000"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "18:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11000"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "11:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11000"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "16:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11000"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "18:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11000"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "16:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11000"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "18:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11000"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "16:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11000"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "18:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11000"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "16:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11000"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "18:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11000"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "16:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11000"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "18:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11000"
         }
       ]
     },
@@ -73782,6 +76722,13 @@
           "date": "2026-11-03",
           "time": "16:20",
           "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "16:20",
+          "url": "https://cineyelmo.com/es"
         }
       ]
     },
@@ -78256,6 +81203,69 @@
           "date": "2026-11-05",
           "time": "21:30",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3364"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "17:45",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "20:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10726"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "20:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10726"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "20:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10726"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "20:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10726"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "20:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10726"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "20:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10726"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "20:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10726"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3364"
         }
       ]
     },
@@ -80532,6 +83542,27 @@
           "date": "2026-11-05",
           "time": "22:30",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3396"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "22:25",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "11:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10735"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "11:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10735"
         }
       ]
     },
@@ -80597,307 +83628,6 @@
       ]
     },
     {
-      "id": "tmdb-1482560",
-      "title": "El mal hijo",
-      "title_local": "El mal hijo",
-      "poster": "posters/el-mal-hijo.jpg",
-      "rating": null,
-      "duration": 106,
-      "genres": [
-        "Drama"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-16",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-mal-hijo/67465/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-17",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-mal-hijo/67466/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-19",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-mal-hijo/67542/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-20",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-mal-hijo/67561/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-21",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-mal-hijo/67579/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/sesiones/valencia/cinesbabel/el-mal-hijo/2520/"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-16",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/388945/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-16",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/388946/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-17",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/388947/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-17",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/388948/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/388949/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/388950/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-20",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/389045/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-20",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/389046/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-21",
-          "time": "19:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/389123/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-21",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/389124/?step=2"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-16",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-17",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-21",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-21",
-          "time": "22:10",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "16:00",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "22:10",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-16",
-          "time": "20:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-17",
-          "time": "20:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "20:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-19",
-          "time": "20:05",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-20",
-          "time": "20:05",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-21",
-          "time": "20:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "20:25",
-          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3418"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-17",
-          "time": "18:10",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52485"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "18:10",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52488"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-19",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52491"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-20",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52495"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-21",
-          "time": "18:05",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52499"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "18:00",
-          "url": "https://compra.yelmocines.es/?cinemaVistaId=811&showtimeVistaId=52503"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-23",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/389303/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-24",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/389304/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-25",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/389305/?step=2"
-        },
-        {
-          "cinema": "lys",
-          "language": "ES",
-          "date": "2026-10-28",
-          "time": "22:35",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/el-mal-hijo/389362/?step=2"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "22:20",
-          "url": "https://elsaler.cinesabc.com/index?pag=ficha&evento=3418"
-        }
-      ]
-    },
-    {
       "id": "tmdb-471328",
       "title": "MANON (BALLET DIRECTO)",
       "title_local": "BALLET LIVE. MANON. ROYAL ÓPERA HOUSE",
@@ -80950,6 +83680,44 @@
       ]
     },
     {
+      "id": "local-proyecto-viridiana-tiempos-de-ilusion",
+      "title": "PROYECTO VIRIDIANA, TIEMPOS DE ILUSIÓN",
+      "title_local": "PROYECTO VIRIDIANA, TIEMPOS DE ILUSIÓN",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/proyecto-viridiana-tiempos-de-ilusion/389142/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-terrorificamente-lys-hope",
+      "title": "TERRORIFICAMENTE LYS, HOPE",
+      "title_local": "TERRORIFICAMENTE LYS, HOPE",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "lys",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cineslys/terrorificamente-lys-hope/385368/?step=2"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1770234",
       "title": "BTS World Tour 'Arirang' in Sao Paulo",
       "title_local": "BTS WORLD TOUR [ARIRANG] in São Paulo",
@@ -80974,6 +83742,25 @@
           "date": "2026-10-31",
           "time": "17:30",
           "url": "https://kinepolis.es/movies/detail/39123/HO00006701/0/bts-world-tour-arirang-in-sao-paulo"
+        }
+      ]
+    },
+    {
+      "id": "local-concert-rammstein-live-in-mexico-city",
+      "title": "Concert: Rammstein: Live in Mexico City",
+      "title_local": "Concert: Rammstein: Live in Mexico City",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/39164/HO00006705/0/concert-rammstein-live-in-mexico-city"
         }
       ]
     },
@@ -101657,6 +104444,20 @@
           "date": "2026-10-31",
           "time": "21:35",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3181"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/35300/HO00005906/0/la-odisea"
         }
       ]
     },
@@ -101923,6 +104724,202 @@
           "date": "2026-11-03",
           "time": "22:50",
           "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "20:45",
+          "url": "https://kinepolis.es/movies/detail/38986/HO00006744/0/karateka"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "18:15",
+          "url": "https://kinepolis.es/movies/detail/38986/HO00006744/0/karateka"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "15:45",
+          "url": "https://kinepolis.es/movies/detail/38986/HO00006744/0/karateka"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "16:00",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "18:15",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "20:35",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "22:50",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "18:10",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11063"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "20:20",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11063"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "22:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11063"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "18:10",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11063"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "20:20",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11063"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "22:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11063"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "18:10",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11063"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "20:20",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11063"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "22:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11063"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "18:10",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11063"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "20:20",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11063"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "22:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11063"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "18:10",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11063"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "20:20",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11063"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "22:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11063"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "18:10",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11063"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "20:20",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11063"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "22:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11063"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "18:10",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11063"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "20:20",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11063"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "22:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11063"
         }
       ]
     },
@@ -101967,6 +104964,20 @@
           "date": "2026-11-01",
           "time": "18:15",
           "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10863"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10863"
         }
       ]
     },
@@ -102000,6 +105011,124 @@
           "date": "2026-10-30",
           "time": "18:00",
           "url": "https://kinepolis.es/movies/detail/39460/HO00006740/0/cortos-halloween"
+        }
+      ]
+    },
+    {
+      "id": "local-bts-world-tour-arirang-in-sao-paulo-live-viewing",
+      "title": "BTS WORLD TOUR ARIRANG IN SAO PAULO: LIVE VIEWING",
+      "title_local": "BTS WORLD TOUR ARIRANG IN SAO PAULO: LIVE VIEWING",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-31",
+          "time": "14:45",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-31",
+          "time": "18:30",
+          "url": "https://cineyelmo.com/es"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1662735",
+      "title": "SEVENTEEN WORLD TOUR 'NEW_'",
+      "title_local": "SEVENTEEN WORLD TOUR [NEW_] ENCORE",
+      "poster": "posters/seventeen-world-tour-new.jpg",
+      "rating": null,
+      "duration": 126,
+      "genres": [
+        "Música"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "20:00",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-30",
+          "time": "20:00",
+          "url": "https://cineyelmo.com/es"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1797226",
+      "title": "HYBE CHEERING PARTY",
+      "title_local": "하이브 치어링 파티",
+      "poster": "posters/hybe-cheering-party.jpg",
+      "rating": null,
+      "duration": 60,
+      "genres": [
+        "Música"
+      ],
+      "trailer_youtube_id": "q0XKUFGn_M4",
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-28",
+          "time": "18:00",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "18:00",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-30",
+          "time": "18:00",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-10-31",
+          "time": "16:00",
+          "url": "https://cineyelmo.com/es"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1753205",
+      "title": "RAMMSTEIN - LIVE IN MEXICO CITY",
+      "title_local": "Rammstein – Live in Mexico City",
+      "poster": "posters/rammstein-live-in-mexico-city.jpg",
+      "rating": null,
+      "duration": 110,
+      "genres": [
+        "Documental",
+        "Música"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "20:15",
+          "url": "https://cineyelmo.com/es"
         }
       ]
     },
@@ -102621,6 +105750,51 @@
           "date": "2026-11-03",
           "time": "16:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-vida-de-una-mujer/67890/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/la-vida-de-una-mujer/67908/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-wilder-cinema-dracula-de-bram-stoker",
+      "title": "Wilder Cinema – Drácula, de Bram Stoker",
+      "title_local": "Wilder Cinema – Drácula, de Bram Stoker",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/wilder-cinema-dracula-de-bram-stoker/67464/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-proyecto-viridiana-tiempos-de-ilusion",
+      "title": "Proyecto Viridiana – Tiempos de Ilusión",
+      "title_local": "Proyecto Viridiana – Tiempos de Ilusión",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-10-29",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/proyecto-viridiana-tiempos-de-ilusion/67790/?step=2"
         }
       ]
     },
@@ -105544,44 +108718,6 @@
       ]
     },
     {
-      "id": "local-wilder-cinema-dracula-de-bram-stoker",
-      "title": "Wilder Cinema – Drácula, de Bram Stoker",
-      "title_local": "Wilder Cinema – Drácula, de Bram Stoker",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-29",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/wilder-cinema-dracula-de-bram-stoker/67464/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-proyecto-viridiana-tiempos-de-ilusion",
-      "title": "Proyecto Viridiana – Tiempos de Ilusión",
-      "title_local": "Proyecto Viridiana – Tiempos de Ilusión",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-10-29",
-          "time": "20:15",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/proyecto-viridiana-tiempos-de-ilusion/67790/?step=2"
-        }
-      ]
-    },
-    {
       "id": "local-al-limite-de-la-ciudad-a-proposito-de-burguitos",
       "title": "Al límite de la ciudad (A propósito de Burguitos)",
       "title_local": "Al límite de la ciudad (A propósito de Burguitos)",
@@ -105635,6 +108771,25 @@
           "date": "2026-11-02",
           "time": "20:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/wilder-cinema-la-ley-del-silencio/67878/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-proyecto-viridiana-ruega-por-nosotras",
+      "title": "Proyecto Viridiana – Ruega por nosotras",
+      "title_local": "Proyecto Viridiana – Ruega por nosotras",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/proyecto-viridiana-ruega-por-nosotras/67941/?step=2"
         }
       ]
     },
@@ -105788,6 +108943,25 @@
       ]
     },
     {
+      "id": "local-otra-vez-por-primera-vez-aftersun",
+      "title": "Otra vez, por primera vez – Aftersun",
+      "title_local": "Otra vez, por primera vez – Aftersun",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-06",
+          "time": "20:15",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/otra-vez-por-primera-vez-aftersun/67945/?step=2"
+        }
+      ]
+    },
+    {
       "id": "local-mostra-2026-santo-antonio-o-casamenteiro-de-lisboa",
       "title": "Mostra 2026 – Santo Antonio: O Casamenteiro de Lisboa",
       "title_local": "Mostra 2026 – Santo Antonio: O Casamenteiro de Lisboa",
@@ -105803,6 +108977,28 @@
           "date": "2026-11-06",
           "time": "20:15",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/mostra-2026-santo-antonio-o-casamenteiro-de-lisboa/67642/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1649403",
+      "title": "Cine con coloquio – George Michael: The Faith Tour",
+      "title_local": "George Michael: The Faith Tour",
+      "poster": "posters/cine-con-coloquio-george-michael-the-faith-tour.jpg",
+      "rating": null,
+      "duration": 113,
+      "genres": [
+        "Música",
+        "Documental"
+      ],
+      "trailer_youtube_id": "H_NwyHRY9yk",
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-11-07",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-coloquio-george-michael-the-faith-tour/67950/?step=2"
         }
       ]
     },
@@ -106687,8 +109883,8 @@
     },
     {
       "id": "local-bts-world-tour-arirang-in-sao-paulo-live-viewing",
-      "title": "BTS WORLD TOUR ARIRANG IN SAO PAULO: LIVE VIEWING",
-      "title_local": "BTS WORLD TOUR ARIRANG IN SAO PAULO: LIVE VIEWING",
+      "title": "BTS WORLD TOUR 'ARIRANG' IN SAO PAULO: LIVE VIEWING",
+      "title_local": "BTS WORLD TOUR 'ARIRANG' IN SAO PAULO: LIVE VIEWING",
       "poster": null,
       "rating": null,
       "duration": null,
@@ -106696,110 +109892,11 @@
       "trailer_youtube_id": null,
       "showtimes": [
         {
-          "cinema": "yelmo",
+          "cinema": "ocine",
           "language": "VOSE",
           "date": "2026-10-31",
           "time": "14:45",
-          "url": "https://cineyelmo.com/es"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-31",
-          "time": "18:30",
-          "url": "https://cineyelmo.com/es"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1662735",
-      "title": "SEVENTEEN WORLD TOUR 'NEW_'",
-      "title_local": "SEVENTEEN WORLD TOUR [NEW_] ENCORE",
-      "poster": "posters/seventeen-world-tour-new.jpg",
-      "rating": null,
-      "duration": 126,
-      "genres": [
-        "Música"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-29",
-          "time": "20:00",
-          "url": "https://cineyelmo.com/es"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-30",
-          "time": "20:00",
-          "url": "https://cineyelmo.com/es"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1785968",
-      "title": "ENHYPEN WORLD TOUR 'BLOOD SAGA'",
-      "title_local": "엔하이픈 월드 투어 ‘블러드 사가’",
-      "poster": "posters/enhypen-world-tour-blood-saga.jpg",
-      "rating": null,
-      "duration": 101,
-      "genres": [
-        "Música",
-        "Documental"
-      ],
-      "trailer_youtube_id": "q0XKUFGn_M4",
-      "showtimes": [
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-28",
-          "time": "20:00",
-          "url": "https://cineyelmo.com/es"
-        }
-      ]
-    },
-    {
-      "id": "tmdb-1797226",
-      "title": "HYBE CHEERING PARTY",
-      "title_local": "하이브 치어링 파티",
-      "poster": "posters/hybe-cheering-party.jpg",
-      "rating": null,
-      "duration": 60,
-      "genres": [
-        "Música"
-      ],
-      "trailer_youtube_id": "q0XKUFGn_M4",
-      "showtimes": [
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-28",
-          "time": "18:00",
-          "url": "https://cineyelmo.com/es"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-29",
-          "time": "18:00",
-          "url": "https://cineyelmo.com/es"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-30",
-          "time": "18:00",
-          "url": "https://cineyelmo.com/es"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-10-31",
-          "time": "16:00",
-          "url": "https://cineyelmo.com/es"
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10803"
         }
       ]
     },
@@ -106868,179 +109965,6 @@
           "date": "2026-10-29",
           "time": "16:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3475"
-        }
-      ]
-    },
-    {
-      "id": "local-la-bola-negra-35mm",
-      "title": "LA BOLA NEGRA - 35MM",
-      "title_local": "LA BOLA NEGRA - 35MM",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-19",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-21",
-          "time": "20:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-23",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-23",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-24",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-24",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-25",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-25",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-26",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-28",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-28",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-29",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-30",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-30",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-31",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-31",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-11-01",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-11-01",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-11-04",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-11-04",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
         }
       ]
     },
@@ -107241,74 +110165,6 @@
       ]
     },
     {
-      "id": "local-club-rosebud-chopin",
-      "title": "CLUB ROSEBUD: CHOPIN",
-      "title_local": "CLUB ROSEBUD: CHOPIN",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-26",
-          "time": "16:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3478"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-26",
-          "time": "17:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3478"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-27",
-          "time": "16:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3478"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-27",
-          "time": "17:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3478"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-27",
-          "time": "19:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3478"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "VOSE",
-          "date": "2026-10-28",
-          "time": "17:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3478"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-29",
-          "time": "16:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3478"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-29",
-          "time": "17:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3478"
-        }
-      ]
-    },
-    {
       "id": "tmdb-1393726",
       "title": "LOS NIÑOS ESTÁN BIEN",
       "title_local": "Los niños están bien",
@@ -107442,25 +110298,70 @@
       ]
     },
     {
-      "id": "tmdb-1495052",
-      "title": "EL SECRETO DEL PARK - 28/10",
-      "title_local": "Sira y el secreto del parque",
+      "id": "local-club-rosebud-chopin",
+      "title": "CLUB ROSEBUD: CHOPIN",
+      "title_local": "CLUB ROSEBUD: CHOPIN",
       "poster": null,
       "rating": null,
       "duration": null,
-      "genres": [
-        "Animación",
-        "Aventura",
-        "Fantasía"
-      ],
+      "genres": [],
       "trailer_youtube_id": null,
       "showtimes": [
         {
           "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "16:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3478"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-10-26",
+          "time": "17:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3478"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "16:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3478"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "17:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3478"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-27",
+          "time": "19:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3478"
+        },
+        {
+          "cinema": "abc_park",
           "language": "VOSE",
           "date": "2026-10-28",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3491"
+          "time": "17:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3478"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "16:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3478"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "17:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3478"
         }
       ]
     },
@@ -107487,6 +110388,179 @@
           "date": "2026-10-29",
           "time": "20:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3381"
+        }
+      ]
+    },
+    {
+      "id": "local-la-bola-negra-35mm",
+      "title": "LA BOLA NEGRA - 35MM",
+      "title_local": "LA BOLA NEGRA - 35MM",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-19",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-21",
+          "time": "20:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
         }
       ]
     },
@@ -107676,6 +110750,165 @@
           "date": "2026-11-05",
           "time": "22:10",
           "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3520"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3520"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3520"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3520"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3520"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "20:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3520"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "22:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3520"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "22:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3520"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "22:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3520"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "22:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3520"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "22:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3520"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "22:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3520"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "22:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3520"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "22:30",
+          "url": "https://granturia.cinesabc.com/index?pag=ficha&evento=3520"
+        }
+      ]
+    },
+    {
+      "id": "local-club-rosebud-kakeru-sheep-in-the-box",
+      "title": "CLUB ROSEBUD: KAKERU (SHEEP IN THE BOX)",
+      "title_local": "CLUB ROSEBUD: KAKERU (SHEEP IN THE BOX)",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-02",
+          "time": "16:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3527"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-11-02",
+          "time": "17:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3527"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "16:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3527"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "17:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3527"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-03",
+          "time": "19:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3527"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-11-04",
+          "time": "17:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3527"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "16:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3527"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-05",
+          "time": "17:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3527"
         }
       ]
     },
@@ -107886,9 +111119,9 @@
       ]
     },
     {
-      "id": "local-cortos-barreira-41-mostra-de-valencia",
-      "title": "CORTOS BARREIRA (41º MOSTRA DE VALÈNCIA)",
-      "title_local": "CORTOS BARREIRA (41º MOSTRA DE VALÈNCIA)",
+      "id": "local-barreira-x-la-mostra-secondo-piatto-l-invito-open-it-la-scelta-swipe-to-love",
+      "title": "BARREIRA X LA MOSTRA: Secondo piatto, L'invito, Open it, La scelta, Swipe To Love",
+      "title_local": "BARREIRA X LA MOSTRA: Secondo piatto, L'invito, Open it, La scelta, Swipe To Love",
       "poster": null,
       "rating": null,
       "duration": null,
@@ -107900,7 +111133,7 @@
           "language": "ES",
           "date": "2026-11-09",
           "time": "17:30",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3504"
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3539"
         }
       ]
     },
@@ -107941,6 +111174,44 @@
           "date": "2026-11-09",
           "time": "18:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3506"
+        }
+      ]
+    },
+    {
+      "id": "local-barreira-x-la-mostra-i-forgot-the-balcony-podrias-ser-tu-burnout-catarsis",
+      "title": "BARREIRA X LA MOSTRA: I forgot the balcony, Podrías ser tú, Burnout, Catarsis",
+      "title_local": "BARREIRA X LA MOSTRA: I forgot the balcony, Podrías ser tú, Burnout, Catarsis",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-09",
+          "time": "18:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3540"
+        }
+      ]
+    },
+    {
+      "id": "local-barreira-x-la-mostra-mors-ignis-luz-azul-intromissione-soledad",
+      "title": "BARREIRA X LA MOSTRA: Mors ignis, Luz azul, Intromissione, Soledad",
+      "title_local": "BARREIRA X LA MOSTRA: Mors ignis, Luz azul, Intromissione, Soledad",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-09",
+          "time": "19:30",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3541"
         }
       ]
     },
