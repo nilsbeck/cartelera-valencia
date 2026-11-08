@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T07:00:00Z",
+  "updated_at": "2026-11-08T07:00:00Z",
   "movies": [
     {
       "id": "tmdb-1649403",
@@ -11339,6 +11339,20 @@
           "cinema": "dor",
           "language": "ES",
           "date": "2026-11-13",
+          "time": "22:05",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-11-14",
+          "time": "18:15",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-11-14",
           "time": "22:05",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -26912,6 +26926,20 @@
           "cinema": "dor",
           "language": "ES",
           "date": "2026-11-13",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-11-14",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-11-14",
           "time": "20:20",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -44935,6 +44963,76 @@
           "cinema": "yelmo",
           "language": "VOSE",
           "date": "2026-11-13",
+          "time": "20:45",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-14",
+          "time": "21:00",
+          "url": "https://kinepolis.es/movies/detail/37208/HO00006765/0/scrooge-y-los-fantasmas-de-la-navidad"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-14",
+          "time": "18:00",
+          "url": "https://kinepolis.es/movies/detail/37208/HO00006765/0/scrooge-y-los-fantasmas-de-la-navidad"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-14",
+          "time": "18:30",
+          "url": "https://kinepolis.es/movies/detail/37208/HO00006765/0/scrooge-y-los-fantasmas-de-la-navidad"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-14",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/37208/HO00006765/0/scrooge-y-los-fantasmas-de-la-navidad"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-14",
+          "time": "17:00",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-14",
+          "time": "19:30",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-14",
+          "time": "22:00",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-11-14",
+          "time": "15:45",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-11-14",
+          "time": "18:15",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-11-14",
           "time": "20:45",
           "url": "https://cineyelmo.com/es"
         }
@@ -78079,39 +78177,6 @@
       ]
     },
     {
-      "id": "local-concert-rammstein-live-in-mexico-city",
-      "title": "Concert: Rammstein: Live in Mexico City",
-      "title_local": "Concert: Rammstein: Live in Mexico City",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-11-04",
-          "time": "19:00",
-          "url": "https://kinepolis.es/movies/detail/39164/HO00006705/0/concert-rammstein-live-in-mexico-city"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-11-04",
-          "time": "19:00",
-          "url": "https://kinepolis.es/movies/detail/39164/HO00006705/0/concert-rammstein-live-in-mexico-city"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-11-07",
-          "time": "15:00",
-          "url": "https://kinepolis.es/movies/detail/39164/HO00006705/0/concert-rammstein-live-in-mexico-city"
-        }
-      ]
-    },
-    {
       "id": "tmdb-1061821",
       "title": "Carmen",
       "title_local": "Viva Carmen",
@@ -78135,42 +78200,9 @@
       ]
     },
     {
-      "id": "tmdb-1738187",
-      "title": "Stray Kids World Tour <RUN IT>",
-      "title_local": "Beyond Live - Stray Kids World Tour RUN IT SEOUL",
-      "poster": "posters/stray-kids-world-tour-run-it.jpg",
-      "rating": null,
-      "duration": 170,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-11-07",
-          "time": "12:00",
-          "url": "https://kinepolis.es/movies/detail/39120/HO00006738/0/stray-kids-world-tour-run-it"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-11-07",
-          "time": "16:15",
-          "url": "https://kinepolis.es/movies/detail/39120/HO00006738/0/stray-kids-world-tour-run-it"
-        },
-        {
-          "cinema": "kinepolis",
-          "language": "VO",
-          "date": "2026-11-07",
-          "time": "12:00",
-          "url": "https://kinepolis.es/movies/detail/39120/HO00006738/0/stray-kids-world-tour-run-it"
-        }
-      ]
-    },
-    {
-      "id": "local-orgasmos-la-comedia",
-      "title": "Orgasmos, la comedia",
-      "title_local": "Orgasmos, la comedia",
+      "id": "local-league-of-legends-worlds-final-2026",
+      "title": "League of Legends Worlds Final 2026",
+      "title_local": "League of Legends Worlds Final 2026",
       "poster": null,
       "rating": null,
       "duration": null,
@@ -78180,9 +78212,35 @@
         {
           "cinema": "kinepolis",
           "language": "ES",
-          "date": "2026-11-07",
-          "time": "18:00",
-          "url": "https://kinepolis.es/movies/detail/38972/HO00006651/0/orgasmos-la-comedia"
+          "date": "2026-11-14",
+          "time": "19:00",
+          "url": "https://kinepolis.es/movies/detail/38556/HO00006726/0/league-of-legends-worlds-final-2026"
+        }
+      ]
+    },
+    {
+      "id": "local-diversion-navide-a-con-peppa",
+      "title": "Diversión Navideña con Peppa",
+      "title_local": "Diversión Navideña con Peppa",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-14",
+          "time": "15:00",
+          "url": "https://kinepolis.es/movies/detail/39193/HO00006730/0/diversion-navidena-con-peppa"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-11-14",
+          "time": "17:00",
+          "url": "https://kinepolis.es/movies/detail/39193/HO00006730/0/diversion-navidena-con-peppa"
         }
       ]
     },
@@ -103740,203 +103798,6 @@
       ]
     },
     {
-      "id": "tmdb-1649403",
-      "title": "Cine con coloquio – George Michael: The Faith Tour",
-      "title_local": "George Michael: The Faith Tour",
-      "poster": "posters/cine-con-coloquio-george-michael-the-faith-tour.jpg",
-      "rating": null,
-      "duration": 113,
-      "genres": [
-        "Música",
-        "Documental"
-      ],
-      "trailer_youtube_id": "H_NwyHRY9yk",
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-11-07",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-coloquio-george-michael-the-faith-tour/67950/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-11-07",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-con-coloquio-george-michael-the-faith-tour/67950/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-mostra-2026-my-father-s-scent",
-      "title": "Mostra 2026 – My Father’s Scent",
-      "title_local": "Mostra 2026 – My Father’s Scent",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-11-07",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/mostra-2026-my-father-s-scent/67625/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-11-07",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/mostra-2026-my-father-s-scent/67624/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-cine-familiar-el-misterio-de-lucy-lost",
-      "title": "Cine familiar – El misterio de Lucy Lost",
-      "title_local": "Cine familiar – El misterio de Lucy Lost",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-11-08",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-familiar-el-misterio-de-lucy-lost/67606/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-11-07",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-familiar-el-misterio-de-lucy-lost/67605/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-mostra-2026-a-bitter-end",
-      "title": "Mostra 2026 – A Bitter End",
-      "title_local": "Mostra 2026 – A Bitter End",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-11-07",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/mostra-2026-a-bitter-end/67645/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-11-08",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/mostra-2026-a-bitter-end/67650/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-mostra-2026-gorgona",
-      "title": "Mostra 2026 – Gorgonà",
-      "title_local": "Mostra 2026 – Gorgonà",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-11-07",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/mostra-2026-gorgona/67644/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-mostra-2026-two-tetas",
-      "title": "Mostra 2026 – Two Tetas",
-      "title_local": "Mostra 2026 – Two Tetas",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-11-06",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/mostra-2026-two-tetas/67639/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-11-07",
-          "time": "19:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/mostra-2026-two-tetas/67647/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-mostra-2026-salen-las-lobas",
-      "title": "Mostra 2026 – Salen las lobas",
-      "title_local": "Mostra 2026 – Salen las lobas",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-11-07",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/mostra-2026-salen-las-lobas/67646/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-mostra-2026-a-la-recherche-de-l-oiseau-gris-aux-rayures-vertes-in-search-of-the-grey-bird-with-the-green-stripes",
-      "title": "Mostra 2026 – À la recherche de l’oiseau gris aux rayures vertes (In Search of the Grey Bird with the Green Stripes)",
-      "title_local": "Mostra 2026 – À la recherche de l’oiseau gris aux rayures vertes (In Search of the Grey Bird with the Green Stripes)",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-11-06",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/mostra-2026-a-la-recherche-de-l-oiseau-gris-aux-rayures-vertes-in-search-of-the-grey-bird-with-the-green-stripes/67636/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "VOSE",
-          "date": "2026-11-07",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/mostra-2026-a-la-recherche-de-l-oiseau-gris-aux-rayures-vertes-in-search-of-the-grey-bird-with-the-green-stripes/67643/?step=2"
-        }
-      ]
-    },
-    {
       "id": "local-mostra-2026-keep-me-in-mind",
       "title": "Mostra 2026 – Keep me in mind",
       "title_local": "Mostra 2026 – Keep me in mind",
@@ -104075,6 +103936,32 @@
           "date": "2026-11-08",
           "time": "20:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/mostra-2026-facundo-martinez-de-mislata-a-kioto/67651/?step=2"
+        }
+      ]
+    },
+    {
+      "id": "local-mostra-2026-a-bitter-end",
+      "title": "Mostra 2026 – A Bitter End",
+      "title_local": "Mostra 2026 – A Bitter End",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-07",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/mostra-2026-a-bitter-end/67645/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "VOSE",
+          "date": "2026-11-08",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/mostra-2026-a-bitter-end/67650/?step=2"
         }
       ]
     },
@@ -104965,58 +104852,39 @@
       ]
     },
     {
-      "id": "tmdb-1753205",
-      "title": "RAMMSTEIN - LIVE IN MEXICO CITY",
-      "title_local": "Rammstein – Live in Mexico City",
-      "poster": "posters/rammstein-live-in-mexico-city.jpg",
+      "id": "local-diversion-navide-a-con-peppa-la-experiencia",
+      "title": "Diversión Navideña con Peppa: La Experiencia",
+      "title_local": "Diversión Navideña con Peppa: La Experiencia",
+      "poster": null,
       "rating": null,
-      "duration": 110,
-      "genres": [
-        "Documental",
-        "Música"
-      ],
+      "duration": null,
+      "genres": [],
       "trailer_youtube_id": null,
       "showtimes": [
         {
           "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-11-04",
-          "time": "20:15",
-          "url": "https://cineyelmo.com/es"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-11-07",
-          "time": "20:15",
+          "language": "ES",
+          "date": "2026-11-14",
+          "time": "16:00",
           "url": "https://cineyelmo.com/es"
         }
       ]
     },
     {
-      "id": "tmdb-1795555",
-      "title": "Stray Kids World Tour <RUN IT> LIVE VIEWING",
-      "title_local": "Stray Kids World Tour 'RUN IT' LIVE VIEWING",
-      "poster": "posters/stray-kids-world-tour-run-it-live-viewing.jpg",
+      "id": "local-carmen-bizet-reposicion-met-26-27",
+      "title": "CARMEN (Bizet) - REPOSICIÓN MET 26-27",
+      "title_local": "CARMEN (Bizet) - REPOSICIÓN MET 26-27",
+      "poster": null,
       "rating": null,
       "duration": null,
-      "genres": [
-        "Música"
-      ],
+      "genres": [],
       "trailer_youtube_id": null,
       "showtimes": [
         {
           "cinema": "yelmo",
           "language": "VOSE",
-          "date": "2026-11-07",
-          "time": "13:00",
-          "url": "https://cineyelmo.com/es"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "VOSE",
-          "date": "2026-11-07",
-          "time": "17:15",
+          "date": "2026-11-14",
+          "time": "19:00",
           "url": "https://cineyelmo.com/es"
         }
       ]
@@ -105074,6 +104942,207 @@
           "date": "2026-11-12",
           "time": "16:00",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3545"
+        }
+      ]
+    },
+    {
+      "id": "local-la-bola-negra-35mm",
+      "title": "LA BOLA NEGRA - 35MM",
+      "title_local": "LA BOLA NEGRA - 35MM",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-18",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-19",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-21",
+          "time": "20:05",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-22",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-23",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-24",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-25",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-26",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-28",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-29",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-30",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-10-31",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-01",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "16:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-04",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-06",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-07",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-08",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-11",
+          "time": "19:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
         }
       ]
     },
@@ -105361,207 +105430,6 @@
           "date": "2026-11-09",
           "time": "16:05",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3518"
-        }
-      ]
-    },
-    {
-      "id": "local-la-bola-negra-35mm",
-      "title": "LA BOLA NEGRA - 35MM",
-      "title_local": "LA BOLA NEGRA - 35MM",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-18",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-19",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-21",
-          "time": "20:05",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-22",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-23",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-23",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-24",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-24",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-25",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-25",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-26",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-28",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-28",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-29",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-30",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-30",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-31",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-10-31",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-11-01",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-11-01",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-11-04",
-          "time": "16:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-11-04",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-11-06",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-11-07",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-11-08",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-11-11",
-          "time": "19:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3351"
         }
       ]
     },
@@ -105872,6 +105740,25 @@
       ]
     },
     {
+      "id": "local-todo-sobre-mi-madre-1999-wilder-cinema",
+      "title": "TODO SOBRE MI MADRE (1999) - WILDER CINEMA",
+      "title_local": "TODO SOBRE MI MADRE (1999) - WILDER CINEMA",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-10",
+          "time": "20:00",
+          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3510"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1813369",
       "title": "ISLA INDÓMITA",
       "title_local": "Isla indómita",
@@ -105908,25 +105795,6 @@
           "date": "2026-11-12",
           "time": "22:40",
           "url": "https://park.cinesabc.com/index?pag=ficha&evento=3543"
-        }
-      ]
-    },
-    {
-      "id": "local-todo-sobre-mi-madre-1999-wilder-cinema",
-      "title": "TODO SOBRE MI MADRE (1999) - WILDER CINEMA",
-      "title_local": "TODO SOBRE MI MADRE (1999) - WILDER CINEMA",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-11-10",
-          "time": "20:00",
-          "url": "https://park.cinesabc.com/index?pag=ficha&evento=3510"
         }
       ]
     },
