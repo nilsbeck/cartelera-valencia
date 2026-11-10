@@ -1,0 +1,213 @@
+name: Scraper health
+
+# Daily check of data/health.json, which the Docker job on the home server
+# writes on every scrape (see scraper/run.py: build_health_report).
+#
+#   ok      → nothing to do
+#   stale   → the Docker job stopped reporting: open an issue (no code fix)
+#   broken  → let Claude reproduce and fix the broken scraper(s) and open a
+#             PR assigned to the repo owner (or an issue if it can't fix it)
+#
+# Needs ONE of these repository secrets:
+#   CLAUDE_CODE_OAUTH_TOKEN  (Claude Pro/Max: run `claude setup-token`)
+#   ANTHROPIC_API_KEY        (Anthropic API key)
+# and Settings → Actions → General → "Allow GitHub Actions to create and
+# approve pull requests" switched on.
+
+on:
+  schedule:
+    # 09:23 UTC — a few hours after the Docker scrape (05:30 Madrid time).
+    - cron: '23 9 * * *'
+  workflow_dispatch:
+    inputs:
+      force_cinemas:
+        description: 'Treat these cinema ids as broken (space-separated), e.g. "abc_park" — for testing the fix job'
+        required: false
+        default: ''
+
+env:
+  ASSIGNEE: nilsbeck
+  AUTOFIX_LABEL: scraper-autofix
+
+concurrency:
+  group: scraper-health
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: read
+    outputs:
+      status: ${{ steps.verdict.outputs.status }}
+      broken: ${{ steps.verdict.outputs.broken }}
+      already_open: ${{ steps.dedupe.outputs.already_open }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Evaluate data/health.json
+        id: health
+        run: python scraper/healthcheck.py --github-output
+
+      - name: Apply manual override
+        id: verdict
+        env:
+          FORCE: ${{ github.event.inputs.force_cinemas }}
+          STATUS: ${{ steps.health.outputs.status }}
+          BROKEN: ${{ steps.health.outputs.broken }}
+        run: |
+          if [ -n "$FORCE" ]; then
+            echo "status=broken" >> "$GITHUB_OUTPUT"
+            echo "broken=$FORCE" >> "$GITHUB_OUTPUT"
+            echo "Manual run: treating '$FORCE' as broken" >> health-summary.md
+          else
+            echo "status=$STATUS" >> "$GITHUB_OUTPUT"
+            echo "broken=$BROKEN" >> "$GITHUB_OUTPUT"
+          fi
+          cat health-summary.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Skip if an autofix PR or issue is already open
+        id: dedupe
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create "$AUTOFIX_LABEL" --color D93F0B \
+            --description "Opened by the Scraper health workflow" --force
+          prs=$(gh pr list --label "$AUTOFIX_LABEL" --state open --json number --jq length)
+          issues=$(gh issue list --label "$AUTOFIX_LABEL" --state open --json number --jq length)
+          if [ "$prs" -gt 0 ] || [ "$issues" -gt 0 ]; then
+            echo "already_open=true" >> "$GITHUB_OUTPUT"
+            echo "An open '$AUTOFIX_LABEL' PR/issue exists — not starting another fix." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "already_open=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: health-summary
+          path: health-summary.md
+
+  stale-alert:
+    needs: check
+    if: needs.check.outputs.status == 'stale' || needs.check.outputs.status == 'missing'
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: health-summary
+
+      - name: Open (or update) a "Docker job not reporting" issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          title="Scraper health: Docker job is not reporting"
+          existing=$(gh issue list --label "$AUTOFIX_LABEL" --state open \
+            --search "in:title \"$title\"" --json number --jq '.[0].number // empty')
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body-file health-summary.md
+          else
+            gh issue create --title "$title" --label "$AUTOFIX_LABEL" \
+              --assignee "$ASSIGNEE" --body-file health-summary.md
+          fi
+
+  fix:
+    needs: check
+    if: needs.check.outputs.status == 'broken' && needs.check.outputs.already_open != 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install scraper dependencies
+        run: |
+          pip install -r scraper/requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: health-summary
+
+      - name: Let Claude fix the broken scraper(s)
+        uses: anthropics/claude-code-action@v1
+        env:
+          GH_TOKEN: ${{ github.token }}
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          github_token: ${{ github.token }}
+          claude_args: >-
+            --max-turns 150
+            --allowedTools "Bash,Read,Edit,Write,Glob,Grep,WebFetch"
+          prompt: |
+            You are maintaining the cinema scrapers in this repository
+            (${{ github.repository }}). The daily health check says these
+            scrapers are broken: ${{ needs.check.outputs.broken }}
+
+            The health report the Docker job produced (from a residential IP in
+            Valencia) is in ./health-summary.md — read it first.
+
+            Cinema id → scraper module / function:
+              babel → scraper/babel.py:scrape
+              lys → scraper/lys.py:scrape
+              mn4 → scraper/mn4.py:scrape
+              dor → scraper/cinestudio_dor.py:scrape
+              ocine → scraper/ocine.py:scrape
+              yelmo → scraper/yelmo.py:scrape
+              kinepolis → scraper/kinepolis.py:scrape
+              abc_park / abc_elsaler / abc_granturia →
+                scraper/cinema_abc.py:scrape_park / scrape_elsaler / scrape_granturia
+
+            Do this:
+            1. For each broken cinema, run its scrape function directly
+               (cd scraper && python -c "import <module>; r=<module>.<fn>(); print(len(r)); print(r[:3])")
+               and look at what the cinema's website now serves (curl, or
+               Playwright — Chromium is installed). Find the root cause:
+               usually the site changed its URLs, markup or API.
+            2. Fix the scraper with the smallest change that makes it return
+               correct showtimes again (title, language, date YYYY-MM-DD,
+               time HH:MM, url). Keep the public function names and return
+               format; scraper/run.py must not need changes unless unavoidable.
+            3. Add or update unit tests in scraper/tests/ for the new parsing
+               logic, and make sure `pytest scraper/tests -q` passes.
+            4. Re-run the fixed scraper and record how many showtimes it
+               returns per day.
+            5. Create a branch named autofix/<cinemas>-$(date +%Y%m%d), commit
+               (do not commit data/, posters/ or .github/), push it, and open
+               a PR against main with:
+                 gh pr create --base main --assignee "${{ env.ASSIGNEE }}" \
+                   --label "${{ env.AUTOFIX_LABEL }}" --title "fix(<cinema>): …" \
+                   --body "<root cause, what changed, live result per day, test result>"
+
+            Rules:
+            - Never push to main and never merge anything.
+            - Some sites block GitHub's cloud IPs (Ocine in particular). If a
+              site is unreachable from this runner, or you cannot find a
+              confident fix, do NOT guess. Instead open an issue with
+                gh issue create --assignee "${{ env.ASSIGNEE }}" \
+                  --label "${{ env.AUTOFIX_LABEL }}" --title "Scraper broken: <cinema>" \
+                  --body "<what you found, what you tried, what is needed>"
+            - If a scraper works fine from here and the failure looks
+              transient, say so in an issue the same way instead of changing code.
+            - Do not add new dependencies unless there is no other way; if you
+              do, mention in the PR that the Docker image needs
+              `docker compose build --no-cache`.
