@@ -29,6 +29,9 @@ from cinema_abc import (
     _detect_language as abc_detect_lang,
     _detect_lang_from_text as abc_detect_lang_text,
     _parse_ficha_date,
+    _extract_sessions as abc_extract,
+    _events_to_visit as abc_events,
+    _session_lang as abc_session_lang,
 )
 from lys import _parse_sesiones_date as lys_parse_date
 from ocine import (
@@ -704,6 +707,62 @@ class TestAbcParseFichaDate:
         d = _parse_ficha_date("Lunes, 5 de junio")
         assert d is not None
         assert date.fromisoformat(d).day == 5
+
+
+# ─────────────────────────────────────────────
+# cinema_abc JSON payload helpers (reservaentradas API used by cinesabc.com)
+# ─────────────────────────────────────────────
+
+class TestAbcJsonPayload:
+    TODAY = date(2026, 11, 10)
+
+    def _evento(self, sesiones, title="LA BOLA NEGRA"):
+        return {"Id": 3332, "Titulo": title, "Sesiones": sesiones}
+
+    def test_api_date_format(self):
+        assert _parse_ficha_date("10/11/2026") == "2026-11-10"
+
+    def test_extract_sessions(self):
+        ev = self._evento([
+            {"FechaSesion": "10/11/2026", "Horatxt": "16:00", "Formato": ""},
+            {"FechaSesion": "11/11/2026", "Hora": " 9:05", "Formato": "(VOSE)"},
+        ])
+        rows = abc_extract(ev, "u", today=self.TODAY)
+        assert rows == [
+            {"title": "LA BOLA NEGRA", "language": "es",   "date": "2026-11-10", "time": "16:00", "url": "u"},
+            {"title": "LA BOLA NEGRA", "language": "vose", "date": "2026-11-11", "time": "09:05", "url": "u"},
+        ]
+
+    def test_extract_skips_past_bad_and_duplicate(self):
+        ev = self._evento([
+            {"FechaSesion": "09/11/2026", "Horatxt": "16:00"},   # past
+            {"FechaSesion": "",           "Horatxt": "16:00"},   # no date
+            {"FechaSesion": "10/11/2026", "Horatxt": ""},        # no time
+            {"FechaSesion": "10/11/2026", "Horatxt": "18:00"},
+            {"FechaSesion": "10/11/2026", "Horatxt": "18:00"},   # duplicate
+        ])
+        rows = abc_extract(ev, "u", today=self.TODAY)
+        assert [(r["date"], r["time"]) for r in rows] == [("2026-11-10", "18:00")]
+
+    def test_extract_empty(self):
+        assert abc_extract({}, "u", today=self.TODAY) == []
+        assert abc_extract(self._evento(None), "u", today=self.TODAY) == []
+
+    def test_session_lang(self):
+        assert abc_session_lang({"Formato": "(VOSE)"}) == "vose"
+        assert abc_session_lang({"Formato": "(VO)"})   == "vo"
+        assert abc_session_lang({"Formato": ""})       == "es"
+        assert abc_session_lang({})                    == "es"
+        assert normalize_lang(abc_session_lang({"Formato": "(VOSE)"})) == "VOSE"
+
+    def test_events_to_visit(self):
+        index = {
+            "Eventos": [{"Id": 1, "Titulo": "A "}, {"Id": 2, "Titulo": ""}],
+            "ProximosEventos": [{"Id": 3, "Titulo": "C"}, {"Id": 1, "Titulo": "A again"},
+                                {"Titulo": "no id"}],
+        }
+        assert abc_events(index) == {1: "A", 3: "C"}
+        assert abc_events({}) == {}
 
 
 # ─────────────────────────────────────────────
