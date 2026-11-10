@@ -1,44 +1,45 @@
 """
 Cines ABC Valencia scraper.
-Three cinemas, same platform, same DOM:
 
-  ABC Park      — https://park.cinesabc.com/
-  ABC El Saler  — https://elsaler.cinesabc.com/
-  ABC Gran Turia— https://granturia.cinesabc.com/
+  ABC Park       — https://www.cinesabc.com/cine/abcpark       (recinto 2)
+  ABC El Saler   — https://www.cinesabc.com/cine/abcelsaler    (recinto 172)
+  ABC Gran Turia — https://www.cinesabc.com/cine/abcgranturia  (recinto 171)
 
-Two-phase approach:
+In November 2026 Cines ABC replaced the old per-cinema PHP sites
+(park.cinesabc.com etc., which now only JS-redirect to cinesabc.com) with a
+single Flutter web app. It paints to a <canvas>, so there is no DOM left to
+scrape. Instead we drive the real app in Playwright and read the JSON it
+fetches for itself from the ticketing backend (reservaentradas.com):
 
-Phase 1 (Playwright, listing pages):
-  Collect movie ficha URLs from BOTH the main cartelera AND the VOSE page.
-  Visiting only ?pag=cartelera misses movies that appear exclusively on
-  the VOSE programme (?pag=vose).
+Phase 1 — cinema page  (/cine/<sub>)
+  The app requests  <sub>.reservaentradas.com/<sub>/index?recinto=N…
+  → {"Eventos": [...on screen...], "ProximosEventos": [...upcoming...]}
+  Each event carries only today's sessions, so we only use it for the list.
 
-  DOM structure (same on both listing pages):
-    div.cartelera.bloque33
-      a[href*="pag=ficha"]                    → ficha URL (pag=ficha&evento=N)
-      div.cartelera-titulo b div.ver-ficha    → title
+Phase 2 — movie page  (/e/<sub>/<slug>/<recinto>/<eventId>)
+  The app requests  <sub>.reservaentradas.com/<sub>/sesiones?…&evento=ID…
+  → {"Evento": {"Titulo", "Sesiones": [{"FechaSesion": "DD/MM/YYYY",
+                                         "Horatxt": "HH:MM",
+                                         "Formato": "(VOSE)" | "", ...}]}}
+  i.e. every upcoming session of that movie, all days.
 
-Phase 2 (Playwright, per-movie ficha pages):
-  Each ficha page shows all upcoming sessions for one movie grouped by date.
-  We use a JS walk to pair every div.cont-ses with its nearest preceding
-  Spanish date header (e.g. "Jueves, 14 de mayo"), then extract time and
-  language from each session.
-
-  Session DOM (same as listing pages):
-    div.cont-ses
-      div.hora-ses          → first text node = "HH:MM"
-        div.etiqueta-hora
-          div.etiq-hora     → "(VOSE)" / "VO" / "" (ES)
+Language comes from the per-session "Formato" label (same "(VOSE)" text the
+old site showed in .etiq-hora); an empty label means dubbed (ES).
 """
 
+import asyncio
 import re
 from datetime import date, timedelta
-from playwright.sync_api import sync_playwright
 
+from playwright.async_api import async_playwright
+
+SITE = "https://www.cinesabc.com"
+
+# (cinema_id, subdominio, recinto id)
 CINEMAS = [
-    ("abc_park",      "https://park.cinesabc.com"),
-    ("abc_elsaler",   "https://elsaler.cinesabc.com"),
-    ("abc_granturia", "https://granturia.cinesabc.com"),
+    ("abc_park",      "abcpark",      2),
+    ("abc_elsaler",   "abcelsaler",   172),
+    ("abc_granturia", "abcgranturia", 171),
 ]
 
 _UA = (
@@ -46,67 +47,23 @@ _UA = (
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
 )
 
+# Movie pages loaded at the same time (each one boots the Flutter app).
+_CONCURRENCY = 4
+_INDEX_TIMEOUT_MS = 60000
+_SESIONES_TIMEOUT_MS = 30000
+
 _MONTHS = {
     "enero": 1, "febrero": 2, "marzo": 3, "abril": 4,
     "mayo": 5, "junio": 6, "julio": 7, "agosto": 8,
     "septiembre": 9, "octubre": 10, "noviembre": 11, "diciembre": 12,
 }
 
-# JavaScript that returns [{time, lang, dateText}] for all sessions on the page.
-# ABC uses jQuery UI tabs: dates are in the tab-nav anchors, not in sibling DOM nodes.
-# Structure:
-#   <div id="tabs-sesiones" class="ui-tabs ...">
-#     <ul>  <li><a href="#tabs-N">Miér 14/05</a></li> ...  </ul>
-#     <div id="tabs-N" class="ui-tabs-panel ...">
-#       <div class="panel-sesiones">
-#         <div class="cont-ses" id-ses="N"> ... </div>
-#       </div>
-#     </div>
-#   </div>
-# The panel id always matches the session's id-ses attribute with "tabs-" prefix.
-_JS_SESSIONS = """
-() => {
-    const SESS_SELS = ['div.cont-ses', '.cont-ses', 'div.sesion-item', 'div.session-item', 'li.sesion'];
-    let sessions = [];
-    for (const sel of SESS_SELS) {
-        sessions = Array.from(document.querySelectorAll(sel));
-        if (sessions.length > 0) break;
-    }
-
-    return sessions.map(ses => {
-        const horaEl = ses.querySelector('div.hora-ses, .hora-ses, .hora, .time');
-        if (!horaEl) return null;
-        const time = (horaEl.childNodes[0] ? horaEl.childNodes[0].textContent : '').trim();
-        if (!time.includes(':')) return null;
-        const etiq = ses.querySelector('div.etiq-hora, .etiq-hora, .etiqueta, .version, .lang');
-
-        // Walk up to the nearest ancestor with an id starting with "tabs-"
-        // (the jQuery UI tab panel), then find its nav anchor for the date.
-        let dateText = '';
-        let node = ses.parentElement;
-        while (node && node !== document.body) {
-            if (node.id && node.id.startsWith('tabs-')) {
-                const anchor = document.querySelector('a[href="#' + node.id + '"]');
-                if (anchor) dateText = anchor.textContent.trim();
-                break;
-            }
-            node = node.parentElement;
-        }
-
-        return {
-            time,
-            lang:     etiq ? etiq.textContent.trim() : '',
-            dateText,
-        };
-    }).filter(Boolean);
-}
-"""
-
 
 def _parse_ficha_date(text: str) -> "str | None":
     """
     Parse a date string into ISO format.
-    Handles: 'Jueves, 14 de mayo', '14/05', '14-05-2026', '2026-05-14'.
+    Handles: '10/11/2026' (API FechaSesion), 'Jueves, 14 de mayo', '14/05',
+    '14-05-2026', '2026-05-14'.
     Returns None if unparseable.
     """
     t = text.strip()
@@ -169,133 +126,163 @@ def _detect_lang_from_text(text: str) -> str:
 
 
 def _detect_language(etiq_el) -> str:
-    """Return raw language code from the .etiq-hora DOM element."""
+    """Return raw language code from a DOM element's label text."""
     if etiq_el is None:
         return "es"
     return _detect_lang_from_text(etiq_el.inner_text())
 
 
-def _collect_ficha_urls(page, base_url: str) -> dict[str, str]:
-    """
-    Visit both listing pages and return {ficha_url: title} for all movies found.
-    Visiting both ?pag=cartelera and ?pag=vose ensures VOSE-exclusive titles
-    are included alongside the main programme.
-    """
-    entries: dict[str, str] = {}
+# ── Pure helpers for the JSON payloads (unit-tested) ────────────────────────
 
-    for pag in ("cartelera", "vose"):
-        try:
-            page.goto(f"{base_url}/index?pag={pag}", timeout=30000, wait_until="domcontentloaded")
+def _session_lang(sesion: dict) -> str:
+    """Raw language code for one session of the sesiones/index JSON."""
+    label = (sesion.get("Formato") or "").strip().strip("()").strip()
+    return _detect_lang_from_text(label)
+
+
+def _session_time(sesion: dict) -> "str | None":
+    raw = (sesion.get("Horatxt") or sesion.get("Hora") or "").strip()
+    m = re.match(r"(\d{1,2}):(\d{2})", raw)
+    return f"{int(m.group(1)):02d}:{m.group(2)}" if m else None
+
+
+def _events_to_visit(index: dict) -> dict[int, str]:
+    """{event_id: title} for every movie on screen or upcoming."""
+    events: dict[int, str] = {}
+    for key in ("Eventos", "ProximosEventos"):
+        for ev in index.get(key) or []:
             try:
-                page.wait_for_selector("div.cartelera.bloque33, a[href*='pag=ficha']", timeout=15000)
-            except Exception:
-                pass  # content may already be present
-        except Exception as e:
-            print(f"  ⚠ ABC ({base_url} ?pag={pag}) load error: {e}")
-            continue
-
-        for block in page.query_selector_all("div.cartelera.bloque33"):
-            title_el = block.query_selector("div.cartelera-titulo b div.ver-ficha")
-            if not title_el:
+                ev_id = int(ev["Id"])
+            except (KeyError, TypeError, ValueError):
                 continue
-            title = title_el.inner_text().strip()
-            if not title:
-                continue
-
-            ficha_el = block.query_selector("a[href*='pag=ficha']")
-            if not ficha_el:
-                continue
-            href = ficha_el.get_attribute("href") or ""
-            ficha_url = href if href.startswith("http") else f"{base_url}/{href.lstrip('/')}"
-
-            if ficha_url not in entries:
-                entries[ficha_url] = title
-
-    if not entries:
-        print(f"  ⚠ ABC ({base_url}) page loaded but found no movies")
-    return entries
+            title = (ev.get("Titulo") or "").strip()
+            if title and ev_id not in events:
+                events[ev_id] = title
+    return events
 
 
-def _scrape_ficha(page, ficha_url: str, title: str) -> list[dict]:
-    """
-    Visit a movie ficha page and return all upcoming sessions with dates.
-    Uses JS DOM traversal to pair sessions with their nearest date header.
-    """
-    try:
-        page.goto(ficha_url, timeout=30000, wait_until="domcontentloaded")
-        try:
-            page.wait_for_selector("div.cont-ses, div.hora-ses", timeout=10000)
-        except Exception:
-            pass  # selector may not exist on this page
-    except Exception as e:
-        print(f"  ⚠ ABC ficha error ({ficha_url}): {e}")
+def _movie_url(sub: str, recinto: int, ev_id: int, title: str = "") -> str:
+    slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-") or "pelicula"
+    return f"{SITE}/e/{sub}/{slug}/{recinto}/{ev_id}"
+
+
+def _extract_sessions(evento: dict, url: str, today: "date | None" = None) -> list[dict]:
+    """Turn one Evento (with its Sesiones) into raw showtime rows."""
+    today = today or date.today()
+    title = (evento.get("Titulo") or "").strip()
+    if not title:
         return []
-
-    try:
-        raw_sessions = page.evaluate(_JS_SESSIONS)
-    except Exception as e:
-        print(f"  ⚠ ABC JS eval error for '{title}': {e}")
-        return []
-
-    if not raw_sessions:
-        print(f"  ⚠ ABC no sessions found for: {title} ({ficha_url})")
-        return []
-
-    today = date.today()
-    results = []
-    unparseable_dates = []
-    for item in raw_sessions:
-        date_str = _parse_ficha_date(item.get("dateText", ""))
-        if not date_str:
-            unparseable_dates.append(repr(item.get("dateText", "")))
+    rows, seen = [], set()
+    for ses in evento.get("Sesiones") or []:
+        date_str = _parse_ficha_date(ses.get("FechaSesion") or ses.get("Fecha") or "")
+        time_str = _session_time(ses)
+        if not date_str or not time_str:
             continue
         if date.fromisoformat(date_str) < today:
             continue
-
-        lang = _detect_lang_from_text(item.get("lang") or "")
-
-        results.append({
+        lang = _session_lang(ses)
+        key = (date_str, time_str, lang)
+        if key in seen:
+            continue
+        seen.add(key)
+        rows.append({
             "title":    title,
             "language": lang,
             "date":     date_str,
-            "time":     item["time"],
-            "url":      ficha_url,
+            "time":     time_str,
+            "url":      url,
         })
-
-    if not results and unparseable_dates:
-        sample = unparseable_dates[:3]
-        print(f"  ⚠ ABC date parse failed for '{title}' — dateText samples: {sample}")
-
-    return results
+    return rows
 
 
-def _launch_and_scrape(base_url: str) -> list[dict]:
-    results = []
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page(user_agent=_UA)
+# ── Browser driving ─────────────────────────────────────────────────────────
+
+async def _fetch_index(context, sub: str) -> dict:
+    page = await context.new_page()
+    try:
+        async with page.expect_response(
+            lambda r: f"/{sub}/index?" in r.url and r.status == 200,
+            timeout=_INDEX_TIMEOUT_MS,
+        ) as info:
+            await page.goto(f"{SITE}/cine/{sub}", wait_until="commit")
+        resp = await info.value
+        return await resp.json()
+    finally:
+        await page.close()
+
+
+async def _fetch_event(context, sem, sub: str, recinto: int,
+                       ev_id: int, title: str) -> "dict | None":
+    url = _movie_url(sub, recinto, ev_id, title)
+    async with sem:
+        page = await context.new_page()
         try:
-            # Phase 1: collect ficha URLs from both listing pages
-            ficha_map = _collect_ficha_urls(page, base_url)
-
-            # Phase 2: scrape each ficha page for multi-day sessions
-            for ficha_url, title in ficha_map.items():
-                results.extend(_scrape_ficha(page, ficha_url, title))
-
+            async with page.expect_response(
+                lambda r: f"/{sub}/sesiones?" in r.url
+                          and f"evento={ev_id}" in r.url and r.status == 200,
+                timeout=_SESIONES_TIMEOUT_MS,
+            ) as info:
+                await page.goto(url, wait_until="commit")
+            resp = await info.value
+            data = await resp.json()
+            evento = data.get("Evento") if isinstance(data, dict) else None
+            if isinstance(evento, list):
+                evento = evento[0] if evento else None
+            return evento if isinstance(evento, dict) else None
         except Exception as e:
-            print(f"  ⚠ ABC ({base_url}) error: {e}")
+            print(f"  ⚠ ABC ({sub}) sessions for '{title}' ({ev_id}) failed: {e}")
+            return None
         finally:
-            browser.close()
-    return results
+            await page.close()
+
+
+async def _scrape_cinema(sub: str, recinto: int) -> list[dict]:
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=True)
+        context = await browser.new_context(user_agent=_UA)
+        try:
+            index = await _fetch_index(context, sub)
+            events = _events_to_visit(index)
+            if not events:
+                print(f"  ⚠ ABC ({sub}) cartelera loaded but listed no movies")
+                return []
+
+            sem = asyncio.Semaphore(_CONCURRENCY)
+            ids = list(events)
+            fetched = await asyncio.gather(*(
+                _fetch_event(context, sem, sub, recinto, i, events[i]) for i in ids
+            ))
+
+            # Fallback: if a movie page failed, keep at least today's
+            # sessions from the listing payload.
+            from_index = {
+                int(ev["Id"]): ev
+                for key in ("Eventos", "ProximosEventos")
+                for ev in index.get(key) or [] if "Id" in ev
+            }
+            results = []
+            for ev_id, evento in zip(ids, fetched):
+                evento = evento or from_index.get(ev_id) or {}
+                url = (evento.get("url_de_compra")
+                       or _movie_url(sub, recinto, ev_id, events[ev_id]))
+                results.extend(_extract_sessions(evento, url))
+            return results
+        finally:
+            await browser.close()
+
+
+def _launch_and_scrape(sub: str, recinto: int) -> list[dict]:
+    # run.py calls scrapers from worker threads, which have no event loop.
+    return asyncio.run(_scrape_cinema(sub, recinto))
 
 
 # ── Public entry points (one per cinema, registered in run.py) ──────────────
 
 def scrape_park() -> list[dict]:
-    return _launch_and_scrape("https://park.cinesabc.com")
+    return _launch_and_scrape("abcpark", 2)
 
 def scrape_elsaler() -> list[dict]:
-    return _launch_and_scrape("https://elsaler.cinesabc.com")
+    return _launch_and_scrape("abcelsaler", 172)
 
 def scrape_granturia() -> list[dict]:
-    return _launch_and_scrape("https://granturia.cinesabc.com")
+    return _launch_and_scrape("abcgranturia", 171)
