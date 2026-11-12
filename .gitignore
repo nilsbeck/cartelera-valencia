@@ -8,3 +8,6 @@ build/
 .pytest_cache/
 .venv/
 venv/
+
+# Scraper health workflow input (downloaded artifact)
+health-summary.md

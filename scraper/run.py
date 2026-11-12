@@ -8,6 +8,7 @@ Writes: data/showtimes.json, posters/<slug>.jpg
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 import hashlib
@@ -222,7 +223,8 @@ def run():
 
     # Health report for the GitHub "Scraper health" workflow. Written before
     # the slow TMDB step so a later crash still leaves an up-to-date report.
-    health = build_health_report(all_raw, scraper_errors, cinema_diags)
+    health = build_health_report(all_raw, scraper_errors, cinema_diags,
+                                 code_sha=current_code_sha())
     with open(HEALTH_FILE, "w", encoding="utf-8") as f:
         json.dump(health, f, ensure_ascii=False, indent=2)
         f.write("\n")
@@ -343,7 +345,7 @@ def expected_dates_by_cinema(today: "date | None" = None) -> dict[str, set[str]]
     future_only = std_dates - {today.isoformat()}
 
     # Ocine runs on a Friday→Thursday cycle; its window may be shorter than 7 days.
-    ocine_dates = set(_dates_until_next_thursday())
+    ocine_dates = set(_dates_until_next_thursday(today))
 
     return {
         "babel":         std_dates,
@@ -389,16 +391,25 @@ def build_health_report(
     scraper_errors: "list[tuple] | None" = None,
     cinema_diags: "dict[str, list[str]] | None" = None,
     today: "date | None" = None,
+    code_sha: "str | None" = None,
 ) -> dict:
     """Per-cinema result of THIS run, written to data/health.json.
 
     The Docker job commits it alongside showtimes.json, so the GitHub
-    "Scraper health" workflow can judge each scraper by what it returned
-    from the home IP (GitHub runners are blocked by some cinema sites).
+    "Scraper health" workflow (scraper/healthcheck.py) can judge each
+    scraper by what it returned from the home IP — GitHub runners are
+    blocked by some cinema sites.
+
+    "days" counts showtimes for today and the next six days, whatever the
+    cinema's expected window; "expected_days"/"covered_days"/"missing_days"
+    use the per-cinema windows from expected_dates_by_cinema(). "code_sha"
+    is the commit the scrapers ran from, so the workflow can tell whether
+    scraper code changed after the report was written.
     """
     from datetime import datetime, timezone
 
     today = today or date.today()
+    window = [(today + timedelta(days=i)).isoformat() for i in range(7)]
     errors = {cid: str(err) for cid, err in (scraper_errors or [])}
     diags = cinema_diags or {}
     rows_by_cinema: dict[str, list[dict]] = {}
@@ -408,9 +419,13 @@ def build_health_report(
     cinemas = {}
     for cid, expected in sorted(expected_dates_by_cinema(today).items()):
         rows = rows_by_cinema.get(cid, [])
-        covered = {r["date"] for r in rows} & expected
+        per_day: dict[str, int] = {}
+        for r in rows:
+            per_day[r["date"]] = per_day.get(r["date"], 0) + 1
+        covered = set(per_day) & expected
         cinemas[cid] = {
             "rows":          len(rows),
+            "days":          {d: per_day.get(d, 0) for d in window},
             "expected_days": len(expected),
             "covered_days":  len(covered),
             "missing_days":  sorted(expected - covered),
@@ -420,8 +435,21 @@ def build_health_report(
     return {
         "generated_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
         "date":         today.isoformat(),
+        "code_sha":     code_sha,
         "cinemas":      cinemas,
     }
+
+
+def current_code_sha() -> "str | None":
+    """Commit of the checkout running this scrape (the Docker job runs a
+    fresh clone of main), or None outside a git checkout."""
+    try:
+        out = subprocess.run(["git", "rev-parse", "HEAD"], cwd=ROOT,
+                             capture_output=True, text=True, timeout=10)
+    except (OSError, subprocess.SubprocessError):
+        return None
+    sha = out.stdout.strip()
+    return sha if out.returncode == 0 and len(sha) == 40 else None
 
 
 if __name__ == "__main__":
