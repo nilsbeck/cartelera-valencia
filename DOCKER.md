@@ -136,3 +136,49 @@ The `Scrape` workflow in `.github/workflows/scrape.yml` now keeps only
 its `workflow_dispatch` trigger (no cron) — see the comment block at the
 top — so it won't compete with your local cron. You can still trigger it
 manually from the Actions tab if you ever want to.
+
+## Automatic scraper fixes (Scraper health workflow)
+
+Every run writes `data/health.json`: per cinema, how many showtimes the
+scraper returned, showtimes per day for the coming week, any error, and the
+commit the scrapers ran from. The Docker job commits it with the rest of
+`data/`, so it reflects what the scrapers get from your home IP.
+
+`.github/workflows/scraper-health.yml` runs daily at 09:23 UTC and judges
+that file with `scraper/healthcheck.py`:
+
+| Verdict  | Meaning | What happens |
+|----------|---------|--------------|
+| `ok`     | every cinema looks fine | nothing |
+| `broken` | a scraper raised, returned 0 showtimes, or has none for today or tomorrow | Claude (via `anthropics/claude-code-action`) reproduces the failure on the runner, fixes the scraper, runs the tests and opens a PR labelled `scraper-autofix`, assigned to you. If it can't reach the site (Ocine blocks GitHub IPs) or isn't confident, it opens an issue instead. |
+| `stale`  | the report is more than 36 h old | an issue labelled `scraper-health`: the Docker job stopped pushing (not running, or failing before the commit) — not a code problem |
+| `missing` | no report yet (before the first Docker run with this code) | nothing |
+| `pending` | scraper code on `main` changed after the report was produced | nothing; the next Docker run reports on the new code |
+
+"Broken" deliberately does not require a full week of showtimes: cinemas
+publish the next week mid-week (on a Tuesday ABC only lists through
+Thursday; on a Thursday Lys has nothing for Friday yet).
+
+While a `scraper-autofix` PR or issue is open, no new fix is started, so
+you get at most one at a time. Merge or close it to re-arm. To silence a
+cinema that is legitimately closed, set the repository variable
+`SCRAPER_HEALTH_IGNORE` (Settings → Secrets and variables → Actions →
+Variables) to its id, e.g. `dor`; separate several with spaces.
+
+One-time setup on GitHub:
+
+1. Add a repository secret (Settings → Secrets and variables → Actions):
+   either `CLAUDE_CODE_OAUTH_TOKEN` (Claude Pro/Max — create it with
+   `claude setup-token`) or `ANTHROPIC_API_KEY`.
+2. Settings → Actions → General → Workflow permissions → tick
+   **Allow GitHub Actions to create and approve pull requests**.
+
+To try the fix job without waiting for a real breakage, run the workflow
+manually (Actions → Scraper health → Run workflow) and put a cinema id
+such as `abc_park` in **force_cinemas**. As that scraper works, Claude
+should open an issue saying so rather than change code.
+
+PRs opened by the workflow use the built-in `GITHUB_TOKEN`, so GitHub does
+not start the `Tests` workflow on them automatically (Claude runs the
+tests itself and reports the result in the PR). Push any commit to the
+branch to run CI on it.

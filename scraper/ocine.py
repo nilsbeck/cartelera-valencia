@@ -71,9 +71,9 @@ _POST_JS = """async ({url, body}) => {
 }"""
 
 
-def _dates_until_next_thursday() -> list[str]:
+def _dates_until_next_thursday(today: "date | None" = None) -> list[str]:
     """ISO date strings from today through the upcoming Thursday (inclusive)."""
-    today = date.today()
+    today = today or date.today()
     days_ahead = (3 - today.weekday()) % 7  # 3 = Thursday
     if days_ahead == 0:
         days_ahead = 7
