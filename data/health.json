@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-18T07:04:41+00:00",
-  "date": "2026-11-18",
-  "code_sha": "06f3d455f85d4b45b466903434d03f1b212aa66c",
+  "generated_at": "2026-11-19T07:04:50+00:00",
+  "date": "2026-11-19",
+  "code_sha": "38bd0ad25ce2b9bc6ba4beac60cd4864cd748301",
   "cinemas": {
     "abc_elsaler": {
-      "rows": 330,
+      "rows": 297,
       "days": {
-        "2026-11-18": 33,
         "2026-11-19": 33,
         "2026-11-20": 32,
         "2026-11-21": 33,
         "2026-11-22": 42,
         "2026-11-23": 32,
-        "2026-11-24": 32
+        "2026-11-24": 32,
+        "2026-11-25": 32
       },
       "expected_days": 7,
       "covered_days": 7,
@@ -21,15 +21,15 @@
       "diagnostics": []
     },
     "abc_granturia": {
-      "rows": 390,
+      "rows": 349,
       "days": {
-        "2026-11-18": 41,
         "2026-11-19": 41,
         "2026-11-20": 40,
         "2026-11-21": 40,
         "2026-11-22": 40,
         "2026-11-23": 40,
-        "2026-11-24": 40
+        "2026-11-24": 40,
+        "2026-11-25": 40
       },
       "expected_days": 7,
       "covered_days": 7,
@@ -38,15 +38,15 @@
       "diagnostics": []
     },
     "abc_park": {
-      "rows": 454,
+      "rows": 394,
       "days": {
-        "2026-11-18": 44,
         "2026-11-19": 38,
-        "2026-11-20": 43,
-        "2026-11-21": 44,
-        "2026-11-22": 56,
-        "2026-11-23": 43,
-        "2026-11-24": 42
+        "2026-11-20": 41,
+        "2026-11-21": 41,
+        "2026-11-22": 52,
+        "2026-11-23": 41,
+        "2026-11-24": 40,
+        "2026-11-25": 41
       },
       "expected_days": 7,
       "covered_days": 7,
@@ -55,15 +55,15 @@
       "diagnostics": []
     },
     "babel": {
-      "rows": 50,
+      "rows": 139,
       "days": {
-        "2026-11-18": 19,
         "2026-11-19": 19,
-        "2026-11-20": 2,
-        "2026-11-21": 1,
-        "2026-11-22": 1,
-        "2026-11-23": 1,
-        "2026-11-24": 1
+        "2026-11-20": 18,
+        "2026-11-21": 21,
+        "2026-11-22": 20,
+        "2026-11-23": 18,
+        "2026-11-24": 19,
+        "2026-11-25": 18
       },
       "expected_days": 7,
       "covered_days": 7,
@@ -74,13 +74,13 @@
     "dor": {
       "rows": 28,
       "days": {
-        "2026-11-18": 4,
         "2026-11-19": 4,
         "2026-11-20": 4,
         "2026-11-21": 4,
         "2026-11-22": 4,
         "2026-11-23": 4,
-        "2026-11-24": 4
+        "2026-11-24": 4,
+        "2026-11-25": 4
       },
       "expected_days": 7,
       "covered_days": 7,
@@ -89,35 +89,35 @@
       "diagnostics": []
     },
     "kinepolis": {
-      "rows": 268,
+      "rows": 269,
       "days": {
-        "2026-11-18": 28,
         "2026-11-19": 26,
-        "2026-11-20": 43,
+        "2026-11-20": 44,
         "2026-11-21": 56,
         "2026-11-22": 56,
         "2026-11-23": 29,
-        "2026-11-24": 30
+        "2026-11-24": 30,
+        "2026-11-25": 28
       },
       "expected_days": 7,
       "covered_days": 7,
       "missing_days": [],
       "error": null,
       "diagnostics": [
-        "HTTP 200, body 11615594 bytes",
-        "parsed 105 films, 6133 total sessions"
+        "HTTP 200, body 11826103 bytes",
+        "parsed 105 films, 5763 total sessions"
       ]
     },
     "lys": {
-      "rows": 231,
+      "rows": 187,
       "days": {
-        "2026-11-18": 48,
-        "2026-11-19": 31,
+        "2026-11-19": 33,
         "2026-11-20": 26,
         "2026-11-21": 28,
         "2026-11-22": 28,
-        "2026-11-23": 11,
-        "2026-11-24": 16
+        "2026-11-23": 13,
+        "2026-11-24": 16,
+        "2026-11-25": 27
       },
       "expected_days": 6,
       "covered_days": 6,
@@ -126,15 +126,15 @@
       "diagnostics": []
     },
     "mn4": {
-      "rows": 334,
+      "rows": 302,
       "days": {
-        "2026-11-18": 34,
-        "2026-11-19": 36,
+        "2026-11-19": 38,
         "2026-11-20": 29,
         "2026-11-21": 29,
         "2026-11-22": 25,
         "2026-11-23": 15,
-        "2026-11-24": 16
+        "2026-11-24": 16,
+        "2026-11-25": 16
       },
       "expected_days": 6,
       "covered_days": 6,
@@ -143,42 +143,42 @@
       "diagnostics": []
     },
     "ocine": {
-      "rows": 71,
+      "rows": 280,
       "days": {
-        "2026-11-18": 36,
         "2026-11-19": 35,
-        "2026-11-20": 0,
-        "2026-11-21": 0,
-        "2026-11-22": 0,
-        "2026-11-23": 0,
-        "2026-11-24": 0
+        "2026-11-20": 36,
+        "2026-11-21": 40,
+        "2026-11-22": 44,
+        "2026-11-23": 34,
+        "2026-11-24": 26,
+        "2026-11-25": 34
       },
-      "expected_days": 2,
-      "covered_days": 2,
+      "expected_days": 8,
+      "covered_days": 8,
       "missing_days": [],
       "error": null,
       "diagnostics": [
-        "showtimes per day: {'2026-11-18': 36, '2026-11-19': 35}"
+        "showtimes per day: {'2026-11-19': 35, '2026-11-20': 36, '2026-11-21': 40, '2026-11-22': 44, '2026-11-23': 34, '2026-11-24': 26, '2026-11-25': 34, '2026-11-26': 31}"
       ]
     },
     "yelmo": {
-      "rows": 321,
+      "rows": 322,
       "days": {
-        "2026-11-18": 46,
         "2026-11-19": 45,
         "2026-11-20": 45,
         "2026-11-21": 47,
         "2026-11-22": 47,
         "2026-11-23": 46,
-        "2026-11-24": 45
+        "2026-11-24": 46,
+        "2026-11-25": 46
       },
       "expected_days": 7,
       "covered_days": 7,
       "missing_days": [],
       "error": null,
       "diagnostics": [
-        "showtimes per day: {'2026-11-18': 46, '2026-11-19': 45, '2026-11-20': 45, '2026-11-21': 47, '2026-11-22': 47, '2026-11-23': 46, '2026-11-24': 45}",
-        "languages seen: COR/COR → VOSE (BTS WORLD TOUR ARIRANG IN JAKARTA: LIVE VIEWING, BTS WORLD TOUR ARIRANG IN KAOHSIUNG: LIVE VIEWING); ESP/ESPAÑOL → ES (Vengadores: Doomsday, Dune Parte Tres, Hechizo Bienvenidos a Hexe); ING/INGLÉS → VO (El Cascanueces- Ballet Live ROH 26-27, Alicia en el País de las Maravillas - ROH 26-27, El Lago de los Cisnes - Ballet ROH 26-27); SUB ESP/SUB ESP → VOSE (Vengadores: Doomsday, Dune Parte Tres, Iron Boy)"
+        "showtimes per day: {'2026-11-19': 45, '2026-11-20': 45, '2026-11-21': 47, '2026-11-22': 47, '2026-11-23': 46, '2026-11-24': 46, '2026-11-25': 46}",
+        "languages seen: COR/COR → VOSE (BTS WORLD TOUR ARIRANG IN KAOHSIUNG: LIVE VIEWING, BTS WORLD TOUR ARIRANG IN JAKARTA: LIVE VIEWING); ESP/ESPAÑOL → ES (Vengadores: Doomsday, Dune Parte Tres, Hechizo Bienvenidos a Hexe); ING/INGLÉS → VO (El Cascanueces- Ballet Live ROH 26-27, Alicia en el País de las Maravillas - ROH 26-27, El Lago de los Cisnes - Ballet ROH 26-27); SUB ESP/SUB ESP → VOSE (Vengadores: Doomsday, Dune Parte Tres, Iron Boy)"
       ]
     }
   }
