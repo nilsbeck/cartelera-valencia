@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T07:00:00Z",
+  "updated_at": "2026-11-28T07:00:00Z",
   "movies": [
     {
       "id": "tmdb-791523",
@@ -7150,6 +7150,13 @@
           "date": "2026-12-03",
           "time": "22:40",
           "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "22:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11084"
         }
       ]
     },
@@ -11695,6 +11702,59 @@
           "language": "VOSE",
           "date": "2026-12-03",
           "time": "22:55",
+          "url": "https://cineyelmo.com/es"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-969681",
+      "title": "Spider-man: Brand New Day",
+      "title_local": "Spider-Man: Brand New Day",
+      "poster": "posters/spider-man-brand-new-day.jpg",
+      "rating": 8.5,
+      "duration": 145,
+      "genres": [
+        "Ciencia ficción",
+        "Acción",
+        "Aventura"
+      ],
+      "trailer_youtube_id": "P3uI5sLosKU",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-12-04",
+          "time": "19:25",
+          "url": "https://kinepolis.es/movies/detail/35287/HO00006387/0/spider-man-brand-new-day"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-969681",
+      "title": "Spider-Man Brand New Brand New Day",
+      "title_local": "Spider-Man: Brand New Day",
+      "poster": "posters/spider-man-brand-new-brand-new-day.jpg",
+      "rating": 8.5,
+      "duration": 145,
+      "genres": [
+        "Ciencia ficción",
+        "Acción",
+        "Aventura"
+      ],
+      "trailer_youtube_id": "P3uI5sLosKU",
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-12-04",
+          "time": "20:00",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-12-04",
+          "time": "18:00",
           "url": "https://cineyelmo.com/es"
         }
       ]
@@ -16547,6 +16607,106 @@
       ]
     },
     {
+      "id": "tmdb-693134",
+      "title": "Dune: Parte Dos",
+      "title_local": "Dune: Parte dos",
+      "poster": "posters/dune-parte-dos.jpg",
+      "rating": 8.1,
+      "duration": 167,
+      "genres": [
+        "Ciencia ficción",
+        "Aventura"
+      ],
+      "trailer_youtube_id": "U2Qp5pL3ovA",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-12-04",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/21341/HO00004847/0/dune-parte-dos"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-12-04",
+          "time": "20:00",
+          "url": "https://kinepolis.es/movies/detail/21341/HO00004848/0/dune-parte-dos"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-12-04",
+          "time": "21:30",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/dune-parte-dos/1504/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-05",
+          "time": "21:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/dune-parte-dos/1504/"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-693134",
+      "title": "Dune",
+      "title_local": "Dune: Parte dos",
+      "poster": "posters/dune.jpg",
+      "rating": 8.1,
+      "duration": 167,
+      "genres": [
+        "Ciencia ficción",
+        "Aventura"
+      ],
+      "trailer_youtube_id": "U2Qp5pL3ovA",
+      "showtimes": [
+        {
+          "cinema": "kinepolis",
+          "language": "VO",
+          "date": "2026-12-04",
+          "time": "16:30",
+          "url": "https://kinepolis.es/movies/detail/8387/HO00003238/0/dune"
+        },
+        {
+          "cinema": "kinepolis",
+          "language": "ES",
+          "date": "2026-12-04",
+          "time": "19:45",
+          "url": "https://kinepolis.es/movies/detail/8387/HO00003237/0/dune"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-12-04",
+          "time": "20:30",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "VOSE",
+          "date": "2026-12-04",
+          "time": "17:15",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-12-04",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/dune/237/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-05",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/dune/237/"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1368337",
       "title": "La Odisea",
       "title_local": "La Odisea",
@@ -17333,6 +17493,29 @@
       ]
     },
     {
+      "id": "tmdb-1381071",
+      "title": "GODZILLA MINUS ZERO",
+      "title_local": "Godzilla Minus Zero",
+      "poster": "posters/godzilla-minus-zero.jpg",
+      "rating": 7.6,
+      "duration": 135,
+      "genres": [
+        "Ciencia ficción",
+        "Terror",
+        "Acción"
+      ],
+      "trailer_youtube_id": "Pu0pH5BuCPM",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-11-29",
+          "time": "11:45",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/godzilla-minus-zero/3534/"
+        }
+      ]
+    },
+    {
       "id": "tmdb-794",
       "title": "La Profecía",
       "title_local": "La profecía",
@@ -17464,6 +17647,42 @@
           "date": "2026-12-03",
           "time": "21:15",
           "url": "https://www.reservaentradas.com/sesiones/xirivella/abcgranturia/redencion/3608/"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1404684",
+      "title": "TIEMPOS DE ILUSIÓN",
+      "title_local": "Tiempos de ilusión",
+      "poster": "posters/tiempos-de-ilusion.jpg",
+      "rating": 7.3,
+      "duration": 119,
+      "genres": [
+        "Comedia",
+        "Drama"
+      ],
+      "trailer_youtube_id": "vZtK0AdeXk8",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-30",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/tiempos-de-ilusion/3515/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-01",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/tiempos-de-ilusion/3515/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-03",
+          "time": "20:10",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/tiempos-de-ilusion/3515/"
         }
       ]
     },
@@ -19591,6 +19810,28 @@
       ]
     },
     {
+      "id": "tmdb-1503762",
+      "title": "SENTIDO Y SENSIBILIDAD (2026)",
+      "title_local": "Sentido y sensibilidad",
+      "poster": "posters/sentido-y-sensibilidad-2026.jpg",
+      "rating": 7.2,
+      "duration": 132,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "trailer_youtube_id": "OFLyW0lxFU0",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-01",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/sentido-y-sensibilidad-2026/3466/"
+        }
+      ]
+    },
+    {
       "id": "tmdb-406990",
       "title": "HERMANAS",
       "title_local": "Siete hermanas",
@@ -20126,6 +20367,20 @@
           "cinema": "dor",
           "language": "ES",
           "date": "2026-12-03",
+          "time": "22:10",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-12-04",
+          "time": "18:10",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "ES",
+          "date": "2026-12-04",
           "time": "22:10",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -21865,6 +22120,48 @@
           "date": "2026-12-03",
           "time": "21:45",
           "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "11:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11143"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "16:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11143"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "18:10",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11143"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "20:20",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11143"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "22:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11143"
+        },
+        {
+          "cinema": "ocine",
+          "language": "VOSE",
+          "date": "2026-11-29",
+          "time": "21:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11143"
         }
       ]
     },
@@ -21923,6 +22220,29 @@
           "date": "2026-12-01",
           "time": "19:15",
           "url": "https://www.reservaentradas.com/sesiones/xirivella/abcgranturia/primavera-2026---preestreno/3619/"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-799583",
+      "title": "SUCIA",
+      "title_local": "El ministerio de la guerra sucia",
+      "poster": "posters/sucia.jpg",
+      "rating": 7.0,
+      "duration": 120,
+      "genres": [
+        "Acción",
+        "Comedia",
+        "Bélica"
+      ],
+      "trailer_youtube_id": "zvwDen1Wrx8",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-01",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/sucia/3592/"
         }
       ]
     },
@@ -22911,6 +23231,13 @@
           "date": "2026-12-03",
           "time": "22:45",
           "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "15:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11236"
         }
       ]
     },
@@ -26168,6 +26495,20 @@
           "cinema": "dor",
           "language": "VO",
           "date": "2026-12-03",
+          "time": "20:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "VO",
+          "date": "2026-12-04",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
+        },
+        {
+          "cinema": "dor",
+          "language": "VO",
+          "date": "2026-12-04",
           "time": "20:30",
           "url": "https://www.reservaentradas.com/cine/valencia/cinestudiodor"
         }
@@ -43908,6 +44249,27 @@
       ]
     },
     {
+      "id": "tmdb-256804",
+      "title": "Cine Club – Lejos de los árboles",
+      "title_local": "Lejos de los árboles",
+      "poster": "posters/cine-club-lejos-de-los-arboles.jpg",
+      "rating": 6.2,
+      "duration": 100,
+      "genres": [
+        "Documental"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-12-17",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-club-lejos-de-los-arboles/68483/?step=2"
+        }
+      ]
+    },
+    {
       "id": "tmdb-1368830",
       "title": "MIS QUERIDÍSIMOS PADRES",
       "title_local": "Mis queridísimos padres",
@@ -54530,6 +54892,46 @@
           "date": "2026-12-03",
           "time": "20:00",
           "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "11:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10728"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "18:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10728"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "20:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10728"
+        }
+      ]
+    },
+    {
+      "id": "local-babelitos-el-secreto-del-herrerillo",
+      "title": "Babelitos – El secreto del herrerillo",
+      "title_local": "Babelitos – El secreto del herrerillo",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "VO",
+          "date": "2026-11-28",
+          "time": "12:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/babelitos-el-secreto-del-herrerillo/68445/?step=2"
         }
       ]
     },
@@ -56770,6 +57172,319 @@
           "date": "2026-12-03",
           "time": "19:05",
           "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-12-01",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/el-director/68402/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "22:05",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-30",
+          "time": "22:05",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-12-01",
+          "time": "22:05",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-12-02",
+          "time": "22:05",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-12-03",
+          "time": "22:05",
+          "url": "https://cineyelmo.com/es"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1740884",
+      "title": "Un hombre en un puente",
+      "title_local": "Un hombre en un puente",
+      "poster": "posters/un-hombre-en-un-puente.jpg",
+      "rating": null,
+      "duration": 116,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-27",
+          "time": "20:20",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-28",
+          "time": "20:20",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "20:20",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-11-30",
+          "time": "20:20",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-12-01",
+          "time": "17:35",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-27",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/un-hombre-en-un-puente/3605/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-28",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/un-hombre-en-un-puente/3605/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/un-hombre-en-un-puente/3605/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-30",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/un-hombre-en-un-puente/3605/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-02",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/un-hombre-en-un-puente/3605/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-03",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/un-hombre-en-un-puente/3605/"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-11-27",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-hombre-en-un-puente/68330/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-11-28",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-hombre-en-un-puente/68347/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-hombre-en-un-puente/68366/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-11-30",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-hombre-en-un-puente/68384/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-12-01",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-hombre-en-un-puente/68402/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-12-01",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-hombre-en-un-puente/68389/?step=2"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-12-02",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-hombre-en-un-puente/68421/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-12-02",
+          "time": "20:20",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-12-03",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-hombre-en-un-puente/68439/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-27",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93893/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-27",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93894/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-28",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93895/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-28",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93896/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93897/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93898/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-30",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93899/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-11-30",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93900/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-01",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93901/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-01",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93902/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-02",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93903/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-02",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93904/?step=2"
+        },
+        {
+          "cinema": "mn4",
+          "language": "ES",
+          "date": "2026-12-03",
+          "time": "22:20",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93905/?step=2"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-12-03",
+          "time": "20:20",
+          "url": "https://cineyelmo.com/es"
+        }
+      ]
+    },
+    {
+      "id": "local-lorca-en-babel-la-bola-negra",
+      "title": "Lorca en Babel –  La bola negra",
+      "title_local": "Lorca en Babel –  La bola negra",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "babel",
+          "language": "ES",
+          "date": "2026-11-28",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/lorca-en-babel-la-bola-negra/68161/?step=2"
         }
       ]
     },
@@ -60792,296 +61507,6 @@
       ]
     },
     {
-      "id": "tmdb-1740884",
-      "title": "Un hombre en un puente",
-      "title_local": "Un hombre en un puente",
-      "poster": "posters/un-hombre-en-un-puente.jpg",
-      "rating": null,
-      "duration": 116,
-      "genres": [
-        "Drama"
-      ],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-11-27",
-          "time": "20:20",
-          "url": "https://cineyelmo.com/es"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-11-28",
-          "time": "20:20",
-          "url": "https://cineyelmo.com/es"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-11-29",
-          "time": "20:20",
-          "url": "https://cineyelmo.com/es"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-11-30",
-          "time": "20:20",
-          "url": "https://cineyelmo.com/es"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-12-01",
-          "time": "17:35",
-          "url": "https://cineyelmo.com/es"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-11-27",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/un-hombre-en-un-puente/3605/"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-11-28",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/un-hombre-en-un-puente/3605/"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-11-29",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/un-hombre-en-un-puente/3605/"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-11-30",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/un-hombre-en-un-puente/3605/"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-12-02",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/un-hombre-en-un-puente/3605/"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-12-03",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/un-hombre-en-un-puente/3605/"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-11-27",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-hombre-en-un-puente/68330/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-11-28",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-hombre-en-un-puente/68347/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-11-29",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-hombre-en-un-puente/68366/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-11-30",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-hombre-en-un-puente/68384/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-12-01",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-hombre-en-un-puente/68402/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-12-01",
-          "time": "22:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-hombre-en-un-puente/68389/?step=2"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-12-02",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-hombre-en-un-puente/68421/?step=2"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-12-02",
-          "time": "20:20",
-          "url": "https://cineyelmo.com/es"
-        },
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-12-03",
-          "time": "18:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/un-hombre-en-un-puente/68439/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-27",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93893/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-27",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93894/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-28",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93895/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-28",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93896/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-29",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93897/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-29",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93898/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-30",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93899/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-11-30",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93900/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-01",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93901/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-01",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93902/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-02",
-          "time": "20:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93903/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-02",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93904/?step=2"
-        },
-        {
-          "cinema": "mn4",
-          "language": "ES",
-          "date": "2026-12-03",
-          "time": "22:20",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesmn4/un-hombre-en-un-puente/93905/?step=2"
-        },
-        {
-          "cinema": "yelmo",
-          "language": "ES",
-          "date": "2026-12-03",
-          "time": "20:20",
-          "url": "https://cineyelmo.com/es"
-        }
-      ]
-    },
-    {
-      "id": "local-babelitos-el-secreto-del-herrerillo",
-      "title": "Babelitos – El secreto del herrerillo",
-      "title_local": "Babelitos – El secreto del herrerillo",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-11-28",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/babelitos-el-secreto-del-herrerillo/68445/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-lorca-en-babel-la-bola-negra",
-      "title": "Lorca en Babel –  La bola negra",
-      "title_local": "Lorca en Babel –  La bola negra",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "ES",
-          "date": "2026-11-28",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/lorca-en-babel-la-bola-negra/68161/?step=2"
-        }
-      ]
-    },
-    {
       "id": "local-wilder-cinema-tokyo-godfathers",
       "title": "Wilder Cinema – Tokyo Godfathers",
       "title_local": "Wilder Cinema – Tokyo Godfathers",
@@ -61168,25 +61593,6 @@
           "date": "2026-12-05",
           "time": "12:00",
           "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/babelitos-momonsters-pelicula-de-navidad/68451/?step=2"
-        }
-      ]
-    },
-    {
-      "id": "local-cine-familiar-momonsters-pelicula-de-navidad",
-      "title": "Cine familiar – Momonsters. Película de navidad.",
-      "title_local": "Cine familiar – Momonsters. Película de navidad.",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "babel",
-          "language": "VO",
-          "date": "2026-12-06",
-          "time": "12:00",
-          "url": "https://www.reservaentradas.com/entrada/valencia/cinesbabel/cine-familiar-momonsters-pelicula-de-navidad/68452/?step=2"
         }
       ]
     },
@@ -64872,6 +65278,20 @@
           "date": "2026-12-03",
           "time": "18:10",
           "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "11:30",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10863"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "15:50",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10863"
         }
       ]
     },
@@ -67393,6 +67813,27 @@
           "language": "VOSE",
           "date": "2026-12-03",
           "time": "21:30",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-12-04",
+          "time": "15:45",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-12-04",
+          "time": "18:10",
+          "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "yelmo",
+          "language": "ES",
+          "date": "2026-12-04",
+          "time": "20:35",
           "url": "https://cineyelmo.com/es"
         }
       ]
@@ -72219,6 +72660,41 @@
           "date": "2026-12-03",
           "time": "21:35",
           "url": "https://cineyelmo.com/es"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "18:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10874"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "17:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10874"
+        },
+        {
+          "cinema": "ocine",
+          "language": "VOSE",
+          "date": "2026-11-29",
+          "time": "11:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10874"
+        },
+        {
+          "cinema": "ocine",
+          "language": "VOSE",
+          "date": "2026-11-29",
+          "time": "20:00",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10874"
+        },
+        {
+          "cinema": "ocine",
+          "language": "VOSE",
+          "date": "2026-11-29",
+          "time": "21:15",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/10874"
         }
       ]
     },
@@ -72238,25 +72714,6 @@
           "date": "2026-12-01",
           "time": "19:15",
           "url": "https://kinepolis.es/movies/detail/39003/HO00006715/0/el-cascanueces"
-        }
-      ]
-    },
-    {
-      "id": "local-raul-anton-yo-fui-al-cine-en-la-egb",
-      "title": "Raúl Antón. Yo fui al cine en la EGB",
-      "title_local": "Raúl Antón. Yo fui al cine en la EGB",
-      "poster": null,
-      "rating": null,
-      "duration": null,
-      "genres": [],
-      "trailer_youtube_id": null,
-      "showtimes": [
-        {
-          "cinema": "kinepolis",
-          "language": "ES",
-          "date": "2026-11-27",
-          "time": "21:00",
-          "url": "https://kinepolis.es/movies/detail/39081/HO00006692/0/raul-anton-yo-fui-al-cine-en-la-egb"
         }
       ]
     },
@@ -87106,6 +87563,13 @@
           "date": "2026-12-03",
           "time": "16:00",
           "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11000"
+        },
+        {
+          "cinema": "ocine",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "11:45",
+          "url": "https://tickets.ocinepremiumaqua.es/?nocap=1#/DetallPelicula/11000"
         }
       ]
     },
@@ -87644,6 +88108,403 @@
           "date": "2026-12-03",
           "time": "16:05",
           "url": "https://cineyelmo.com/es"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1831171",
+      "title": "EL CIELO ES PARA SIEMPRE",
+      "title_local": "El cielo es para siempre",
+      "poster": "posters/el-cielo-es-para-siempre.jpg",
+      "rating": null,
+      "duration": 78,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-28",
+          "time": "16:15",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/el-cielo-es-para-siempre/3561/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "16:15",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/el-cielo-es-para-siempre/3561/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-30",
+          "time": "16:25",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/el-cielo-es-para-siempre/3561/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-01",
+          "time": "16:05",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/el-cielo-es-para-siempre/3561/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-02",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/el-cielo-es-para-siempre/3561/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-03",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/el-cielo-es-para-siempre/3561/"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1339284",
+      "title": "PARA VIVIR. EL IMPLACABLE TIEMPO DE PABLO MILANÉS",
+      "title_local": "Para vivir. El implacable tiempo de Pablo Milanés",
+      "poster": "posters/para-vivir-el-implacable-tiempo-de-pablo-milanes.jpg",
+      "rating": null,
+      "duration": 106,
+      "genres": [
+        "Documental",
+        "Música"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-27",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-28",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-30",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-01",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-02",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-03",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-11-30",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcelsaler/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-12-01",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcelsaler/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
+        },
+        {
+          "cinema": "abc_elsaler",
+          "language": "ES",
+          "date": "2026-12-03",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcelsaler/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-11-27",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/sesiones/xirivella/abcgranturia/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-11-28",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/sesiones/xirivella/abcgranturia/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/sesiones/xirivella/abcgranturia/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-11-30",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/sesiones/xirivella/abcgranturia/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-12-01",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/sesiones/xirivella/abcgranturia/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-12-02",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/sesiones/xirivella/abcgranturia/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
+        },
+        {
+          "cinema": "abc_granturia",
+          "language": "ES",
+          "date": "2026-12-03",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/sesiones/xirivella/abcgranturia/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1824086",
+      "title": "NMIXX 1ST WORLD TOUR  EPISODE 1: ZERO FRONTIER  FINALE IN INCHEON Live Viewing",
+      "title_local": "NMIXX 1ST WORLD TOUR 〈EPISODE 1: ZERO FRONTIER〉 FINALE IN INCHEON LIVE VIEWING",
+      "poster": "posters/nmixx-1st-world-tour-episode-1-zero-frontier-finale-in-incheon-live-viewing.jpg",
+      "rating": null,
+      "duration": 210,
+      "genres": [
+        "Música"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-11-29",
+          "time": "14:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/nmixx-1st-world-tour-episode-1-zero-frontier-finale-in-incheon-live-viewing/3597/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-12-01",
+          "time": "18:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/nmixx-1st-world-tour-episode-1-zero-frontier-finale-in-incheon-live-viewing/3597/"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1788686",
+      "title": "TARANTA",
+      "title_local": "Taranta",
+      "poster": "posters/taranta.jpg",
+      "rating": null,
+      "duration": 74,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-29",
+          "time": "22:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/taranta/3609/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-30",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/taranta/3609/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-02",
+          "time": "21:40",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/taranta/3609/"
+        }
+      ]
+    },
+    {
+      "id": "local-club-rosebud-la-violinista-the-violinist",
+      "title": "CLUB ROSEBUD: LA VIOLINISTA (THE VIOLINIST)",
+      "title_local": "CLUB ROSEBUD: LA VIOLINISTA (THE VIOLINIST)",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-30",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/club-rosebud-la-violinista-the-violinist/3610/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-11-30",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/club-rosebud-la-violinista-the-violinist/3610/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-01",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/club-rosebud-la-violinista-the-violinist/3610/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-01",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/club-rosebud-la-violinista-the-violinist/3610/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-01",
+          "time": "19:30",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/club-rosebud-la-violinista-the-violinist/3610/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-12-02",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/club-rosebud-la-violinista-the-violinist/3610/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-03",
+          "time": "16:30",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/club-rosebud-la-violinista-the-violinist/3610/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-03",
+          "time": "17:30",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/club-rosebud-la-violinista-the-violinist/3610/"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1526726",
+      "title": "IRON BOY",
+      "title_local": "The Boy in the Iron Box",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [
+        "Terror"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-11-30",
+          "time": "16:05",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/iron-boy/3571/"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1487159",
+      "title": "LA INVASIÓ DELS BÀRBARS",
+      "title_local": "La invasió dels bàrbars",
+      "poster": "posters/la-invasio-dels-barbars.jpg",
+      "rating": null,
+      "duration": 117,
+      "genres": [
+        "Drama"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VO",
+          "date": "2026-11-30",
+          "time": "20:20",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/la-invasio-dels-barbars/2854/"
+        }
+      ]
+    },
+    {
+      "id": "local-club-rosebud-el-mal-padre",
+      "title": "CLUB ROSEBUD: EL MAL PADRE",
+      "title_local": "CLUB ROSEBUD: EL MAL PADRE",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-01",
+          "time": "11:15",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/club-rosebud-el-mal-padre/3584/"
+        }
+      ]
+    },
+    {
+      "id": "local-fanny-y-alexander-1982-wilder-cinema",
+      "title": "FANNY Y ALEXANDER (1982) - WILDER CINEMA",
+      "title_local": "FANNY Y ALEXANDER (1982) - WILDER CINEMA",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-01",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/fanny-y-alexander-1982---wilder-cinema/3611/"
         }
       ]
     },
@@ -90134,159 +90995,148 @@
       ]
     },
     {
-      "id": "tmdb-1339284",
-      "title": "PARA VIVIR. EL IMPLACABLE TIEMPO DE PABLO MILANÉS",
-      "title_local": "Para vivir. El implacable tiempo de Pablo Milanés",
-      "poster": "posters/para-vivir-el-implacable-tiempo-de-pablo-milanes.jpg",
+      "id": "tmdb-1495052",
+      "title": "EL SECRETO DEL PARK - 02/12",
+      "title_local": "Sira y el secreto del parque",
+      "poster": null,
       "rating": null,
-      "duration": 106,
+      "duration": null,
       "genres": [
-        "Documental",
-        "Música"
+        "Animación",
+        "Aventura",
+        "Fantasía"
       ],
       "trailer_youtube_id": null,
       "showtimes": [
         {
           "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-11-27",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-11-28",
+          "language": "VOSE",
+          "date": "2026-12-02",
           "time": "20:00",
-          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-11-29",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-11-30",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-12-01",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-12-02",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
-        },
-        {
-          "cinema": "abc_park",
-          "language": "ES",
-          "date": "2026-12-03",
-          "time": "16:00",
-          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-11-30",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/sesiones/valencia/abcelsaler/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-12-01",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/sesiones/valencia/abcelsaler/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
-        },
-        {
-          "cinema": "abc_elsaler",
-          "language": "ES",
-          "date": "2026-12-03",
-          "time": "16:30",
-          "url": "https://www.reservaentradas.com/sesiones/valencia/abcelsaler/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-11-27",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/sesiones/xirivella/abcgranturia/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-11-28",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/sesiones/xirivella/abcgranturia/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-11-29",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/sesiones/xirivella/abcgranturia/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-11-30",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/sesiones/xirivella/abcgranturia/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-12-01",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/sesiones/xirivella/abcgranturia/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-12-02",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/sesiones/xirivella/abcgranturia/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
-        },
-        {
-          "cinema": "abc_granturia",
-          "language": "ES",
-          "date": "2026-12-03",
-          "time": "22:15",
-          "url": "https://www.reservaentradas.com/sesiones/xirivella/abcgranturia/para-vivir-el-implacable-tiempo-de-pablo-milanes/3565/"
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/el-secreto-del-park---02-12/3636/"
         }
       ]
     },
     {
-      "id": "tmdb-1830825",
-      "title": "NOR TARVA KINO",
-      "title_local": "Հարսնացուն Ամերիկայից կամ Նոր տարվա կինո 2",
-      "poster": "posters/nor-tarva-kino.jpg",
+      "id": "tmdb-1704191",
+      "title": "LA VOZ QUEBRADA",
+      "title_local": "La voz quebrada",
+      "poster": "posters/la-voz-quebrada.jpg",
       "rating": null,
-      "duration": 95,
+      "duration": 88,
       "genres": [
-        "Familia",
-        "Comedia",
-        "Romance"
+        "Documental"
       ],
       "trailer_youtube_id": null,
       "showtimes": [
         {
-          "cinema": "abc_elsaler",
-          "language": "VO",
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-03",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/la-voz-quebrada/3410/"
+        }
+      ]
+    },
+    {
+      "id": "local-tokyo-godfathers-2003-wilder-cinema",
+      "title": "TOKYO GODFATHERS (2003) - WILDER CINEMA",
+      "title_local": "TOKYO GODFATHERS (2003) - WILDER CINEMA",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-03",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/tokyo-godfathers-2003---wilder-cinema/3612/"
+        }
+      ]
+    },
+    {
+      "id": "local-nebraska-2013-wilder-cinema",
+      "title": "NEBRASKA (2013) - WILDER CINEMA",
+      "title_local": "NEBRASKA (2013) - WILDER CINEMA",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-12-08",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/nebraska-2013---wilder-cinema/3614/"
+        }
+      ]
+    },
+    {
+      "id": "local-los-cazafantasmas-1984-wilder-cinema",
+      "title": "LOS CAZAFANTASMAS (1984) - WILDER CINEMA",
+      "title_local": "LOS CAZAFANTASMAS (1984) - WILDER CINEMA",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-10",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/los-cazafantasmas-1984---wilder-cinema/3613/"
+        }
+      ]
+    },
+    {
+      "id": "local-ballet-el-lago-de-los-cisnes-ballet-opera-de-paris-26-27",
+      "title": "BALLET EL LAGO DE LOS CISNES - Ballet Ópera de París 26/27",
+      "title_local": "BALLET EL LAGO DE LOS CISNES - Ballet Ópera de París 26/27",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
           "date": "2026-12-13",
-          "time": "18:30",
-          "url": "https://www.reservaentradas.com/sesiones/valencia/abcelsaler/nor-tarva-kino/3580/"
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/ballet-el-lago-de-los-cisnes---ballet-opera-de-paris-26-27/3252/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-17",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/ballet-el-lago-de-los-cisnes---ballet-opera-de-paris-26-27/3252/"
+        }
+      ]
+    },
+    {
+      "id": "local-que-bello-es-vivir-1946-wilder-cinema",
+      "title": "¡QUÉ BELLO ES VIVIR! (1946) - WILDER CINEMA",
+      "title_local": "¡QUÉ BELLO ES VIVIR! (1946) - WILDER CINEMA",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-12-15",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/que-bello-es-vivir-1946---wilder-cinema/3615/"
         }
       ]
     },
@@ -90344,6 +91194,25 @@
           "date": "2026-12-15",
           "time": "20:30",
           "url": "https://www.reservaentradas.com/sesiones/xirivella/abcgranturia/dune-parte-tres---preestreno/3347/"
+        }
+      ]
+    },
+    {
+      "id": "local-el-dia-de-la-bestia-1995-wilder-cinema",
+      "title": "EL DÍA DE LA BESTIA (1995) - WILDER CINEMA",
+      "title_local": "EL DÍA DE LA BESTIA (1995) - WILDER CINEMA",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-17",
+          "time": "20:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/el-dia-de-la-bestia-1995---wilder-cinema/3616/"
         }
       ]
     },
@@ -90668,6 +91537,220 @@
           "date": "2026-12-19",
           "time": "21:45",
           "url": "https://www.reservaentradas.com/sesiones/xirivella/abcgranturia/vengadores-doomsday/3397/"
+        }
+      ]
+    },
+    {
+      "id": "local-vengadores-doomsday-3d",
+      "title": "VENGADORES: DOOMSDAY 3D",
+      "title_local": "VENGADORES: DOOMSDAY 3D",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-17",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/vengadores-doomsday-3d/3416/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-18",
+          "time": "17:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/vengadores-doomsday-3d/3416/"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1170608",
+      "title": "DUNE: PARTE TRES",
+      "title_local": "Dune: Parte tres",
+      "poster": "posters/dune-parte-tres.jpg",
+      "rating": null,
+      "duration": 150,
+      "genres": [
+        "Ciencia ficción",
+        "Aventura"
+      ],
+      "trailer_youtube_id": "uJqaGLmZpGo",
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-18",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/dune-parte-tres/3492/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-18",
+          "time": "17:40",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/dune-parte-tres/3492/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-18",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/dune-parte-tres/3492/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-12-18",
+          "time": "21:15",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/dune-parte-tres/3492/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-18",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/dune-parte-tres/3492/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-19",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/dune-parte-tres/3492/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-19",
+          "time": "17:40",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/dune-parte-tres/3492/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-19",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/dune-parte-tres/3492/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-12-19",
+          "time": "21:15",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/dune-parte-tres/3492/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-19",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/dune-parte-tres/3492/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-20",
+          "time": "16:10",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/dune-parte-tres/3492/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-20",
+          "time": "17:40",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/dune-parte-tres/3492/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-20",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/dune-parte-tres/3492/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "VOSE",
+          "date": "2026-12-20",
+          "time": "21:15",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/dune-parte-tres/3492/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-20",
+          "time": "22:15",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/dune-parte-tres/3492/"
+        }
+      ]
+    },
+    {
+      "id": "local-placido-1961-wilder-cinema",
+      "title": "PLÁCIDO (1961) - WILDER CINEMA",
+      "title_local": "PLÁCIDO (1961) - WILDER CINEMA",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2026-12-22",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/placido-1961---wilder-cinema/3617/"
+        }
+      ]
+    },
+    {
+      "id": "local-ballet-la-bayadere-ballet-opera-de-paris-26-27",
+      "title": "BALLET LA BAYADÈRE - Ballet Ópera de París 26/27",
+      "title_local": "BALLET LA BAYADÈRE - Ballet Ópera de París 26/27",
+      "poster": null,
+      "rating": null,
+      "duration": null,
+      "genres": [],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2027-01-31",
+          "time": "16:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/ballet-la-bayadere---ballet-opera-de-paris-26-27/3253/"
+        },
+        {
+          "cinema": "abc_park",
+          "language": "ES",
+          "date": "2027-02-04",
+          "time": "19:00",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcpark/ballet-la-bayadere---ballet-opera-de-paris-26-27/3253/"
+        }
+      ]
+    },
+    {
+      "id": "tmdb-1830825",
+      "title": "NOR TARVA KINO",
+      "title_local": "Հարսնացուն Ամերիկայից կամ Նոր տարվա կինո 2",
+      "poster": "posters/nor-tarva-kino.jpg",
+      "rating": null,
+      "duration": 95,
+      "genres": [
+        "Familia",
+        "Comedia",
+        "Romance"
+      ],
+      "trailer_youtube_id": null,
+      "showtimes": [
+        {
+          "cinema": "abc_elsaler",
+          "language": "VO",
+          "date": "2026-12-13",
+          "time": "18:30",
+          "url": "https://www.reservaentradas.com/sesiones/valencia/abcelsaler/nor-tarva-kino/3580/"
         }
       ]
     },

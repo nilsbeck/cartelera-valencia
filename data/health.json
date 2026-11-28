@@ -1,35 +1,56 @@
 {
-  "generated_at": "2026-11-27T07:02:17+00:00",
-  "date": "2026-11-27",
-  "code_sha": "33a7c0d59c12aede613639d4dba6bab06c802426",
+  "generated_at": "2026-11-28T07:03:55+00:00",
+  "date": "2026-11-28",
+  "code_sha": "eb06473a8504b744208f2aa0709fbc79279a97e3",
   "cinemas": {
     "abc_elsaler": {
-      "rows": 245,
+      "rows": 213,
       "days": {
-        "2026-11-27": 32,
         "2026-11-28": 32,
         "2026-11-29": 40,
         "2026-11-30": 32,
         "2026-12-01": 29,
         "2026-12-02": 32,
-        "2026-12-03": 30
+        "2026-12-03": 30,
+        "2026-12-04": 0
       },
       "expected_days": 7,
-      "covered_days": 7,
-      "missing_days": [],
+      "covered_days": 6,
+      "missing_days": [
+        "2026-12-04"
+      ],
       "error": null,
       "diagnostics": []
     },
     "abc_granturia": {
-      "rows": 289,
+      "rows": 249,
       "days": {
-        "2026-11-27": 40,
         "2026-11-28": 40,
         "2026-11-29": 39,
         "2026-11-30": 39,
         "2026-12-01": 39,
         "2026-12-02": 39,
-        "2026-12-03": 39
+        "2026-12-03": 39,
+        "2026-12-04": 0
+      },
+      "expected_days": 7,
+      "covered_days": 6,
+      "missing_days": [
+        "2026-12-04"
+      ],
+      "error": null,
+      "diagnostics": []
+    },
+    "abc_park": {
+      "rows": 319,
+      "days": {
+        "2026-11-28": 44,
+        "2026-11-29": 56,
+        "2026-11-30": 43,
+        "2026-12-01": 40,
+        "2026-12-02": 44,
+        "2026-12-03": 43,
+        "2026-12-04": 2
       },
       "expected_days": 7,
       "covered_days": 7,
@@ -37,41 +58,16 @@
       "error": null,
       "diagnostics": []
     },
-    "abc_park": {
-      "rows": 0,
-      "days": {
-        "2026-11-27": 0,
-        "2026-11-28": 0,
-        "2026-11-29": 0,
-        "2026-11-30": 0,
-        "2026-12-01": 0,
-        "2026-12-02": 0,
-        "2026-12-03": 0
-      },
-      "expected_days": 7,
-      "covered_days": 0,
-      "missing_days": [
-        "2026-11-27",
-        "2026-11-28",
-        "2026-11-29",
-        "2026-11-30",
-        "2026-12-01",
-        "2026-12-02",
-        "2026-12-03"
-      ],
-      "error": "BrowserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-P0qVBX --remote-debugging-pipe --no-startup-window\n<launched> pid=362\n[pid=362][err] [1127/070044.482771:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory\n[pid=362][err] Received signal 11 SI_KERNEL000000000000\n[pid=362][err]  Possibly a General Protection Fault, can be due to a non-canonical address dereference. See \"Intel 64 and IA-32 Architectures Software Developer’s Manual\", Volume 1, Section 3.3.7.1.\n[pid=362][err] #0 0x561454f9df5a (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x3954f59)\n[pid=362][err] #1 0x5614583cfd24 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x6d86d23)\n[pid=362][err] #2 0x7f6017616520 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4251f)\n[pid=362][err] #3 0x56145c743a00 <unknown>\n[pid=362][err] #4 0x5614536ace65 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x2063e64)\n[pid=362][err] #5 0x09ec00009040 ([anon:partition_alloc]+0x9ec0000903f)\n[pid=362][err] #6 0x56145c743a00 <unknown>\n[pid=362][err] #7 0x561452fb2ca4 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x1969ca3)\n[pid=362][err] #8 0x561452fc852c (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x197f52b)\n[pid=362][err] #9 0x7ffe9cf46f78 ([stack]+0x9e84cc5f77)\n[pid=362][err] #10 0x09ec000400e0 ([anon:partition_alloc]+0x9ec000400df)\n[pid=362][err] #11 0x5614545790c9 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x2f300c8)\n[pid=362][err] #12 0x561455739699 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x40f0698)\n[pid=362][err] #13 0x561455738e12 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x40efe11)\n[pid=362][err] #14 0x5614556e7ac3 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x409eac2)\n[pid=362][err] #15 0x5614556e61a9 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x409d1a8)\n[pid=362][err] #16 0x5614556e615e (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x409d15d)\n[pid=362][err] #17 0x56145527baf6 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x3c32af5)\n[pid=362][err] #18 0x561455890135 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x4247134)\n[pid=362][err] #19 0x56145588ff76 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x4246f75)\n[pid=362][err] #20 0x5614551a3c05[1127/070044.491374:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory\n[pid=362][err] [1127/070044.492126:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory\n[pid=362][err]  (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x3b5ac04)\n[pid=362][err] #21 0x5614551a3a69 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x3b5aa68)\n[pid=362][err] #22 0x5614558b95bb (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x42705ba)\n[pid=362][err] #23 0x561455630e54 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x3fe7e53)\n[pid=362][err] #24 0x561455630fe6 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x3fe7fe5)\n[pid=362][err] #25 0x561455634481 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x3feb480)\n[pid=362][err] #26 0x561455631419 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x3fe8418)\n[pid=362][err] #27 0x56145563050e (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x3fe750d)\n[pid=362][err] #28 0x561455fcbad0 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x4982acf)\n[pid=362][err] #29 0x561455fcccf2 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x4983cf1)\n[pid=362][err] #30 0x7f60175fdd90 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x29d8f)\n[pid=362][err]   r8: 7fffffffffffffff  r9: 00007ffe9cf469d0 r10: 0000000000000000 r11: 00007f6016feee40\n[pid=362][err]  r12: 8f7cfbffffffffff r13: 0000000000000006 r14: 0000000000000004 r15: 00005614524eae7a\n[pid=362][err]   di: 00005614524eae78  si: 000009e800038f20  bp: 0000000000004d54  bx: 000009e800048008\n[pid=362][err]   dx: 00005614524eae78  ax: 0000000000000006  cx: 0000000000000001  sp: 00007ffe9cf469a0\n[pid=362][err]   ip: 00007f6017618c1d efl: 0000000000010286 cgf: 002b000000000033 erf: 0000000000000000\n[pid=362][err]  trp: 000000000000000d msk: 0000000000000000 cr2: 0000000000000000\n[pid=362][err] [end of stack trace]\n[pid=362][err] [0100/000000.546684:WARNING:sandbox/policy/linux/sandbox_linux.cc:405] InitializeSandbox() called with multiple threads in process gpu-process.\nCall log:\n  - <launching> /ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-P0qVBX --remote-debugging-pipe --no-startup-window\n  - <launched> pid=362\n  - [pid=362][err] [1127/070044.482771:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory\n  - [pid=362][err] Received signal 11 SI_KERNEL000000000000\n  - [pid=362][err]  Possibly a General Protection Fault, can be due to a non-canonical address dereference. See \"Intel 64 and IA-32 Architectures Software Developer’s Manual\", Volume 1, Section 3.3.7.1.\n  - [pid=362][err] #0 0x561454f9df5a (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x3954f59)\n  - [pid=362][err] #1 0x5614583cfd24 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x6d86d23)\n  - [pid=362][err] #2 0x7f6017616520 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4251f)\n  - [pid=362][err] #3 0x56145c743a00 <unknown>\n  - [pid=362][err] #4 0x5614536ace65 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x2063e64)\n  - [pid=362][err] #5 0x09ec00009040 ([anon:partition_alloc]+0x9ec0000903f)\n  - [pid=362][err] #6 0x56145c743a00 <unknown>\n  - [pid=362][err] #7 0x561452fb2ca4 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x1969ca3)\n  - [pid=362][err] #8 0x561452fc852c (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x197f52b)\n  - [pid=362][err] #9 0x7ffe9cf46f78 ([stack]+0x9e84cc5f77)\n  - [pid=362][err] #10 0x09ec000400e0 ([anon:partition_alloc]+0x9ec000400df)\n  - [pid=362][err] #11 0x5614545790c9 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x2f300c8)\n  - [pid=362][err] #12 0x561455739699 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x40f0698)\n  - [pid=362][err] #13 0x561455738e12 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x40efe11)\n  - [pid=362][err] #14 0x5614556e7ac3 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x409eac2)\n  - [pid=362][err] #15 0x5614556e61a9 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x409d1a8)\n  - [pid=362][err] #16 0x5614556e615e (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x409d15d)\n  - [pid=362][err] #17 0x56145527baf6 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x3c32af5)\n  - [pid=362][err] #18 0x561455890135 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x4247134)\n  - [pid=362][err] #19 0x56145588ff76 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x4246f75)\n  - [pid=362][err] #20 0x5614551a3c05[1127/070044.491374:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory\n  - [pid=362][err] [1127/070044.492126:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory\n  - [pid=362][err]  (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x3b5ac04)\n  - [pid=362][err] #21 0x5614551a3a69 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x3b5aa68)\n  - [pid=362][err] #22 0x5614558b95bb (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x42705ba)\n  - [pid=362][err] #23 0x561455630e54 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x3fe7e53)\n  - [pid=362][err] #24 0x561455630fe6 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x3fe7fe5)\n  - [pid=362][err] #25 0x561455634481 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x3feb480)\n  - [pid=362][err] #26 0x561455631419 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x3fe8418)\n  - [pid=362][err] #27 0x56145563050e (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x3fe750d)\n  - [pid=362][err] #28 0x561455fcbad0 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x4982acf)\n  - [pid=362][err] #29 0x561455fcccf2 (/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell+0x4983cf1)\n  - [pid=362][err] #30 0x7f60175fdd90 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x29d8f)\n  - [pid=362][err]   r8: 7fffffffffffffff  r9: 00007ffe9cf469d0 r10: 0000000000000000 r11: 00007f6016feee40\n  - [pid=362][err]  r12: 8f7cfbffffffffff r13: 0000000000000006 r14: 0000000000000004 r15: 00005614524eae7a\n  - [pid=362][err]   di: 00005614524eae78  si: 000009e800038f20  bp: 0000000000004d54  bx: 000009e800048008\n  - [pid=362][err]   dx: 00005614524eae78  ax: 0000000000000006  cx: 0000000000000001  sp: 00007ffe9cf469a0\n  - [pid=362][err]   ip: 00007f6017618c1d efl: 0000000000010286 cgf: 002b000000000033 erf: 0000000000000000\n  - [pid=362][err]  trp: 000000000000000d msk: 0000000000000000 cr2: 0000000000000000\n  - [pid=362][err] [end of stack trace]\n  - [pid=362][err] [0100/000000.546684:WARNING:sandbox/policy/linux/sandbox_linux.cc:405] InitializeSandbox() called with multiple threads in process gpu-process.\n  - [pid=362] <gracefully close start>\n  - [pid=362] <kill>\n  - [pid=362] <will force kill>\n  - [pid=362] <process did exit: exitCode=null, signal=SIGSEGV>\n  - [pid=362] starting temporary directories cleanup\n  - [pid=362] finished temporary directories cleanup\n  - [pid=362] <gracefully close end>\n",
-      "diagnostics": []
-    },
     "babel": {
-      "rows": 172,
+      "rows": 135,
       "days": {
-        "2026-11-27": 19,
         "2026-11-28": 22,
         "2026-11-29": 24,
         "2026-11-30": 19,
         "2026-12-01": 17,
         "2026-12-02": 19,
-        "2026-12-03": 18
+        "2026-12-03": 18,
+        "2026-12-04": 3
       },
       "expected_days": 7,
       "covered_days": 7,
@@ -82,13 +78,13 @@
     "dor": {
       "rows": 28,
       "days": {
-        "2026-11-27": 4,
         "2026-11-28": 4,
         "2026-11-29": 4,
         "2026-11-30": 4,
         "2026-12-01": 4,
         "2026-12-02": 4,
-        "2026-12-03": 4
+        "2026-12-03": 4,
+        "2026-12-04": 4
       },
       "expected_days": 7,
       "covered_days": 7,
@@ -97,52 +93,54 @@
       "diagnostics": []
     },
     "kinepolis": {
-      "rows": 251,
+      "rows": 210,
       "days": {
-        "2026-11-27": 46,
         "2026-11-28": 57,
         "2026-11-29": 56,
         "2026-11-30": 23,
         "2026-12-01": 23,
         "2026-12-02": 23,
-        "2026-12-03": 23
+        "2026-12-03": 23,
+        "2026-12-04": 5
       },
       "expected_days": 7,
       "covered_days": 7,
       "missing_days": [],
       "error": null,
       "diagnostics": [
-        "HTTP 200, body 10093755 bytes",
-        "parsed 78 films, 4975 total sessions"
+        "HTTP 200, body 8975021 bytes",
+        "parsed 78 films, 4635 total sessions"
       ]
     },
     "lys": {
-      "rows": 289,
+      "rows": 241,
       "days": {
-        "2026-11-27": 48,
         "2026-11-28": 48,
         "2026-11-29": 47,
         "2026-11-30": 30,
         "2026-12-01": 35,
         "2026-12-02": 47,
-        "2026-12-03": 33
+        "2026-12-03": 33,
+        "2026-12-04": 0
       },
       "expected_days": 6,
-      "covered_days": 6,
-      "missing_days": [],
+      "covered_days": 5,
+      "missing_days": [
+        "2026-12-04"
+      ],
       "error": null,
       "diagnostics": []
     },
     "mn4": {
-      "rows": 420,
+      "rows": 365,
       "days": {
-        "2026-11-27": 55,
         "2026-11-28": 56,
         "2026-11-29": 56,
         "2026-11-30": 37,
         "2026-12-01": 38,
         "2026-12-02": 38,
-        "2026-12-03": 36
+        "2026-12-03": 36,
+        "2026-12-04": 4
       },
       "expected_days": 6,
       "covered_days": 6,
@@ -151,41 +149,41 @@
       "diagnostics": []
     },
     "ocine": {
-      "rows": 240,
+      "rows": 222,
       "days": {
-        "2026-11-27": 37,
         "2026-11-28": 47,
-        "2026-11-29": 24,
+        "2026-11-29": 43,
         "2026-11-30": 33,
         "2026-12-01": 33,
         "2026-12-02": 33,
-        "2026-12-03": 33
+        "2026-12-03": 33,
+        "2026-12-04": 0
       },
-      "expected_days": 7,
-      "covered_days": 7,
+      "expected_days": 6,
+      "covered_days": 6,
       "missing_days": [],
       "error": null,
       "diagnostics": [
-        "showtimes per day: {'2026-11-27': 37, '2026-11-28': 47, '2026-11-29': 24, '2026-11-30': 33, '2026-12-01': 33, '2026-12-02': 33, '2026-12-03': 33}"
+        "showtimes per day: {'2026-11-28': 47, '2026-11-29': 43, '2026-11-30': 33, '2026-12-01': 33, '2026-12-02': 33, '2026-12-03': 33}"
       ]
     },
     "yelmo": {
-      "rows": 360,
+      "rows": 315,
       "days": {
-        "2026-11-27": 52,
         "2026-11-28": 51,
         "2026-11-29": 51,
         "2026-11-30": 52,
         "2026-12-01": 50,
         "2026-12-02": 52,
-        "2026-12-03": 52
+        "2026-12-03": 52,
+        "2026-12-04": 7
       },
       "expected_days": 7,
       "covered_days": 7,
       "missing_days": [],
       "error": null,
       "diagnostics": [
-        "showtimes per day: {'2026-11-27': 52, '2026-11-28': 51, '2026-11-29': 51, '2026-11-30': 52, '2026-12-01': 50, '2026-12-02': 52, '2026-12-03': 52}",
+        "showtimes per day: {'2026-11-28': 51, '2026-11-29': 51, '2026-11-30': 52, '2026-12-01': 50, '2026-12-02': 52, '2026-12-03': 52, '2026-12-04': 7}",
         "languages seen: COR/COR → VOSE (BTS WORLD TOUR ARIRANG IN JAKARTA: LIVE VIEWING); ESP/ESPAÑOL → ES (Vengadores: Doomsday, Dune, Dune Parte Dos); ING/INGLÉS → VO (El Cascanueces- Ballet Live ROH 26-27, Alicia en el País de las Maravillas - ROH 26-27, El Lago de los Cisnes - Ballet ROH 26-27); SUB ESP/SUB ESP → VOSE (Vengadores: Doomsday, Dune, Dune Parte Dos)"
       ]
     }
